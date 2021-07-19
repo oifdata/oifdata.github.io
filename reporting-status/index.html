@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: '/OIF-Dashboard/en',
+  remoteDataBaseUrl: '/en',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -115,13 +115,13 @@ var translations = {
         
 
         <!--[if IE 9]>
-        <script src="/OIF-Dashboard/assets/js/lib/classList.js"></script>
+        <script src="/assets/js/lib/classList.js"></script>
         <![endif]-->
 
         <!-- Favicons ================================================== -->
         <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/OIF-Dashboard/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/OIF-Dashboard/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        <link rel="shortcut icon" type="image/ico" href="/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
         http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
         -->
 
@@ -131,7 +131,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/OIF-Dashboard/assets/css/style.css?v=20210719153113">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20210719153441">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -139,7 +139,7 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/OIF-Dashboard/assets/css/custom.css?v=20210719153113"><!-- ShareThis BEGIN --><!-- ShareThis END -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/assets/css/custom.css?v=20210719153441"><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
 <body class="language-en layout-reportingstatus">
@@ -176,11 +176,11 @@ var translations = {
   <div class="container">
 
     <div class="widgets">
-      <a class="navbar-brand" href="/OIF-Dashboard/" id="home">
-    <img src="/OIF-Dashboard/assets/img/SDG_logo.png" alt="Outcome Indicator Framework - Department for Environment, Food & Rural Affairs - 25 Year Environment Plan Logo" />
+      <a class="navbar-brand" href="/" id="home">
+    <img src="/assets/img/SDG_logo.png" alt="Outcome Indicator Framework - Department for Environment, Food & Rural Affairs - 25 Year Environment Plan Logo" />
 </a>
       <div id="search" class="menu-target">
-  <form action="/OIF-Dashboard/search">
+  <form action="/search">
     <label class="sr-only" for="indicator_search">Search</label>
     <input type="text" name="q" id="indicator_search" title="Search" /><!--
     --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -196,27 +196,27 @@ var translations = {
         aria-haspopup="true">
         <button data-target="menu-mobile" aria-expanded="false">Menu</button>
         <ul class="nav navbar-nav menu-target" id="menu-mobile"><li class="nav-link ">
-    <a href="/OIF-Dashboard/goals">Themes</a>
+    <a href="/goals">Themes</a>
 </li><li class="nav-link active">
-    <a href="/OIF-Dashboard/reporting-status">Reporting status</a>
+    <a href="/reporting-status">Reporting status</a>
 </li><li class="nav-link ">
-    <a href="/OIF-Dashboard/about">About</a>
+    <a href="/about">About</a>
 </li><li class="nav-link ">
-    <a href="/OIF-Dashboard/introduction">Introduction and aims</a>
+    <a href="/introduction">Introduction and aims</a>
 </li><li class="nav-link ">
-    <a href="/OIF-Dashboard/structure">Structure</a>
+    <a href="/structure">Structure</a>
 </li><li class="nav-link ">
-    <a href="/OIF-Dashboard/using-the-framework">Using the framework</a>
+    <a href="/using-the-framework">Using the framework</a>
 </li><li class="nav-link ">
-    <a href="/OIF-Dashboard/latest-update">Latest annual update</a>
+    <a href="/latest-update">Latest annual update</a>
 </li><li class="nav-link ">
-    <a href="/OIF-Dashboard/future-development">Future development</a>
+    <a href="/future-development">Future development</a>
 </li><li class="nav-link ">
-    <a href="/OIF-Dashboard/publications">Publications</a>
+    <a href="/publications">Publications</a>
 </li><li class="nav-link ">
-    <a href="/OIF-Dashboard/official-statistics">Official statistics</a>
+    <a href="/official-statistics">Official statistics</a>
 </li><li class="nav-link ">
-    <a href="/OIF-Dashboard/faq">FAQs</a>
+    <a href="/faq">FAQs</a>
 </li></ul>
 
     </li>
@@ -225,7 +225,7 @@ var translations = {
         aria-haspopup="true">
         <button data-target="search-mobile" aria-expanded="false">Search</button>
         <div id="search-mobile" class="menu-target">
-  <form action="/OIF-Dashboard/search">
+  <form action="/search">
     <label class="sr-only" for="indicator_search-mobile">Search</label>
     <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
     --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -235,11 +235,11 @@ var translations = {
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target" id="menu"><li class="nav-link ">
-    <a href="/OIF-Dashboard/goals">Themes</a>
+    <a href="/goals">Themes</a>
 </li><li class="nav-link active">
-    <a href="/OIF-Dashboard/reporting-status">Reporting status</a>
+    <a href="/reporting-status">Reporting status</a>
 </li><li class="nav-link ">
-    <a href="/OIF-Dashboard/about">About</a>
+    <a href="/about">About</a>
 </li><li class="nav-link">
             <div class="btn-group menu-dropdown">
                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -247,23 +247,23 @@ var translations = {
                     <i class="fa fa-chevron-down"></i>
                 </button>
                 <ul class="dropdown-menu"><li class="nav-link ">
-    <a href="/OIF-Dashboard/introduction">Introduction and aims</a>
+    <a href="/introduction">Introduction and aims</a>
 </li><li class="nav-link ">
-    <a href="/OIF-Dashboard/structure">Structure</a>
+    <a href="/structure">Structure</a>
 </li><li class="nav-link ">
-    <a href="/OIF-Dashboard/using-the-framework">Using the framework</a>
+    <a href="/using-the-framework">Using the framework</a>
 </li><li class="nav-link ">
-    <a href="/OIF-Dashboard/latest-update">Latest annual update</a>
+    <a href="/latest-update">Latest annual update</a>
 </li><li class="nav-link ">
-    <a href="/OIF-Dashboard/future-development">Future development</a>
+    <a href="/future-development">Future development</a>
 </li></ul>
             </div>
         </li><li class="nav-link ">
-    <a href="/OIF-Dashboard/publications">Publications</a>
+    <a href="/publications">Publications</a>
 </li><li class="nav-link ">
-    <a href="/OIF-Dashboard/official-statistics">Official statistics</a>
+    <a href="/official-statistics">Official statistics</a>
 </li><li class="nav-link ">
-    <a href="/OIF-Dashboard/faq">FAQs</a>
+    <a href="/faq">FAQs</a>
 </li></ul>
 
     </div>
@@ -329,13 +329,13 @@ var translations = {
 
   <h2>Status of indicator development by theme</h2><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
-        <a href="/OIF-Dashboard/1">
-        <img id="theme-1"src="/OIF-Dashboard/assets/img/goals/en/1.png" alt="Air - Theme 1" width="100" height="100" class="goal-icon-1 goal-icon-image goal-icon-image-"/>
+        <a href="/1">
+        <img id="theme-1"src="/assets/img/goals/en/1.png" alt="Air - Theme 1" width="100" height="100" class="goal-icon-1 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/OIF-Dashboard/1">Air</a>
+            <a href="/1">Air</a>
             <span class="total">7 indicators</span>
         </h3>
         <div class="summary">
@@ -363,13 +363,13 @@ var translations = {
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
-        <a href="/OIF-Dashboard/2">
-        <img id="theme-2"src="/OIF-Dashboard/assets/img/goals/en/2.png" alt="Water - Theme 2" width="100" height="100" class="goal-icon-2 goal-icon-image goal-icon-image-"/>
+        <a href="/2">
+        <img id="theme-2"src="/assets/img/goals/en/2.png" alt="Water - Theme 2" width="100" height="100" class="goal-icon-2 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/OIF-Dashboard/2">Water</a>
+            <a href="/2">Water</a>
             <span class="total">7 indicators</span>
         </h3>
         <div class="summary">
@@ -397,13 +397,13 @@ var translations = {
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
-        <a href="/OIF-Dashboard/3">
-        <img id="theme-3"src="/OIF-Dashboard/assets/img/goals/en/3.png" alt="Seas and Estuaries - Theme 3" width="100" height="100" class="goal-icon-3 goal-icon-image goal-icon-image-"/>
+        <a href="/3">
+        <img id="theme-3"src="/assets/img/goals/en/3.png" alt="Seas and Estuaries - Theme 3" width="100" height="100" class="goal-icon-3 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/OIF-Dashboard/3">Seas and Estuaries</a>
+            <a href="/3">Seas and Estuaries</a>
             <span class="total">11 indicators</span>
         </h3>
         <div class="summary">
@@ -431,13 +431,13 @@ var translations = {
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
-        <a href="/OIF-Dashboard/4">
-        <img id="theme-4"src="/OIF-Dashboard/assets/img/goals/en/4.png" alt="Wildlife - Theme 4" width="100" height="100" class="goal-icon-4 goal-icon-image goal-icon-image-"/>
+        <a href="/4">
+        <img id="theme-4"src="/assets/img/goals/en/4.png" alt="Wildlife - Theme 4" width="100" height="100" class="goal-icon-4 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/OIF-Dashboard/4">Wildlife</a>
+            <a href="/4">Wildlife</a>
             <span class="total">7 indicators</span>
         </h3>
         <div class="summary">
@@ -465,13 +465,13 @@ var translations = {
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
-        <a href="/OIF-Dashboard/5">
-        <img id="theme-5"src="/OIF-Dashboard/assets/img/goals/en/5.png" alt="Natural Resources - Theme 5" width="100" height="100" class="goal-icon-5 goal-icon-image goal-icon-image-"/>
+        <a href="/5">
+        <img id="theme-5"src="/assets/img/goals/en/5.png" alt="Natural Resources - Theme 5" width="100" height="100" class="goal-icon-5 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/OIF-Dashboard/5">Natural Resources</a>
+            <a href="/5">Natural Resources</a>
             <span class="total">9 indicators</span>
         </h3>
         <div class="summary">
@@ -499,13 +499,13 @@ var translations = {
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
-        <a href="/OIF-Dashboard/6">
-        <img id="theme-6"src="/OIF-Dashboard/assets/img/goals/en/6.png" alt="Resilience - Theme 6" width="100" height="100" class="goal-icon-6 goal-icon-image goal-icon-image-"/>
+        <a href="/6">
+        <img id="theme-6"src="/assets/img/goals/en/6.png" alt="Resilience - Theme 6" width="100" height="100" class="goal-icon-6 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/OIF-Dashboard/6">Resilience</a>
+            <a href="/6">Resilience</a>
             <span class="total">3 indicators</span>
         </h3>
         <div class="summary">
@@ -533,13 +533,13 @@ var translations = {
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
-        <a href="/OIF-Dashboard/7">
-        <img id="theme-7"src="/OIF-Dashboard/assets/img/goals/en/7.png" alt="Natural Beauty and Engagement - Theme 7" width="100" height="100" class="goal-icon-7 goal-icon-image goal-icon-image-"/>
+        <a href="/7">
+        <img id="theme-7"src="/assets/img/goals/en/7.png" alt="Natural Beauty and Engagement - Theme 7" width="100" height="100" class="goal-icon-7 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/OIF-Dashboard/7">Natural Beauty and Engagement</a>
+            <a href="/7">Natural Beauty and Engagement</a>
             <span class="total">7 indicators</span>
         </h3>
         <div class="summary">
@@ -567,13 +567,13 @@ var translations = {
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
-        <a href="/OIF-Dashboard/8">
-        <img id="theme-8"src="/OIF-Dashboard/assets/img/goals/en/8.png" alt="Biosecurity Chemical and Noise - Theme 8" width="100" height="100" class="goal-icon-8 goal-icon-image goal-icon-image-"/>
+        <a href="/8">
+        <img id="theme-8"src="/assets/img/goals/en/8.png" alt="Biosecurity Chemical and Noise - Theme 8" width="100" height="100" class="goal-icon-8 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/OIF-Dashboard/8">Biosecurity Chemical and Noise</a>
+            <a href="/8">Biosecurity Chemical and Noise</a>
             <span class="total">5 indicators</span>
         </h3>
         <div class="summary">
@@ -601,13 +601,13 @@ var translations = {
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
-        <a href="/OIF-Dashboard/9">
-        <img id="theme-9"src="/OIF-Dashboard/assets/img/goals/en/9.png" alt="Resource Use and Waste - Theme 9" width="100" height="100" class="goal-icon-9 goal-icon-image goal-icon-image-"/>
+        <a href="/9">
+        <img id="theme-9"src="/assets/img/goals/en/9.png" alt="Resource Use and Waste - Theme 9" width="100" height="100" class="goal-icon-9 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/OIF-Dashboard/9">Resource Use and Waste</a>
+            <a href="/9">Resource Use and Waste</a>
             <span class="total">6 indicators</span>
         </h3>
         <div class="summary">
@@ -635,13 +635,13 @@ var translations = {
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
-        <a href="/OIF-Dashboard/10">
-        <img id="theme-10"src="/OIF-Dashboard/assets/img/goals/en/10.png" alt="International - Theme 10" width="100" height="100" class="goal-icon-10 goal-icon-image goal-icon-image-"/>
+        <a href="/10">
+        <img id="theme-10"src="/assets/img/goals/en/10.png" alt="International - Theme 10" width="100" height="100" class="goal-icon-10 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/OIF-Dashboard/10">International</a>
+            <a href="/10">International</a>
             <span class="total">4 indicators</span>
         </h3>
         <div class="summary">
@@ -688,7 +688,7 @@ var translations = {
               <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
               
                 <li>
-                  <a href="/OIF-Dashboard/contact-us/">Contact us</a>
+                  <a href="/contact-us/">Contact us</a>
                   
                   </li>
                 <li>
@@ -697,11 +697,11 @@ var translations = {
                   
                   </li>
                 <li>
-                  <a href="/OIF-Dashboard/about/cookies-and-privacy/">Cookies</a>
+                  <a href="/about/cookies-and-privacy/">Cookies</a>
                   
                   </li>
                 <li>
-                  <a href="/OIF-Dashboard/about/accessibility-statement/">Accessibility statement</a>
+                  <a href="/about/accessibility-statement/">Accessibility statement</a>
                   
                   </li>
                 
@@ -709,7 +709,7 @@ var translations = {
               </ul>
             <div id="oglLicense">
                 <br>
-                <img id="ogl-image" alt="Open Government Licence logo" src="/OIF-Dashboard/assets/img/OGL_logo.png" width="35px">All data are available under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>, except where otherwise stated
+                <img id="ogl-image" alt="Open Government Licence logo" src="/assets/img/OGL_logo.png" width="35px">All data are available under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>, except where otherwise stated
               </div>
           </div>
         </div>
@@ -742,12 +742,12 @@ var translations = {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/OIF-Dashboard/assets/js/sdg.js?v=20210719153113'></script>
+<script src='/assets/js/sdg.js?v=20210719153441'></script>
 
 
     
     
-    <script src="/OIF-Dashboard/assets/js/custom.js?v=20210719153113"></script><script>
+    <script src="/assets/js/custom.js?v=20210719153441"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

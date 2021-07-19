@@ -1,1 +1,1 @@
-Sitemap: /OIF-Dashboard/sitemap.xml
+Sitemap: /sitemap.xml
