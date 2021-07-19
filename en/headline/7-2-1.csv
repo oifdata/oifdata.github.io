@@ -1,0 +1,29 @@
+Year,Value,Units,Series
+Favourable,60.07172743574417,Percent,G2a
+Unfavourable - Recovering,7.710699342498506,Percent,G2a
+Unfavourable - No change,5.618649133293485,Percent,G2a
+Unfavourable - Declining,4.781829049611477,Percent,G2a
+Partially destroyed,0.4781829049611476,Percent,G2a
+Destroyed,0.5977286312014346,Percent,G2a
+Unassessed,20.741183502689776,Percent,G2a
+Favourable,1005.0,Count,G2a
+Unfavourable - Recovering,129.0,Count,G2a
+Unfavourable - No change,94.0,Count,G2a
+Unfavourable - Declining,80.0,Count,G2a
+Partially destroyed,8.0,Count,G2a
+Destroyed,10.0,Count,G2a
+Unassessed,347.0,Count,G2a
+Optimal/generally satisfactory,25.91193067311568,Percent,G2b
+Generally satisfactory but with minor localised problems,35.39399435711407,Percent,G2b
+Generally satisfactory but with significant localised problems,23.634623135832324,Percent,G2b
+Generally unsatisfactory with major localised problems,7.638049173720274,Percent,G2b
+Extensive significant problems,5.038291011688835,Percent,G2b
+Unknown,1.5719467956469164,Percent,G2b
+Not recorded,0.8111648528819024,Percent,G2b
+Optimal/generally satisfactory,5143.0,Count,G2b
+Generally satisfactory but minor localised problems,7025.0,Count,G2b
+Generally satisfactory but significant localised problems,4691.0,Count,G2b
+Generally unsatisfactory with major localised problems,1516.0,Count,G2b
+Extensive significant problems,1000.0,Count,G2b
+Unknown,312.0,Count,G2b
+Not recorded,161.0,Count,G2b

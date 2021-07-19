@@ -1,0 +1,24 @@
+Year,Series,Component,Status category,Value
+All surface water bodies,B3a (interim),Ecological status,at good status,16.0
+All surface water bodies,B3a (interim),Ecological status,other,84.0
+Coastal waters: saltmarsh,B3a (interim),Biology,at good status,50.0
+Estuaries: saltmarsh,B3a (interim),Biology,at good status,36.0
+Lakes: phytoplankton,B3a (interim),Biology,at good status,52.0
+Rivers: plants & algae,B3a (interim),Biology,at good status,45.0
+Rivers: invertebrates,B3a (interim),Biology,at good status,76.0
+Coastal waters: saltmarsh,B3a (interim),Biology,not at good status,50.0
+Estuaries: saltmarsh,B3a (interim),Biology,not at good status,64.0
+Lakes: phytoplankton,B3a (interim),Biology,not at good status,48.0
+Rivers: plants & algae,B3a (interim),Biology,not at good status,55.0
+Rivers: invertebrates,B3a (interim),Biology,not at good status,24.0
+Water quality,B3b (interim),,At good status,45.0
+Water quantity,B3b (interim),,At good status,73.0
+Water quality,B3b (interim),,Not at good status,55.0
+Water quantity,B3b (interim),,Not at good status,27.0
+Groundwater (2019),B3c (interim),Drinking water protected areas,not at risk,53.0
+Surface water (2020),B3c (interim),Drinking water protected areas,not at risk,52.0
+Groundwater (2019),B3c (interim),Drinking water protected areas,at risk,47.0
+Surface water (2020),B3c (interim),Drinking water protected areas,at risk,48.0
+Protected wildlife sites (2019),B3c (interim),Condition of SSSI units underpinning European protected water and wetland sites,favourable,46.0
+Protected wildlife sites (2019),B3c (interim),Condition of SSSI units underpinning European protected water and wetland sites,unfavourable recovering,47.0
+Protected wildlife sites (2019),B3c (interim),Condition of SSSI units underpinning European protected water and wetland sites,other,7.0

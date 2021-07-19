@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CArray.prototype.reduce%2CObject.assign%2CArray.isArray%2CObject.values%2CArray.from%2CSet%2CArray.prototype.findIndex"></script>
+<script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/javascript-canvas-to-blob/3.15.0/js/canvas-to-blob.min.js"></script>
+
+        <script>
+// This is where we initialise any global variables, namespaced in "opensdg".
+var opensdg = {
+
+  // A base URL for asynchronous calls to SDG data.
+  remoteDataBaseUrl: '/OIF-Dashboard/en',
+
+  chartConfigAlterations: [],
+  // A hook which can be used to modify the configuration for Chart.js.
+  chartConfigAlter: function(callback) {
+    this.chartConfigAlterations.push(callback);
+  },
+
+  tableConfigAlterations: [],
+  // A hook which can be used to modify the configuration for Datatables.
+  tableConfigAlter: function(callback) {
+    this.tableConfigAlterations.push(callback);
+  },
+
+  // A hook which can be replaced to alter whether/how the values that are
+  // displayed on indicator tables/graphs get rounded.
+  dataRounding: function(value) {
+    // Alterations go here.
+    return value;
+  },
+
+  // A hook which can be used to alter the data before it is displayed on charts/tables.
+  dataDisplayAlterations: [],
+  dataDisplayAlter: function(callback) {
+    this.dataDisplayAlterations.push(callback);
+  },
+
+  language: 'en',
+};
+
+// For backwards compatibility, some of these might need to be global.
+// @TODO: Remove these eventually.
+var remoteDataBaseUrl = opensdg.remoteDataBaseUrl;
+
+</script>
+
+        <script>
+// JavaScript container for translation data.
+var translations = {
+  //Javascript version of the "t" filter from jekyll-open-sdg-plugins.
+  t: function(key) {
+
+    if (!key || typeof key !== 'string') {
+      return '';
+    }
+
+    // The majority of uses of this function are to translate disaggregation
+    // data. To spare data providers of needing to enter "data." in front of
+    // their disaggregation data, we specifically look for that here.
+    if (typeof this.data === 'object' && this.data !== null && this.data[key]) {
+      return this.data[key];
+    }
+
+    var originalKey = key;
+    var drilled = this;
+    var levelsDrilled = 0;
+    var levels = key.split('.');
+
+    for (var level in levels) {
+      // If we have drilled down to soon, abort.
+      if (typeof drilled !== 'object') {
+        break;
+      }
+
+      if (levels[level] in drilled) {
+        drilled = drilled[levels[level]];
+        levelsDrilled += 1;
+      }
+    }
+
+    // If we didn't drill the right number of levels, return the original string.
+    if (levels.length != levelsDrilled) {
+      return originalKey;
+    }
+
+    // Otherwise we must have drilled all the way.
+    return drilled;
+  },
+};
+</script>
+
+        <!-- Basic Page Needs
+        ================================================== -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- Mobile Specific Metas
+        ================================================== -->
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Title and meta description
+        ================================================== -->
+
+        
+    <title>Official statistics - Outcome indicator framework for the 25 Year Environment Plan</title>
+
+
+
+        <meta name="description" content="">
+        <meta property="og:description" content="">
+        
+        <link rel="canonical" href="/">
+
+        
+
+        <!--[if IE 9]>
+        <script src="/OIF-Dashboard/assets/js/lib/classList.js"></script>
+        <![endif]-->
+
+        <!-- Favicons ================================================== -->
+        <!-- 128x128 -->
+        <link rel="shortcut icon" type="image/ico" href="/OIF-Dashboard/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="/OIF-Dashboard/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
+        -->
+
+        
+
+        
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
+        <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
+        <link rel="stylesheet" href="/OIF-Dashboard/assets/css/style.css?v=20210719153113">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+          integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+          crossorigin=""/>
+        <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
+        <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
+        <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/OIF-Dashboard/assets/css/custom.css?v=20210719153113"><!-- ShareThis BEGIN --><!-- ShareThis END -->
+
+    </head>
+<body class="language-en layout-page">
+<!-- <div class="container"> -->
+
+
+<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your feedback via <a href=\"mailto:%email_address\">email</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"Department for Environment, Food & Rural Affairs - 25 Year Environment Plan Logo","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+
+<header role="banner" class="header-menu-left-aligned">
+  <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+
+  <div id="disclaimer">
+    <div class="container">
+  <div class="disclaimer-alert">
+    <div id="phase-wrapper">
+      <strong class="phase-tag"
+        >Alpha</strong
+      >
+       This is a development website. We welcome your feedback via <a href="mailto:25YEPindicators@defra.gov.uk">email</a>.
+    </div>
+    <a
+      id="takepartButton"
+      aria-labelledby="takepartButton"
+      href="https://forms.office.com/Pages/ResponsePage.aspx?id=UCQKdycCYkyQx044U38RAoc88l9iPWhOqSr4EYH784FUMUJWTEtDUlVVTjZSOTNQNFQzQkpQQ1hPQS4u"
+      class="btn btn-primary btn-download btn-takepart"
+      role="link"
+      >Complete our short user-feedback survey</a
+    >
+  </div>
+</div>
+
+  </div>
+
+  <div class="container">
+
+    <div class="widgets">
+      <a class="navbar-brand" href="/OIF-Dashboard/" id="home">
+    <img src="/OIF-Dashboard/assets/img/SDG_logo.png" alt="Outcome Indicator Framework - Department for Environment, Food & Rural Affairs - 25 Year Environment Plan Logo" />
+</a>
+      <div id="search" class="menu-target">
+  <form action="/OIF-Dashboard/search">
+    <label class="sr-only" for="indicator_search">Search</label>
+    <input type="text" name="q" id="indicator_search" title="Search" /><!--
+    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  </form>
+</div>
+
+    </div>
+
+    <div class="navbar navbar-default menu-without-widgets" id="main-nav">
+      <ul class="top-level">
+    <li id="menuToggle"
+        aria-label="Menu toggle. Click to expand or collapse the menu."
+        aria-haspopup="true">
+        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+        <ul class="nav navbar-nav menu-target" id="menu-mobile"><li class="nav-link ">
+    <a href="/OIF-Dashboard/goals">Themes</a>
+</li><li class="nav-link ">
+    <a href="/OIF-Dashboard/reporting-status">Reporting status</a>
+</li><li class="nav-link ">
+    <a href="/OIF-Dashboard/about">About</a>
+</li><li class="nav-link ">
+    <a href="/OIF-Dashboard/introduction">Introduction and aims</a>
+</li><li class="nav-link ">
+    <a href="/OIF-Dashboard/structure">Structure</a>
+</li><li class="nav-link ">
+    <a href="/OIF-Dashboard/using-the-framework">Using the framework</a>
+</li><li class="nav-link ">
+    <a href="/OIF-Dashboard/latest-update">Latest annual update</a>
+</li><li class="nav-link ">
+    <a href="/OIF-Dashboard/future-development">Future development</a>
+</li><li class="nav-link ">
+    <a href="/OIF-Dashboard/publications">Publications</a>
+</li><li class="nav-link active">
+    <a href="/OIF-Dashboard/official-statistics">Official statistics</a>
+</li><li class="nav-link ">
+    <a href="/OIF-Dashboard/faq">FAQs</a>
+</li></ul>
+
+    </li>
+    <li id="searchToggle"
+        aria-label="Search toggle. Click to expand or collapse the search bar."
+        aria-haspopup="true">
+        <button data-target="search-mobile" aria-expanded="false">Search</button>
+        <div id="search-mobile" class="menu-target">
+  <form action="/OIF-Dashboard/search">
+    <label class="sr-only" for="indicator_search-mobile">Search</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
+    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  </form>
+</div>
+
+    </li>
+</ul>
+      <ul class="nav navbar-nav menu-target" id="menu"><li class="nav-link ">
+    <a href="/OIF-Dashboard/goals">Themes</a>
+</li><li class="nav-link ">
+    <a href="/OIF-Dashboard/reporting-status">Reporting status</a>
+</li><li class="nav-link ">
+    <a href="/OIF-Dashboard/about">About</a>
+</li><li class="nav-link">
+            <div class="btn-group menu-dropdown">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    The Outcome Indicator Framework
+                    <i class="fa fa-chevron-down"></i>
+                </button>
+                <ul class="dropdown-menu"><li class="nav-link ">
+    <a href="/OIF-Dashboard/introduction">Introduction and aims</a>
+</li><li class="nav-link ">
+    <a href="/OIF-Dashboard/structure">Structure</a>
+</li><li class="nav-link ">
+    <a href="/OIF-Dashboard/using-the-framework">Using the framework</a>
+</li><li class="nav-link ">
+    <a href="/OIF-Dashboard/latest-update">Latest annual update</a>
+</li><li class="nav-link ">
+    <a href="/OIF-Dashboard/future-development">Future development</a>
+</li></ul>
+            </div>
+        </li><li class="nav-link ">
+    <a href="/OIF-Dashboard/publications">Publications</a>
+</li><li class="nav-link active">
+    <a href="/OIF-Dashboard/official-statistics">Official statistics</a>
+</li><li class="nav-link ">
+    <a href="/OIF-Dashboard/faq">FAQs</a>
+</li></ul>
+
+    </div>
+
+  </div>
+
+</header>
+<div id="top" tabindex=-1></div>
+
+
+
+
+
+<div id="main-content" class="container" role="main">
+    <div>
+        <h1>Official statistics</h1>
+        
+            <p>The term official statistics comprises National Statistics, official statistics and Experimental Statistics.</p>
+
+<p>All official statistics are produced by crown bodies, those acting on behalf of crown bodies, or those specified in statutory orders, as defined in the <a href="https://www.legislation.gov.uk/ukpga/2007/18/contents">Statistics and Registration Service Act 2007</a>.</p>
+
+<p><strong>National Statistics</strong> have been assessed by the Office for Statistics Regulation, the regulatory arm of the UK Statistics Authority, as fully compliant with the Code of Practice for Statistics. Accredited National Statistics are identified by the following quality mark:</p>
+
+<p><img id="quality-mark-image" src="/OIF-Dashboard/assets/img/Quality-Mark.png" alt="National Statistics Quality Mark" width="236" /></p>
+
+<p><strong>Official statistics</strong> are produced in accordance with the <a href="https://www.statisticsauthority.gov.uk/code-of-practice/">Code of Practice for Statistics</a> and its key principles of trustworthiness, quality and value.</p>
+
+<p><strong>Experimental Statistics</strong> are newly developed or innovative statistics published so that users and stakeholders can be involved in the assessment of their suitability and quality at an early stage.</p>
+
+<h2 id="measuring-environmental-change-outcome-indicator-framework-for-the-25-year-environment-plan---statement-of-voluntary-application-of-the-code-of-practice-for-statistics">Measuring environmental change: Outcome Indicator Framework for the 25 Year Environment Plan - Statement of Voluntary Application of the Code of Practice for Statistics</h2>
+
+<p>Although the Outcome Indicator Framework is not in itself an official statistic or National Statistic compendium publication, where possible we follow the UK’s <a href="https://www.statisticsauthority.gov.uk/code-of-practice/">Code of Practice for Statistics</a> in its production and in the compilation of the indicator framework and this dashboard.</p>
+
+<p>The code is built around 3 main concepts, or pillars:</p>
+
+<dl>
+  <dt><strong>Trustworthiness</strong></dt>
+  <dd>The focus of this principle is about building and maintaining confidence in the people and the organisations that publish information including that derived from National and official statistics.</dd>
+  <dt><strong>Quality</strong></dt>
+  <dd>The focus of this principle is on ensuring that we use data and methods that produce assured statistics.</dd>
+  <dt><strong>Value</strong></dt>
+  <dd>The focus of this principle is on publishing statistics that support society’s need for information, addressing the questions that external users wish to have answered.</dd>
+</dl>
+
+<p>The following explains how these pillars have been applied in a proportionate way to enable us to demonstrate voluntary compliance with many parts of the Code, in line with the <a href="https://code.statisticsauthority.gov.uk/how-to-apply-the-code-voluntarily/guide-to-voluntary-application-of-the-code/">Guide for Voluntary Application of the Code</a>.</p>
+
+<h3 id="trustworthiness">Trustworthiness</h3>
+
+<p><a href="https://www.gov.uk/government/publications/25-year-environment-plan">Measuring environmental change: Outcome Indicator Framework for the 25 Year Environment Plan</a> provides references on the sources of all of the quoted information. For the most part, the framework draws on formally published National or official statistics – either produced by Defra or by the department’s Arms’ Length Bodies, often with input from external environmental partners.</p>
+
+<p>This dashboard is not covered by the normal orderly release process required for all new National and official statistics – primarily because it draws upon already published information. This different release process is also appropriate in that the framework is in essence an operational performance tool, used within the Defra Group to identify the outcomes of delivery to date and to prioritise areas for further action.</p>
+
+<h3 id="quality">Quality</h3>
+
+<p>Where the statistics used in this report are National or official statistics, they have an existing quality assessment process. Details on the methodologies used in constructing the underlying statistics are set out in the original publications, which are referenced.
+Where there are new indicators in development, these are clearly flagged. Where possible we will use the processes for ‘experimental’ statistics set out in the Code of Practice to govern their development and any future confirmation of these indicators. We continue to actively develop indicators in conjunction with stakeholders and for those evolving experimentally we are requesting user feedback, in particular to gauge the usefulness and value of the statistics.</p>
+
+<h3 id="value">Value</h3>
+
+<p>The indicators presented within this report were identified by a cross-disciplinary and cross-organisational team and views were sought from a range of external stakeholders and acted upon.</p>
+
+<p>The overall annual report meets a government commitment (to produce an annual assessment of the progress in meeting the objectives set out in the 25 Year Environment Plan). A process has been put in place to ensure that the suite of indicators continues to be informed by and responsive to views from outside government as well as tracking commitments made inside government.</p>
+
+        
+    </div>
+</div>
+
+<footer role="contentinfo">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="footerLinks">
+            <ul>
+              <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+              
+                <li>
+                  <a href="/OIF-Dashboard/contact-us/">Contact us</a>
+                  
+                  </li>
+                <li>
+                  
+                    <a href="https://twitter.com/defragovuk" target="_blank" rel="noopener">Twitter</a>
+                  
+                  </li>
+                <li>
+                  <a href="/OIF-Dashboard/about/cookies-and-privacy/">Cookies</a>
+                  
+                  </li>
+                <li>
+                  <a href="/OIF-Dashboard/about/accessibility-statement/">Accessibility statement</a>
+                  
+                  </li>
+                
+              
+              </ul>
+            <div id="oglLicense">
+                <br>
+                <img id="ogl-image" alt="Open Government Licence logo" src="/OIF-Dashboard/assets/img/OGL_logo.png" width="35px">All data are available under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>, except where otherwise stated
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
+  <!-- <script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA"></script> -->
+  <!-- Google Analytics -->
+  
+  <!-- /.container </div> -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
+<script src="//cdn.datatables.net/fixedcolumns/3.2.3/js/dataTables.fixedColumns.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
+<script>translations['general'] = translations['general'] || {};
+    translations['general']['hide'] = 'hide';</script>
+
+<script>translations['search'] = translations['search'] || {};
+    translations['search']['search'] = 'Search';</script>
+
+<script src='/OIF-Dashboard/assets/js/sdg.js?v=20210719153113'></script>
+
+
+    
+    
+    <script src="/OIF-Dashboard/assets/js/custom.js?v=20210719153113"></script><script>
+$(function() {
+    if($('#indicatorData').length) {
+      var domData = $('#indicatorData').data();
+
+      if (domData.showdata) {
+
+        $('.async-loading').each(function(i, obj) {
+            $(obj).append($('<img />').attr('src', $(obj).data('img')).attr('alt', translations.indicator.loading));
+        });
+
+        var remoteUrl = '/comb/' + domData.id + '.json';
+        if (opensdg.remoteDataBaseUrl !== '/') {
+          remoteUrl = opensdg.remoteDataBaseUrl + remoteUrl;
+        }
+
+        $.ajax({
+          url: remoteUrl,
+          success: function(res) {
+
+            $('.async-loading').remove();
+            $('.async-loaded').show();
+
+            var model = new indicatorModel({
+              data: res.data,
+              edgesData: res.edges,
+              showMap: domData.showmap,
+              country: domData.country,
+              graphGeographies: domData.graphgeographies,
+              indicatorId: domData.indicatorid,
+              shortIndicatorId: domData.id,
+              chartTitle: domData.charttitle,
+              chartTitles: domData.charttitles,
+              measurementUnit: domData.measurementunit,
+              measurementUnits: domData.measurementunits,
+              showData: domData.showdata,
+              graphType: domData.graphtype,
+              graphTypes: domData.graphtypes,
+              startValues: domData.startvalues,
+              startValuesSeries: domData.startvaluesseries,
+              graphLimits: domData.graphlimits,
+              stackedDisaggregation: domData.stackeddisaggregation,
+              categoryOrder: domData.categoryorder,
+              graphAnnotations: domData.graphannotations,
+              indicatorDownloads: domData.indicatordownloads,
+              compositeBreakdownLabel: domData.compositebreakdownlabel,
+              precision: domData.precision,
+              continuousError: domData.continuouserror,
+              multiAxes: domData.multiaxes,
+              mixedType: domData.mixedtype,
+              graphSource: domData.graphsource,
+              graphSources: domData.graphsources,
+              graphNote: domData.graphnote,
+              graphNotes: domData.graphnotes,
+            }),
+            view  = new indicatorView(model, {
+              rootElement: '#indicatorData',
+              legendElement: '#plotLegend',
+              decimalSeparator: '',
+              maxChartHeight: 420,
+              tableColumnDefs: [
+                { maxCharCount: 25 }, // nowrap
+                { maxCharCount: 35, width: 200 },
+                { maxCharCount: Infinity, width: 250 }
+              ]
+            }),
+            controller = new indicatorController(model, view);
+            controller.initialise();
+          }
+        });
+      }
+    }
+});
+</script>
+
+  
+  
+  
+  </body>
+  </html>
+
