@@ -2670,14 +2670,13 @@ span.status.in-development {
 #disclaimer .disclaimer-alert {
   color: #0b0c0c;
   margin-bottom: 10px;
-  padding: 12px 10px 10px 0;
+  padding: 12px 10px 10px 10px;
   border-bottom: 1px solid #bbbbbb;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: space-between; }
-  @media only screen and (max-width: 680px) {
-    #disclaimer .disclaimer-alert {
-      font-size: 0.75em; } }
+  #disclaimer .disclaimer-alert a {
+    align-self: flex-start; }
   #disclaimer .disclaimer-alert #phase-wrapper {
     padding: 6px 0; }
     #disclaimer .disclaimer-alert #phase-wrapper .phase-tag {
@@ -2685,11 +2684,27 @@ span.status.in-development {
       color: white;
       text-transform: uppercase;
       padding: 2px 5px; }
+  @media only screen and (max-width: 768px) {
+    #disclaimer .disclaimer-alert {
+      flex-flow: column nowrap; }
+      #disclaimer .disclaimer-alert a {
+        margin: 0.5rem;
+        font-size: 12px;
+        align-self: stretch; } }
 
 .layout-goal-by-target-vertical .goal-indicator {
-  margin-left: 0px;
-  position: relative;
-  width: 100%; }
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between; }
+  .layout-goal-by-target-vertical .goal-indicator .status {
+    margin: 0;
+    align-self: flex-start;
+    text-align: center; }
+  @media only screen and (max-width: 768px) {
+    .layout-goal-by-target-vertical .goal-indicator {
+      flex-flow: column nowrap; }
+      .layout-goal-by-target-vertical .goal-indicator .status {
+        margin-top: 0.5rem; } }
 .layout-goal-by-target-vertical .goal-target-and-indicators::after {
   content: "" / "";
   height: 1px;
@@ -2719,27 +2734,55 @@ span.status.in-development {
   .indicator-banner > div {
     padding: 2rem;
     margin: 0 !important; }
-
-.indicator-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 165px;
-  min-width: 110px;
-  padding-left: 0 !important; }
-
-.indicator-details {
-  flex-grow: 1; }
-
-.indicator-status {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-right: 0 !important; }
-  .indicator-status > .status {
-    padding: 2rem;
-    font-size: 2rem;
-    text-align: center; }
+  .indicator-banner .indicator-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 165px;
+    min-width: 110px;
+    padding-left: 0 !important; }
+  .indicator-banner .indicator-details {
+    flex-grow: 1; }
+  .indicator-banner .indicator-status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0 !important; }
+    .indicator-banner .indicator-status .status {
+      font-size: 16px;
+      text-align: center;
+      height: 145px;
+      width: 145px; }
+      .indicator-banner .indicator-status .status.final, .indicator-banner .indicator-status .status.interim {
+        padding: 6rem 2rem; }
+      .indicator-banner .indicator-status .status.in-development {
+        padding: 4rem 2rem; }
+  @media only screen and (max-width: 768px) {
+    .indicator-banner {
+      display: grid;
+      grid-template-areas: "icon status" "title title"; }
+      .indicator-banner .indicator-icon {
+        grid-area: icon;
+        place-self: center start;
+        height: 130px;
+        width: 110px; }
+      .indicator-banner .indicator-status {
+        grid-area: status;
+        place-self: center end;
+        height: 130px;
+        width: 110px; }
+        .indicator-banner .indicator-status .status {
+          font-size: 12px;
+          height: 100%;
+          width: 100%; }
+          .indicator-banner .indicator-status .status.final, .indicator-banner .indicator-status .status.interim {
+            padding: 3.5rem 2rem; }
+          .indicator-banner .indicator-status .status.in-development {
+            padding: 2.5rem 0.75rem; }
+      .indicator-banner .indicator-details {
+        grid-area: title;
+        place-self: center stretch;
+        padding: 10px 0; } }
 
 div[id^="embeddedmapview"] {
   display: flex;
