@@ -14,8 +14,8 @@ Partially destroyed,G2a,Count,8.0
 Destroyed,G2a,Count,10.0
 Unassessed,G2a,Count,347.0
 Optimal/generally satisfactory,G2b,Percent,25.91193067311568
-Generally satisfactory but with minor localised problems,G2b,Percent,35.39399435711407
-Generally satisfactory but with significant localised problems,G2b,Percent,23.634623135832324
+Generally satisfactory but minor localised problems,G2b,Percent,35.39399435711407
+Generally satisfactory but significant localised problems,G2b,Percent,23.634623135832324
 Generally unsatisfactory with major localised problems,G2b,Percent,7.638049173720274
 Extensive significant problems,G2b,Percent,5.038291011688835
 Unknown,G2b,Percent,1.5719467956469164

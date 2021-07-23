@@ -3469,7 +3469,23 @@ var indicatorView = function (model, options) {
                 offsetGridLines: true,
               },
               ticks: {
+                callback: (label) => {
+                  if (label.includes("Generally satisfactory")) {
+                    return [
+                      "Generally satisfactory",
+                      label.replace("Generally satisfactory ", ""),
+                    ];
+                  } else if (label.includes("Generally unsatisfactory")) {
+                    return [
+                      "Generally unsatisfactory",
+                      label.replace("Generally unsatisfactory ", ""),
+                    ];
+                  } else {
+                    return label;
+                  }
+                },
                 fontColor: tickColor,
+                maxRotation: 90,
               },
             },
           ],
