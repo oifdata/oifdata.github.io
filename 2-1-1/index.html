@@ -136,7 +136,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20210723103453">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20210727091504">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -144,7 +144,7 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/assets/css/custom.css?v=20210723103453"><!-- ShareThis BEGIN --><!-- ShareThis END -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/assets/css/custom.css?v=20210727091504"><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
 <body class="language-en layout-indicator">
@@ -484,6 +484,7 @@ var translations = {
     data-stackeddisaggregation=""
   
   data-categoryorder="null"
+  data-categorycolor="null"
   data-graphannotations="[{&quot;series&quot;:&quot;&quot;,&quot;preset&quot;:&quot;base_line&quot;}]"
   data-indicatordownloads="null"
   data-compositebreakdownlabel=""
@@ -1290,6 +1291,49 @@ opensdg.chartConfigAlter(function(config, info) {
   });
 </script>
 
+<script>
+  // Here we define a function to set the colours that we can reuse in each of the if branches
+
+  /**
+   * Sets backgroundColor and borderColor of dataset based on mapping of label to hex colour.
+   * 
+   * @param {object} config - The chart config object that will be passed into opensdg.chartConfigAlter.
+   * @param {object} category_color - A metadata object mapping of labels to hex colours.
+   * 
+   * @returns {void}
+   */
+  const recolor = (config, category_color) => {
+    config.data.datasets.forEach((dataset) => {
+      dataset.backgroundColor = category_color[dataset.label]
+      dataset.borderColor = category_color[dataset.label]
+    });
+  }
+
+  opensdg.chartConfigAlter(function (config, info) {
+    if (info.categoryColor) {
+      if (info.selectedSeries) {
+        if (info.selectedUnit) {
+          // Code to run if all are true
+          const category_color = info.categoryColor[info.selectedSeries][info.selectedUnit];
+          console.log(category_color)
+          recolor(config, category_color);
+        } else {
+          // Code to run if categoryColor and selectedSeries and not selectedUnit
+          const category_color = info.categoryColor[info.selectedSeries];
+          console.log(category_color)
+          recolor(config, category_color);
+        }
+      } else {
+        // Code to run if categoryColor and not selectedSeries and not selectedUnit
+        const category_color = info.categoryColor;
+        console.log(category_color)
+          recolor(config, category_color);
+      }
+    }
+  });
+
+</script>
+
 
       </div>
       <div id="plotLegend"></div>
@@ -1802,12 +1846,12 @@ data-event-label="Change to National Metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/assets/js/sdg.js?v=20210723103453'></script>
+<script src='/assets/js/sdg.js?v=20210727091504'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20210723103453"></script><script>
+    <script src="/assets/js/custom.js?v=20210727091504"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
@@ -1850,6 +1894,7 @@ $(function() {
               graphLimits: domData.graphlimits,
               stackedDisaggregation: domData.stackeddisaggregation,
               categoryOrder: domData.categoryorder,
+              categoryColor: domData.categorycolor,
               graphAnnotations: domData.graphannotations,
               indicatorDownloads: domData.indicatordownloads,
               compositeBreakdownLabel: domData.compositebreakdownlabel,

@@ -2558,6 +2558,7 @@ function getPrecision(precisions, selectedUnit, selectedSeries) {
     this.graphLimits = options.graphLimits;
     this.stackedDisaggregation = options.stackedDisaggregation;
     this.categoryOrder = options.categoryOrder;
+    this.categoryColor = options.categoryColor;
     this.graphAnnotations = options.graphAnnotations;
     this.indicatorDownloads = options.indicatorDownloads;
     this.compositeBreakdownLabel = options.compositeBreakdownLabel;
@@ -2863,6 +2864,7 @@ function getPrecision(precisions, selectedUnit, selectedSeries) {
         graphLimits: helpers.getGraphLimits(this.graphLimits, this.selectedUnit, this.selectedSeries),
         stackedDisaggregation: this.stackedDisaggregation,
         categoryOrder: this.categoryOrder,
+        categoryColor: this.categoryColor,
         graphAnnotations: helpers.getGraphAnnotations(this.graphAnnotations, this.selectedUnit, this.selectedSeries),
         chartTitle: this.chartTitle,
         measurementUnit: this.measurementUnit,
@@ -3470,18 +3472,20 @@ var indicatorView = function (model, options) {
               },
               ticks: {
                 callback: (label) => {
-                  if (label.includes("Generally satisfactory")) {
-                    return [
-                      "Generally satisfactory",
-                      label.replace("Generally satisfactory ", ""),
-                    ];
-                  } else if (label.includes("Generally unsatisfactory")) {
-                    return [
-                      "Generally unsatisfactory",
-                      label.replace("Generally unsatisfactory ", ""),
-                    ];
-                  } else {
-                    return label;
+                  if (typeof label == "string") {
+                    if (label.includes("Generally satisfactory")) {
+                      return [
+                        "Generally satisfactory",
+                        label.replace("Generally satisfactory ", ""),
+                      ];
+                    } else if (label.includes("Generally unsatisfactory")) {
+                      return [
+                        "Generally unsatisfactory",
+                        label.replace("Generally unsatisfactory ", ""),
+                      ];
+                    } else {
+                      return label;
+                    }
                   }
                 },
                 fontColor: tickColor,
