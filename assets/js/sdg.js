@@ -3486,6 +3486,8 @@ var indicatorView = function (model, options) {
                     } else {
                       return label;
                     }
+                  } else {
+                    return label;
                   }
                 },
                 fontColor: tickColor,
