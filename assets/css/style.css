@@ -2784,19 +2784,74 @@ span.status.in-development {
         place-self: center stretch;
         padding: 10px 0; } }
 
-div[id^="embeddedmapview"] {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  div[id^="embeddedmapview"] .embedded-maps {
-    display: flex;
-    flex-direction: row; }
-  div[id^="embeddedmapview"] .embedded-map {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
+.embedded-feature, .embedded-feature-single, .embedded-feature-double, .embedded-feature-quartet {
+  display: grid;
+  place-items: center; }
+  @media screen and (max-width: 768px) {
+    .embedded-feature, .embedded-feature-single, .embedded-feature-double, .embedded-feature-quartet {
+      display: flex;
+      flex-flow: column nowrap; } }
+  .embedded-feature-single {
+    grid-template-areas: "title" "map-1" "legend" "footnote"; }
+  .embedded-feature-double {
+    grid-template-areas: "title title" "subtitle-1 subtitle-2" "map-1 map-2" "legend legend" "footnote footnote"; }
+  .embedded-feature-quartet {
+    grid-template-areas: "title title" "subtitle-1 subtitle-2" "map-1 map-2" "subtitle-3 subtitle-4" "map-3 map-4" "legend legend" "footnote footnote"; }
+
+.embedded-title {
+  grid-area: title;
+  text-align: center; }
+
+.embedded-subtitle-1 {
+  grid-area: subtitle-1; }
+
+.embedded-map-1, .embedded-map-1-large {
+  grid-area: map-1;
+  max-width: 100%; }
+
+.embedded-map-1-large {
+  margin-bottom: 1rem; }
+
+.embedded-subtitle-2 {
+  grid-area: subtitle-2; }
+
+.embedded-map-2, .embedded-map-2-large {
+  grid-area: map-2;
+  max-width: 100%; }
+
+.embedded-map-2-large {
+  margin-bottom: 1rem; }
+
+.embedded-subtitle-3 {
+  grid-area: subtitle-3; }
+
+.embedded-map-3, .embedded-map-3-large {
+  grid-area: map-3;
+  max-width: 100%; }
+
+.embedded-map-3-large {
+  margin-bottom: 1rem; }
+
+.embedded-subtitle-4 {
+  grid-area: subtitle-4; }
+
+.embedded-map-4, .embedded-map-4-large {
+  grid-area: map-4;
+  max-width: 100%; }
+
+.embedded-map-4-large {
+  margin-bottom: 1rem; }
+
+.embedded-legend, .embedded-legend-large {
+  grid-area: legend;
+  max-width: 100%; }
+
+.embedded-legend-large {
+  max-width: 75%; }
 
 .embedded-footer-text {
+  grid-area: footnote;
+  place-self: stretch;
   font-size: 12px;
   line-height: 1.2;
   padding: 1rem; }
