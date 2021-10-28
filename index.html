@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20211022144533">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20211028081612">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -140,7 +140,7 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/assets/css/custom.css?v=20211022144533"><!-- ShareThis BEGIN --><!-- ShareThis END -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/assets/css/custom.css?v=20211028081612"><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
 <body class="language-en layout-frontpage-alt">
@@ -478,49 +478,44 @@ var translations = {
 
 </div>
 <footer role="contentinfo">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div id="footerLinks">
-            <ul>
-              <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
-              
-                <li>
-                  <a href="/contact-us/">Contact us</a>
-                  
-                  </li>
-                <li>
-                  
-                    <a href="https://twitter.com/defragovuk" target="_blank" rel="noopener">Twitter</a>
-                  
-                  </li>
-                <li>
-                  <a href="/about/cookies-and-privacy/">Cookies</a>
-                  
-                  </li>
-                <li>
-                  <a href="/about/accessibility-statement/">Accessibility statement</a>
-                  
-                  </li>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div id="footerLinks">
+          <ul>
+            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            
+              <li>
+                <a href="/contact-us/">Contact us</a>
                 
+                </li>
+              <li>
+                
+                  <a href="https://twitter.com/defragovuk" target="_blank">Twitter</a>
+                
+                </li>
+              <li>
+                <a href="/about/cookies-and-privacy/">Cookies</a>
+                
+                </li>
+              <li>
+                <a href="/about/accessibility-statement/">Accessibility statement</a>
+                
+                </li>
               
-              </ul>
-            <div id="oglLicense">
-                <br>
-                <img id="ogl-image" alt="Open Government Licence logo" src="/assets/img/OGL_logo.png" width="35px">All data are available under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>, except where otherwise stated
-              </div>
-          </div>
+            
+            </ul>
         </div>
       </div>
     </div>
-  </footer>
-  
-  <!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
-  <!-- <script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA"></script> -->
-  <!-- Google Analytics -->
-  
-  <!-- /.container </div> -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  </div>
+</footer>
+
+<!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
+<!-- <script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA"></script> -->
+
+<!-- /.container </div> -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
@@ -534,18 +529,77 @@ var translations = {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
+<script src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js" type="text/javascript"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VZBZ0PVRQ0"></script>
+<script>
+  var cookieControlConfig = {
+    apiKey: "afbc7c2ae0265eed63b3dfb031e976fab80fa4ff",
+    product: "COMMUNITY",
+    necessaryCookies: ["CookieControl"],
+    optionalCookies: [
+      {
+        name: "analytics",
+        label: "Analytical Cookies",
+        description:
+          "Analytical cookies help us to improve our website by collecting and reporting information on its usage.",
+        cookies: [
+          "_ga",
+          "_gid",
+          "_gali",
+          "_gat",
+          "__utma",
+          "__utmt",
+          "__utmb",
+          "__utmc",
+          "__utmz",
+          "__utmv",
+        ],
+        onAccept: function () {
+          // Add Google Analytics
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag("js", new Date());
+
+          gtag("config", "G-VZBZ0PVRQ0");
+          // End Google Analytics
+        },
+        onRevoke: function () {
+          // Disable Google Analytics
+          window["ga-disable-G-VZBZ0PVRQ0"] = true;
+          // End Google Analytics
+        },
+      },
+    ],
+    statement: {
+      description:
+        "For more detailed information about the cookies we use, see our",
+      name: "Cookies and privacy page.",
+      url: "/about/cookies-and-privacy/",
+      updated: "26/10/2021",
+    },
+    initialState: "open",
+    text: {
+      necessaryDescription:
+        "This website sets a cookie to remember a user’s choice about cookies. Where users have previously indicated a preference, that user’s preference will be stored in this cookie.",
+    },
+  };
+  CookieControl.load(cookieControlConfig);
+</script>
+
 <script>translations['general'] = translations['general'] || {};
     translations['general']['hide'] = 'hide';</script>
 
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/assets/js/sdg.js?v=20211022144533'></script>
+<script src='/assets/js/sdg.js?v=20211028081612'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20211022144533"></script><script>
+    <script src="/assets/js/custom.js?v=20211028081612"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
@@ -622,8 +676,6 @@ $(function() {
 </script>
 
   
-  
-  
-  </body>
-  </html>
+</body>
+</html>
 
