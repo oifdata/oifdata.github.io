@@ -10,7 +10,7 @@ Year,Series,Metal,Nutrient,Value
 2016,B1a (interim),Cadmium,,49.0948890252553
 2017,B1a (interim),Cadmium,,63.8411253017006
 2018,B1a (interim),Cadmium,,41.98195480401901
-2019,B1a (interim),Cadmium,,56.18067873486788
+2019,B1a (interim),Cadmium,,51.4858522521562
 2008,B1a (interim),Copper,,100.0
 2009,B1a (interim),Copper,,85.9020101591154
 2010,B1a (interim),Copper,,61.00212185562556
@@ -22,7 +22,7 @@ Year,Series,Metal,Nutrient,Value
 2016,B1a (interim),Copper,,61.372487447546085
 2017,B1a (interim),Copper,,66.2574710590031
 2018,B1a (interim),Copper,,53.8902147525199
-2019,B1a (interim),Copper,,54.244626848337376
+2019,B1a (interim),Copper,,58.7076815313808
 2008,B1a (interim),Lead,,100.0
 2009,B1a (interim),Lead,,167.34547652377665
 2010,B1a (interim),Lead,,67.13936086984285
@@ -34,7 +34,7 @@ Year,Series,Metal,Nutrient,Value
 2016,B1a (interim),Lead,,56.63642317836782
 2017,B1a (interim),Lead,,105.80291996278623
 2018,B1a (interim),Lead,,55.87305971570551
-2019,B1a (interim),Lead,,114.49032348635134
+2019,B1a (interim),Lead,,78.8947688059258
 2008,B1a (interim),Mercury,,100.0
 2009,B1a (interim),Mercury,,66.39264530713154
 2010,B1a (interim),Mercury,,67.42796595796916
@@ -46,7 +46,7 @@ Year,Series,Metal,Nutrient,Value
 2016,B1a (interim),Mercury,,63.68437132735316
 2017,B1a (interim),Mercury,,63.2794397877573
 2018,B1a (interim),Mercury,,45.7068199238096
-2019,B1a (interim),Mercury,,48.805205617302974
+2019,B1a (interim),Mercury,,54.715878855258
 2008,B1a (interim),Zinc,,100.0
 2009,B1a (interim),Zinc,,103.39170745145915
 2010,B1a (interim),Zinc,,63.299079186699565
@@ -58,7 +58,7 @@ Year,Series,Metal,Nutrient,Value
 2016,B1a (interim),Zinc,,60.90452258974929
 2017,B1a (interim),Zinc,,67.0075562138444
 2018,B1a (interim),Zinc,,81.14911492429147
-2019,B1a (interim),Zinc,,69.48722880224837
+2019,B1a (interim),Zinc,,68.3372880735247
 2008,B1b (interim),,ortho-Phosphate,100.0
 2009,B1b (interim),,ortho-Phosphate,65.17858312712684
 2010,B1b (interim),,ortho-Phosphate,59.07348094864197
@@ -70,7 +70,7 @@ Year,Series,Metal,Nutrient,Value
 2016,B1b (interim),,ortho-Phosphate,53.66842815604741
 2017,B1b (interim),,ortho-Phosphate,48.80971958222512
 2018,B1b (interim),,ortho-Phosphate,48.99106049753682
-2019,B1b (interim),,ortho-Phosphate,44.08863262662224
+2019,B1b (interim),,ortho-Phosphate,51.4324522086855
 2008,B1b (interim),,Total Nitrogen,100.0
 2009,B1b (interim),,Total Nitrogen,69.69735486881856
 2010,B1b (interim),,Total Nitrogen,57.25881799914213
@@ -82,4 +82,4 @@ Year,Series,Metal,Nutrient,Value
 2016,B1b (interim),,Total Nitrogen,76.98931947348647
 2017,B1b (interim),,Total Nitrogen,60.12205383953431
 2018,B1b (interim),,Total Nitrogen,80.6599707833143
-2019,B1b (interim),,Total Nitrogen,54.77688276440705
+2019,B1b (interim),,Total Nitrogen,59.2981804781038
