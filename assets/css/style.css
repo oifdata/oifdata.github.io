@@ -2647,9 +2647,9 @@ span.status.in-development {
   padding: 20px;
   color: white;
   margin-top: 10px; }
-  .ex-indicator > a {
+  .ex-indicator > p > a {
     color: white; }
-    .ex-indicator > a:hover {
+    .ex-indicator > p > a:hover {
       font-weight: bold; }
 
 /* Survey button styling lifted from ONS */
