@@ -1,0 +1,85 @@
+Year,Series,Metal,Nutrient,Value
+2008,B1a (interim),Cadmium,,100.0
+2009,B1a (interim),Cadmium,,108.90455487432918
+2010,B1a (interim),Cadmium,,60.00548629204396
+2011,B1a (interim),Cadmium,,59.32863293192734
+2012,B1a (interim),Cadmium,,96.94299041887848
+2013,B1a (interim),Cadmium,,64.65312075516582
+2014,B1a (interim),Cadmium,,86.21970852988174
+2015,B1a (interim),Cadmium,,48.004574804289625
+2016,B1a (interim),Cadmium,,49.0948890252553
+2017,B1a (interim),Cadmium,,63.8411253017006
+2018,B1a (interim),Cadmium,,41.98195480401901
+2019,B1a (interim),Cadmium,,51.4858522521562
+2008,B1a (interim),Copper,,100.0
+2009,B1a (interim),Copper,,85.9020101591154
+2010,B1a (interim),Copper,,61.00212185562556
+2011,B1a (interim),Copper,,50.784971822421824
+2012,B1a (interim),Copper,,94.92682428491172
+2013,B1a (interim),Copper,,64.26931879250682
+2014,B1a (interim),Copper,,94.31905840070064
+2015,B1a (interim),Copper,,49.283273822953376
+2016,B1a (interim),Copper,,61.372487447546085
+2017,B1a (interim),Copper,,66.2574710590031
+2018,B1a (interim),Copper,,53.8902147525199
+2019,B1a (interim),Copper,,58.7076815313808
+2008,B1a (interim),Lead,,100.0
+2009,B1a (interim),Lead,,167.34547652377665
+2010,B1a (interim),Lead,,67.13936086984285
+2011,B1a (interim),Lead,,81.53852676741099
+2012,B1a (interim),Lead,,211.07305464956136
+2013,B1a (interim),Lead,,91.93911392201149
+2014,B1a (interim),Lead,,107.74782791178754
+2015,B1a (interim),Lead,,58.47414514273526
+2016,B1a (interim),Lead,,56.63642317836782
+2017,B1a (interim),Lead,,105.80291996278623
+2018,B1a (interim),Lead,,55.87305971570551
+2019,B1a (interim),Lead,,78.8947688059258
+2008,B1a (interim),Mercury,,100.0
+2009,B1a (interim),Mercury,,66.39264530713154
+2010,B1a (interim),Mercury,,67.42796595796916
+2011,B1a (interim),Mercury,,51.55493785752684
+2012,B1a (interim),Mercury,,91.92382053795968
+2013,B1a (interim),Mercury,,82.5454887922887
+2014,B1a (interim),Mercury,,84.5639465934176
+2015,B1a (interim),Mercury,,47.82585520991993
+2016,B1a (interim),Mercury,,63.68437132735316
+2017,B1a (interim),Mercury,,63.2794397877573
+2018,B1a (interim),Mercury,,45.7068199238096
+2019,B1a (interim),Mercury,,54.715878855258
+2008,B1a (interim),Zinc,,100.0
+2009,B1a (interim),Zinc,,103.39170745145915
+2010,B1a (interim),Zinc,,63.299079186699565
+2011,B1a (interim),Zinc,,65.9079589039364
+2012,B1a (interim),Zinc,,108.48216723812322
+2013,B1a (interim),Zinc,,70.95191713727579
+2014,B1a (interim),Zinc,,99.73690019163438
+2015,B1a (interim),Zinc,,54.13814000063471
+2016,B1a (interim),Zinc,,60.90452258974929
+2017,B1a (interim),Zinc,,67.0075562138444
+2018,B1a (interim),Zinc,,81.14911492429147
+2019,B1a (interim),Zinc,,68.3372880735247
+2008,B1b (interim),,ortho-Phosphate,100.0
+2009,B1b (interim),,ortho-Phosphate,65.17858312712684
+2010,B1b (interim),,ortho-Phosphate,59.07348094864197
+2011,B1b (interim),,ortho-Phosphate,60.85089678264616
+2012,B1b (interim),,ortho-Phosphate,81.0627070831696
+2013,B1b (interim),,ortho-Phosphate,59.57996352795066
+2014,B1b (interim),,ortho-Phosphate,63.63961788109748
+2015,B1b (interim),,ortho-Phosphate,53.05723563853636
+2016,B1b (interim),,ortho-Phosphate,53.66842815604741
+2017,B1b (interim),,ortho-Phosphate,48.80971958222512
+2018,B1b (interim),,ortho-Phosphate,48.99106049753682
+2019,B1b (interim),,ortho-Phosphate,51.4324522086855
+2008,B1b (interim),,Total Nitrogen,100.0
+2009,B1b (interim),,Total Nitrogen,69.69735486881856
+2010,B1b (interim),,Total Nitrogen,57.25881799914213
+2011,B1b (interim),,Total Nitrogen,52.14614320068589
+2012,B1b (interim),,Total Nitrogen,79.79558985027202
+2013,B1b (interim),,Total Nitrogen,70.3289425488594
+2014,B1b (interim),,Total Nitrogen,82.37964699537486
+2015,B1b (interim),,Total Nitrogen,63.63233418069565
+2016,B1b (interim),,Total Nitrogen,76.98931947348647
+2017,B1b (interim),,Total Nitrogen,60.12205383953431
+2018,B1b (interim),,Total Nitrogen,80.6599707833143
+2019,B1b (interim),,Total Nitrogen,59.2981804781038

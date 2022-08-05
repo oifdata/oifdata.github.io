@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CArray.prototype.reduce%2CObject.assign%2CArray.isArray%2CObject.values%2CObject.entries%2CArray.from%2CSet%2CArray.prototype.findIndex"></script>
+<script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/javascript-canvas-to-blob/3.15.0/js/canvas-to-blob.min.js"></script>
+
+        <script>
+// This is where we initialise any global variables, namespaced in "opensdg".
+var opensdg = {
+
+  // A base URL for asynchronous calls to SDG data.
+  remoteDataBaseUrl: '/en',
+
+  chartConfigAlterations: [],
+  // A hook which can be used to modify the configuration for Chart.js.
+  chartConfigAlter: function(callback) {
+    this.chartConfigAlterations.push(callback);
+  },
+
+  tableConfigAlterations: [],
+  // A hook which can be used to modify the configuration for Datatables.
+  tableConfigAlter: function(callback) {
+    this.tableConfigAlterations.push(callback);
+  },
+
+  // A hook which can be replaced to alter whether/how the values that are
+  // displayed on indicator tables/graphs get rounded.
+  dataRounding: function(value) {
+    // Alterations go here.
+    return value;
+  },
+
+  // A hook which can be used to alter the data before it is displayed on charts/tables.
+  dataDisplayAlterations: [],
+  dataDisplayAlter: function(callback) {
+    this.dataDisplayAlterations.push(callback);
+  },
+
+  language: 'en',
+};
+
+// For backwards compatibility, some of these might need to be global.
+// @TODO: Remove these eventually.
+var remoteDataBaseUrl = opensdg.remoteDataBaseUrl;
+
+</script>
+
+        <script>
+// JavaScript container for translation data.
+var translations = {
+  //Javascript version of the "t" filter from jekyll-open-sdg-plugins.
+  t: function(key) {
+
+    if (!key || typeof key !== 'string') {
+      return '';
+    }
+
+    // The majority of uses of this function are to translate disaggregation
+    // data. To spare data providers of needing to enter "data." in front of
+    // their disaggregation data, we specifically look for that here.
+    if (typeof this.data === 'object' && this.data !== null && this.data[key]) {
+      return this.data[key];
+    }
+
+    var originalKey = key;
+    var drilled = this;
+    var levelsDrilled = 0;
+    var levels = key.split('.');
+
+    for (var level in levels) {
+      // If we have drilled down to soon, abort.
+      if (typeof drilled !== 'object') {
+        break;
+      }
+
+      if (levels[level] in drilled) {
+        drilled = drilled[levels[level]];
+        levelsDrilled += 1;
+      }
+    }
+
+    // If we didn't drill the right number of levels, return the original string.
+    if (levels.length != levelsDrilled) {
+      return originalKey;
+    }
+
+    // Otherwise we must have drilled all the way.
+    return drilled;
+  },
+};
+</script>
+
+        <!-- Basic Page Needs
+        ================================================== -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- Mobile Specific Metas
+        ================================================== -->
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Title and meta description
+        ================================================== -->
+
+        
+    <title>Background - Outcome indicator framework for the 25 Year Environment Plan</title>
+
+
+
+        <meta name="description" content="">
+        <meta property="og:description" content="">
+        
+        <link rel="canonical" href="/">
+
+        <!--[if IE 9]>
+        <script src="/assets/js/lib/classList.js"></script>
+        <![endif]-->
+
+        
+
+
+
+
+<link rel="shortcut icon" type="image/ico" href="/assets/img/favicons/favicon.ico">
+<link rel="icon" type="image/png" href="/assets/img/favicons/favicon.png">
+
+
+        
+        
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
+        
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
+        <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20220805092744">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+          integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+          crossorigin=""/>
+        <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
+        <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
+        <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin="">
+        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/assets/css/custom.css?v=20220805092744">
+        
+
+        
+
+    </head>
+<body class="language-en
+layout-page
+">
+<!-- <div class="container"> -->
+
+
+
+<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your feedback via <a href=\"mailto:%email_address\">email</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"25 Year Environment Plan homepage","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+
+<header role="banner" class="header-menu-left-aligned">
+  <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+
+  <div class="container">
+
+    <div class="disclaimer" id="disclaimer">
+      
+<strong class="phase-tag">Alpha</strong>
+
+<p>This is a development website. We welcome your feedback via <a href="mailto:25YEPindicators@defra.gov.uk">email</a>.</p>
+
+<a id="takepartButton"
+    href="https://defragroup.eu.qualtrics.com/jfe/form/SV_cTvfhqTFSj4QHlA"
+    class="btn btn-primary btn-download btn-takepart" role="link">Complete our short user-feedback survey</a>
+
+
+    </div>
+    
+    <div class="widgets">
+      <a class="navbar-brand" href="/" id="home">
+    <img src="/assets/img/SDG_logo.png" alt="Outcome Indicator Framework - 25 Year Environment Plan homepage" />
+</a>
+      <div id="search" class="menu-target">
+  <form action="/search/">
+    <label class="sr-only" for="indicator_search">Search</label>
+    <input type="text" name="q" id="indicator_search" title="Search" /><!--
+    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  </form>
+</div>
+
+    </div>
+
+    <div class="navbar navbar-default menu-without-widgets" id="main-nav">
+      <ul class="top-level">
+    <li id="menuToggle"
+        aria-label="Menu toggle. Click to expand or collapse the menu."
+        aria-haspopup="true">
+        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+        <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
+    <a href="/goals">Themes</a>
+</li><li class="nav-link ">
+    <a href="/reporting-status">Reporting status</a>
+</li><li class="nav-link ">
+    <a href="/impact-of-coronavirus">Impacts of the Coronavirus (COVID-19) pandemic</a>
+</li><li class="nav-link ">
+    <a href="/introduction">Introduction and aims</a>
+</li><li class="nav-link ">
+    <a href="/structure">Structure</a>
+</li><li class="nav-link ">
+    <a href="/using-the-framework">Using the framework</a>
+</li><li class="nav-link ">
+    <a href="/latest-update">Latest annual update</a>
+</li><li class="nav-link ">
+    <a href="/assessment">Assessment</a>
+</li><li class="nav-link ">
+    <a href="/future-development">Future development</a>
+</li><li class="nav-link ">
+    <a href="/assessment/background">Background</a>
+</li><li class="nav-link ">
+    <a href="/assessment/results/">Summary of results</a>
+</li><li class="nav-link ">
+    <a href="/publications">Publications</a>
+</li><li class="nav-link ">
+    <a href="/faq">FAQs</a>
+</li>
+
+
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="Disable high contrast"
+           aria-label="Disable high contrast"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="Enable high contrast"
+           aria-label="Enable high contrast"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+
+</ul>
+
+    </li>
+    <li id="searchToggle"
+        aria-label="Search toggle. Click to expand or collapse the search bar."
+        aria-haspopup="true">
+        <button data-target="search-mobile" aria-expanded="false">Search</button>
+        <div id="search-mobile" class="menu-target">
+  <form action="/search/">
+    <label class="sr-only" for="indicator_search-mobile">Search</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
+    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  </form>
+</div>
+
+    </li>
+</ul>
+      <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
+    <a href="/goals">Themes</a>
+</li><li class="nav-link ">
+    <a href="/reporting-status">Reporting status</a>
+</li><li class="nav-link">
+            <div class="btn-group menu-dropdown">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    The Outcome Indicator Framework
+                    <i class="fa fa-chevron-down"></i>
+                </button>
+                <ul class="dropdown-menu"><li class="nav-link ">
+    <a href="/impact-of-coronavirus">Impacts of the Coronavirus (COVID-19) pandemic</a>
+</li><li class="nav-link ">
+    <a href="/introduction">Introduction and aims</a>
+</li><li class="nav-link ">
+    <a href="/structure">Structure</a>
+</li><li class="nav-link ">
+    <a href="/using-the-framework">Using the framework</a>
+</li><li class="nav-link ">
+    <a href="/latest-update">Latest annual update</a>
+</li><li class="nav-link ">
+    <a href="/assessment">Assessment</a>
+</li><li class="nav-link ">
+    <a href="/future-development">Future development</a>
+</li></ul>
+            </div>
+        </li><li class="nav-link">
+            <div class="btn-group menu-dropdown">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Assessment
+                    <i class="fa fa-chevron-down"></i>
+                </button>
+                <ul class="dropdown-menu"><li class="nav-link ">
+    <a href="/assessment/background">Background</a>
+</li><li class="nav-link ">
+    <a href="/assessment/results/">Summary of results</a>
+</li></ul>
+            </div>
+        </li><li class="nav-link ">
+    <a href="/publications">Publications</a>
+</li><li class="nav-link ">
+    <a href="/faq">FAQs</a>
+</li>
+
+</ul>
+
+    </div>
+
+  </div>
+
+</header>
+
+
+
+
+<div id="main-content" class="container" role="main">
+    <div>
+        <h1>Background</h1>
+        
+            <h2 id="aims-of-the-assessment">Aims of the assessment</h2>
+
+<p>The Outcome Indicator Framework assessment provides consistent categories of historic change to help make comparisons across indicators and bring results together for a holistic picture across groupings such as individual 25 Year Environment Plan goals. Charts showing trends for individual indicators are useful to visualise how indicators have changed over time, but do not always simply show whether that change is occurring in a favourable direction aligned with policy ambitions.</p>
+
+<p>The Outcome Indicator Framework assessment aims to provide high level patterns for key environmental indicators to identify where there may be challenges of progress to date in achieving goals. This will support the targeting of further investigation to establish whether additional action is required. It can also highlight where there may be informative examples of success. The assessment is intended to be of value for key high-level messaging on environmental change.</p>
+
+<p>There are limitations to the insights that can be gained from the Outcome Indicator Framework assessment alone. These indicators were originally selected to show change over time and were not designed to assess progress towards any specific targets. The results of this assessment show where improvements have been made, but supplementary analysis would be required to judge whether such improvements are occurring at a fast enough pace or large enough scale to meet specific targets.</p>
+
+<p>The Environment Act 2021 creates a new statutory cycle of monitoring, planning and reporting on environmental improvement, based around a long-term Environmental Improvement Plan. The 25 Year Environment Plan is the first such Environmental Improvement Plan. Separately from the Outcome Indicator Framework update reports, government must report annually on what it has done to implement the Environmental Improvement Plan and on whether the natural environment (or particular aspects of it) has improved. That report will also consider the progress that has been made towards meeting targets.</p>
+
+<p>The Outcome Indicator Framework was designed to provide a robust account of changes in the environment. It was not designed to establish a causal link between an indicator’s observed trend and a specific driver of change (such as a policy intervention). Work to map indicator linkages for this assessment only highlights where indicators may be related. Further, detailed research would be required to prove the causes of any observed change in indicator trends.</p>
+
+<p>The Outcome Indicator Framework assessment shows changes which have already occurred, but it does not make any predictions about whether these changes are likely to continue into the future. The likelihood of such future trends will depend on a wide range of matters including environmental factors, policy interventions which are yet to take effect, and changes in human activity which may have associated environmental impacts. More elaborated modelling research would be required to make forward projections accounting for the likely effect of potential or planned interventions. Such a forward projection on an entire 25 Year Environment Plan scale is not a planned ambition of the Outcome Indicator Framework. Detailed forward projections are produced for some indicators in the framework. For example, projections of UK emissions of air quality pollutants are compiled by Defra to inform policy development and to enable comparison with international commitments.</p>
+
+<h2 id="method">Method</h2>
+
+<h3 id="data-availability">Data availability</h3>
+
+<p>Of the 66 indicators currently included in the Outcome Indicator Framework, 16 are still in the process of being developed so could not be assessed at this point in time. Interim indicators were assessed in addition to final indicators as they can still offer useful insights. Some indicators currently show results for the latest year rather than a time series, reflecting current data availability of newly-developed indicators. As the assessment is based on trends, these could not be assessed. Some indicators do not yet have sufficient data points for a trend assessment across all time periods.</p>
+
+<h3 id="data-processing">Data processing</h3>
+
+<p>Some indicators have multiple components (different related metrics, or different variables such as various pollutants). Each indicator component was assessed separately to avoid masking important results through aggregation and to allow individual consideration.</p>
+
+<p>Some indicator components have a regular time series with a small number of irregular missing years of data. To allow trend assessment, missing years were extrapolated using the Excel fill function for a linear trend.</p>
+
+<p>Most indicator data were smoothed before undertaking trend assessments to reduce the influence of natural interannual variability. The need for smoothing is demonstrated clearly by the D4b indicator for widespread butterflies in woodland which presents both smoothed and unsmoothed data. The unsmoothed data fluctuates widely year by year as butterfly abundance is very susceptible to changes in weather. If the first or last data point in the assessed time period happen to be an unusually good or bad year, this will skew the percent change calculations. The smoothed values give users a more reliable indication of overall trend. A standard smoothing approach was adopted in most instances, as it is not practical to tailor smoothing for every indicator component individually. A <a href="http://r-statistics.co/Loess-Regression-With-R.html">Loess smoother</a> was used as standard, as this is a versatile method suited to a wide variety of data.</p>
+
+<p>Note that smoothed data represent modelled values while unsmoothed data represent the original recorded values. If there is a large amount of fluctuation in the time series, the smoothed values may be quite different from the original values. This means percent change calculations based on smoothed data may also be quite different from what they would be if based on unsmoothed data. The decision on whether to use smoothed or unsmoothed data for individual indicator component assessments was made on a case by case basis, as deemed appropriate to suit the specific nature of the data series concerned.</p>
+
+<p>Some indicators already produce smoothed data using a different approach selected specifically for that dataset. Where available, these existing smoothed values were used in the Outcome Indicator Framework assessment for consistency in messaging. Where indicators present a rolling average, smoothing was not considered necessary and the final year in the rolling time period was assigned to that data point. Smoothing was also not undertaken where there was no natural variability or error expected in the data (for example, the protected area extent values shown in D2). Where smoothed data were used, the most recent data point was excluded before calculating percent change. Due to the smoothing process, the last data point in a series is often associated with greater error and deviates from the trendline to a greater degree, so including this more erratic value would lower confidence in the percent change calculation. This is consistent with the approach taken elsewhere for assessment of some of the UK Biodiversity Indicators.</p>
+
+<p>Where possible, trend assessments were undertaken for 3 time periods: the most recent 5 years (short term), the most recent 10 years (medium term), and the whole time series (long term). Some indicators have regular monitoring undertaken less frequently than every year; in these cases, an assessment was undertaken if at least 3 data points were available within the assessed time period. To provide clarity, the date range covered by each time period is specified for each indicator component and it is noted whether the percent change values are based on smoothed or unsmoothed data.</p>
+
+<p>An additional assessment was also undertaken to show change since 2018 (when the 25 Year Environment Plan was published) as this information is valuable for contextual consideration of environmental change. Data were treated slightly differently for this period as there were generally only 2 or 3 years of data available. The unsmoothed data were always used and the last year of data included, so some assessment could be undertaken for as many indicators as possible. This assessment gives some indication of changes since 2018 but is not a comparably robust trend assessment to the other time periods considered and results should be treated with caution.</p>
+
+<h3 id="assessment-of-change">Assessment of change</h3>
+
+<p>The assessment of change is based on the percentage change seen over the assessed time period, along with the desired direction of change for moving towards environmental goals.</p>
+
+<p>First, it is established whether a ‘significant change’ has been observed. For most indicators, a threshold of at least 3% change (positive or negative) is used. This is consistent with the approach adopted for assessment of some of the UK Biodiversity Indicators and some other government assessments, such as Forestry Commission Key Performance Indicators. Where existing official Defra assessments were available for the same time periods using a more tailored methodology, these were replicated in the Outcome Indicator Framework assessment instead of applying the 3% threshold. The ‘little or no change’ category is intended to show indicators where any recorded change may be a result of random error in the dataset or due to chance, rather than a meaningful trend.</p>
+
+<p>If a change has been observed, the direction of change is compared with the desired direction of change to assign a category of ‘improvement’ or ‘deterioration’. Some indicators do not have a desired direction of change (for example, E1 Area of agricultural land). These indicators may be provided for context to help understand other indicators, and additional information may be required to establish if an observed change is deemed to have a positive or negative connotation. Where a desired direction of change is not specified, indicators are assessed on whether change is significant.</p>
+
+<h3 id="indicator-links">Indicator links</h3>
+
+<p>A mapping exercise has been undertaken to show where indicators may be linked. Tables of potential links presented in the <a href="/assessment/results/">Summary of results</a> section capture whether relationships between linked indicators are likely to be positive or negative and the rationale for including a link. The indicator mapping has been used to create network diagrams to highlight the interconnectivity between different environmental goals.</p>
+
+<p>Identified indicator links are supported by text in the Outcome Indicator Framework itself, original indicator methods and assessment reports referenced in the ‘Readiness and links to data’ sections of indicator fiches, or any additional key references relating to individual indicator development provided by indicator leads. It was not deemed necessary for references to prove a statistical, causal link. Links simply show that the 2 indicators are likely to be related and it is possible a change in one may influence the results of the other. For the purposes of this exercise, there needed to be a direct link identified between specific indicators, not a chain of links culminating in an impact made by one indicator upon another indirectly-linked indicator. Links have been made based on the coverage of the indicator inferred by the indicator name. For example, D7 will eventually cover species supporting various ecosystem functions but for the immediate future it will focus on pollinators, so links were made on this basis.</p>
+
+<h2 id="important-considerations-for-interpretation-of-results">Important considerations for interpretation of results</h2>
+
+<p>There are necessary time lags between data collection and presentation of results in the Outcome Indicator Framework. It is also not always possible to collect annual data for every indicator component. This means that the latest data point is not necessarily for the current calendar year and will differ across indicators depending on reporting frequency and time needed for data processing and analysis. Therefore, it is important to note the specific date range of the time period for each assessment result. This is provided in all the tables of assessment results in the individual indicator pages of this dashboard.</p>
+
+<p>As outlined further in the <a href="/assessment/background.html#method">method</a> section, assessment categories are often assigned based on smoothed data. The percent change values presented next to assessment of change categories in tables of results will often be based on smoothed data. This means they may differ from values quoted elsewhere which are based on the raw, unsmoothed data, such as the trend description sections for individual indicators in this report. Tables of assessment results in the individual indicator pages of this dashboard always note whether percent change values are based on smoothed or unsmoothed data.</p>
+
+<p>Additional policy context is required to judge whether an assessment category is telling a positive story. A category of ‘improvement’ is clearly better than ‘deterioration’ but may not be positive if it is only a very small improvement for an indicator where are large amount of change is needed to meet an associated policy aspiration. Conversely, a category of ‘little or no change’ may not be a serious concern if any policy goals have already been achieved and current environmental status just needs to be maintained. A small number of indicators are slow moving, and change may not be expected to be observed in the short term. The narrative provided with indicator specific assessment results in Section B highlights any important caveats such as these.</p>
+
+<h2 id="summary-of-results"><a href="/assessment/results/">Summary of results</a></h2>
+
+        
+    </div>
+</div>
+
+
+<footer role="contentinfo">
+  <div class="container">
+    <div class="oif-row">
+      <div class="col-xs-12">
+        <div id="footerLinks">
+          <ul>
+            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            
+              <li>
+                <a href="/contact-us/">Contact us</a>
+                
+                </li>
+              <li>
+                <a href="/about/">About</a>
+                
+                </li>
+              <li>
+                
+                  <a href="https://twitter.com/defragovuk" target="_blank">Twitter</a>
+                
+                </li>
+              <li>
+                <a href="/cookies-and-privacy/">Cookies</a>
+                
+                </li>
+              <li>
+                <a href="/accessibility-statement/">Accessibility statement</a>
+                
+                </li>
+              <li>
+                <a href="/official-statistics/">Official statistics</a>
+                
+                </li>
+              
+            
+            </ul>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</footer>
+
+<!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
+<!-- <script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA"></script> -->
+
+<!-- /.container </div> -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
+<script src="//cdn.datatables.net/fixedcolumns/3.2.3/js/dataTables.fixedColumns.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
+<script src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js" type="text/javascript"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VZBZ0PVRQ0"></script>
+<script>
+  var cookieControlConfig = {
+    apiKey: "afbc7c2ae0265eed63b3dfb031e976fab80fa4ff",
+    product: "COMMUNITY",
+    necessaryCookies: ["CookieControl"],
+    optionalCookies: [
+      {
+        name: "analytics",
+        label: "Analytical Cookies",
+        description:
+          "Analytical cookies help us to improve our website by collecting and reporting information on its usage.",
+        cookies: [
+          "_ga",
+          "_gid",
+          "_gali",
+          "_gat",
+          "__utma",
+          "__utmt",
+          "__utmb",
+          "__utmc",
+          "__utmz",
+          "__utmv",
+        ],
+        onAccept: function () {
+          // Add Google Analytics
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag("js", new Date());
+
+          gtag("config", "G-VZBZ0PVRQ0");
+          // End Google Analytics
+        },
+        onRevoke: function () {
+          // Disable Google Analytics
+          window["ga-disable-G-VZBZ0PVRQ0"] = true;
+          // End Google Analytics
+        },
+      },
+    ],
+    statement: {
+      description:
+        "For more detailed information about the cookies we use, see our",
+      name: "Cookies and privacy page.",
+      url: "/about/cookies-and-privacy/",
+      updated: "26/10/2021",
+    },
+    initialState: "open",
+    text: {
+      necessaryDescription:
+        "This website sets a cookie to remember a user’s choice about cookies. Where users have previously indicated a preference, that user’s preference will be stored in this cookie.",
+    },
+  };
+  CookieControl.load(cookieControlConfig);
+</script>
+<script>translations['general'] = translations['general'] || {};
+    translations['general']['hide'] = 'hide';</script>
+
+<script>translations['search'] = translations['search'] || {};
+    translations['search']['search'] = 'Search';</script>
+
+<script src='/assets/js/sdg.js?v=20220805092744'></script>
+
+
+    
+    
+    <script src="/assets/js/custom.js?v=20220805092744"></script><script>
+$(function() {
+    if($('#indicatorData').length) {
+      var domData = $('#indicatorData').data();
+
+      if (domData.showdata) {
+
+        $('.async-loading').each(function(i, obj) {
+            $(obj).append($('<img />').attr('src', $(obj).data('img')).attr('alt', translations.indicator.loading));
+        });
+
+        var remoteUrl = '/comb/' + domData.id + '.json';
+        if (opensdg.remoteDataBaseUrl !== '/') {
+          remoteUrl = opensdg.remoteDataBaseUrl + remoteUrl;
+        }
+
+        $.ajax({
+          url: remoteUrl,
+          success: function(res) {
+
+            $('.async-loading').remove();
+            $('.async-loaded').show();
+
+            var model = new indicatorModel({
+              data: res.data,
+              edgesData: res.edges,
+              showMap: domData.showmap,
+              country: domData.country,
+              graphGeographies: domData.graphgeographies,
+              indicatorId: domData.indicatorid,
+              shortIndicatorId: domData.id,
+              chartTitle: domData.charttitle,
+              chartTitles: domData.charttitles,
+              measurementUnit: domData.measurementunit,
+              measurementUnits: domData.measurementunits,
+              showData: domData.showdata,
+              graphType: domData.graphtype,
+              graphTypes: domData.graphtypes,
+              startValues: domData.startvalues,
+              startValuesSeries: domData.startvaluesseries,
+              graphLimits: domData.graphlimits,
+              stackedDisaggregation: domData.stackeddisaggregation,
+              categoryOrder: domData.categoryorder,
+              stackOrder: domData.stackorder,
+              categoryColor: domData.categorycolor,
+              graphAnnotations: domData.graphannotations,
+              graphTargetLines: domData.graphtargetlines,
+              graphSeriesBreaks: domData.graphseriesbreaks,
+              indicatorDownloads: domData.indicatordownloads,
+              dataSchema: domData.dataschema,
+              compositeBreakdownLabel: domData.compositebreakdownlabel,
+              precision: domData.precision,
+              continuousError: domData.continuouserror,
+              multiAxes: domData.multiaxes,
+              mixedType: domData.mixedtype,
+              graphSource: domData.graphsource,
+              graphSources: domData.graphsources,
+              graphNote: domData.graphnote,
+              graphNotes: domData.graphnotes,
+              yAxisLabels: domData.yaxislabels
+            }),
+            view  = new indicatorView(model, {
+              rootElement: '#indicatorData',
+              legendElement: '#plotLegend',
+              decimalSeparator: '',
+              maxChartHeight: 420,
+              tableColumnDefs: [
+                { maxCharCount: 25 }, // nowrap
+                { maxCharCount: 35, width: 200 },
+                { maxCharCount: Infinity, width: 250 }
+              ]
+            }),
+            controller = new indicatorController(model, view);
+            controller.initialise();
+          }
+        });
+      }
+    }
+});
+</script>
+  
+</body>
+</html>
+

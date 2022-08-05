@@ -1,0 +1,42 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Disturbance",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "High disturbance (categories 5 to 9)",
+                "Low disturbance (categories 0 to 4)"
+              ]
+            },
+            "title": "Disturbance"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "3-2-1",
+  "title": "Seabed subject to high pressure from human activity"
+}

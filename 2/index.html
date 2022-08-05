@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CArray.prototype.reduce%2CObject.assign%2CArray.isArray%2CObject.values%2CArray.from%2CSet%2CArray.prototype.findIndex"></script>
+        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CArray.prototype.reduce%2CObject.assign%2CArray.isArray%2CObject.values%2CObject.entries%2CArray.from%2CSet%2CArray.prototype.findIndex"></script>
 <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/javascript-canvas-to-blob/3.15.0/js/canvas-to-blob.min.js"></script>
 
         <script>
@@ -103,7 +103,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Theme: Water - Outcome indicator framework for the 25 Year Environment Plan</title>
+    <title>Theme 2 - Water - Outcome indicator framework for the 25 Year Environment Plan</title>
 
 
 
@@ -112,81 +112,72 @@ var translations = {
         
         <link rel="canonical" href="/">
 
-        
-
         <!--[if IE 9]>
         <script src="/assets/js/lib/classList.js"></script>
         <![endif]-->
 
-        <!-- Favicons ================================================== -->
-        <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
-        http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
-        -->
-
         
 
+
+
+
+<link rel="shortcut icon" type="image/ico" href="/assets/img/favicons/favicon.ico">
+<link rel="icon" type="image/png" href="/assets/img/favicons/favicon.png">
+
+
+        
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
+        
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20220518182705">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20220805092744">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/assets/css/custom.css?v=20220518182705"><!-- ShareThis BEGIN --><!-- ShareThis END -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin="">
+        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/assets/css/custom.css?v=20220805092744">
+        
+
+        
 
     </head>
-<body class="language-en layout-goal-by-target-vertical">
+<body class="language-en
+layout-goal-by-target-vertical
+">
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your feedback via <a href=\"mailto:%email_address\">email</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"Department for Environment, Food & Rural Affairs - 25 Year Environment Plan Logo","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+
+<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your feedback via <a href=\"mailto:%email_address\">email</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"25 Year Environment Plan homepage","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
 
 <header role="banner" class="header-menu-left-aligned">
   <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
 
-  <div id="disclaimer">
-    <div class="container">
-  <div class="disclaimer-alert">
-    <div id="phase-wrapper">
-      <strong class="phase-tag"
-        >Alpha</strong
-      >
-       This is a development website. We welcome your feedback via <a href="mailto:25YEPindicators@defra.gov.uk">email</a>.
-    </div>
-    <a
-      id="takepartButton"
-      aria-labelledby="takepartButton"
-      href="https://forms.office.com/Pages/ResponsePage.aspx?id=UCQKdycCYkyQx044U38RAoc88l9iPWhOqSr4EYH784FUMUJWTEtDUlVVTjZSOTNQNFQzQkpQQ1hPQS4u"
-      class="btn btn-primary btn-download btn-takepart"
-      role="link"
-      >Complete our short user-feedback survey</a
-    >
-  </div>
-  <div id="update-alert" class="ex-indicator">
-      <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-      <p><strong>Info!</strong> The PDF version of the 2022 report will be published at 9.30am on Thursday 19 May.</p>
-      <p>The report will be available <a href="https://www.gov.uk/government/publications/25-year-environment-plan-progress-reports">here</a>.</p>
-      <p>We are working to update this site.</p> 
-  </div>
-</div>
-
-  </div>
-
   <div class="container">
 
+    <div class="disclaimer" id="disclaimer">
+      
+<strong class="phase-tag">Alpha</strong>
+
+<p>This is a development website. We welcome your feedback via <a href="mailto:25YEPindicators@defra.gov.uk">email</a>.</p>
+
+<a id="takepartButton"
+    href="https://defragroup.eu.qualtrics.com/jfe/form/SV_cTvfhqTFSj4QHlA"
+    class="btn btn-primary btn-download btn-takepart" role="link">Complete our short user-feedback survey</a>
+
+
+    </div>
+    
     <div class="widgets">
       <a class="navbar-brand" href="/" id="home">
-    <img src="/assets/img/SDG_logo.png" alt="Outcome Indicator Framework - Department for Environment, Food & Rural Affairs - 25 Year Environment Plan Logo" />
+    <img src="/assets/img/SDG_logo.png" alt="Outcome Indicator Framework - 25 Year Environment Plan homepage" />
 </a>
       <div id="search" class="menu-target">
-  <form action="/search">
+  <form action="/search/">
     <label class="sr-only" for="indicator_search">Search</label>
     <input type="text" name="q" id="indicator_search" title="Search" /><!--
     --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -201,12 +192,12 @@ var translations = {
         aria-label="Menu toggle. Click to expand or collapse the menu."
         aria-haspopup="true">
         <button data-target="menu-mobile" aria-expanded="false">Menu</button>
-        <ul class="nav navbar-nav menu-target" id="menu-mobile"><li class="nav-link ">
+        <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
     <a href="/goals">Themes</a>
 </li><li class="nav-link ">
     <a href="/reporting-status">Reporting status</a>
 </li><li class="nav-link ">
-    <a href="/about">About</a>
+    <a href="/impact-of-coronavirus">Impacts of the Coronavirus (COVID-19) pandemic</a>
 </li><li class="nav-link ">
     <a href="/introduction">Introduction and aims</a>
 </li><li class="nav-link ">
@@ -216,14 +207,49 @@ var translations = {
 </li><li class="nav-link ">
     <a href="/latest-update">Latest annual update</a>
 </li><li class="nav-link ">
+    <a href="/assessment">Assessment</a>
+</li><li class="nav-link ">
     <a href="/future-development">Future development</a>
+</li><li class="nav-link ">
+    <a href="/assessment/background">Background</a>
+</li><li class="nav-link ">
+    <a href="/assessment/results/">Summary of results</a>
 </li><li class="nav-link ">
     <a href="/publications">Publications</a>
 </li><li class="nav-link ">
-    <a href="/official-statistics">Official statistics</a>
-</li><li class="nav-link ">
     <a href="/faq">FAQs</a>
-</li></ul>
+</li>
+
+
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="Disable high contrast"
+           aria-label="Disable high contrast"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="Enable high contrast"
+           aria-label="Enable high contrast"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+
+</ul>
 
     </li>
     <li id="searchToggle"
@@ -231,7 +257,7 @@ var translations = {
         aria-haspopup="true">
         <button data-target="search-mobile" aria-expanded="false">Search</button>
         <div id="search-mobile" class="menu-target">
-  <form action="/search">
+  <form action="/search/">
     <label class="sr-only" for="indicator_search-mobile">Search</label>
     <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
     --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -240,12 +266,10 @@ var translations = {
 
     </li>
 </ul>
-      <ul class="nav navbar-nav menu-target" id="menu"><li class="nav-link ">
+      <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
     <a href="/goals">Themes</a>
 </li><li class="nav-link ">
     <a href="/reporting-status">Reporting status</a>
-</li><li class="nav-link ">
-    <a href="/about">About</a>
 </li><li class="nav-link">
             <div class="btn-group menu-dropdown">
                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -253,6 +277,8 @@ var translations = {
                     <i class="fa fa-chevron-down"></i>
                 </button>
                 <ul class="dropdown-menu"><li class="nav-link ">
+    <a href="/impact-of-coronavirus">Impacts of the Coronavirus (COVID-19) pandemic</a>
+</li><li class="nav-link ">
     <a href="/introduction">Introduction and aims</a>
 </li><li class="nav-link ">
     <a href="/structure">Structure</a>
@@ -261,34 +287,58 @@ var translations = {
 </li><li class="nav-link ">
     <a href="/latest-update">Latest annual update</a>
 </li><li class="nav-link ">
+    <a href="/assessment">Assessment</a>
+</li><li class="nav-link ">
     <a href="/future-development">Future development</a>
+</li></ul>
+            </div>
+        </li><li class="nav-link">
+            <div class="btn-group menu-dropdown">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Assessment
+                    <i class="fa fa-chevron-down"></i>
+                </button>
+                <ul class="dropdown-menu"><li class="nav-link ">
+    <a href="/assessment/background">Background</a>
+</li><li class="nav-link ">
+    <a href="/assessment/results/">Summary of results</a>
 </li></ul>
             </div>
         </li><li class="nav-link ">
     <a href="/publications">Publications</a>
 </li><li class="nav-link ">
-    <a href="/official-statistics">Official statistics</a>
-</li><li class="nav-link ">
     <a href="/faq">FAQs</a>
-</li></ul>
+</li>
+
+</ul>
 
     </div>
 
   </div>
 
 </header>
-<div id="top" tabindex=-1></div>
-
 
 
 
 <div id="main-content" class="container" role="main">
 
+  <div class="container">
+    <ol class="breadcrumb">
+  
+  <li><a href="/">Home</a></li>
+  <li><a href="/goals">Themes</a></li>
+  
+  
+</ol>
+
+  </div>
   <div class="heading goal-banner goal-2">
     <div class="container">
-      <div class="row">
+      <div class="oif-row">
         <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-          <img id="theme-2"src="/assets/img/goals/en/2.png" alt="Water - Theme 2" id="goal-2" class="goal-icon-image goal-icon-image-" />
+          <img id="theme-2" src="/assets/img/goals/en/2.png"
+            alt="Water theme"
+            id="goal-2" class="goal-icon-image goal-icon-image-" />
         </div>
         <div class="col-xs-8 col-md-9 col-lg-10">
           <h1>
@@ -298,7 +348,7 @@ var translations = {
       </div>
     </div>
   </div>
-  
+
   
 
 
@@ -308,229 +358,265 @@ var translations = {
 
     
     
+    
+
+    <div class="column no-gutters goal-target-and-indicators">
+
+
       
 
-      <div class="row no-gutters goal-target-and-indicators">
+      
+      
+      
 
+      <div class="goal-indicator">
+        <span class="chart-name">
+          <a href="/2-1-1">B1: Pollution loads entering waters</a>
+        </span>
+        <span class="sr-only">Indicator status</span>
         
-        
-        
-        
-        
-        
-        
-        <div class="goal-indicator">
-            
-          <span class="chart-name">
-            <a href="/2-1-1">B1: Pollution loads entering waters</a>
-          </span>
-          <span class="sr-only">Indicator status</span>
-          
+
 
 
 <span class="status interim">
-    Interim
+    <span class="status-inner">Interim</span>
 </span>
 
-          
 
-
-          </div>
         
+
+
+
+
+
+
       </div>
+      
+    </div>
     
+    
+
+    <div class="column no-gutters goal-target-and-indicators">
+
+
       
 
-      <div class="row no-gutters goal-target-and-indicators">
+      
+      
+      
 
+      <div class="goal-indicator">
+        <span class="chart-name">
+          <a href="/2-2-1">B2: Serious pollution incidents to water</a>
+        </span>
+        <span class="sr-only">Indicator status</span>
         
-        
-        
-        
-        
-        
-        
-        <div class="goal-indicator">
-            
-          <span class="chart-name">
-            <a href="/2-2-1">B2: Serious pollution incidents to water</a>
-          </span>
-          <span class="sr-only">Indicator status</span>
-          
+
 
 
 <span class="status final">
-    Final
+    <span class="status-inner">Final</span>
 </span>
 
-          
 
-
-          </div>
         
+
+
+
+
+
+
       </div>
+      
+    </div>
     
+    
+
+    <div class="column no-gutters goal-target-and-indicators">
+
+
       
 
-      <div class="row no-gutters goal-target-and-indicators">
+      
+      
+      
 
+      <div class="goal-indicator">
+        <span class="chart-name">
+          <a href="/2-3-1">B3: State of the water environment</a>
+        </span>
+        <span class="sr-only">Indicator status</span>
         
-        
-        
-        
-        
-        
-        
-        <div class="goal-indicator">
-            
-          <span class="chart-name">
-            <a href="/2-3-1">B3: State of the water environment</a>
-          </span>
-          <span class="sr-only">Indicator status</span>
-          
+
 
 
 <span class="status interim">
-    Interim
+    <span class="status-inner">Interim</span>
 </span>
 
-          
 
-
-          </div>
         
+
+
+
+
+
+
       </div>
+      
+    </div>
     
+    
+
+    <div class="column no-gutters goal-target-and-indicators">
+
+
       
 
-      <div class="row no-gutters goal-target-and-indicators">
+      
+      
+      
 
+      <div class="goal-indicator">
+        <span class="chart-name">
+          <a href="/2-4-1">B4: Condition of bathing waters</a>
+        </span>
+        <span class="sr-only">Indicator status</span>
         
-        
-        
-        
-        
-        
-        
-        <div class="goal-indicator">
-            
-          <span class="chart-name">
-            <a href="/2-4-1">B4: Condition of bathing waters</a>
-          </span>
-          <span class="sr-only">Indicator status</span>
-          
+
 
 
 <span class="status final">
-    Final
+    <span class="status-inner">Final</span>
 </span>
 
-          
 
-
-          </div>
         
+
+
+
+
+
+
       </div>
+      
+    </div>
     
+    
+
+    <div class="column no-gutters goal-target-and-indicators">
+
+
       
 
-      <div class="row no-gutters goal-target-and-indicators">
+      
+      
+      
 
+      <div class="goal-indicator">
+        <span class="chart-name">
+          <a href="/2-5-1">B5: Water bodies achieving sustainable abstraction criteria</a>
+        </span>
+        <span class="sr-only">Indicator status</span>
         
-        
-        
-        
-        
-        
-        
-        <div class="goal-indicator">
-            
-          <span class="chart-name">
-            <a href="/2-5-1">B5: Water bodies achieving sustainable abstraction criteria</a>
-          </span>
-          <span class="sr-only">Indicator status</span>
-          
+
 
 
 <span class="status final">
-    Final
+    <span class="status-inner">Final</span>
 </span>
 
-          
 
-
-          </div>
         
+
+
+
+
+
+
       </div>
+      
+    </div>
     
+    
+
+    <div class="column no-gutters goal-target-and-indicators">
+
+
       
 
-      <div class="row no-gutters goal-target-and-indicators">
+      
+      
+      
 
+      <div class="goal-indicator">
+        <span class="chart-name">
+          <a href="/2-6-1">B6: Natural functions of water and wetland ecosystems</a>
+        </span>
+        <span class="sr-only">Indicator status</span>
         
-        
-        
-        
-        
-        
-        
-        <div class="goal-indicator">
-            
-          <span class="chart-name">
-            <a href="/2-6-1">B6: Natural functions of water and wetland ecosystems</a>
-          </span>
-          <span class="sr-only">Indicator status</span>
-          
+
 
 
 <span class="status in-development">
-    In development
+    <span class="status-inner">In development</span>
 </span>
 
-          
 
-
-          </div>
         
+
+
+
+
+
+
       </div>
+      
+    </div>
     
+    
+
+    <div class="column no-gutters goal-target-and-indicators">
+
+
       
 
-      <div class="row no-gutters goal-target-and-indicators">
+      
+      
+      
 
+      <div class="goal-indicator">
+        <span class="chart-name">
+          <a href="/2-7-1">B7: Health of freshwaters assessed through fish populations</a>
+        </span>
+        <span class="sr-only">Indicator status</span>
         
-        
-        
-        
-        
-        
-        
-        <div class="goal-indicator">
-            
-          <span class="chart-name">
-            <a href="/2-7-1">B7: Health of freshwaters assessed through fish populations</a>
-          </span>
-          <span class="sr-only">Indicator status</span>
-          
+
 
 
 <span class="status interim">
-    Interim
+    <span class="status-inner">Interim</span>
 </span>
 
-          
 
-
-          </div>
         
+
+
+
+
+
+
       </div>
+      
+    </div>
     
   </div>
 </div>
 
+
 <footer role="contentinfo">
   <div class="container">
-    <div class="row">
+    <div class="oif-row">
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
@@ -541,16 +627,24 @@ var translations = {
                 
                 </li>
               <li>
+                <a href="/about/">About</a>
+                
+                </li>
+              <li>
                 
                   <a href="https://twitter.com/defragovuk" target="_blank">Twitter</a>
                 
                 </li>
               <li>
-                <a href="/about/cookies-and-privacy/">Cookies</a>
+                <a href="/cookies-and-privacy/">Cookies</a>
                 
                 </li>
               <li>
-                <a href="/about/accessibility-statement/">Accessibility statement</a>
+                <a href="/accessibility-statement/">Accessibility statement</a>
+                
+                </li>
+              <li>
+                <a href="/official-statistics/">Official statistics</a>
                 
                 </li>
               
@@ -559,6 +653,7 @@ var translations = {
         </div>
       </div>
     </div>
+    
   </div>
 </footer>
 
@@ -567,7 +662,6 @@ var translations = {
 
 <!-- /.container </div> -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
@@ -638,19 +732,18 @@ var translations = {
   };
   CookieControl.load(cookieControlConfig);
 </script>
-
 <script>translations['general'] = translations['general'] || {};
     translations['general']['hide'] = 'hide';</script>
 
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/assets/js/sdg.js?v=20220518182705'></script>
+<script src='/assets/js/sdg.js?v=20220805092744'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20220518182705"></script><script>
+    <script src="/assets/js/custom.js?v=20220805092744"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
@@ -693,9 +786,13 @@ $(function() {
               graphLimits: domData.graphlimits,
               stackedDisaggregation: domData.stackeddisaggregation,
               categoryOrder: domData.categoryorder,
+              stackOrder: domData.stackorder,
               categoryColor: domData.categorycolor,
               graphAnnotations: domData.graphannotations,
+              graphTargetLines: domData.graphtargetlines,
+              graphSeriesBreaks: domData.graphseriesbreaks,
               indicatorDownloads: domData.indicatordownloads,
+              dataSchema: domData.dataschema,
               compositeBreakdownLabel: domData.compositebreakdownlabel,
               precision: domData.precision,
               continuousError: domData.continuouserror,
@@ -705,6 +802,7 @@ $(function() {
               graphSources: domData.graphsources,
               graphNote: domData.graphnote,
               graphNotes: domData.graphnotes,
+              yAxisLabels: domData.yaxislabels
             }),
             view  = new indicatorView(model, {
               rootElement: '#indicatorData',
@@ -725,8 +823,6 @@ $(function() {
     }
 });
 </script>
-
   
 </body>
 </html>
-

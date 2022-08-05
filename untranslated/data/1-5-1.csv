@@ -1,70 +1,73 @@
 Year,Measure,Value
-1997,Annual mean concentrations of NO2 - roadside,59.7150881895361
-1998,Annual mean concentrations of NO2 - roadside,58.2421847401745
-1999,Annual mean concentrations of NO2 - roadside,61.3486972955186
-2000,Annual mean concentrations of NO2 - roadside,56.4165323749898
-2001,Annual mean concentrations of NO2 - roadside,54.2851679382296
-2002,Annual mean concentrations of NO2 - roadside,51.7460264579612
-2003,Annual mean concentrations of NO2 - roadside,58.4535310530144
-2004,Annual mean concentrations of NO2 - roadside,55.5277125350862
-2005,Annual mean concentrations of NO2 - roadside,57.8571404880921
-2006,Annual mean concentrations of NO2 - roadside,58.249537457326
-2007,Annual mean concentrations of NO2 - roadside,59.0593623602557
-2008,Annual mean concentrations of NO2 - roadside,53.4815790715562
-2009,Annual mean concentrations of NO2 - roadside,48.0721795830657
-2010,Annual mean concentrations of NO2 - roadside,47.9592403469598
-2011,Annual mean concentrations of NO2 - roadside,43.8786467751698
-2012,Annual mean concentrations of NO2 - roadside,42.5531736739609
-2013,Annual mean concentrations of NO2 - roadside,41.0290040437522
-2014,Annual mean concentrations of NO2 - roadside,40.0199909267891
-2015,Annual mean concentrations of NO2 - roadside,35.2896507207603
-2016,Annual mean concentrations of NO2 - roadside,37.7141561231856
-2017,Annual mean concentrations of NO2 - roadside,33.2629094617719
-2018,Annual mean concentrations of NO2 - roadside,32.2916744882663
-2019,Annual mean concentrations of NO2 - roadside,30.3995057714047
-1997,Lower_CI_bound,50.5973034158814
-1998,Lower_CI_bound,48.46520064356177
-1999,Lower_CI_bound,52.69030888789227
-2000,Lower_CI_bound,48.04083904763906
-2001,Lower_CI_bound,47.10459157268585
-2002,Lower_CI_bound,44.28560848319844
-2003,Lower_CI_bound,47.9397093857294
-2004,Lower_CI_bound,46.038942614866855
-2005,Lower_CI_bound,48.40955091360523
-2006,Lower_CI_bound,47.7161035893632
-2007,Lower_CI_bound,47.678668603214
-2008,Lower_CI_bound,42.4536101107825
-2009,Lower_CI_bound,38.9767187854514
-2010,Lower_CI_bound,39.35253172796591
-2011,Lower_CI_bound,35.03324144871276
-2012,Lower_CI_bound,34.55255416321536
-2013,Lower_CI_bound,33.25784180447767
-2014,Lower_CI_bound,31.15662126082745
-2015,Lower_CI_bound,29.20457285985357
-2016,Lower_CI_bound,32.7405448401541
-2017,Lower_CI_bound,29.56630289417004
-2018,Lower_CI_bound,28.65994015326976
-2019,Lower_CI_bound,27.66418164480986
-1997,Upper_CI_bound,68.8328729631908
-1998,Upper_CI_bound,68.01916883678723
-1999,Upper_CI_bound,70.00708570314492
-2000,Upper_CI_bound,64.79222570234055
-2001,Upper_CI_bound,61.46574430377335
-2002,Upper_CI_bound,59.20644443272396
-2003,Upper_CI_bound,68.9673527202994
-2004,Upper_CI_bound,65.01648245530555
-2005,Upper_CI_bound,67.30473006257897
-2006,Upper_CI_bound,68.7829713252888
-2007,Upper_CI_bound,70.4400561172974
-2008,Upper_CI_bound,64.5095480323299
-2009,Upper_CI_bound,57.16764038068
-2010,Upper_CI_bound,56.565948965953694
-2011,Upper_CI_bound,52.72405210162684
-2012,Upper_CI_bound,50.55379318470644
-2013,Upper_CI_bound,48.80016628302673
-2014,Upper_CI_bound,48.88336059275075
-2015,Upper_CI_bound,41.37472858166703
-2016,Upper_CI_bound,42.68776740621711
-2017,Upper_CI_bound,36.95951602937376
-2018,Upper_CI_bound,35.92340882326284
-2019,Upper_CI_bound,33.13482989799954
+1997,Annual Mean NO2 concentration (µg/m3),59.7150881895361
+1998,Annual Mean NO2 concentration (µg/m3),58.2421847401745
+1999,Annual Mean NO2 concentration (µg/m3),61.3486972955186
+2000,Annual Mean NO2 concentration (µg/m3),56.4165323749898
+2001,Annual Mean NO2 concentration (µg/m3),54.2851679382296
+2002,Annual Mean NO2 concentration (µg/m3),51.7460264579612
+2003,Annual Mean NO2 concentration (µg/m3),58.4535310530144
+2004,Annual Mean NO2 concentration (µg/m3),55.5277125350862
+2005,Annual Mean NO2 concentration (µg/m3),57.8571404880921
+2006,Annual Mean NO2 concentration (µg/m3),58.249537457326
+2007,Annual Mean NO2 concentration (µg/m3),59.0593623602557
+2008,Annual Mean NO2 concentration (µg/m3),53.4815790715562
+2009,Annual Mean NO2 concentration (µg/m3),48.0721795830657
+2010,Annual Mean NO2 concentration (µg/m3),47.9592403469598
+2011,Annual Mean NO2 concentration (µg/m3),43.8786467751698
+2012,Annual Mean NO2 concentration (µg/m3),42.5531736739609
+2013,Annual Mean NO2 concentration (µg/m3),41.0290040437522
+2014,Annual Mean NO2 concentration (µg/m3),40.0199909267891
+2015,Annual Mean NO2 concentration (µg/m3),35.2896507207603
+2016,Annual Mean NO2 concentration (µg/m3),37.7141561231856
+2017,Annual Mean NO2 concentration (µg/m3),33.2629094617719
+2018,Annual Mean NO2 concentration (µg/m3),32.2916744882663
+2019,Annual Mean NO2 concentration (µg/m3),30.3998643529547
+2020,Annual Mean NO2 concentration (µg/m3),23.0376958770791
+1997,Lower_CI_Bound,50.5973034158814
+1998,Lower_CI_Bound,48.46520064356177
+1999,Lower_CI_Bound,52.69030888789227
+2000,Lower_CI_Bound,48.04083904763906
+2001,Lower_CI_Bound,47.10459157268585
+2002,Lower_CI_Bound,44.28560848319844
+2003,Lower_CI_Bound,47.9397093857294
+2004,Lower_CI_Bound,46.038942614866855
+2005,Lower_CI_Bound,48.40955091360523
+2006,Lower_CI_Bound,47.7161035893632
+2007,Lower_CI_Bound,47.678668603214
+2008,Lower_CI_Bound,42.4536101107825
+2009,Lower_CI_Bound,38.9767187854514
+2010,Lower_CI_Bound,39.35253172796591
+2011,Lower_CI_Bound,35.03324144871276
+2012,Lower_CI_Bound,34.55255416321536
+2013,Lower_CI_Bound,33.25784180447767
+2014,Lower_CI_Bound,31.15662126082745
+2015,Lower_CI_Bound,29.20457285985357
+2016,Lower_CI_Bound,32.7405448401541
+2017,Lower_CI_Bound,29.56630289417004
+2018,Lower_CI_Bound,28.65994015326976
+2019,Lower_CI_Bound,27.66497760345738
+2020,Lower_CI_Bound,20.98648834257208
+1997,Upper_CI_Bound,68.8328729631908
+1998,Upper_CI_Bound,68.01916883678723
+1999,Upper_CI_Bound,70.00708570314492
+2000,Upper_CI_Bound,64.79222570234055
+2001,Upper_CI_Bound,61.46574430377335
+2002,Upper_CI_Bound,59.20644443272396
+2003,Upper_CI_Bound,68.9673527202994
+2004,Upper_CI_Bound,65.01648245530555
+2005,Upper_CI_Bound,67.30473006257897
+2006,Upper_CI_Bound,68.7829713252888
+2007,Upper_CI_Bound,70.4400561172974
+2008,Upper_CI_Bound,64.5095480323299
+2009,Upper_CI_Bound,57.16764038068
+2010,Upper_CI_Bound,56.565948965953694
+2011,Upper_CI_Bound,52.72405210162684
+2012,Upper_CI_Bound,50.55379318470644
+2013,Upper_CI_Bound,48.80016628302673
+2014,Upper_CI_Bound,48.88336059275075
+2015,Upper_CI_Bound,41.37472858166703
+2016,Upper_CI_Bound,42.68776740621711
+2017,Upper_CI_Bound,36.95951602937376
+2018,Upper_CI_Bound,35.92340882326284
+2019,Upper_CI_Bound,33.13475110245202
+2020,Upper_CI_Bound,25.08890341158612

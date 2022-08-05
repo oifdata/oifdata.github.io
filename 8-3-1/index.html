@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CArray.prototype.reduce%2CObject.assign%2CArray.isArray%2CObject.values%2CArray.from%2CSet%2CArray.prototype.findIndex"></script>
+        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CArray.prototype.reduce%2CObject.assign%2CArray.isArray%2CObject.values%2CObject.entries%2CArray.from%2CSet%2CArray.prototype.findIndex"></script>
 <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/javascript-canvas-to-blob/3.15.0/js/canvas-to-blob.min.js"></script>
 
         <script>
@@ -117,81 +117,72 @@ var translations = {
         
         <link rel="canonical" href="/">
 
-        
-
         <!--[if IE 9]>
         <script src="/assets/js/lib/classList.js"></script>
         <![endif]-->
 
-        <!-- Favicons ================================================== -->
-        <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
-        http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
-        -->
-
         
 
+
+
+
+<link rel="shortcut icon" type="image/ico" href="/assets/img/favicons/favicon.ico">
+<link rel="icon" type="image/png" href="/assets/img/favicons/favicon.png">
+
+
+        
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
+        
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20220518182705">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20220805092744">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/assets/css/custom.css?v=20220518182705"><!-- ShareThis BEGIN --><!-- ShareThis END -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin="">
+        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/assets/css/custom.css?v=20220805092744">
+        
+
+        
 
     </head>
-<body class="language-en layout-indicator">
+<body class="language-en
+layout-indicator
+">
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your feedback via <a href=\"mailto:%email_address\">email</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"Department for Environment, Food & Rural Affairs - 25 Year Environment Plan Logo","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+
+<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your feedback via <a href=\"mailto:%email_address\">email</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"25 Year Environment Plan homepage","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
 
 <header role="banner" class="header-menu-left-aligned">
   <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
 
-  <div id="disclaimer">
-    <div class="container">
-  <div class="disclaimer-alert">
-    <div id="phase-wrapper">
-      <strong class="phase-tag"
-        >Alpha</strong
-      >
-       This is a development website. We welcome your feedback via <a href="mailto:25YEPindicators@defra.gov.uk">email</a>.
-    </div>
-    <a
-      id="takepartButton"
-      aria-labelledby="takepartButton"
-      href="https://forms.office.com/Pages/ResponsePage.aspx?id=UCQKdycCYkyQx044U38RAoc88l9iPWhOqSr4EYH784FUMUJWTEtDUlVVTjZSOTNQNFQzQkpQQ1hPQS4u"
-      class="btn btn-primary btn-download btn-takepart"
-      role="link"
-      >Complete our short user-feedback survey</a
-    >
-  </div>
-  <div id="update-alert" class="ex-indicator">
-      <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-      <p><strong>Info!</strong> The PDF version of the 2022 report will be published at 9.30am on Thursday 19 May.</p>
-      <p>The report will be available <a href="https://www.gov.uk/government/publications/25-year-environment-plan-progress-reports">here</a>.</p>
-      <p>We are working to update this site.</p> 
-  </div>
-</div>
-
-  </div>
-
   <div class="container">
 
+    <div class="disclaimer" id="disclaimer">
+      
+<strong class="phase-tag">Alpha</strong>
+
+<p>This is a development website. We welcome your feedback via <a href="mailto:25YEPindicators@defra.gov.uk">email</a>.</p>
+
+<a id="takepartButton"
+    href="https://defragroup.eu.qualtrics.com/jfe/form/SV_cTvfhqTFSj4QHlA"
+    class="btn btn-primary btn-download btn-takepart" role="link">Complete our short user-feedback survey</a>
+
+
+    </div>
+    
     <div class="widgets">
       <a class="navbar-brand" href="/" id="home">
-    <img src="/assets/img/SDG_logo.png" alt="Outcome Indicator Framework - Department for Environment, Food & Rural Affairs - 25 Year Environment Plan Logo" />
+    <img src="/assets/img/SDG_logo.png" alt="Outcome Indicator Framework - 25 Year Environment Plan homepage" />
 </a>
       <div id="search" class="menu-target">
-  <form action="/search">
+  <form action="/search/">
     <label class="sr-only" for="indicator_search">Search</label>
     <input type="text" name="q" id="indicator_search" title="Search" /><!--
     --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -206,12 +197,12 @@ var translations = {
         aria-label="Menu toggle. Click to expand or collapse the menu."
         aria-haspopup="true">
         <button data-target="menu-mobile" aria-expanded="false">Menu</button>
-        <ul class="nav navbar-nav menu-target" id="menu-mobile"><li class="nav-link ">
+        <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
     <a href="/goals">Themes</a>
 </li><li class="nav-link ">
     <a href="/reporting-status">Reporting status</a>
 </li><li class="nav-link ">
-    <a href="/about">About</a>
+    <a href="/impact-of-coronavirus">Impacts of the Coronavirus (COVID-19) pandemic</a>
 </li><li class="nav-link ">
     <a href="/introduction">Introduction and aims</a>
 </li><li class="nav-link ">
@@ -221,14 +212,49 @@ var translations = {
 </li><li class="nav-link ">
     <a href="/latest-update">Latest annual update</a>
 </li><li class="nav-link ">
+    <a href="/assessment">Assessment</a>
+</li><li class="nav-link ">
     <a href="/future-development">Future development</a>
+</li><li class="nav-link ">
+    <a href="/assessment/background">Background</a>
+</li><li class="nav-link ">
+    <a href="/assessment/results/">Summary of results</a>
 </li><li class="nav-link ">
     <a href="/publications">Publications</a>
 </li><li class="nav-link ">
-    <a href="/official-statistics">Official statistics</a>
-</li><li class="nav-link ">
     <a href="/faq">FAQs</a>
-</li></ul>
+</li>
+
+
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="Disable high contrast"
+           aria-label="Disable high contrast"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="Enable high contrast"
+           aria-label="Enable high contrast"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+
+</ul>
 
     </li>
     <li id="searchToggle"
@@ -236,7 +262,7 @@ var translations = {
         aria-haspopup="true">
         <button data-target="search-mobile" aria-expanded="false">Search</button>
         <div id="search-mobile" class="menu-target">
-  <form action="/search">
+  <form action="/search/">
     <label class="sr-only" for="indicator_search-mobile">Search</label>
     <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
     --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -245,12 +271,10 @@ var translations = {
 
     </li>
 </ul>
-      <ul class="nav navbar-nav menu-target" id="menu"><li class="nav-link ">
+      <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
     <a href="/goals">Themes</a>
 </li><li class="nav-link ">
     <a href="/reporting-status">Reporting status</a>
-</li><li class="nav-link ">
-    <a href="/about">About</a>
 </li><li class="nav-link">
             <div class="btn-group menu-dropdown">
                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -258,6 +282,8 @@ var translations = {
                     <i class="fa fa-chevron-down"></i>
                 </button>
                 <ul class="dropdown-menu"><li class="nav-link ">
+    <a href="/impact-of-coronavirus">Impacts of the Coronavirus (COVID-19) pandemic</a>
+</li><li class="nav-link ">
     <a href="/introduction">Introduction and aims</a>
 </li><li class="nav-link ">
     <a href="/structure">Structure</a>
@@ -266,23 +292,36 @@ var translations = {
 </li><li class="nav-link ">
     <a href="/latest-update">Latest annual update</a>
 </li><li class="nav-link ">
+    <a href="/assessment">Assessment</a>
+</li><li class="nav-link ">
     <a href="/future-development">Future development</a>
+</li></ul>
+            </div>
+        </li><li class="nav-link">
+            <div class="btn-group menu-dropdown">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Assessment
+                    <i class="fa fa-chevron-down"></i>
+                </button>
+                <ul class="dropdown-menu"><li class="nav-link ">
+    <a href="/assessment/background">Background</a>
+</li><li class="nav-link ">
+    <a href="/assessment/results/">Summary of results</a>
 </li></ul>
             </div>
         </li><li class="nav-link ">
     <a href="/publications">Publications</a>
 </li><li class="nav-link ">
-    <a href="/official-statistics">Official statistics</a>
-</li><li class="nav-link ">
     <a href="/faq">FAQs</a>
-</li></ul>
+</li>
+
+</ul>
 
     </div>
 
   </div>
 
 </header>
-<div id="top" tabindex=-1></div>
 
 
 
@@ -325,9 +364,8 @@ var translations = {
     </div>
   <% }); %>
 </script>
-
 <script type="text/template" id="units_template">
-  <% if(units.length) { %>
+  
     <h4>Unit of Measurement</h4>
     <fieldset>
       <legend class="sr-only">Unit of Measurement</legend>
@@ -336,7 +374,7 @@ var translations = {
         <label><input type="radio" name="unit" value="<%=unitsItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(unitsItem)%></label>
       <% }); %>
     </fieldset>
-  <% } %>
+  
 </script>
 
 <script type="text/template" id="series_template">
@@ -351,8 +389,7 @@ var translations = {
     </fieldset>
   <% } %>
 </script>
-
-<script>translations['indicator'] = {"annotation_2030_target":"2030 Target","annotation_base_line":"Baseline","annotation_target":"GES target","annotation_threshold":"GES threshold","announce_data_added":"Chart and table updated to include data.","announce_data_not_available":"Chart and table shows no data.","announce_data_removed":"Chart and table updated to exclude data.","chart":"Chart","chart_annotation":"Chart annotation","clear_all":"Clear all","clear_selections":"Clear selections","data_keyboard_navigation":"Press enter to browse data points with left and right arrow keys.","data_not_available":"These data are not available. Please choose alternative data to display.","data_tabular_alternative":"For tabular data alternative see Table tab.","dataset_size_warning":"There are too many datasets to show on the chart. Not all will be shown until you remove some selections.","download_chart":"Download Chart CSV","download_chart_image":"Download Chart Image","download_chart_image_title":"Download chart as image","download_csv":"Download CSV","download_csv_title":"Download as CSV","download_geojson":"Download GeoJSON","download_geojson_title":"Download as GeoJSON","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"Download Source CSV","download_source_sdmx":"Download Source SDMX","download_source_sdmx_title":"Download source data as SDMX","download_source_title":"Download source data as CSV","download_table":"Download Table CSV","edit":"Edit","edit_configuration":"Edit Configuration","edit_data":"Edit Data","edit_metadata":"Edit Metadata","footnote":"Footnote","geographical_area":"Geographical Area","global_metadata":"Global Metadata","global_metadata_blurb":"This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href=\"https://unstats.un.org/sdgs/metadata/\">Complete global metadata</a> is provided by the UN Statistics Division.","legend_help":"Click on the legend to remove individual lines from the chart.","loading":"Loading","loading_map":"Loading map","map":"Map","map_search":"Search","map_search_hide":"Hide search","map_search_show":"Show search","map_year_slider":"Year slider","national_metadata":"Metadata","national_metadata_blurb":"This table provides metadata for the interim or final indicator presented above.","next":"Next indicator","no_data_hint":"No options available because of filters above","plot_legend_description":"Plot legend: list of lines included in chart","previous":"Previous indicator","select_all":"Select all","series":"Series","series_help":"Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.","source":"Source","sources":"Sources","status":"Indicator status","sub_categories":"Sub-categories","sub_categories_show":"Show sub-categories:","table":"Table","table_column_sort":"Click to sort by this column","tags":"Tags","unit":"Unit","unit_of_measurement":"Unit of Measurement","units_type":"Units type","variable_hint":"Available when '%field' is selected","view_indicator_list":"View this goal's indicator list"};</script>
+<script>translations['indicator'] = {"annotation_2030_target":"2030 indicator target","annotation_base_line":"Baseline","annotation_series_break":"Series break","annotation_target":"GES target","annotation_threshold":"GES threshold","announce_data_added":"Chart and table updated to include data.","announce_data_not_available":"Chart and table shows no data.","announce_data_removed":"Chart and table updated to exclude data.","chart":"Chart","chart_annotation":"Chart annotation","clear_all":"Clear all","clear_selections":"Clear selections","data_keyboard_navigation":"Press enter to browse data points with left and right arrow keys.","data_not_available":"These data are not available. Please choose alternative data to display.","data_tabular_alternative":"For tabular data alternative see Table tab.","dataset_size_warning":"There are too many datasets to show on the chart. Not all will be shown until you remove some selections.","download_chart":"Download Chart CSV","download_chart_image":"Download Chart Image","download_chart_image_title":"Download chart as image","download_csv":"Download CSV","download_csv_title":"Download as CSV","download_geojson":"Download GeoJSON","download_geojson_title":"Download as GeoJSON","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"Download Source CSV","download_source_sdmx":"Download Source SDMX","download_source_sdmx_title":"Download source data as SDMX","download_source_title":"Download source data as CSV","download_table":"Download Table CSV","edit":"Edit","edit_configuration":"Edit Configuration","edit_data":"Edit Data","edit_metadata":"Edit Metadata","footnote":"Footnote","geographical_area":"Geographical Area","global_metadata":"Global Metadata","global_metadata_blurb":"This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href=\"https://unstats.un.org/sdgs/metadata/\">Complete global metadata</a> is provided by the UN Statistics Division.","legend_help":"Click on the legend to remove individual lines from the chart.","loading":"Loading","loading_map":"Loading map","map":"Map","map_search":"Search","map_search_hide":"Hide search","map_search_show":"Show search","map_year_slider":"Year slider","national_metadata":"Metadata","national_metadata_blurb":"This table provides metadata for the interim or final indicator presented above.","next":"Next indicator","no_data_hint":"No options available because of filters above","plot_legend_description":"Plot legend: list of lines included in chart","previous":"Previous indicator","select_all":"Select all","series":"Series","series_help":"Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.","source":"Source","sources":"Sources","status":"Indicator status","sub_categories":"Sub-categories","sub_categories_show":"Show sub-categories:","table":"Table","table_column_sort":"Click to sort by this column","tags":"Tags","unit":"Unit","unit_of_measurement":"Unit of Measurement","units_type":"Units type","variable_hint":"Available when '%field' is selected","view_indicator_list":"View this goal's indicator list"};</script>
 
 <script>translations['data'] = null;</script>
 
@@ -373,17 +410,17 @@ var translations = {
 
     
       
-<div class="previous-next-links row">
-    <div class="col-xs-3 col-md-3 col-lg-4 pull-left text-left">
-        <a class="btn btn-primary" href="/8-2-1" aria-labelledby="previous-link">
+<div class="previous-next-links oif-row space-between">
+    <div class="oif-row previous-next-link">
+        <a class="btn btn-primary" href="/8-2-1">
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
-            <span id="previous-link" class="hidden-sm hidden-xs">Previous indicator</span>
+            <span id="previous-link-top" class="hidden-sm hidden-xs">Previous indicator</span>
         </a>
     </div>
-    <div class="col-xs-3 col-md-3 col-lg-4 pull-right text-right">
-        <a class="btn btn-primary" href="/8-4-1" aria-labelledby="next-link">
+    <div class="oif-row right-justified previous-next-link">
+        <a class="btn btn-primary" href="/8-4-1">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            <span id="next-link" class="hidden-sm hidden-xs">Next indicator</span>
+            <span id="next-link-top" class="hidden-sm hidden-xs">Next indicator</span>
         </a>
     </div>
 </div>
@@ -403,7 +440,7 @@ var translations = {
       >
         <img
           src="/assets/img/goals/en/8.png"
-          alt="Biosecurity Chemical and Noise - Theme 8"
+          alt="Biosecurity Chemical and Noise theme"
           id="theme-8"
           class="goal-icon-image goal-icon-image-"
         />
@@ -430,6 +467,8 @@ var translations = {
 
   
 
+  
+
 <div class="row" id="page-content">
   <div class="col-xs-12">
     <h2 id="short-description">Short description</h2>
@@ -442,73 +481,339 @@ var translations = {
 
 <h2 id="readiness-and-links-to-data">Readiness and links to data</h2>
 
-<p>This indicator is not available for reporting in a final format in 2021. Further development is required to bring data together from a number of different sources and further work is underway to disaggregate these data to an England-only level. An interim indicator is presented here that shows annual UK emissions of (a) mercury from larger industrial sites and crematoria, and (b) 7 unintentionally produced POP substances (as listed in the Stockholm Convention Annex C): polychlorinated biphenyls; dioxin-like polychlorinated biphenyls; dioxins and furans; hexachlorobenzene; polychlorinated naphthalenes; pentachlorophenol; and pentachlorobenzene from a wide range of sources to air, land, and water. Some information is already published: <a href="http://randd.defra.gov.uk/Default.aspx?Menu=Menu&amp;Module=More&amp;Location=None&amp;ProjectID=19672&amp;FromSearch=Y&amp;Publisher=1&amp;SearchText=persistent%20organic%20pollutants&amp;GridPage=1&amp;SortString=ProjectCode&amp;SortOrder=Asc&amp;Paging=10#Description">Persistent Organic Pollutants Multimedia Emissions Inventory</a>, <a href="https://naei.beis.gov.uk/data/data-selector">National Atmospheric Emissions Inventory</a>, <a href="https://www.gov.uk/guidance/uk-pollutant-release-and-transfer-register-prtr-data-sets">Pollutant Release and Transfer Registry</a> and <a href="http://www.pops.int/Countries/Reporting/NationalReports/tabid/3668/Default.aspx">National Reports for the Stockholm Convention</a>.</p>
+<p>This indicator is not available for reporting in a final format in 2022 as further development is required to bring data together from a number of different sources. A revised interim indicator is presented here that shows annual England-level emissions of (a) mercury from larger industrial sites and crematoria, and (b) 7 unintentionally produced POP substances (as listed in the Stockholm Convention Annex C): polychlorinated biphenyls; dioxin-like polychlorinated biphenyls; dioxins and furans; hexachlorobenzene; polychlorinated naphthalenes; pentachlorophenol; and pentachlorobenzene from a wide range of sources to air, land, and water. These POPs data are a disaggregation of the annual UK-level data previously presented in this indicator.</p>
 
-<h2 id="note">Note</h2>
+<p>Some information is already published: <a href="https://data.gov.uk/dataset/cfd94301-a2f2-48a2-9915-e477ca6d8b7e/pollution-inventory">Pollution Inventory</a>, <a href="https://naei.beis.gov.uk/reports/reports?report_id=1030">National Atmospheric Emissions Inventory</a>, <a href="http://randd.defra.gov.uk/Default.aspx?Menu=Menu&amp;Module=More&amp;Location=None&amp;ProjectID=19672&amp;FromSearch=Y&amp;Publisher=1&amp;SearchText=persistent%20organic%20pollutants&amp;GridPage=1&amp;SortString=ProjectCode&amp;SortOrder=Asc&amp;Paging=10#Description">Persistent Organic Pollutants Multimedia Emissions Inventory</a>, and <a href="http://www.pops.int/Countries/Reporting/NationalReports/tabid/3668/Default.aspx">National Reports for the Stockholm Convention</a>. <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates">Population estimates</a> used to apportion some UK emissions of POPs at an England level are also published annually.</p>
 
-<p>While the currently available data for POPs predate the 25 Year Environment Plan, they reflect the most recently available information on the emissions of the 7 POPs included within this indicator and enable a better understanding of a baseline from which to measure progress towards the goals of the 25 Year Environment Plan. Updated data, including results for 2017 and 2018, are expected to be published in Summer 2021; these new data will be reflected in future indicator updates.</p>
+<p>For further information on the methodology used to produce this indicator email <a href="mailto:chemicalrestrictions@environment-agency.gov.uk">chemicalrestrictions@environment-agency.gov.uk</a>.</p>
 
-<h2 id="trend-description">Trend description</h2>
+<h2 id="trend-description-for-figures-h3a-and-h3b">Trend description for Figures H3a and H3b</h2>
 
-<p><strong>a) Emissions of mercury to air, land and water</strong></p>
+<h3 id="h3a-emissions-of-mercury-to-air-land-and-water">H3a) Emissions of mercury to air, land and water</h3>
 
-<p>In 2018, UK emissions of mercury from larger industrial sites and crematoria totalled 2,465 kg, with larger industrial sites accounting for 75% of this total.</p>
+<p>In 2019, emissions of mercury from larger industrial sites and crematoria in England totalled 1,652 kg, with larger industrial sites accounting for 68% of this figure.</p>
 
-<p><strong>b) Emissions of persistent organic pollutants to air, land and water</strong></p>
+<h3 id="h3b-emissions-of-persistent-organic-pollutants-to-air-land-and-water">H3b) Emissions of persistent organic pollutants to air, land and water</h3>
 
-<p>UK emissions of all 7 POPs included within this indicator have fallen between 2000 and 2016.</p>
+<p>Emissions attributed to England for all 7 POPs included within this indicator have fallen between 2000 and 2019.</p>
 
-<p>Dioxins and furans are a family of chemicals strongly associated with thermal processes linked to combustion (particularly of waste) and manufacture of metals. Their emissions were already reduced by 60% between 1990 and 2000, with improvements in technology and tighter environmental regulations contributing to this fall. Between 2000 and 2010, emissions of dioxins and furans fell by a further 30% but have since levelled out, with emissions post-2010 largely linked to more diffuse sources such as domestic combustion of solid fossil fuels, accidental fire, and illegal burning of waste.</p>
+<p>Dioxins and furans are a family of chemicals strongly associated with thermal processes linked to combustion (particularly of waste) and manufacture of metals. Their emissions were already reduced by over 60% between 1990 and 2000, with improvements in technology and tighter environmental regulations contributing to this fall. Between 2000 and 2010, emissions of dioxins and furans fell by a further 43% but have since levelled out, with emissions post-2010 largely linked to more diffuse sources such as domestic combustion of solid fossil fuels, accidental fire, and illegal burning of waste.</p>
 
-<p>By 2013, emissions of hexachlorobenzene had fallen to 26% of their 2000 baseline figure but have risen annually between 2013 and 2016 to reach 42% of emissions in 2000. This is linked to waste incineration and the increasing use of a specific pesticide (chlorothalonil) for which it is a by-product. Emissions of pentachlorophenol have fallen consistently since 2000 to reach 39% of their baseline figure in 2016. Emissions of the remaining 4 POPs have followed a very similar pattern to each other, falling sharply in the first 10 years and then levelling out to between 13% and 18% of their baseline figures in 2016. In particular for polychlorinated biphenyls and dioxin-like polychlorinated biphenyls, this relates to remaining final in-use stocks of heat-transfer fluids in di-electric equipment in the energy transmission networks.</p>
+<p>By 2013, emissions of hexachlorobenzene had fallen to 27% of their 2000 baseline figure but they have risen annually since then to reach 52% of emissions in 2000. This is linked to waste incineration and the increasing use of a specific pesticide (chlorothalonil) for which it is a by-product. Emissions of pentachlorophenol have fallen consistently since 2000 to reach 31% of their baseline figure in 2019. Emissions of the remaining 4 POPs have followed a very similar pattern to each other, falling sharply in the first 10 years and then levelling out to between 11% and 18% of their baseline figures in 2019. In particular for polychlorinated biphenyls and dioxin-like polychlorinated biphenyls, this relates to remaining final in-use stocks of heat-transfer fluids in di-electric equipment in the energy transmission networks.</p>
+
+<h2 id="assessment-of-change">Assessment of change</h2>
+
+<p>A decrease (or improvement) was observed for all emissions of persistent organic pollutants (POPs) to air land and water covered by the interim H3 indicator, over the medium and long term. Most POPs also decrease over the most recent 5 years for which trends can be assessed (2013 to 2018); however, little or no change was seen in emission of polychlorinated naphthalenes during this period, and there was an increase (deterioration) in hexachlorobenzene.</p>
+
+<p>Change since 2018 has also been assessed. Since 2018, there has been a mixed picture with 3 POPs decreasing, 3 showing little or no change, and hexachlorobenzene increasing. However, this is based on only 2 data points so should be considered as indicative and not evidence of a clear trend.</p>
+
+<p>Further information on this assessment, along with details on the methodology, is provided in the <a href="/assessment/background">Assessment background</a> page. Summaries by 25 Year Environment Plan goal and information on indicator links are presented in the <a href="/assessment/results/">Assessment results</a> pages.</p>
+
+<h3 id="table-h3bi-assessment-of-change-in-the-emissions-of-dioxins-and-furans-to-air-land-and-water-england">Table H3bi: Assessment of change in the emissions of dioxins and furans to air, land and water, England</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Period</th>
+      <th>Date range</th>
+      <th>Percent change</th>
+      <th>Assessment of change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Short term</td>
+      <td>2013-2018</td>
+      <td>-5 (smoothed Loess)</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>Medium term</td>
+      <td>2008-2018</td>
+      <td>-19.2 (smoothed Loess)</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>Long term</td>
+      <td>2000-2018</td>
+      <td>-53.1 (smoothed Loess)</td>
+      <td>Improvement</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="table-h3bii-assessment-of-change-in-the-emissions-of-hexachlorobenzene-to-air-land-and-water-england">Table H3bii: Assessment of change in the emissions of hexachlorobenzene to air, land and water, England</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Period</th>
+      <th>Date range</th>
+      <th>Percent change</th>
+      <th>Assessment of change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Short term</td>
+      <td>2013-2018</td>
+      <td>+57.2 (smoothed Loess)</td>
+      <td>Deterioration</td>
+    </tr>
+    <tr>
+      <td>Medium term</td>
+      <td>2008-2018</td>
+      <td>-27.9 (smoothed Loess)</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>Long term</td>
+      <td>2000-2018</td>
+      <td>-46.4 (smoothed Loess)</td>
+      <td>Improvement</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="table-h3biii-assessment-of-change-in-the-emissions-of-pentachlorophenol-to-air-land-and-water-england">Table H3biii: Assessment of change in the emissions of pentachlorophenol to air, land and water, England</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Period</th>
+      <th>Date range</th>
+      <th>Percent change</th>
+      <th>Assessment of change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Short term</td>
+      <td>2013-2018</td>
+      <td>-28.6 (smoothed Loess)</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>Medium term</td>
+      <td>2008-2018</td>
+      <td>-47.1 (smoothed Loess)</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>Long term</td>
+      <td>2000-2018</td>
+      <td>-66.3 (smoothed Loess)</td>
+      <td>Improvement</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="table-h3biv-assessment-of-change-in-the-emissions-of-polychlorinated-biphenyl-to-air-land-and-water-england">Table H3biv: Assessment of change in the emissions of polychlorinated biphenyl to air, land and water, England</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Period</th>
+      <th>Date range</th>
+      <th>Percent change</th>
+      <th>Assessment of change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Short term</td>
+      <td>2013-2018</td>
+      <td>-28.3 (smoothed Loess)</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>Medium term</td>
+      <td>2008-2018</td>
+      <td>-59.1 (smoothed Loess)</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>Long term</td>
+      <td>2000-2018</td>
+      <td>-88.3 (smoothed Loess)</td>
+      <td>Improvement</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="table-h3bv-assessment-of-change-in-the-emissions-of-dioxin-like-polychlorinated-biphenyl-to-air-land-and-water-england">Table H3bv: Assessment of change in the emissions of dioxin-like polychlorinated biphenyl to air, land and water, England</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Period</th>
+      <th>Date range</th>
+      <th>Percent change</th>
+      <th>Assessment of change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Short term</td>
+      <td>2013-2018</td>
+      <td>-40.3 (smoothed Loess)</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>Medium term</td>
+      <td>2008-2018</td>
+      <td>-61.4 (smoothed Loess)</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>Long term</td>
+      <td>2000-2018</td>
+      <td>-88.2 (smoothed Loess)</td>
+      <td>Improvement</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="table-h3bvi-assessment-of-change-in-the-emissions-of-polychlorinated-naphthalenes-to-air-land-and-water-england">Table H3bvi: Assessment of change in the emissions of polychlorinated naphthalenes to air, land and water, England</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Period</th>
+      <th>Date range</th>
+      <th>Percent change</th>
+      <th>Assessment of change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Short term</td>
+      <td>2013-2018</td>
+      <td>+2.7 (smoothed Loess)</td>
+      <td>Little or no change</td>
+    </tr>
+    <tr>
+      <td>Medium term</td>
+      <td>2008-2018</td>
+      <td>-34.9 (smoothed Loess)</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>Long term</td>
+      <td>2000-2018</td>
+      <td>-81.7 (smoothed Loess)</td>
+      <td>Improvement</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="table-h3bvii-assessment-of-change-in-the-emissions-of-pentachlorobenzine-to-air-land-and-water-england">Table H3bvii: Assessment of change in the emissions of pentachlorobenzine to air, land and water, England</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Period</th>
+      <th>Date range</th>
+      <th>Percent change</th>
+      <th>Assessment of change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Short term</td>
+      <td>2013-2018</td>
+      <td>-15.5 (smoothed Loess)</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>Medium term</td>
+      <td>2008-2018</td>
+      <td>-34.2 (smoothed Loess)</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>Long term</td>
+      <td>2000-2018</td>
+      <td>-84.6 (smoothed Loess)</td>
+      <td>Improvement</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Note that assessment categories for the short, medium and long term were assigned based on smoothed data, so percent change figures in Tables H3bi to H3bvii may differ from unsmoothed values quoted elsewhere. Percent change refers to the difference seen from the first to last year in the specified date range.</p>
 
   </div>
 </div>
 
 
-   
+  
+
+
+
+  
+<div class="previous-next-links oif-row space-between">
+    <div class="oif-row previous-next-link">
+        <a class="btn btn-primary" href="/8-2-1">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+            <span id="previous-link-bottom" class="hidden-sm hidden-xs">Previous indicator</span>
+        </a>
+    </div>
+    <div class="oif-row right-justified previous-next-link">
+        <a class="btn btn-primary" href="/8-4-1">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            <span id="next-link-bottom" class="hidden-sm hidden-xs">Next indicator</span>
+        </a>
+    </div>
+</div>
+
 
 
 <div
-  class="row"
+  class="oif-row"
   id="indicatorData"
   data-indicatorid="indicator_8-3-1"
   data-id="8-3-1"
-  data-country="UK"
-  data-graphgeographies="null"
+  data-country="England"
   data-charttitle="Emissions of mercury and persistent organic pollutants to the environment"
-  data-charttitles="[{&quot;series&quot;:&quot;H3a (interim)&quot;,&quot;title&quot;:&quot;H3a (interim), UK emissions of mercury to air, land and water, 2016 to 2018&quot;},{&quot;series&quot;:&quot;H3b (interim)&quot;,&quot;title&quot;:&quot;H3b (interim), UK emissions of persistent organic pollutants to air, land and water, 2000 to 2016&quot;}]"
+  data-charttitles="[{&quot;series&quot;:&quot;H3a (interim)&quot;,&quot;title&quot;:&quot;H3a (interim): Emissions of mercury to air, land and water, England, 2016 to 2019&quot;},{&quot;series&quot;:&quot;H3b (interim)&quot;,&quot;title&quot;:&quot;H3b (interim): Emissions of persistent organic pollutants to air, land and water, England, 2000 to 2019&quot;}]"
   data-measurementunit=""
-  data-measurementunits="[{&quot;series&quot;:&quot;H3a (interim)&quot;,&quot;units&quot;:&quot;Emissions (kg)&quot;},{&quot;series&quot;:&quot;H3b (interim)&quot;,&quot;units&quot;:&quot;Index (2000 = 100)&quot;}]"
+  data-xaxislabel=""
   data-showdata="true"
   data-graphtype="line"
   data-graphtypes="[{&quot;series&quot;:&quot;H3a (interim)&quot;,&quot;type&quot;:&quot;bar&quot;},{&quot;series&quot;:&quot;H3b (interim)&quot;,&quot;type&quot;:&quot;line&quot;}]"
   data-geocoderegex=""
   data-showmap="false"
   data-startvalues="null"
-  data-startvaluesseries="[{&quot;series&quot;:&quot;H3a (interim)&quot;,&quot;field&quot;:&quot;Source&quot;,&quot;value&quot;:&quot;Larger industial sites&quot;},{&quot;series&quot;:&quot;H3a (interim)&quot;,&quot;field&quot;:&quot;Source&quot;,&quot;value&quot;:&quot;Crematoria&quot;},{&quot;series&quot;:&quot;H3b (interim)&quot;,&quot;field&quot;:&quot;Pollutant&quot;,&quot;value&quot;:&quot;Hexachlorobenzene&quot;},{&quot;series&quot;:&quot;H3b (interim)&quot;,&quot;field&quot;:&quot;Pollutant&quot;,&quot;value&quot;:&quot;Polychlorinated biphenyl&quot;},{&quot;series&quot;:&quot;H3b (interim)&quot;,&quot;field&quot;:&quot;Pollutant&quot;,&quot;value&quot;:&quot;Polychlorinated naphthalenes&quot;},{&quot;series&quot;:&quot;H3b (interim)&quot;,&quot;field&quot;:&quot;Pollutant&quot;,&quot;value&quot;:&quot;Pentachlorophenol&quot;},{&quot;series&quot;:&quot;H3b (interim)&quot;,&quot;field&quot;:&quot;Pollutant&quot;,&quot;value&quot;:&quot;PentaChloroBenzine&quot;},{&quot;series&quot;:&quot;H3b (interim)&quot;,&quot;field&quot;:&quot;Pollutant&quot;,&quot;value&quot;:&quot;Dioxin-like Polychlorinated biphenyl&quot;},{&quot;series&quot;:&quot;H3b (interim)&quot;,&quot;field&quot;:&quot;Pollutant&quot;,&quot;value&quot;:&quot;Dioxins and Furans&quot;}]"
-  data-graphlimits="[{&quot;series&quot;:&quot;H3a (interim)&quot;,&quot;minimum&quot;:0,&quot;maximum&quot;:3000,&quot;stepSize&quot;:500},{&quot;series&quot;:&quot;H3b (interim)&quot;,&quot;minimum&quot;:0,&quot;maximum&quot;:110,&quot;stepSize&quot;:10}]"
+  data-graphlimits="[{&quot;maximum&quot;:3000,&quot;minimum&quot;:0,&quot;series&quot;:&quot;H3a (interim)&quot;,&quot;stepSize&quot;:500},{&quot;maximum&quot;:110,&quot;minimum&quot;:0,&quot;series&quot;:&quot;H3b (interim)&quot;,&quot;stepSize&quot;:10}]"
+  data-graphannotations="[{&quot;preset&quot;:&quot;base_line&quot;,&quot;series&quot;:&quot;H3b (interim)&quot;}]"
+  data-graphtargetlines="null"
+  data-graphseriesbreaks="null"
+  data-indicatordownloads="null"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Pollutant&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;Dioxin-like Polychlorinated biphenyl&quot;,&quot;Dioxins and Furans&quot;,&quot;Hexachlorobenzene&quot;,&quot;PentaChloroBenzine&quot;,&quot;Pentachlorophenol&quot;,&quot;Polychlorinated biphenyl&quot;,&quot;Polychlorinated naphthalenes&quot;]},&quot;title&quot;:&quot;Pollutant&quot;},{&quot;name&quot;:&quot;Series&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;H3a (interim)&quot;,&quot;H3b (interim)&quot;]},&quot;title&quot;:&quot;Series&quot;},{&quot;name&quot;:&quot;Source&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;Crematoria&quot;,&quot;Larger industrial sites&quot;]},&quot;title&quot;:&quot;Source&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;},{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;}]}"
+  data-compositebreakdownlabel=""
+  data-precision="null"
+  data-graphgeographies="null"
+  data-measurementunits="[{&quot;series&quot;:&quot;H3a (interim)&quot;,&quot;units&quot;:&quot;kg&quot;},{&quot;series&quot;:&quot;H3b (interim)&quot;,&quot;units&quot;:&quot;Index (2000 = 100)&quot;}]"
+  data-startvaluesseries="[{&quot;field&quot;:&quot;Source&quot;,&quot;series&quot;:&quot;H3a (interim)&quot;,&quot;value&quot;:&quot;Larger industrial sites&quot;},{&quot;field&quot;:&quot;Source&quot;,&quot;series&quot;:&quot;H3a (interim)&quot;,&quot;value&quot;:&quot;Crematoria&quot;},{&quot;field&quot;:&quot;Pollutant&quot;,&quot;series&quot;:&quot;H3b (interim)&quot;,&quot;value&quot;:&quot;Hexachlorobenzene&quot;},{&quot;field&quot;:&quot;Pollutant&quot;,&quot;series&quot;:&quot;H3b (interim)&quot;,&quot;value&quot;:&quot;Polychlorinated biphenyl&quot;},{&quot;field&quot;:&quot;Pollutant&quot;,&quot;series&quot;:&quot;H3b (interim)&quot;,&quot;value&quot;:&quot;Polychlorinated naphthalenes&quot;},{&quot;field&quot;:&quot;Pollutant&quot;,&quot;series&quot;:&quot;H3b (interim)&quot;,&quot;value&quot;:&quot;Pentachlorophenol&quot;},{&quot;field&quot;:&quot;Pollutant&quot;,&quot;series&quot;:&quot;H3b (interim)&quot;,&quot;value&quot;:&quot;PentaChloroBenzine&quot;},{&quot;field&quot;:&quot;Pollutant&quot;,&quot;series&quot;:&quot;H3b (interim)&quot;,&quot;value&quot;:&quot;Dioxin-like Polychlorinated biphenyl&quot;},{&quot;field&quot;:&quot;Pollutant&quot;,&quot;series&quot;:&quot;H3b (interim)&quot;,&quot;value&quot;:&quot;Dioxins and Furans&quot;}]"
   
     data-stackeddisaggregation="[{&quot;series&quot;:&quot;H3a (interim)&quot;}]"
   
   data-categoryorder="null"
-  data-categorycolor="null"
-  data-graphannotations="[{&quot;series&quot;:&quot;H3b (interim)&quot;,&quot;preset&quot;:&quot;base_line&quot;}]"
-  data-indicatordownloads="null"
-  data-compositebreakdownlabel=""
-  data-precision="null"
+  data-stackorder="null"
+  data-categorycolor="{&quot;H3a (interim)&quot;:{&quot;Crematoria&quot;:&quot;#F46A25&quot;,&quot;Larger industrial sites&quot;:&quot;#12436D&quot;},&quot;H3b (interim)&quot;:{&quot;Dioxin-like Polychlorinated biphenyl&quot;:&quot;#F46A25&quot;,&quot;Dioxins and Furans&quot;:&quot;#3F94DE&quot;,&quot;Hexachlorobenzene&quot;:&quot;#801650&quot;,&quot;PentaChloroBenzine&quot;:&quot;#DC6AAF&quot;,&quot;Pentachlorophenol&quot;:&quot;#8F8F8F&quot;,&quot;Polychlorinated biphenyl&quot;:&quot;#28A197&quot;,&quot;Polychlorinated naphthalenes&quot;:&quot;#12436D&quot;}}"
   data-continuouserror="null"
   data-multiaxes="null"
   data-mixedtype="null"
   data-graphsource=""
-  data-graphsources="[{&quot;series&quot;:&quot;H3a (interim)&quot;,&quot;source&quot;:&quot;Larger industrial sites data, UK pollutant release and transfer register (UK-PRTR);  Crematoria data, National Atmospheric Emissions Inventory (NAEI)&quot;},{&quot;series&quot;:&quot;H3b (interim)&quot;,&quot;source&quot;:&quot;Persistent Organic Pollutants Multimedia Emissions Inventory&quot;}]"
+  data-graphsources="[{&quot;series&quot;:&quot;H3a (interim)&quot;,&quot;source&quot;:&quot;Larger industrial sites data, UK pollutant release and transfer register;  Crematoria data, National Atmospheric Emissions Inventory&quot;},{&quot;series&quot;:&quot;H3b (interim)&quot;,&quot;source&quot;:&quot;Persistent Organic Pollutants Multimedia Emissions Inventory&quot;}]"
   data-graphnote=""
-  data-graphnotes="[{&quot;series&quot;:&quot;H3a (interim)&quot;,&quot;note&quot;:&quot;Emissions of mercury from larger industrial sites (including primary ferrous and non-ferrous metal production, cement production, oil refining and combustion activities over 50 megawatts [coal-fired power stations]) are to air, land and water; emissions from crematoria are to air only. Combined, these sources account for approximately 85% of total mercury emissions in the UK. The balance of emissions come from consumer product waste and contaminated sites; these are not currently included in this indicator.&quot;},{&quot;series&quot;:&quot;H3b (interim)&quot;,&quot;note&quot;:&quot;Emissions of POPs are to air, land and water; POPs are also present in landfill and other waste streams, which are not currently included in these data. Historical data are available which show significantly reduced emissions prior to 2000; data are presented here from 2000 onwards to focus upon recent trends. &quot;}]"
+  data-graphnotes="[{&quot;note&quot;:&quot;Emissions of mercury from larger industrial sites (including primary ferrous and non-ferrous metal production, cement production, oil refining and combustion activities over 50 megawatts [coal-fired power stations]) are to air, land and water; emissions from crematoria are to air only. At a UK level, these sources together account for approximately 85% of total mercury emissions. The balance of emissions come from consumer product waste and contaminated sites; these are not currently included in this indicator.&quot;,&quot;series&quot;:&quot;H3a (interim)&quot;},{&quot;note&quot;:&quot;Emissions of POPs are to air, land and water. POPs are also present in landfill\nand other waste streams, which are not currently included in these data. Historical\ndata are available which show significantly reduced emissions prior to 2000; data\nare presented here from 2000 onwards to focus upon recent trends.\n\nThe England-level POPs emissions presented in Figure H3b have been calculated from\nUK data by attributing emissions from larger industrial sources to their country\nof origin; emissions from other sources have been attributed on a population basis.\nThis approach is considered to give the best available figures for England within\nthe UK context.\n&quot;,&quot;series&quot;:&quot;H3b (interim)&quot;}]"
+  data-yaxislabels="null"
 >
-
-  <span role="status" class="sr-only" id="indicator-data-view-status"></span>
-  <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
-    <div id="serieses"></div>
+  
+    <span role="status" class="sr-only" id="indicator-data-view-status"></span>
+    <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
+      <div id="serieses"></div>
 <div id="units"></div>
 <div id="toolbar">
   <span id="series-help">
@@ -519,9 +824,8 @@ var translations = {
     <p class="async-loading" data-img="/assets/img/loading-small.gif"></p>
   </div>
 </div>
-
-  </div>
-  <div id="indicator-main" class="indicator-main col-md-9">
+    </div>
+    <div id="indicator-main" class="indicator-main col-md-9">
     <section>
 
   <p class="async-loading" data-img="/assets/img/loading-small.gif"></p>
@@ -533,28 +837,65 @@ var translations = {
 </div>
 <ul class="nav nav-tabs non-stacking-tabs data-view" role="tablist">
   
-  <li role="presentation" class="nav-item active">
-    <a class="nav-link" data-toggle="tab" id="tab-chartview" href="#chartview" aria-controls="chartview" role="tab" data-on="click"
+    
+      
+        <li role="presentation" class="nav-item active">
+          
+
+<a 
+class="nav-link" 
+data-toggle="tab" 
+role="tab" 
+id="tab-chartview"
+href="#chartview"
+aria-controls="chartview"
+aria-describedby="table-alternative"
+data-on="click"
 data-event-category="Tab change"
 data-event-action="Change data view"
 data-event-label="Change to Chart tab"
- aria-describedby="table-alternative">Chart</a>
-  </li>
+
+>Chart</a>
+
+        </li>        
+      
+      
   
-  
-  <li role="presentation" class="nav-item">
-    <a class="nav-link" data-toggle="tab" id="tab-tableview" href="#tableview" aria-controls="tableview" role="tab" data-on="click"
+    
+      
+        <li role="presentation" class="nav-item">
+          
+
+<a 
+class="nav-link" 
+data-toggle="tab" 
+role="tab" 
+id="tab-tableview"
+href="#tableview"
+aria-controls="tableview"
+aria-describedby="table-alternative"
+data-on="click"
 data-event-category="Tab change"
 data-event-action="Change data view"
 data-event-label="Change to Table tab"
->Table</a>
-  </li>
-  </ul>
 
+>Table</a>
+
+        </li>        
+      
+      
+  
+    
+      
+    
+  
+</ul>
     <div class="tab-content data-view">
   
-  <div role="tabpanel" class="tab-pane active" id="chartview">
-    <div id="dataset-size-warning" style="display:none" role="alert">
+    
+    
+      <div role="tabpanel" class="tab-pane active" id="chartview">
+        <div id="dataset-size-warning" style="display:none" role="alert">
   <i class="fa fa-bolt"><span class="sr-only">Warning:</span></i>
   There are too many datasets to show on the chart. Not all will be shown until you remove some selections.
 </div>
@@ -563,7 +904,7 @@ data-event-label="Change to Table tab"
 <div id="selectionsChart">
   <figure role="group">
     <div id="chart-canvas">
-      <h3 id="chart-heading" class="chart-title">H3a (interim), UK emissions of mercury to air, land and water, 2016 to 2018</h3>
+      <h3 id="chart-heading" class="chart-title">H3a (interim): Emissions of mercury to air, land and water, England, 2016 to 2019</h3>
       <div id="chart" class="plot-container">
         <script>
   /**
@@ -735,6 +1076,26 @@ data-event-label="Change to Table tab"
       orderLegend(order);
     };
 
+    const orderStacks = (config, orders) => {
+      const labels = config.data.labels;
+
+      config.data.labels = orders;
+      config.data.allLabels = orders;
+
+      const numberOfDatasets = config.data.datasets.length;
+
+      const rows = labels
+        .map((label, index) => [label, config.data.datasets.map(dataset => dataset.data[index])].flat());
+
+      const reordered_rows = orders.map(order => rows.filter(row => row[0] === order)[0]);
+
+      let unzipped = [...Array(numberOfDatasets + 1).keys()].map(index => reordered_rows.map(reordered_row => reordered_row[index]));
+
+      unzipped.slice(1).forEach((reordered_data, index) => {
+          config.data.datasets[index].data = reordered_data;
+      });
+    }
+
 </script>
 
 <canvas
@@ -753,7 +1114,7 @@ data-event-label="Change to Table tab"
           config.options.scales.yAxes[0].ticks.max = info.graphLimits.maximum;
           config.options.scales.yAxes[0].ticks.min = info.graphLimits.minimum;
           config.options.scales.yAxes[0].ticks.stepSize =
-          info.graphLimits.stepSize;
+            info.graphLimits.stepSize;
         }
       }
       config.options.scales.yAxes[0].ticks.max = info.graphLimits.maximum;
@@ -763,7 +1124,6 @@ data-event-label="Change to Table tab"
     }
   });
 </script>
-
 <span style="display: none;" id="chart-annotations" role="status"></span>
 <script>
 opensdg.annotationPresets = {
@@ -771,16 +1131,21 @@ opensdg.annotationPresets = {
         // This "common" preset is applied to all annotations automatically.
         borderColor: '#505a5f',
         type: 'line',
+        drawTime: 'afterDatasetsDraw',
         label: {
             backgroundColor: 'black',
+            
             fontColor: 'white',
+            
         },
         // This "highContrast" overrides colors when in high-contrast mode.
         highContrast: {
             label: {
                 backgroundColor: 'white',
-                fontColor: 'black'
-            }
+                
+                fontColor: 'black',
+                
+            },
         },
         // This callback is used to generate a generic description for screenreaders.
         // This can be overridden to be a more specific string, eg:
@@ -805,6 +1170,24 @@ opensdg.annotationPresets = {
                 descriptionParts.push(this.value);
             }
             return descriptionParts.join(': ');
+        },
+    },
+    target_line: {
+        mode: 'horizontal',
+        borderWidth: 2,
+        borderDash: [15, 10],
+        borderColor: '#757575',
+        label: {
+            position: 'right',
+            content: translations.indicator.annotation_2030_target,
+        },
+    },
+    series_break: {
+        mode: 'vertical',
+        borderDash: [2, 2],
+        label: {
+            position: 'top',
+            content: translations.indicator.annotation_series_break,
         },
     },
     threshold_line_15: {
@@ -834,24 +1217,27 @@ opensdg.annotationPresets = {
             content: translations.indicator.annotation_base_line,
         },
     },
-};
+},
 
 // Add a chart alteration to support the chart_annotations metadata field.
 opensdg.chartConfigAlter(function(config, info) {
     if (info.graphAnnotations && info.graphAnnotations.length > 0) {
         // Apply some helpers/fixes to the annotations.
-        var annotations = info.graphAnnotations.map(function(annotation) {
+        var annotations = info.graphAnnotations.map(function(annotationOverrides) {
+            var annotation = {};
             // Apply the "common" preset.
             if (opensdg.annotationPresets.common) {
-                annotation = $.extend(true, {}, opensdg.annotationPresets.common, annotation);
+                $.extend(true, annotation, opensdg.annotationPresets.common);
             }
             // Apply any specified presets.
-            if (annotation.preset) {
-                var preset = annotation.preset;
+            if (annotationOverrides.preset) {
+                var preset = annotationOverrides.preset;
                 if (opensdg.annotationPresets[preset]) {
-                    annotation = $.extend(true, {}, opensdg.annotationPresets[preset], annotation);
+                    $.extend(true, annotation, opensdg.annotationPresets[preset]);
                 }
             }
+            // Now add any more annotation config.
+            $.extend(true, annotation, annotationOverrides);
             // Default to horizontal lines.
             if (!annotation.mode && annotation.type === 'line') {
                 annotation.mode = 'horizontal';
@@ -904,7 +1290,7 @@ opensdg.chartConfigAlter(function(config, info) {
             var overrides = {
                 options: {
                     annotation: {
-                        drawTime: 'afterDatasetsDraw',
+                        drawTime: 'beforeDatasetsDraw',
                         annotations: annotations
                     }
                 }
@@ -957,7 +1343,7 @@ opensdg.chartConfigAlter(function(config, info) {
               dataset["yAxisID"] = "y-axis-0";
             }
           });
-          
+
           if (config.options.scales.yAxes.length > 1) {
             config.options.scales.yAxes[1] = {
               type: "linear",
@@ -972,7 +1358,9 @@ opensdg.chartConfigAlter(function(config, info) {
                 display: false,
               },
               ticks: {
-                suggestedMin: 0,
+                max: 6000,
+                min: 0,
+                stepSize: 600
               },
             };
           } else {
@@ -989,11 +1377,13 @@ opensdg.chartConfigAlter(function(config, info) {
                 display: false,
               },
               ticks: {
-                suggestedMin: 0,
+                max: 6000,
+                min: 0,
+                stepSize: 600
               },
             });
           }
-        }  else {
+        } else {
           if (config.options.scales.yAxes.length > 1) {
             while (config.options.scales.yAxes.length > 1) {
               config.options.scales.yAxes.pop();
@@ -1004,10 +1394,8 @@ opensdg.chartConfigAlter(function(config, info) {
     }
   });
 </script>
-
 <script>
   opensdg.chartConfigAlter(function (config, info) {
-    if (config.type === "line") {
       if (info.continuousError) {
         if (info.selectedSeries) {
           if (isRelevant(info.continuousError, info.selectedSeries)) {
@@ -1015,25 +1403,25 @@ opensdg.chartConfigAlter(function(config, info) {
               info.continuousError,
               "series",
               info.selectedSeries
-            );
-            var target = unpack_array_of_objects(
-              continuousErrorFiltered,
-              "target"
-            );
-            var upper = unpack_array_of_objects(
-              continuousErrorFiltered,
+              );
+              var target = unpack_array_of_objects(
+                continuousErrorFiltered,
+                "target"
+                );
+                var upper = unpack_array_of_objects(
+                  continuousErrorFiltered,
               "upper"
-            );
-            var lower = unpack_array_of_objects(
-              continuousErrorFiltered,
-              "lower"
-            );
+              );
+              var lower = unpack_array_of_objects(
+                continuousErrorFiltered,
+                "lower"
+                );
             var newLegendText = unpack_array_of_objects(
               continuousErrorFiltered,
               "legend"
-            );
-          }
-        } else {
+              );
+            }
+          } else {
           var target = info.continuousError.target;
           var upper = info.continuousError.upper;
           var lower = info.continuousError.lower;
@@ -1057,46 +1445,50 @@ opensdg.chartConfigAlter(function(config, info) {
         var config = datasets.forEach(function (dataset, index) {
           if (index === index_upper || index === index_lower) {
             dataset["fill"] = index_target;
-            dataset["backgroundColor"] = "#81ed93";
-            dataset["borderColor"] = "#81ed93";
+            dataset["backgroundColor"] = "#3F94DE";
+            dataset["borderColor"] = "#3F94DE";
             dataset["pointRadius"] = 0;
+          } else {
+            dataset["backgroundColor"] = "#12436D";
+            dataset["borderColor"] = "#12436D";
+            dataset["pointBackgroundColor"] = "#12436D";
+            dataset["pointBorderColor"] = "#12436D";
           }
           return dataset;
         });
         let indicatorData = document.getElementById("indicatorData");
-  
+
         indicatorData.classList.add("no-fields");
-  
+
         $(document).ready(() => {
           let legendContainer = document.getElementById("legend");
           let legendItems = legendContainer.children;
           let legendItemsArray = Array.from(legendItems);
-  
+
           legendItemsArray.forEach((item) => {
             if ([upper, lower].includes(item.innerText)) {
               item.remove();
             }
           });
-  
+
           if (!legendItemsArray.map((item) => item.innerText).includes(newLegendText)) {
             let newItemSpan = document.createElement("span");
             newItemSpan.classList.add("swatch");
-            newItemSpan.style.backgroundColor = "#81ed93";
-    
+            newItemSpan.style.backgroundColor = "#3F94DE";
+
             let newItem = document.createElement("li");
             newItem.appendChild(newItemSpan);
             newItem.append(newLegendText);
-    
+
             legendContainer.appendChild(newItem);
           };
-  
+
         });
       }
 
       $.extend(true, config);
 
-    }
-  });
+    });
 </script>
 
 
@@ -1151,7 +1543,7 @@ opensdg.chartConfigAlter(function(config, info) {
       } else {
         stack(config);
       }
-      
+
       // TODO
       // Grouping by series
 
@@ -1164,12 +1556,10 @@ opensdg.chartConfigAlter(function(config, info) {
     }
   });
 </script>
-
-
 <script>
   opensdg.chartConfigAlter(function (config, info) {
     if (info.mixedType) {
-     
+
       if (info.selectedSeries) {
         var mixedTypeFiltered = filter_array_of_objects(info.mixedType, "series", info.selectedSeries);
         var mixedTypeValue = unpack_array_of_objects(mixedTypeFiltered, "value");
@@ -1178,9 +1568,9 @@ opensdg.chartConfigAlter(function(config, info) {
         var mixedTypeValue = unpack_array_of_objects(info.mixedType, "value");
         var mixedTypeType = unpack_array_of_objects(info.mixedType, "type");
       }
-      
+
       var datasets = config.data.datasets;
-      
+
       var datasets_new = datasets.forEach(function (dataset) {
         if (dataset.label === mixedTypeValue) {
           dataset["type"] = mixedTypeType
@@ -1188,38 +1578,63 @@ opensdg.chartConfigAlter(function(config, info) {
         return dataset
       })
 
-      
+
       var overrides = {
         data: {
           datasets: datasets_new,
         },
       };
-      
+
       $.extend(true, config, overrides);
-      
+
     };
   });
 </script>
-
-
 <script>
     opensdg.chartConfigAlter(function (config, info) {
-        if (info.measurementUnitSeries) {
+        if (info.yAxisLabels) {
             if (info.selectedSeries) {
-                var measurementUnitFiltered = filter_array_of_objects(info.measurementUnitSeries, "series", info.selectedSeries);
+                const yAxisLabelsFiltered = filter_array_of_objects(info.yAxisLabels, "series", info.selectedSeries);
 
-                var measurementUnit = unpack_array_of_objects(measurementUnitFiltered, "unit");
+                const yAxisLabel = unpack_array_of_objects(yAxisLabelsFiltered, "label");
+
+                _.set(config, "options.scales.yAxes[0].scaleLabel.display", true);
+
+                _.set(config, "options.scales.yAxes[0].scaleLabel.labelString", yAxisLabel);
+
+                return config
+            } else {
+                const yAxisLabel = info.yAxisLabels;
+
+                _.set(config, "options.scales.yAxes[0].scaleLabel.display", true);
+
+                _.set(config, "options.scales.yAxes[0].scaleLabel.labelString", yAxisLabel);
+
+                return config
+            }
+        } else if (info.measurementUnitSeries) {
+            if (info.selectedSeries) {
+                const measurementUnitFiltered = filter_array_of_objects(info.measurementUnitSeries, "series", info.selectedSeries);
+
+                const measurementUnit = unpack_array_of_objects(measurementUnitFiltered, "unit");
 
                 _.set(config, "options.scales.yAxes[0].scaleLabel.display", true);
 
                 _.set(config, "options.scales.yAxes[0].scaleLabel.labelString", measurementUnit);
 
-                config
+                return config
             }
+        } else if (info.measurementUnit) {
+            const measurementUnit = info.measurementUnit;
+
+            _.set(config, "options.scales.yAxes[0].scaleLabel.display", true);
+
+            _.set(config, "options.scales.yAxes[0].scaleLabel.labelString", measurementUnit);
+
+            return config
         }
     });
 </script>
-
 <script>
   opensdg.chartConfigAlter(function (config, info) {
     if (info.categoryOrder) {
@@ -1259,19 +1674,22 @@ opensdg.chartConfigAlter(function(config, info) {
       } else {
         orderChart(config, info.categoryOrder);
       }
-    }
+    };
+    if (info.stackOrder) {
+      const order = info.selectedSeries ? info.stackOrder[info.selectedSeries] : info.stackOrder;
+      orderStacks(config, order);
+    };
   });
 </script>
-
 <script>
   opensdg.chartConfigAlter(function (config, info) {
     if (info.selectedUnit) {
       if (info.selectedUnit === "Percent") {
         config.options.scales.yAxes[0].ticks.callback = (value) =>
-        (value / 100).toLocaleString("en-GB", { style: "percent" });
+          (value / 100).toLocaleString("en-GB", { style: "percent" });
         if (config.options.scales.yAxes[1]) {
           config.options.scales.yAxes[0].ticks.callback = (value) =>
-        (value / 100).toLocaleString("en-GB", { style: "percent" });
+            (value / 100).toLocaleString("en-GB", { style: "percent" });
         }
       } else {
         config.options.scales.yAxes[0].ticks.callback = (value) =>
@@ -1298,7 +1716,6 @@ opensdg.chartConfigAlter(function(config, info) {
     }
   });
 </script>
-
 <script>
   // Here we define a function to set the colours that we can reuse in each of the if branches
 
@@ -1312,8 +1729,30 @@ opensdg.chartConfigAlter(function(config, info) {
    */
   const recolor = (config, category_color) => {
     config.data.datasets.forEach((dataset) => {
-      dataset.backgroundColor = category_color[dataset.label];
-      dataset.borderColor = category_color[dataset.label];
+      const color = category_color[dataset.label];
+      if (Array.isArray(color)){
+        const [pattern_type, pattern_color] = color;
+        dataset.backgroundColor = pattern.draw(pattern_type, pattern_color);
+        dataset.borderColor = pattern_color;
+        dataset.pointBackgroundColor = pattern.draw(pattern_type, pattern_color);
+        dataset.pointBorderColor = pattern_color;
+        $(document).ready(() => {
+          let legendContainer = document.getElementById("legend");
+          let legendItems = legendContainer.children;
+          let legendItemsArray = Array.from(legendItems);
+
+          legendItemsArray.forEach((legendItem) => {
+            if (legendItem.textContent.startsWith("Weak")) {
+              legendItem.firstElementChild.classList.add("checked")
+            }
+      });
+    });
+      } else {
+        dataset.backgroundColor = color;
+        dataset.borderColor = color;
+        dataset.pointBackgroundColor = color;
+        dataset.pointBorderColor = color;
+      }
     });
 
     $(document).ready(() => {
@@ -1324,7 +1763,10 @@ opensdg.chartConfigAlter(function(config, info) {
       legendItemsArray.forEach((legendItem) => {
         if (legendItem.firstElementChild.classList.contains("dashed")) {
           legendItem.firstElementChild.classList.remove("dashed");
-        }
+        };
+        if (legendItem.innerText == "undefined") {
+          legendItem.remove();
+        };
       });
     });
   };
@@ -1350,8 +1792,14 @@ opensdg.chartConfigAlter(function(config, info) {
     }
   });
 </script>
-
-
+<script>
+    opensdg.chartConfigAlter(function (config, info) {
+        config.type = info.graphType;
+        if (config.type == "bar") {
+            config.options.scales.xAxes[0].offset = true;
+        };
+    });
+</script>
       </div>
       <div id="plotLegend"></div>
       
@@ -1363,32 +1811,52 @@ opensdg.chartConfigAlter(function(config, info) {
   <dl>
     
     
-    <dt><b>Source:</b></dt>
-    <dd class="footer-source">Larger industrial sites data, UK pollutant release and transfer register (UK-PRTR);  Crematoria data, National Atmospheric Emissions Inventory (NAEI)</dd>
+    <dt>Source:</dt>
+    <dd class="footer-source">Larger industrial sites data, UK pollutant release and transfer register;  Crematoria data, National Atmospheric Emissions Inventory</dd>
     
     
     
     
-    <dt><b>Geographical Area:</b></dt>
-    <dd class="footer-geography">UK</dd>
+    <dt>Geographical Area:</dt>
+    <dd class="footer-geography">England</dd>
     
 
     
     
-    <dt><b>Unit of Measurement:</b></dt>
-    <dd class="footer-units">Emissions (kg)</dd>
+    <dt>Unit of Measurement:</dt>
+    <dd class="footer-units">kg</dd>
     
     
     
     
     
+    <dt class="footer-note">Footnote:</dt>
+    <dd class="footer-note">Emissions of mercury from larger industrial sites (including primary ferrous and non-ferrous metal production, cement production, oil refining and combustion activities over 50 megawatts [coal-fired power stations]) are to air, land and water; emissions from crematoria are to air only. At a UK level, these sources together account for approximately 85% of total mercury emissions. The balance of emissions come from consumer product waste and contaminated sites; these are not currently included in this indicator.</dd>
     
-    <div class="footer-note-row" style="visibility: visible;">
-      <dt><b>Footnote:</b></dt>
-      <dd class="footer-note">Emissions of mercury from larger industrial sites (including primary ferrous and non-ferrous metal production, cement production, oil refining and combustion activities over 50 megawatts [coal-fired power stations]) are to air, land and water; emissions from crematoria are to air only. Combined, these sources account for approximately 85% of total mercury emissions in the UK. The balance of emissions come from consumer product waste and contaminated sites; these are not currently included in this indicator.</dd>
-    </div>
     
-  </dl>
+
+    
+    
+    <dt
+      class="data-controlled-footer-field"
+      data-ts-attribute="COMMENT_TS"
+    >Footnote:</dt>
+    <dd
+      class="data-controlled-footer-field"
+      data-ts-attribute="COMMENT_TS"
+    ></dd>
+    
+    <dt
+      class="data-controlled-footer-field"
+      data-ts-attribute="DATA_LAST_UPDATE"
+    >Data last updated:</dt>
+    <dd
+      class="data-controlled-footer-field"
+      data-ts-attribute="DATA_LAST_UPDATE"
+    ></dd>
+    
+    
+    </dl>
 </div>
 
     </div>
@@ -1399,14 +1867,18 @@ opensdg.chartConfigAlter(function(config, info) {
     </button>
   </div>
 </div>
-  </div>
+      </div>
+    
+    
   
-  
-  <div role="tabpanel" class="tab-pane" id="tableview">
-    <div style="display: none;">
-      <span id="column-sort-info">Click to sort by this column</span>
-    </div>
-    <div id="selectionsTable"></div>
+    
+    
+      <div role="tabpanel" class="tab-pane " id="tableview">
+        <div style="display: none;">
+          <span id="column-sort-info">Click to sort by this column</span>
+        </div>
+        <div id="selectionsTable"></div>
+<dl id="tableTargetLines" class="clearfix"></dl>
 
 
 
@@ -1416,39 +1888,76 @@ opensdg.chartConfigAlter(function(config, info) {
   <dl>
     
     
-    <dt><b>Source:</b></dt>
-    <dd class="footer-source">Larger industrial sites data, UK pollutant release and transfer register (UK-PRTR);  Crematoria data, National Atmospheric Emissions Inventory (NAEI)</dd>
+    <dt>Source:</dt>
+    <dd class="footer-source">Larger industrial sites data, UK pollutant release and transfer register;  Crematoria data, National Atmospheric Emissions Inventory</dd>
     
     
     
     
-    <dt><b>Geographical Area:</b></dt>
-    <dd class="footer-geography">UK</dd>
+    <dt>Geographical Area:</dt>
+    <dd class="footer-geography">England</dd>
     
 
     
     
-    <dt><b>Unit of Measurement:</b></dt>
-    <dd class="footer-units">Emissions (kg)</dd>
+    <dt>Unit of Measurement:</dt>
+    <dd class="footer-units">kg</dd>
     
     
     
     
     
+    <dt class="footer-note">Footnote:</dt>
+    <dd class="footer-note">Emissions of mercury from larger industrial sites (including primary ferrous and non-ferrous metal production, cement production, oil refining and combustion activities over 50 megawatts [coal-fired power stations]) are to air, land and water; emissions from crematoria are to air only. At a UK level, these sources together account for approximately 85% of total mercury emissions. The balance of emissions come from consumer product waste and contaminated sites; these are not currently included in this indicator.</dd>
     
-    <div class="footer-note-row" style="visibility: visible;">
-      <dt><b>Footnote:</b></dt>
-      <dd class="footer-note">Emissions of mercury from larger industrial sites (including primary ferrous and non-ferrous metal production, cement production, oil refining and combustion activities over 50 megawatts [coal-fired power stations]) are to air, land and water; emissions from crematoria are to air only. Combined, these sources account for approximately 85% of total mercury emissions in the UK. The balance of emissions come from consumer product waste and contaminated sites; these are not currently included in this indicator.</dd>
-    </div>
     
-  </dl>
+
+    
+    
+    <dt
+      class="data-controlled-footer-field"
+      data-ts-attribute="COMMENT_TS"
+    >Footnote:</dt>
+    <dd
+      class="data-controlled-footer-field"
+      data-ts-attribute="COMMENT_TS"
+    ></dd>
+    
+    <dt
+      class="data-controlled-footer-field"
+      data-ts-attribute="DATA_LAST_UPDATE"
+    >Data last updated:</dt>
+    <dd
+      class="data-controlled-footer-field"
+      data-ts-attribute="DATA_LAST_UPDATE"
+    ></dd>
+    
+    
+    </dl>
 </div>
 
 <div id="tableSelectionDownload" class="clearfix"></div>
 
-  </div>
+      </div>
+    
+    
   
-  
+    
+      <div role="tabpanel" class="tab-pane " id="embeddedmapview_2" class="embedded-map">
+        
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    
   
 </div>
 
@@ -1456,9 +1965,8 @@ opensdg.chartConfigAlter(function(config, info) {
   </div>
 
 </section>
-
- 
-    <ul class="nav nav-tabs spacer medium" role="tablist">
+  
+  <ul class="nav nav-tabs spacer medium" role="tablist">
 
   <li role="presentation" class="nav-item active">
   <a class="nav-link" data-toggle="tab" id="tab-national" href="#national" aria-controls="national" role="tab" data-on="click"
@@ -1468,8 +1976,6 @@ data-event-label="Change to National Metadata tab"
 >Metadata</a>
 </li>
 
-
-
   
 </ul>
 
@@ -1477,7 +1983,7 @@ data-event-label="Change to National Metadata tab"
   
     <div role="tabpanel" class="tab-pane active" id="national">
   <!-- National Metadata -->
-  <div >
+  <div>
     <article>
       <p>
         
@@ -1485,311 +1991,310 @@ data-event-label="Change to National Metadata tab"
         This table provides metadata for the interim or final indicator presented above.
       </p>
       <table class="table">
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
         
+      
+      <tr>
+        <th scope="row">Indicator name </th>
+        <td>
           
-        
-        <tr>
-          <th scope="row">Indicator name </th>
-          <td>
-            
-              <p>Emissions of mercury and persistent organic pollutants to the environment</p>
+            <p>Emissions of mercury and persistent organic pollutants to the environment</p>
 
-            
-          </td>
-          </tr>
           
+        </td>
+        </tr>
         
-    
+      
+  
+      
         
+      
+      <tr>
+        <th scope="row">Indicator reference </th>
+        <td>
           
-        
-        <tr>
-          <th scope="row">Indicator reference </th>
-          <td>
-            
-              <p>H3</p>
+            <p>H3</p>
 
-            
-          </td>
-          </tr>
           
+        </td>
+        </tr>
         
-    
+      
+  
+      
         
+      
+      <tr>
+        <th scope="row">Outcome Indicator Framework theme </th>
+        <td>
           
-        
-        <tr>
-          <th scope="row">Outcome Indicator Framework theme </th>
-          <td>
-            
-              <p>Biosecurity, Chemical and Noise</p>
+            <p>Biosecurity, Chemical and Noise</p>
 
-            
-          </td>
-          </tr>
           
+        </td>
+        </tr>
         
-    
+      
+  
+      
         
+      
+      <tr>
+        <th scope="row">Headline indicator status </th>
+        <td>
           
-        
-        <tr>
-          <th scope="row">Headline indicator status </th>
-          <td>
-            
-              <p>Exposure of people and wildlife to harmful chemicals</p>
+            <p>Exposure of people and wildlife to harmful chemicals</p>
 
-            
-          </td>
-          </tr>
           
+        </td>
+        </tr>
         
-    
-    
-    
-    
+      
+  
+  
+  
+  
+      
         
+      
+      <tr>
+        <th scope="row">Relevant goal(s) in the 25 Year Environment Plan </th>
+        <td>
           
+            
+                <ul style="list-style-type:disc;">
+                  <li>Managing exposure to chemicals</li>
+                </ul>
+            
         
-        <tr>
-          <th scope="row">Relevant goal(s) in the 25 Year Environment Plan </th>
-          <td>
-            
-              
-                  <ul style="list-style-type:disc;">
-                    <li>Managing exposure to chemicals</li>
-                  </ul>
-              
-            
-          </td>
-          </tr>
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      <tr>
+        <th scope="row">Relevant target(s) in the 25 Year Environment Plan </th>
+        <td>
           
-        
-    
-        
-          
-        
-        <tr>
-          <th scope="row">Relevant target(s) in the 25 Year Environment Plan </th>
-          <td>
             
-              
-                  <ul style="list-style-type:disc;">
-                    <li>Fulfilling our commitments under the Stockholm Convention as outlined in the UK’s most recent National Implementation Plan</li>
-                  </ul>
-              
-                  <ul style="list-style-type:disc;">
-                    <li>Reducing land-based emissions of mercury to air and water by 50% by 2030</li>
-                  </ul>
-              
-                  <ul style="list-style-type:disc;">
-                    <li>Seeking in particular to eliminate the use of Polychlorinated Biphenyls by 2025, in line with our commitments under the Stockholm Convention</li>
-                  </ul>
-              
-                  <ul style="list-style-type:disc;">
-                    <li>Substantially increasing the amount of Persistent Organic Pollutants material being destroyed or irreversibly transformed by 2030, to make sure there are negligible emissions to the environment</li>
-                  </ul>
-              
+                <ul style="list-style-type:disc;">
+                  <li>Fulfilling our commitments under the Stockholm Convention as outlined in the UK’s most recent National Implementation Plan</li>
+                </ul>
             
-          </td>
-          </tr>
-          
-        
-    
-        
-          
-        
-        <tr>
-          <th scope="row">Position in the natural capital framework </th>
-          <td>
+                <ul style="list-style-type:disc;">
+                  <li>Reducing land-based emissions of mercury to air and water by 50% by 2030</li>
+                </ul>
             
-              
-                  <ul style="list-style-type:disc;">
-                    <li>Pressure on natural capital assets</li>
-                  </ul>
-              
+                <ul style="list-style-type:disc;">
+                  <li>Seeking in particular to eliminate the use of Polychlorinated Biphenyls (PCBs) by 2025, in line with our commitments under the Stockholm Convention</li>
+                </ul>
             
-          </td>
-          </tr>
-          
-        
-    
-        
-          
-        
-        <tr>
-          <th scope="row">Related reporting commitments </th>
-          <td>
+                <ul style="list-style-type:disc;">
+                  <li>Substantially increasing the amount of Persistent Organic Pollutants (POPs) material being destroyed or irreversibly transformed by 2030, to make sure there are negligible emissions to the environment</li>
+                </ul>
             
-              <ul>
+        
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      <tr>
+        <th scope="row">Position in the natural capital framework </th>
+        <td>
+          
+            
+                <ul style="list-style-type:disc;">
+                  <li>Pressure on natural capital assets</li>
+                </ul>
+            
+        
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      <tr>
+        <th scope="row">Related reporting commitments </th>
+        <td>
+          
+            <ul>
   <li>UNEP Stockholm Convention</li>
-  <li>UNECE Convention on Long-Range Transboundary Air Pollution (CLR-TAP) via the European Monitoring and Evaluation Programme (EMEP)</li><li>National Emission Ceilings Regulations</li>
+  <li>UNECE Convention on Long-Range Transboundary Air Pollution (CLR-TAP) via the European Monitoring and Evaluation Programme (EMEP)</li>
+  <li>National Emission Ceilings Regulations</li>
   <li>UK Regulation on Pollutant Release and Transfer Registry</li>
   <li>The Persistent Organic Pollutants (Amendment) (EU Exit) Regulations 2020</li>
   <li>UNEP Minamata Convention on Mercury</li>
 </ul>
 
-            
-          </td>
-          </tr>
           
+        </td>
+        </tr>
         
-    
+      
+  
+      
         
+      
+      <tr>
+        <th scope="row">Geographic scope </th>
+        <td>
           
-        
-        <tr>
-          <th scope="row">Geographic scope </th>
-          <td>
-            
-              <p>England; the interim indicator is currently available for the UK.</p>
+            <p>England</p>
 
-            
-          </td>
-          </tr>
           
+        </td>
+        </tr>
         
-    
+      
+  
+      
         
+      
+      <tr>
+        <th scope="row">Status of indicator development </th>
+        <td>
           
-        
-        <tr>
-          <th scope="row">Status of indicator development </th>
-          <td>
-            
-              <p>Interim</p>
+            <p>Interim</p>
 
-            
-          </td>
-          </tr>
           
+        </td>
+        </tr>
         
-    
-    
+      
+  
+  
+      
         
+      
+      <tr>
+        <th scope="row">Date last updated </th>
+        <td>
           
-        
-        <tr>
-          <th scope="row">Date last updated </th>
-          <td>
-            
-              <p>11 June 2021</p>
-
-            
-          </td>
-          </tr>
+          May 19, 2022
           
+        </td>
+        </tr>
         
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  </table>
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
     </article>
   </div>
 </div>
-
   
   
 </div>
@@ -1800,9 +2305,10 @@ data-event-label="Change to National Metadata tab"
 
 </div>
 
+
 <footer role="contentinfo">
   <div class="container">
-    <div class="row">
+    <div class="oif-row">
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
@@ -1813,16 +2319,24 @@ data-event-label="Change to National Metadata tab"
                 
                 </li>
               <li>
+                <a href="/about/">About</a>
+                
+                </li>
+              <li>
                 
                   <a href="https://twitter.com/defragovuk" target="_blank">Twitter</a>
                 
                 </li>
               <li>
-                <a href="/about/cookies-and-privacy/">Cookies</a>
+                <a href="/cookies-and-privacy/">Cookies</a>
                 
                 </li>
               <li>
-                <a href="/about/accessibility-statement/">Accessibility statement</a>
+                <a href="/accessibility-statement/">Accessibility statement</a>
+                
+                </li>
+              <li>
+                <a href="/official-statistics/">Official statistics</a>
                 
                 </li>
               
@@ -1831,6 +2345,7 @@ data-event-label="Change to National Metadata tab"
         </div>
       </div>
     </div>
+    
   </div>
 </footer>
 
@@ -1839,7 +2354,6 @@ data-event-label="Change to National Metadata tab"
 
 <!-- /.container </div> -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
@@ -1912,19 +2426,18 @@ data-event-label="Change to National Metadata tab"
   };
   CookieControl.load(cookieControlConfig);
 </script>
-
 <script>translations['general'] = translations['general'] || {};
     translations['general']['hide'] = 'hide';</script>
 
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/assets/js/sdg.js?v=20220518182705'></script>
+<script src='/assets/js/sdg.js?v=20220805092744'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20220518182705"></script><script>
+    <script src="/assets/js/custom.js?v=20220805092744"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
@@ -1967,9 +2480,13 @@ $(function() {
               graphLimits: domData.graphlimits,
               stackedDisaggregation: domData.stackeddisaggregation,
               categoryOrder: domData.categoryorder,
+              stackOrder: domData.stackorder,
               categoryColor: domData.categorycolor,
               graphAnnotations: domData.graphannotations,
+              graphTargetLines: domData.graphtargetlines,
+              graphSeriesBreaks: domData.graphseriesbreaks,
               indicatorDownloads: domData.indicatordownloads,
+              dataSchema: domData.dataschema,
               compositeBreakdownLabel: domData.compositebreakdownlabel,
               precision: domData.precision,
               continuousError: domData.continuouserror,
@@ -1979,6 +2496,7 @@ $(function() {
               graphSources: domData.graphsources,
               graphNote: domData.graphnote,
               graphNotes: domData.graphnotes,
+              yAxisLabels: domData.yaxislabels
             }),
             view  = new indicatorView(model, {
               rootElement: '#indicatorData',
@@ -1999,7 +2517,6 @@ $(function() {
     }
 });
 </script>
-
   
 </body>
 </html>

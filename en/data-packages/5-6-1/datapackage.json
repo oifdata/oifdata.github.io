@@ -1,0 +1,42 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Category",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Total softwood & hardwood removals from other English sources",
+                "Total softwood & hardwood removals from the nation’s forests managed by Forestry England"
+              ]
+            },
+            "title": "Category"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "5-6-1",
+  "title": "Volume of timber brought to market per annum from English sources"
+}

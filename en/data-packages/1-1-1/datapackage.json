@@ -1,0 +1,45 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Pollutant",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "NH3",
+                "NMVOC",
+                "NOx",
+                "PM2.5",
+                "SO2"
+              ]
+            },
+            "title": "Pollutant"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "1-1-1",
+  "title": "Emissions for five key air pollutants"
+}

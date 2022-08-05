@@ -1,0 +1,43 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Emissions type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Direct household emissions of GHGs",
+                "GHGs embedded in imported goods & services",
+                "GHGs emitted from goods & services produced & consumed in England"
+              ]
+            },
+            "title": "Emissions type"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "9-1-1",
+  "title": "Carbon footprint and consumer buying choices"
+}

@@ -1,1 +1,7 @@
-Year,Value
+Year,Health,Value
+Agree,Physical health,93.79
+Disagree,Physical health,1.33
+Neither agree nor disagree,Physical health,4.45
+Agree,Mental health,92.14
+Disagree,Mental health,1.17
+Neither agree nor disagree,Mental health,5.98

@@ -1,0 +1,76 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Component",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Biology",
+                "Condition of SSSI units underpinning European protected water and wetland sites",
+                "Drinking water protected areas",
+                "Ecological status"
+              ]
+            },
+            "title": "Component"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "B3a (interim)",
+                "B3b (interim)",
+                "B3c (interim)"
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Status category",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "At good status",
+                "Not at good status",
+                "at good status",
+                "at risk",
+                "favourable",
+                "not at good status",
+                "not at risk",
+                "other",
+                "unfavourable recovering"
+              ]
+            },
+            "title": "Status category"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "2-3-1",
+  "title": "State of the water environment"
+}

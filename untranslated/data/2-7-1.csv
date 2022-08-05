@@ -60,9 +60,13 @@ Year,Series,Status,Classification,Value
 2018,B7a (interim),Probably at risk,,61.90476190476191
 2018,B7a (interim),At risk,,28.57142857142857
 2019,B7a (interim),Not at risk,,0.0
-2019,B7a (interim),Probably not at risk,,7.142857142857142
-2019,B7a (interim),Probably at risk,,35.714285714285715
-2019,B7a (interim),At risk,,57.14285714285714
+2019,B7a (interim),Probably not at risk,,7.0
+2019,B7a (interim),Probably at risk,,36.0
+2019,B7a (interim),At risk,,57.0
+2020,B7a (interim),Not at risk,,2.380952380952381
+2020,B7a (interim),Probably not at risk,,9.523809523809524
+2020,B7a (interim),Probably at risk,,40.0
+2020,B7a (interim),At risk,,48.0
 2009,B7b (interim),,Bad,1.4835419564209549
 2010,B7b (interim),,Bad,1.9964507542147296
 2011,B7b (interim),,Bad,1.334481274214378

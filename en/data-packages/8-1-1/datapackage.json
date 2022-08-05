@@ -1,0 +1,43 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Ecosystem",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Freshwater",
+                "Marine",
+                "Terrestrial"
+              ]
+            },
+            "title": "Ecosystem"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "8-1-1",
+  "title": "Abatement of the number of invasive non-native species entering and establishing against a baseline"
+}

@@ -1,100 +1,103 @@
 Year,Measure,Value
-1987,Annual mean max. 8-hour daily mean for O3 - rural background,56.1958322810192
-1988,Annual mean max. 8-hour daily mean for O3 - rural background,63.6740120912583
-1989,Annual mean max. 8-hour daily mean for O3 - rural background,66.7820862386868
-1990,Annual mean max. 8-hour daily mean for O3 - rural background,69.0090526042944
-1991,Annual mean max. 8-hour daily mean for O3 - rural background,67.5090647754196
-1992,Annual mean max. 8-hour daily mean for O3 - rural background,66.925400004445
-1993,Annual mean max. 8-hour daily mean for O3 - rural background,64.1228786974178
-1994,Annual mean max. 8-hour daily mean for O3 - rural background,69.2194509663439
-1995,Annual mean max. 8-hour daily mean for O3 - rural background,69.8537820350031
-1996,Annual mean max. 8-hour daily mean for O3 - rural background,66.0445990777601
-1997,Annual mean max. 8-hour daily mean for O3 - rural background,65.9271091380184
-1998,Annual mean max. 8-hour daily mean for O3 - rural background,66.7536380580229
-1999,Annual mean max. 8-hour daily mean for O3 - rural background,71.3998485231178
-2000,Annual mean max. 8-hour daily mean for O3 - rural background,66.8667948330435
-2001,Annual mean max. 8-hour daily mean for O3 - rural background,66.1832355723825
-2002,Annual mean max. 8-hour daily mean for O3 - rural background,66.9609385037934
-2003,Annual mean max. 8-hour daily mean for O3 - rural background,73.340827790841
-2004,Annual mean max. 8-hour daily mean for O3 - rural background,71.6374870065958
-2005,Annual mean max. 8-hour daily mean for O3 - rural background,69.7079889646969
-2006,Annual mean max. 8-hour daily mean for O3 - rural background,73.7136627933317
-2007,Annual mean max. 8-hour daily mean for O3 - rural background,67.1231779085362
-2008,Annual mean max. 8-hour daily mean for O3 - rural background,68.2073208153939
-2009,Annual mean max. 8-hour daily mean for O3 - rural background,66.5495631071086
-2010,Annual mean max. 8-hour daily mean for O3 - rural background,66.5295678511618
-2011,Annual mean max. 8-hour daily mean for O3 - rural background,66.8744812263178
-2012,Annual mean max. 8-hour daily mean for O3 - rural background,64.4012367998204
-2013,Annual mean max. 8-hour daily mean for O3 - rural background,67.4370181507237
-2014,Annual mean max. 8-hour daily mean for O3 - rural background,68.7675323343962
-2015,Annual mean max. 8-hour daily mean for O3 - rural background,70.3494548047076
-2016,Annual mean max. 8-hour daily mean for O3 - rural background,66.0834768005574
-2017,Annual mean max. 8-hour daily mean for O3 - rural background,68.3738345816187
-2018,Annual mean max. 8-hour daily mean for O3 - rural background,73.7080725107239
-2019,Annual mean max. 8-hour daily mean for O3 - rural background,71.817000400399
-1987,Lower_CI_bound,37.851468171166005
-1988,Lower_CI_bound,56.13563945021996
-1989,Lower_CI_bound,58.76015037957991
-1990,Lower_CI_bound,62.40346657944307
-1991,Lower_CI_bound,60.06307246795235
-1992,Lower_CI_bound,58.987302225330126
-1993,Lower_CI_bound,55.97800857442023
-1994,Lower_CI_bound,63.92026636896591
-1995,Lower_CI_bound,64.42306536876629
-1996,Lower_CI_bound,61.52117637414525
-1997,Lower_CI_bound,61.501719292360114
-1998,Lower_CI_bound,62.59225265499145
-1999,Lower_CI_bound,67.72677959469527
-2000,Lower_CI_bound,63.30314877786488
-2001,Lower_CI_bound,62.37133054980212
-2002,Lower_CI_bound,63.6069563731242
-2003,Lower_CI_bound,69.56618619066255
-2004,Lower_CI_bound,69.02821040177628
-2005,Lower_CI_bound,66.14546450359279
-2006,Lower_CI_bound,69.79451619017013
-2007,Lower_CI_bound,64.1860420531437
-2008,Lower_CI_bound,65.39652459806774
-2009,Lower_CI_bound,63.065091814444045
-2010,Lower_CI_bound,62.58188452171176
-2011,Lower_CI_bound,63.59411058414235
-2012,Lower_CI_bound,61.409110057127286
-2013,Lower_CI_bound,64.77612589224661
-2014,Lower_CI_bound,65.57531743274902
-2015,Lower_CI_bound,67.80033022329408
-2016,Lower_CI_bound,64.03156238525771
-2017,Lower_CI_bound,65.65981024927208
-2018,Lower_CI_bound,70.09381276322658
-2019,Lower_CI_bound,69.07477307815655
-1987,Upper_CI_bound,74.5401963908724
-1988,Upper_CI_bound,71.21238473229664
-1989,Upper_CI_bound,74.80402209779369
-1990,Upper_CI_bound,75.61463862914573
-1991,Upper_CI_bound,74.95505708288685
-1992,Upper_CI_bound,74.86349778355986
-1993,Upper_CI_bound,72.26774882041538
-1994,Upper_CI_bound,74.51863556372189
-1995,Upper_CI_bound,75.28449870123993
-1996,Upper_CI_bound,70.56802178137495
-1997,Upper_CI_bound,70.35249898367667
-1998,Upper_CI_bound,70.91502346105435
-1999,Upper_CI_bound,75.07291745154032
-2000,Upper_CI_bound,70.43044088822212
-2001,Upper_CI_bound,69.99514059496288
-2002,Upper_CI_bound,70.3149206344626
-2003,Upper_CI_bound,77.11546939101946
-2004,Upper_CI_bound,74.24676361141533
-2005,Upper_CI_bound,73.270513425801
-2006,Upper_CI_bound,77.63280939649326
-2007,Upper_CI_bound,70.06031376392872
-2008,Upper_CI_bound,71.01811703272006
-2009,Upper_CI_bound,70.03403439977315
-2010,Upper_CI_bound,70.47725118061184
-2011,Upper_CI_bound,70.15485186849325
-2012,Upper_CI_bound,67.39336354251351
-2013,Upper_CI_bound,70.0979104092008
-2014,Upper_CI_bound,71.95974723604337
-2015,Upper_CI_bound,72.89857938612113
-2016,Upper_CI_bound,68.1353912158571
-2017,Upper_CI_bound,71.0878589139653
-2018,Upper_CI_bound,77.32233225822121
-2019,Upper_CI_bound,74.55922772264144
+1987,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),56.1958322810192
+1988,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),63.6740120912583
+1989,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),66.7820862386868
+1990,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),69.0090526042944
+1991,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),67.5090647754196
+1992,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),66.925400004445
+1993,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),64.1228786974178
+1994,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),69.2194509663439
+1995,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),69.8537820350031
+1996,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),66.0445990777601
+1997,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),65.9271091380184
+1998,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),66.7536380580229
+1999,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),71.3998485231178
+2000,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),66.8667948330435
+2001,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),66.1832355723825
+2002,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),66.9609385037934
+2003,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),73.340827790841
+2004,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),71.6374870065958
+2005,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),69.7079889646969
+2006,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),73.7136627933317
+2007,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),67.1231779085362
+2008,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),68.2073208153939
+2009,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),66.5495631071086
+2010,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),66.5295678511618
+2011,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),66.8744812263178
+2012,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),64.4012367998204
+2013,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),67.4370181507237
+2014,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),68.7675323343962
+2015,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),70.3494548047076
+2016,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),66.0718260300378
+2017,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),68.3738345816187
+2018,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),73.7080725107239
+2019,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),71.817000400399
+2020,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),72.3091030123504
+1987,Lower_CI_Bound,37.851468171166005
+1988,Lower_CI_Bound,56.13563945021996
+1989,Lower_CI_Bound,58.76015037957991
+1990,Lower_CI_Bound,62.40346657944307
+1991,Lower_CI_Bound,60.06307246795235
+1992,Lower_CI_Bound,58.987302225330126
+1993,Lower_CI_Bound,55.97800857442023
+1994,Lower_CI_Bound,63.92026636896591
+1995,Lower_CI_Bound,64.42306536876629
+1996,Lower_CI_Bound,61.52117637414525
+1997,Lower_CI_Bound,61.501719292360114
+1998,Lower_CI_Bound,62.59225265499145
+1999,Lower_CI_Bound,67.72677959469527
+2000,Lower_CI_Bound,63.30314877786488
+2001,Lower_CI_Bound,62.37133054980212
+2002,Lower_CI_Bound,63.6069563731242
+2003,Lower_CI_Bound,69.56618619066255
+2004,Lower_CI_Bound,69.02821040177628
+2005,Lower_CI_Bound,66.14546450359279
+2006,Lower_CI_Bound,69.79451619017013
+2007,Lower_CI_Bound,64.1860420531437
+2008,Lower_CI_Bound,65.39652459806774
+2009,Lower_CI_Bound,63.065091814444045
+2010,Lower_CI_Bound,62.58188452171176
+2011,Lower_CI_Bound,63.59411058414235
+2012,Lower_CI_Bound,61.409110057127286
+2013,Lower_CI_Bound,64.77612589224661
+2014,Lower_CI_Bound,65.57531743274902
+2015,Lower_CI_Bound,67.80033022329408
+2016,Lower_CI_Bound,64.03264202970884
+2017,Lower_CI_Bound,65.65981024927208
+2018,Lower_CI_Bound,70.09381276322658
+2019,Lower_CI_Bound,69.07477307815655
+2020,Lower_CI_Bound,70.08347701539132
+1987,Upper_CI_Bound,74.5401963908724
+1988,Upper_CI_Bound,71.21238473229664
+1989,Upper_CI_Bound,74.80402209779369
+1990,Upper_CI_Bound,75.61463862914573
+1991,Upper_CI_Bound,74.95505708288685
+1992,Upper_CI_Bound,74.86349778355986
+1993,Upper_CI_Bound,72.26774882041538
+1994,Upper_CI_Bound,74.51863556372189
+1995,Upper_CI_Bound,75.28449870123993
+1996,Upper_CI_Bound,70.56802178137495
+1997,Upper_CI_Bound,70.35249898367667
+1998,Upper_CI_Bound,70.91502346105435
+1999,Upper_CI_Bound,75.07291745154032
+2000,Upper_CI_Bound,70.43044088822212
+2001,Upper_CI_Bound,69.99514059496288
+2002,Upper_CI_Bound,70.3149206344626
+2003,Upper_CI_Bound,77.11546939101946
+2004,Upper_CI_Bound,74.24676361141533
+2005,Upper_CI_Bound,73.270513425801
+2006,Upper_CI_Bound,77.63280939649326
+2007,Upper_CI_Bound,70.06031376392872
+2008,Upper_CI_Bound,71.01811703272006
+2009,Upper_CI_Bound,70.03403439977315
+2010,Upper_CI_Bound,70.47725118061184
+2011,Upper_CI_Bound,70.15485186849325
+2012,Upper_CI_Bound,67.39336354251351
+2013,Upper_CI_Bound,70.0979104092008
+2014,Upper_CI_Bound,71.95974723604337
+2015,Upper_CI_Bound,72.89857938612113
+2016,Upper_CI_Bound,68.11101003036676
+2017,Upper_CI_Bound,71.0878589139653
+2018,Upper_CI_Bound,77.32233225822121
+2019,Upper_CI_Bound,74.55922772264144
+2020,Upper_CI_Bound,74.53472900930949

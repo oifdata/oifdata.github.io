@@ -1,29 +1,29 @@
-Year,Series,Units,Value
-Favourable,G2a,Percent,60.07172743574417
-Unfavourable - Recovering,G2a,Percent,7.710699342498506
-Unfavourable - No change,G2a,Percent,5.618649133293485
-Unfavourable - Declining,G2a,Percent,4.781829049611477
-Partially destroyed,G2a,Percent,0.4781829049611476
-Destroyed,G2a,Percent,0.5977286312014346
-Unassessed,G2a,Percent,20.741183502689776
-Favourable,G2a,Count,1005.0
-Unfavourable - Recovering,G2a,Count,129.0
-Unfavourable - No change,G2a,Count,94.0
-Unfavourable - Declining,G2a,Count,80.0
-Partially destroyed,G2a,Count,8.0
-Destroyed,G2a,Count,10.0
-Unassessed,G2a,Count,347.0
-Optimal/generally satisfactory,G2b,Percent,25.91193067311568
-Generally satisfactory but minor localised problems,G2b,Percent,35.39399435711407
-Generally satisfactory but significant localised problems,G2b,Percent,23.634623135832324
-Generally unsatisfactory with major localised problems,G2b,Percent,7.638049173720274
-Extensive significant problems,G2b,Percent,5.038291011688835
-Unknown,G2b,Percent,1.5719467956469164
-Not recorded,G2b,Percent,0.8111648528819024
-Optimal/generally satisfactory,G2b,Count,5143.0
-Generally satisfactory but minor localised problems,G2b,Count,7025.0
-Generally satisfactory but significant localised problems,G2b,Count,4691.0
-Generally unsatisfactory with major localised problems,G2b,Count,1516.0
-Extensive significant problems,G2b,Count,1000.0
-Unknown,G2b,Count,312.0
-Not recorded,G2b,Count,161.0
+Year,Assessment Year,Series,Value
+Favourable,2019,G2a,60.07172744
+Unassessed,2019,G2a,20.7411835
+Destroyed,2019,G2a,0.597728631
+Partially destroyed,2019,G2a,0.478182905
+Unfavourable - Declining,2019,G2a,4.78182905
+Unfavourable - No change,2019,G2a,5.618649133
+Unfavourable - Recovering,2019,G2a,7.710699342
+Favourable,2021,G2a,71.59023228
+Unassessed,2021,G2a,9.112567004
+Destroyed,2021,G2a,0.595592615
+Partially destroyed,2021,G2a,0.536033353
+Unfavourable - Declining,2021,G2a,5.479452055
+Unfavourable - No change,2021,G2a,5.598570578
+Unfavourable - Recovering,2021,G2a,7.087552114
+Not recorded,2019,G2b,0.811164853
+Unknown,2019,G2b,1.571946796
+Extensive significant problems,2019,G2b,5.038291012
+Generally unsatisfactory with major localised problems,2019,G2b,7.638049174
+Generally satisfactory but with significant localised problems,2019,G2b,23.63462314
+Generally satisfactory but with minor localised problems,2019,G2b,35.39399436
+Optimal/generally satisfactory,2019,G2b,25.91193067
+Not recorded,2021,G2b,1.129461372
+Unknown,2021,G2b,1.576226093
+Extensive significant problems,2021,G2b,4.834094674
+Generally unsatisfactory with major localised problems,2021,G2b,7.534762311
+Generally satisfactory but with significant localised problems,2021,G2b,23.65343105
+Generally satisfactory but with minor localised problems,2021,G2b,35.46508709
+Optimal/generally satisfactory,2021,G2b,25.8069374

@@ -1,0 +1,40 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Annual average maximum daily 8-hour mean O3 concentration (µg/m3)",
+                "Lower_CI_Bound",
+                "Upper_CI_Bound",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "1-4-1",
+  "title": "Rural background concentrations of ozone (O<sub>3</sub>)"
+}

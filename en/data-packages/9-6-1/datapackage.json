@@ -1,0 +1,66 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Methodology",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "New methodology",
+                "Old methodology"
+              ]
+            },
+            "title": "Methodology"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "J6a (interim)",
+                "J6b (interim)"
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Site type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Active high-risk sites",
+                "Total active sites"
+              ]
+            },
+            "title": "Site type"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "9-6-1",
+  "title": "Waste Crime"
+}

@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CArray.prototype.reduce%2CObject.assign%2CArray.isArray%2CObject.values%2CArray.from%2CSet%2CArray.prototype.findIndex"></script>
+        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CArray.prototype.reduce%2CObject.assign%2CArray.isArray%2CObject.values%2CObject.entries%2CArray.from%2CSet%2CArray.prototype.findIndex"></script>
 <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/javascript-canvas-to-blob/3.15.0/js/canvas-to-blob.min.js"></script>
 
         <script>
@@ -117,81 +117,72 @@ var translations = {
         
         <link rel="canonical" href="/">
 
-        
-
         <!--[if IE 9]>
         <script src="/assets/js/lib/classList.js"></script>
         <![endif]-->
 
-        <!-- Favicons ================================================== -->
-        <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
-        http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
-        -->
-
         
 
+
+
+
+<link rel="shortcut icon" type="image/ico" href="/assets/img/favicons/favicon.ico">
+<link rel="icon" type="image/png" href="/assets/img/favicons/favicon.png">
+
+
+        
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
+        
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20220518182705">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20220805092744">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/assets/css/custom.css?v=20220518182705"><!-- ShareThis BEGIN --><!-- ShareThis END -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin="">
+        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/assets/css/custom.css?v=20220805092744">
+        
+
+        
 
     </head>
-<body class="language-en layout-indicator">
+<body class="language-en
+layout-indicator
+">
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your feedback via <a href=\"mailto:%email_address\">email</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"Department for Environment, Food & Rural Affairs - 25 Year Environment Plan Logo","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+
+<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your feedback via <a href=\"mailto:%email_address\">email</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"25 Year Environment Plan homepage","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
 
 <header role="banner" class="header-menu-left-aligned">
   <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
 
-  <div id="disclaimer">
-    <div class="container">
-  <div class="disclaimer-alert">
-    <div id="phase-wrapper">
-      <strong class="phase-tag"
-        >Alpha</strong
-      >
-       This is a development website. We welcome your feedback via <a href="mailto:25YEPindicators@defra.gov.uk">email</a>.
-    </div>
-    <a
-      id="takepartButton"
-      aria-labelledby="takepartButton"
-      href="https://forms.office.com/Pages/ResponsePage.aspx?id=UCQKdycCYkyQx044U38RAoc88l9iPWhOqSr4EYH784FUMUJWTEtDUlVVTjZSOTNQNFQzQkpQQ1hPQS4u"
-      class="btn btn-primary btn-download btn-takepart"
-      role="link"
-      >Complete our short user-feedback survey</a
-    >
-  </div>
-  <div id="update-alert" class="ex-indicator">
-      <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-      <p><strong>Info!</strong> The PDF version of the 2022 report will be published at 9.30am on Thursday 19 May.</p>
-      <p>The report will be available <a href="https://www.gov.uk/government/publications/25-year-environment-plan-progress-reports">here</a>.</p>
-      <p>We are working to update this site.</p> 
-  </div>
-</div>
-
-  </div>
-
   <div class="container">
 
+    <div class="disclaimer" id="disclaimer">
+      
+<strong class="phase-tag">Alpha</strong>
+
+<p>This is a development website. We welcome your feedback via <a href="mailto:25YEPindicators@defra.gov.uk">email</a>.</p>
+
+<a id="takepartButton"
+    href="https://defragroup.eu.qualtrics.com/jfe/form/SV_cTvfhqTFSj4QHlA"
+    class="btn btn-primary btn-download btn-takepart" role="link">Complete our short user-feedback survey</a>
+
+
+    </div>
+    
     <div class="widgets">
       <a class="navbar-brand" href="/" id="home">
-    <img src="/assets/img/SDG_logo.png" alt="Outcome Indicator Framework - Department for Environment, Food & Rural Affairs - 25 Year Environment Plan Logo" />
+    <img src="/assets/img/SDG_logo.png" alt="Outcome Indicator Framework - 25 Year Environment Plan homepage" />
 </a>
       <div id="search" class="menu-target">
-  <form action="/search">
+  <form action="/search/">
     <label class="sr-only" for="indicator_search">Search</label>
     <input type="text" name="q" id="indicator_search" title="Search" /><!--
     --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -206,12 +197,12 @@ var translations = {
         aria-label="Menu toggle. Click to expand or collapse the menu."
         aria-haspopup="true">
         <button data-target="menu-mobile" aria-expanded="false">Menu</button>
-        <ul class="nav navbar-nav menu-target" id="menu-mobile"><li class="nav-link ">
+        <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
     <a href="/goals">Themes</a>
 </li><li class="nav-link ">
     <a href="/reporting-status">Reporting status</a>
 </li><li class="nav-link ">
-    <a href="/about">About</a>
+    <a href="/impact-of-coronavirus">Impacts of the Coronavirus (COVID-19) pandemic</a>
 </li><li class="nav-link ">
     <a href="/introduction">Introduction and aims</a>
 </li><li class="nav-link ">
@@ -221,14 +212,49 @@ var translations = {
 </li><li class="nav-link ">
     <a href="/latest-update">Latest annual update</a>
 </li><li class="nav-link ">
+    <a href="/assessment">Assessment</a>
+</li><li class="nav-link ">
     <a href="/future-development">Future development</a>
+</li><li class="nav-link ">
+    <a href="/assessment/background">Background</a>
+</li><li class="nav-link ">
+    <a href="/assessment/results/">Summary of results</a>
 </li><li class="nav-link ">
     <a href="/publications">Publications</a>
 </li><li class="nav-link ">
-    <a href="/official-statistics">Official statistics</a>
-</li><li class="nav-link ">
     <a href="/faq">FAQs</a>
-</li></ul>
+</li>
+
+
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="Disable high contrast"
+           aria-label="Disable high contrast"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="Enable high contrast"
+           aria-label="Enable high contrast"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+
+</ul>
 
     </li>
     <li id="searchToggle"
@@ -236,7 +262,7 @@ var translations = {
         aria-haspopup="true">
         <button data-target="search-mobile" aria-expanded="false">Search</button>
         <div id="search-mobile" class="menu-target">
-  <form action="/search">
+  <form action="/search/">
     <label class="sr-only" for="indicator_search-mobile">Search</label>
     <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
     --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -245,12 +271,10 @@ var translations = {
 
     </li>
 </ul>
-      <ul class="nav navbar-nav menu-target" id="menu"><li class="nav-link ">
+      <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
     <a href="/goals">Themes</a>
 </li><li class="nav-link ">
     <a href="/reporting-status">Reporting status</a>
-</li><li class="nav-link ">
-    <a href="/about">About</a>
 </li><li class="nav-link">
             <div class="btn-group menu-dropdown">
                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -258,6 +282,8 @@ var translations = {
                     <i class="fa fa-chevron-down"></i>
                 </button>
                 <ul class="dropdown-menu"><li class="nav-link ">
+    <a href="/impact-of-coronavirus">Impacts of the Coronavirus (COVID-19) pandemic</a>
+</li><li class="nav-link ">
     <a href="/introduction">Introduction and aims</a>
 </li><li class="nav-link ">
     <a href="/structure">Structure</a>
@@ -266,23 +292,36 @@ var translations = {
 </li><li class="nav-link ">
     <a href="/latest-update">Latest annual update</a>
 </li><li class="nav-link ">
+    <a href="/assessment">Assessment</a>
+</li><li class="nav-link ">
     <a href="/future-development">Future development</a>
+</li></ul>
+            </div>
+        </li><li class="nav-link">
+            <div class="btn-group menu-dropdown">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Assessment
+                    <i class="fa fa-chevron-down"></i>
+                </button>
+                <ul class="dropdown-menu"><li class="nav-link ">
+    <a href="/assessment/background">Background</a>
+</li><li class="nav-link ">
+    <a href="/assessment/results/">Summary of results</a>
 </li></ul>
             </div>
         </li><li class="nav-link ">
     <a href="/publications">Publications</a>
 </li><li class="nav-link ">
-    <a href="/official-statistics">Official statistics</a>
-</li><li class="nav-link ">
     <a href="/faq">FAQs</a>
-</li></ul>
+</li>
+
+</ul>
 
     </div>
 
   </div>
 
 </header>
-<div id="top" tabindex=-1></div>
 
 
 
@@ -325,9 +364,8 @@ var translations = {
     </div>
   <% }); %>
 </script>
-
 <script type="text/template" id="units_template">
-  <% if(units.length) { %>
+  
     <h4>Unit of Measurement</h4>
     <fieldset>
       <legend class="sr-only">Unit of Measurement</legend>
@@ -336,7 +374,7 @@ var translations = {
         <label><input type="radio" name="unit" value="<%=unitsItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(unitsItem)%></label>
       <% }); %>
     </fieldset>
-  <% } %>
+  
 </script>
 
 <script type="text/template" id="series_template">
@@ -351,8 +389,7 @@ var translations = {
     </fieldset>
   <% } %>
 </script>
-
-<script>translations['indicator'] = {"annotation_2030_target":"2030 Target","annotation_base_line":"Baseline","annotation_target":"GES target","annotation_threshold":"GES threshold","announce_data_added":"Chart and table updated to include data.","announce_data_not_available":"Chart and table shows no data.","announce_data_removed":"Chart and table updated to exclude data.","chart":"Chart","chart_annotation":"Chart annotation","clear_all":"Clear all","clear_selections":"Clear selections","data_keyboard_navigation":"Press enter to browse data points with left and right arrow keys.","data_not_available":"These data are not available. Please choose alternative data to display.","data_tabular_alternative":"For tabular data alternative see Table tab.","dataset_size_warning":"There are too many datasets to show on the chart. Not all will be shown until you remove some selections.","download_chart":"Download Chart CSV","download_chart_image":"Download Chart Image","download_chart_image_title":"Download chart as image","download_csv":"Download CSV","download_csv_title":"Download as CSV","download_geojson":"Download GeoJSON","download_geojson_title":"Download as GeoJSON","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"Download Source CSV","download_source_sdmx":"Download Source SDMX","download_source_sdmx_title":"Download source data as SDMX","download_source_title":"Download source data as CSV","download_table":"Download Table CSV","edit":"Edit","edit_configuration":"Edit Configuration","edit_data":"Edit Data","edit_metadata":"Edit Metadata","footnote":"Footnote","geographical_area":"Geographical Area","global_metadata":"Global Metadata","global_metadata_blurb":"This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href=\"https://unstats.un.org/sdgs/metadata/\">Complete global metadata</a> is provided by the UN Statistics Division.","legend_help":"Click on the legend to remove individual lines from the chart.","loading":"Loading","loading_map":"Loading map","map":"Map","map_search":"Search","map_search_hide":"Hide search","map_search_show":"Show search","map_year_slider":"Year slider","national_metadata":"Metadata","national_metadata_blurb":"This table provides metadata for the interim or final indicator presented above.","next":"Next indicator","no_data_hint":"No options available because of filters above","plot_legend_description":"Plot legend: list of lines included in chart","previous":"Previous indicator","select_all":"Select all","series":"Series","series_help":"Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.","source":"Source","sources":"Sources","status":"Indicator status","sub_categories":"Sub-categories","sub_categories_show":"Show sub-categories:","table":"Table","table_column_sort":"Click to sort by this column","tags":"Tags","unit":"Unit","unit_of_measurement":"Unit of Measurement","units_type":"Units type","variable_hint":"Available when '%field' is selected","view_indicator_list":"View this goal's indicator list"};</script>
+<script>translations['indicator'] = {"annotation_2030_target":"2030 indicator target","annotation_base_line":"Baseline","annotation_series_break":"Series break","annotation_target":"GES target","annotation_threshold":"GES threshold","announce_data_added":"Chart and table updated to include data.","announce_data_not_available":"Chart and table shows no data.","announce_data_removed":"Chart and table updated to exclude data.","chart":"Chart","chart_annotation":"Chart annotation","clear_all":"Clear all","clear_selections":"Clear selections","data_keyboard_navigation":"Press enter to browse data points with left and right arrow keys.","data_not_available":"These data are not available. Please choose alternative data to display.","data_tabular_alternative":"For tabular data alternative see Table tab.","dataset_size_warning":"There are too many datasets to show on the chart. Not all will be shown until you remove some selections.","download_chart":"Download Chart CSV","download_chart_image":"Download Chart Image","download_chart_image_title":"Download chart as image","download_csv":"Download CSV","download_csv_title":"Download as CSV","download_geojson":"Download GeoJSON","download_geojson_title":"Download as GeoJSON","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"Download Source CSV","download_source_sdmx":"Download Source SDMX","download_source_sdmx_title":"Download source data as SDMX","download_source_title":"Download source data as CSV","download_table":"Download Table CSV","edit":"Edit","edit_configuration":"Edit Configuration","edit_data":"Edit Data","edit_metadata":"Edit Metadata","footnote":"Footnote","geographical_area":"Geographical Area","global_metadata":"Global Metadata","global_metadata_blurb":"This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href=\"https://unstats.un.org/sdgs/metadata/\">Complete global metadata</a> is provided by the UN Statistics Division.","legend_help":"Click on the legend to remove individual lines from the chart.","loading":"Loading","loading_map":"Loading map","map":"Map","map_search":"Search","map_search_hide":"Hide search","map_search_show":"Show search","map_year_slider":"Year slider","national_metadata":"Metadata","national_metadata_blurb":"This table provides metadata for the interim or final indicator presented above.","next":"Next indicator","no_data_hint":"No options available because of filters above","plot_legend_description":"Plot legend: list of lines included in chart","previous":"Previous indicator","select_all":"Select all","series":"Series","series_help":"Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.","source":"Source","sources":"Sources","status":"Indicator status","sub_categories":"Sub-categories","sub_categories_show":"Show sub-categories:","table":"Table","table_column_sort":"Click to sort by this column","tags":"Tags","unit":"Unit","unit_of_measurement":"Unit of Measurement","units_type":"Units type","variable_hint":"Available when '%field' is selected","view_indicator_list":"View this goal's indicator list"};</script>
 
 <script>translations['data'] = null;</script>
 
@@ -373,17 +410,17 @@ var translations = {
 
     
       
-<div class="previous-next-links row">
-    <div class="col-xs-3 col-md-3 col-lg-4 pull-left text-left">
-        <a class="btn btn-primary" href="/3-1-1" aria-labelledby="previous-link">
+<div class="previous-next-links oif-row space-between">
+    <div class="oif-row previous-next-link">
+        <a class="btn btn-primary" href="/3-1-1">
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
-            <span id="previous-link" class="hidden-sm hidden-xs">Previous indicator</span>
+            <span id="previous-link-top" class="hidden-sm hidden-xs">Previous indicator</span>
         </a>
     </div>
-    <div class="col-xs-3 col-md-3 col-lg-4 pull-right text-right">
-        <a class="btn btn-primary" href="/3-3-1" aria-labelledby="next-link">
+    <div class="oif-row right-justified previous-next-link">
+        <a class="btn btn-primary" href="/3-3-1">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            <span id="next-link" class="hidden-sm hidden-xs">Next indicator</span>
+            <span id="next-link-top" class="hidden-sm hidden-xs">Next indicator</span>
         </a>
     </div>
 </div>
@@ -403,7 +440,7 @@ var translations = {
       >
         <img
           src="/assets/img/goals/en/3.png"
-          alt="Seas and Estuaries - Theme 3"
+          alt="Seas and Estuaries theme"
           id="theme-3"
           class="goal-icon-image goal-icon-image-"
         />
@@ -430,65 +467,95 @@ var translations = {
 
   
 
+  
+
 <div class="row" id="page-content">
   <div class="col-xs-12">
     <h2 id="short-description">Short description</h2>
 
-<p>This indicator tracks changes in the distribution and intensity of potential physical disturbance caused by human activities on the seabed. The indicator combines data on the intensity and distribution of pressures from human activities with data on the distribution and sensitivity of seabed habitats. Data from vessel monitoring systems (VMS) showing fishing activity are linked to vessel logbook information and processed to create a layer showing abrasion pressure on the seabed. A second layer is produced by combining data on distribution of seabed habitats with information on resilience and resistance to evaluate their sensitivity to the pressure. The pressure and sensitivity layers are combined using a spatial method to create a single data layer showing the area of seabed subject to high disturbance from human activity. This indicator is linked to the “Extent of Physical Damage to Predominant and Special Habitats” indicator, developed for the Convention for the Protection of the Marine Environment of the North-East Atlantic (OSPAR) and used for the UK Marine Strategy Part One (2019) assessment of Good Environmental Status (GES).</p>
+<p>This indicator tracks changes in the distribution and intensity of potential physical disturbance caused by human activities on the seabed. The indicator combines data on the intensity and distribution of pressures from human activities with data on the distribution and sensitivity of seabed habitats. Data from vessel monitoring systems (VMS) showing fishing activity are linked to vessel logbook information and processed to create a layer showing abrasion pressure on the seabed. A second layer is produced by combining data on distribution of seabed habitats with information on resilience and resistance to evaluate their sensitivity to the pressure. The pressure and sensitivity layers are combined using a spatial method to create a single data layer showing the area of seabed subject to high disturbance from human activity. This indicator is linked to the ’Extent of Physical Damage to Predominant and Special Habitats’ indicator, developed for the Convention for the Protection of the Marine Environment of the North-East Atlantic (OSPAR) and used for the UK Marine Strategy Part One (2019) assessment of Good Environmental Status (GES).</p>
 
 <h2 id="readiness-and-links-to-data">Readiness and links to data</h2>
 
-<p>This indicator is not available for reporting in 2021 in a finalised form as some changes to the method are needed to include additional activities and improve habitat sensitivity assessment. An interim indicator is presented here that shows the predicted area of seabed in the UK Continental Shelf exposed to disturbance from bottom contact fishing by vessels over 12 m long. The assessments used for this interim indicator, including data and analytical methods, have been reported under the updated <a href="https://moat.cefas.co.uk/biodiversity-food-webs-and-marine-protected-areas/benthic-habitats/physical-damage/">UK Marine Strategy Part One (2019)</a>. Inclusion of other human activities, including small fishing vessels without VMS, and improved sensitivity information are in development and will be available as part of the OSPAR Quality Status Report in 2023.</p>
+<p>This indicator is not available for reporting in 2022 in a finalised form as some changes to the method are needed to include additional activities and improve habitat sensitivity assessment. An interim indicator is presented here that shows the predicted area of seabed in the UK Continental Shelf exposed to disturbance from bottom contact fishing by vessels over 12m long. The assessments used for this interim indicator, including data and analytical methods, have been reported under the updated <a href="https://moat.cefas.co.uk/biodiversity-food-webs-and-marine-protected-areas/benthic-habitats/physical-damage/">UK Marine Strategy Part One (2019)</a>. Inclusion of other human activities, specifically commercial aggregate extraction and improved sensitivity information are in development and will be available as part of the OSPAR Quality Status Report in 2023. Further long-term developments to this indicator will include assessments of new activities associated with localised disturbance pressure and higher resolution fishing data, including small fishing vessels under 12m (as data become available).</p>
 
-<h2 id="note">Note</h2>
+<h2 id="note-on-figures-c2i-and-c2ii">Note on Figures C2i and C2ii</h2>
 
 <p>The degree of disturbance of a habitat is an index based on the predicted spatial and temporal overlap of its sensitivity and exposure to a specific pressure. Sensitivity is assessed using the distribution of habitats and information on species presence collected across the reporting cycle (2010 to 2015). The annual values of the distribution and intensity of pressure are aggregated to give an average pressure intensity for reporting cycle. If the pressure intensity is highly variable across the 6-year period in an area the highest value is taken. Sensitivity and pressure are combined via a matrix, producing 10 categories of disturbance ranging from 0 (no disturbance) to 9 (greatest disturbance possible).</p>
 
-<p>While the currently available data predate the 25 Year Environment Plan, they provide the most recently available assessment of the physical damage to benthic habitats. They enable a better understanding of a baseline from which to measure progress towards the goals of the 25 Year Environment Plan when the indicator is next updated.</p>
+<p>While the currently available data predate the 25 Year Environment Plan, they provide the most recently available assessment of the physical damage to benthic (seafloor) habitats. They enable a better understanding of a baseline from which to measure progress towards the goals of the 25 Year Environment Plan when the indicator is next updated.</p>
 
-<p>A lack of data relating to the activities of smaller fishing vessels (less than 12 m) exists as they are not equipped with a VMS recorder. Consequently, there is an underestimate of disturbance in inshore waters. Due to the analytical methods used there is a potential overestimate of disturbance as a consequence of assuming an even distribution of fishing pressures.</p>
+<p>A lack of data relating to the activities of smaller fishing vessels (less than 12m) exists as they are not currently equipped with a VMS recorder. Consequently, there is an underestimate of disturbance in inshore waters. Due to the analytical methods used in the production of fishing pressure layers, there is a potential overestimate of disturbance as a consequence of assuming an even distribution of fishing pressures.</p>
 
-<h2 id="trend-description">Trend description</h2>
+<h2 id="trend-description-for-figures-c2i-and-c2ii">Trend description for Figures C2i and C2ii</h2>
 
-<p>There is currently no trend assessment due to the indicator not being considered previously. Changes over time might be identified by comparing results from multiple reporting cycle assessments such those produced by the UK Marine Strategy every 6 years. Future assessments will enable any trends to be identified, for example the number of regions achieving GES.</p>
+<p>There is currently no trend assessment due to constraints of current data availability. In future updates, changes over time might be identified by comparing results from multiple reporting cycle assessments such those produced by the UK Marine Strategy every 6 years. Future assessments will enable any trends to be identified, for example the number of regions achieving GES.</p>
 
 <p>The results from 2010 to 2015 show pressure and disturbance caused by fishing activities to be widespread, occurring to some degree in 57% of the cells within UK waters. The charts show the aggregated values for seafloor disturbance from bottom fishing for the period 2010 to 2015. The highest level of disturbance is found in the English Channel and Southern Celtic Seas with 75% of both these areas being subject to high disturbance (categories 5 to 9). The extent of disturbance in the Northern North Sea and Southern North Sea is lower, 50% and 48% respectively, but still considerably above the target figure for GES. Within each assessment area there are grid cells showing no disturbance or low disturbance (categories 0 to 4), such as some central areas of the Northern North Sea. The Wider Atlantic (OSPAR Region V) was the only region to achieve GES over the assessment period 2010 to 2015 with 12% of its area subjected to high disturbance from bottom contact fishing.</p>
+
+<h2 id="assessment-of-change">Assessment of change</h2>
+
+<p>No assessment of change was undertaken for this indicator as a suitable time series is not yet available in the Outcome Indicator Framework.</p>
 
   </div>
 </div>
 
 
-   
+  
+
+
+
+  
+<div class="previous-next-links oif-row space-between">
+    <div class="oif-row previous-next-link">
+        <a class="btn btn-primary" href="/3-1-1">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+            <span id="previous-link-bottom" class="hidden-sm hidden-xs">Previous indicator</span>
+        </a>
+    </div>
+    <div class="oif-row right-justified previous-next-link">
+        <a class="btn btn-primary" href="/3-3-1">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            <span id="next-link-bottom" class="hidden-sm hidden-xs">Next indicator</span>
+        </a>
+    </div>
+</div>
+
 
 
 <div
-  class="row"
+  class="oif-row"
   id="indicatorData"
   data-indicatorid="indicator_3-2-1"
   data-id="3-2-1"
   data-country="UK Continental Shelf"
-  data-graphgeographies="null"
-  data-charttitle="C2ii (interim), Predicated area of seabed in the UK Continental Shelf exposed to disturbance from bottom contact fishing by vessels over 12 m long and regional progress towards Good Environmental Status (GES) 2010 to 2015"
+  data-charttitle="C2ii (interim): Predicated area of seabed in the UK Continental Shelf exposed to disturbance from bottom contact fishing by vessels over 12m long and regional progress towards Good Environmental Status (GES) 2010 to 2015"
   data-charttitles="null"
-  data-measurementunit="Predicted area (% of total)"
-  data-measurementunits="null"
+  data-measurementunit="Percentage of total area"
+  data-xaxislabel=""
   data-showdata="true"
   data-graphtype="bar"
   data-graphtypes="null"
   data-geocoderegex=""
   data-showmap="false"
   data-startvalues="[{&quot;field&quot;:&quot;Disturbance&quot;,&quot;value&quot;:&quot;Low disturbance (categories 0 to 4)&quot;},{&quot;field&quot;:&quot;Disturbance&quot;,&quot;value&quot;:&quot;High disturbance (categories 5 to 9)&quot;}]"
-  data-startvaluesseries="null"
   data-graphlimits="null"
+  data-graphannotations="[{&quot;preset&quot;:&quot;threshold_line_15&quot;,&quot;series&quot;:&quot;&quot;}]"
+  data-graphtargetlines="null"
+  data-graphseriesbreaks="null"
+  data-indicatordownloads="null"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Disturbance&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;High disturbance (categories 5 to 9)&quot;,&quot;Low disturbance (categories 0 to 4)&quot;]},&quot;title&quot;:&quot;Disturbance&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;},{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;Year&quot;}]}"
+  data-compositebreakdownlabel=""
+  data-precision="null"
+  data-graphgeographies="null"
+  data-measurementunits="null"
+  data-startvaluesseries="null"
   
     data-stackeddisaggregation="true"
   
-  data-categoryorder="null"
-  data-categorycolor="{&quot;High disturbance (categories 5 to 9)&quot;:&quot;#28779f&quot;,&quot;Low disturbance (categories 0 to 4)&quot;:&quot;#008938&quot;}"
-  data-graphannotations="[{&quot;series&quot;:&quot;&quot;,&quot;preset&quot;:&quot;threshold_line_15&quot;}]"
-  data-indicatordownloads="null"
-  data-compositebreakdownlabel=""
-  data-precision="null"
+  data-categoryorder="{&quot;High disturbance (categories 5 to 9)&quot;:0,&quot;Low disturbance (categories 0 to 4)&quot;:1}"
+  data-stackorder="[&quot;English Channel&quot;,&quot;OSPAR Region I&quot;,&quot;OSPAR Region IV&quot;,&quot;OSPAR Region V&quot;,&quot;Southern Celtic Seas&quot;,&quot;Northern Celtic Seas&quot;,&quot;Southern North Sea&quot;,&quot;Northern North Sea&quot;]"
+  data-categorycolor="{&quot;High disturbance (categories 5 to 9)&quot;:&quot;#12436D&quot;,&quot;Low disturbance (categories 0 to 4)&quot;:&quot;#3F94DE&quot;}"
   data-continuouserror="null"
   data-multiaxes="null"
   data-mixedtype="null"
@@ -496,11 +563,12 @@ var translations = {
   data-graphsources="null"
   data-graphnote="The chart shows the percentage area of OSPAR sub-regions in disturbance categories 0 to 4 (no or low disturbance) and 5 to 9 (high disturbance) across the reporting cycle (2010 to 2015). Incomplete data made it difficult to assess disturbance in the Bay of Biscay and Iberian Coast (OSPAR Region IV) and in Arctic Waters (OSPAR Region I)."
   data-graphnotes="null"
+  data-yaxislabels="null"
 >
-
-  <span role="status" class="sr-only" id="indicator-data-view-status"></span>
-  <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
-    <div id="serieses"></div>
+  
+    <span role="status" class="sr-only" id="indicator-data-view-status"></span>
+    <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
+      <div id="serieses"></div>
 <div id="units"></div>
 <div id="toolbar">
   <span id="series-help">
@@ -511,9 +579,8 @@ var translations = {
     <p class="async-loading" data-img="/assets/img/loading-small.gif"></p>
   </div>
 </div>
-
-  </div>
-  <div id="indicator-main" class="indicator-main col-md-9">
+    </div>
+    <div id="indicator-main" class="indicator-main col-md-9">
     <section>
 
   <p class="async-loading" data-img="/assets/img/loading-small.gif"></p>
@@ -525,34 +592,89 @@ var translations = {
 </div>
 <ul class="nav nav-tabs non-stacking-tabs data-view" role="tablist">
   
-  <li role="presentation" class="nav-item active">
-    <a class="nav-link" data-toggle="tab" id="tab-chartview" href="#chartview" aria-controls="chartview" role="tab" data-on="click"
+    
+      
+        <li role="presentation" class="nav-item active">
+          
+
+<a 
+class="nav-link" 
+data-toggle="tab" 
+role="tab" 
+id="tab-chartview"
+href="#chartview"
+aria-controls="chartview"
+aria-describedby="table-alternative"
+data-on="click"
 data-event-category="Tab change"
 data-event-action="Change data view"
 data-event-label="Change to Chart tab"
- aria-describedby="table-alternative">Chart</a>
-  </li>
+
+>Chart</a>
+
+        </li>        
+      
+      
   
-  
-  <li role="presentation" class="nav-item">
-    <a class="nav-link" data-toggle="tab" id="tab-tableview" href="#tableview" aria-controls="tableview" role="tab" data-on="click"
+    
+      
+        <li role="presentation" class="nav-item">
+          
+
+<a 
+class="nav-link" 
+data-toggle="tab" 
+role="tab" 
+id="tab-tableview"
+href="#tableview"
+aria-controls="tableview"
+aria-describedby="table-alternative"
+data-on="click"
 data-event-category="Tab change"
 data-event-action="Change data view"
 data-event-label="Change to Table tab"
+
 >Table</a>
-  </li>
-  <li role="presentation" class="nav-item embedded-map">
-      <a data-no-disagg="true" class="nav-link" data-toggle="tab" id="tab-embeddedmapview" href="#embeddedmapview" aria-controls="embeddedmapview" role="tab" data-on="click"
+
+        </li>        
+      
+      
+  
+    
+      
+      <li role="presentation" class="nav-item embedded-map">
+        
+
+<a 
+class="nav-link" 
+data-toggle="tab" 
+role="tab" 
+id="tab-embeddedmapview"
+href="#embeddedmapview"
+aria-controls="embeddedmapview"
+aria-describedby="table-alternative"
+data-on="click"
 data-event-category="Tab change"
 data-event-action="Change data view"
 data-event-label="Change to embedded item tab"
->Map, C2i (interim)</a>
-    </li></ul>
 
+>Map, C2i (interim)</a>
+
+      </li>
+      
+      
+  
+    
+      
+    
+  
+</ul>
     <div class="tab-content data-view">
   
-  <div role="tabpanel" class="tab-pane active" id="chartview">
-    <div id="dataset-size-warning" style="display:none" role="alert">
+    
+    
+      <div role="tabpanel" class="tab-pane active" id="chartview">
+        <div id="dataset-size-warning" style="display:none" role="alert">
   <i class="fa fa-bolt"><span class="sr-only">Warning:</span></i>
   There are too many datasets to show on the chart. Not all will be shown until you remove some selections.
 </div>
@@ -561,7 +683,7 @@ data-event-label="Change to embedded item tab"
 <div id="selectionsChart">
   <figure role="group">
     <div id="chart-canvas">
-      <h3 id="chart-heading" class="chart-title">C2ii (interim), Predicated area of seabed in the UK Continental Shelf exposed to disturbance from bottom contact fishing by vessels over 12 m long and regional progress towards Good Environmental Status (GES) 2010 to 2015</h3>
+      <h3 id="chart-heading" class="chart-title">C2ii (interim): Predicated area of seabed in the UK Continental Shelf exposed to disturbance from bottom contact fishing by vessels over 12m long and regional progress towards Good Environmental Status (GES) 2010 to 2015</h3>
       <div id="chart" class="plot-container">
         <script>
   /**
@@ -733,6 +855,26 @@ data-event-label="Change to embedded item tab"
       orderLegend(order);
     };
 
+    const orderStacks = (config, orders) => {
+      const labels = config.data.labels;
+
+      config.data.labels = orders;
+      config.data.allLabels = orders;
+
+      const numberOfDatasets = config.data.datasets.length;
+
+      const rows = labels
+        .map((label, index) => [label, config.data.datasets.map(dataset => dataset.data[index])].flat());
+
+      const reordered_rows = orders.map(order => rows.filter(row => row[0] === order)[0]);
+
+      let unzipped = [...Array(numberOfDatasets + 1).keys()].map(index => reordered_rows.map(reordered_row => reordered_row[index]));
+
+      unzipped.slice(1).forEach((reordered_data, index) => {
+          config.data.datasets[index].data = reordered_data;
+      });
+    }
+
 </script>
 
 <canvas
@@ -751,7 +893,7 @@ data-event-label="Change to embedded item tab"
           config.options.scales.yAxes[0].ticks.max = info.graphLimits.maximum;
           config.options.scales.yAxes[0].ticks.min = info.graphLimits.minimum;
           config.options.scales.yAxes[0].ticks.stepSize =
-          info.graphLimits.stepSize;
+            info.graphLimits.stepSize;
         }
       }
       config.options.scales.yAxes[0].ticks.max = info.graphLimits.maximum;
@@ -761,7 +903,6 @@ data-event-label="Change to embedded item tab"
     }
   });
 </script>
-
 <span style="display: none;" id="chart-annotations" role="status"></span>
 <script>
 opensdg.annotationPresets = {
@@ -769,16 +910,21 @@ opensdg.annotationPresets = {
         // This "common" preset is applied to all annotations automatically.
         borderColor: '#505a5f',
         type: 'line',
+        drawTime: 'afterDatasetsDraw',
         label: {
             backgroundColor: 'black',
+            
             fontColor: 'white',
+            
         },
         // This "highContrast" overrides colors when in high-contrast mode.
         highContrast: {
             label: {
                 backgroundColor: 'white',
-                fontColor: 'black'
-            }
+                
+                fontColor: 'black',
+                
+            },
         },
         // This callback is used to generate a generic description for screenreaders.
         // This can be overridden to be a more specific string, eg:
@@ -803,6 +949,24 @@ opensdg.annotationPresets = {
                 descriptionParts.push(this.value);
             }
             return descriptionParts.join(': ');
+        },
+    },
+    target_line: {
+        mode: 'horizontal',
+        borderWidth: 2,
+        borderDash: [15, 10],
+        borderColor: '#757575',
+        label: {
+            position: 'right',
+            content: translations.indicator.annotation_2030_target,
+        },
+    },
+    series_break: {
+        mode: 'vertical',
+        borderDash: [2, 2],
+        label: {
+            position: 'top',
+            content: translations.indicator.annotation_series_break,
         },
     },
     threshold_line_15: {
@@ -832,24 +996,27 @@ opensdg.annotationPresets = {
             content: translations.indicator.annotation_base_line,
         },
     },
-};
+},
 
 // Add a chart alteration to support the chart_annotations metadata field.
 opensdg.chartConfigAlter(function(config, info) {
     if (info.graphAnnotations && info.graphAnnotations.length > 0) {
         // Apply some helpers/fixes to the annotations.
-        var annotations = info.graphAnnotations.map(function(annotation) {
+        var annotations = info.graphAnnotations.map(function(annotationOverrides) {
+            var annotation = {};
             // Apply the "common" preset.
             if (opensdg.annotationPresets.common) {
-                annotation = $.extend(true, {}, opensdg.annotationPresets.common, annotation);
+                $.extend(true, annotation, opensdg.annotationPresets.common);
             }
             // Apply any specified presets.
-            if (annotation.preset) {
-                var preset = annotation.preset;
+            if (annotationOverrides.preset) {
+                var preset = annotationOverrides.preset;
                 if (opensdg.annotationPresets[preset]) {
-                    annotation = $.extend(true, {}, opensdg.annotationPresets[preset], annotation);
+                    $.extend(true, annotation, opensdg.annotationPresets[preset]);
                 }
             }
+            // Now add any more annotation config.
+            $.extend(true, annotation, annotationOverrides);
             // Default to horizontal lines.
             if (!annotation.mode && annotation.type === 'line') {
                 annotation.mode = 'horizontal';
@@ -902,7 +1069,7 @@ opensdg.chartConfigAlter(function(config, info) {
             var overrides = {
                 options: {
                     annotation: {
-                        drawTime: 'afterDatasetsDraw',
+                        drawTime: 'beforeDatasetsDraw',
                         annotations: annotations
                     }
                 }
@@ -955,7 +1122,7 @@ opensdg.chartConfigAlter(function(config, info) {
               dataset["yAxisID"] = "y-axis-0";
             }
           });
-          
+
           if (config.options.scales.yAxes.length > 1) {
             config.options.scales.yAxes[1] = {
               type: "linear",
@@ -970,7 +1137,9 @@ opensdg.chartConfigAlter(function(config, info) {
                 display: false,
               },
               ticks: {
-                suggestedMin: 0,
+                max: 6000,
+                min: 0,
+                stepSize: 600
               },
             };
           } else {
@@ -987,11 +1156,13 @@ opensdg.chartConfigAlter(function(config, info) {
                 display: false,
               },
               ticks: {
-                suggestedMin: 0,
+                max: 6000,
+                min: 0,
+                stepSize: 600
               },
             });
           }
-        }  else {
+        } else {
           if (config.options.scales.yAxes.length > 1) {
             while (config.options.scales.yAxes.length > 1) {
               config.options.scales.yAxes.pop();
@@ -1002,10 +1173,8 @@ opensdg.chartConfigAlter(function(config, info) {
     }
   });
 </script>
-
 <script>
   opensdg.chartConfigAlter(function (config, info) {
-    if (config.type === "line") {
       if (info.continuousError) {
         if (info.selectedSeries) {
           if (isRelevant(info.continuousError, info.selectedSeries)) {
@@ -1013,25 +1182,25 @@ opensdg.chartConfigAlter(function(config, info) {
               info.continuousError,
               "series",
               info.selectedSeries
-            );
-            var target = unpack_array_of_objects(
-              continuousErrorFiltered,
-              "target"
-            );
-            var upper = unpack_array_of_objects(
-              continuousErrorFiltered,
+              );
+              var target = unpack_array_of_objects(
+                continuousErrorFiltered,
+                "target"
+                );
+                var upper = unpack_array_of_objects(
+                  continuousErrorFiltered,
               "upper"
-            );
-            var lower = unpack_array_of_objects(
-              continuousErrorFiltered,
-              "lower"
-            );
+              );
+              var lower = unpack_array_of_objects(
+                continuousErrorFiltered,
+                "lower"
+                );
             var newLegendText = unpack_array_of_objects(
               continuousErrorFiltered,
               "legend"
-            );
-          }
-        } else {
+              );
+            }
+          } else {
           var target = info.continuousError.target;
           var upper = info.continuousError.upper;
           var lower = info.continuousError.lower;
@@ -1055,46 +1224,50 @@ opensdg.chartConfigAlter(function(config, info) {
         var config = datasets.forEach(function (dataset, index) {
           if (index === index_upper || index === index_lower) {
             dataset["fill"] = index_target;
-            dataset["backgroundColor"] = "#81ed93";
-            dataset["borderColor"] = "#81ed93";
+            dataset["backgroundColor"] = "#3F94DE";
+            dataset["borderColor"] = "#3F94DE";
             dataset["pointRadius"] = 0;
+          } else {
+            dataset["backgroundColor"] = "#12436D";
+            dataset["borderColor"] = "#12436D";
+            dataset["pointBackgroundColor"] = "#12436D";
+            dataset["pointBorderColor"] = "#12436D";
           }
           return dataset;
         });
         let indicatorData = document.getElementById("indicatorData");
-  
+
         indicatorData.classList.add("no-fields");
-  
+
         $(document).ready(() => {
           let legendContainer = document.getElementById("legend");
           let legendItems = legendContainer.children;
           let legendItemsArray = Array.from(legendItems);
-  
+
           legendItemsArray.forEach((item) => {
             if ([upper, lower].includes(item.innerText)) {
               item.remove();
             }
           });
-  
+
           if (!legendItemsArray.map((item) => item.innerText).includes(newLegendText)) {
             let newItemSpan = document.createElement("span");
             newItemSpan.classList.add("swatch");
-            newItemSpan.style.backgroundColor = "#81ed93";
-    
+            newItemSpan.style.backgroundColor = "#3F94DE";
+
             let newItem = document.createElement("li");
             newItem.appendChild(newItemSpan);
             newItem.append(newLegendText);
-    
+
             legendContainer.appendChild(newItem);
           };
-  
+
         });
       }
 
       $.extend(true, config);
 
-    }
-  });
+    });
 </script>
 
 
@@ -1149,7 +1322,7 @@ opensdg.chartConfigAlter(function(config, info) {
       } else {
         stack(config);
       }
-      
+
       // TODO
       // Grouping by series
 
@@ -1162,12 +1335,10 @@ opensdg.chartConfigAlter(function(config, info) {
     }
   });
 </script>
-
-
 <script>
   opensdg.chartConfigAlter(function (config, info) {
     if (info.mixedType) {
-     
+
       if (info.selectedSeries) {
         var mixedTypeFiltered = filter_array_of_objects(info.mixedType, "series", info.selectedSeries);
         var mixedTypeValue = unpack_array_of_objects(mixedTypeFiltered, "value");
@@ -1176,9 +1347,9 @@ opensdg.chartConfigAlter(function(config, info) {
         var mixedTypeValue = unpack_array_of_objects(info.mixedType, "value");
         var mixedTypeType = unpack_array_of_objects(info.mixedType, "type");
       }
-      
+
       var datasets = config.data.datasets;
-      
+
       var datasets_new = datasets.forEach(function (dataset) {
         if (dataset.label === mixedTypeValue) {
           dataset["type"] = mixedTypeType
@@ -1186,38 +1357,63 @@ opensdg.chartConfigAlter(function(config, info) {
         return dataset
       })
 
-      
+
       var overrides = {
         data: {
           datasets: datasets_new,
         },
       };
-      
+
       $.extend(true, config, overrides);
-      
+
     };
   });
 </script>
-
-
 <script>
     opensdg.chartConfigAlter(function (config, info) {
-        if (info.measurementUnitSeries) {
+        if (info.yAxisLabels) {
             if (info.selectedSeries) {
-                var measurementUnitFiltered = filter_array_of_objects(info.measurementUnitSeries, "series", info.selectedSeries);
+                const yAxisLabelsFiltered = filter_array_of_objects(info.yAxisLabels, "series", info.selectedSeries);
 
-                var measurementUnit = unpack_array_of_objects(measurementUnitFiltered, "unit");
+                const yAxisLabel = unpack_array_of_objects(yAxisLabelsFiltered, "label");
+
+                _.set(config, "options.scales.yAxes[0].scaleLabel.display", true);
+
+                _.set(config, "options.scales.yAxes[0].scaleLabel.labelString", yAxisLabel);
+
+                return config
+            } else {
+                const yAxisLabel = info.yAxisLabels;
+
+                _.set(config, "options.scales.yAxes[0].scaleLabel.display", true);
+
+                _.set(config, "options.scales.yAxes[0].scaleLabel.labelString", yAxisLabel);
+
+                return config
+            }
+        } else if (info.measurementUnitSeries) {
+            if (info.selectedSeries) {
+                const measurementUnitFiltered = filter_array_of_objects(info.measurementUnitSeries, "series", info.selectedSeries);
+
+                const measurementUnit = unpack_array_of_objects(measurementUnitFiltered, "unit");
 
                 _.set(config, "options.scales.yAxes[0].scaleLabel.display", true);
 
                 _.set(config, "options.scales.yAxes[0].scaleLabel.labelString", measurementUnit);
 
-                config
+                return config
             }
+        } else if (info.measurementUnit) {
+            const measurementUnit = info.measurementUnit;
+
+            _.set(config, "options.scales.yAxes[0].scaleLabel.display", true);
+
+            _.set(config, "options.scales.yAxes[0].scaleLabel.labelString", measurementUnit);
+
+            return config
         }
     });
 </script>
-
 <script>
   opensdg.chartConfigAlter(function (config, info) {
     if (info.categoryOrder) {
@@ -1257,19 +1453,22 @@ opensdg.chartConfigAlter(function(config, info) {
       } else {
         orderChart(config, info.categoryOrder);
       }
-    }
+    };
+    if (info.stackOrder) {
+      const order = info.selectedSeries ? info.stackOrder[info.selectedSeries] : info.stackOrder;
+      orderStacks(config, order);
+    };
   });
 </script>
-
 <script>
   opensdg.chartConfigAlter(function (config, info) {
     if (info.selectedUnit) {
       if (info.selectedUnit === "Percent") {
         config.options.scales.yAxes[0].ticks.callback = (value) =>
-        (value / 100).toLocaleString("en-GB", { style: "percent" });
+          (value / 100).toLocaleString("en-GB", { style: "percent" });
         if (config.options.scales.yAxes[1]) {
           config.options.scales.yAxes[0].ticks.callback = (value) =>
-        (value / 100).toLocaleString("en-GB", { style: "percent" });
+            (value / 100).toLocaleString("en-GB", { style: "percent" });
         }
       } else {
         config.options.scales.yAxes[0].ticks.callback = (value) =>
@@ -1296,7 +1495,6 @@ opensdg.chartConfigAlter(function(config, info) {
     }
   });
 </script>
-
 <script>
   // Here we define a function to set the colours that we can reuse in each of the if branches
 
@@ -1310,8 +1508,30 @@ opensdg.chartConfigAlter(function(config, info) {
    */
   const recolor = (config, category_color) => {
     config.data.datasets.forEach((dataset) => {
-      dataset.backgroundColor = category_color[dataset.label];
-      dataset.borderColor = category_color[dataset.label];
+      const color = category_color[dataset.label];
+      if (Array.isArray(color)){
+        const [pattern_type, pattern_color] = color;
+        dataset.backgroundColor = pattern.draw(pattern_type, pattern_color);
+        dataset.borderColor = pattern_color;
+        dataset.pointBackgroundColor = pattern.draw(pattern_type, pattern_color);
+        dataset.pointBorderColor = pattern_color;
+        $(document).ready(() => {
+          let legendContainer = document.getElementById("legend");
+          let legendItems = legendContainer.children;
+          let legendItemsArray = Array.from(legendItems);
+
+          legendItemsArray.forEach((legendItem) => {
+            if (legendItem.textContent.startsWith("Weak")) {
+              legendItem.firstElementChild.classList.add("checked")
+            }
+      });
+    });
+      } else {
+        dataset.backgroundColor = color;
+        dataset.borderColor = color;
+        dataset.pointBackgroundColor = color;
+        dataset.pointBorderColor = color;
+      }
     });
 
     $(document).ready(() => {
@@ -1322,7 +1542,10 @@ opensdg.chartConfigAlter(function(config, info) {
       legendItemsArray.forEach((legendItem) => {
         if (legendItem.firstElementChild.classList.contains("dashed")) {
           legendItem.firstElementChild.classList.remove("dashed");
-        }
+        };
+        if (legendItem.innerText == "undefined") {
+          legendItem.remove();
+        };
       });
     });
   };
@@ -1348,8 +1571,14 @@ opensdg.chartConfigAlter(function(config, info) {
     }
   });
 </script>
-
-
+<script>
+    opensdg.chartConfigAlter(function (config, info) {
+        config.type = info.graphType;
+        if (config.type == "bar") {
+            config.options.scales.xAxes[0].offset = true;
+        };
+    });
+</script>
       </div>
       <div id="plotLegend"></div>
       
@@ -1361,32 +1590,52 @@ opensdg.chartConfigAlter(function(config, info) {
   <dl>
     
     
-    <dt><b>Source:</b></dt>
+    <dt>Source:</dt>
     <dd class="footer-source">Convention for the Protection of the Marine Environment of the North-East Atlantic (OSPAR)</dd>
     
     
     
     
-    <dt><b>Geographical Area:</b></dt>
+    <dt>Geographical Area:</dt>
     <dd class="footer-geography">UK Continental Shelf</dd>
     
 
     
     
-    <dt><b>Unit of Measurement:</b></dt>
-    <dd class="footer-units">Predicted area (% of total)</dd>
+    <dt>Unit of Measurement:</dt>
+    <dd class="footer-units">Percentage of total area</dd>
     
     
     
     
     
+    <dt class="footer-note">Footnote:</dt>
+    <dd class="footer-note">The chart shows the percentage area of OSPAR sub-regions in disturbance categories 0 to 4 (no or low disturbance) and 5 to 9 (high disturbance) across the reporting cycle (2010 to 2015). Incomplete data made it difficult to assess disturbance in the Bay of Biscay and Iberian Coast (OSPAR Region IV) and in Arctic Waters (OSPAR Region I).</dd>
     
-    <div class="footer-note-row" style="visibility: visible;">
-      <dt><b>Footnote:</b></dt>
-      <dd class="footer-note">The chart shows the percentage area of OSPAR sub-regions in disturbance categories 0 to 4 (no or low disturbance) and 5 to 9 (high disturbance) across the reporting cycle (2010 to 2015). Incomplete data made it difficult to assess disturbance in the Bay of Biscay and Iberian Coast (OSPAR Region IV) and in Arctic Waters (OSPAR Region I).</dd>
-    </div>
     
-  </dl>
+
+    
+    
+    <dt
+      class="data-controlled-footer-field"
+      data-ts-attribute="COMMENT_TS"
+    >Footnote:</dt>
+    <dd
+      class="data-controlled-footer-field"
+      data-ts-attribute="COMMENT_TS"
+    ></dd>
+    
+    <dt
+      class="data-controlled-footer-field"
+      data-ts-attribute="DATA_LAST_UPDATE"
+    >Data last updated:</dt>
+    <dd
+      class="data-controlled-footer-field"
+      data-ts-attribute="DATA_LAST_UPDATE"
+    ></dd>
+    
+    
+    </dl>
 </div>
 
     </div>
@@ -1397,14 +1646,18 @@ opensdg.chartConfigAlter(function(config, info) {
     </button>
   </div>
 </div>
-  </div>
+      </div>
+    
+    
   
-  
-  <div role="tabpanel" class="tab-pane" id="tableview">
-    <div style="display: none;">
-      <span id="column-sort-info">Click to sort by this column</span>
-    </div>
-    <div id="selectionsTable"></div>
+    
+    
+      <div role="tabpanel" class="tab-pane " id="tableview">
+        <div style="display: none;">
+          <span id="column-sort-info">Click to sort by this column</span>
+        </div>
+        <div id="selectionsTable"></div>
+<dl id="tableTargetLines" class="clearfix"></dl>
 
 
 
@@ -1414,41 +1667,63 @@ opensdg.chartConfigAlter(function(config, info) {
   <dl>
     
     
-    <dt><b>Source:</b></dt>
+    <dt>Source:</dt>
     <dd class="footer-source">Convention for the Protection of the Marine Environment of the North-East Atlantic (OSPAR)</dd>
     
     
     
     
-    <dt><b>Geographical Area:</b></dt>
+    <dt>Geographical Area:</dt>
     <dd class="footer-geography">UK Continental Shelf</dd>
     
 
     
     
-    <dt><b>Unit of Measurement:</b></dt>
-    <dd class="footer-units">Predicted area (% of total)</dd>
+    <dt>Unit of Measurement:</dt>
+    <dd class="footer-units">Percentage of total area</dd>
     
     
     
     
     
+    <dt class="footer-note">Footnote:</dt>
+    <dd class="footer-note">The chart shows the percentage area of OSPAR sub-regions in disturbance categories 0 to 4 (no or low disturbance) and 5 to 9 (high disturbance) across the reporting cycle (2010 to 2015). Incomplete data made it difficult to assess disturbance in the Bay of Biscay and Iberian Coast (OSPAR Region IV) and in Arctic Waters (OSPAR Region I).</dd>
     
-    <div class="footer-note-row" style="visibility: visible;">
-      <dt><b>Footnote:</b></dt>
-      <dd class="footer-note">The chart shows the percentage area of OSPAR sub-regions in disturbance categories 0 to 4 (no or low disturbance) and 5 to 9 (high disturbance) across the reporting cycle (2010 to 2015). Incomplete data made it difficult to assess disturbance in the Bay of Biscay and Iberian Coast (OSPAR Region IV) and in Arctic Waters (OSPAR Region I).</dd>
-    </div>
     
-  </dl>
+
+    
+    
+    <dt
+      class="data-controlled-footer-field"
+      data-ts-attribute="COMMENT_TS"
+    >Footnote:</dt>
+    <dd
+      class="data-controlled-footer-field"
+      data-ts-attribute="COMMENT_TS"
+    ></dd>
+    
+    <dt
+      class="data-controlled-footer-field"
+      data-ts-attribute="DATA_LAST_UPDATE"
+    >Data last updated:</dt>
+    <dd
+      class="data-controlled-footer-field"
+      data-ts-attribute="DATA_LAST_UPDATE"
+    ></dd>
+    
+    
+    </dl>
 </div>
 
 <div id="tableSelectionDownload" class="clearfix"></div>
 
-  </div>
-  
-  
-  <div role="tabpanel" class="tab-pane embedded-map" id="embeddedmapview">
+      </div>
     
+    
+  
+    
+      <div role="tabpanel" class="tab-pane " id="embeddedmapview" class="embedded-map">
+        
 
 
       <div class="embedded-feature-single">
@@ -1456,7 +1731,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
 
 
-  <h3 class="embedded-title">C2i (interim), Predicted area of seabed in the UK Continental Shelf exposed to disturbance from bottom contact fishing vessels over 12 m long, 2010 to 2015</h3>
+  <h3 class="embedded-title">C2i (interim): Predicted area of seabed in the UK Continental Shelf exposed to disturbance from bottom contact fishing vessels over 12m long, 2010 to 2015</h3>
 
 
 
@@ -1464,22 +1739,22 @@ opensdg.chartConfigAlter(function(config, info) {
 
   <img class="embedded-map-1" src="/assets/img/maps/C2ai.png" alt="A thematic map showing the aggregated values for predicted are of seafloor disturbance in the UK Continental Shelf from bottom contact fishing vessels over 12 m long assessed between 2010 and 2015. Areas assessed are classified as, High disturbance, Low disturbance or incomplete data set. Information on the trends displayed in the map is available in the 'trend description'."></img>
 
-  
-  
+
+
 
   <div id="embedfooter" class="embedded-footer-text">
     <h4 class="sr-only">Chart details</h4>
     <dl>
-  <dt><b>Source:</b></dt>
+  <dt>Source:</dt>
   <dd>
     Convention for the Protection of the Marine Environment of the North-East
     Atlantic (OSPAR)
   </dd>
-  <dt><b>Geographical Area:</b></dt>
+  <dt>Geographical Area:</dt>
   <dd>UK Continental Shelf</dd>
-  <dt><b>Unit of Measurement:</b></dt>
+  <dt>Unit of Measurement:</dt>
   <dd>Predicted area (% of total)</dd>
-  <dt><b>Footnote:</b></dt>
+  <dt>Footnote:</dt>
   <dd>
     The chart shows the percentage area of OSPAR sub-regions in disturbance
     categories 0 to 4 (no or low disturbance) and 5 to 9 (high disturbance)
@@ -1496,9 +1771,25 @@ opensdg.chartConfigAlter(function(config, info) {
 </div>
 
 
-
-  </div>
+      </div>
+    
   
+    
+      <div role="tabpanel" class="tab-pane " id="embeddedmapview_2" class="embedded-map">
+        
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    
   
 </div>
 
@@ -1506,9 +1797,8 @@ opensdg.chartConfigAlter(function(config, info) {
   </div>
 
 </section>
-
- 
-    <ul class="nav nav-tabs spacer medium" role="tablist">
+  
+  <ul class="nav nav-tabs spacer medium" role="tablist">
 
   <li role="presentation" class="nav-item active">
   <a class="nav-link" data-toggle="tab" id="tab-national" href="#national" aria-controls="national" role="tab" data-on="click"
@@ -1518,8 +1808,6 @@ data-event-label="Change to National Metadata tab"
 >Metadata</a>
 </li>
 
-
-
   
 </ul>
 
@@ -1527,7 +1815,7 @@ data-event-label="Change to National Metadata tab"
   
     <div role="tabpanel" class="tab-pane active" id="national">
   <!-- National Metadata -->
-  <div >
+  <div>
     <article>
       <p>
         
@@ -1535,297 +1823,295 @@ data-event-label="Change to National Metadata tab"
         This table provides metadata for the interim or final indicator presented above.
       </p>
       <table class="table">
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
         
+      
+      <tr>
+        <th scope="row">Indicator name </th>
+        <td>
           
-        
-        <tr>
-          <th scope="row">Indicator name </th>
-          <td>
-            
-              <p>Seabed subject to high pressure from human activity</p>
+            <p>Seabed subject to high pressure from human activity</p>
 
-            
-          </td>
-          </tr>
           
+        </td>
+        </tr>
         
-    
+      
+  
+      
         
+      
+      <tr>
+        <th scope="row">Indicator reference </th>
+        <td>
           
-        
-        <tr>
-          <th scope="row">Indicator reference </th>
-          <td>
-            
-              <p>C2</p>
+            <p>C2</p>
 
-            
-          </td>
-          </tr>
           
+        </td>
+        </tr>
         
-    
+      
+  
+      
         
+      
+      <tr>
+        <th scope="row">Outcome Indicator Framework theme </th>
+        <td>
           
-        
-        <tr>
-          <th scope="row">Outcome Indicator Framework theme </th>
-          <td>
-            
-              <p>Seas and Estuaries</p>
+            <p>Seas and Estuaries</p>
 
-            
-          </td>
-          </tr>
           
+        </td>
+        </tr>
         
-    
+      
+  
+      
         
+      
+      <tr>
+        <th scope="row">Headline indicator status </th>
+        <td>
           
-        
-        <tr>
-          <th scope="row">Headline indicator status </th>
-          <td>
-            
-              <p>Not applicable</p>
+            <p>Not applicable</p>
 
-            
-          </td>
-          </tr>
           
+        </td>
+        </tr>
         
-    
-    
-    
-    
+      
+  
+  
+  
+  
+      
         
+      
+      <tr>
+        <th scope="row">Relevant goal(s) in the 25 Year Environment Plan </th>
+        <td>
           
+            
+                <ul style="list-style-type:disc;">
+                  <li>Thriving plants and wildlife</li>
+                </ul>
+            
         
-        <tr>
-          <th scope="row">Relevant goal(s) in the 25 Year Environment Plan </th>
-          <td>
-            
-              
-                  <ul style="list-style-type:disc;">
-                    <li>Thriving plants and wildlife</li>
-                  </ul>
-              
-            
-          </td>
-          </tr>
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      <tr>
+        <th scope="row">Relevant target(s) in the 25 Year Environment Plan </th>
+        <td>
           
-        
-    
-        
-          
-        
-        <tr>
-          <th scope="row">Relevant target(s) in the 25 Year Environment Plan </th>
-          <td>
             
-              
-                  <ul style="list-style-type:disc;">
-                    <li>Ensuring seafloor habitats are productive and sufficiently extensive to support healthy, sustainable ecosystems</li>
-                  </ul>
-              
+                <ul style="list-style-type:disc;">
+                  <li>Ensuring seafloor habitats are productive and sufficiently extensive to support healthy, sustainable ecosystems</li>
+                </ul>
             
-          </td>
-          </tr>
+        
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      <tr>
+        <th scope="row">Position in the natural capital framework </th>
+        <td>
           
-        
-    
-        
-          
-        
-        <tr>
-          <th scope="row">Position in the natural capital framework </th>
-          <td>
             
-              
-                  <ul style="list-style-type:disc;">
-                    <li>Pressure on natural capital assets</li>
-                  </ul>
-              
+                <ul style="list-style-type:disc;">
+                  <li>Pressure on natural capital assets</li>
+                </ul>
             
-          </td>
-          </tr>
+        
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      <tr>
+        <th scope="row">Related reporting commitments </th>
+        <td>
           
-        
-    
-        
-          
-        
-        <tr>
-          <th scope="row">Related reporting commitments </th>
-          <td>
-            
-              <ul>
+            <ul>
   <li>UK Marine Strategy (Marine Strategy Regulations 2010)</li>
   <li>Convention for the Protection of the Marine Environment of the North-East Atlantic (OSPAR)</li>
   <li>Relevant to Sustainable Development Goal 14</li>
 </ul>
 
-            
-          </td>
-          </tr>
           
+        </td>
+        </tr>
         
-    
+      
+  
+      
         
+      
+      <tr>
+        <th scope="row">Geographic scope </th>
+        <td>
           
-        
-        <tr>
-          <th scope="row">Geographic scope </th>
-          <td>
-            
-              <p>UK Continental Shelf</p>
+            <p>UK Continental Shelf</p>
 
-            
-          </td>
-          </tr>
           
+        </td>
+        </tr>
         
-    
+      
+  
+      
         
+      
+      <tr>
+        <th scope="row">Status of indicator development </th>
+        <td>
           
-        
-        <tr>
-          <th scope="row">Status of indicator development </th>
-          <td>
-            
-              <p>Interim</p>
+            <p>Interim</p>
 
-            
-          </td>
-          </tr>
           
+        </td>
+        </tr>
         
-    
-    
+      
+  
+  
+      
         
+      
+      <tr>
+        <th scope="row">Date last updated </th>
+        <td>
           
-        
-        <tr>
-          <th scope="row">Date last updated </th>
-          <td>
-            
-              <p>11 June 2021</p>
-
-            
-          </td>
-          </tr>
+          May 19, 2022
           
+        </td>
+        </tr>
         
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  </table>
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
     </article>
   </div>
 </div>
-
   
   
 </div>
@@ -1836,9 +2122,10 @@ data-event-label="Change to National Metadata tab"
 
 </div>
 
+
 <footer role="contentinfo">
   <div class="container">
-    <div class="row">
+    <div class="oif-row">
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
@@ -1849,16 +2136,24 @@ data-event-label="Change to National Metadata tab"
                 
                 </li>
               <li>
+                <a href="/about/">About</a>
+                
+                </li>
+              <li>
                 
                   <a href="https://twitter.com/defragovuk" target="_blank">Twitter</a>
                 
                 </li>
               <li>
-                <a href="/about/cookies-and-privacy/">Cookies</a>
+                <a href="/cookies-and-privacy/">Cookies</a>
                 
                 </li>
               <li>
-                <a href="/about/accessibility-statement/">Accessibility statement</a>
+                <a href="/accessibility-statement/">Accessibility statement</a>
+                
+                </li>
+              <li>
+                <a href="/official-statistics/">Official statistics</a>
                 
                 </li>
               
@@ -1867,6 +2162,7 @@ data-event-label="Change to National Metadata tab"
         </div>
       </div>
     </div>
+    
   </div>
 </footer>
 
@@ -1875,7 +2171,6 @@ data-event-label="Change to National Metadata tab"
 
 <!-- /.container </div> -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
@@ -1948,19 +2243,18 @@ data-event-label="Change to National Metadata tab"
   };
   CookieControl.load(cookieControlConfig);
 </script>
-
 <script>translations['general'] = translations['general'] || {};
     translations['general']['hide'] = 'hide';</script>
 
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/assets/js/sdg.js?v=20220518182705'></script>
+<script src='/assets/js/sdg.js?v=20220805092744'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20220518182705"></script><script>
+    <script src="/assets/js/custom.js?v=20220805092744"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
@@ -2003,9 +2297,13 @@ $(function() {
               graphLimits: domData.graphlimits,
               stackedDisaggregation: domData.stackeddisaggregation,
               categoryOrder: domData.categoryorder,
+              stackOrder: domData.stackorder,
               categoryColor: domData.categorycolor,
               graphAnnotations: domData.graphannotations,
+              graphTargetLines: domData.graphtargetlines,
+              graphSeriesBreaks: domData.graphseriesbreaks,
               indicatorDownloads: domData.indicatordownloads,
+              dataSchema: domData.dataschema,
               compositeBreakdownLabel: domData.compositebreakdownlabel,
               precision: domData.precision,
               continuousError: domData.continuouserror,
@@ -2015,6 +2313,7 @@ $(function() {
               graphSources: domData.graphsources,
               graphNote: domData.graphnote,
               graphNotes: domData.graphnotes,
+              yAxisLabels: domData.yaxislabels
             }),
             view  = new indicatorView(model, {
               rootElement: '#indicatorData',
@@ -2035,7 +2334,6 @@ $(function() {
     }
 });
 </script>
-
   
 </body>
 </html>

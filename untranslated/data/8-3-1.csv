@@ -1,10 +1,12 @@
 Year,Series,Source,Pollutant,Value
-2016,H3a (interim),Larger industial sites,,1985.0
-2017,H3a (interim),Larger industial sites,,1711.0
-2018,H3a (interim),Larger industial sites,,1842.0
-2016,H3a (interim),Crematoria,,590.0
-2017,H3a (interim),Crematoria,,602.87
-2018,H3a (interim),Crematoria,,622.55
+2016,H3a (interim),Larger industrial sites,,1409.30926149752
+2017,H3a (interim),Larger industrial sites,,1346.6586200520003
+2018,H3a (interim),Larger industrial sites,,1649.879675254
+2019,H3a (interim),Larger industrial sites,,1129.0
+2016,H3a (interim),Crematoria,,507.524893169756
+2017,H3a (interim),Crematoria,,516.2954615937319
+2018,H3a (interim),Crematoria,,532.014636291242
+2019,H3a (interim),Crematoria,,522.58813041839
 2000,H3b (interim),,Dioxin-like Polychlorinated biphenyl,100.0
 2000,H3b (interim),,Dioxins and Furans,100.0
 2000,H3b (interim),,Hexachlorobenzene,100.0
@@ -12,115 +14,136 @@ Year,Series,Source,Pollutant,Value
 2000,H3b (interim),,Polychlorinated naphthalenes,100.0
 2000,H3b (interim),,Pentachlorophenol,100.0
 2000,H3b (interim),,PentaChloroBenzine,100.0
-2001,H3b (interim),,Dioxin-like Polychlorinated biphenyl,83.65934137914095
-2001,H3b (interim),,Dioxins and Furans,98.86916069585509
-2001,H3b (interim),,Hexachlorobenzene,87.86519198664439
-2001,H3b (interim),,Polychlorinated biphenyl,83.05173618650554
-2001,H3b (interim),,Polychlorinated naphthalenes,83.16831683168317
-2001,H3b (interim),,Pentachlorophenol,94.54346931752616
-2001,H3b (interim),,PentaChloroBenzine,73.16395841933424
-2002,H3b (interim),,Dioxin-like Polychlorinated biphenyl,69.35087690569374
-2002,H3b (interim),,Dioxins and Furans,95.06828414581246
-2002,H3b (interim),,Hexachlorobenzene,82.66903171953254
-2002,H3b (interim),,Polychlorinated biphenyl,69.41835073423229
-2002,H3b (interim),,Polychlorinated naphthalenes,69.52597914658722
-2002,H3b (interim),,Pentachlorophenol,89.35305091192292
-2002,H3b (interim),,PentaChloroBenzine,62.87011671107441
-2003,H3b (interim),,Dioxin-like Polychlorinated biphenyl,59.185812304518
-2003,H3b (interim),,Dioxins and Furans,92.23370678952328
-2003,H3b (interim),,Hexachlorobenzene,77.62938230383972
-2003,H3b (interim),,Polychlorinated biphenyl,58.329817122257
-2003,H3b (interim),,Polychlorinated naphthalenes,58.520984841847024
-2003,H3b (interim),,Pentachlorophenol,84.56936901506116
-2003,H3b (interim),,PentaChloroBenzine,43.89237062333471
-2004,H3b (interim),,Dioxin-like Polychlorinated biphenyl,50.42576186811208
-2004,H3b (interim),,Dioxins and Furans,92.6390737887604
-2004,H3b (interim),,Hexachlorobenzene,98.65400667779632
-2004,H3b (interim),,Polychlorinated biphenyl,49.60721156718081
-2004,H3b (interim),,Polychlorinated naphthalenes,49.653903443441685
-2004,H3b (interim),,Pentachlorophenol,79.98711483579177
-2004,H3b (interim),,PentaChloroBenzine,37.45262130821481
-2005,H3b (interim),,Dioxin-like Polychlorinated biphenyl,43.61561891037713
-2005,H3b (interim),,Dioxins and Furans,83.81224477585148
-2005,H3b (interim),,Hexachlorobenzene,94.24040066777962
-2005,H3b (interim),,Polychlorinated biphenyl,42.21302265514551
-2005,H3b (interim),,Polychlorinated naphthalenes,42.302637343380354
-2005,H3b (interim),,Pentachlorophenol,75.59943181083129
-2005,H3b (interim),,PentaChloroBenzine,32.31132960558411
-2006,H3b (interim),,Dioxin-like Polychlorinated biphenyl,38.64525848658032
-2006,H3b (interim),,Dioxins and Furans,75.6166514591716
-2006,H3b (interim),,Hexachlorobenzene,87.90692821368948
-2006,H3b (interim),,Polychlorinated biphenyl,36.06949866257553
-2006,H3b (interim),,Polychlorinated naphthalenes,36.62490142819592
-2006,H3b (interim),,Pentachlorophenol,71.38510340473645
-2006,H3b (interim),,PentaChloroBenzine,28.61110068675648
-2007,H3b (interim),,Dioxin-like Polychlorinated biphenyl,34.074459200550216
-2007,H3b (interim),,Dioxins and Furans,71.67965536325968
-2007,H3b (interim),,Hexachlorobenzene,75.19824707846409
-2007,H3b (interim),,Polychlorinated biphenyl,31.15388298744878
-2007,H3b (interim),,Polychlorinated naphthalenes,31.82335932708316
-2007,H3b (interim),,Pentachlorophenol,67.34865753665675
-2007,H3b (interim),,PentaChloroBenzine,25.37621495853192
-2008,H3b (interim),,Dioxin-like Polychlorinated biphenyl,30.38793456367597
-2008,H3b (interim),,Dioxins and Furans,72.5846259704127
-2008,H3b (interim),,Hexachlorobenzene,70.65943238731218
-2008,H3b (interim),,Polychlorinated biphenyl,26.93774836697676
-2008,H3b (interim),,Polychlorinated naphthalenes,27.801629720494176
-2008,H3b (interim),,Pentachlorophenol,63.55956542325695
-2008,H3b (interim),,PentaChloroBenzine,23.17334033849964
-2009,H3b (interim),,Dioxin-like Polychlorinated biphenyl,26.077505035452862
-2009,H3b (interim),,Dioxins and Furans,68.89593585927334
-2009,H3b (interim),,Hexachlorobenzene,49.770450751252085
-2009,H3b (interim),,Polychlorinated biphenyl,22.821837614577124
-2009,H3b (interim),,Polychlorinated naphthalenes,24.585998422851137
-2009,H3b (interim),,Pentachlorophenol,59.94382792872279
-2009,H3b (interim),,PentaChloroBenzine,20.17487897324276
-2010,H3b (interim),,Dioxin-like Polychlorinated biphenyl,24.0948466438502
-2010,H3b (interim),,Dioxins and Furans,70.91678757871748
-2010,H3b (interim),,Hexachlorobenzene,47.69407345575961
-2010,H3b (interim),,Polychlorinated biphenyl,20.034912420268927
-2010,H3b (interim),,Polychlorinated naphthalenes,22.045036362043284
-2010,H3b (interim),,Pentachlorophenol,56.477899873477
-2010,H3b (interim),,PentaChloroBenzine,18.782602169099707
-2011,H3b (interim),,Dioxin-like Polychlorinated biphenyl,22.052827222558825
-2011,H3b (interim),,Dioxins and Furans,69.81885629665086
-2011,H3b (interim),,Hexachlorobenzene,34.00459098497495
-2011,H3b (interim),,Polychlorinated biphenyl,18.1447869839822
-2011,H3b (interim),,Polychlorinated naphthalenes,19.872075703145537
-2011,H3b (interim),,Pentachlorophenol,53.17575312232368
-2011,H3b (interim),,PentaChloroBenzine,17.02255413367358
-2012,H3b (interim),,Dioxin-like Polychlorinated biphenyl,20.85373442284704
-2012,H3b (interim),,Dioxins and Furans,70.89734192930759
-2012,H3b (interim),,Hexachlorobenzene,31.636060100166947
-2012,H3b (interim),,Polychlorinated biphenyl,16.45586783724099
-2012,H3b (interim),,Polychlorinated naphthalenes,18.58407079646018
-2012,H3b (interim),,Pentachlorophenol,50.0080208853505
-2012,H3b (interim),,PentaChloroBenzine,16.939993245018197
-2013,H3b (interim),,Dioxin-like Polychlorinated biphenyl,20.321122701295295
-2013,H3b (interim),,Dioxins and Furans,70.65053176372041
-2013,H3b (interim),,Hexachlorobenzene,26.59641068447412
-2013,H3b (interim),,Polychlorinated biphenyl,15.113323137111372
-2013,H3b (interim),,Polychlorinated naphthalenes,17.29606588977482
-2013,H3b (interim),,Pentachlorophenol,46.9642242639544
-2013,H3b (interim),,PentaChloroBenzine,18.298495140165876
-2014,H3b (interim),,Dioxin-like Polychlorinated biphenyl,18.90792080829253
-2014,H3b (interim),,Dioxins and Furans,69.64534127114716
-2014,H3b (interim),,Hexachlorobenzene,31.32303839732888
-2014,H3b (interim),,Polychlorinated biphenyl,13.975682674355868
-2014,H3b (interim),,Polychlorinated naphthalenes,17.015683869271882
-2014,H3b (interim),,Pentachlorophenol,44.04384578166115
-2014,H3b (interim),,PentaChloroBenzine,18.34352835215972
-2015,H3b (interim),,Dioxin-like Polychlorinated biphenyl,16.481078160053713
-2015,H3b (interim),,Dioxins and Furans,70.11353267617011
-2015,H3b (interim),,Hexachlorobenzene,35.016694490818026
-2015,H3b (interim),,Polychlorinated biphenyl,12.98425337959245
-2015,H3b (interim),,Polychlorinated naphthalenes,18.15473582756506
-2015,H3b (interim),,Pentachlorophenol,41.237700231053246
-2015,H3b (interim),,PentaChloroBenzine,17.469133485945882
-2016,H3b (interim),,Dioxin-like Polychlorinated biphenyl,13.243241030343722
-2016,H3b (interim),,Dioxins and Furans,68.88995258253183
-2016,H3b (interim),,Hexachlorobenzene,42.17445742904841
-2016,H3b (interim),,Polychlorinated biphenyl,11.888712630577857
-2016,H3b (interim),,Polychlorinated naphthalenes,18.365022342942257
-2016,H3b (interim),,Pentachlorophenol,38.53763735766162
-2016,H3b (interim),,PentaChloroBenzine,15.480166622884376
+2001,H3b (interim),,Dioxin-like Polychlorinated biphenyl,83.70292236307661
+2001,H3b (interim),,Dioxins and Furans,97.90323546417274
+2001,H3b (interim),,Hexachlorobenzene,87.97171307244574
+2001,H3b (interim),,Polychlorinated biphenyl,83.55469065576342
+2001,H3b (interim),,Polychlorinated naphthalenes,83.21748928008533
+2001,H3b (interim),,Pentachlorophenol,94.5946820204719
+2001,H3b (interim),,PentaChloroBenzine,73.20457604442774
+2002,H3b (interim),,Dioxin-like Polychlorinated biphenyl,69.41186380563441
+2002,H3b (interim),,Dioxins and Furans,92.52657173270876
+2002,H3b (interim),,Hexachlorobenzene,82.78349817204602
+2002,H3b (interim),,Polychlorinated biphenyl,70.25086248022964
+2002,H3b (interim),,Polychlorinated naphthalenes,69.59434386089967
+2002,H3b (interim),,Pentachlorophenol,89.4341196298024
+2002,H3b (interim),,PentaChloroBenzine,62.92070792449852
+2003,H3b (interim),,Dioxin-like Polychlorinated biphenyl,59.26144807657919
+2003,H3b (interim),,Dioxins and Furans,88.26177002909715
+2003,H3b (interim),,Hexachlorobenzene,77.65686908039045
+2003,H3b (interim),,Polychlorinated biphenyl,59.409303401781614
+2003,H3b (interim),,Polychlorinated naphthalenes,58.59477038527872
+2003,H3b (interim),,Pentachlorophenol,84.67909220919864
+2003,H3b (interim),,PentaChloroBenzine,43.94862082052309
+2004,H3b (interim),,Dioxin-like Polychlorinated biphenyl,50.49728473466604
+2004,H3b (interim),,Dioxins and Furans,87.52676900326853
+2004,H3b (interim),,Hexachlorobenzene,98.63512803812183
+2004,H3b (interim),,Polychlorinated biphenyl,50.84558092514945
+2004,H3b (interim),,Polychlorinated naphthalenes,49.7321077855504
+2004,H3b (interim),,Pentachlorophenol,80.10117011224375
+2004,H3b (interim),,PentaChloroBenzine,37.50521005530816
+2005,H3b (interim),,Dioxin-like Polychlorinated biphenyl,43.69986856360588
+2005,H3b (interim),,Dioxins and Furans,76.81617744370331
+2005,H3b (interim),,Hexachlorobenzene,94.28395079046196
+2005,H3b (interim),,Polychlorinated biphenyl,43.56995961210277
+2005,H3b (interim),,Polychlorinated naphthalenes,42.38328470012792
+2005,H3b (interim),,Pentachlorophenol,75.74297727646982
+2005,H3b (interim),,PentaChloroBenzine,32.37468243933478
+2006,H3b (interim),,Dioxin-like Polychlorinated biphenyl,38.73007609359618
+2006,H3b (interim),,Dioxins and Furans,66.84263443469973
+2006,H3b (interim),,Hexachlorobenzene,87.95130519933798
+2006,H3b (interim),,Polychlorinated biphenyl,37.47284783322609
+2006,H3b (interim),,Polychlorinated naphthalenes,36.63054540137282
+2006,H3b (interim),,Pentachlorophenol,71.53812165925876
+2006,H3b (interim),,PentaChloroBenzine,28.64595666513819
+2007,H3b (interim),,Dioxin-like Polychlorinated biphenyl,34.149309960142624
+2007,H3b (interim),,Dioxins and Furans,61.02359873369678
+2007,H3b (interim),,Hexachlorobenzene,75.16648520323422
+2007,H3b (interim),,Polychlorinated biphenyl,32.56469292574062
+2007,H3b (interim),,Polychlorinated naphthalenes,31.772235432621336
+2007,H3b (interim),,Pentachlorophenol,67.4979491802166
+2007,H3b (interim),,PentaChloroBenzine,25.388062231835924
+2008,H3b (interim),,Dioxin-like Polychlorinated biphenyl,30.461631372946464
+2008,H3b (interim),,Dioxins and Furans,60.14413958686803
+2008,H3b (interim),,Hexachlorobenzene,70.4013869774518
+2008,H3b (interim),,Polychlorinated biphenyl,28.296430461218325
+2008,H3b (interim),,Polychlorinated naphthalenes,27.644463590597272
+2008,H3b (interim),,Pentachlorophenol,63.71493251034073
+2008,H3b (interim),,PentaChloroBenzine,23.14835691581965
+2009,H3b (interim),,Dioxin-like Polychlorinated biphenyl,26.148652814432083
+2009,H3b (interim),,Dioxins and Furans,55.08471916645515
+2009,H3b (interim),,Hexachlorobenzene,49.78122403114979
+2009,H3b (interim),,Polychlorinated biphenyl,24.185047382083077
+2009,H3b (interim),,Polychlorinated naphthalenes,24.08727769163641
+2009,H3b (interim),,Pentachlorophenol,60.10700582682799
+2009,H3b (interim),,PentaChloroBenzine,20.02986344929109
+2010,H3b (interim),,Dioxin-like Polychlorinated biphenyl,24.17565046621229
+2010,H3b (interim),,Dioxins and Furans,56.63273024107966
+2010,H3b (interim),,Hexachlorobenzene,47.90050118983202
+2010,H3b (interim),,Polychlorinated biphenyl,21.405214919695737
+2010,H3b (interim),,Polychlorinated naphthalenes,21.814971777233087
+2010,H3b (interim),,Pentachlorophenol,56.6615762998789
+2010,H3b (interim),,PentaChloroBenzine,18.737042056123457
+2011,H3b (interim),,Dioxin-like Polychlorinated biphenyl,22.13614416030845
+2011,H3b (interim),,Dioxins and Furans,52.22690100549247
+2011,H3b (interim),,Hexachlorobenzene,34.16560036999599
+2011,H3b (interim),,Polychlorinated biphenyl,19.42805217114305
+2011,H3b (interim),,Polychlorinated naphthalenes,19.99068104798339
+2011,H3b (interim),,Pentachlorophenol,53.37254916075938
+2011,H3b (interim),,PentaChloroBenzine,17.095581688752514
+2012,H3b (interim),,Dioxin-like Polychlorinated biphenyl,20.94248445779004
+2012,H3b (interim),,Dioxins and Furans,51.142808240624674
+2012,H3b (interim),,Hexachlorobenzene,31.84034300730336
+2012,H3b (interim),,Polychlorinated biphenyl,17.633673366261267
+2012,H3b (interim),,Polychlorinated naphthalenes,18.1777166049492
+2012,H3b (interim),,Pentachlorophenol,50.22530470324214
+2012,H3b (interim),,PentaChloroBenzine,16.832275823865018
+2013,H3b (interim),,Dioxin-like Polychlorinated biphenyl,20.424971554040813
+2013,H3b (interim),,Dioxins and Furans,51.19766141562491
+2013,H3b (interim),,Hexachlorobenzene,26.718684593053176
+2013,H3b (interim),,Polychlorinated biphenyl,16.227169509493617
+2013,H3b (interim),,Polychlorinated naphthalenes,17.083971719168034
+2013,H3b (interim),,Pentachlorophenol,47.19949695456876
+2013,H3b (interim),,PentaChloroBenzine,18.27561206109205
+2014,H3b (interim),,Dioxin-like Polychlorinated biphenyl,19.00618624717877
+2014,H3b (interim),,Dioxins and Furans,50.12031937062849
+2014,H3b (interim),,Hexachlorobenzene,31.24219440507285
+2014,H3b (interim),,Polychlorinated biphenyl,14.9985531325385
+2014,H3b (interim),,Polychlorinated naphthalenes,16.911330061238626
+2014,H3b (interim),,Pentachlorophenol,44.29572270419658
+2014,H3b (interim),,PentaChloroBenzine,18.37414887325267
+2015,H3b (interim),,Dioxin-like Polychlorinated biphenyl,16.541861048923
+2015,H3b (interim),,Dioxins and Furans,49.878803039495295
+2015,H3b (interim),,Hexachlorobenzene,35.1424456761662
+2015,H3b (interim),,Polychlorinated biphenyl,13.914366553330243
+2015,H3b (interim),,Polychlorinated naphthalenes,17.278930571431218
+2015,H3b (interim),,Pentachlorophenol,41.502355291171206
+2015,H3b (interim),,PentaChloroBenzine,17.286395233469793
+2016,H3b (interim),,Dioxin-like Polychlorinated biphenyl,13.269499015304644
+2016,H3b (interim),,Dioxins and Furans,48.49462140426503
+2016,H3b (interim),,Hexachlorobenzene,42.29949130705703
+2016,H3b (interim),,Polychlorinated biphenyl,12.734420815328413
+2016,H3b (interim),,Polychlorinated naphthalenes,17.72436439996089
+2016,H3b (interim),,Pentachlorophenol,38.80523278018855
+2016,H3b (interim),,PentaChloroBenzine,15.391710070730603
+2017,H3b (interim),,Dioxin-like Polychlorinated biphenyl,12.135864616996113
+2017,H3b (interim),,Dioxins and Furans,48.262342311573526
+2017,H3b (interim),,Hexachlorobenzene,45.86235789407874
+2017,H3b (interim),,Polychlorinated biphenyl,12.028486317195425
+2017,H3b (interim),,Polychlorinated naphthalenes,17.751428827490397
+2017,H3b (interim),,Pentachlorophenol,36.20344580541589
+2017,H3b (interim),,PentaChloroBenzine,14.418060856897863
+2018,H3b (interim),,Dioxin-like Polychlorinated biphenyl,11.39787380411302
+2018,H3b (interim),,Dioxins and Furans,48.55976724431418
+2018,H3b (interim),,Hexachlorobenzene,48.490614540911096
+2018,H3b (interim),,Polychlorinated biphenyl,11.47539004169784
+2018,H3b (interim),,Polychlorinated naphthalenes,17.77550489254255
+2018,H3b (interim),,Pentachlorophenol,33.70130991510714
+2018,H3b (interim),,PentaChloroBenzine,14.179649786538812
+2019,H3b (interim),,Dioxin-like Polychlorinated biphenyl,10.735260625691126
+2019,H3b (interim),,Dioxins and Furans,47.88610888369504
+2019,H3b (interim),,Hexachlorobenzene,51.50274712167987
+2019,H3b (interim),,Polychlorinated biphenyl,10.910081957269838
+2019,H3b (interim),,Polychlorinated naphthalenes,18.2604001751937
+2019,H3b (interim),,Pentachlorophenol,31.27971937309618
+2019,H3b (interim),,PentaChloroBenzine,14.066673788368398

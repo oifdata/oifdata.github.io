@@ -1,725 +1,737 @@
 Year,Series,Trendline,Value
-1970,D4a (interim),Unsmoothed Index,100.0
-1971,D4a (interim),Unsmoothed Index,106.10456444943226
-1972,D4a (interim),Unsmoothed Index,112.47652261857498
-1973,D4a (interim),Unsmoothed Index,110.99471733704954
-1974,D4a (interim),Unsmoothed Index,110.59912886927644
-1975,D4a (interim),Unsmoothed Index,110.88936033915137
-1976,D4a (interim),Unsmoothed Index,103.9383023701673
-1977,D4a (interim),Unsmoothed Index,110.20594798419133
-1978,D4a (interim),Unsmoothed Index,101.62996567315584
-1979,D4a (interim),Unsmoothed Index,93.59383465459489
-1980,D4a (interim),Unsmoothed Index,104.5210240054815
-1981,D4a (interim),Unsmoothed Index,105.69738601239438
-1982,D4a (interim),Unsmoothed Index,96.31381977600336
-1983,D4a (interim),Unsmoothed Index,102.8589465323892
-1984,D4a (interim),Unsmoothed Index,102.75575942508648
-1985,D4a (interim),Unsmoothed Index,101.52988348407337
-1986,D4a (interim),Unsmoothed Index,90.27558873096793
-1987,D4a (interim),Unsmoothed Index,92.74336300831185
-1988,D4a (interim),Unsmoothed Index,98.21706703451196
-1989,D4a (interim),Unsmoothed Index,100.41727954451731
-1990,D4a (interim),Unsmoothed Index,94.77550016069726
-1991,D4a (interim),Unsmoothed Index,86.19201432848578
-1992,D4a (interim),Unsmoothed Index,83.70031213497757
-1993,D4a (interim),Unsmoothed Index,84.02696364142702
-1994,D4a (interim),Unsmoothed Index,84.30237075873546
-1995,D4a (interim),Unsmoothed Index,80.05011471745327
-1996,D4a (interim),Unsmoothed Index,84.25619443384882
-1997,D4a (interim),Unsmoothed Index,79.20879023652172
-1998,D4a (interim),Unsmoothed Index,81.60795794431358
-1999,D4a (interim),Unsmoothed Index,82.55713545689797
-2000,D4a (interim),Unsmoothed Index,83.94928655306829
-2001,D4a (interim),Unsmoothed Index,81.04267486705568
-2002,D4a (interim),Unsmoothed Index,77.32423663846728
-2003,D4a (interim),Unsmoothed Index,77.59450137812635
-2004,D4a (interim),Unsmoothed Index,77.87966712389104
-2005,D4a (interim),Unsmoothed Index,79.83153381178427
-2006,D4a (interim),Unsmoothed Index,80.46805416989383
-2007,D4a (interim),Unsmoothed Index,79.66716280601223
-2008,D4a (interim),Unsmoothed Index,79.29537031463957
-2009,D4a (interim),Unsmoothed Index,73.58735639014515
-2010,D4a (interim),Unsmoothed Index,79.66719903927141
-2011,D4a (interim),Unsmoothed Index,86.13170199598618
-2012,D4a (interim),Unsmoothed Index,81.46579831430375
-2013,D4a (interim),Unsmoothed Index,72.7713842475452
-2014,D4a (interim),Unsmoothed Index,78.00322370644862
-2015,D4a (interim),Unsmoothed Index,78.54943308105165
-2016,D4a (interim),Unsmoothed Index,76.5096222812873
-2017,D4a (interim),Unsmoothed Index,73.7420790131883
-2018,D4a (interim),Unsmoothed Index,72.77284529864694
-2019,D4a (interim),Unsmoothed Index,73.23034920865992
-1970,D4a (interim),Smoothed Index (SI),100.0
-1971,D4a (interim),Smoothed Index (SI),103.20094537206646
-1972,D4a (interim),Smoothed Index (SI),105.8775929366331
-1973,D4a (interim),Smoothed Index (SI),107.10383774923618
-1974,D4a (interim),Smoothed Index (SI),106.95524281610138
-1975,D4a (interim),Smoothed Index (SI),105.86492705385442
-1976,D4a (interim),Smoothed Index (SI),104.12865505023755
-1977,D4a (interim),Smoothed Index (SI),102.05636538764185
-1978,D4a (interim),Smoothed Index (SI),99.66742711143492
-1979,D4a (interim),Smoothed Index (SI),98.0575834935927
-1980,D4a (interim),Smoothed Index (SI),97.91148269142114
-1981,D4a (interim),Smoothed Index (SI),98.08403706923376
-1982,D4a (interim),Smoothed Index (SI),97.90196784385608
-1983,D4a (interim),Smoothed Index (SI),97.67450400511952
-1984,D4a (interim),Smoothed Index (SI),96.92042207890164
-1985,D4a (interim),Smoothed Index (SI),95.41395375955
-1986,D4a (interim),Smoothed Index (SI),93.77843552917857
-1987,D4a (interim),Smoothed Index (SI),93.20898280853103
-1988,D4a (interim),Smoothed Index (SI),93.32500062115612
-1989,D4a (interim),Smoothed Index (SI),92.56966251842312
-1990,D4a (interim),Smoothed Index (SI),90.1373610283382
-1991,D4a (interim),Smoothed Index (SI),86.78718773823253
-1992,D4a (interim),Smoothed Index (SI),83.87972011592686
-1993,D4a (interim),Smoothed Index (SI),82.00254896928773
-1994,D4a (interim),Smoothed Index (SI),80.89949594000355
-1995,D4a (interim),Smoothed Index (SI),80.28745191246678
-1996,D4a (interim),Smoothed Index (SI),79.85659171290992
-1997,D4a (interim),Smoothed Index (SI),79.59899199552916
-1998,D4a (interim),Smoothed Index (SI),79.79293488794734
-1999,D4a (interim),Smoothed Index (SI),80.0480679641868
-2000,D4a (interim),Smoothed Index (SI),79.72603533945052
-2001,D4a (interim),Smoothed Index (SI),78.64061229039014
-2002,D4a (interim),Smoothed Index (SI),77.38287322161574
-2003,D4a (interim),Smoothed Index (SI),76.63814561970092
-2004,D4a (interim),Smoothed Index (SI),76.59031868516784
-2005,D4a (interim),Smoothed Index (SI),76.98275587012887
-2006,D4a (interim),Smoothed Index (SI),77.3169894850316
-2007,D4a (interim),Smoothed Index (SI),77.392357702024
-2008,D4a (interim),Smoothed Index (SI),77.4642715791364
-2009,D4a (interim),Smoothed Index (SI),77.87640680181997
-2010,D4a (interim),Smoothed Index (SI),78.79224231097172
-2011,D4a (interim),Smoothed Index (SI),79.33012807697588
-2012,D4a (interim),Smoothed Index (SI),78.57705801152808
-2013,D4a (interim),Smoothed Index (SI),77.07773104174139
-2014,D4a (interim),Smoothed Index (SI),75.95818760080554
-2015,D4a (interim),Smoothed Index (SI),75.10839189703644
-2016,D4a (interim),Smoothed Index (SI),74.23565081402671
-2017,D4a (interim),Smoothed Index (SI),73.34421288441666
-2018,D4a (interim),Smoothed Index (SI),72.44719425548128
-2019,D4a (interim),Smoothed Index (SI),71.26807897367475
-1970,D4a (interim),SI Lower CL,100.0
-1971,D4a (interim),SI Lower CL,102.0744432461364
-1972,D4a (interim),SI Lower CL,103.72489517112058
-1973,D4a (interim),SI Lower CL,104.10983634981416
-1974,D4a (interim),SI Lower CL,102.9722045344048
-1975,D4a (interim),SI Lower CL,101.47741496387938
-1976,D4a (interim),SI Lower CL,99.47990968531228
-1977,D4a (interim),SI Lower CL,97.4898062293583
-1978,D4a (interim),SI Lower CL,95.39201154511773
-1979,D4a (interim),SI Lower CL,94.02119603474328
-1980,D4a (interim),SI Lower CL,93.36701776418856
-1981,D4a (interim),SI Lower CL,93.73239633499357
-1982,D4a (interim),SI Lower CL,93.3867647063927
-1983,D4a (interim),SI Lower CL,92.68800697265482
-1984,D4a (interim),SI Lower CL,91.77065533976815
-1985,D4a (interim),SI Lower CL,90.19109084896722
-1986,D4a (interim),SI Lower CL,88.79770419663363
-1987,D4a (interim),SI Lower CL,88.28273160540185
-1988,D4a (interim),SI Lower CL,88.00897919209555
-1989,D4a (interim),SI Lower CL,87.25361545855912
-1990,D4a (interim),SI Lower CL,85.10507685107372
-1991,D4a (interim),SI Lower CL,81.97426513214117
-1992,D4a (interim),SI Lower CL,79.09431442775285
-1993,D4a (interim),SI Lower CL,76.86571273012336
-1994,D4a (interim),SI Lower CL,75.67614599913038
-1995,D4a (interim),SI Lower CL,74.69186214471654
-1996,D4a (interim),SI Lower CL,73.9330531592081
-1997,D4a (interim),SI Lower CL,73.7029412150108
-1998,D4a (interim),SI Lower CL,74.0650938319558
-1999,D4a (interim),SI Lower CL,74.29129710516438
-2000,D4a (interim),SI Lower CL,74.01951264743816
-2001,D4a (interim),SI Lower CL,73.04798023348219
-2002,D4a (interim),SI Lower CL,71.24672254915698
-2003,D4a (interim),SI Lower CL,70.51433429001165
-2004,D4a (interim),SI Lower CL,70.5046716665305
-2005,D4a (interim),SI Lower CL,71.06148062471075
-2006,D4a (interim),SI Lower CL,71.49123263808927
-2007,D4a (interim),SI Lower CL,71.5183945728559
-2008,D4a (interim),SI Lower CL,71.25312355099263
-2009,D4a (interim),SI Lower CL,71.15739737740626
-2010,D4a (interim),SI Lower CL,71.799191180351
-2011,D4a (interim),SI Lower CL,72.25850243339423
-2012,D4a (interim),SI Lower CL,71.81675847410614
-2013,D4a (interim),SI Lower CL,70.48251857704595
-2014,D4a (interim),SI Lower CL,69.62290260873989
-2015,D4a (interim),SI Lower CL,68.92309752637851
-2016,D4a (interim),SI Lower CL,68.08948978103884
-2017,D4a (interim),SI Lower CL,67.053523116412
-2018,D4a (interim),SI Lower CL,66.13113522564385
-2019,D4a (interim),SI Lower CL,64.00194761924048
-1970,D4a (interim),SI Upper CL,100.0
-1971,D4a (interim),SI Upper CL,104.51883340666616
-1972,D4a (interim),SI Upper CL,108.75728961558671
-1973,D4a (interim),SI Upper CL,110.93868269785764
-1974,D4a (interim),SI Upper CL,111.4751134916324
-1975,D4a (interim),SI Upper CL,111.36733777600128
-1976,D4a (interim),SI Upper CL,110.16911968717504
-1977,D4a (interim),SI Upper CL,108.40963987216703
-1978,D4a (interim),SI Upper CL,106.21965100618822
-1979,D4a (interim),SI Upper CL,104.54142312626118
-1980,D4a (interim),SI Upper CL,104.0491216509589
-1981,D4a (interim),SI Upper CL,104.14686984073867
-1982,D4a (interim),SI Upper CL,103.88952673579476
-1983,D4a (interim),SI Upper CL,103.9438562239278
-1984,D4a (interim),SI Upper CL,103.40124600524103
-1985,D4a (interim),SI Upper CL,102.13858592257856
-1986,D4a (interim),SI Upper CL,100.44413156605695
-1987,D4a (interim),SI Upper CL,99.9139734282047
-1988,D4a (interim),SI Upper CL,100.07679498413584
-1989,D4a (interim),SI Upper CL,99.74362143534736
-1990,D4a (interim),SI Upper CL,97.45046954366022
-1991,D4a (interim),SI Upper CL,93.84298681034348
-1992,D4a (interim),SI Upper CL,90.4789519472707
-1993,D4a (interim),SI Upper CL,88.65625652022081
-1994,D4a (interim),SI Upper CL,87.37305706219452
-1995,D4a (interim),SI Upper CL,86.41732170175615
-1996,D4a (interim),SI Upper CL,85.72225232756435
-1997,D4a (interim),SI Upper CL,85.9584433169768
-1998,D4a (interim),SI Upper CL,86.61144926242301
-1999,D4a (interim),SI Upper CL,87.15692941715386
-2000,D4a (interim),SI Upper CL,87.37728239368411
-2001,D4a (interim),SI Upper CL,86.5887396317761
-2002,D4a (interim),SI Upper CL,85.10575184598879
-2003,D4a (interim),SI Upper CL,84.20625624891483
-2004,D4a (interim),SI Upper CL,83.80890269659724
-2005,D4a (interim),SI Upper CL,83.95271053679988
-2006,D4a (interim),SI Upper CL,84.59255574246146
-2007,D4a (interim),SI Upper CL,84.9745987835032
-2008,D4a (interim),SI Upper CL,85.24795667817644
-2009,D4a (interim),SI Upper CL,85.82401062656444
-2010,D4a (interim),SI Upper CL,87.06798968882812
-2011,D4a (interim),SI Upper CL,87.28386835024608
-2012,D4a (interim),SI Upper CL,86.60022160442628
-2013,D4a (interim),SI Upper CL,85.05965682838747
-2014,D4a (interim),SI Upper CL,84.35326272915158
-2015,D4a (interim),SI Upper CL,83.07167436821811
-2016,D4a (interim),SI Upper CL,81.932028200735
-2017,D4a (interim),SI Upper CL,80.7969397245193
-2018,D4a (interim),SI Upper CL,79.2448734172372
-2019,D4a (interim),SI Upper CL,78.22205881082311
-1990,D4b (interim),Unsmoothed Index,100.0
-1991,D4b (interim),Unsmoothed Index,90.15
-1992,D4b (interim),Unsmoothed Index,110.1
-1993,D4b (interim),Unsmoothed Index,55.84
-1994,D4b (interim),Unsmoothed Index,65.16
-1995,D4b (interim),Unsmoothed Index,86.89
-1996,D4b (interim),Unsmoothed Index,85.7
-1997,D4b (interim),Unsmoothed Index,95.27
-1998,D4b (interim),Unsmoothed Index,58.88
-1999,D4b (interim),Unsmoothed Index,50.69
-2000,D4b (interim),Unsmoothed Index,50.81
-2001,D4b (interim),Unsmoothed Index,48.86
-2002,D4b (interim),Unsmoothed Index,56.23
-2003,D4b (interim),Unsmoothed Index,70.95
-2004,D4b (interim),Unsmoothed Index,73.62
-2005,D4b (interim),Unsmoothed Index,56.23
-2006,D4b (interim),Unsmoothed Index,56.62
-2007,D4b (interim),Unsmoothed Index,37.49
-2008,D4b (interim),Unsmoothed Index,35.56
-2009,D4b (interim),Unsmoothed Index,55.71
-2010,D4b (interim),Unsmoothed Index,63.38
-2011,D4b (interim),Unsmoothed Index,55.84
-2012,D4b (interim),Unsmoothed Index,29.1
-2013,D4b (interim),Unsmoothed Index,56.88
-2014,D4b (interim),Unsmoothed Index,50.69
-2015,D4b (interim),Unsmoothed Index,48.86
-2016,D4b (interim),Unsmoothed Index,35.39
-2017,D4b (interim),Unsmoothed Index,46.77
-2018,D4b (interim),Unsmoothed Index,67.14
-2019,D4b (interim),Unsmoothed Index,58.47
-1990,D4b (interim),Smoothed Index (SI),94.223
-1991,D4b (interim),Smoothed Index (SI),90.71
-1992,D4b (interim),Smoothed Index (SI),87.218
-1993,D4b (interim),Smoothed Index (SI),83.765
-1994,D4b (interim),Smoothed Index (SI),80.455
-1995,D4b (interim),Smoothed Index (SI),77.288
-1996,D4b (interim),Smoothed Index (SI),74.208
-1997,D4b (interim),Smoothed Index (SI),71.197
-1998,D4b (interim),Smoothed Index (SI),68.275
-1999,D4b (interim),Smoothed Index (SI),65.551
-2000,D4b (interim),Smoothed Index (SI),63.101
-2001,D4b (interim),Smoothed Index (SI),60.946
-2002,D4b (interim),Smoothed Index (SI),59.063
-2003,D4b (interim),Smoothed Index (SI),57.383
-2004,D4b (interim),Smoothed Index (SI),55.829
-2005,D4b (interim),Smoothed Index (SI),54.372
-2006,D4b (interim),Smoothed Index (SI),53.049
-2007,D4b (interim),Smoothed Index (SI),51.903
-2008,D4b (interim),Smoothed Index (SI),50.989
-2009,D4b (interim),Smoothed Index (SI),50.311
-2010,D4b (interim),Smoothed Index (SI),49.816
-2011,D4b (interim),Smoothed Index (SI),49.472
-2012,D4b (interim),Smoothed Index (SI),49.295
-2013,D4b (interim),Smoothed Index (SI),49.323
-2014,D4b (interim),Smoothed Index (SI),49.524
-2015,D4b (interim),Smoothed Index (SI),49.891
-2016,D4b (interim),Smoothed Index (SI),50.422
-2017,D4b (interim),Smoothed Index (SI),51.111
-2018,D4b (interim),Smoothed Index (SI),51.896
-2019,D4b (interim),Smoothed Index (SI),52.703
-1990,D4b (interim),SI Lower CL,81.77308
-1991,D4b (interim),SI Lower CL,80.17891999999999
-1992,D4b (interim),SI Lower CL,78.13144
-1993,D4b (interim),SI Lower CL,75.6702
-1994,D4b (interim),SI Lower CL,72.96584
-1995,D4b (interim),SI Lower CL,70.12028
-1996,D4b (interim),SI Lower CL,67.18336
-1997,D4b (interim),SI Lower CL,64.22136
-1998,D4b (interim),SI Lower CL,61.30720000000001
-1999,D4b (interim),SI Lower CL,58.58124
-2000,D4b (interim),SI Lower CL,56.13124
-2001,D4b (interim),SI Lower CL,53.98016
-2002,D4b (interim),SI Lower CL,52.105
-2003,D4b (interim),SI Lower CL,50.432840000000006
-2004,D4b (interim),SI Lower CL,48.882760000000005
-2005,D4b (interim),SI Lower CL,47.42576
-2006,D4b (interim),SI Lower CL,46.09884
-2007,D4b (interim),SI Lower CL,44.945
-2008,D4b (interim),SI Lower CL,44.02316
-2009,D4b (interim),SI Lower CL,43.33928
-2010,D4b (interim),SI Lower CL,42.84624
-2011,D4b (interim),SI Lower CL,42.5042
-2012,D4b (interim),SI Lower CL,42.31936
-2013,D4b (interim),SI Lower CL,42.29836
-2014,D4b (interim),SI Lower CL,42.35236
-2015,D4b (interim),SI Lower CL,42.39204
-2016,D4b (interim),SI Lower CL,42.30956
-2017,D4b (interim),SI Lower CL,41.99504
-2018,D4b (interim),SI Lower CL,41.3218
-2019,D4b (interim),SI Lower CL,40.19624
-1990,D4b (interim),SI Upper CL,106.67292
-1991,D4b (interim),SI Upper CL,101.24108
-1992,D4b (interim),SI Upper CL,96.30456
-1993,D4b (interim),SI Upper CL,91.8598
-1994,D4b (interim),SI Upper CL,87.94416
-1995,D4b (interim),SI Upper CL,84.45572
-1996,D4b (interim),SI Upper CL,81.23264
-1997,D4b (interim),SI Upper CL,78.17264
-1998,D4b (interim),SI Upper CL,75.2428
-1999,D4b (interim),SI Upper CL,72.52076
-2000,D4b (interim),SI Upper CL,70.07075999999999
-2001,D4b (interim),SI Upper CL,67.91184
-2002,D4b (interim),SI Upper CL,66.021
-2003,D4b (interim),SI Upper CL,64.33316
-2004,D4b (interim),SI Upper CL,62.77524
-2005,D4b (interim),SI Upper CL,61.31824
-2006,D4b (interim),SI Upper CL,59.99916
-2007,D4b (interim),SI Upper CL,58.861
-2008,D4b (interim),SI Upper CL,57.95484
-2009,D4b (interim),SI Upper CL,57.28272
-2010,D4b (interim),SI Upper CL,56.78576
-2011,D4b (interim),SI Upper CL,56.439800000000005
-2012,D4b (interim),SI Upper CL,56.27064
-2013,D4b (interim),SI Upper CL,56.34764
-2014,D4b (interim),SI Upper CL,56.69564
-2015,D4b (interim),SI Upper CL,57.38996
-2016,D4b (interim),SI Upper CL,58.53444
-2017,D4b (interim),SI Upper CL,60.22696
-2018,D4b (interim),SI Upper CL,62.4702
-2019,D4b (interim),SI Upper CL,65.20976
-1970,D4c (interim),Unsmoothed Index,100.0
-1971,D4c (interim),Unsmoothed Index,103.74378906966308
-1972,D4c (interim),Unsmoothed Index,104.31942154844494
-1973,D4c (interim),Unsmoothed Index,101.12223902593796
-1974,D4c (interim),Unsmoothed Index,101.93031136106772
-1975,D4c (interim),Unsmoothed Index,105.97301277943718
-1976,D4c (interim),Unsmoothed Index,109.9507793403706
-1977,D4c (interim),Unsmoothed Index,111.95770858553507
-1978,D4c (interim),Unsmoothed Index,103.7529514578671
-1979,D4c (interim),Unsmoothed Index,97.91345855787247
-1980,D4c (interim),Unsmoothed Index,97.17774031909588
-1981,D4c (interim),Unsmoothed Index,92.20117479539157
-1982,D4c (interim),Unsmoothed Index,81.65867691237628
-1983,D4c (interim),Unsmoothed Index,80.6250260315718
-1984,D4c (interim),Unsmoothed Index,80.0255268597272
-1985,D4c (interim),Unsmoothed Index,73.55597439303831
-1986,D4c (interim),Unsmoothed Index,67.57724510152782
-1987,D4c (interim),Unsmoothed Index,64.5983653259789
-1988,D4c (interim),Unsmoothed Index,64.5867557862476
-1989,D4c (interim),Unsmoothed Index,66.5451877585832
-1990,D4c (interim),Unsmoothed Index,68.22707576726881
-1991,D4c (interim),Unsmoothed Index,63.348905811009935
-1992,D4c (interim),Unsmoothed Index,59.14431465153459
-1993,D4c (interim),Unsmoothed Index,53.49521456148298
-1994,D4c (interim),Unsmoothed Index,56.182685035592186
-1995,D4c (interim),Unsmoothed Index,58.12974770788374
-1996,D4c (interim),Unsmoothed Index,56.8416900562728
-1997,D4c (interim),Unsmoothed Index,55.31734264736335
-1998,D4c (interim),Unsmoothed Index,52.58108822320448
-1999,D4c (interim),Unsmoothed Index,52.01334352776812
-2000,D4c (interim),Unsmoothed Index,52.85209378616044
-2001,D4c (interim),Unsmoothed Index,52.99167881368264
-2002,D4c (interim),Unsmoothed Index,53.01722075129997
-2003,D4c (interim),Unsmoothed Index,52.99060901141858
-2004,D4c (interim),Unsmoothed Index,53.28701281954235
-2005,D4c (interim),Unsmoothed Index,53.60420144726683
-2006,D4c (interim),Unsmoothed Index,52.83013810540776
-2007,D4c (interim),Unsmoothed Index,48.29028858643324
-2008,D4c (interim),Unsmoothed Index,49.72259128274851
-2009,D4c (interim),Unsmoothed Index,47.31968112419264
-2010,D4c (interim),Unsmoothed Index,47.77796964670703
-2011,D4c (interim),Unsmoothed Index,48.19259474727063
-2012,D4c (interim),Unsmoothed Index,48.64543699179195
-2013,D4c (interim),Unsmoothed Index,43.61758860146088
-2014,D4c (interim),Unsmoothed Index,43.90902631623175
-2015,D4c (interim),Unsmoothed Index,45.52219279768296
-2016,D4c (interim),Unsmoothed Index,42.95303018827667
-2017,D4c (interim),Unsmoothed Index,44.3583240929117
-2018,D4c (interim),Unsmoothed Index,41.93566557473345
-2019,D4c (interim),Unsmoothed Index,42.22810384357624
-1970,D4c (interim),Smoothed Index (SI),100.0
-1971,D4c (interim),Smoothed Index (SI),98.97120640709342
-1972,D4c (interim),Smoothed Index (SI),98.58570697782014
-1973,D4c (interim),Smoothed Index (SI),98.8695488549136
-1974,D4c (interim),Smoothed Index (SI),100.16459265676096
-1975,D4c (interim),Smoothed Index (SI),102.15625368480434
-1976,D4c (interim),Smoothed Index (SI),103.6020888985583
-1977,D4c (interim),Smoothed Index (SI),103.2532290684477
-1978,D4c (interim),Smoothed Index (SI),100.6968424068341
-1979,D4c (interim),Smoothed Index (SI),96.77043648055243
-1980,D4c (interim),Smoothed Index (SI),92.26227100445055
-1981,D4c (interim),Smoothed Index (SI),87.3161420640561
-1982,D4c (interim),Smoothed Index (SI),82.29432032553284
-1983,D4c (interim),Smoothed Index (SI),77.89520774866462
-1984,D4c (interim),Smoothed Index (SI),73.97112952280179
-1985,D4c (interim),Smoothed Index (SI),70.11558087255484
-1986,D4c (interim),Smoothed Index (SI),66.68991097525
-1987,D4c (interim),Smoothed Index (SI),64.35724555448068
-1988,D4c (interim),Smoothed Index (SI),63.25144810749382
-1989,D4c (interim),Smoothed Index (SI),62.760570072922505
-1990,D4c (interim),Smoothed Index (SI),61.92935069589242
-1991,D4c (interim),Smoothed Index (SI),60.16014380000513
-1992,D4c (interim),Smoothed Index (SI),57.81122558155125
-1993,D4c (interim),Smoothed Index (SI),55.70054330782676
-1994,D4c (interim),Smoothed Index (SI),54.51462346835674
-1995,D4c (interim),Smoothed Index (SI),53.99041701071994
-1996,D4c (interim),Smoothed Index (SI),53.43554279233233
-1997,D4c (interim),Smoothed Index (SI),52.57151077654202
-1998,D4c (interim),Smoothed Index (SI),51.587873500209845
-1999,D4c (interim),Smoothed Index (SI),50.88545329594049
-2000,D4c (interim),Smoothed Index (SI),50.63006673767387
-2001,D4c (interim),Smoothed Index (SI),50.69181575940616
-2002,D4c (interim),Smoothed Index (SI),50.881834732094845
-2003,D4c (interim),Smoothed Index (SI),51.0294795300554
-2004,D4c (interim),Smoothed Index (SI),50.96743566275848
-2005,D4c (interim),Smoothed Index (SI),50.51005488922949
-2006,D4c (interim),Smoothed Index (SI),49.56093889494018
-2007,D4c (interim),Smoothed Index (SI),48.357456709577136
-2008,D4c (interim),Smoothed Index (SI),47.37602692784432
-2009,D4c (interim),Smoothed Index (SI),46.66576443003837
-2010,D4c (interim),Smoothed Index (SI),46.18111506308727
-2011,D4c (interim),Smoothed Index (SI),45.64713153394065
-2012,D4c (interim),Smoothed Index (SI),44.817981376878265
-2013,D4c (interim),Smoothed Index (SI),43.786033925656426
-2014,D4c (interim),Smoothed Index (SI),43.00477340931642
-2015,D4c (interim),Smoothed Index (SI),42.4905492886994
-2016,D4c (interim),Smoothed Index (SI),42.02064321109841
-2017,D4c (interim),Smoothed Index (SI),41.55622496410074
-2018,D4c (interim),Smoothed Index (SI),40.97767845223741
-2019,D4c (interim),Smoothed Index (SI),40.34789878104782
-1970,D4c (interim),SI Lower CL,100.0
-1971,D4c (interim),SI Lower CL,97.27348007969634
-1972,D4c (interim),SI Lower CL,95.33204779561348
-1973,D4c (interim),SI Lower CL,93.95067527639058
-1974,D4c (interim),SI Lower CL,94.18248734358428
-1975,D4c (interim),SI Lower CL,95.35505665482812
-1976,D4c (interim),SI Lower CL,96.18368927660146
-1977,D4c (interim),SI Lower CL,95.55183230468562
-1978,D4c (interim),SI Lower CL,92.2567241574843
-1979,D4c (interim),SI Lower CL,88.71738632172193
-1980,D4c (interim),SI Lower CL,84.14111191952674
-1981,D4c (interim),SI Lower CL,79.59547682751287
-1982,D4c (interim),SI Lower CL,74.25685990284346
-1983,D4c (interim),SI Lower CL,70.06114586031124
-1984,D4c (interim),SI Lower CL,66.4155272604369
-1985,D4c (interim),SI Lower CL,62.54999691730389
-1986,D4c (interim),SI Lower CL,59.03855316984755
-1987,D4c (interim),SI Lower CL,56.73023285669699
-1988,D4c (interim),SI Lower CL,55.309095510669856
-1989,D4c (interim),SI Lower CL,54.85001913203735
-1990,D4c (interim),SI Lower CL,53.91314582323733
-1991,D4c (interim),SI Lower CL,51.76401019515515
-1992,D4c (interim),SI Lower CL,49.66532361544001
-1993,D4c (interim),SI Lower CL,47.92191624020025
-1994,D4c (interim),SI Lower CL,47.005041597586185
-1995,D4c (interim),SI Lower CL,46.679048557969146
-1996,D4c (interim),SI Lower CL,45.97230584835521
-1997,D4c (interim),SI Lower CL,45.09122443617454
-1998,D4c (interim),SI Lower CL,44.449206190449175
-1999,D4c (interim),SI Lower CL,43.89199337307899
-2000,D4c (interim),SI Lower CL,43.73601811499955
-2001,D4c (interim),SI Lower CL,43.80135531229897
-2002,D4c (interim),SI Lower CL,43.94710129103537
-2003,D4c (interim),SI Lower CL,43.985222261215846
-2004,D4c (interim),SI Lower CL,43.873870880226775
-2005,D4c (interim),SI Lower CL,43.48816897870344
-2006,D4c (interim),SI Lower CL,42.71529369798057
-2007,D4c (interim),SI Lower CL,41.71147589999987
-2008,D4c (interim),SI Lower CL,40.916420125307305
-2009,D4c (interim),SI Lower CL,40.21479130150563
-2010,D4c (interim),SI Lower CL,39.66470087354138
-2011,D4c (interim),SI Lower CL,39.10332370572974
-2012,D4c (interim),SI Lower CL,38.3442739530808
-2013,D4c (interim),SI Lower CL,37.46067666335284
-2014,D4c (interim),SI Lower CL,36.79383914284971
-2015,D4c (interim),SI Lower CL,36.345838600996096
-2016,D4c (interim),SI Lower CL,36.0941031334704
-2017,D4c (interim),SI Lower CL,35.538820693550065
-2018,D4c (interim),SI Lower CL,34.984181484268575
-2019,D4c (interim),SI Lower CL,34.289684598537114
-1970,D4c (interim),SI Upper CL,100.0
-1971,D4c (interim),SI Upper CL,100.58249148717168
-1972,D4c (interim),SI Upper CL,101.54898975007576
-1973,D4c (interim),SI Upper CL,103.15520675258271
-1974,D4c (interim),SI Upper CL,105.29999662262236
-1975,D4c (interim),SI Upper CL,108.36809601428236
-1976,D4c (interim),SI Upper CL,110.5579260317714
-1977,D4c (interim),SI Upper CL,110.2820011559427
-1978,D4c (interim),SI Upper CL,107.60083535818166
-1979,D4c (interim),SI Upper CL,103.65547497395002
-1980,D4c (interim),SI Upper CL,98.84858856015389
-1981,D4c (interim),SI Upper CL,93.84096217189688
-1982,D4c (interim),SI Upper CL,88.9059792587561
-1983,D4c (interim),SI Upper CL,84.54947952941535
-1984,D4c (interim),SI Upper CL,80.52894669927863
-1985,D4c (interim),SI Upper CL,76.55177980173676
-1986,D4c (interim),SI Upper CL,73.35061114411947
-1987,D4c (interim),SI Upper CL,71.64598865733585
-1988,D4c (interim),SI Upper CL,70.41946533124059
-1989,D4c (interim),SI Upper CL,69.41271444639246
-1990,D4c (interim),SI Upper CL,68.0389245492288
-1991,D4c (interim),SI Upper CL,66.11482526418186
-1992,D4c (interim),SI Upper CL,63.914608452270485
-1993,D4c (interim),SI Upper CL,61.5644785709643
-1994,D4c (interim),SI Upper CL,60.23420621680087
-1995,D4c (interim),SI Upper CL,59.60847837172132
-1996,D4c (interim),SI Upper CL,58.65485293537704
-1997,D4c (interim),SI Upper CL,57.904921959146506
-1998,D4c (interim),SI Upper CL,56.94579656584603
-1999,D4c (interim),SI Upper CL,56.11619078376184
-2000,D4c (interim),SI Upper CL,55.55124050833902
-2001,D4c (interim),SI Upper CL,55.53997577515496
-2002,D4c (interim),SI Upper CL,55.76600296795342
-2003,D4c (interim),SI Upper CL,55.93032545592001
-2004,D4c (interim),SI Upper CL,56.17848135453476
-2005,D4c (interim),SI Upper CL,55.724397035042486
-2006,D4c (interim),SI Upper CL,54.62085388055817
-2007,D4c (interim),SI Upper CL,53.25322087313205
-2008,D4c (interim),SI Upper CL,52.08260545627302
-2009,D4c (interim),SI Upper CL,51.38065853602411
-2010,D4c (interim),SI Upper CL,50.69897623700968
-2011,D4c (interim),SI Upper CL,49.96446677114491
-2012,D4c (interim),SI Upper CL,49.05115099976784
-2013,D4c (interim),SI Upper CL,48.00396234024416
-2014,D4c (interim),SI Upper CL,47.28533133949814
-2015,D4c (interim),SI Upper CL,46.717447574709645
-2016,D4c (interim),SI Upper CL,46.28668723722438
-2017,D4c (interim),SI Upper CL,45.4831703966121
-2018,D4c (interim),SI Upper CL,44.77764457616544
-2019,D4c (interim),SI Upper CL,44.34191413480441
-1990,D4d (interim),Unsmoothed Index,100.0
-1991,D4d (interim),Unsmoothed Index,120.2
-1992,D4d (interim),Unsmoothed Index,125.3
-1993,D4d (interim),Unsmoothed Index,75.33
-1994,D4d (interim),Unsmoothed Index,89.33
-1995,D4d (interim),Unsmoothed Index,104.7
-1996,D4d (interim),Unsmoothed Index,116.1
-1997,D4d (interim),Unsmoothed Index,132.4
-1998,D4d (interim),Unsmoothed Index,99.77
-1999,D4d (interim),Unsmoothed Index,89.33
-2000,D4d (interim),Unsmoothed Index,94.84
-2001,D4d (interim),Unsmoothed Index,87.29
-2002,D4d (interim),Unsmoothed Index,86.09
-2003,D4d (interim),Unsmoothed Index,105.9
-2004,D4d (interim),Unsmoothed Index,103.7
-2005,D4d (interim),Unsmoothed Index,91.2
-2006,D4d (interim),Unsmoothed Index,92.04
-2007,D4d (interim),Unsmoothed Index,68.39
-2008,D4d (interim),Unsmoothed Index,64.71
-2009,D4d (interim),Unsmoothed Index,93.11
-2010,D4d (interim),Unsmoothed Index,95.49
-2011,D4d (interim),Unsmoothed Index,86.89
-2012,D4d (interim),Unsmoothed Index,53.45
-2013,D4d (interim),Unsmoothed Index,104.2
-2014,D4d (interim),Unsmoothed Index,101.1
-2015,D4d (interim),Unsmoothed Index,93.54
-2016,D4d (interim),Unsmoothed Index,70.46
-2017,D4d (interim),Unsmoothed Index,89.33
-2018,D4d (interim),Unsmoothed Index,110.6
-2019,D4d (interim),Unsmoothed Index,109.9
-1990,D4d (interim),Smoothed Index (SI),109.166
-1991,D4d (interim),Smoothed Index (SI),108.039
-1992,D4d (interim),Smoothed Index (SI),106.884
-1993,D4d (interim),Smoothed Index (SI),105.71
-1994,D4d (interim),Smoothed Index (SI),104.576
-1995,D4d (interim),Smoothed Index (SI),103.457
-1996,D4d (interim),Smoothed Index (SI),102.283
-1997,D4d (interim),Smoothed Index (SI),100.989
-1998,D4d (interim),Smoothed Index (SI),99.549
-1999,D4d (interim),Smoothed Index (SI),98.024
-2000,D4d (interim),Smoothed Index (SI),96.478
-2001,D4d (interim),Smoothed Index (SI),94.949
-2002,D4d (interim),Smoothed Index (SI),93.47
-2003,D4d (interim),Smoothed Index (SI),92.054
-2004,D4d (interim),Smoothed Index (SI),90.691
-2005,D4d (interim),Smoothed Index (SI),89.412
-2006,D4d (interim),Smoothed Index (SI),88.284
-2007,D4d (interim),Smoothed Index (SI),87.378
-2008,D4d (interim),Smoothed Index (SI),86.778
-2009,D4d (interim),Smoothed Index (SI),86.512
-2010,D4d (interim),Smoothed Index (SI),86.547
-2011,D4d (interim),Smoothed Index (SI),86.868
-2012,D4d (interim),Smoothed Index (SI),87.487
-2013,D4d (interim),Smoothed Index (SI),88.413
-2014,D4d (interim),Smoothed Index (SI),89.562
-2015,D4d (interim),Smoothed Index (SI),90.893
-2016,D4d (interim),Smoothed Index (SI),92.397
-2017,D4d (interim),Smoothed Index (SI),94.075
-2018,D4d (interim),Smoothed Index (SI),95.863
-2019,D4d (interim),Smoothed Index (SI),97.685
-1990,D4d (interim),SI Lower CL,94.14848
-1991,D4d (interim),SI Lower CL,95.21276
-1992,D4d (interim),SI Lower CL,95.7512
-1993,D4d (interim),SI Lower CL,95.78456
-1994,D4d (interim),SI Lower CL,95.43064
-1995,D4d (interim),SI Lower CL,94.75852
-1996,D4d (interim),SI Lower CL,93.806
-1997,D4d (interim),SI Lower CL,92.60216
-1998,D4d (interim),SI Lower CL,91.18372
-1999,D4d (interim),SI Lower CL,89.65676
-2000,D4d (interim),SI Lower CL,88.10292
-2001,D4d (interim),SI Lower CL,86.57
-2002,D4d (interim),SI Lower CL,85.091
-2003,D4d (interim),SI Lower CL,83.67696000000001
-2004,D4d (interim),SI Lower CL,82.31592
-2005,D4d (interim),SI Lower CL,81.03692000000001
-2006,D4d (interim),SI Lower CL,79.90696000000001
-2007,D4d (interim),SI Lower CL,78.999
-2008,D4d (interim),SI Lower CL,78.399
-2009,D4d (interim),SI Lower CL,78.13692
-2010,D4d (interim),SI Lower CL,78.17976
-2011,D4d (interim),SI Lower CL,78.50272
-2012,D4d (interim),SI Lower CL,79.09819999999999
-2013,D4d (interim),SI Lower CL,79.93404
-2014,D4d (interim),SI Lower CL,80.85764
-2015,D4d (interim),SI Lower CL,81.73392
-2016,D4d (interim),SI Lower CL,82.45
-2017,D4d (interim),SI Lower CL,82.90888000000001
-2018,D4d (interim),SI Lower CL,82.98776
-2019,D4d (interim),SI Lower CL,82.6028
-1990,D4d (interim),SI Upper CL,124.18352
-1991,D4d (interim),SI Upper CL,120.86524
-1992,D4d (interim),SI Upper CL,118.0168
-1993,D4d (interim),SI Upper CL,115.63544
-1994,D4d (interim),SI Upper CL,113.72136
-1995,D4d (interim),SI Upper CL,112.15548
-1996,D4d (interim),SI Upper CL,110.76
-1997,D4d (interim),SI Upper CL,109.37584
-1998,D4d (interim),SI Upper CL,107.91428
-1999,D4d (interim),SI Upper CL,106.39124
-2000,D4d (interim),SI Upper CL,104.85308
-2001,D4d (interim),SI Upper CL,103.328
-2002,D4d (interim),SI Upper CL,101.849
-2003,D4d (interim),SI Upper CL,100.43104
-2004,D4d (interim),SI Upper CL,99.06608
-2005,D4d (interim),SI Upper CL,97.78708
-2006,D4d (interim),SI Upper CL,96.66104
-2007,D4d (interim),SI Upper CL,95.757
-2008,D4d (interim),SI Upper CL,95.157
-2009,D4d (interim),SI Upper CL,94.88708
-2010,D4d (interim),SI Upper CL,94.91424
-2011,D4d (interim),SI Upper CL,95.23328
-2012,D4d (interim),SI Upper CL,95.8758
-2013,D4d (interim),SI Upper CL,96.89196
-2014,D4d (interim),SI Upper CL,98.26636
-2015,D4d (interim),SI Upper CL,100.05208
-2016,D4d (interim),SI Upper CL,102.344
-2017,D4d (interim),SI Upper CL,105.24112
-2018,D4d (interim),SI Upper CL,108.73824
-2019,D4d (interim),SI Upper CL,112.7672
-1999,D4e (interim),Unsmoothed Index,100.0
-2000,D4e (interim),Unsmoothed Index,97.15023499
-2001,D4e (interim),Unsmoothed Index,103.8879639
-2002,D4e (interim),Unsmoothed Index,96.13985165
-2003,D4e (interim),Unsmoothed Index,105.1523998
-2004,D4e (interim),Unsmoothed Index,106.6283083
-2005,D4e (interim),Unsmoothed Index,113.741003
-2006,D4e (interim),Unsmoothed Index,115.8034963
-2007,D4e (interim),Unsmoothed Index,117.1679703
-2008,D4e (interim),Unsmoothed Index,123.1397239
-2009,D4e (interim),Unsmoothed Index,121.5871203
-2010,D4e (interim),Unsmoothed Index,117.2202768
-2011,D4e (interim),Unsmoothed Index,122.6117689
-2012,D4e (interim),Unsmoothed Index,115.8199154
-2013,D4e (interim),Unsmoothed Index,126.291433
-2014,D4e (interim),Unsmoothed Index,118.9543155
-2015,D4e (interim),Unsmoothed Index,134.0418892
-2016,D4e (interim),Unsmoothed Index,129.5701719
-2017,D4e (interim),Unsmoothed Index,131.8102718
-2018,D4e (interim),Unsmoothed Index,134.07312
-2019,D4e (interim),Unsmoothed Index,137.0454243
-1999,D4e (interim),Smoothed Index (SI),100.0
-2000,D4e (interim),Smoothed Index (SI),102.632223
-2001,D4e (interim),Smoothed Index (SI),105.202844
-2002,D4e (interim),Smoothed Index (SI),107.2295262
-2003,D4e (interim),Smoothed Index (SI),110.0353768
-2004,D4e (interim),Smoothed Index (SI),113.7243531
-2005,D4e (interim),Smoothed Index (SI),117.9357519
-2006,D4e (interim),Smoothed Index (SI),121.7849136
-2007,D4e (interim),Smoothed Index (SI),124.8091537
-2008,D4e (interim),Smoothed Index (SI),126.6899064
-2009,D4e (interim),Smoothed Index (SI),127.1384764
-2010,D4e (interim),Smoothed Index (SI),126.8967721
-2011,D4e (interim),Smoothed Index (SI),127.0392946
-2012,D4e (interim),Smoothed Index (SI),127.683059
-2013,D4e (interim),Smoothed Index (SI),129.4277249
-2014,D4e (interim),Smoothed Index (SI),131.941969
-2015,D4e (interim),Smoothed Index (SI),135.2733345
-2016,D4e (interim),Smoothed Index (SI),137.88297
-2017,D4e (interim),Smoothed Index (SI),139.820202
-2018,D4e (interim),Smoothed Index (SI),141.6213457
-2019,D4e (interim),Smoothed Index (SI),143.3699653
-1999,D4e (interim),SI Lower CL,100.0
-2000,D4e (interim),SI Lower CL,100.2488789
-2001,D4e (interim),SI Lower CL,100.4989647
-2002,D4e (interim),SI Lower CL,100.8254384
-2003,D4e (interim),SI Lower CL,102.3767021
-2004,D4e (interim),SI Lower CL,105.3026291
-2005,D4e (interim),SI Lower CL,109.2704869
-2006,D4e (interim),SI Lower CL,112.554976
-2007,D4e (interim),SI Lower CL,114.9085732
-2008,D4e (interim),SI Lower CL,116.1518075
-2009,D4e (interim),SI Lower CL,116.7165454
-2010,D4e (interim),SI Lower CL,116.634214
-2011,D4e (interim),SI Lower CL,117.0740364
-2012,D4e (interim),SI Lower CL,117.8067238
-2013,D4e (interim),SI Lower CL,119.3313801
-2014,D4e (interim),SI Lower CL,121.6537384
-2015,D4e (interim),SI Lower CL,124.3863986
-2016,D4e (interim),SI Lower CL,126.5943676
-2017,D4e (interim),SI Lower CL,128.9660612
-2018,D4e (interim),SI Lower CL,129.8306213
-2019,D4e (interim),SI Lower CL,129.5340625
-1999,D4e (interim),SI Upper CL,100.0
-2000,D4e (interim),SI Upper CL,104.8386957
-2001,D4e (interim),SI Upper CL,109.3954392
-2002,D4e (interim),SI Upper CL,112.7080302
-2003,D4e (interim),SI Upper CL,116.1789749
-2004,D4e (interim),SI Upper CL,121.2623327
-2005,D4e (interim),SI Upper CL,127.265777
-2006,D4e (interim),SI Upper CL,131.5998497
-2007,D4e (interim),SI Upper CL,134.9521997
-2008,D4e (interim),SI Upper CL,137.0391968
-2009,D4e (interim),SI Upper CL,137.864102
-2010,D4e (interim),SI Upper CL,137.6245477
-2011,D4e (interim),SI Upper CL,138.2906821
-2012,D4e (interim),SI Upper CL,138.7732084
-2013,D4e (interim),SI Upper CL,141.195934
-2014,D4e (interim),SI Upper CL,144.248109
-2015,D4e (interim),SI Upper CL,148.5667072
-2016,D4e (interim),SI Upper CL,151.5290039
-2017,D4e (interim),SI Upper CL,154.2496566
-2018,D4e (interim),SI Upper CL,156.6866595
-2019,D4e (interim),SI Upper CL,160.48144
+1970,D4ai (interim),Unsmoothed Index,100.0
+1971,D4ai (interim),Unsmoothed Index,106.10456444943226
+1972,D4ai (interim),Unsmoothed Index,112.47652261857498
+1973,D4ai (interim),Unsmoothed Index,110.99471733704954
+1974,D4ai (interim),Unsmoothed Index,110.59912886927644
+1975,D4ai (interim),Unsmoothed Index,110.88936033915137
+1976,D4ai (interim),Unsmoothed Index,103.9383023701673
+1977,D4ai (interim),Unsmoothed Index,110.20594798419133
+1978,D4ai (interim),Unsmoothed Index,101.62996567315584
+1979,D4ai (interim),Unsmoothed Index,93.59383465459489
+1980,D4ai (interim),Unsmoothed Index,104.5210240054815
+1981,D4ai (interim),Unsmoothed Index,105.69738601239438
+1982,D4ai (interim),Unsmoothed Index,96.31381977600336
+1983,D4ai (interim),Unsmoothed Index,102.8589465323892
+1984,D4ai (interim),Unsmoothed Index,102.75575942508648
+1985,D4ai (interim),Unsmoothed Index,101.52988348407337
+1986,D4ai (interim),Unsmoothed Index,90.27558873096793
+1987,D4ai (interim),Unsmoothed Index,92.74336300831185
+1988,D4ai (interim),Unsmoothed Index,98.21706703451196
+1989,D4ai (interim),Unsmoothed Index,100.41727954451731
+1990,D4ai (interim),Unsmoothed Index,94.77550016069726
+1991,D4ai (interim),Unsmoothed Index,86.19201432848578
+1992,D4ai (interim),Unsmoothed Index,83.70031213497757
+1993,D4ai (interim),Unsmoothed Index,84.02696364142702
+1994,D4ai (interim),Unsmoothed Index,84.30237075873546
+1995,D4ai (interim),Unsmoothed Index,80.05011471745327
+1996,D4ai (interim),Unsmoothed Index,84.25619443384882
+1997,D4ai (interim),Unsmoothed Index,79.20879023652172
+1998,D4ai (interim),Unsmoothed Index,81.60795794431358
+1999,D4ai (interim),Unsmoothed Index,82.55713545689797
+2000,D4ai (interim),Unsmoothed Index,83.94928655306829
+2001,D4ai (interim),Unsmoothed Index,81.04267486705568
+2002,D4ai (interim),Unsmoothed Index,77.32423663846728
+2003,D4ai (interim),Unsmoothed Index,77.59450137812635
+2004,D4ai (interim),Unsmoothed Index,77.87966712389104
+2005,D4ai (interim),Unsmoothed Index,79.83153381178427
+2006,D4ai (interim),Unsmoothed Index,80.46805416989383
+2007,D4ai (interim),Unsmoothed Index,79.66716280601223
+2008,D4ai (interim),Unsmoothed Index,79.29537031463957
+2009,D4ai (interim),Unsmoothed Index,73.58735639014515
+2010,D4ai (interim),Unsmoothed Index,79.66719903927141
+2011,D4ai (interim),Unsmoothed Index,86.13170199598618
+2012,D4ai (interim),Unsmoothed Index,81.46579831430375
+2013,D4ai (interim),Unsmoothed Index,72.7713842475452
+2014,D4ai (interim),Unsmoothed Index,78.00322370644862
+2015,D4ai (interim),Unsmoothed Index,78.54943308105165
+2016,D4ai (interim),Unsmoothed Index,76.5096222812873
+2017,D4ai (interim),Unsmoothed Index,73.7420790131883
+2018,D4ai (interim),Unsmoothed Index,72.77284529864694
+2019,D4ai (interim),Unsmoothed Index,73.23034920865992
+1970,D4ai (interim),Smoothed Index (SI),100.0
+1971,D4ai (interim),Smoothed Index (SI),103.20094537206646
+1972,D4ai (interim),Smoothed Index (SI),105.8775929366331
+1973,D4ai (interim),Smoothed Index (SI),107.10383774923618
+1974,D4ai (interim),Smoothed Index (SI),106.95524281610138
+1975,D4ai (interim),Smoothed Index (SI),105.86492705385442
+1976,D4ai (interim),Smoothed Index (SI),104.12865505023755
+1977,D4ai (interim),Smoothed Index (SI),102.05636538764185
+1978,D4ai (interim),Smoothed Index (SI),99.66742711143492
+1979,D4ai (interim),Smoothed Index (SI),98.0575834935927
+1980,D4ai (interim),Smoothed Index (SI),97.91148269142114
+1981,D4ai (interim),Smoothed Index (SI),98.08403706923376
+1982,D4ai (interim),Smoothed Index (SI),97.90196784385608
+1983,D4ai (interim),Smoothed Index (SI),97.67450400511952
+1984,D4ai (interim),Smoothed Index (SI),96.92042207890164
+1985,D4ai (interim),Smoothed Index (SI),95.41395375955
+1986,D4ai (interim),Smoothed Index (SI),93.77843552917857
+1987,D4ai (interim),Smoothed Index (SI),93.20898280853103
+1988,D4ai (interim),Smoothed Index (SI),93.32500062115612
+1989,D4ai (interim),Smoothed Index (SI),92.56966251842312
+1990,D4ai (interim),Smoothed Index (SI),90.1373610283382
+1991,D4ai (interim),Smoothed Index (SI),86.78718773823253
+1992,D4ai (interim),Smoothed Index (SI),83.87972011592686
+1993,D4ai (interim),Smoothed Index (SI),82.00254896928773
+1994,D4ai (interim),Smoothed Index (SI),80.89949594000355
+1995,D4ai (interim),Smoothed Index (SI),80.28745191246678
+1996,D4ai (interim),Smoothed Index (SI),79.85659171290992
+1997,D4ai (interim),Smoothed Index (SI),79.59899199552916
+1998,D4ai (interim),Smoothed Index (SI),79.79293488794734
+1999,D4ai (interim),Smoothed Index (SI),80.0480679641868
+2000,D4ai (interim),Smoothed Index (SI),79.72603533945052
+2001,D4ai (interim),Smoothed Index (SI),78.64061229039014
+2002,D4ai (interim),Smoothed Index (SI),77.38287322161574
+2003,D4ai (interim),Smoothed Index (SI),76.63814561970092
+2004,D4ai (interim),Smoothed Index (SI),76.59031868516784
+2005,D4ai (interim),Smoothed Index (SI),76.98275587012887
+2006,D4ai (interim),Smoothed Index (SI),77.3169894850316
+2007,D4ai (interim),Smoothed Index (SI),77.392357702024
+2008,D4ai (interim),Smoothed Index (SI),77.4642715791364
+2009,D4ai (interim),Smoothed Index (SI),77.87640680181997
+2010,D4ai (interim),Smoothed Index (SI),78.79224231097172
+2011,D4ai (interim),Smoothed Index (SI),79.33012807697588
+2012,D4ai (interim),Smoothed Index (SI),78.57705801152808
+2013,D4ai (interim),Smoothed Index (SI),77.07773104174139
+2014,D4ai (interim),Smoothed Index (SI),75.95818760080554
+2015,D4ai (interim),Smoothed Index (SI),75.10839189703644
+2016,D4ai (interim),Smoothed Index (SI),74.23565081402671
+2017,D4ai (interim),Smoothed Index (SI),73.34421288441666
+2018,D4ai (interim),Smoothed Index (SI),72.44719425548128
+2019,D4ai (interim),Smoothed Index (SI),71.26807897367475
+1970,D4ai (interim),SI Lower CI,100.0
+1971,D4ai (interim),SI Lower CI,102.0744432461364
+1972,D4ai (interim),SI Lower CI,103.72489517112058
+1973,D4ai (interim),SI Lower CI,104.10983634981416
+1974,D4ai (interim),SI Lower CI,102.9722045344048
+1975,D4ai (interim),SI Lower CI,101.47741496387938
+1976,D4ai (interim),SI Lower CI,99.47990968531228
+1977,D4ai (interim),SI Lower CI,97.4898062293583
+1978,D4ai (interim),SI Lower CI,95.39201154511773
+1979,D4ai (interim),SI Lower CI,94.02119603474328
+1980,D4ai (interim),SI Lower CI,93.36701776418856
+1981,D4ai (interim),SI Lower CI,93.73239633499357
+1982,D4ai (interim),SI Lower CI,93.3867647063927
+1983,D4ai (interim),SI Lower CI,92.68800697265482
+1984,D4ai (interim),SI Lower CI,91.77065533976815
+1985,D4ai (interim),SI Lower CI,90.19109084896722
+1986,D4ai (interim),SI Lower CI,88.79770419663363
+1987,D4ai (interim),SI Lower CI,88.28273160540185
+1988,D4ai (interim),SI Lower CI,88.00897919209555
+1989,D4ai (interim),SI Lower CI,87.25361545855912
+1990,D4ai (interim),SI Lower CI,85.10507685107372
+1991,D4ai (interim),SI Lower CI,81.97426513214117
+1992,D4ai (interim),SI Lower CI,79.09431442775285
+1993,D4ai (interim),SI Lower CI,76.86571273012336
+1994,D4ai (interim),SI Lower CI,75.67614599913038
+1995,D4ai (interim),SI Lower CI,74.69186214471654
+1996,D4ai (interim),SI Lower CI,73.9330531592081
+1997,D4ai (interim),SI Lower CI,73.7029412150108
+1998,D4ai (interim),SI Lower CI,74.0650938319558
+1999,D4ai (interim),SI Lower CI,74.29129710516438
+2000,D4ai (interim),SI Lower CI,74.01951264743816
+2001,D4ai (interim),SI Lower CI,73.04798023348219
+2002,D4ai (interim),SI Lower CI,71.24672254915698
+2003,D4ai (interim),SI Lower CI,70.51433429001165
+2004,D4ai (interim),SI Lower CI,70.5046716665305
+2005,D4ai (interim),SI Lower CI,71.06148062471075
+2006,D4ai (interim),SI Lower CI,71.49123263808927
+2007,D4ai (interim),SI Lower CI,71.5183945728559
+2008,D4ai (interim),SI Lower CI,71.25312355099263
+2009,D4ai (interim),SI Lower CI,71.15739737740626
+2010,D4ai (interim),SI Lower CI,71.799191180351
+2011,D4ai (interim),SI Lower CI,72.25850243339423
+2012,D4ai (interim),SI Lower CI,71.81675847410614
+2013,D4ai (interim),SI Lower CI,70.48251857704595
+2014,D4ai (interim),SI Lower CI,69.62290260873989
+2015,D4ai (interim),SI Lower CI,68.92309752637851
+2016,D4ai (interim),SI Lower CI,68.08948978103884
+2017,D4ai (interim),SI Lower CI,67.053523116412
+2018,D4ai (interim),SI Lower CI,66.13113522564385
+2019,D4ai (interim),SI Lower CI,64.00194761924048
+1970,D4ai (interim),SI Upper CI,100.0
+1971,D4ai (interim),SI Upper CI,104.51883340666616
+1972,D4ai (interim),SI Upper CI,108.75728961558671
+1973,D4ai (interim),SI Upper CI,110.93868269785764
+1974,D4ai (interim),SI Upper CI,111.4751134916324
+1975,D4ai (interim),SI Upper CI,111.36733777600128
+1976,D4ai (interim),SI Upper CI,110.16911968717504
+1977,D4ai (interim),SI Upper CI,108.40963987216703
+1978,D4ai (interim),SI Upper CI,106.21965100618822
+1979,D4ai (interim),SI Upper CI,104.54142312626118
+1980,D4ai (interim),SI Upper CI,104.0491216509589
+1981,D4ai (interim),SI Upper CI,104.14686984073867
+1982,D4ai (interim),SI Upper CI,103.88952673579476
+1983,D4ai (interim),SI Upper CI,103.9438562239278
+1984,D4ai (interim),SI Upper CI,103.40124600524103
+1985,D4ai (interim),SI Upper CI,102.13858592257856
+1986,D4ai (interim),SI Upper CI,100.44413156605695
+1987,D4ai (interim),SI Upper CI,99.9139734282047
+1988,D4ai (interim),SI Upper CI,100.07679498413584
+1989,D4ai (interim),SI Upper CI,99.74362143534736
+1990,D4ai (interim),SI Upper CI,97.45046954366022
+1991,D4ai (interim),SI Upper CI,93.84298681034348
+1992,D4ai (interim),SI Upper CI,90.4789519472707
+1993,D4ai (interim),SI Upper CI,88.65625652022081
+1994,D4ai (interim),SI Upper CI,87.37305706219452
+1995,D4ai (interim),SI Upper CI,86.41732170175615
+1996,D4ai (interim),SI Upper CI,85.72225232756435
+1997,D4ai (interim),SI Upper CI,85.9584433169768
+1998,D4ai (interim),SI Upper CI,86.61144926242301
+1999,D4ai (interim),SI Upper CI,87.15692941715386
+2000,D4ai (interim),SI Upper CI,87.37728239368411
+2001,D4ai (interim),SI Upper CI,86.5887396317761
+2002,D4ai (interim),SI Upper CI,85.10575184598879
+2003,D4ai (interim),SI Upper CI,84.20625624891483
+2004,D4ai (interim),SI Upper CI,83.80890269659724
+2005,D4ai (interim),SI Upper CI,83.95271053679988
+2006,D4ai (interim),SI Upper CI,84.59255574246146
+2007,D4ai (interim),SI Upper CI,84.9745987835032
+2008,D4ai (interim),SI Upper CI,85.24795667817644
+2009,D4ai (interim),SI Upper CI,85.82401062656444
+2010,D4ai (interim),SI Upper CI,87.06798968882812
+2011,D4ai (interim),SI Upper CI,87.28386835024608
+2012,D4ai (interim),SI Upper CI,86.60022160442628
+2013,D4ai (interim),SI Upper CI,85.05965682838747
+2014,D4ai (interim),SI Upper CI,84.35326272915158
+2015,D4ai (interim),SI Upper CI,83.07167436821811
+2016,D4ai (interim),SI Upper CI,81.932028200735
+2017,D4ai (interim),SI Upper CI,80.7969397245193
+2018,D4ai (interim),SI Upper CI,79.2448734172372
+2019,D4ai (interim),SI Upper CI,78.22205881082311
+1990,D4bi (interim),Unsmoothed Index,100.0
+1991,D4bi (interim),Unsmoothed Index,89.95
+1992,D4bi (interim),Unsmoothed Index,110.41
+1993,D4bi (interim),Unsmoothed Index,55.59
+1994,D4bi (interim),Unsmoothed Index,64.86
+1995,D4bi (interim),Unsmoothed Index,86.9
+1996,D4bi (interim),Unsmoothed Index,85.51
+1997,D4bi (interim),Unsmoothed Index,94.62
+1998,D4bi (interim),Unsmoothed Index,58.61
+1999,D4bi (interim),Unsmoothed Index,50.58
+2000,D4bi (interim),Unsmoothed Index,50.58
+2001,D4bi (interim),Unsmoothed Index,48.75
+2002,D4bi (interim),Unsmoothed Index,56.1
+2003,D4bi (interim),Unsmoothed Index,70.47
+2004,D4bi (interim),Unsmoothed Index,73.45
+2005,D4bi (interim),Unsmoothed Index,56.1
+2006,D4bi (interim),Unsmoothed Index,56.49
+2007,D4bi (interim),Unsmoothed Index,37.33
+2008,D4bi (interim),Unsmoothed Index,35.32
+2009,D4bi (interim),Unsmoothed Index,55.59
+2010,D4bi (interim),Unsmoothed Index,63.53
+2011,D4bi (interim),Unsmoothed Index,55.85
+2012,D4bi (interim),Unsmoothed Index,28.97
+2013,D4bi (interim),Unsmoothed Index,57.02
+2014,D4bi (interim),Unsmoothed Index,50.82
+2015,D4bi (interim),Unsmoothed Index,48.75
+2016,D4bi (interim),Unsmoothed Index,35.48
+2017,D4bi (interim),Unsmoothed Index,46.67
+2018,D4bi (interim),Unsmoothed Index,67.14
+2019,D4bi (interim),Unsmoothed Index,58.75
+2020,D4bi (interim),Unsmoothed Index,59.16
+1990,D4bi (interim),Smoothed Index (SI),94.435
+1991,D4bi (interim),Smoothed Index (SI),90.834
+1992,D4bi (interim),Smoothed Index (SI),87.255
+1993,D4bi (interim),Smoothed Index (SI),83.719
+1994,D4bi (interim),Smoothed Index (SI),80.341
+1995,D4bi (interim),Smoothed Index (SI),77.119
+1996,D4bi (interim),Smoothed Index (SI),73.989
+1997,D4bi (interim),Smoothed Index (SI),70.925
+1998,D4bi (interim),Smoothed Index (SI),67.95
+1999,D4bi (interim),Smoothed Index (SI),65.186
+2000,D4bi (interim),Smoothed Index (SI),62.715
+2001,D4bi (interim),Smoothed Index (SI),60.559
+2002,D4bi (interim),Smoothed Index (SI),58.689
+2003,D4bi (interim),Smoothed Index (SI),57.027
+2004,D4bi (interim),Smoothed Index (SI),55.487
+2005,D4bi (interim),Smoothed Index (SI),54.035
+2006,D4bi (interim),Smoothed Index (SI),52.714
+2007,D4bi (interim),Smoothed Index (SI),51.574
+2008,D4bi (interim),Smoothed Index (SI),50.682
+2009,D4bi (interim),Smoothed Index (SI),50.044
+2010,D4bi (interim),Smoothed Index (SI),49.605
+2011,D4bi (interim),Smoothed Index (SI),49.33
+2012,D4bi (interim),Smoothed Index (SI),49.245
+2013,D4bi (interim),Smoothed Index (SI),49.4
+2014,D4bi (interim),Smoothed Index (SI),49.762
+2015,D4bi (interim),Smoothed Index (SI),50.332
+2016,D4bi (interim),Smoothed Index (SI),51.111
+2017,D4bi (interim),Smoothed Index (SI),52.096
+2018,D4bi (interim),Smoothed Index (SI),53.22
+2019,D4bi (interim),Smoothed Index (SI),54.392
+2020,D4bi (interim),Smoothed Index (SI),55.579
+1990,D4bi (interim),SI Lower CI,82.10856
+1991,D4bi (interim),SI Lower CI,80.45972
+1992,D4bi (interim),SI Lower CI,78.33112
+1993,D4bi (interim),SI Lower CI,75.76924
+1994,D4bi (interim),SI Lower CI,72.96552
+1995,D4bi (interim),SI Lower CI,70.03752
+1996,D4bi (interim),SI Lower CI,67.02904000000001
+1997,D4bi (interim),SI Lower CI,64.00228
+1998,D4bi (interim),SI Lower CI,61.031200000000005
+1999,D4bi (interim),SI Lower CI,58.26720000000001
+2000,D4bi (interim),SI Lower CI,55.80012000000001
+2001,D4bi (interim),SI Lower CI,53.65588
+2002,D4bi (interim),SI Lower CI,51.7996
+2003,D4bi (interim),SI Lower CI,50.15132
+2004,D4bi (interim),SI Lower CI,48.621120000000005
+2005,D4bi (interim),SI Lower CI,47.17304
+2006,D4bi (interim),SI Lower CI,45.84812
+2007,D4bi (interim),SI Lower CI,44.69832
+2008,D4bi (interim),SI Lower CI,43.7926
+2009,D4bi (interim),SI Lower CI,43.13892
+2010,D4bi (interim),SI Lower CI,42.69011999999999
+2011,D4bi (interim),SI Lower CI,42.4112
+2012,D4bi (interim),SI Lower CI,42.3262
+2013,D4bi (interim),SI Lower CI,42.47728
+2014,D4bi (interim),SI Lower CI,42.80008
+2015,D4bi (interim),SI Lower CI,43.2466
+2016,D4bi (interim),SI Lower CI,43.72768
+2017,D4bi (interim),SI Lower CI,44.1286
+2018,D4bi (interim),SI Lower CI,44.26672
+2019,D4bi (interim),SI Lower CI,43.9746
+2020,D4bi (interim),SI Lower CI,43.1918
+1990,D4bi (interim),SI Upper CI,106.76144
+1991,D4bi (interim),SI Upper CI,101.20828
+1992,D4bi (interim),SI Upper CI,96.17888
+1993,D4bi (interim),SI Upper CI,91.66876
+1994,D4bi (interim),SI Upper CI,87.71647999999999
+1995,D4bi (interim),SI Upper CI,84.20048
+1996,D4bi (interim),SI Upper CI,80.94896
+1997,D4bi (interim),SI Upper CI,77.84772
+1998,D4bi (interim),SI Upper CI,74.86880000000001
+1999,D4bi (interim),SI Upper CI,72.10480000000001
+2000,D4bi (interim),SI Upper CI,69.62988
+2001,D4bi (interim),SI Upper CI,67.46212
+2002,D4bi (interim),SI Upper CI,65.5784
+2003,D4bi (interim),SI Upper CI,63.90268
+2004,D4bi (interim),SI Upper CI,62.35288
+2005,D4bi (interim),SI Upper CI,60.89695999999999
+2006,D4bi (interim),SI Upper CI,59.57988
+2007,D4bi (interim),SI Upper CI,58.44968
+2008,D4bi (interim),SI Upper CI,57.5714
+2009,D4bi (interim),SI Upper CI,56.94908
+2010,D4bi (interim),SI Upper CI,56.51988
+2011,D4bi (interim),SI Upper CI,56.2488
+2012,D4bi (interim),SI Upper CI,56.1638
+2013,D4bi (interim),SI Upper CI,56.32272
+2014,D4bi (interim),SI Upper CI,56.72392
+2015,D4bi (interim),SI Upper CI,57.4174
+2016,D4bi (interim),SI Upper CI,58.49432
+2017,D4bi (interim),SI Upper CI,60.0634
+2018,D4bi (interim),SI Upper CI,62.17328
+2019,D4bi (interim),SI Upper CI,64.80940000000001
+2020,D4bi (interim),SI Upper CI,67.9662
+1970,D4aii (interim),Unsmoothed Index,100.0
+1971,D4aii (interim),Unsmoothed Index,103.74378906966308
+1972,D4aii (interim),Unsmoothed Index,104.31942154844494
+1973,D4aii (interim),Unsmoothed Index,101.12223902593796
+1974,D4aii (interim),Unsmoothed Index,101.93031136106772
+1975,D4aii (interim),Unsmoothed Index,105.97301277943718
+1976,D4aii (interim),Unsmoothed Index,109.9507793403706
+1977,D4aii (interim),Unsmoothed Index,111.95770858553507
+1978,D4aii (interim),Unsmoothed Index,103.7529514578671
+1979,D4aii (interim),Unsmoothed Index,97.91345855787247
+1980,D4aii (interim),Unsmoothed Index,97.17774031909588
+1981,D4aii (interim),Unsmoothed Index,92.20117479539157
+1982,D4aii (interim),Unsmoothed Index,81.65867691237628
+1983,D4aii (interim),Unsmoothed Index,80.6250260315718
+1984,D4aii (interim),Unsmoothed Index,80.0255268597272
+1985,D4aii (interim),Unsmoothed Index,73.55597439303831
+1986,D4aii (interim),Unsmoothed Index,67.57724510152782
+1987,D4aii (interim),Unsmoothed Index,64.5983653259789
+1988,D4aii (interim),Unsmoothed Index,64.5867557862476
+1989,D4aii (interim),Unsmoothed Index,66.5451877585832
+1990,D4aii (interim),Unsmoothed Index,68.22707576726881
+1991,D4aii (interim),Unsmoothed Index,63.348905811009935
+1992,D4aii (interim),Unsmoothed Index,59.14431465153459
+1993,D4aii (interim),Unsmoothed Index,53.49521456148298
+1994,D4aii (interim),Unsmoothed Index,56.182685035592186
+1995,D4aii (interim),Unsmoothed Index,58.12974770788374
+1996,D4aii (interim),Unsmoothed Index,56.8416900562728
+1997,D4aii (interim),Unsmoothed Index,55.31734264736335
+1998,D4aii (interim),Unsmoothed Index,52.58108822320448
+1999,D4aii (interim),Unsmoothed Index,52.01334352776812
+2000,D4aii (interim),Unsmoothed Index,52.85209378616044
+2001,D4aii (interim),Unsmoothed Index,52.99167881368264
+2002,D4aii (interim),Unsmoothed Index,53.01722075129997
+2003,D4aii (interim),Unsmoothed Index,52.99060901141858
+2004,D4aii (interim),Unsmoothed Index,53.28701281954235
+2005,D4aii (interim),Unsmoothed Index,53.60420144726683
+2006,D4aii (interim),Unsmoothed Index,52.83013810540776
+2007,D4aii (interim),Unsmoothed Index,48.29028858643324
+2008,D4aii (interim),Unsmoothed Index,49.72259128274851
+2009,D4aii (interim),Unsmoothed Index,47.31968112419264
+2010,D4aii (interim),Unsmoothed Index,47.77796964670703
+2011,D4aii (interim),Unsmoothed Index,48.19259474727063
+2012,D4aii (interim),Unsmoothed Index,48.64543699179195
+2013,D4aii (interim),Unsmoothed Index,43.61758860146088
+2014,D4aii (interim),Unsmoothed Index,43.90902631623175
+2015,D4aii (interim),Unsmoothed Index,45.52219279768296
+2016,D4aii (interim),Unsmoothed Index,42.95303018827667
+2017,D4aii (interim),Unsmoothed Index,44.3583240929117
+2018,D4aii (interim),Unsmoothed Index,41.93566557473345
+2019,D4aii (interim),Unsmoothed Index,42.22810384357624
+1970,D4aii (interim),Smoothed Index (SI),100.0
+1971,D4aii (interim),Smoothed Index (SI),98.97120640709342
+1972,D4aii (interim),Smoothed Index (SI),98.58570697782014
+1973,D4aii (interim),Smoothed Index (SI),98.8695488549136
+1974,D4aii (interim),Smoothed Index (SI),100.16459265676096
+1975,D4aii (interim),Smoothed Index (SI),102.15625368480434
+1976,D4aii (interim),Smoothed Index (SI),103.6020888985583
+1977,D4aii (interim),Smoothed Index (SI),103.2532290684477
+1978,D4aii (interim),Smoothed Index (SI),100.6968424068341
+1979,D4aii (interim),Smoothed Index (SI),96.77043648055243
+1980,D4aii (interim),Smoothed Index (SI),92.26227100445055
+1981,D4aii (interim),Smoothed Index (SI),87.3161420640561
+1982,D4aii (interim),Smoothed Index (SI),82.29432032553284
+1983,D4aii (interim),Smoothed Index (SI),77.89520774866462
+1984,D4aii (interim),Smoothed Index (SI),73.97112952280179
+1985,D4aii (interim),Smoothed Index (SI),70.11558087255484
+1986,D4aii (interim),Smoothed Index (SI),66.68991097525
+1987,D4aii (interim),Smoothed Index (SI),64.35724555448068
+1988,D4aii (interim),Smoothed Index (SI),63.25144810749382
+1989,D4aii (interim),Smoothed Index (SI),62.760570072922505
+1990,D4aii (interim),Smoothed Index (SI),61.92935069589242
+1991,D4aii (interim),Smoothed Index (SI),60.16014380000513
+1992,D4aii (interim),Smoothed Index (SI),57.81122558155125
+1993,D4aii (interim),Smoothed Index (SI),55.70054330782676
+1994,D4aii (interim),Smoothed Index (SI),54.51462346835674
+1995,D4aii (interim),Smoothed Index (SI),53.99041701071994
+1996,D4aii (interim),Smoothed Index (SI),53.43554279233233
+1997,D4aii (interim),Smoothed Index (SI),52.57151077654202
+1998,D4aii (interim),Smoothed Index (SI),51.587873500209845
+1999,D4aii (interim),Smoothed Index (SI),50.88545329594049
+2000,D4aii (interim),Smoothed Index (SI),50.63006673767387
+2001,D4aii (interim),Smoothed Index (SI),50.69181575940616
+2002,D4aii (interim),Smoothed Index (SI),50.881834732094845
+2003,D4aii (interim),Smoothed Index (SI),51.0294795300554
+2004,D4aii (interim),Smoothed Index (SI),50.96743566275848
+2005,D4aii (interim),Smoothed Index (SI),50.51005488922949
+2006,D4aii (interim),Smoothed Index (SI),49.56093889494018
+2007,D4aii (interim),Smoothed Index (SI),48.357456709577136
+2008,D4aii (interim),Smoothed Index (SI),47.37602692784432
+2009,D4aii (interim),Smoothed Index (SI),46.66576443003837
+2010,D4aii (interim),Smoothed Index (SI),46.18111506308727
+2011,D4aii (interim),Smoothed Index (SI),45.64713153394065
+2012,D4aii (interim),Smoothed Index (SI),44.817981376878265
+2013,D4aii (interim),Smoothed Index (SI),43.786033925656426
+2014,D4aii (interim),Smoothed Index (SI),43.00477340931642
+2015,D4aii (interim),Smoothed Index (SI),42.4905492886994
+2016,D4aii (interim),Smoothed Index (SI),42.02064321109841
+2017,D4aii (interim),Smoothed Index (SI),41.55622496410074
+2018,D4aii (interim),Smoothed Index (SI),40.97767845223741
+2019,D4aii (interim),Smoothed Index (SI),40.34789878104782
+1970,D4aii (interim),SI Lower CI,100.0
+1971,D4aii (interim),SI Lower CI,97.27348007969634
+1972,D4aii (interim),SI Lower CI,95.33204779561348
+1973,D4aii (interim),SI Lower CI,93.95067527639058
+1974,D4aii (interim),SI Lower CI,94.18248734358428
+1975,D4aii (interim),SI Lower CI,95.35505665482812
+1976,D4aii (interim),SI Lower CI,96.18368927660146
+1977,D4aii (interim),SI Lower CI,95.55183230468562
+1978,D4aii (interim),SI Lower CI,92.2567241574843
+1979,D4aii (interim),SI Lower CI,88.71738632172193
+1980,D4aii (interim),SI Lower CI,84.14111191952674
+1981,D4aii (interim),SI Lower CI,79.59547682751287
+1982,D4aii (interim),SI Lower CI,74.25685990284346
+1983,D4aii (interim),SI Lower CI,70.06114586031124
+1984,D4aii (interim),SI Lower CI,66.4155272604369
+1985,D4aii (interim),SI Lower CI,62.54999691730389
+1986,D4aii (interim),SI Lower CI,59.03855316984755
+1987,D4aii (interim),SI Lower CI,56.73023285669699
+1988,D4aii (interim),SI Lower CI,55.309095510669856
+1989,D4aii (interim),SI Lower CI,54.85001913203735
+1990,D4aii (interim),SI Lower CI,53.91314582323733
+1991,D4aii (interim),SI Lower CI,51.76401019515515
+1992,D4aii (interim),SI Lower CI,49.66532361544001
+1993,D4aii (interim),SI Lower CI,47.92191624020025
+1994,D4aii (interim),SI Lower CI,47.005041597586185
+1995,D4aii (interim),SI Lower CI,46.679048557969146
+1996,D4aii (interim),SI Lower CI,45.97230584835521
+1997,D4aii (interim),SI Lower CI,45.09122443617454
+1998,D4aii (interim),SI Lower CI,44.449206190449175
+1999,D4aii (interim),SI Lower CI,43.89199337307899
+2000,D4aii (interim),SI Lower CI,43.73601811499955
+2001,D4aii (interim),SI Lower CI,43.80135531229897
+2002,D4aii (interim),SI Lower CI,43.94710129103537
+2003,D4aii (interim),SI Lower CI,43.985222261215846
+2004,D4aii (interim),SI Lower CI,43.873870880226775
+2005,D4aii (interim),SI Lower CI,43.48816897870344
+2006,D4aii (interim),SI Lower CI,42.71529369798057
+2007,D4aii (interim),SI Lower CI,41.71147589999987
+2008,D4aii (interim),SI Lower CI,40.916420125307305
+2009,D4aii (interim),SI Lower CI,40.21479130150563
+2010,D4aii (interim),SI Lower CI,39.66470087354138
+2011,D4aii (interim),SI Lower CI,39.10332370572974
+2012,D4aii (interim),SI Lower CI,38.3442739530808
+2013,D4aii (interim),SI Lower CI,37.46067666335284
+2014,D4aii (interim),SI Lower CI,36.79383914284971
+2015,D4aii (interim),SI Lower CI,36.345838600996096
+2016,D4aii (interim),SI Lower CI,36.0941031334704
+2017,D4aii (interim),SI Lower CI,35.538820693550065
+2018,D4aii (interim),SI Lower CI,34.984181484268575
+2019,D4aii (interim),SI Lower CI,34.289684598537114
+1970,D4aii (interim),SI Upper CI,100.0
+1971,D4aii (interim),SI Upper CI,100.58249148717168
+1972,D4aii (interim),SI Upper CI,101.54898975007576
+1973,D4aii (interim),SI Upper CI,103.15520675258271
+1974,D4aii (interim),SI Upper CI,105.29999662262236
+1975,D4aii (interim),SI Upper CI,108.36809601428236
+1976,D4aii (interim),SI Upper CI,110.5579260317714
+1977,D4aii (interim),SI Upper CI,110.2820011559427
+1978,D4aii (interim),SI Upper CI,107.60083535818166
+1979,D4aii (interim),SI Upper CI,103.65547497395002
+1980,D4aii (interim),SI Upper CI,98.84858856015389
+1981,D4aii (interim),SI Upper CI,93.84096217189688
+1982,D4aii (interim),SI Upper CI,88.9059792587561
+1983,D4aii (interim),SI Upper CI,84.54947952941535
+1984,D4aii (interim),SI Upper CI,80.52894669927863
+1985,D4aii (interim),SI Upper CI,76.55177980173676
+1986,D4aii (interim),SI Upper CI,73.35061114411947
+1987,D4aii (interim),SI Upper CI,71.64598865733585
+1988,D4aii (interim),SI Upper CI,70.41946533124059
+1989,D4aii (interim),SI Upper CI,69.41271444639246
+1990,D4aii (interim),SI Upper CI,68.0389245492288
+1991,D4aii (interim),SI Upper CI,66.11482526418186
+1992,D4aii (interim),SI Upper CI,63.914608452270485
+1993,D4aii (interim),SI Upper CI,61.5644785709643
+1994,D4aii (interim),SI Upper CI,60.23420621680087
+1995,D4aii (interim),SI Upper CI,59.60847837172132
+1996,D4aii (interim),SI Upper CI,58.65485293537704
+1997,D4aii (interim),SI Upper CI,57.904921959146506
+1998,D4aii (interim),SI Upper CI,56.94579656584603
+1999,D4aii (interim),SI Upper CI,56.11619078376184
+2000,D4aii (interim),SI Upper CI,55.55124050833902
+2001,D4aii (interim),SI Upper CI,55.53997577515496
+2002,D4aii (interim),SI Upper CI,55.76600296795342
+2003,D4aii (interim),SI Upper CI,55.93032545592001
+2004,D4aii (interim),SI Upper CI,56.17848135453476
+2005,D4aii (interim),SI Upper CI,55.724397035042486
+2006,D4aii (interim),SI Upper CI,54.62085388055817
+2007,D4aii (interim),SI Upper CI,53.25322087313205
+2008,D4aii (interim),SI Upper CI,52.08260545627302
+2009,D4aii (interim),SI Upper CI,51.38065853602411
+2010,D4aii (interim),SI Upper CI,50.69897623700968
+2011,D4aii (interim),SI Upper CI,49.96446677114491
+2012,D4aii (interim),SI Upper CI,49.05115099976784
+2013,D4aii (interim),SI Upper CI,48.00396234024416
+2014,D4aii (interim),SI Upper CI,47.28533133949814
+2015,D4aii (interim),SI Upper CI,46.717447574709645
+2016,D4aii (interim),SI Upper CI,46.28668723722438
+2017,D4aii (interim),SI Upper CI,45.4831703966121
+2018,D4aii (interim),SI Upper CI,44.77764457616544
+2019,D4aii (interim),SI Upper CI,44.34191413480441
+1990,D4bii (interim),Unsmoothed Index,100.0
+1991,D4bii (interim),Unsmoothed Index,120.5
+1992,D4bii (interim),Unsmoothed Index,125.31
+1993,D4bii (interim),Unsmoothed Index,75.34
+1994,D4bii (interim),Unsmoothed Index,89.74
+1995,D4bii (interim),Unsmoothed Index,105.2
+1996,D4bii (interim),Unsmoothed Index,116.41
+1997,D4bii (interim),Unsmoothed Index,132.43
+1998,D4bii (interim),Unsmoothed Index,100.0
+1999,D4bii (interim),Unsmoothed Index,89.33
+2000,D4bii (interim),Unsmoothed Index,95.06
+2001,D4bii (interim),Unsmoothed Index,87.5
+2002,D4bii (interim),Unsmoothed Index,85.9
+2003,D4bii (interim),Unsmoothed Index,105.93
+2004,D4bii (interim),Unsmoothed Index,103.99
+2005,D4bii (interim),Unsmoothed Index,91.41
+2006,D4bii (interim),Unsmoothed Index,92.04
+2007,D4bii (interim),Unsmoothed Index,68.55
+2008,D4bii (interim),Unsmoothed Index,64.86
+2009,D4bii (interim),Unsmoothed Index,92.9
+2010,D4bii (interim),Unsmoothed Index,95.72
+2011,D4bii (interim),Unsmoothed Index,87.1
+2012,D4bii (interim),Unsmoothed Index,53.46
+2013,D4bii (interim),Unsmoothed Index,104.23
+2014,D4bii (interim),Unsmoothed Index,100.69
+2015,D4bii (interim),Unsmoothed Index,93.54
+2016,D4bii (interim),Unsmoothed Index,70.47
+2017,D4bii (interim),Unsmoothed Index,89.54
+2018,D4bii (interim),Unsmoothed Index,110.15
+2019,D4bii (interim),Unsmoothed Index,110.15
+2020,D4bii (interim),Unsmoothed Index,101.39
+1990,D4bii (interim),Smoothed Index (SI),109.313
+1991,D4bii (interim),Smoothed Index (SI),108.209
+1992,D4bii (interim),Smoothed Index (SI),107.074
+1993,D4bii (interim),Smoothed Index (SI),105.918
+1994,D4bii (interim),Smoothed Index (SI),104.804
+1995,D4bii (interim),Smoothed Index (SI),103.703
+1996,D4bii (interim),Smoothed Index (SI),102.541
+1997,D4bii (interim),Smoothed Index (SI),101.246
+1998,D4bii (interim),Smoothed Index (SI),99.79
+1999,D4bii (interim),Smoothed Index (SI),98.241
+2000,D4bii (interim),Smoothed Index (SI),96.665
+2001,D4bii (interim),Smoothed Index (SI),95.103
+2002,D4bii (interim),Smoothed Index (SI),93.589
+2003,D4bii (interim),Smoothed Index (SI),92.136
+2004,D4bii (interim),Smoothed Index (SI),90.733
+2005,D4bii (interim),Smoothed Index (SI),89.41
+2006,D4bii (interim),Smoothed Index (SI),88.238
+2007,D4bii (interim),Smoothed Index (SI),87.296
+2008,D4bii (interim),Smoothed Index (SI),86.67
+2009,D4bii (interim),Smoothed Index (SI),86.393
+2010,D4bii (interim),Smoothed Index (SI),86.43
+2011,D4bii (interim),Smoothed Index (SI),86.767
+2012,D4bii (interim),Smoothed Index (SI),87.416
+2013,D4bii (interim),Smoothed Index (SI),88.392
+2014,D4bii (interim),Smoothed Index (SI),89.607
+2015,D4bii (interim),Smoothed Index (SI),91.018
+2016,D4bii (interim),Smoothed Index (SI),92.621
+2017,D4bii (interim),Smoothed Index (SI),94.414
+2018,D4bii (interim),Smoothed Index (SI),96.333
+2019,D4bii (interim),Smoothed Index (SI),98.294
+2020,D4bii (interim),Smoothed Index (SI),100.258
+1990,D4bii (interim),SI Lower CI,94.60516
+1991,D4bii (interim),SI Lower CI,95.68264
+1992,D4bii (interim),SI Lower CI,96.22148
+1993,D4bii (interim),SI Lower CI,96.2454
+1994,D4bii (interim),SI Lower CI,95.88012
+1995,D4bii (interim),SI Lower CI,95.20052
+1996,D4bii (interim),SI Lower CI,94.24236
+1997,D4bii (interim),SI Lower CI,93.02576
+1998,D4bii (interim),SI Lower CI,91.58936
+1999,D4bii (interim),SI Lower CI,90.04035999999999
+2000,D4bii (interim),SI Lower CI,88.46044
+2001,D4bii (interim),SI Lower CI,86.90039999999999
+2002,D4bii (interim),SI Lower CI,85.39228
+2003,D4bii (interim),SI Lower CI,83.94712
+2004,D4bii (interim),SI Lower CI,82.55000000000001
+2005,D4bii (interim),SI Lower CI,81.23092
+2006,D4bii (interim),SI Lower CI,80.055
+2007,D4bii (interim),SI Lower CI,79.10712000000001
+2008,D4bii (interim),SI Lower CI,78.47328
+2009,D4bii (interim),SI Lower CI,78.1904
+2010,D4bii (interim),SI Lower CI,78.22544
+2011,D4bii (interim),SI Lower CI,78.56439999999999
+2012,D4bii (interim),SI Lower CI,79.21536
+2013,D4bii (interim),SI Lower CI,80.17175999999999
+2014,D4bii (interim),SI Lower CI,81.3064
+2015,D4bii (interim),SI Lower CI,82.5116
+2016,D4bii (interim),SI Lower CI,83.68536
+2017,D4bii (interim),SI Lower CI,84.71984
+2018,D4bii (interim),SI Lower CI,85.44716
+2019,D4bii (interim),SI Lower CI,85.71864
+2020,D4bii (interim),SI Lower CI,85.48548
+1990,D4bii (interim),SI Upper CI,124.02084
+1991,D4bii (interim),SI Upper CI,120.73536
+1992,D4bii (interim),SI Upper CI,117.92652
+1993,D4bii (interim),SI Upper CI,115.5906
+1994,D4bii (interim),SI Upper CI,113.72788
+1995,D4bii (interim),SI Upper CI,112.20548
+1996,D4bii (interim),SI Upper CI,110.83964
+1997,D4bii (interim),SI Upper CI,109.46624
+1998,D4bii (interim),SI Upper CI,107.99064
+1999,D4bii (interim),SI Upper CI,106.44164
+2000,D4bii (interim),SI Upper CI,104.86956
+2001,D4bii (interim),SI Upper CI,103.3056
+2002,D4bii (interim),SI Upper CI,101.78572
+2003,D4bii (interim),SI Upper CI,100.32488
+2004,D4bii (interim),SI Upper CI,98.916
+2005,D4bii (interim),SI Upper CI,97.58908
+2006,D4bii (interim),SI Upper CI,96.421
+2007,D4bii (interim),SI Upper CI,95.48488
+2008,D4bii (interim),SI Upper CI,94.86672
+2009,D4bii (interim),SI Upper CI,94.5956
+2010,D4bii (interim),SI Upper CI,94.63456
+2011,D4bii (interim),SI Upper CI,94.9696
+2012,D4bii (interim),SI Upper CI,95.61664
+2013,D4bii (interim),SI Upper CI,96.61224
+2014,D4bii (interim),SI Upper CI,97.9076
+2015,D4bii (interim),SI Upper CI,99.5244
+2016,D4bii (interim),SI Upper CI,101.55664
+2017,D4bii (interim),SI Upper CI,104.10816
+2018,D4bii (interim),SI Upper CI,107.21884
+2019,D4bii (interim),SI Upper CI,110.86936
+2020,D4bii (interim),SI Upper CI,115.03052
+1999,D4c (interim),Unsmoothed Index,100.0
+2000,D4c (interim),Unsmoothed Index,97.193948998965
+2001,D4c (interim),Unsmoothed Index,103.914675701599
+2002,D4c (interim),Unsmoothed Index,96.0105656205962
+2003,D4c (interim),Unsmoothed Index,105.289917483942
+2004,D4c (interim),Unsmoothed Index,106.601301170315
+2005,D4c (interim),Unsmoothed Index,113.306515634374
+2006,D4c (interim),Unsmoothed Index,115.47088405813
+2007,D4c (interim),Unsmoothed Index,116.571904660304
+2008,D4c (interim),Unsmoothed Index,122.600286974848
+2009,D4c (interim),Unsmoothed Index,121.179108627421
+2010,D4c (interim),Unsmoothed Index,116.54700025366
+2011,D4c (interim),Unsmoothed Index,122.084512300862
+2012,D4c (interim),Unsmoothed Index,115.741213492854
+2013,D4c (interim),Unsmoothed Index,126.323780638971
+2014,D4c (interim),Unsmoothed Index,118.726943160941
+2015,D4c (interim),Unsmoothed Index,134.09771481343
+2016,D4c (interim),Unsmoothed Index,129.792630772336
+2017,D4c (interim),Unsmoothed Index,131.571711655019
+2018,D4c (interim),Unsmoothed Index,134.101899409529
+2019,D4c (interim),Unsmoothed Index,137.074080561311
+2020,D4c (interim),Unsmoothed Index,139.642228915301
+1999,D4c (interim),Smoothed Index (SI),100.0
+2000,D4c (interim),Smoothed Index (SI),102.620405631812
+2001,D4c (interim),Smoothed Index (SI),105.17730843116
+2002,D4c (interim),Smoothed Index (SI),107.197513638034
+2003,D4c (interim),Smoothed Index (SI),110.030445527577
+2004,D4c (interim),Smoothed Index (SI),113.653383335776
+2005,D4c (interim),Smoothed Index (SI),117.686087222563
+2006,D4c (interim),Smoothed Index (SI),121.31760984941
+2007,D4c (interim),Smoothed Index (SI),124.108527928412
+2008,D4c (interim),Smoothed Index (SI),125.908196226849
+2009,D4c (interim),Smoothed Index (SI),126.475068230486
+2010,D4c (interim),Smoothed Index (SI),126.410392684854
+2011,D4c (interim),Smoothed Index (SI),126.653134276324
+2012,D4c (interim),Smoothed Index (SI),127.398985173847
+2013,D4c (interim),Smoothed Index (SI),129.284703496519
+2014,D4c (interim),Smoothed Index (SI),131.904200948922
+2015,D4c (interim),Smoothed Index (SI),135.177155366699
+2016,D4c (interim),Smoothed Index (SI),137.690559942903
+2017,D4c (interim),Smoothed Index (SI),139.606267233094
+2018,D4c (interim),Smoothed Index (SI),141.59640122865
+2019,D4c (interim),Smoothed Index (SI),143.879818670324
+2020,D4c (interim),Smoothed Index (SI),146.481057805197
+1999,D4c (interim),SI Lower CI,100.0
+2000,D4c (interim),SI Lower CI,99.9781958385139
+2001,D4c (interim),SI Lower CI,100.498059535964
+2002,D4c (interim),SI Lower CI,101.012137406924
+2003,D4c (interim),SI Lower CI,102.494988963703
+2004,D4c (interim),SI Lower CI,104.799908222619
+2005,D4c (interim),SI Lower CI,108.111954570055
+2006,D4c (interim),SI Lower CI,110.749114298683
+2007,D4c (interim),SI Lower CI,113.531668015729
+2008,D4c (interim),SI Lower CI,115.318361197897
+2009,D4c (interim),SI Lower CI,116.155299608534
+2010,D4c (interim),SI Lower CI,116.509889559905
+2011,D4c (interim),SI Lower CI,117.222705411268
+2012,D4c (interim),SI Lower CI,117.70881760651
+2013,D4c (interim),SI Lower CI,119.022323373692
+2014,D4c (interim),SI Lower CI,120.847167282503
+2015,D4c (interim),SI Lower CI,123.568901623878
+2016,D4c (interim),SI Lower CI,125.737499045352
+2017,D4c (interim),SI Lower CI,127.43276079272
+2018,D4c (interim),SI Lower CI,129.093096362444
+2019,D4c (interim),SI Lower CI,129.975639971654
+2020,D4c (interim),SI Lower CI,131.083926346848
+1999,D4c (interim),SI Upper CI,100.0
+2000,D4c (interim),SI Upper CI,104.506927669138
+2001,D4c (interim),SI Upper CI,108.903596564336
+2002,D4c (interim),SI Upper CI,112.600701451715
+2003,D4c (interim),SI Upper CI,116.778049270951
+2004,D4c (interim),SI Upper CI,121.961499598221
+2005,D4c (interim),SI Upper CI,126.824463196469
+2006,D4c (interim),SI Upper CI,130.870273022713
+2007,D4c (interim),SI Upper CI,134.002376403932
+2008,D4c (interim),SI Upper CI,136.478894544833
+2009,D4c (interim),SI Upper CI,137.069326097712
+2010,D4c (interim),SI Upper CI,137.327194095328
+2011,D4c (interim),SI Upper CI,137.430493843326
+2012,D4c (interim),SI Upper CI,138.742821114126
+2013,D4c (interim),SI Upper CI,140.64666278345
+2014,D4c (interim),SI Upper CI,143.505967027939
+2015,D4c (interim),SI Upper CI,147.164937195999
+2016,D4c (interim),SI Upper CI,150.240412851902
+2017,D4c (interim),SI Upper CI,153.242525136869
+2018,D4c (interim),SI Upper CI,155.368846561224
+2019,D4c (interim),SI Upper CI,159.018484340251
+2020,D4c (interim),SI Upper CI,162.883657513595

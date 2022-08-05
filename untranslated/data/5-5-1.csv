@@ -9,16 +9,7 @@ Year,Category,Value
 2017,Hardwood & softwood,40.0
 2018,Hardwood & softwood,43.2
 2019,Hardwood & softwood,42.9
-2010,Softwood,67.0
-2011,Softwood,70.8
-2012,Softwood,73.7
-2013,Softwood,87.0
-2014,Softwood,91.7
-2015,Softwood,85.3
-2016,Softwood,88.8
-2017,Softwood,76.9
-2018,Softwood,81.8
-2019,Softwood,79.8
+2020,Hardwood & softwood,41.7
 2010,Hardwood,12.6
 2011,Hardwood,12.8
 2012,Hardwood,12.6
@@ -29,3 +20,15 @@ Year,Category,Value
 2017,Hardwood,15.9
 2018,Hardwood,18.0
 2019,Hardwood,18.7
+2020,Hardwood,19.9
+2010,Softwood,67.0
+2011,Softwood,70.8
+2012,Softwood,73.7
+2013,Softwood,87.0
+2014,Softwood,91.7
+2015,Softwood,85.3
+2016,Softwood,88.8
+2017,Softwood,76.9
+2018,Softwood,81.8
+2019,Softwood,79.9
+2020,Softwood,75.2

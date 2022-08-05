@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CArray.prototype.reduce%2CObject.assign%2CArray.isArray%2CObject.values%2CArray.from%2CSet%2CArray.prototype.findIndex"></script>
+        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CArray.prototype.reduce%2CObject.assign%2CArray.isArray%2CObject.values%2CObject.entries%2CArray.from%2CSet%2CArray.prototype.findIndex"></script>
 <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/javascript-canvas-to-blob/3.15.0/js/canvas-to-blob.min.js"></script>
 
         <script>
@@ -112,81 +112,72 @@ var translations = {
         
         <link rel="canonical" href="/">
 
-        
-
         <!--[if IE 9]>
         <script src="/assets/js/lib/classList.js"></script>
         <![endif]-->
 
-        <!-- Favicons ================================================== -->
-        <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
-        http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
-        -->
-
         
 
+
+
+
+<link rel="shortcut icon" type="image/ico" href="/assets/img/favicons/favicon.ico">
+<link rel="icon" type="image/png" href="/assets/img/favicons/favicon.png">
+
+
+        
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
+        
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20220518182705">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20220805092744">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/assets/css/custom.css?v=20220518182705"><!-- ShareThis BEGIN --><!-- ShareThis END -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin="">
+        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/assets/css/custom.css?v=20220805092744">
+        
+
+        
 
     </head>
-<body class="language-en layout-page">
+<body class="language-en
+layout-page
+">
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your feedback via <a href=\"mailto:%email_address\">email</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"Department for Environment, Food & Rural Affairs - 25 Year Environment Plan Logo","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+
+<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your feedback via <a href=\"mailto:%email_address\">email</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"25 Year Environment Plan homepage","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
 
 <header role="banner" class="header-menu-left-aligned">
   <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
 
-  <div id="disclaimer">
-    <div class="container">
-  <div class="disclaimer-alert">
-    <div id="phase-wrapper">
-      <strong class="phase-tag"
-        >Alpha</strong
-      >
-       This is a development website. We welcome your feedback via <a href="mailto:25YEPindicators@defra.gov.uk">email</a>.
-    </div>
-    <a
-      id="takepartButton"
-      aria-labelledby="takepartButton"
-      href="https://forms.office.com/Pages/ResponsePage.aspx?id=UCQKdycCYkyQx044U38RAoc88l9iPWhOqSr4EYH784FUMUJWTEtDUlVVTjZSOTNQNFQzQkpQQ1hPQS4u"
-      class="btn btn-primary btn-download btn-takepart"
-      role="link"
-      >Complete our short user-feedback survey</a
-    >
-  </div>
-  <div id="update-alert" class="ex-indicator">
-      <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-      <p><strong>Info!</strong> The PDF version of the 2022 report will be published at 9.30am on Thursday 19 May.</p>
-      <p>The report will be available <a href="https://www.gov.uk/government/publications/25-year-environment-plan-progress-reports">here</a>.</p>
-      <p>We are working to update this site.</p> 
-  </div>
-</div>
-
-  </div>
-
   <div class="container">
 
+    <div class="disclaimer" id="disclaimer">
+      
+<strong class="phase-tag">Alpha</strong>
+
+<p>This is a development website. We welcome your feedback via <a href="mailto:25YEPindicators@defra.gov.uk">email</a>.</p>
+
+<a id="takepartButton"
+    href="https://defragroup.eu.qualtrics.com/jfe/form/SV_cTvfhqTFSj4QHlA"
+    class="btn btn-primary btn-download btn-takepart" role="link">Complete our short user-feedback survey</a>
+
+
+    </div>
+    
     <div class="widgets">
       <a class="navbar-brand" href="/" id="home">
-    <img src="/assets/img/SDG_logo.png" alt="Outcome Indicator Framework - Department for Environment, Food & Rural Affairs - 25 Year Environment Plan Logo" />
+    <img src="/assets/img/SDG_logo.png" alt="Outcome Indicator Framework - 25 Year Environment Plan homepage" />
 </a>
       <div id="search" class="menu-target">
-  <form action="/search">
+  <form action="/search/">
     <label class="sr-only" for="indicator_search">Search</label>
     <input type="text" name="q" id="indicator_search" title="Search" /><!--
     --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -201,12 +192,12 @@ var translations = {
         aria-label="Menu toggle. Click to expand or collapse the menu."
         aria-haspopup="true">
         <button data-target="menu-mobile" aria-expanded="false">Menu</button>
-        <ul class="nav navbar-nav menu-target" id="menu-mobile"><li class="nav-link ">
+        <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
     <a href="/goals">Themes</a>
 </li><li class="nav-link ">
     <a href="/reporting-status">Reporting status</a>
 </li><li class="nav-link ">
-    <a href="/about">About</a>
+    <a href="/impact-of-coronavirus">Impacts of the Coronavirus (COVID-19) pandemic</a>
 </li><li class="nav-link ">
     <a href="/introduction">Introduction and aims</a>
 </li><li class="nav-link ">
@@ -216,14 +207,49 @@ var translations = {
 </li><li class="nav-link active">
     <a href="/latest-update">Latest annual update</a>
 </li><li class="nav-link ">
+    <a href="/assessment">Assessment</a>
+</li><li class="nav-link ">
     <a href="/future-development">Future development</a>
+</li><li class="nav-link ">
+    <a href="/assessment/background">Background</a>
+</li><li class="nav-link ">
+    <a href="/assessment/results/">Summary of results</a>
 </li><li class="nav-link ">
     <a href="/publications">Publications</a>
 </li><li class="nav-link ">
-    <a href="/official-statistics">Official statistics</a>
-</li><li class="nav-link ">
     <a href="/faq">FAQs</a>
-</li></ul>
+</li>
+
+
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="Disable high contrast"
+           aria-label="Disable high contrast"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="Enable high contrast"
+           aria-label="Enable high contrast"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+
+</ul>
 
     </li>
     <li id="searchToggle"
@@ -231,7 +257,7 @@ var translations = {
         aria-haspopup="true">
         <button data-target="search-mobile" aria-expanded="false">Search</button>
         <div id="search-mobile" class="menu-target">
-  <form action="/search">
+  <form action="/search/">
     <label class="sr-only" for="indicator_search-mobile">Search</label>
     <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
     --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -240,12 +266,10 @@ var translations = {
 
     </li>
 </ul>
-      <ul class="nav navbar-nav menu-target" id="menu"><li class="nav-link ">
+      <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
     <a href="/goals">Themes</a>
 </li><li class="nav-link ">
     <a href="/reporting-status">Reporting status</a>
-</li><li class="nav-link ">
-    <a href="/about">About</a>
 </li><li class="nav-link">
             <div class="btn-group menu-dropdown">
                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -253,6 +277,8 @@ var translations = {
                     <i class="fa fa-chevron-down"></i>
                 </button>
                 <ul class="dropdown-menu"><li class="nav-link ">
+    <a href="/impact-of-coronavirus">Impacts of the Coronavirus (COVID-19) pandemic</a>
+</li><li class="nav-link ">
     <a href="/introduction">Introduction and aims</a>
 </li><li class="nav-link ">
     <a href="/structure">Structure</a>
@@ -261,24 +287,36 @@ var translations = {
 </li><li class="nav-link active">
     <a href="/latest-update">Latest annual update</a>
 </li><li class="nav-link ">
+    <a href="/assessment">Assessment</a>
+</li><li class="nav-link ">
     <a href="/future-development">Future development</a>
+</li></ul>
+            </div>
+        </li><li class="nav-link">
+            <div class="btn-group menu-dropdown">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Assessment
+                    <i class="fa fa-chevron-down"></i>
+                </button>
+                <ul class="dropdown-menu"><li class="nav-link ">
+    <a href="/assessment/background">Background</a>
+</li><li class="nav-link ">
+    <a href="/assessment/results/">Summary of results</a>
 </li></ul>
             </div>
         </li><li class="nav-link ">
     <a href="/publications">Publications</a>
 </li><li class="nav-link ">
-    <a href="/official-statistics">Official statistics</a>
-</li><li class="nav-link ">
     <a href="/faq">FAQs</a>
-</li></ul>
+</li>
+
+</ul>
 
     </div>
 
   </div>
 
 </header>
-<div id="top" tabindex=-1></div>
-
 
 
 
@@ -287,43 +325,54 @@ var translations = {
     <div>
         <h1>Latest annual update</h1>
         
-            <p>The 2021 report includes data on environmental trends for 45 of the 66 outcome indicators spanning across 9 of the 10 themes in the Outcome Indicator Framework.
-Three of the indicators presented in the 2021 report are classified as <a href="https://www.ons.gov.uk/methodology/methodologytopicsandstatisticalconcepts/guidetoexperimentalstatistics">‘Experimental Statistics’</a>:</p>
+            <p>This 2022 version of the dashboard includes data on environmental trends for 50 of the 66 outcome indicators spanning across 9 of the 10 themes in the Outcome Indicator Framework.</p>
+
+<p>In this dashboard we update trends for 35 of the indicators reported in 2021, reflecting the most recent available data. The remaining 10 indicators presented in 2021 have not been updated as no new data were available for inclusion in the 2022 dashboard at the time of analysis. This year’s update also includes data for 5 additional indicators newly reported with interim status in 2022:</p>
 
 <ul>
-  <li>
-    <p><a href="/2-3-1">B3 State of the water environment</a>;</p>
-  </li>
-  <li>
-    <p><a href="/8-4-1">H4 Exposure and adverse effects of chemicals on wildlife in the environment</a>;</p>
-  </li>
-  <li>
-    <p><a href="/10-4-1">K4 Extent and condition of terrestrial and marine protected areas in the UK Overseas Territories</a>.</p>
-  </li>
+  <li><a href="/3-11-1">C11 Productive seas: status of sensitive fish and shellfish stocks</a></li>
+  <li><a href="/7-3-1">G3: Enhancement of green/blue infrastructure</a></li>
+  <li><a href="/7-6-1">G6: Environmental attitudes and behaviours</a></li>
+  <li><a href="/7-7-1">G7: Health and wellbeing benefits</a></li>
+  <li><a href="/10-1-1">K1: Overseas environmental impacts of UK consumption of key commodities</a></li>
 </ul>
 
-<p>These indicators are being published as Experimental Statistics in order to facilitate user involvement in their development – information on how the data have been obtained and how the indicators have been prepared is available via the links in the individual indicator pages. We would welcome any feedback, particularly on the usefulness and value of these statistics, via <a href="mailto:25YEPindicators@defra.gov.uk">25YEPindicators@defra.gov.uk</a>.</p>
+<p>Four of the indicators presented in this 2022 update to the dashboard are classified as ‘<a href="https://osr.statisticsauthority.gov.uk/publication/experimental-statistics-official-statistics-in-development/">experimental statistics’</a>:</p>
 
-<p>In addition, underpinning data for a further 2 indicators – <a href="/9-1-1">J1 (interim) Carbon footprint and consumer buying choices</a> and <a href="/9-2-1">J2 Raw material consumption</a> – are sourced from datasets originally published elsewhere as Experimental Statistics.</p>
+<ul>
+  <li><a href="/2-3-1">B3: State of the water environment</a></li>
+  <li><a href="/8-4-1">H4: Exposure and adverse effects of chemicals on wildlife in the environment</a></li>
+  <li><a href="/10-1-1">K1: Overseas environmental impacts of UK consumption of key commodities</a></li>
+  <li><a href="/10-4-1">K4: Extent and condition of terrestrial and marine protected areas in the UK Overseas Territories</a></li>
+</ul>
 
-<p>Of the 45 indicators presented, 28 are described as interim indicators. Interim indicators are those where further development is expected to extend or improve the reporting against the indicator. Reporting interim indicators means that we can communicate data where they are available, whilst recognising that further development is necessary for the indicator to be complete. Examples of circumstances under which an indicator is considered to be interim include: data need to be extracted for England from a UK wide dataset, additional data need to be added to the indicator, or the methods used for deriving an indicator are expected to be further developed. The specific reason why an indicator is currently presented as interim is described in the individual indicator pages. Indicators are described as ‘final’ indicators where no further significant development is immediately expected, notwithstanding the future development of the framework as a whole.</p>
+<p>These indicators are being published as experimental statistics in order to facilitate user involvement in their development – information on how the data have been obtained and how the indicators have been prepared is available via the links in the individual indicator pages of this dashboard. We would welcome any feedback, particularly on the usefulness and value of these statistics, via <a href="mailto:25YEPindicators@defra.gov.uk">25YEPindicators@defra.gov.uk.</a></p>
 
-<p>Due to the impact of the coronavirus pandemic indicator <a href="/2-4-1">B4 Condition of bathing waters</a> has not been updated due to disruption with data collection and analysis being delayed or suspended. A statement is included within the indicator’s readiness and links to data section noting how it may have implications for future updates.</p>
+<p>In addition, underpinning data for <a href="/9-1-1">J1: Carbon footprint and consumer buying choices</a> are sourced from datasets originally published elsewhere as experimental statistics.</p>
 
-<p>A limited number of changes have been made to the indicator descriptions over the last year. These reflect feedback and further consideration and development of the indicators to ensure the most appropriate data are presented.</p>
+<p>Of the 50 indicators presented, 33 are described as interim indicators. Interim indicators are those where further development is expected to extend or improve the reporting of the indicator. Reporting interim indicators means that we can communicate data where they are available, whilst recognising that further development is necessary for the indicator to be complete. Examples of circumstances under which an indicator is considered to be interim include: data need to be extracted for England from a UK wide dataset, additional data need to be added to the indicator, or the methods used for deriving an indicator are expected to be further developed. The specific reason why an indicator is currently presented as interim is described in the individual indicator pages of this dashboard. Indicators are described as ‘final’ indicators where no further significant development is immediately expected, notwithstanding the future development of the framework as a whole.</p>
 
-<p>There have been some specific changes to individual indicators after further consideration of their intended purpose, in order to better reflect alignment with 25 Year Environment Plan commitments and to deliver the insights required to support associated policy needs:
-Modification of title for <a href="/1-7-1">A7</a> from ‘Area of sensitive habitats exposed to damaging levels of ammonia (NH<sub>3</sub>) in the atmosphere’ to ‘Area of land exposed to damaging levels of ammonia (NH<sub>3</sub>) in the atmosphere’. This modification is to better reflect the content as a description of ammonia exposure on all ecosystems, and not exclusively sensitive habitats. The actual data reported remain directly comparable to previous years.</p>
+<p>A list of the 50 indicators for which data trends are reported is included in Tables 2a to 2i of our <a href="https://www.gov.uk/government/publications/25-year-environment-plan-progress-reports">2022 Outcome Indicator Framework report</a>.</p>
 
-<p>Inclusion of additional metrics for <a href="/2-3-1">B3 ‘State of the Water Environment’</a> to provide a more comprehensive insight on the condition of different water body types and on different elements, thus better fulfilling the indicator description.</p>
+<p>A limited number of changes have been made to the indicator descriptions over the last year. These reflect feedback as well as further consideration and development of the indicators to ensure the most appropriate data are presented.</p>
 
-<p>Extended reporting under <a href="/2-7-1">B7 ‘Health of freshwaters assessed through fish populations’</a> to include fish classification data which reflect the status of fish species within rivers in England. This provides a more comprehensive insight as set out by the indicator description.</p>
+<p>There have been some specific changes to individual indicators after further consideration of their intended purpose, in order to better reflect alignment with 25 Year Environment Plan commitments and to deliver the insights required to support associated policy needs.</p>
 
-<p>Modification of title for <a href="/3-3-1">C3</a> from ‘Diverse seas: status of marine mammals, birds and fish’ to ‘Diverse seas: status of marine mammals and marine birds’. The removal of fish from this indicator is due to information on fish species population changes separately being reported in <a href="/3-7-1">C7 ‘Healthy seas: fish and shellfish populations’</a>.</p>
+<p>Extended definition under <a href="/2-6-1">B6: Natural functions of water and wetland ecosystems</a> to include reference to a Natural England report that will form the foundation of the indicator research and development.</p>
 
-<p><a href="/4-6-1">D6</a> ‘Abundance and distribution of priority species in England’ has been renamed ‘Relative abundance and distribution of priority species in England’ to clarify that it does not present population sizes in absolute terms; it instead presents an index to more simply describe large-scale changes across many species. This indicator additionally reports England-level data this year together with new information describing long and short-term insights.</p>
+<p>The short descriptions of <a href="/3-7-1">C7: Healthy seas: fish and shellfish populations</a> and <a href="/3-8-1">C8: Healthy seas: marine food webs functioning</a> have received minor changes for clarification.</p>
 
-<p><a href="/4-7-1">D7 ’Species supporting ecosystem functions’</a> additionally reports new information this year, describing long and short-term insights.</p>
+<p><a href="/3-10-1">C10: Productive seas: fish and shellfish stocks fished sustainably</a> has been revised to include new categories for stocks that have been fished in an acceptable mortality range, as defined by internationally agreed Multi-Annual Plans for fisheries. A reference to the previous location for these data (see <a href="/5-9-1">E9: Percentage of our seafood coming from healthy ecosystems, produced sustainably</a>) has also been removed from the short description as this change occurred in the previous (2021) publication.</p>
+
+<p>The short descriptions of indicators <a href="/4-1-1">D1: Quantity, quality and connectivity of habitats</a> and <a href="/4-2-1">D2: Extent and condition of protected sites – land, water and sea</a> have received minor changes for clarification. The list of protected areas in D2 has also been corrected, to more accurately reference the inclusion of Marine Conservation Zones.</p>
+
+<p>The short description of <a href="/7-1-1">G1: Changes in landscape and waterscape character</a> has been updated to more accurately capture the information that feeds into the indicator and describe the components that will be included now that development had progressed further. The short description for <a href="/7-3-1">G3: Enhancement of green/blue infrastructure</a> has been altered to update information on Green Infrastructure Standards. The short descriptions for indicators <a href="/7-4-1">G4: Engagement with the natural environment</a>, <a href="/7-5-1">G5: People engaged in social action for the environment</a>, <a href="/7-6-1">G6: Environmental attitudes and behaviours</a> and <a href="/7-7-1">G7: Health and wellbeing benefits</a> have been updated to better reflect the scope of the datasets informing them, now information from the People and Nature Survey has been, or will soon be, incorporated.</p>
+
+<p>A minor change has been made to the short description of <a href="/9-1-1">J1: Carbon footprint and consumer buying choices</a> to clarify the difference between it and <a href="/1-2-1">A2: Emissions of greenhouse gases from natural resources</a>.</p>
+
+<p>The description of <a href="/10-1-1">K1: Overseas environmental impacts of UK consumption of key commodities</a> has been updated to better reflect the indicator now that it is published for the first time this year. This is to provide a more comprehensive insight into the modelling underpinning the indicator.</p>
+
+<p>A minor change has been made to the short description for <a href="/10-2-1">K2: Developing countries better able to protect and improve the environment with UK support</a>. This has been to include additional funds that are being analysed as part of the indicator’s development.</p>
 
 <p>A number of indicators remaining in development have recent progress described in their respective pages.</p>
 
@@ -331,9 +380,10 @@ Modification of title for <a href="/1-7-1">A7</a> from ‘Area of sensitive habi
     </div>
 </div>
 
+
 <footer role="contentinfo">
   <div class="container">
-    <div class="row">
+    <div class="oif-row">
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
@@ -344,16 +394,24 @@ Modification of title for <a href="/1-7-1">A7</a> from ‘Area of sensitive habi
                 
                 </li>
               <li>
+                <a href="/about/">About</a>
+                
+                </li>
+              <li>
                 
                   <a href="https://twitter.com/defragovuk" target="_blank">Twitter</a>
                 
                 </li>
               <li>
-                <a href="/about/cookies-and-privacy/">Cookies</a>
+                <a href="/cookies-and-privacy/">Cookies</a>
                 
                 </li>
               <li>
-                <a href="/about/accessibility-statement/">Accessibility statement</a>
+                <a href="/accessibility-statement/">Accessibility statement</a>
+                
+                </li>
+              <li>
+                <a href="/official-statistics/">Official statistics</a>
                 
                 </li>
               
@@ -362,6 +420,7 @@ Modification of title for <a href="/1-7-1">A7</a> from ‘Area of sensitive habi
         </div>
       </div>
     </div>
+    
   </div>
 </footer>
 
@@ -370,7 +429,6 @@ Modification of title for <a href="/1-7-1">A7</a> from ‘Area of sensitive habi
 
 <!-- /.container </div> -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
@@ -441,19 +499,18 @@ Modification of title for <a href="/1-7-1">A7</a> from ‘Area of sensitive habi
   };
   CookieControl.load(cookieControlConfig);
 </script>
-
 <script>translations['general'] = translations['general'] || {};
     translations['general']['hide'] = 'hide';</script>
 
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/assets/js/sdg.js?v=20220518182705'></script>
+<script src='/assets/js/sdg.js?v=20220805092744'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20220518182705"></script><script>
+    <script src="/assets/js/custom.js?v=20220805092744"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
@@ -496,9 +553,13 @@ $(function() {
               graphLimits: domData.graphlimits,
               stackedDisaggregation: domData.stackeddisaggregation,
               categoryOrder: domData.categoryorder,
+              stackOrder: domData.stackorder,
               categoryColor: domData.categorycolor,
               graphAnnotations: domData.graphannotations,
+              graphTargetLines: domData.graphtargetlines,
+              graphSeriesBreaks: domData.graphseriesbreaks,
               indicatorDownloads: domData.indicatordownloads,
+              dataSchema: domData.dataschema,
               compositeBreakdownLabel: domData.compositebreakdownlabel,
               precision: domData.precision,
               continuousError: domData.continuouserror,
@@ -508,6 +569,7 @@ $(function() {
               graphSources: domData.graphsources,
               graphNote: domData.graphnote,
               graphNotes: domData.graphnotes,
+              yAxisLabels: domData.yaxislabels
             }),
             view  = new indicatorView(model, {
               rootElement: '#indicatorData',
@@ -528,7 +590,6 @@ $(function() {
     }
 });
 </script>
-
   
 </body>
 </html>

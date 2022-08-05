@@ -1,0 +1,66 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "H3a (interim)",
+                "H3b (interim)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Source",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Larger industrial sites",
+                "Crematoria",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Pollutant",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Dioxin-like Polychlorinated biphenyl",
+                "Dioxins and Furans",
+                "Hexachlorobenzene",
+                "Polychlorinated biphenyl",
+                "Polychlorinated naphthalenes",
+                "Pentachlorophenol",
+                "PentaChloroBenzine",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "8-3-1",
+  "title": "Emissions of mercury and persistent organic pollutants to the environment"
+}

@@ -1,0 +1,62 @@
+[
+    {
+        "Indicator component": "A1i Emissions of ammonia (NH3) in England",
+        "Short term": "Deterioration",
+        "Medium term": "Deterioration",
+        "Long term": "Little or no change"
+    },
+    {
+        "Indicator component": "A1ii Emissions of non-methane volatile organic compounds (NMVOC) in England",
+        "Short term": "Improvement",
+        "Medium term": "Improvement",
+        "Long term": "Improvement"
+    },
+    {
+        "Indicator component": "A1iii Emissions of nitrogen oxides (NOx) in England",
+        "Short term": "Improvement",
+        "Medium term": "Improvement",
+        "Long term": "Improvement"
+    },
+    {
+        "Indicator component": "A1iv Emissions of fine particulate matter (PM2.5) in England",
+        "Short term": "Improvement",
+        "Medium term": "Improvement",
+        "Long term": "Improvement"
+    },
+    {
+        "Indicator component": "A1v Emissions of sulphur dioxide (SO2) in England",
+        "Short term": "Improvement",
+        "Medium term": "Improvement",
+        "Long term": "Improvement"
+    },
+    {
+        "Indicator component": "A3 Concentrations of fine particulate matter (PM2.5) in the air in England",
+        "Short term": "Improvement",
+        "Medium term": "Not assessed",
+        "Long term": "Not assessed"
+    },
+    {
+        "Indicator component": "A4 Rural background concentrations of ozone (O3) in England",
+        "Short term": "Deterioration",
+        "Medium term": "Deterioration",
+        "Long term": "Deterioration"
+    },
+    {
+        "Indicator component": "A5 Roadside nitrogen dioxide (NO2) concentrations in England",
+        "Short term": "Improvement",
+        "Medium term": "Improvement",
+        "Long term": "Improvement"
+    },
+    {
+        "Indicator component": "A6 Exceedances of damaging levels of nutrient nitrogen deposition on ecosystems in England",
+        "Short term": "Little or no change",
+        "Medium term": "Little or no change",
+        "Long term": "Little or no change"
+    },
+    {
+        "Indicator component": "A7 Area of land in England exposed to damaging levels of ammonia (NH3) in the atmosphere",
+        "Short term": "Deterioration",
+        "Medium term": "Not assessed",
+        "Long term": "Not assessed"
+    }
+]

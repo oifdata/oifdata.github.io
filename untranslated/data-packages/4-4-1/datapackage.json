@@ -1,0 +1,55 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "D4ai (interim)",
+                "D4bi (interim)",
+                "D4aii (interim)",
+                "D4bii (interim)",
+                "D4c (interim)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Trendline",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Unsmoothed Index",
+                "Smoothed Index (SI)",
+                "SI Lower CI",
+                "SI Upper CI",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "4-4-1",
+  "title": "Relative abundance and/or distribution of widespread species"
+}

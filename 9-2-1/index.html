@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CArray.prototype.reduce%2CObject.assign%2CArray.isArray%2CObject.values%2CArray.from%2CSet%2CArray.prototype.findIndex"></script>
+        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CArray.prototype.reduce%2CObject.assign%2CArray.isArray%2CObject.values%2CObject.entries%2CArray.from%2CSet%2CArray.prototype.findIndex"></script>
 <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/javascript-canvas-to-blob/3.15.0/js/canvas-to-blob.min.js"></script>
 
         <script>
@@ -117,81 +117,72 @@ var translations = {
         
         <link rel="canonical" href="/">
 
-        
-
         <!--[if IE 9]>
         <script src="/assets/js/lib/classList.js"></script>
         <![endif]-->
 
-        <!-- Favicons ================================================== -->
-        <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
-        http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
-        -->
-
         
 
+
+
+
+<link rel="shortcut icon" type="image/ico" href="/assets/img/favicons/favicon.ico">
+<link rel="icon" type="image/png" href="/assets/img/favicons/favicon.png">
+
+
+        
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
+        
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20220518182705">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20220805092744">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/assets/css/custom.css?v=20220518182705"><!-- ShareThis BEGIN --><!-- ShareThis END -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin="">
+        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/assets/css/custom.css?v=20220805092744">
+        
+
+        
 
     </head>
-<body class="language-en layout-indicator">
+<body class="language-en
+layout-indicator
+">
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your feedback via <a href=\"mailto:%email_address\">email</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"Department for Environment, Food & Rural Affairs - 25 Year Environment Plan Logo","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+
+<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your feedback via <a href=\"mailto:%email_address\">email</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"25 Year Environment Plan homepage","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
 
 <header role="banner" class="header-menu-left-aligned">
   <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
 
-  <div id="disclaimer">
-    <div class="container">
-  <div class="disclaimer-alert">
-    <div id="phase-wrapper">
-      <strong class="phase-tag"
-        >Alpha</strong
-      >
-       This is a development website. We welcome your feedback via <a href="mailto:25YEPindicators@defra.gov.uk">email</a>.
-    </div>
-    <a
-      id="takepartButton"
-      aria-labelledby="takepartButton"
-      href="https://forms.office.com/Pages/ResponsePage.aspx?id=UCQKdycCYkyQx044U38RAoc88l9iPWhOqSr4EYH784FUMUJWTEtDUlVVTjZSOTNQNFQzQkpQQ1hPQS4u"
-      class="btn btn-primary btn-download btn-takepart"
-      role="link"
-      >Complete our short user-feedback survey</a
-    >
-  </div>
-  <div id="update-alert" class="ex-indicator">
-      <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-      <p><strong>Info!</strong> The PDF version of the 2022 report will be published at 9.30am on Thursday 19 May.</p>
-      <p>The report will be available <a href="https://www.gov.uk/government/publications/25-year-environment-plan-progress-reports">here</a>.</p>
-      <p>We are working to update this site.</p> 
-  </div>
-</div>
-
-  </div>
-
   <div class="container">
 
+    <div class="disclaimer" id="disclaimer">
+      
+<strong class="phase-tag">Alpha</strong>
+
+<p>This is a development website. We welcome your feedback via <a href="mailto:25YEPindicators@defra.gov.uk">email</a>.</p>
+
+<a id="takepartButton"
+    href="https://defragroup.eu.qualtrics.com/jfe/form/SV_cTvfhqTFSj4QHlA"
+    class="btn btn-primary btn-download btn-takepart" role="link">Complete our short user-feedback survey</a>
+
+
+    </div>
+    
     <div class="widgets">
       <a class="navbar-brand" href="/" id="home">
-    <img src="/assets/img/SDG_logo.png" alt="Outcome Indicator Framework - Department for Environment, Food & Rural Affairs - 25 Year Environment Plan Logo" />
+    <img src="/assets/img/SDG_logo.png" alt="Outcome Indicator Framework - 25 Year Environment Plan homepage" />
 </a>
       <div id="search" class="menu-target">
-  <form action="/search">
+  <form action="/search/">
     <label class="sr-only" for="indicator_search">Search</label>
     <input type="text" name="q" id="indicator_search" title="Search" /><!--
     --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -206,12 +197,12 @@ var translations = {
         aria-label="Menu toggle. Click to expand or collapse the menu."
         aria-haspopup="true">
         <button data-target="menu-mobile" aria-expanded="false">Menu</button>
-        <ul class="nav navbar-nav menu-target" id="menu-mobile"><li class="nav-link ">
+        <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
     <a href="/goals">Themes</a>
 </li><li class="nav-link ">
     <a href="/reporting-status">Reporting status</a>
 </li><li class="nav-link ">
-    <a href="/about">About</a>
+    <a href="/impact-of-coronavirus">Impacts of the Coronavirus (COVID-19) pandemic</a>
 </li><li class="nav-link ">
     <a href="/introduction">Introduction and aims</a>
 </li><li class="nav-link ">
@@ -221,14 +212,49 @@ var translations = {
 </li><li class="nav-link ">
     <a href="/latest-update">Latest annual update</a>
 </li><li class="nav-link ">
+    <a href="/assessment">Assessment</a>
+</li><li class="nav-link ">
     <a href="/future-development">Future development</a>
+</li><li class="nav-link ">
+    <a href="/assessment/background">Background</a>
+</li><li class="nav-link ">
+    <a href="/assessment/results/">Summary of results</a>
 </li><li class="nav-link ">
     <a href="/publications">Publications</a>
 </li><li class="nav-link ">
-    <a href="/official-statistics">Official statistics</a>
-</li><li class="nav-link ">
     <a href="/faq">FAQs</a>
-</li></ul>
+</li>
+
+
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="Disable high contrast"
+           aria-label="Disable high contrast"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="Enable high contrast"
+           aria-label="Enable high contrast"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+
+</ul>
 
     </li>
     <li id="searchToggle"
@@ -236,7 +262,7 @@ var translations = {
         aria-haspopup="true">
         <button data-target="search-mobile" aria-expanded="false">Search</button>
         <div id="search-mobile" class="menu-target">
-  <form action="/search">
+  <form action="/search/">
     <label class="sr-only" for="indicator_search-mobile">Search</label>
     <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
     --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -245,12 +271,10 @@ var translations = {
 
     </li>
 </ul>
-      <ul class="nav navbar-nav menu-target" id="menu"><li class="nav-link ">
+      <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
     <a href="/goals">Themes</a>
 </li><li class="nav-link ">
     <a href="/reporting-status">Reporting status</a>
-</li><li class="nav-link ">
-    <a href="/about">About</a>
 </li><li class="nav-link">
             <div class="btn-group menu-dropdown">
                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -258,6 +282,8 @@ var translations = {
                     <i class="fa fa-chevron-down"></i>
                 </button>
                 <ul class="dropdown-menu"><li class="nav-link ">
+    <a href="/impact-of-coronavirus">Impacts of the Coronavirus (COVID-19) pandemic</a>
+</li><li class="nav-link ">
     <a href="/introduction">Introduction and aims</a>
 </li><li class="nav-link ">
     <a href="/structure">Structure</a>
@@ -266,23 +292,36 @@ var translations = {
 </li><li class="nav-link ">
     <a href="/latest-update">Latest annual update</a>
 </li><li class="nav-link ">
+    <a href="/assessment">Assessment</a>
+</li><li class="nav-link ">
     <a href="/future-development">Future development</a>
+</li></ul>
+            </div>
+        </li><li class="nav-link">
+            <div class="btn-group menu-dropdown">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Assessment
+                    <i class="fa fa-chevron-down"></i>
+                </button>
+                <ul class="dropdown-menu"><li class="nav-link ">
+    <a href="/assessment/background">Background</a>
+</li><li class="nav-link ">
+    <a href="/assessment/results/">Summary of results</a>
 </li></ul>
             </div>
         </li><li class="nav-link ">
     <a href="/publications">Publications</a>
 </li><li class="nav-link ">
-    <a href="/official-statistics">Official statistics</a>
-</li><li class="nav-link ">
     <a href="/faq">FAQs</a>
-</li></ul>
+</li>
+
+</ul>
 
     </div>
 
   </div>
 
 </header>
-<div id="top" tabindex=-1></div>
 
 
 
@@ -325,9 +364,8 @@ var translations = {
     </div>
   <% }); %>
 </script>
-
 <script type="text/template" id="units_template">
-  <% if(units.length) { %>
+  
     <h4>Unit of Measurement</h4>
     <fieldset>
       <legend class="sr-only">Unit of Measurement</legend>
@@ -336,7 +374,7 @@ var translations = {
         <label><input type="radio" name="unit" value="<%=unitsItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(unitsItem)%></label>
       <% }); %>
     </fieldset>
-  <% } %>
+  
 </script>
 
 <script type="text/template" id="series_template">
@@ -351,8 +389,7 @@ var translations = {
     </fieldset>
   <% } %>
 </script>
-
-<script>translations['indicator'] = {"annotation_2030_target":"2030 Target","annotation_base_line":"Baseline","annotation_target":"GES target","annotation_threshold":"GES threshold","announce_data_added":"Chart and table updated to include data.","announce_data_not_available":"Chart and table shows no data.","announce_data_removed":"Chart and table updated to exclude data.","chart":"Chart","chart_annotation":"Chart annotation","clear_all":"Clear all","clear_selections":"Clear selections","data_keyboard_navigation":"Press enter to browse data points with left and right arrow keys.","data_not_available":"These data are not available. Please choose alternative data to display.","data_tabular_alternative":"For tabular data alternative see Table tab.","dataset_size_warning":"There are too many datasets to show on the chart. Not all will be shown until you remove some selections.","download_chart":"Download Chart CSV","download_chart_image":"Download Chart Image","download_chart_image_title":"Download chart as image","download_csv":"Download CSV","download_csv_title":"Download as CSV","download_geojson":"Download GeoJSON","download_geojson_title":"Download as GeoJSON","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"Download Source CSV","download_source_sdmx":"Download Source SDMX","download_source_sdmx_title":"Download source data as SDMX","download_source_title":"Download source data as CSV","download_table":"Download Table CSV","edit":"Edit","edit_configuration":"Edit Configuration","edit_data":"Edit Data","edit_metadata":"Edit Metadata","footnote":"Footnote","geographical_area":"Geographical Area","global_metadata":"Global Metadata","global_metadata_blurb":"This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href=\"https://unstats.un.org/sdgs/metadata/\">Complete global metadata</a> is provided by the UN Statistics Division.","legend_help":"Click on the legend to remove individual lines from the chart.","loading":"Loading","loading_map":"Loading map","map":"Map","map_search":"Search","map_search_hide":"Hide search","map_search_show":"Show search","map_year_slider":"Year slider","national_metadata":"Metadata","national_metadata_blurb":"This table provides metadata for the interim or final indicator presented above.","next":"Next indicator","no_data_hint":"No options available because of filters above","plot_legend_description":"Plot legend: list of lines included in chart","previous":"Previous indicator","select_all":"Select all","series":"Series","series_help":"Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.","source":"Source","sources":"Sources","status":"Indicator status","sub_categories":"Sub-categories","sub_categories_show":"Show sub-categories:","table":"Table","table_column_sort":"Click to sort by this column","tags":"Tags","unit":"Unit","unit_of_measurement":"Unit of Measurement","units_type":"Units type","variable_hint":"Available when '%field' is selected","view_indicator_list":"View this goal's indicator list"};</script>
+<script>translations['indicator'] = {"annotation_2030_target":"2030 indicator target","annotation_base_line":"Baseline","annotation_series_break":"Series break","annotation_target":"GES target","annotation_threshold":"GES threshold","announce_data_added":"Chart and table updated to include data.","announce_data_not_available":"Chart and table shows no data.","announce_data_removed":"Chart and table updated to exclude data.","chart":"Chart","chart_annotation":"Chart annotation","clear_all":"Clear all","clear_selections":"Clear selections","data_keyboard_navigation":"Press enter to browse data points with left and right arrow keys.","data_not_available":"These data are not available. Please choose alternative data to display.","data_tabular_alternative":"For tabular data alternative see Table tab.","dataset_size_warning":"There are too many datasets to show on the chart. Not all will be shown until you remove some selections.","download_chart":"Download Chart CSV","download_chart_image":"Download Chart Image","download_chart_image_title":"Download chart as image","download_csv":"Download CSV","download_csv_title":"Download as CSV","download_geojson":"Download GeoJSON","download_geojson_title":"Download as GeoJSON","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"Download Source CSV","download_source_sdmx":"Download Source SDMX","download_source_sdmx_title":"Download source data as SDMX","download_source_title":"Download source data as CSV","download_table":"Download Table CSV","edit":"Edit","edit_configuration":"Edit Configuration","edit_data":"Edit Data","edit_metadata":"Edit Metadata","footnote":"Footnote","geographical_area":"Geographical Area","global_metadata":"Global Metadata","global_metadata_blurb":"This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href=\"https://unstats.un.org/sdgs/metadata/\">Complete global metadata</a> is provided by the UN Statistics Division.","legend_help":"Click on the legend to remove individual lines from the chart.","loading":"Loading","loading_map":"Loading map","map":"Map","map_search":"Search","map_search_hide":"Hide search","map_search_show":"Show search","map_year_slider":"Year slider","national_metadata":"Metadata","national_metadata_blurb":"This table provides metadata for the interim or final indicator presented above.","next":"Next indicator","no_data_hint":"No options available because of filters above","plot_legend_description":"Plot legend: list of lines included in chart","previous":"Previous indicator","select_all":"Select all","series":"Series","series_help":"Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.","source":"Source","sources":"Sources","status":"Indicator status","sub_categories":"Sub-categories","sub_categories_show":"Show sub-categories:","table":"Table","table_column_sort":"Click to sort by this column","tags":"Tags","unit":"Unit","unit_of_measurement":"Unit of Measurement","units_type":"Units type","variable_hint":"Available when '%field' is selected","view_indicator_list":"View this goal's indicator list"};</script>
 
 <script>translations['data'] = null;</script>
 
@@ -373,17 +410,17 @@ var translations = {
 
     
       
-<div class="previous-next-links row">
-    <div class="col-xs-3 col-md-3 col-lg-4 pull-left text-left">
-        <a class="btn btn-primary" href="/9-1-1" aria-labelledby="previous-link">
+<div class="previous-next-links oif-row space-between">
+    <div class="oif-row previous-next-link">
+        <a class="btn btn-primary" href="/9-1-1">
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
-            <span id="previous-link" class="hidden-sm hidden-xs">Previous indicator</span>
+            <span id="previous-link-top" class="hidden-sm hidden-xs">Previous indicator</span>
         </a>
     </div>
-    <div class="col-xs-3 col-md-3 col-lg-4 pull-right text-right">
-        <a class="btn btn-primary" href="/9-3-1" aria-labelledby="next-link">
+    <div class="oif-row right-justified previous-next-link">
+        <a class="btn btn-primary" href="/9-3-1">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            <span id="next-link" class="hidden-sm hidden-xs">Next indicator</span>
+            <span id="next-link-top" class="hidden-sm hidden-xs">Next indicator</span>
         </a>
     </div>
 </div>
@@ -403,7 +440,7 @@ var translations = {
       >
         <img
           src="/assets/img/goals/en/9.png"
-          alt="Resource Use and Waste - Theme 9"
+          alt="Resource Use and Waste theme"
           id="theme-9"
           class="goal-icon-image goal-icon-image-"
         />
@@ -430,6 +467,8 @@ var translations = {
 
   
 
+  
+
 <div class="row" id="page-content">
   <div class="col-xs-12">
     <h2 id="short-description">Short description</h2>
@@ -438,69 +477,166 @@ var translations = {
 
 <h2 id="readiness-and-links-to-data">Readiness and links to data</h2>
 
-<p>Data on RMC underpinning each metric are available in <a href="http://sciencesearch.defra.gov.uk/Default.aspx?Menu=Menu&amp;Module=More&amp;Location=None&amp;ProjectID=20306&amp;FromSearch=Y&amp;Publisher=1&amp;SearchText=ev0279&amp;SortString=ProjectCode&amp;SortOrder=Asc&amp;Paging=10%20-%20Description">Material footprint and resource efficiency in the UK</a>. These source data are currently published as Experimental Statistics whilst there are ongoing refinements to the methodology. GVA data are published by the Office for National Statistics (2019) <a href="https://www.ons.gov.uk/economy/grossvalueaddedgva/datasets/nominalandrealregionalgrossvalueaddedbalancedbyindustry/current">Nominal and real regional gross value added (balance) by industry</a>. Population data are published by the Office for National Statistics (2019) <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland">Estimates of the population for the UK, England and Wales, Scotland and Northern Ireland</a>.</p>
+<p>Data on RMC underpinning each metric are available in the <a href="https://www.gov.uk/government/statistics/englands-material-footprint/englands-material-footprint">England’s material footprint</a> release. Data on <a href="https://www.ons.gov.uk/economy/grossvalueaddedgva/datasets/nominalandrealregionalgrossvalueaddedbalancedbyindustry/current">Nominal and real regional gross value added (balance) by industry</a> and <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland">Estimates of the population for the UK, England and Wales, Scotland and Northern Ireland</a> are published by the Office for National Statistics. This indicator, together with additional supporting methodology is also included within the <a href="https://www.gov.uk/government/publications/resources-and-waste-strategy-for-england-monitoring-and-evaluation">Resources and waste strategy for England</a>.</p>
 
-<h2 id="note">Note</h2>
+<h2 id="trend-description-for-figures-j2a-and-j2b">Trend description for Figures J2a and J2b</h2>
 
-<p>While the currently available data predate the 25 Year Environment Plan, they provide the most recently available assessment of raw material consumption in England. They enable a better understanding of a baseline from which to measure progress towards the goals of the 25 Year Environment Plan when the indicator is next updated.</p>
+<h3 id="j2a-raw-material-consumption-per-capita">J2a) Raw material consumption per capita</h3>
 
-<h2 id="trend-description">Trend description</h2>
+<p>The average raw material footprint per capita in England (excluding fossil fuels) fell by 25.0% between 2001 and 2018. It peaked in 2004, decreased steadily until 2007 and then fell sharply during the 2008 to 2009 recession. It rose again until 2015 but has fallen over the latest 3 years for which data are available (2016 to 2018) to 11.8 tonnes per capita. Within the overall total, per capita consumption of non-metallic mineral materials, metal ores and biomass have all decreased between 2001 and 2018 (by 27%, 40% and 17% respectively).</p>
 
-<p><strong>a) Raw material consumption per capita</strong></p>
+<h3 id="j2b-gross-value-added-per-kg-of-raw-material-consumption">J2b) Gross value added per kg of raw material consumption</h3>
 
-<p>The average material footprint per capita in England (excluding fossil fuels) increased by 3.0% between 2001 and 2017. It rose steadily between 2001 and 2007, before declining sharply during the recession. It rose again to 2015 and fell back in 2016 and 2017, to 14.7 tonnes per capita. Within the overall total, there have been increases in per capita consumption of both biomass and non-metallic mineral materials between 2001 and 2017, whilst for metal ores there has been a slight decrease.</p>
+<p>In 2018, England generated approximately 62.0% more economic value than in 2001 (measured by GVA per unit of RMC (excluding fossil fuels), also described as resource productivity). Resource productivity measured on this basis, rose from £1.53 of GVA per kg of RMC in 2001 to a peak of £2.48 in 2012 before declining until 2015, and then regaining its 2012 peak in 2018.</p>
 
-<p><strong>b) Gross value added per kg of raw material consumption</strong></p>
+<h2 id="assessment-of-change">Assessment of change</h2>
 
-<p>In 2017, England generated approximately 15.9% more economic value than in 2001 (measured by GVA per unit of RMC (excluding fossil fuels) also described as resource productivity). Resource productivity measured on this basis, rose from £1.63 of GVA per kg of RMC in 2001 to £1.89 in 2017. Resource productivity peaked at £1.95 in 2009 as a result of a sharp drop in RMC relative to economic activity during the recession. It has since declined against this peak, but remains above pre-recession levels.</p>
+<p>There has been an improvement recorded over the medium and long term for both interim indicators for J2: J2a Raw material consumption (excluding fossil fuels) per capita in England and J2b Gross value added per kg of raw material consumption (excluding fossil fuels) in England. However, in the most recent 5 years for which trends can be assessed (2012 to 2017), RMC has begun to increase again (meaning a deterioration for the indicator) and progress has stalled for GVA per kg of RMC with an assessment of ‘little or no change’.</p>
+
+<p>Change since 2018 has not been assessed for this indicator as sufficient data are not yet available.</p>
+
+<p>Further information on this assessment, along with details on the methodology, is provided in the <a href="/assessment/background">Assessment background</a> page. Summaries by 25 Year Environment Plan goal and information on indicator links are presented in the <a href="/assessment/results/">Assessment results</a> pages.</p>
+
+<h3 id="table-j2a-assessment-of-change-in-raw-material-consumption-excluding-fossil-fuels-per-capita-in-england">Table J2a: Assessment of change in raw material consumption (excluding fossil fuels) per capita in England</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Period</th>
+      <th>Date range</th>
+      <th>Percent change</th>
+      <th>Assessment of change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Short term</td>
+      <td>2012-2017</td>
+      <td>+10.3 (smoothed Loess)</td>
+      <td>Deterioration</td>
+    </tr>
+    <tr>
+      <td>Medium term</td>
+      <td>2007-2017</td>
+      <td>-12.5 (smoothed Loess)</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>Long term</td>
+      <td>2001-2017</td>
+      <td>-19.6 (smoothed Loess)</td>
+      <td>Improvement</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="table-j2b-assessment-of-change-in-gross-value-added-per-kg-of-raw-material-consumption-excluding-fossil-fuels-in-england">Table J2b: Assessment of change in gross value added per kg of raw material consumption (excluding fossil fuels) in England</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Period</th>
+      <th>Date range</th>
+      <th>Percent change</th>
+      <th>Assessment of change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Short term</td>
+      <td>2012-2017</td>
+      <td>-2.3 (smoothed Loess)</td>
+      <td>Little or no change</td>
+    </tr>
+    <tr>
+      <td>Medium term</td>
+      <td>2007-2017</td>
+      <td>+21.4 (smoothed Loess)</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>Long term</td>
+      <td>2001-2017</td>
+      <td>+50.2 (smoothed Loess)</td>
+      <td>Improvement</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Note that assessment categories were assigned based on smoothed data, so percent change figures in Tables J2a and J2b may differ from unsmoothed values quoted elsewhere. Percent change refers to the difference seen between the first and last years in the specified date range.</p>
 
   </div>
 </div>
 
 
-   
+  
+
+
+
+  
+<div class="previous-next-links oif-row space-between">
+    <div class="oif-row previous-next-link">
+        <a class="btn btn-primary" href="/9-1-1">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+            <span id="previous-link-bottom" class="hidden-sm hidden-xs">Previous indicator</span>
+        </a>
+    </div>
+    <div class="oif-row right-justified previous-next-link">
+        <a class="btn btn-primary" href="/9-3-1">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            <span id="next-link-bottom" class="hidden-sm hidden-xs">Next indicator</span>
+        </a>
+    </div>
+</div>
+
 
 
 <div
-  class="row"
+  class="oif-row"
   id="indicatorData"
   data-indicatorid="indicator_9-2-1"
   data-id="9-2-1"
   data-country="England"
-  data-graphgeographies="null"
   data-charttitle="Raw material consumption"
-  data-charttitles="[{&quot;series&quot;:&quot;J2a&quot;,&quot;title&quot;:&quot;J2a, Raw material consumption (excluding fossil fuels) per capita in England, 2001 to 2017&quot;},{&quot;series&quot;:&quot;J2b&quot;,&quot;title&quot;:&quot;J2b, Gross value added per kg of raw material consumption (excluding fossil fuels) in England, 2001 to 2017&quot;}]"
+  data-charttitles="[{&quot;series&quot;:&quot;J2a&quot;,&quot;title&quot;:&quot;J2a: Raw material consumption (excluding fossil fuels) per capita in England, 2001 to 2018&quot;},{&quot;series&quot;:&quot;J2b&quot;,&quot;title&quot;:&quot;J2b: Gross value added per kg of raw material consumption (excluding fossil fuels) in England, 2001 to 2018&quot;}]"
   data-measurementunit=""
-  data-measurementunits="[{&quot;series&quot;:&quot;J2a&quot;,&quot;units&quot;:&quot;Raw material consumption (tonnes per capita)&quot;},{&quot;series&quot;:&quot;J2b&quot;,&quot;units&quot;:&quot;Gross value added per kg of raw material consumption (£/kg)&quot;}]"
+  data-xaxislabel=""
   data-showdata="true"
   data-graphtype="line"
   data-graphtypes="[{&quot;series&quot;:&quot;J2a&quot;,&quot;type&quot;:&quot;bar&quot;},{&quot;series&quot;:&quot;J2b&quot;,&quot;type&quot;:&quot;line&quot;}]"
   data-geocoderegex=""
   data-showmap="false"
   data-startvalues="null"
-  data-startvaluesseries="[{&quot;series&quot;:&quot;J2a&quot;,&quot;field&quot;:&quot;Raw material&quot;,&quot;value&quot;:&quot;Non-metallic mineral materials&quot;},{&quot;series&quot;:&quot;J2a&quot;,&quot;field&quot;:&quot;Raw material&quot;,&quot;value&quot;:&quot;Metal ores&quot;},{&quot;series&quot;:&quot;J2a&quot;,&quot;field&quot;:&quot;Raw material&quot;,&quot;value&quot;:&quot;Biomass&quot;}]"
   data-graphlimits="null"
+  data-graphannotations="null"
+  data-graphtargetlines="null"
+  data-graphseriesbreaks="null"
+  data-indicatordownloads="null"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Category&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;Biomass&quot;,&quot;Metal ores&quot;,&quot;Non-metallic mineral materials&quot;]},&quot;title&quot;:&quot;Category&quot;},{&quot;name&quot;:&quot;Series&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;J2a&quot;,&quot;J2b&quot;]},&quot;title&quot;:&quot;Series&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;},{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;}]}"
+  data-compositebreakdownlabel=""
+  data-precision="null"
+  data-graphgeographies="null"
+  data-measurementunits="[{&quot;series&quot;:&quot;J2a&quot;,&quot;units&quot;:&quot;Tonnes / capita&quot;},{&quot;series&quot;:&quot;J2b&quot;,&quot;units&quot;:&quot;£ / kg&quot;}]"
+  data-startvaluesseries="[{&quot;field&quot;:&quot;Category&quot;,&quot;series&quot;:&quot;J2a&quot;,&quot;value&quot;:&quot;Non-metallic mineral materials&quot;},{&quot;field&quot;:&quot;Category&quot;,&quot;series&quot;:&quot;J2a&quot;,&quot;value&quot;:&quot;Metal ores&quot;},{&quot;field&quot;:&quot;Category&quot;,&quot;series&quot;:&quot;J2a&quot;,&quot;value&quot;:&quot;Biomass&quot;}]"
   
     data-stackeddisaggregation="[{&quot;series&quot;:&quot;J2a&quot;}]"
   
-  data-categoryorder="null"
-  data-categorycolor="null"
-  data-graphannotations="null"
-  data-indicatordownloads="null"
-  data-compositebreakdownlabel=""
-  data-precision="null"
+  data-categoryorder="{&quot;J2a&quot;:{&quot;Biomass&quot;:2,&quot;Metal ores&quot;:1,&quot;Non-metallic mineral materials&quot;:0}}"
+  data-stackorder="null"
+  data-categorycolor="{&quot;J2a&quot;:{&quot;Biomass&quot;:&quot;#801650&quot;,&quot;Metal ores&quot;:&quot;#F46A25&quot;,&quot;Non-metallic mineral materials&quot;:&quot;#12436D&quot;},&quot;J2b&quot;:{&quot;England&quot;:&quot;#12436D&quot;}}"
   data-continuouserror="null"
   data-multiaxes="null"
   data-mixedtype="null"
   data-graphsource="Defra; Office for National Statistics"
   data-graphsources="null"
   data-graphnote=""
-  data-graphnotes="null"
+  data-graphnotes="[{&quot;note&quot;:&quot;These data have been revised since the previous publication due to refinements to the methodology as the source publication underpinning this indicator progressed from experimental to official statistics.&quot;,&quot;series&quot;:&quot;J2a&quot;},{&quot;note&quot;:&quot;These data have been revised since the previous publication due to refinements to the methodology as the source publication underpinning this indicator progressed from experimental to official statistics.&quot;,&quot;series&quot;:&quot;J2b&quot;}]"
+  data-yaxislabels="null"
 >
-
-  <span role="status" class="sr-only" id="indicator-data-view-status"></span>
-  <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
-    <div id="serieses"></div>
+  
+    <span role="status" class="sr-only" id="indicator-data-view-status"></span>
+    <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
+      <div id="serieses"></div>
 <div id="units"></div>
 <div id="toolbar">
   <span id="series-help">
@@ -511,9 +647,8 @@ var translations = {
     <p class="async-loading" data-img="/assets/img/loading-small.gif"></p>
   </div>
 </div>
-
-  </div>
-  <div id="indicator-main" class="indicator-main col-md-9">
+    </div>
+    <div id="indicator-main" class="indicator-main col-md-9">
     <section>
 
   <p class="async-loading" data-img="/assets/img/loading-small.gif"></p>
@@ -525,28 +660,65 @@ var translations = {
 </div>
 <ul class="nav nav-tabs non-stacking-tabs data-view" role="tablist">
   
-  <li role="presentation" class="nav-item active">
-    <a class="nav-link" data-toggle="tab" id="tab-chartview" href="#chartview" aria-controls="chartview" role="tab" data-on="click"
+    
+      
+        <li role="presentation" class="nav-item active">
+          
+
+<a 
+class="nav-link" 
+data-toggle="tab" 
+role="tab" 
+id="tab-chartview"
+href="#chartview"
+aria-controls="chartview"
+aria-describedby="table-alternative"
+data-on="click"
 data-event-category="Tab change"
 data-event-action="Change data view"
 data-event-label="Change to Chart tab"
- aria-describedby="table-alternative">Chart</a>
-  </li>
+
+>Chart</a>
+
+        </li>        
+      
+      
   
-  
-  <li role="presentation" class="nav-item">
-    <a class="nav-link" data-toggle="tab" id="tab-tableview" href="#tableview" aria-controls="tableview" role="tab" data-on="click"
+    
+      
+        <li role="presentation" class="nav-item">
+          
+
+<a 
+class="nav-link" 
+data-toggle="tab" 
+role="tab" 
+id="tab-tableview"
+href="#tableview"
+aria-controls="tableview"
+aria-describedby="table-alternative"
+data-on="click"
 data-event-category="Tab change"
 data-event-action="Change data view"
 data-event-label="Change to Table tab"
->Table</a>
-  </li>
-  </ul>
 
+>Table</a>
+
+        </li>        
+      
+      
+  
+    
+      
+    
+  
+</ul>
     <div class="tab-content data-view">
   
-  <div role="tabpanel" class="tab-pane active" id="chartview">
-    <div id="dataset-size-warning" style="display:none" role="alert">
+    
+    
+      <div role="tabpanel" class="tab-pane active" id="chartview">
+        <div id="dataset-size-warning" style="display:none" role="alert">
   <i class="fa fa-bolt"><span class="sr-only">Warning:</span></i>
   There are too many datasets to show on the chart. Not all will be shown until you remove some selections.
 </div>
@@ -555,7 +727,7 @@ data-event-label="Change to Table tab"
 <div id="selectionsChart">
   <figure role="group">
     <div id="chart-canvas">
-      <h3 id="chart-heading" class="chart-title">J2a, Raw material consumption (excluding fossil fuels) per capita in England, 2001 to 2017</h3>
+      <h3 id="chart-heading" class="chart-title">J2a: Raw material consumption (excluding fossil fuels) per capita in England, 2001 to 2018</h3>
       <div id="chart" class="plot-container">
         <script>
   /**
@@ -727,6 +899,26 @@ data-event-label="Change to Table tab"
       orderLegend(order);
     };
 
+    const orderStacks = (config, orders) => {
+      const labels = config.data.labels;
+
+      config.data.labels = orders;
+      config.data.allLabels = orders;
+
+      const numberOfDatasets = config.data.datasets.length;
+
+      const rows = labels
+        .map((label, index) => [label, config.data.datasets.map(dataset => dataset.data[index])].flat());
+
+      const reordered_rows = orders.map(order => rows.filter(row => row[0] === order)[0]);
+
+      let unzipped = [...Array(numberOfDatasets + 1).keys()].map(index => reordered_rows.map(reordered_row => reordered_row[index]));
+
+      unzipped.slice(1).forEach((reordered_data, index) => {
+          config.data.datasets[index].data = reordered_data;
+      });
+    }
+
 </script>
 
 <canvas
@@ -745,7 +937,7 @@ data-event-label="Change to Table tab"
           config.options.scales.yAxes[0].ticks.max = info.graphLimits.maximum;
           config.options.scales.yAxes[0].ticks.min = info.graphLimits.minimum;
           config.options.scales.yAxes[0].ticks.stepSize =
-          info.graphLimits.stepSize;
+            info.graphLimits.stepSize;
         }
       }
       config.options.scales.yAxes[0].ticks.max = info.graphLimits.maximum;
@@ -755,7 +947,6 @@ data-event-label="Change to Table tab"
     }
   });
 </script>
-
 <span style="display: none;" id="chart-annotations" role="status"></span>
 <script>
 opensdg.annotationPresets = {
@@ -763,16 +954,21 @@ opensdg.annotationPresets = {
         // This "common" preset is applied to all annotations automatically.
         borderColor: '#505a5f',
         type: 'line',
+        drawTime: 'afterDatasetsDraw',
         label: {
             backgroundColor: 'black',
+            
             fontColor: 'white',
+            
         },
         // This "highContrast" overrides colors when in high-contrast mode.
         highContrast: {
             label: {
                 backgroundColor: 'white',
-                fontColor: 'black'
-            }
+                
+                fontColor: 'black',
+                
+            },
         },
         // This callback is used to generate a generic description for screenreaders.
         // This can be overridden to be a more specific string, eg:
@@ -797,6 +993,24 @@ opensdg.annotationPresets = {
                 descriptionParts.push(this.value);
             }
             return descriptionParts.join(': ');
+        },
+    },
+    target_line: {
+        mode: 'horizontal',
+        borderWidth: 2,
+        borderDash: [15, 10],
+        borderColor: '#757575',
+        label: {
+            position: 'right',
+            content: translations.indicator.annotation_2030_target,
+        },
+    },
+    series_break: {
+        mode: 'vertical',
+        borderDash: [2, 2],
+        label: {
+            position: 'top',
+            content: translations.indicator.annotation_series_break,
         },
     },
     threshold_line_15: {
@@ -826,24 +1040,27 @@ opensdg.annotationPresets = {
             content: translations.indicator.annotation_base_line,
         },
     },
-};
+},
 
 // Add a chart alteration to support the chart_annotations metadata field.
 opensdg.chartConfigAlter(function(config, info) {
     if (info.graphAnnotations && info.graphAnnotations.length > 0) {
         // Apply some helpers/fixes to the annotations.
-        var annotations = info.graphAnnotations.map(function(annotation) {
+        var annotations = info.graphAnnotations.map(function(annotationOverrides) {
+            var annotation = {};
             // Apply the "common" preset.
             if (opensdg.annotationPresets.common) {
-                annotation = $.extend(true, {}, opensdg.annotationPresets.common, annotation);
+                $.extend(true, annotation, opensdg.annotationPresets.common);
             }
             // Apply any specified presets.
-            if (annotation.preset) {
-                var preset = annotation.preset;
+            if (annotationOverrides.preset) {
+                var preset = annotationOverrides.preset;
                 if (opensdg.annotationPresets[preset]) {
-                    annotation = $.extend(true, {}, opensdg.annotationPresets[preset], annotation);
+                    $.extend(true, annotation, opensdg.annotationPresets[preset]);
                 }
             }
+            // Now add any more annotation config.
+            $.extend(true, annotation, annotationOverrides);
             // Default to horizontal lines.
             if (!annotation.mode && annotation.type === 'line') {
                 annotation.mode = 'horizontal';
@@ -896,7 +1113,7 @@ opensdg.chartConfigAlter(function(config, info) {
             var overrides = {
                 options: {
                     annotation: {
-                        drawTime: 'afterDatasetsDraw',
+                        drawTime: 'beforeDatasetsDraw',
                         annotations: annotations
                     }
                 }
@@ -949,7 +1166,7 @@ opensdg.chartConfigAlter(function(config, info) {
               dataset["yAxisID"] = "y-axis-0";
             }
           });
-          
+
           if (config.options.scales.yAxes.length > 1) {
             config.options.scales.yAxes[1] = {
               type: "linear",
@@ -964,7 +1181,9 @@ opensdg.chartConfigAlter(function(config, info) {
                 display: false,
               },
               ticks: {
-                suggestedMin: 0,
+                max: 6000,
+                min: 0,
+                stepSize: 600
               },
             };
           } else {
@@ -981,11 +1200,13 @@ opensdg.chartConfigAlter(function(config, info) {
                 display: false,
               },
               ticks: {
-                suggestedMin: 0,
+                max: 6000,
+                min: 0,
+                stepSize: 600
               },
             });
           }
-        }  else {
+        } else {
           if (config.options.scales.yAxes.length > 1) {
             while (config.options.scales.yAxes.length > 1) {
               config.options.scales.yAxes.pop();
@@ -996,10 +1217,8 @@ opensdg.chartConfigAlter(function(config, info) {
     }
   });
 </script>
-
 <script>
   opensdg.chartConfigAlter(function (config, info) {
-    if (config.type === "line") {
       if (info.continuousError) {
         if (info.selectedSeries) {
           if (isRelevant(info.continuousError, info.selectedSeries)) {
@@ -1007,25 +1226,25 @@ opensdg.chartConfigAlter(function(config, info) {
               info.continuousError,
               "series",
               info.selectedSeries
-            );
-            var target = unpack_array_of_objects(
-              continuousErrorFiltered,
-              "target"
-            );
-            var upper = unpack_array_of_objects(
-              continuousErrorFiltered,
+              );
+              var target = unpack_array_of_objects(
+                continuousErrorFiltered,
+                "target"
+                );
+                var upper = unpack_array_of_objects(
+                  continuousErrorFiltered,
               "upper"
-            );
-            var lower = unpack_array_of_objects(
-              continuousErrorFiltered,
-              "lower"
-            );
+              );
+              var lower = unpack_array_of_objects(
+                continuousErrorFiltered,
+                "lower"
+                );
             var newLegendText = unpack_array_of_objects(
               continuousErrorFiltered,
               "legend"
-            );
-          }
-        } else {
+              );
+            }
+          } else {
           var target = info.continuousError.target;
           var upper = info.continuousError.upper;
           var lower = info.continuousError.lower;
@@ -1049,46 +1268,50 @@ opensdg.chartConfigAlter(function(config, info) {
         var config = datasets.forEach(function (dataset, index) {
           if (index === index_upper || index === index_lower) {
             dataset["fill"] = index_target;
-            dataset["backgroundColor"] = "#81ed93";
-            dataset["borderColor"] = "#81ed93";
+            dataset["backgroundColor"] = "#3F94DE";
+            dataset["borderColor"] = "#3F94DE";
             dataset["pointRadius"] = 0;
+          } else {
+            dataset["backgroundColor"] = "#12436D";
+            dataset["borderColor"] = "#12436D";
+            dataset["pointBackgroundColor"] = "#12436D";
+            dataset["pointBorderColor"] = "#12436D";
           }
           return dataset;
         });
         let indicatorData = document.getElementById("indicatorData");
-  
+
         indicatorData.classList.add("no-fields");
-  
+
         $(document).ready(() => {
           let legendContainer = document.getElementById("legend");
           let legendItems = legendContainer.children;
           let legendItemsArray = Array.from(legendItems);
-  
+
           legendItemsArray.forEach((item) => {
             if ([upper, lower].includes(item.innerText)) {
               item.remove();
             }
           });
-  
+
           if (!legendItemsArray.map((item) => item.innerText).includes(newLegendText)) {
             let newItemSpan = document.createElement("span");
             newItemSpan.classList.add("swatch");
-            newItemSpan.style.backgroundColor = "#81ed93";
-    
+            newItemSpan.style.backgroundColor = "#3F94DE";
+
             let newItem = document.createElement("li");
             newItem.appendChild(newItemSpan);
             newItem.append(newLegendText);
-    
+
             legendContainer.appendChild(newItem);
           };
-  
+
         });
       }
 
       $.extend(true, config);
 
-    }
-  });
+    });
 </script>
 
 
@@ -1143,7 +1366,7 @@ opensdg.chartConfigAlter(function(config, info) {
       } else {
         stack(config);
       }
-      
+
       // TODO
       // Grouping by series
 
@@ -1156,12 +1379,10 @@ opensdg.chartConfigAlter(function(config, info) {
     }
   });
 </script>
-
-
 <script>
   opensdg.chartConfigAlter(function (config, info) {
     if (info.mixedType) {
-     
+
       if (info.selectedSeries) {
         var mixedTypeFiltered = filter_array_of_objects(info.mixedType, "series", info.selectedSeries);
         var mixedTypeValue = unpack_array_of_objects(mixedTypeFiltered, "value");
@@ -1170,9 +1391,9 @@ opensdg.chartConfigAlter(function(config, info) {
         var mixedTypeValue = unpack_array_of_objects(info.mixedType, "value");
         var mixedTypeType = unpack_array_of_objects(info.mixedType, "type");
       }
-      
+
       var datasets = config.data.datasets;
-      
+
       var datasets_new = datasets.forEach(function (dataset) {
         if (dataset.label === mixedTypeValue) {
           dataset["type"] = mixedTypeType
@@ -1180,38 +1401,63 @@ opensdg.chartConfigAlter(function(config, info) {
         return dataset
       })
 
-      
+
       var overrides = {
         data: {
           datasets: datasets_new,
         },
       };
-      
+
       $.extend(true, config, overrides);
-      
+
     };
   });
 </script>
-
-
 <script>
     opensdg.chartConfigAlter(function (config, info) {
-        if (info.measurementUnitSeries) {
+        if (info.yAxisLabels) {
             if (info.selectedSeries) {
-                var measurementUnitFiltered = filter_array_of_objects(info.measurementUnitSeries, "series", info.selectedSeries);
+                const yAxisLabelsFiltered = filter_array_of_objects(info.yAxisLabels, "series", info.selectedSeries);
 
-                var measurementUnit = unpack_array_of_objects(measurementUnitFiltered, "unit");
+                const yAxisLabel = unpack_array_of_objects(yAxisLabelsFiltered, "label");
+
+                _.set(config, "options.scales.yAxes[0].scaleLabel.display", true);
+
+                _.set(config, "options.scales.yAxes[0].scaleLabel.labelString", yAxisLabel);
+
+                return config
+            } else {
+                const yAxisLabel = info.yAxisLabels;
+
+                _.set(config, "options.scales.yAxes[0].scaleLabel.display", true);
+
+                _.set(config, "options.scales.yAxes[0].scaleLabel.labelString", yAxisLabel);
+
+                return config
+            }
+        } else if (info.measurementUnitSeries) {
+            if (info.selectedSeries) {
+                const measurementUnitFiltered = filter_array_of_objects(info.measurementUnitSeries, "series", info.selectedSeries);
+
+                const measurementUnit = unpack_array_of_objects(measurementUnitFiltered, "unit");
 
                 _.set(config, "options.scales.yAxes[0].scaleLabel.display", true);
 
                 _.set(config, "options.scales.yAxes[0].scaleLabel.labelString", measurementUnit);
 
-                config
+                return config
             }
+        } else if (info.measurementUnit) {
+            const measurementUnit = info.measurementUnit;
+
+            _.set(config, "options.scales.yAxes[0].scaleLabel.display", true);
+
+            _.set(config, "options.scales.yAxes[0].scaleLabel.labelString", measurementUnit);
+
+            return config
         }
     });
 </script>
-
 <script>
   opensdg.chartConfigAlter(function (config, info) {
     if (info.categoryOrder) {
@@ -1251,19 +1497,22 @@ opensdg.chartConfigAlter(function(config, info) {
       } else {
         orderChart(config, info.categoryOrder);
       }
-    }
+    };
+    if (info.stackOrder) {
+      const order = info.selectedSeries ? info.stackOrder[info.selectedSeries] : info.stackOrder;
+      orderStacks(config, order);
+    };
   });
 </script>
-
 <script>
   opensdg.chartConfigAlter(function (config, info) {
     if (info.selectedUnit) {
       if (info.selectedUnit === "Percent") {
         config.options.scales.yAxes[0].ticks.callback = (value) =>
-        (value / 100).toLocaleString("en-GB", { style: "percent" });
+          (value / 100).toLocaleString("en-GB", { style: "percent" });
         if (config.options.scales.yAxes[1]) {
           config.options.scales.yAxes[0].ticks.callback = (value) =>
-        (value / 100).toLocaleString("en-GB", { style: "percent" });
+            (value / 100).toLocaleString("en-GB", { style: "percent" });
         }
       } else {
         config.options.scales.yAxes[0].ticks.callback = (value) =>
@@ -1290,7 +1539,6 @@ opensdg.chartConfigAlter(function(config, info) {
     }
   });
 </script>
-
 <script>
   // Here we define a function to set the colours that we can reuse in each of the if branches
 
@@ -1304,8 +1552,30 @@ opensdg.chartConfigAlter(function(config, info) {
    */
   const recolor = (config, category_color) => {
     config.data.datasets.forEach((dataset) => {
-      dataset.backgroundColor = category_color[dataset.label];
-      dataset.borderColor = category_color[dataset.label];
+      const color = category_color[dataset.label];
+      if (Array.isArray(color)){
+        const [pattern_type, pattern_color] = color;
+        dataset.backgroundColor = pattern.draw(pattern_type, pattern_color);
+        dataset.borderColor = pattern_color;
+        dataset.pointBackgroundColor = pattern.draw(pattern_type, pattern_color);
+        dataset.pointBorderColor = pattern_color;
+        $(document).ready(() => {
+          let legendContainer = document.getElementById("legend");
+          let legendItems = legendContainer.children;
+          let legendItemsArray = Array.from(legendItems);
+
+          legendItemsArray.forEach((legendItem) => {
+            if (legendItem.textContent.startsWith("Weak")) {
+              legendItem.firstElementChild.classList.add("checked")
+            }
+      });
+    });
+      } else {
+        dataset.backgroundColor = color;
+        dataset.borderColor = color;
+        dataset.pointBackgroundColor = color;
+        dataset.pointBorderColor = color;
+      }
     });
 
     $(document).ready(() => {
@@ -1316,7 +1586,10 @@ opensdg.chartConfigAlter(function(config, info) {
       legendItemsArray.forEach((legendItem) => {
         if (legendItem.firstElementChild.classList.contains("dashed")) {
           legendItem.firstElementChild.classList.remove("dashed");
-        }
+        };
+        if (legendItem.innerText == "undefined") {
+          legendItem.remove();
+        };
       });
     });
   };
@@ -1342,8 +1615,14 @@ opensdg.chartConfigAlter(function(config, info) {
     }
   });
 </script>
-
-
+<script>
+    opensdg.chartConfigAlter(function (config, info) {
+        config.type = info.graphType;
+        if (config.type == "bar") {
+            config.options.scales.xAxes[0].offset = true;
+        };
+    });
+</script>
       </div>
       <div id="plotLegend"></div>
       
@@ -1355,32 +1634,52 @@ opensdg.chartConfigAlter(function(config, info) {
   <dl>
     
     
-    <dt><b>Source:</b></dt>
+    <dt>Source:</dt>
     <dd class="footer-source">Defra; Office for National Statistics</dd>
     
     
     
     
-    <dt><b>Geographical Area:</b></dt>
+    <dt>Geographical Area:</dt>
     <dd class="footer-geography">England</dd>
     
 
     
     
-    <dt><b>Unit of Measurement:</b></dt>
-    <dd class="footer-units">Raw material consumption (tonnes per capita)</dd>
+    <dt>Unit of Measurement:</dt>
+    <dd class="footer-units">Tonnes / capita</dd>
     
     
     
     
     
+    <dt class="footer-note">Footnote:</dt>
+    <dd class="footer-note">These data have been revised since the previous publication due to refinements to the methodology as the source publication underpinning this indicator progressed from experimental to official statistics.</dd>
     
-    <div class="footer-note-row" style="visibility: hidden;">
-      <dt><b>Footnote:</b></dt>
-      <dd class="footer-note"></dd>
-    </div>  
     
-  </dl>
+
+    
+    
+    <dt
+      class="data-controlled-footer-field"
+      data-ts-attribute="COMMENT_TS"
+    >Footnote:</dt>
+    <dd
+      class="data-controlled-footer-field"
+      data-ts-attribute="COMMENT_TS"
+    ></dd>
+    
+    <dt
+      class="data-controlled-footer-field"
+      data-ts-attribute="DATA_LAST_UPDATE"
+    >Data last updated:</dt>
+    <dd
+      class="data-controlled-footer-field"
+      data-ts-attribute="DATA_LAST_UPDATE"
+    ></dd>
+    
+    
+    </dl>
 </div>
 
     </div>
@@ -1391,14 +1690,18 @@ opensdg.chartConfigAlter(function(config, info) {
     </button>
   </div>
 </div>
-  </div>
+      </div>
+    
+    
   
-  
-  <div role="tabpanel" class="tab-pane" id="tableview">
-    <div style="display: none;">
-      <span id="column-sort-info">Click to sort by this column</span>
-    </div>
-    <div id="selectionsTable"></div>
+    
+    
+      <div role="tabpanel" class="tab-pane " id="tableview">
+        <div style="display: none;">
+          <span id="column-sort-info">Click to sort by this column</span>
+        </div>
+        <div id="selectionsTable"></div>
+<dl id="tableTargetLines" class="clearfix"></dl>
 
 
 
@@ -1408,39 +1711,76 @@ opensdg.chartConfigAlter(function(config, info) {
   <dl>
     
     
-    <dt><b>Source:</b></dt>
+    <dt>Source:</dt>
     <dd class="footer-source">Defra; Office for National Statistics</dd>
     
     
     
     
-    <dt><b>Geographical Area:</b></dt>
+    <dt>Geographical Area:</dt>
     <dd class="footer-geography">England</dd>
     
 
     
     
-    <dt><b>Unit of Measurement:</b></dt>
-    <dd class="footer-units">Raw material consumption (tonnes per capita)</dd>
+    <dt>Unit of Measurement:</dt>
+    <dd class="footer-units">Tonnes / capita</dd>
     
     
     
     
     
+    <dt class="footer-note">Footnote:</dt>
+    <dd class="footer-note">These data have been revised since the previous publication due to refinements to the methodology as the source publication underpinning this indicator progressed from experimental to official statistics.</dd>
     
-    <div class="footer-note-row" style="visibility: hidden;">
-      <dt><b>Footnote:</b></dt>
-      <dd class="footer-note"></dd>
-    </div>  
     
-  </dl>
+
+    
+    
+    <dt
+      class="data-controlled-footer-field"
+      data-ts-attribute="COMMENT_TS"
+    >Footnote:</dt>
+    <dd
+      class="data-controlled-footer-field"
+      data-ts-attribute="COMMENT_TS"
+    ></dd>
+    
+    <dt
+      class="data-controlled-footer-field"
+      data-ts-attribute="DATA_LAST_UPDATE"
+    >Data last updated:</dt>
+    <dd
+      class="data-controlled-footer-field"
+      data-ts-attribute="DATA_LAST_UPDATE"
+    ></dd>
+    
+    
+    </dl>
 </div>
 
 <div id="tableSelectionDownload" class="clearfix"></div>
 
-  </div>
+      </div>
+    
+    
   
-  
+    
+      <div role="tabpanel" class="tab-pane " id="embeddedmapview_2" class="embedded-map">
+        
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    
   
 </div>
 
@@ -1448,9 +1788,8 @@ opensdg.chartConfigAlter(function(config, info) {
   </div>
 
 </section>
-
- 
-    <ul class="nav nav-tabs spacer medium" role="tablist">
+  
+  <ul class="nav nav-tabs spacer medium" role="tablist">
 
   <li role="presentation" class="nav-item active">
   <a class="nav-link" data-toggle="tab" id="tab-national" href="#national" aria-controls="national" role="tab" data-on="click"
@@ -1460,8 +1799,6 @@ data-event-label="Change to National Metadata tab"
 >Metadata</a>
 </li>
 
-
-
   
 </ul>
 
@@ -1469,7 +1806,7 @@ data-event-label="Change to National Metadata tab"
   
     <div role="tabpanel" class="tab-pane active" id="national">
   <!-- National Metadata -->
-  <div >
+  <div>
     <article>
       <p>
         
@@ -1477,299 +1814,297 @@ data-event-label="Change to National Metadata tab"
         This table provides metadata for the interim or final indicator presented above.
       </p>
       <table class="table">
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
         
+      
+      <tr>
+        <th scope="row">Indicator name </th>
+        <td>
           
-        
-        <tr>
-          <th scope="row">Indicator name </th>
-          <td>
-            
-              <p>Raw material consumption</p>
+            <p>Raw material consumption</p>
 
-            
-          </td>
-          </tr>
           
+        </td>
+        </tr>
         
-    
+      
+  
+      
         
+      
+      <tr>
+        <th scope="row">Indicator reference </th>
+        <td>
           
-        
-        <tr>
-          <th scope="row">Indicator reference </th>
-          <td>
-            
-              <p>J2</p>
+            <p>J2</p>
 
-            
-          </td>
-          </tr>
           
+        </td>
+        </tr>
         
-    
+      
+  
+      
         
+      
+      <tr>
+        <th scope="row">Outcome Indicator Framework theme </th>
+        <td>
           
-        
-        <tr>
-          <th scope="row">Outcome Indicator Framework theme </th>
-          <td>
-            
-              <p>Resource Use and Waste</p>
+            <p>Resource Use and Waste</p>
 
-            
-          </td>
-          </tr>
           
+        </td>
+        </tr>
         
-    
+      
+  
+      
         
+      
+      <tr>
+        <th scope="row">Headline indicator status </th>
+        <td>
           
-        
-        <tr>
-          <th scope="row">Headline indicator status </th>
-          <td>
-            
-              <p>Resource efficiency and waste</p>
+            <p>Resource efficiency and waste</p>
 
-            
-          </td>
-          </tr>
           
+        </td>
+        </tr>
         
-    
-    
-    
-    
+      
+  
+  
+  
+  
+      
         
+      
+      <tr>
+        <th scope="row">Relevant goal(s) in the 25 Year Environment Plan </th>
+        <td>
           
+            
+                <ul style="list-style-type:disc;">
+                  <li>Using resources from nature more sustainably and efficiently</li>
+                </ul>
+            
+                <ul style="list-style-type:disc;">
+                  <li>Mitigating and adapting to climate change</li>
+                </ul>
+            
         
-        <tr>
-          <th scope="row">Relevant goal(s) in the 25 Year Environment Plan </th>
-          <td>
-            
-              
-                  <ul style="list-style-type:disc;">
-                    <li>Using resources from nature more sustainably and efficiently</li>
-                  </ul>
-              
-                  <ul style="list-style-type:disc;">
-                    <li>Mitigating and adapting to climate change</li>
-                  </ul>
-              
-            
-          </td>
-          </tr>
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      <tr>
+        <th scope="row">Relevant target(s) in the 25 Year Environment Plan </th>
+        <td>
           
-        
-    
-        
-          
-        
-        <tr>
-          <th scope="row">Relevant target(s) in the 25 Year Environment Plan </th>
-          <td>
             
-              
-                  <ul style="list-style-type:disc;">
-                    <li>Maximising the value and benefits we get from our resources, doubling resource productivity by 2050</li>
-                  </ul>
-              
+                <ul style="list-style-type:disc;">
+                  <li>Maximising the value and benefits we get from our resources, doubling resource productivity by 2050</li>
+                </ul>
             
-          </td>
-          </tr>
+        
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      <tr>
+        <th scope="row">Position in the natural capital framework </th>
+        <td>
           
-        
-    
-        
-          
-        
-        <tr>
-          <th scope="row">Position in the natural capital framework </th>
-          <td>
             
-              
-                  <ul style="list-style-type:disc;">
-                    <li>Pressure on natural capital assets</li>
-                  </ul>
-              
+                <ul style="list-style-type:disc;">
+                  <li>Pressure on natural capital assets</li>
+                </ul>
             
-          </td>
-          </tr>
+        
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      <tr>
+        <th scope="row">Related reporting commitments </th>
+        <td>
           
-        
-    
-        
-          
-        
-        <tr>
-          <th scope="row">Related reporting commitments </th>
-          <td>
-            
-              <ul>
+            <ul>
   <li>Links to the UN Sustainable Development Goals 8 and 12</li>
 </ul>
 
-            
-          </td>
-          </tr>
           
+        </td>
+        </tr>
         
-    
+      
+  
+      
         
+      
+      <tr>
+        <th scope="row">Geographic scope </th>
+        <td>
           
-        
-        <tr>
-          <th scope="row">Geographic scope </th>
-          <td>
-            
-              <p>England</p>
+            <p>England</p>
 
-            
-          </td>
-          </tr>
           
+        </td>
+        </tr>
         
-    
+      
+  
+      
         
+      
+      <tr>
+        <th scope="row">Status of indicator development </th>
+        <td>
           
-        
-        <tr>
-          <th scope="row">Status of indicator development </th>
-          <td>
-            
-              <p>Final</p>
+            <p>Final</p>
 
-            
-          </td>
-          </tr>
           
+        </td>
+        </tr>
         
-    
-    
+      
+  
+  
+      
         
+      
+      <tr>
+        <th scope="row">Date last updated </th>
+        <td>
           
-        
-        <tr>
-          <th scope="row">Date last updated </th>
-          <td>
-            
-              <p>11 June 2021</p>
-
-            
-          </td>
-          </tr>
+          May 19, 2022
           
+        </td>
+        </tr>
         
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  </table>
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
     </article>
   </div>
 </div>
-
   
   
 </div>
@@ -1780,9 +2115,10 @@ data-event-label="Change to National Metadata tab"
 
 </div>
 
+
 <footer role="contentinfo">
   <div class="container">
-    <div class="row">
+    <div class="oif-row">
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
@@ -1793,16 +2129,24 @@ data-event-label="Change to National Metadata tab"
                 
                 </li>
               <li>
+                <a href="/about/">About</a>
+                
+                </li>
+              <li>
                 
                   <a href="https://twitter.com/defragovuk" target="_blank">Twitter</a>
                 
                 </li>
               <li>
-                <a href="/about/cookies-and-privacy/">Cookies</a>
+                <a href="/cookies-and-privacy/">Cookies</a>
                 
                 </li>
               <li>
-                <a href="/about/accessibility-statement/">Accessibility statement</a>
+                <a href="/accessibility-statement/">Accessibility statement</a>
+                
+                </li>
+              <li>
+                <a href="/official-statistics/">Official statistics</a>
                 
                 </li>
               
@@ -1811,6 +2155,7 @@ data-event-label="Change to National Metadata tab"
         </div>
       </div>
     </div>
+    
   </div>
 </footer>
 
@@ -1819,7 +2164,6 @@ data-event-label="Change to National Metadata tab"
 
 <!-- /.container </div> -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
@@ -1890,19 +2234,18 @@ data-event-label="Change to National Metadata tab"
   };
   CookieControl.load(cookieControlConfig);
 </script>
-
 <script>translations['general'] = translations['general'] || {};
     translations['general']['hide'] = 'hide';</script>
 
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/assets/js/sdg.js?v=20220518182705'></script>
+<script src='/assets/js/sdg.js?v=20220805092744'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20220518182705"></script><script>
+    <script src="/assets/js/custom.js?v=20220805092744"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
@@ -1945,9 +2288,13 @@ $(function() {
               graphLimits: domData.graphlimits,
               stackedDisaggregation: domData.stackeddisaggregation,
               categoryOrder: domData.categoryorder,
+              stackOrder: domData.stackorder,
               categoryColor: domData.categorycolor,
               graphAnnotations: domData.graphannotations,
+              graphTargetLines: domData.graphtargetlines,
+              graphSeriesBreaks: domData.graphseriesbreaks,
               indicatorDownloads: domData.indicatordownloads,
+              dataSchema: domData.dataschema,
               compositeBreakdownLabel: domData.compositebreakdownlabel,
               precision: domData.precision,
               continuousError: domData.continuouserror,
@@ -1957,6 +2304,7 @@ $(function() {
               graphSources: domData.graphsources,
               graphNote: domData.graphnote,
               graphNotes: domData.graphnotes,
+              yAxisLabels: domData.yaxislabels
             }),
             view  = new indicatorView(model, {
               rootElement: '#indicatorData',
@@ -1977,7 +2325,6 @@ $(function() {
     }
 });
 </script>
-
   
 </body>
 </html>

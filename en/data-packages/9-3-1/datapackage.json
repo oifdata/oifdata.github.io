@@ -1,0 +1,42 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Reporting type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Household waste recycling rate (2000/2001 to 2010/2011)",
+                "Waste from households recycling rate (2010/2011 to 2020/2021)"
+              ]
+            },
+            "title": "Reporting type"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "9-3-1",
+  "title": "Municipal waste recycling rates"
+}

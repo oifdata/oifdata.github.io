@@ -1,42 +1,42 @@
 Year,Series,Trendline,Category,Value
-1980,D7i (interim),Indicator (mean occupancy),,100.0
-1981,D7i (interim),Indicator (mean occupancy),,97.85169299286748
-1982,D7i (interim),Indicator (mean occupancy),,97.59985683369604
-1983,D7i (interim),Indicator (mean occupancy),,97.38070884171384
-1984,D7i (interim),Indicator (mean occupancy),,98.66022503699836
-1985,D7i (interim),Indicator (mean occupancy),,100.8970605024404
-1986,D7i (interim),Indicator (mean occupancy),,102.621370084798
-1987,D7i (interim),Indicator (mean occupancy),,105.41467321576764
-1988,D7i (interim),Indicator (mean occupancy),,101.23147494768769
-1989,D7i (interim),Indicator (mean occupancy),,98.19500633718437
-1990,D7i (interim),Indicator (mean occupancy),,95.73451174062158
-1991,D7i (interim),Indicator (mean occupancy),,93.84268182694788
-1992,D7i (interim),Indicator (mean occupancy),,93.33918766577708
-1993,D7i (interim),Indicator (mean occupancy),,92.84001303429302
-1994,D7i (interim),Indicator (mean occupancy),,94.1555438463688
-1995,D7i (interim),Indicator (mean occupancy),,92.78704271052092
-1996,D7i (interim),Indicator (mean occupancy),,90.21152470517458
-1997,D7i (interim),Indicator (mean occupancy),,86.89566632990397
-1998,D7i (interim),Indicator (mean occupancy),,84.38509615527227
-1999,D7i (interim),Indicator (mean occupancy),,83.54746305145477
-2000,D7i (interim),Indicator (mean occupancy),,82.21016113185198
-2001,D7i (interim),Indicator (mean occupancy),,80.29375454123232
-2002,D7i (interim),Indicator (mean occupancy),,81.58683924928066
-2003,D7i (interim),Indicator (mean occupancy),,81.8541342992891
-2004,D7i (interim),Indicator (mean occupancy),,80.685404299753
-2005,D7i (interim),Indicator (mean occupancy),,80.43269006141799
-2006,D7i (interim),Indicator (mean occupancy),,81.29942830066321
-2007,D7i (interim),Indicator (mean occupancy),,80.00684516848503
-2008,D7i (interim),Indicator (mean occupancy),,79.09277200966719
-2009,D7i (interim),Indicator (mean occupancy),,77.7909166150883
-2010,D7i (interim),Indicator (mean occupancy),,75.4300542081724
-2011,D7i (interim),Indicator (mean occupancy),,72.88326748388978
-2012,D7i (interim),Indicator (mean occupancy),,71.13967778986724
-2013,D7i (interim),Indicator (mean occupancy),,70.17930135204028
-2014,D7i (interim),Indicator (mean occupancy),,70.16136362473185
-2015,D7i (interim),Indicator (mean occupancy),,69.84981709218958
-2016,D7i (interim),Indicator (mean occupancy),,70.2027670745879
-2017,D7i (interim),Indicator (mean occupancy),,69.9426781235967
+1980,D7i (interim),Unsmoothed index,,100.0
+1981,D7i (interim),Unsmoothed index,,97.85169299286748
+1982,D7i (interim),Unsmoothed index,,97.59985683369604
+1983,D7i (interim),Unsmoothed index,,97.38070884171384
+1984,D7i (interim),Unsmoothed index,,98.66022503699836
+1985,D7i (interim),Unsmoothed index,,100.8970605024404
+1986,D7i (interim),Unsmoothed index,,102.621370084798
+1987,D7i (interim),Unsmoothed index,,105.41467321576764
+1988,D7i (interim),Unsmoothed index,,101.23147494768769
+1989,D7i (interim),Unsmoothed index,,98.19500633718437
+1990,D7i (interim),Unsmoothed index,,95.73451174062158
+1991,D7i (interim),Unsmoothed index,,93.84268182694788
+1992,D7i (interim),Unsmoothed index,,93.33918766577708
+1993,D7i (interim),Unsmoothed index,,92.84001303429302
+1994,D7i (interim),Unsmoothed index,,94.1555438463688
+1995,D7i (interim),Unsmoothed index,,92.78704271052092
+1996,D7i (interim),Unsmoothed index,,90.21152470517458
+1997,D7i (interim),Unsmoothed index,,86.89566632990397
+1998,D7i (interim),Unsmoothed index,,84.38509615527227
+1999,D7i (interim),Unsmoothed index,,83.54746305145477
+2000,D7i (interim),Unsmoothed index,,82.21016113185198
+2001,D7i (interim),Unsmoothed index,,80.29375454123232
+2002,D7i (interim),Unsmoothed index,,81.58683924928066
+2003,D7i (interim),Unsmoothed index,,81.8541342992891
+2004,D7i (interim),Unsmoothed index,,80.685404299753
+2005,D7i (interim),Unsmoothed index,,80.43269006141799
+2006,D7i (interim),Unsmoothed index,,81.29942830066321
+2007,D7i (interim),Unsmoothed index,,80.00684516848503
+2008,D7i (interim),Unsmoothed index,,79.09277200966719
+2009,D7i (interim),Unsmoothed index,,77.7909166150883
+2010,D7i (interim),Unsmoothed index,,75.4300542081724
+2011,D7i (interim),Unsmoothed index,,72.88326748388978
+2012,D7i (interim),Unsmoothed index,,71.13967778986724
+2013,D7i (interim),Unsmoothed index,,70.17930135204028
+2014,D7i (interim),Unsmoothed index,,70.16136362473185
+2015,D7i (interim),Unsmoothed index,,69.84981709218958
+2016,D7i (interim),Unsmoothed index,,70.2027670745879
+2017,D7i (interim),Unsmoothed index,,69.9426781235967
 1980,D7i (interim),90% credible interval - minimum,,100.0
 1981,D7i (interim),90% credible interval - minimum,,95.35201663637378
 1982,D7i (interim),90% credible interval - minimum,,94.26108473271952

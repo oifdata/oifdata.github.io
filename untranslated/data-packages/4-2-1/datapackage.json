@@ -1,0 +1,61 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "D2a (interim)",
+                "D2b (interim)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Site Type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Sites on land & water",
+                "Sites at sea",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Site Condition",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Favourable condition",
+                "Unfavourable recovering condition",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "4-2-1",
+  "title": "Extent and condition of protected sites – land, water and sea"
+}

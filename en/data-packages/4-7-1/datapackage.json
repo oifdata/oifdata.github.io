@@ -1,0 +1,70 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Category",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Little or no change",
+                "Strong decline",
+                "Strong increase",
+                "Weak decline",
+                "Weak increase"
+              ]
+            },
+            "title": "Category"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "D7i (interim)",
+                "D7ii (interim)"
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Trendline",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "90% credible interval - maximum",
+                "90% credible interval - minimum",
+                "Unsmoothed index"
+              ]
+            },
+            "title": "Trendline"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "4-7-1",
+  "title": "Species supporting ecosystem functions"
+}

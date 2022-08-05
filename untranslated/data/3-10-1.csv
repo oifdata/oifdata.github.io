@@ -1,175 +1,241 @@
 Year,Series,Category,Value
-1990,C10a (interim),Percentage unknown,47.368421052631575
-1991,C10a (interim),Percentage unknown,43.85964912280701
-1992,C10a (interim),Percentage unknown,42.10526315789473
-1993,C10a (interim),Percentage unknown,35.08771929824561
-1994,C10a (interim),Percentage unknown,33.33333333333333
-1995,C10a (interim),Percentage unknown,35.08771929824561
-1996,C10a (interim),Percentage unknown,31.57894736842105
-1997,C10a (interim),Percentage unknown,35.08771929824561
-1998,C10a (interim),Percentage unknown,31.57894736842105
-1999,C10a (interim),Percentage unknown,29.82456140350877
-2000,C10a (interim),Percentage unknown,29.82456140350877
-2001,C10a (interim),Percentage unknown,26.31578947368421
-2002,C10a (interim),Percentage unknown,26.31578947368421
-2003,C10a (interim),Percentage unknown,22.807017543859647
-2004,C10a (interim),Percentage unknown,24.561403508771928
-2005,C10a (interim),Percentage unknown,22.807017543859647
-2006,C10a (interim),Percentage unknown,22.807017543859647
-2007,C10a (interim),Percentage unknown,22.807017543859647
-2008,C10a (interim),Percentage unknown,22.807017543859647
-2009,C10a (interim),Percentage unknown,21.052631578947366
-2010,C10a (interim),Percentage unknown,22.807017543859647
-2011,C10a (interim),Percentage unknown,22.807017543859647
-2012,C10a (interim),Percentage unknown,21.052631578947366
-2013,C10a (interim),Percentage unknown,19.29824561403509
-2014,C10a (interim),Percentage unknown,19.29824561403509
-2015,C10a (interim),Percentage unknown,19.29824561403509
-2016,C10a (interim),Percentage unknown,19.29824561403509
-2017,C10a (interim),Percentage unknown,19.29824561403509
+1990,C10a (interim),Percentage unknown,49.122807017543856
+1991,C10a (interim),Percentage unknown,45.614035087719294
+1992,C10a (interim),Percentage unknown,43.85964912280701
+1993,C10a (interim),Percentage unknown,36.84210526315789
+1994,C10a (interim),Percentage unknown,35.08771929824561
+1995,C10a (interim),Percentage unknown,36.84210526315789
+1996,C10a (interim),Percentage unknown,33.33333333333333
+1997,C10a (interim),Percentage unknown,36.84210526315789
+1998,C10a (interim),Percentage unknown,33.33333333333333
+1999,C10a (interim),Percentage unknown,31.57894736842105
+2000,C10a (interim),Percentage unknown,31.57894736842105
+2001,C10a (interim),Percentage unknown,28.07017543859649
+2002,C10a (interim),Percentage unknown,28.07017543859649
+2003,C10a (interim),Percentage unknown,24.561403508771928
+2004,C10a (interim),Percentage unknown,26.31578947368421
+2005,C10a (interim),Percentage unknown,24.561403508771928
+2006,C10a (interim),Percentage unknown,24.561403508771928
+2007,C10a (interim),Percentage unknown,24.561403508771928
+2008,C10a (interim),Percentage unknown,24.561403508771928
+2009,C10a (interim),Percentage unknown,22.807017543859647
+2010,C10a (interim),Percentage unknown,24.561403508771928
+2011,C10a (interim),Percentage unknown,24.561403508771928
+2012,C10a (interim),Percentage unknown,22.807017543859647
+2013,C10a (interim),Percentage unknown,21.052631578947366
+2014,C10a (interim),Percentage unknown,21.052631578947366
+2015,C10a (interim),Percentage unknown,21.052631578947366
+2016,C10a (interim),Percentage unknown,21.052631578947366
+2017,C10a (interim),Percentage unknown,21.052631578947366
 2018,C10a (interim),Percentage unknown,21.052631578947366
-1990,C10a (interim),Percentage above FMSY,43.85964912280701
-1991,C10a (interim),Percentage above FMSY,47.368421052631575
-1992,C10a (interim),Percentage above FMSY,49.122807017543856
-1993,C10a (interim),Percentage above FMSY,57.89473684210527
-1994,C10a (interim),Percentage above FMSY,56.14035087719298
-1995,C10a (interim),Percentage above FMSY,61.40350877192983
-1996,C10a (interim),Percentage above FMSY,63.1578947368421
-1997,C10a (interim),Percentage above FMSY,59.64912280701754
-1998,C10a (interim),Percentage above FMSY,64.91228070175438
-1999,C10a (interim),Percentage above FMSY,66.66666666666666
-2000,C10a (interim),Percentage above FMSY,64.91228070175438
-2001,C10a (interim),Percentage above FMSY,66.66666666666666
-2002,C10a (interim),Percentage above FMSY,61.40350877192983
-2003,C10a (interim),Percentage above FMSY,56.14035087719298
-2004,C10a (interim),Percentage above FMSY,57.89473684210527
-2005,C10a (interim),Percentage above FMSY,63.1578947368421
-2006,C10a (interim),Percentage above FMSY,63.1578947368421
-2007,C10a (interim),Percentage above FMSY,61.40350877192983
-2008,C10a (interim),Percentage above FMSY,57.89473684210527
-2009,C10a (interim),Percentage above FMSY,56.14035087719298
-2010,C10a (interim),Percentage above FMSY,49.122807017543856
-2011,C10a (interim),Percentage above FMSY,45.614035087719294
-2012,C10a (interim),Percentage above FMSY,45.614035087719294
-2013,C10a (interim),Percentage above FMSY,35.08771929824561
-2014,C10a (interim),Percentage above FMSY,38.59649122807017
-2015,C10a (interim),Percentage above FMSY,35.08771929824561
-2016,C10a (interim),Percentage above FMSY,38.59649122807017
-2017,C10a (interim),Percentage above FMSY,40.35087719298245
-2018,C10a (interim),Percentage above FMSY,28.07017543859649
-1990,C10a (interim),Percentage below FMSY,8.771929824561402
-1991,C10a (interim),Percentage below FMSY,8.771929824561402
-1992,C10a (interim),Percentage below FMSY,8.771929824561402
-1993,C10a (interim),Percentage below FMSY,7.017543859649122
-1994,C10a (interim),Percentage below FMSY,10.526315789473683
-1995,C10a (interim),Percentage below FMSY,3.508771929824561
-1996,C10a (interim),Percentage below FMSY,5.263157894736842
-1997,C10a (interim),Percentage below FMSY,5.263157894736842
-1998,C10a (interim),Percentage below FMSY,3.508771929824561
-1999,C10a (interim),Percentage below FMSY,3.508771929824561
-2000,C10a (interim),Percentage below FMSY,5.263157894736842
-2001,C10a (interim),Percentage below FMSY,7.017543859649122
-2002,C10a (interim),Percentage below FMSY,12.280701754385964
-2003,C10a (interim),Percentage below FMSY,21.052631578947366
-2004,C10a (interim),Percentage below FMSY,17.543859649122805
-2005,C10a (interim),Percentage below FMSY,14.035087719298245
-2006,C10a (interim),Percentage below FMSY,14.035087719298245
-2007,C10a (interim),Percentage below FMSY,15.789473684210526
-2008,C10a (interim),Percentage below FMSY,19.29824561403509
-2009,C10a (interim),Percentage below FMSY,22.807017543859647
-2010,C10a (interim),Percentage below FMSY,28.07017543859649
-2011,C10a (interim),Percentage below FMSY,31.57894736842105
-2012,C10a (interim),Percentage below FMSY,33.33333333333333
-2013,C10a (interim),Percentage below FMSY,45.614035087719294
-2014,C10a (interim),Percentage below FMSY,42.10526315789473
-2015,C10a (interim),Percentage below FMSY,45.614035087719294
-2016,C10a (interim),Percentage below FMSY,42.10526315789473
-2017,C10a (interim),Percentage below FMSY,40.35087719298245
-2018,C10a (interim),Percentage below FMSY,50.877192982456144
-1990,C10b (interim),Percentage unknown,45.614035087719294
-1991,C10b (interim),Percentage unknown,42.10526315789473
-1992,C10b (interim),Percentage unknown,40.35087719298245
-1993,C10b (interim),Percentage unknown,33.33333333333333
-1994,C10b (interim),Percentage unknown,31.57894736842105
-1995,C10b (interim),Percentage unknown,33.33333333333333
-1996,C10b (interim),Percentage unknown,29.82456140350877
-1997,C10b (interim),Percentage unknown,31.57894736842105
-1998,C10b (interim),Percentage unknown,28.07017543859649
-1999,C10b (interim),Percentage unknown,26.31578947368421
-2000,C10b (interim),Percentage unknown,26.31578947368421
-2001,C10b (interim),Percentage unknown,24.561403508771928
-2002,C10b (interim),Percentage unknown,24.561403508771928
-2003,C10b (interim),Percentage unknown,22.807017543859647
-2004,C10b (interim),Percentage unknown,22.807017543859647
-2005,C10b (interim),Percentage unknown,22.807017543859647
-2006,C10b (interim),Percentage unknown,22.807017543859647
-2007,C10b (interim),Percentage unknown,22.807017543859647
-2008,C10b (interim),Percentage unknown,21.052631578947366
-2009,C10b (interim),Percentage unknown,21.052631578947366
-2010,C10b (interim),Percentage unknown,21.052631578947366
-2011,C10b (interim),Percentage unknown,21.052631578947366
-2012,C10b (interim),Percentage unknown,21.052631578947366
-2013,C10b (interim),Percentage unknown,21.052631578947366
-2014,C10b (interim),Percentage unknown,21.052631578947366
-2015,C10b (interim),Percentage unknown,21.052631578947366
-2016,C10b (interim),Percentage unknown,21.052631578947366
-2017,C10b (interim),Percentage unknown,21.052631578947366
-2018,C10b (interim),Percentage unknown,21.052631578947366
-1990,C10b (interim),Percentage below MSY Btrigger,22.807017543859647
-1991,C10b (interim),Percentage below MSY Btrigger,28.07017543859649
-1992,C10b (interim),Percentage below MSY Btrigger,28.07017543859649
-1993,C10b (interim),Percentage below MSY Btrigger,29.82456140350877
-1994,C10b (interim),Percentage below MSY Btrigger,29.82456140350877
-1995,C10b (interim),Percentage below MSY Btrigger,31.57894736842105
-1996,C10b (interim),Percentage below MSY Btrigger,33.33333333333333
-1997,C10b (interim),Percentage below MSY Btrigger,31.57894736842105
-1998,C10b (interim),Percentage below MSY Btrigger,29.82456140350877
-1999,C10b (interim),Percentage below MSY Btrigger,29.82456140350877
-2000,C10b (interim),Percentage below MSY Btrigger,33.33333333333333
-2001,C10b (interim),Percentage below MSY Btrigger,29.82456140350877
-2002,C10b (interim),Percentage below MSY Btrigger,29.82456140350877
-2003,C10b (interim),Percentage below MSY Btrigger,31.57894736842105
-2004,C10b (interim),Percentage below MSY Btrigger,29.82456140350877
-2005,C10b (interim),Percentage below MSY Btrigger,33.33333333333333
-2006,C10b (interim),Percentage below MSY Btrigger,33.33333333333333
-2007,C10b (interim),Percentage below MSY Btrigger,35.08771929824561
-2008,C10b (interim),Percentage below MSY Btrigger,31.57894736842105
-2009,C10b (interim),Percentage below MSY Btrigger,29.82456140350877
-2010,C10b (interim),Percentage below MSY Btrigger,22.807017543859647
-2011,C10b (interim),Percentage below MSY Btrigger,19.29824561403509
-2012,C10b (interim),Percentage below MSY Btrigger,22.807017543859647
-2013,C10b (interim),Percentage below MSY Btrigger,21.052631578947366
-2014,C10b (interim),Percentage below MSY Btrigger,19.29824561403509
-2015,C10b (interim),Percentage below MSY Btrigger,19.29824561403509
-2016,C10b (interim),Percentage below MSY Btrigger,21.052631578947366
-2017,C10b (interim),Percentage below MSY Btrigger,17.543859649122805
-2018,C10b (interim),Percentage below MSY Btrigger,17.543859649122805
-1990,C10b (interim),Percentage above MSY Btrigger,31.57894736842105
-1991,C10b (interim),Percentage above MSY Btrigger,29.82456140350877
-1992,C10b (interim),Percentage above MSY Btrigger,31.57894736842105
-1993,C10b (interim),Percentage above MSY Btrigger,36.84210526315789
-1994,C10b (interim),Percentage above MSY Btrigger,38.59649122807017
-1995,C10b (interim),Percentage above MSY Btrigger,35.08771929824561
-1996,C10b (interim),Percentage above MSY Btrigger,36.84210526315789
-1997,C10b (interim),Percentage above MSY Btrigger,36.84210526315789
-1998,C10b (interim),Percentage above MSY Btrigger,42.10526315789473
-1999,C10b (interim),Percentage above MSY Btrigger,43.85964912280701
-2000,C10b (interim),Percentage above MSY Btrigger,40.35087719298245
-2001,C10b (interim),Percentage above MSY Btrigger,45.614035087719294
-2002,C10b (interim),Percentage above MSY Btrigger,45.614035087719294
-2003,C10b (interim),Percentage above MSY Btrigger,45.614035087719294
-2004,C10b (interim),Percentage above MSY Btrigger,47.368421052631575
-2005,C10b (interim),Percentage above MSY Btrigger,43.85964912280701
-2006,C10b (interim),Percentage above MSY Btrigger,43.85964912280701
-2007,C10b (interim),Percentage above MSY Btrigger,42.10526315789473
-2008,C10b (interim),Percentage above MSY Btrigger,47.368421052631575
-2009,C10b (interim),Percentage above MSY Btrigger,49.122807017543856
-2010,C10b (interim),Percentage above MSY Btrigger,56.14035087719298
-2011,C10b (interim),Percentage above MSY Btrigger,59.64912280701754
-2012,C10b (interim),Percentage above MSY Btrigger,56.14035087719298
-2013,C10b (interim),Percentage above MSY Btrigger,57.89473684210527
-2014,C10b (interim),Percentage above MSY Btrigger,59.64912280701754
-2015,C10b (interim),Percentage above MSY Btrigger,59.64912280701754
-2016,C10b (interim),Percentage above MSY Btrigger,57.89473684210527
-2017,C10b (interim),Percentage above MSY Btrigger,61.40350877192983
-2018,C10b (interim),Percentage above MSY Btrigger,61.40350877192983
+2019,C10a (interim),Percentage unknown,22.807017543859647
+1990,C10a (interim),Percentage greater than FMSY and greater than F upper (where available),42.10526315789473
+1991,C10a (interim),Percentage greater than FMSY and greater than F upper (where available),43.85964912280701
+1992,C10a (interim),Percentage greater than FMSY and greater than F upper (where available),42.10526315789473
+1993,C10a (interim),Percentage greater than FMSY and greater than F upper (where available),52.63157894736842
+1994,C10a (interim),Percentage greater than FMSY and greater than F upper (where available),52.63157894736842
+1995,C10a (interim),Percentage greater than FMSY and greater than F upper (where available),56.14035087719298
+1996,C10a (interim),Percentage greater than FMSY and greater than F upper (where available),59.64912280701754
+1997,C10a (interim),Percentage greater than FMSY and greater than F upper (where available),54.38596491228071
+1998,C10a (interim),Percentage greater than FMSY and greater than F upper (where available),59.64912280701754
+1999,C10a (interim),Percentage greater than FMSY and greater than F upper (where available),63.1578947368421
+2000,C10a (interim),Percentage greater than FMSY and greater than F upper (where available),59.64912280701754
+2001,C10a (interim),Percentage greater than FMSY and greater than F upper (where available),61.40350877192983
+2002,C10a (interim),Percentage greater than FMSY and greater than F upper (where available),54.38596491228071
+2003,C10a (interim),Percentage greater than FMSY and greater than F upper (where available),50.877192982456144
+2004,C10a (interim),Percentage greater than FMSY and greater than F upper (where available),52.63157894736842
+2005,C10a (interim),Percentage greater than FMSY and greater than F upper (where available),56.14035087719298
+2006,C10a (interim),Percentage greater than FMSY and greater than F upper (where available),56.14035087719298
+2007,C10a (interim),Percentage greater than FMSY and greater than F upper (where available),56.14035087719298
+2008,C10a (interim),Percentage greater than FMSY and greater than F upper (where available),54.38596491228071
+2009,C10a (interim),Percentage greater than FMSY and greater than F upper (where available),54.38596491228071
+2010,C10a (interim),Percentage greater than FMSY and greater than F upper (where available),47.368421052631575
+2011,C10a (interim),Percentage greater than FMSY and greater than F upper (where available),42.10526315789473
+2012,C10a (interim),Percentage greater than FMSY and greater than F upper (where available),42.10526315789473
+2013,C10a (interim),Percentage greater than FMSY and greater than F upper (where available),31.57894736842105
+2014,C10a (interim),Percentage greater than FMSY and greater than F upper (where available),40.35087719298245
+2015,C10a (interim),Percentage greater than FMSY and greater than F upper (where available),35.08771929824561
+2016,C10a (interim),Percentage greater than FMSY and greater than F upper (where available),29.82456140350877
+2017,C10a (interim),Percentage greater than FMSY and greater than F upper (where available),35.08771929824561
+2018,C10a (interim),Percentage greater than FMSY and greater than F upper (where available),22.807017543859647
+2019,C10a (interim),Percentage greater than FMSY and greater than F upper (where available),26.31578947368421
+1990,C10a (interim),Percentage less than or equal to FMSY,8.771929824561402
+1991,C10a (interim),Percentage less than or equal to FMSY,8.771929824561402
+1992,C10a (interim),Percentage less than or equal to FMSY,10.526315789473683
+1993,C10a (interim),Percentage less than or equal to FMSY,7.017543859649122
+1994,C10a (interim),Percentage less than or equal to FMSY,10.526315789473683
+1995,C10a (interim),Percentage less than or equal to FMSY,3.508771929824561
+1996,C10a (interim),Percentage less than or equal to FMSY,5.263157894736842
+1997,C10a (interim),Percentage less than or equal to FMSY,5.263157894736842
+1998,C10a (interim),Percentage less than or equal to FMSY,3.508771929824561
+1999,C10a (interim),Percentage less than or equal to FMSY,3.508771929824561
+2000,C10a (interim),Percentage less than or equal to FMSY,5.263157894736842
+2001,C10a (interim),Percentage less than or equal to FMSY,7.017543859649122
+2002,C10a (interim),Percentage less than or equal to FMSY,12.280701754385964
+2003,C10a (interim),Percentage less than or equal to FMSY,19.29824561403509
+2004,C10a (interim),Percentage less than or equal to FMSY,15.789473684210526
+2005,C10a (interim),Percentage less than or equal to FMSY,12.280701754385964
+2006,C10a (interim),Percentage less than or equal to FMSY,10.526315789473683
+2007,C10a (interim),Percentage less than or equal to FMSY,15.789473684210526
+2008,C10a (interim),Percentage less than or equal to FMSY,17.543859649122805
+2009,C10a (interim),Percentage less than or equal to FMSY,19.29824561403509
+2010,C10a (interim),Percentage less than or equal to FMSY,24.561403508771928
+2011,C10a (interim),Percentage less than or equal to FMSY,24.561403508771928
+2012,C10a (interim),Percentage less than or equal to FMSY,29.82456140350877
+2013,C10a (interim),Percentage less than or equal to FMSY,38.59649122807017
+2014,C10a (interim),Percentage less than or equal to FMSY,33.33333333333333
+2015,C10a (interim),Percentage less than or equal to FMSY,36.84210526315789
+2016,C10a (interim),Percentage less than or equal to FMSY,40.35087719298245
+2017,C10a (interim),Percentage less than or equal to FMSY,35.08771929824561
+2018,C10a (interim),Percentage less than or equal to FMSY,47.368421052631575
+2019,C10a (interim),Percentage less than or equal to FMSY,43.85964912280701
+1990,C10a (interim),Percentage in FMSY range that is between FMSY and F upper (where available),0.0
+1991,C10a (interim),Percentage in FMSY range that is between FMSY and F upper (where available),1.7543859649122806
+1992,C10a (interim),Percentage in FMSY range that is between FMSY and F upper (where available),3.508771929824561
+1993,C10a (interim),Percentage in FMSY range that is between FMSY and F upper (where available),3.508771929824561
+1994,C10a (interim),Percentage in FMSY range that is between FMSY and F upper (where available),1.7543859649122806
+1995,C10a (interim),Percentage in FMSY range that is between FMSY and F upper (where available),3.508771929824561
+1996,C10a (interim),Percentage in FMSY range that is between FMSY and F upper (where available),1.7543859649122806
+1997,C10a (interim),Percentage in FMSY range that is between FMSY and F upper (where available),3.508771929824561
+1998,C10a (interim),Percentage in FMSY range that is between FMSY and F upper (where available),3.508771929824561
+1999,C10a (interim),Percentage in FMSY range that is between FMSY and F upper (where available),1.7543859649122806
+2000,C10a (interim),Percentage in FMSY range that is between FMSY and F upper (where available),3.508771929824561
+2001,C10a (interim),Percentage in FMSY range that is between FMSY and F upper (where available),3.508771929824561
+2002,C10a (interim),Percentage in FMSY range that is between FMSY and F upper (where available),5.263157894736842
+2003,C10a (interim),Percentage in FMSY range that is between FMSY and F upper (where available),5.263157894736842
+2004,C10a (interim),Percentage in FMSY range that is between FMSY and F upper (where available),5.263157894736842
+2005,C10a (interim),Percentage in FMSY range that is between FMSY and F upper (where available),7.017543859649122
+2006,C10a (interim),Percentage in FMSY range that is between FMSY and F upper (where available),8.771929824561402
+2007,C10a (interim),Percentage in FMSY range that is between FMSY and F upper (where available),3.508771929824561
+2008,C10a (interim),Percentage in FMSY range that is between FMSY and F upper (where available),3.508771929824561
+2009,C10a (interim),Percentage in FMSY range that is between FMSY and F upper (where available),3.508771929824561
+2010,C10a (interim),Percentage in FMSY range that is between FMSY and F upper (where available),3.508771929824561
+2011,C10a (interim),Percentage in FMSY range that is between FMSY and F upper (where available),8.771929824561402
+2012,C10a (interim),Percentage in FMSY range that is between FMSY and F upper (where available),5.263157894736842
+2013,C10a (interim),Percentage in FMSY range that is between FMSY and F upper (where available),8.771929824561402
+2014,C10a (interim),Percentage in FMSY range that is between FMSY and F upper (where available),5.263157894736842
+2015,C10a (interim),Percentage in FMSY range that is between FMSY and F upper (where available),7.017543859649122
+2016,C10a (interim),Percentage in FMSY range that is between FMSY and F upper (where available),8.771929824561402
+2017,C10a (interim),Percentage in FMSY range that is between FMSY and F upper (where available),8.771929824561402
+2018,C10a (interim),Percentage in FMSY range that is between FMSY and F upper (where available),8.771929824561402
+2019,C10a (interim),Percentage in FMSY range that is between FMSY and F upper (where available),7.017543859649122
+1990,C10b (interim),Percentage unknown,47.368421052631575
+1991,C10b (interim),Percentage unknown,43.85964912280701
+1992,C10b (interim),Percentage unknown,42.10526315789473
+1993,C10b (interim),Percentage unknown,35.08771929824561
+1994,C10b (interim),Percentage unknown,33.33333333333333
+1995,C10b (interim),Percentage unknown,35.08771929824561
+1996,C10b (interim),Percentage unknown,31.57894736842105
+1997,C10b (interim),Percentage unknown,33.33333333333333
+1998,C10b (interim),Percentage unknown,29.82456140350877
+1999,C10b (interim),Percentage unknown,28.07017543859649
+2000,C10b (interim),Percentage unknown,28.07017543859649
+2001,C10b (interim),Percentage unknown,26.31578947368421
+2002,C10b (interim),Percentage unknown,26.31578947368421
+2003,C10b (interim),Percentage unknown,24.561403508771928
+2004,C10b (interim),Percentage unknown,24.561403508771928
+2005,C10b (interim),Percentage unknown,24.561403508771928
+2006,C10b (interim),Percentage unknown,24.561403508771928
+2007,C10b (interim),Percentage unknown,24.561403508771928
+2008,C10b (interim),Percentage unknown,22.807017543859647
+2009,C10b (interim),Percentage unknown,22.807017543859647
+2010,C10b (interim),Percentage unknown,22.807017543859647
+2011,C10b (interim),Percentage unknown,22.807017543859647
+2012,C10b (interim),Percentage unknown,22.807017543859647
+2013,C10b (interim),Percentage unknown,22.807017543859647
+2014,C10b (interim),Percentage unknown,22.807017543859647
+2015,C10b (interim),Percentage unknown,22.807017543859647
+2016,C10b (interim),Percentage unknown,22.807017543859647
+2017,C10b (interim),Percentage unknown,22.807017543859647
+2018,C10b (interim),Percentage unknown,22.807017543859647
+2019,C10b (interim),Percentage unknown,22.807017543859647
+1990,C10b (interim),Percentage less than MSY Btrigger and less than Blim (where available),10.526315789473683
+1991,C10b (interim),Percentage less than MSY Btrigger and less than Blim (where available),12.280701754385964
+1992,C10b (interim),Percentage less than MSY Btrigger and less than Blim (where available),8.771929824561402
+1993,C10b (interim),Percentage less than MSY Btrigger and less than Blim (where available),12.280701754385964
+1994,C10b (interim),Percentage less than MSY Btrigger and less than Blim (where available),12.280701754385964
+1995,C10b (interim),Percentage less than MSY Btrigger and less than Blim (where available),15.789473684210526
+1996,C10b (interim),Percentage less than MSY Btrigger and less than Blim (where available),12.280701754385964
+1997,C10b (interim),Percentage less than MSY Btrigger and less than Blim (where available),12.280701754385964
+1998,C10b (interim),Percentage less than MSY Btrigger and less than Blim (where available),12.280701754385964
+1999,C10b (interim),Percentage less than MSY Btrigger and less than Blim (where available),12.280701754385964
+2000,C10b (interim),Percentage less than MSY Btrigger and less than Blim (where available),14.035087719298245
+2001,C10b (interim),Percentage less than MSY Btrigger and less than Blim (where available),15.789473684210526
+2002,C10b (interim),Percentage less than MSY Btrigger and less than Blim (where available),17.543859649122805
+2003,C10b (interim),Percentage less than MSY Btrigger and less than Blim (where available),19.29824561403509
+2004,C10b (interim),Percentage less than MSY Btrigger and less than Blim (where available),15.789473684210526
+2005,C10b (interim),Percentage less than MSY Btrigger and less than Blim (where available),17.543859649122805
+2006,C10b (interim),Percentage less than MSY Btrigger and less than Blim (where available),19.29824561403509
+2007,C10b (interim),Percentage less than MSY Btrigger and less than Blim (where available),19.29824561403509
+2008,C10b (interim),Percentage less than MSY Btrigger and less than Blim (where available),14.035087719298245
+2009,C10b (interim),Percentage less than MSY Btrigger and less than Blim (where available),17.543859649122805
+2010,C10b (interim),Percentage less than MSY Btrigger and less than Blim (where available),14.035087719298245
+2011,C10b (interim),Percentage less than MSY Btrigger and less than Blim (where available),10.526315789473683
+2012,C10b (interim),Percentage less than MSY Btrigger and less than Blim (where available),15.789473684210526
+2013,C10b (interim),Percentage less than MSY Btrigger and less than Blim (where available),10.526315789473683
+2014,C10b (interim),Percentage less than MSY Btrigger and less than Blim (where available),14.035087719298245
+2015,C10b (interim),Percentage less than MSY Btrigger and less than Blim (where available),14.035087719298245
+2016,C10b (interim),Percentage less than MSY Btrigger and less than Blim (where available),12.280701754385964
+2017,C10b (interim),Percentage less than MSY Btrigger and less than Blim (where available),15.789473684210526
+2018,C10b (interim),Percentage less than MSY Btrigger and less than Blim (where available),15.789473684210526
+2019,C10b (interim),Percentage less than MSY Btrigger and less than Blim (where available),15.789473684210526
+1990,C10b (interim),Percentage greater than or equal to MSY Btrigger,29.82456140350877
+1991,C10b (interim),Percentage greater than or equal to MSY Btrigger,31.57894736842105
+1992,C10b (interim),Percentage greater than or equal to MSY Btrigger,33.33333333333333
+1993,C10b (interim),Percentage greater than or equal to MSY Btrigger,36.84210526315789
+1994,C10b (interim),Percentage greater than or equal to MSY Btrigger,40.35087719298245
+1995,C10b (interim),Percentage greater than or equal to MSY Btrigger,35.08771929824561
+1996,C10b (interim),Percentage greater than or equal to MSY Btrigger,33.33333333333333
+1997,C10b (interim),Percentage greater than or equal to MSY Btrigger,36.84210526315789
+1998,C10b (interim),Percentage greater than or equal to MSY Btrigger,42.10526315789473
+1999,C10b (interim),Percentage greater than or equal to MSY Btrigger,42.10526315789473
+2000,C10b (interim),Percentage greater than or equal to MSY Btrigger,35.08771929824561
+2001,C10b (interim),Percentage greater than or equal to MSY Btrigger,42.10526315789473
+2002,C10b (interim),Percentage greater than or equal to MSY Btrigger,38.59649122807017
+2003,C10b (interim),Percentage greater than or equal to MSY Btrigger,45.614035087719294
+2004,C10b (interim),Percentage greater than or equal to MSY Btrigger,42.10526315789473
+2005,C10b (interim),Percentage greater than or equal to MSY Btrigger,40.35087719298245
+2006,C10b (interim),Percentage greater than or equal to MSY Btrigger,42.10526315789473
+2007,C10b (interim),Percentage greater than or equal to MSY Btrigger,38.59649122807017
+2008,C10b (interim),Percentage greater than or equal to MSY Btrigger,45.614035087719294
+2009,C10b (interim),Percentage greater than or equal to MSY Btrigger,49.122807017543856
+2010,C10b (interim),Percentage greater than or equal to MSY Btrigger,54.38596491228071
+2011,C10b (interim),Percentage greater than or equal to MSY Btrigger,59.64912280701754
+2012,C10b (interim),Percentage greater than or equal to MSY Btrigger,54.38596491228071
+2013,C10b (interim),Percentage greater than or equal to MSY Btrigger,56.14035087719298
+2014,C10b (interim),Percentage greater than or equal to MSY Btrigger,59.64912280701754
+2015,C10b (interim),Percentage greater than or equal to MSY Btrigger,57.89473684210527
+2016,C10b (interim),Percentage greater than or equal to MSY Btrigger,57.89473684210527
+2017,C10b (interim),Percentage greater than or equal to MSY Btrigger,57.89473684210527
+2018,C10b (interim),Percentage greater than or equal to MSY Btrigger,57.89473684210527
+2019,C10b (interim),Percentage greater than or equal to MSY Btrigger,57.89473684210527
+1990,C10b (interim),Percentage less than MSY Btrigger but greater than Blim (where available),12.280701754385964
+1991,C10b (interim),Percentage less than MSY Btrigger but greater than Blim (where available),12.280701754385964
+1992,C10b (interim),Percentage less than MSY Btrigger but greater than Blim (where available),15.789473684210526
+1993,C10b (interim),Percentage less than MSY Btrigger but greater than Blim (where available),15.789473684210526
+1994,C10b (interim),Percentage less than MSY Btrigger but greater than Blim (where available),14.035087719298245
+1995,C10b (interim),Percentage less than MSY Btrigger but greater than Blim (where available),14.035087719298245
+1996,C10b (interim),Percentage less than MSY Btrigger but greater than Blim (where available),22.807017543859647
+1997,C10b (interim),Percentage less than MSY Btrigger but greater than Blim (where available),17.543859649122805
+1998,C10b (interim),Percentage less than MSY Btrigger but greater than Blim (where available),15.789473684210526
+1999,C10b (interim),Percentage less than MSY Btrigger but greater than Blim (where available),17.543859649122805
+2000,C10b (interim),Percentage less than MSY Btrigger but greater than Blim (where available),22.807017543859647
+2001,C10b (interim),Percentage less than MSY Btrigger but greater than Blim (where available),15.789473684210526
+2002,C10b (interim),Percentage less than MSY Btrigger but greater than Blim (where available),17.543859649122805
+2003,C10b (interim),Percentage less than MSY Btrigger but greater than Blim (where available),10.526315789473683
+2004,C10b (interim),Percentage less than MSY Btrigger but greater than Blim (where available),17.543859649122805
+2005,C10b (interim),Percentage less than MSY Btrigger but greater than Blim (where available),17.543859649122805
+2006,C10b (interim),Percentage less than MSY Btrigger but greater than Blim (where available),14.035087719298245
+2007,C10b (interim),Percentage less than MSY Btrigger but greater than Blim (where available),17.543859649122805
+2008,C10b (interim),Percentage less than MSY Btrigger but greater than Blim (where available),17.543859649122805
+2009,C10b (interim),Percentage less than MSY Btrigger but greater than Blim (where available),10.526315789473683
+2010,C10b (interim),Percentage less than MSY Btrigger but greater than Blim (where available),8.771929824561402
+2011,C10b (interim),Percentage less than MSY Btrigger but greater than Blim (where available),7.017543859649122
+2012,C10b (interim),Percentage less than MSY Btrigger but greater than Blim (where available),7.017543859649122
+2013,C10b (interim),Percentage less than MSY Btrigger but greater than Blim (where available),10.526315789473683
+2014,C10b (interim),Percentage less than MSY Btrigger but greater than Blim (where available),3.508771929824561
+2015,C10b (interim),Percentage less than MSY Btrigger but greater than Blim (where available),5.263157894736842
+2016,C10b (interim),Percentage less than MSY Btrigger but greater than Blim (where available),7.017543859649122
+2017,C10b (interim),Percentage less than MSY Btrigger but greater than Blim (where available),3.508771929824561
+2018,C10b (interim),Percentage less than MSY Btrigger but greater than Blim (where available),3.508771929824561
+2019,C10b (interim),Percentage less than MSY Btrigger but greater than Blim (where available),3.508771929824561
