@@ -3,8 +3,75 @@
   "title": "All indicators",
   "resources": [
     {
-      "path": "3-10-1/data.csv",
-      "name": "3-10-1",
+      "path": "4-3-1/data.csv",
+      "name": "4-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Woodland Type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Broadleaf",
+                "Conifer",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Area of woodland in England"
+    },
+    {
+      "path": "1-5-1/data.csv",
+      "name": "1-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Annual Mean NO2 concentration (µg/m3)",
+                "Lower_CI_Bound",
+                "Upper_CI_Bound",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Roadside nitrogen dioxide (NO<sub>2</sub>) concentrations"
+    },
+    {
+      "path": "8-3-1/data.csv",
+      "name": "8-3-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -21,8 +88,116 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "C10a (interim)",
-                "C10b (interim)",
+                "H3a (interim)",
+                "H3b (interim)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Source",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Larger industrial sites",
+                "Crematoria",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Pollutant",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Dioxin-like Polychlorinated biphenyl",
+                "Dioxins and Furans",
+                "Hexachlorobenzene",
+                "Polychlorinated biphenyl",
+                "Polychlorinated naphthalenes",
+                "Pentachlorophenol",
+                "PentaChloroBenzine",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Emissions of mercury and persistent organic pollutants to the environment"
+    },
+    {
+      "path": "5-5-1/data.csv",
+      "name": "5-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Category",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Hardwood & softwood",
+                "Hardwood",
+                "Softwood",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Percentage of the annual growth of trees in English woodlands that is harvested"
+    },
+    {
+      "path": "4-6-1/data.csv",
+      "name": "4-6-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "D6ai (interim)",
+                "D6aii (interim)",
+                "D6bi (interim)",
+                "D6bii (interim)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Trendline type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Smoothed index",
+                "95% Credible interval min",
+                "95% Credible interval max",
                 ""
               ]
             }
@@ -32,13 +207,11 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Percentage unknown",
-                "Percentage greater than FMSY and greater than F upper (where available)",
-                "Percentage less than or equal to FMSY",
-                "Percentage in FMSY range that is between FMSY and F upper (where available)",
-                "Percentage less than MSY Btrigger and less than Blim (where available)",
-                "Percentage greater than or equal to MSY Btrigger",
-                "Percentage less than MSY Btrigger but greater than Blim (where available)",
+                "Strong decrease",
+                "Weak decrease",
+                "Little or no change",
+                "Weak increase",
+                "Strong increase",
                 ""
               ]
             }
@@ -49,11 +222,33 @@
           }
         ]
       },
-      "title": "Productive seas: fish and shellfish stocks fished sustainably"
+      "title": "Relative abundance and distribution of priority species in England"
     },
     {
-      "path": "7-6-1/data.csv",
-      "name": "7-6-1",
+      "path": "7-3-1/data.csv",
+      "name": "7-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Enhancement of green/blue infrastructure"
+    },
+    {
+      "path": "3-1-1/data.csv",
+      "name": "3-1-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -70,64 +265,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "G6 (interim)",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Environmental attitudes and behaviours"
-    },
-    {
-      "path": "1-3-1/data.csv",
-      "name": "1-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Concentrations of fine particulate matter (PM<sub>2.5</sub>) in the air"
-    },
-    {
-      "path": "3-3-1/data.csv",
-      "name": "3-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "C3ai (interim)",
-                "C3aii (interim)",
-                "C3bi (interim)",
-                "C3bii (interim)",
+                "C1a (interim)",
+                "C1b (interim)",
                 ""
               ]
             }
@@ -137,8 +276,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "North-east England (left axis)",
-                "South-east England (right axis)",
                 "Greater North Sea",
                 "Celtic Seas",
                 ""
@@ -151,11 +288,79 @@
           }
         ]
       },
-      "title": "Diverse seas: status of marine mammals and marine birds"
+      "title": "Clean seas: marine litter"
     },
     {
-      "path": "3-11-1/data.csv",
-      "name": "3-11-1",
+      "path": "9-4-1/data.csv",
+      "name": "9-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Destination",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Landfill",
+                "Incineration",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Residual waste arising by type and sector"
+    },
+    {
+      "path": "2-4-1/data.csv",
+      "name": "2-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Condition",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Excellent",
+                "Good",
+                "Sufficient",
+                "Poor",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Condition of bathing waters"
+    },
+    {
+      "path": "9-6-1/data.csv",
+      "name": "9-6-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -168,13 +373,34 @@
             "type": "string"
           },
           {
-            "name": "Status",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Declining",
-                "Stable",
-                "Increasing",
+                "J6a (interim)",
+                "J6b (interim)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Site type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total active sites",
+                "Active high-risk sites",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Methodology",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Old methodology",
+                "New methodology",
                 ""
               ]
             }
@@ -185,7 +411,40 @@
           }
         ]
       },
-      "title": "Productive seas: status of sensitive fish and shellfish stocks"
+      "title": "Waste Crime"
+    },
+    {
+      "path": "7-7-1/data.csv",
+      "name": "7-7-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "Health",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Physical health",
+                "Mental health",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Health and wellbeing benefits"
     },
     {
       "path": "2-3-1/data.csv",
@@ -253,52 +512,8 @@
       "title": "State of the water environment"
     },
     {
-      "path": "7-2-1/data.csv",
-      "name": "7-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string"
-          },
-          {
-            "name": "Assessment Year",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "2019",
-                "2021",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "G2a",
-                "G2b",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Condition of heritage features including designated geological sites and scheduled monuments"
-    },
-    {
-      "path": "7-5-1/data.csv",
-      "name": "7-5-1",
+      "path": "5-4-1/data.csv",
+      "name": "5-4-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -316,628 +531,7 @@
           }
         ]
       },
-      "title": "People engaged in social action for the environment"
-    },
-    {
-      "path": "4-6-1/data.csv",
-      "name": "4-6-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "D6ai (interim)",
-                "D6aii (interim)",
-                "D6bi (interim)",
-                "D6bii (interim)",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Trendline type",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Smoothed index",
-                "95% Credible interval min",
-                "95% Credible interval max",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Category",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Strong decrease",
-                "Weak decrease",
-                "Little or no change",
-                "Weak increase",
-                "Strong increase",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Relative abundance and distribution of priority species in England"
-    },
-    {
-      "path": "4-7-1/data.csv",
-      "name": "4-7-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "D7i (interim)",
-                "D7ii (interim)",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Trendline",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Unsmoothed index",
-                "90% credible interval - minimum",
-                "90% credible interval - maximum",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Category",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Strong decline",
-                "Weak decline",
-                "Little or no change",
-                "Weak increase",
-                "Strong increase",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Species supporting ecosystem functions"
-    },
-    {
-      "path": "7-7-1/data.csv",
-      "name": "7-7-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string"
-          },
-          {
-            "name": "Health",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Physical health",
-                "Mental health",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Health and wellbeing benefits"
-    },
-    {
-      "path": "2-4-1/data.csv",
-      "name": "2-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Condition",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Excellent",
-                "Good",
-                "Sufficient",
-                "Poor",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Condition of bathing waters"
-    },
-    {
-      "path": "9-2-1/data.csv",
-      "name": "9-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "J2a",
-                "J2b",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Category",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Biomass",
-                "Metal ores",
-                "Non-metallic mineral materials",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Raw material consumption"
-    },
-    {
-      "path": "2-1-1/data.csv",
-      "name": "2-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "B1a (interim)",
-                "B1b (interim)",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Metal",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Cadmium",
-                "Copper",
-                "Lead",
-                "Mercury",
-                "Zinc",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Nutrient",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "ortho-Phosphate",
-                "Total Nitrogen",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Pollution loads entering waters"
-    },
-    {
-      "path": "1-7-1/data.csv",
-      "name": "1-7-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Area of land exposed to damaging levels of ammonia (NH<sub>3</sub>) in the atmosphere"
-    },
-    {
-      "path": "8-3-1/data.csv",
-      "name": "8-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "H3a (interim)",
-                "H3b (interim)",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Source",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Larger industrial sites",
-                "Crematoria",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Pollutant",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Dioxin-like Polychlorinated biphenyl",
-                "Dioxins and Furans",
-                "Hexachlorobenzene",
-                "Polychlorinated biphenyl",
-                "Polychlorinated naphthalenes",
-                "Pentachlorophenol",
-                "PentaChloroBenzine",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Emissions of mercury and persistent organic pollutants to the environment"
-    },
-    {
-      "path": "5-2-1/data.csv",
-      "name": "5-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Volume of agricultural production"
-    },
-    {
-      "path": "8-2-1/data.csv",
-      "name": "8-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "Distribution of invasive non-native species and plant pests and diseases"
-    },
-    {
-      "path": "10-1-1/data.csv",
-      "name": "10-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "K1i (interim)",
-                "K1ii (interim)",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Overseas environmental impacts of UK consumption of key commodities"
-    },
-    {
-      "path": "4-2-1/data.csv",
-      "name": "4-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "D2a (interim)",
-                "D2b (interim)",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Site Type",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Sites on land & water",
-                "Sites at sea",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Site Condition",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Favourable condition",
-                "Unfavourable recovering condition",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Extent and condition of protected sites – land, water and sea"
-    },
-    {
-      "path": "4-3-1/data.csv",
-      "name": "4-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Woodland Type",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Broadleaf",
-                "Conifer",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Area of woodland in England"
-    },
-    {
-      "path": "4-4-1/data.csv",
-      "name": "4-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "D4ai (interim)",
-                "D4bi (interim)",
-                "D4aii (interim)",
-                "D4bii (interim)",
-                "D4c (interim)",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Trendline",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Unsmoothed Index",
-                "Smoothed Index (SI)",
-                "SI Lower CI",
-                "SI Upper CI",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Relative abundance and/or distribution of widespread species"
-    },
-    {
-      "path": "8-1-1/data.csv",
-      "name": "8-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string"
-          },
-          {
-            "name": "Ecosystem",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Freshwater",
-                "Marine",
-                "Terrestrial",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "Abatement of the number of invasive non-native species entering and establishing against a baseline"
+      "title": "Efficiency of agricultural production measured by Total Factor Productivity"
     },
     {
       "path": "2-7-1/data.csv",
@@ -1000,8 +594,175 @@
       "title": "Health of freshwaters assessed through fish populations"
     },
     {
-      "path": "5-3-1/data.csv",
-      "name": "5-3-1",
+      "path": "9-1-1/data.csv",
+      "name": "9-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Emissions type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Direct household emissions of GHGs",
+                "GHGs emitted from goods & services produced & consumed in England",
+                "GHGs embedded in imported goods & services",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Carbon footprint and consumer buying choices"
+    },
+    {
+      "path": "4-2-1/data.csv",
+      "name": "4-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "D2a (interim)",
+                "D2b (interim)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Site Type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Sites on land & water",
+                "Sites at sea",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Site Condition",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Favourable condition",
+                "Unfavourable recovering condition",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Extent and condition of protected sites – land, water and sea"
+    },
+    {
+      "path": "10-4-1/data.csv",
+      "name": "10-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "Ecosystem",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Marine",
+                "Terrestrial",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Protection",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percentage of total area protected",
+                "Percentage of total area unprotected",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Extent and condition of terrestrial and marine protected areas in the UK Overseas Territories"
+    },
+    {
+      "path": "3-11-1/data.csv",
+      "name": "3-11-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "Status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Declining",
+                "Stable",
+                "Increasing",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Productive seas: status of sensitive fish and shellfish stocks"
+    },
+    {
+      "path": "7-5-1/data.csv",
+      "name": "7-5-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1019,7 +780,512 @@
           }
         ]
       },
-      "title": "Volume of inputs used in agricultural production"
+      "title": "People engaged in social action for the environment"
+    },
+    {
+      "path": "5-6-1/data.csv",
+      "name": "5-6-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Category",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total softwood & hardwood removals from the nation’s forests managed by Forestry England",
+                "Total softwood & hardwood removals from other English sources",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Volume of timber brought to market per annum from English sources"
+    },
+    {
+      "path": "1-6-1/data.csv",
+      "name": "1-6-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Exceedance of damaging levels of nutrient nitrogen deposition on ecosystems"
+    },
+    {
+      "path": "2-5-1/data.csv",
+      "name": "2-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Water body category",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Surface water",
+                "Groundwater",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "Water bodies achieving sustainable abstraction criteria"
+    },
+    {
+      "path": "1-1-1/data.csv",
+      "name": "1-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Pollutant",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "NOx",
+                "PM2.5",
+                "SO2",
+                "NMVOC",
+                "NH3",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Emissions for five key air pollutants"
+    },
+    {
+      "path": "1-7-1/data.csv",
+      "name": "1-7-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Area of land exposed to damaging levels of ammonia (NH<sub>3</sub>) in the atmosphere"
+    },
+    {
+      "path": "2-2-1/data.csv",
+      "name": "2-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Category",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Category 1 (major) incidents",
+                "Category 2 (significant) incidents",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "Serious pollution incidents to water"
+    },
+    {
+      "path": "9-3-1/data.csv",
+      "name": "9-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "Reporting type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Household waste recycling rate (2000/2001 to 2010/2011)",
+                "Waste from households recycling rate (2010/2011 to 2020/2021)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Municipal waste recycling rates"
+    },
+    {
+      "path": "7-6-1/data.csv",
+      "name": "7-6-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "G6 (interim)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Environmental attitudes and behaviours"
+    },
+    {
+      "path": "7-2-1/data.csv",
+      "name": "7-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "Assessment Year",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "2019",
+                "2021",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "G2a",
+                "G2b",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Condition of heritage features including designated geological sites and scheduled monuments"
+    },
+    {
+      "path": "5-8-1/data.csv",
+      "name": "5-8-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "E8a",
+                "E8b",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Efficient use of water"
+    },
+    {
+      "path": "5-2-1/data.csv",
+      "name": "5-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Volume of agricultural production"
+    },
+    {
+      "path": "3-2-1/data.csv",
+      "name": "3-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "Disturbance",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Low disturbance (categories 0 to 4)",
+                "High disturbance (categories 5 to 9)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "Seabed subject to high pressure from human activity"
+    },
+    {
+      "path": "1-2-1/data.csv",
+      "name": "1-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Sector",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Agriculture",
+                "Fluorinated gases",
+                "Net emissions from land use & land use change",
+                "Net removals by forestry sink",
+                "Waste",
+                "Net total including forestry sink",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Emissions of greenhouse gases from natural resources"
+    },
+    {
+      "path": "8-1-1/data.csv",
+      "name": "8-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "Ecosystem",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Freshwater",
+                "Marine",
+                "Terrestrial",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "Abatement of the number of invasive non-native species entering and establishing against a baseline"
+    },
+    {
+      "path": "2-1-1/data.csv",
+      "name": "2-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "B1a (interim)",
+                "B1b (interim)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Metal",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Cadmium",
+                "Copper",
+                "Lead",
+                "Mercury",
+                "Zinc",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Nutrient",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ortho-Phosphate",
+                "Total Nitrogen",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Pollution loads entering waters"
     },
     {
       "path": "7-4-1/data.csv",
@@ -1068,41 +1334,8 @@
       "title": "Engagement with the natural environment"
     },
     {
-      "path": "3-2-1/data.csv",
-      "name": "3-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string"
-          },
-          {
-            "name": "Disturbance",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Low disturbance (categories 0 to 4)",
-                "High disturbance (categories 5 to 9)",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "Seabed subject to high pressure from human activity"
-    },
-    {
-      "path": "9-4-1/data.csv",
-      "name": "9-4-1",
+      "path": "4-4-1/data.csv",
+      "name": "4-4-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1115,12 +1348,28 @@
             "type": "integer"
           },
           {
-            "name": "Destination",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Landfill",
-                "Incineration",
+                "D4ai (interim)",
+                "D4bi (interim)",
+                "D4aii (interim)",
+                "D4bii (interim)",
+                "D4c (interim)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Trendline",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Unsmoothed Index",
+                "Smoothed Index (SI)",
+                "SI Lower CI",
+                "SI Upper CI",
                 ""
               ]
             }
@@ -1131,133 +1380,7 @@
           }
         ]
       },
-      "title": "Residual waste arising by type and sector"
-    },
-    {
-      "path": "5-1-1/data.csv",
-      "name": "5-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Category",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Grassland",
-                "Crops",
-                "Uncropped arable",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Area of productive agricultural land"
-    },
-    {
-      "path": "1-6-1/data.csv",
-      "name": "1-6-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Exceedance of damaging levels of nutrient nitrogen deposition on ecosystems"
-    },
-    {
-      "path": "1-1-1/data.csv",
-      "name": "1-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Pollutant",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "NOx",
-                "PM2.5",
-                "SO2",
-                "NMVOC",
-                "NH3",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Emissions for five key air pollutants"
-    },
-    {
-      "path": "9-1-1/data.csv",
-      "name": "9-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Emissions type",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Direct household emissions of GHGs",
-                "GHGs emitted from goods & services produced & consumed in England",
-                "GHGs embedded in imported goods & services",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Carbon footprint and consumer buying choices"
+      "title": "Relative abundance and/or distribution of widespread species"
     },
     {
       "path": "1-4-1/data.csv",
@@ -1294,8 +1417,8 @@
       "title": "Rural background concentrations of ozone (O<sub>3</sub>)"
     },
     {
-      "path": "3-1-1/data.csv",
-      "name": "3-1-1",
+      "path": "3-3-1/data.csv",
+      "name": "3-3-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1312,8 +1435,10 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "C1a (interim)",
-                "C1b (interim)",
+                "C3ai (interim)",
+                "C3aii (interim)",
+                "C3bi (interim)",
+                "C3bii (interim)",
                 ""
               ]
             }
@@ -1323,6 +1448,8 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "North-east England (left axis)",
+                "South-east England (right axis)",
                 "Greater North Sea",
                 "Celtic Seas",
                 ""
@@ -1335,11 +1462,126 @@
           }
         ]
       },
-      "title": "Clean seas: marine litter"
+      "title": "Diverse seas: status of marine mammals and marine birds"
     },
     {
-      "path": "9-6-1/data.csv",
-      "name": "9-6-1",
+      "path": "8-2-1/data.csv",
+      "name": "8-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "Distribution of invasive non-native species and plant pests and diseases"
+    },
+    {
+      "path": "5-3-1/data.csv",
+      "name": "5-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Volume of inputs used in agricultural production"
+    },
+    {
+      "path": "3-10-1/data.csv",
+      "name": "3-10-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "C10a (interim)",
+                "C10b (interim)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Category",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percentage unknown",
+                "Percentage greater than FMSY and greater than F upper (where available)",
+                "Percentage less than or equal to FMSY",
+                "Percentage in FMSY range that is between FMSY and F upper (where available)",
+                "Percentage less than MSY Btrigger and less than Blim (where available)",
+                "Percentage greater than or equal to MSY Btrigger",
+                "Percentage less than MSY Btrigger but greater than Blim (where available)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Productive seas: fish and shellfish stocks fished sustainably"
+    },
+    {
+      "path": "1-3-1/data.csv",
+      "name": "1-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Concentrations of fine particulate matter (PM<sub>2.5</sub>) in the air"
+    },
+    {
+      "path": "4-7-1/data.csv",
+      "name": "4-7-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1356,30 +1598,34 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "J6a (interim)",
-                "J6b (interim)",
+                "D7i (interim)",
+                "D7ii (interim)",
                 ""
               ]
             }
           },
           {
-            "name": "Site type",
+            "name": "Trendline",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total active sites",
-                "Active high-risk sites",
+                "Unsmoothed index",
+                "90% credible interval - minimum",
+                "90% credible interval - maximum",
                 ""
               ]
             }
           },
           {
-            "name": "Methodology",
+            "name": "Category",
             "type": "string",
             "constraints": {
               "enum": [
-                "Old methodology",
-                "New methodology",
+                "Strong decline",
+                "Weak decline",
+                "Little or no change",
+                "Weak increase",
+                "Strong increase",
                 ""
               ]
             }
@@ -1390,11 +1636,11 @@
           }
         ]
       },
-      "title": "Waste Crime"
+      "title": "Species supporting ecosystem functions"
     },
     {
-      "path": "5-8-1/data.csv",
-      "name": "5-8-1",
+      "path": "5-1-1/data.csv",
+      "name": "5-1-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1404,15 +1650,49 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
+          },
+          {
+            "name": "Category",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Grassland",
+                "Crops",
+                "Uncropped arable",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Area of productive agricultural land"
+    },
+    {
+      "path": "10-1-1/data.csv",
+      "name": "10-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
           },
           {
             "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "E8a",
-                "E8b",
+                "K1i (interim)",
+                "K1ii (interim)",
                 ""
               ]
             }
@@ -1423,11 +1703,11 @@
           }
         ]
       },
-      "title": "Efficient use of water"
+      "title": "Overseas environmental impacts of UK consumption of key commodities"
     },
     {
-      "path": "2-5-1/data.csv",
-      "name": "2-5-1",
+      "path": "9-2-1/data.csv",
+      "name": "9-2-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1440,78 +1720,24 @@
             "type": "integer"
           },
           {
-            "name": "Water body category",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Surface water",
-                "Groundwater",
+                "J2a",
+                "J2b",
                 ""
               ]
             }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "Water bodies achieving sustainable abstraction criteria"
-    },
-    {
-      "path": "2-2-1/data.csv",
-      "name": "2-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
           },
           {
             "name": "Category",
             "type": "string",
             "constraints": {
               "enum": [
-                "Category 1 (major) incidents",
-                "Category 2 (significant) incidents",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "Serious pollution incidents to water"
-    },
-    {
-      "path": "5-6-1/data.csv",
-      "name": "5-6-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Category",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total softwood & hardwood removals from the nation’s forests managed by Forestry England",
-                "Total softwood & hardwood removals from other English sources",
+                "Biomass",
+                "Metal ores",
+                "Non-metallic mineral materials",
                 ""
               ]
             }
@@ -1522,11 +1748,11 @@
           }
         ]
       },
-      "title": "Volume of timber brought to market per annum from English sources"
+      "title": "Raw material consumption"
     },
     {
-      "path": "1-5-1/data.csv",
-      "name": "1-5-1",
+      "path": "6-2-1/data.csv",
+      "name": "6-2-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1536,19 +1762,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Measure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Annual Mean NO2 concentration (µg/m3)",
-                "Lower_CI_Bound",
-                "Upper_CI_Bound",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",
@@ -1556,11 +1770,11 @@
           }
         ]
       },
-      "title": "Roadside nitrogen dioxide (NO<sub>2</sub>) concentrations"
+      "title": "Communities resilient to flooding and coastal erosion"
     },
     {
-      "path": "10-4-1/data.csv",
-      "name": "10-4-1",
+      "path": "6-1-1/data.csv",
+      "name": "6-1-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1570,29 +1784,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
-          },
-          {
-            "name": "Ecosystem",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Marine",
-                "Terrestrial",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Protection",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percentage of total area protected",
-                "Percentage of total area unprotected",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",
@@ -1600,11 +1792,11 @@
           }
         ]
       },
-      "title": "Extent and condition of terrestrial and marine protected areas in the UK Overseas Territories"
+      "title": "Disruption or unwanted impacts from flooding or coastal erosion"
     },
     {
-      "path": "5-4-1/data.csv",
-      "name": "5-4-1",
+      "path": "7-1-1/data.csv",
+      "name": "7-1-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1614,7 +1806,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "number"
           },
           {
             "name": "Value",
@@ -1622,11 +1814,11 @@
           }
         ]
       },
-      "title": "Efficiency of agricultural production measured by Total Factor Productivity"
+      "title": "Changes in landscape and waterscape character"
     },
     {
-      "path": "7-3-1/data.csv",
-      "name": "7-3-1",
+      "path": "3-4-1/data.csv",
+      "name": "3-4-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1636,7 +1828,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "number"
           },
           {
             "name": "Value",
@@ -1644,111 +1836,7 @@
           }
         ]
       },
-      "title": "Enhancement of green/blue infrastructure"
-    },
-    {
-      "path": "9-3-1/data.csv",
-      "name": "9-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string"
-          },
-          {
-            "name": "Reporting type",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Household waste recycling rate (2000/2001 to 2010/2011)",
-                "Waste from households recycling rate (2010/2011 to 2020/2021)",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Municipal waste recycling rates"
-    },
-    {
-      "path": "5-5-1/data.csv",
-      "name": "5-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Category",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Hardwood & softwood",
-                "Hardwood",
-                "Softwood",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Percentage of the annual growth of trees in English woodlands that is harvested"
-    },
-    {
-      "path": "1-2-1/data.csv",
-      "name": "1-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Sector",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Agriculture",
-                "Fluorinated gases",
-                "Net emissions from land use & land use change",
-                "Net removals by forestry sink",
-                "Waste",
-                "Net total including forestry sink",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Emissions of greenhouse gases from natural resources"
+      "title": "Diverse seas: condition of seafloor habitats"
     },
     {
       "path": "3-7-1/data.csv",
@@ -1773,6 +1861,28 @@
       "title": "Healthy seas: fish and shellfish populations"
     },
     {
+      "path": "3-9-1/data.csv",
+      "name": "3-9-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Healthy seas: seafloor habitats functioning"
+    },
+    {
       "path": "3-8-1/data.csv",
       "name": "3-8-1",
       "profile": "tabular-data-resource",
@@ -1795,8 +1905,8 @@
       "title": "Healthy seas: marine food webs functioning"
     },
     {
-      "path": "7-1-1/data.csv",
-      "name": "7-1-1",
+      "path": "8-4-1/data.csv",
+      "name": "8-4-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1814,7 +1924,183 @@
           }
         ]
       },
-      "title": "Changes in landscape and waterscape character"
+      "title": "Exposure and adverse effects of chemicals on wildlife in the environment"
+    },
+    {
+      "path": "8-5-1/data.csv",
+      "name": "8-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Exposure to transport noise"
+    },
+    {
+      "path": "5-7-1/data.csv",
+      "name": "5-7-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Healthy soils"
+    },
+    {
+      "path": "10-2-1/data.csv",
+      "name": "10-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Developing countries better able to protect and improve the environment with UK support"
+    },
+    {
+      "path": "4-5-1/data.csv",
+      "name": "4-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Conservation status of our native species"
+    },
+    {
+      "path": "4-1-1/data.csv",
+      "name": "4-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Quantity, quality and connectivity of habitats"
+    },
+    {
+      "path": "6-3-1/data.csv",
+      "name": "6-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Disruption or unwanted impacts caused by drought"
+    },
+    {
+      "path": "2-6-1/data.csv",
+      "name": "2-6-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Natural functions of water and wetland ecosystems"
+    },
+    {
+      "path": "3-5-1/data.csv",
+      "name": "3-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Diverse seas: condition of pelagic habitats"
     },
     {
       "path": "3-6-1/data.csv",
@@ -1861,72 +2147,6 @@
       "title": "Prevent harmful chemicals from being recycled"
     },
     {
-      "path": "5-9-1/data.csv",
-      "name": "5-9-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Percentage of our seafood coming from healthy ecosystems, produced sustainably"
-    },
-    {
-      "path": "4-5-1/data.csv",
-      "name": "4-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Conservation status of our native species"
-    },
-    {
-      "path": "8-5-1/data.csv",
-      "name": "8-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Exposure to transport noise"
-    },
-    {
       "path": "10-3-1/data.csv",
       "name": "10-3-1",
       "profile": "tabular-data-resource",
@@ -1949,8 +2169,8 @@
       "title": "Status of endemic and globally threatened species in the UK Overseas Territories"
     },
     {
-      "path": "8-4-1/data.csv",
-      "name": "8-4-1",
+      "path": "5-9-1/data.csv",
+      "name": "5-9-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1968,227 +2188,7 @@
           }
         ]
       },
-      "title": "Exposure and adverse effects of chemicals on wildlife in the environment"
-    },
-    {
-      "path": "6-1-1/data.csv",
-      "name": "6-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Disruption or unwanted impacts from flooding or coastal erosion"
-    },
-    {
-      "path": "3-9-1/data.csv",
-      "name": "3-9-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Healthy seas: seafloor habitats functioning"
-    },
-    {
-      "path": "2-6-1/data.csv",
-      "name": "2-6-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Natural functions of water and wetland ecosystems"
-    },
-    {
-      "path": "10-2-1/data.csv",
-      "name": "10-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Developing countries better able to protect and improve the environment with UK support"
-    },
-    {
-      "path": "3-4-1/data.csv",
-      "name": "3-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Diverse seas: condition of seafloor habitats"
-    },
-    {
-      "path": "3-5-1/data.csv",
-      "name": "3-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Diverse seas: condition of pelagic habitats"
-    },
-    {
-      "path": "4-1-1/data.csv",
-      "name": "4-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Quantity, quality and connectivity of habitats"
-    },
-    {
-      "path": "5-7-1/data.csv",
-      "name": "5-7-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Healthy soils"
-    },
-    {
-      "path": "6-2-1/data.csv",
-      "name": "6-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Communities resilient to flooding and coastal erosion"
-    },
-    {
-      "path": "6-3-1/data.csv",
-      "name": "6-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Disruption or unwanted impacts caused by drought"
+      "title": "Percentage of our seafood coming from healthy ecosystems, produced sustainably"
     }
   ]
 }
