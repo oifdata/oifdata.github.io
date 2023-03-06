@@ -16,7 +16,6 @@
             "constraints": {
               "enum": [
                 "",
-                "D2a (interim)",
                 "D2b (interim)"
               ]
             },
@@ -36,12 +35,10 @@
           },
           {
             "name": "Site Type",
-            "type": "string",
+            "type": "number",
             "constraints": {
               "enum": [
-                "",
-                "Sites at sea",
-                "Sites on land & water"
+                ""
               ]
             },
             "title": "Site Type"
