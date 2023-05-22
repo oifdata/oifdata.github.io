@@ -1,0 +1,98 @@
+{
+    "schema:name": "Emissions for five key air pollutants in England, 2005 to 2020",
+    "url": "a1.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:sameAs": "https://naei.beis.gov.uk/reports/reports?report_id=1100",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "Ricardo AEA",
+                "schema:name": "Ricardo Energy and Environment",
+                "schema:sameAs": "https://ror.org/03nbbc502",
+                "@type": "schema:Organization"
+            },
+            "schema:dateModified": "2022-10-25",
+            "schema:datePublished": "2022-10-25",
+            "schema:headline": "Devolved Administration Air Pollutants Inventory, 2005-2020"
+        }
+    ],
+    "schema:keywords": [
+        "Air Quality"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "2005/2020",
+    "schema:version": "2022-10-25",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Emissions for five key air pollutants",
+    "@context": "http://www.w3.org/ns/csvw",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "integer",
+                    "minimum": "2005",
+                    "maximum": "2021",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "year",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The year range for the data present"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "NH3|NMVOCs|NOx|PM2.5|SO2",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "pollutant",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Different key pollutants that are measured"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "index",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Percentage value indicating the change in value from 2005 base value."
+            }
+        ],
+        "@type": "Schema"
+    }
+}

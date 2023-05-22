@@ -1,0 +1,4 @@
+Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
+E5,Hardwood and softwood,Short term,2016 to 2021,-13.013698630136977,Unsmoothed,Deterioration
+E5,Hardwood and softwood,Medium term,2011 to 2021,2.144772117962478,Unsmoothed,Little or no change
+E5,Hardwood and softwood,Long term,N/A,N/A,N/A,Not assessed

@@ -1,0 +1,4 @@
+Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
+J6b,Old Methodology,Short term,2012/2013 to 2017/2018,36.039798478766215,Loess,Deterioration
+J6b,Old Methodology,Medium term,2007/2008 to 2017/2018,-21.957853546347913,Loess,Improvement
+J6b,Old Methodology,Long term,N/A,N/A,N/A,Not assessed

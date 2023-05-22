@@ -1,0 +1,112 @@
+{
+    "schema:name": "Emissions of mercury to air, land and water, England, 2016 to 2020",
+    "url": "h3a.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "Pollution Inventory",
+            "schema:url": "https://www.data.gov.uk/dataset/cfd94301-a2f2-48a2-9915-e477ca6d8b7e/pollution-inventory",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "EA",
+                "schema:name": "Environment Agency",
+                "schema:sameAs": "https://ror.org/01zewfb16",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:dateModified": "2022-11-02",
+            "schema:datePublished": "2022-11-02"
+        },
+        {
+            "schema:name": "Air Pollutant Inventories for England, Scotland, Wales and Northern Ireland",
+            "schema:url": "https://naei.beis.gov.uk/reports/reports?report_id=1100",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "NAEI",
+                "schema:name": "National Atmospheric Emissions Inventory",
+                "schema:sameAs": "https://naei.beis.gov.uk/",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:dateModified": "2022-10-25",
+            "schema:datePublished": "2022-10-25"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "2016/2020",
+    "schema:version": "2022-11-02",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Emissions of mercury, kg",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Emissions of mercury from larger industrial sites (including primary ferrous and non-ferrous metal production, cement production, oil refining and combustion activities over 50 megawatts [coal-fired power stations]) are to air, land and water; emissions from crematoria are to air only. At a UK level, these sources together account for approximately 85% of total mercury emissions. The balance of emissions come from consumer product waste and contaminated sites; these are not currently included in this indicator.",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "integer",
+                    "minimum": "2016",
+                    "maximum": "2020",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "year",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The year range for the data present"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Crematoria|Larger industrial sites",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "source",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Source of emissions"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "value",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Emissions of mercury, kg"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

@@ -1,0 +1,10 @@
+Primary goal,From Indicator,To Indicator,Correlation,Rationale
+Minimising waste,C1 Clean seas: marine litter,"C3 Diverse seas: status of mammals, birds and fish",Negative,Marine litter can be harmful to wildlife. C1 includes indicator for plastic ingested by fulmars. 
+Minimising waste,J2 Raw material consumption,J1 Carbon footprint and consumer buying choices,Positive,Raw materials are used in the production of goods measured by J1.
+Minimising waste,J2 Raw material consumption,E6 Volume of timber brought to market each year,Positive,Raw material consumption includes biomass products such as timber.
+Minimising waste,J6 Waste crime,B1 Pollution loads entering waters,Positive,"If not handled properly, waste can cause serious pollution of the environment – air, land and water."
+Minimising waste,J6 Waste crime,B2 Serious pollution incidents to water,Positive,"If not handled properly, waste can cause serious pollution of the environment – air, land and water."
+Minimising waste,J6 Waste crime,C1 Clean seas: marine litter,Positive,J6 includes fly tipping which could result in marine litter.
+Minimising waste,J6 Waste crime,G1 Changes in landscape and waterscape character,Negative,"Fly tipping will influence changes in the public’s perceptions of landscape character and quality, which will become part of the G1 indicator."
+Minimising waste,G6 Environmental attitudes and behaviours,J3 Municipal waste recycling rates,Positive,"G6 will include information on people’s self-reported environmental behaviours, likely including questions on waste."
+Minimising waste,G6 Environmental attitudes and behaviours,J1 Carbon footprint and consumer buying choices,Positive,"G6 will include information on people’s self-reported environmental behaviours, likely including questions on behaviours related to carbon use. "

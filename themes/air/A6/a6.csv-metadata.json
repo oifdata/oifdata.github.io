@@ -1,0 +1,80 @@
+{
+    "schema:name": "Exceedance of damaging levels of nutrient nitrogen deposition in England, 2009-2011 to 2018-2020",
+    "url": "a6.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "Trends Report 2022: Trends in critical load and critical level exceedances in the UK",
+            "schema:url": "https://uk-air.defra.gov.uk/library/reports?report_id=1087",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "UKCEH",
+                "schema:name": "UK Centre for Ecology & Hydrology",
+                "schema:sameAs": "https://ror.org/00pggkr55",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:dateModified": "2022-08-20",
+            "schema:datePublished": "2022-08-20"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "1970-01-01T00:33:29+00:00",
+    "schema:version": "2022-08-30",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Percentage of sensitive habitats exceeding critical loads",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Data are presented as 3-year moving average time periods. A 3-year moving average is used to smooth out inter-annual variability due to the influence of weather on atmospheric chemistry.\n    \n</br>A change in methods means that the time-series could only be extended back to the 3-year period 2009 to 2011, rather than to the 3-year period 1995 to 1997 as in previous reports. These changes also mean that the chart presented here cannot be directly compared to those presented in previous publications of this indicator.",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "2009-2011|2010-2012|2011-2013|2012-2014|2013-2015|2014-2016|2015-2017|2016-2018|2017-2019|2018-2020",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "year",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The year range for the data present"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "value",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Percentage of sensitive habitats exceeding critical loads"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

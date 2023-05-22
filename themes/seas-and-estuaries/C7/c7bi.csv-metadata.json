@@ -1,0 +1,35 @@
+{
+    "schema:name": "Long-term changes in the mean maximum length of demersal fish communities in UK waters and surrounding areas, 1983 to 2020",
+    "url": "c7bi.svg",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "Pilot Assessment of Mean Maximum Length of Fish",
+            "@type": "Dataset",
+            "schema:author": [
+                {
+                    "schema:alternateName": "OSPAR",
+                    "schema:name": "The Convention for the Protection of the Marine Environment of the North-East Atlantic",
+                    "schema:sameAs": "https://oap.ospar.org/en/",
+                    "@type": "schema:GovernmentOrganization"
+                }
+            ]
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "UK (Celtic Seas and Greater North Sea)",
+    "schema:temporalCoverage": "1983/2020",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Assessment/classification results",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "The assessment period differs depending on the survey, starting at the earliest in 1983 in one Greater North Sea subdivision and ending in either 2019 or 2020.\n\n1. Long-term increase: the fish are shifting back towards larger species\n2. No long-term change: no change in the composition of fish communities\n3. Long-term decrease: more smaller species than in an earlier period but less than in a more recent one\n4. Decrease to minimum observed state: the community has the highest proportion of small species recorded",
+    "tableDirection": "auto"
+}

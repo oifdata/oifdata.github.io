@@ -1,0 +1,56 @@
+{
+    "schema:name": "Regional sea assessments, and the status of coastal water bodies for saltmarsh, 2010 to 2015",
+    "url": "c4iii.svg",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "Condition of intertidal saltmarsh communities in coastal waters determined using Water Framework Directive methods",
+            "schema:url": "https://moat.cefas.co.uk/biodiversity-food-webs-and-marine-protected-areas/benthic-habitats/intertidal-saltmarsh/",
+            "@type": "Dataset",
+            "schema:author": [
+                {
+                    "schema:alternateName": "Defra",
+                    "schema:name": "Department for Environment, Food & Rural Affairs",
+                    "schema:sameAs": "https://ror.org/00tnppw48",
+                    "@type": "schema:GovernmentOrganization"
+                },
+                {
+                    "schema:alternateName": "EA",
+                    "schema:name": "Environment Agency",
+                    "schema:sameAs": "https://ror.org/01zewfb16",
+                    "@type": "schema:GovernmentOrganization"
+                },
+                {
+                    "schema:alternateName": "Cyfoeth Naturiol Cymru",
+                    "schema:name": "Natural Resources Wales",
+                    "schema:sameAs": "https://ror.org/04x65hs26",
+                    "@type": "schema:GovernmentOrganization"
+                },
+                {
+                    "schema:alternateName": "Buidheann Dìon Àrainneachd na h-Alba",
+                    "schema:name": "Scottish Environment Protection Agency",
+                    "schema:sameAs": "https://ror.org/01kxjy285",
+                    "@type": "schema:GovernmentOrganization"
+                }
+            ],
+            "schema:dateModified": "2018-01-01",
+            "schema:datePublished": "2018-01-01"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "UK",
+    "schema:temporalCoverage": "2010/2015",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Assessment/classification results",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Inshore data, predominantly collected under the WFD between 2010 and 2015, were used to assess seagrass, rocky shore macroalgae and saltmarsh habitats.",
+    "tableDirection": "auto"
+}

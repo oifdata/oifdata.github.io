@@ -1,0 +1,133 @@
+{
+    "schema:name": "Naturalness scores of water and wetland ecosystems",
+    "url": "b6.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "NE",
+                "schema:name": "Natural England",
+                "schema:sameAs": "https://ror.org/00r66pz14",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:headline": "Naturalness scores of water and wetland ecosystems"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "1970-01-01T00:33:42+00:00",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Naturalness scores of water and wetland ecosystems",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Naturalness classifications and scores are on a scale of 1 to 5, with 1 being as close to natural as possible and 5 being subject to the greatest degree of artificial modification. Combined Classification is an average of the classifications for the various naturalness components. Cross-cutting (X-Cutting) components are classified as attributes that can reflect multiple naturalness components (hydrological, physical, chemical and biological).",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Running waters|Standing waters|Wetlands|Estuaries/coasts",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "broad_habitat",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Category of broad habitat"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Large rivers|Headwater streams|Lakes|Ponds|Bogs|Fens|Estuaries|Coastal",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "habitat_type",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Type of habitat being measured"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Hydrological|Physical|Chemical|Biological|Crosscutting|Overall",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "naturalness_component",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Naturalness component being measured"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Score|Class",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "measure",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Different wildlife being exposed"
+            },
+            {
+                "datatype": {
+                    "base": "number",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "value",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Score or class"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js" type="text/javascript"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VZBZ0PVRQ0"></script>
+<script>
+  var cookieControlConfig = {
+    apiKey: "afbc7c2ae0265eed63b3dfb031e976fab80fa4ff",
+    product: "COMMUNITY",
+    necessaryCookies: ["CookieControl"],
+    optionalCookies: [
+      {
+        name: "analytics",
+        label: "Analytical Cookies",
+        description:
+          "Analytical cookies help us to improve our website by collecting and reporting information on its usage.",
+        cookies: [
+          "_ga",
+          "_gid",
+          "_gali",
+          "_gat",
+          "__utma",
+          "__utmt",
+          "__utmb",
+          "__utmc",
+          "__utmz",
+          "__utmv",
+        ],
+        onAccept: function () {
+          // Add Google Analytics
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag("js", new Date());
+
+          gtag("config", "G-VZBZ0PVRQ0");
+          // End Google Analytics
+        },
+        onRevoke: function () {
+          // Disable Google Analytics
+          window["ga-disable-G-VZBZ0PVRQ0"] = true;
+          // End Google Analytics
+        },
+      },
+    ],
+    statement: {
+      description:
+        "For more detailed information about the cookies we use, see our",
+      name: "Cookies and privacy page.",
+      url: "/cookies/",
+      updated: "24/04/2023",
+    },
+    initialState: "open",
+    text: {
+      necessaryDescription:
+        "This website sets a cookie to remember a user’s choice about cookies. Where users have previously indicated a preference, that user’s preference will be stored in this cookie.",
+    },
+  };
+  CookieControl.load(cookieControlConfig);
+</script>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="/css/main.css"/> 
+    
+    <title>D3: Area of woodland in England</title>
+  </head>
+  <body>
+    <div class="c-colour-bar"></div>
+    <div class="l-column l-column--main l-column--large-space">
+      
+
+<header class="l-header">
+  
+
+<div id="site-phase" class="l-row l-row--x-small-space l-row--vertically-centred l-header__phase | c-phase">
+<strong class="c-phase__badge">alpha</strong>
+<span class="c-phase__text">This is a development website. We welcome your feedback via
+    <a href="mailto:25YEPindicators@defra.gov.uk">email</a>.</span>
+</div>
+
+
+  
+<a id="site-feedback" class="l-header__feedback | c-button c-button--feedback" role="link" href="https://defragroup.eu.qualtrics.com/jfe/form/SV_cTvfhqTFSj4QHlA">Complete our short user-feedback survey</a>
+
+  
+
+<a id="site-logo" class="l-header__logo | c-logo" role="link" href="/">
+    <img class="c-logo__image" src="/img/OIF_logo.png" width="459" height="161" alt="Outcome Indicator Framework - Home"/>
+</a>
+  
+
+
+
+<nav id="site-nav" class="l-header__nav | c-navigation" aria-label="Main navigation">
+    <button
+        id="navigation-toggle"
+        class="c-button c-navigation__toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="navigation-items">
+        Menu
+    </button>
+    <ul id="navigation-items" class="l-column l-column--no-space | c-navigation__items c-navigation__items--closed">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/themes/">Themes</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/reporting-status/">Reporting status</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/outcome-indicator-framework/">Outcome Indicator Framework</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/assessment/">Assessment</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/publications/">Publications</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/faqs/">FAQs</a>
+    
+  </li>
+
+        
+        
+    </ul>
+</nav>
+
+  
+
+<div id="site-search" class="l-header__search l-column l-column--vertical-bottom | c-search">
+    <button
+        id="search-toggle"
+        class="c-button c-search__toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="search-form">
+        Search
+    </button>
+    <form
+        action="/search/"
+        method="get"
+        id="search-form"
+        class="l-row l-row--no-space | c-search__form c-search__form--right c-search__form--closed">
+        <input class="c-search__input" type="text" name="q" value="" placeholder="Search...">
+        <button id="search-button" class="c-search__button c-button c-button--search" type="submit">
+        <img class="c-search__icon" src="/img/search-icon.svg" width="48" height="48" alt="Search"/>
+        </button>
+    </form>
+</div>
+
+
+</header>
+      <main class="l-column l-column--small-space">
+        
+
+
+
+  <nav aria-label="Breadcrumb" class="c-breadcrumbs">
+    <ol class="l-row l-row--xx-small-space l-row--wrap | c-breadcrumbs__items">
+      
+        
+          <li class="c-breadcrumbs__item">
+            <a class="c-breadcrumbs__link" href="/">Home</a>
+          </li>
+        
+      
+        
+          <li class="c-breadcrumbs__item">
+            <a class="c-breadcrumbs__link" href="/themes/">Themes</a>
+          </li>
+        
+      
+        
+          <li class="c-breadcrumbs__item">
+            <a class="c-breadcrumbs__link" href="/themes/wildlife/">Wildlife</a>
+          </li>
+        
+      
+        
+          <li class="c-breadcrumbs__item">
+            <a class="c-breadcrumbs__link" href="/themes/wildlife/D3/" aria-current="page">D3</a>
+          </li>
+        
+      
+    </ol>
+  </nav>
+
+        
+    
+        
+    
+        
+            
+    <div class="l-row l-row--space-between">
+        
+        
+            
+        
+        
+            <a class="c-button c-button--previous" href="/themes/wildlife/D2/">Previous indicator</a>
+        
+        
+        
+            <a class="c-button c-button--next" href="/themes/wildlife/D4/">Next indicator</a>
+        
+    </div>
+
+        
+    
+    
+    <div class="indicator-banner">
+        <div class="l-column indicator-icon">
+            
+  
+    <a class="c-theme-tiles__tile c-theme-tiles__tile--indicator" href="/themes/wildlife/">
+      <img
+        class="c-theme-tiles__image c-theme-tiles__image--indicator"
+        src="/img/wildlife.png"
+        alt="View Wildlife indicators"
+        height="100"
+        width="100"/>
+    </a>
+  
+
+        </div>
+        <div class="indicator-details">
+            <h1>D3: Area of woodland in England</h1>
+        </div>
+    </div>
+    <section class="l-column l-column--small-space">
+        <h2>Short Description</h2>
+        <p>This indicator shows change in the area of broadleaved and conifer woodland in England. Woodland, as defined for the National Forest Inventory, is land under stands of trees with a minimum area of 0.5 hectares, a width of at least 20 metres, and a canopy cover of at least 20% or having the potential to achieve this. The definition relates to land use, rather than land cover, so integral open space and areas of felled trees that are awaiting restocking (replanting) are included as woodland. Woodland is a key natural capital asset that provides many natural capital benefits, such as the provision of timber and other wood products, carbon storage, habitats for wildlife, and opportunities for exercise and recreation.</p>
+    </section>
+    <section class="l-column l-column--small-space">
+        <h2>Readiness and links to data</h2>
+        <p>Data on the area of woodland are published annually in Forest Research’s <a href="https://www.forestresearch.gov.uk/tools-and-resources/statistics/forestry-statistics/">Forestry Statistics</a> along with information on the data sources and methodology. Additional commentary on recent trends and new planting of woodland and trees in England is provided in the Forestry Commission’s quarterly <a href="https://www.gov.uk/government/collections/forestry-commission-corporate-plan-performance-indicators">Key Performance Indicators</a>.</p>
+    </section>
+    
+    
+        <section class="l-column l-column--small-space">
+            <h2 id="indicator-components-section-title">Indicator components</h2>
+            <div
+                role="tablist"
+                aria-labelledby="indicator-components-section-title"
+                class="l-column l-column--xx-small-space">
+            
+                
+    
+    <button id="d3-component-tab" type="button" role="tab" aria-selected="true" aria-controls="d3-component-tabpanel" class="c-indicator-component-tab" onclick="window.dispatchEvent(new Event('resize'));">
+        <h3 id="d3-component-title" class="l-row l-row--xx-small-space l-row--vertically-centred | c-indicator-component-tab__text">
+            <span class="c-indicator-component-tab__radio-button">
+                <svg class="c-radio-button" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="c-radio-button__outer-circle" cx="50" cy="50" r="30"/>
+                    <circle class="c-radio-button__inner-circle" cx="50" cy="50" r="20"/>
+                </svg>
+            </span>
+            D3: Area of woodland in England, 1980 to 2022
+        </h3>
+    </button>
+
+            
+            </div>
+            
+                
+    
+    <div id="d3-component-tabpanel" role="tabpanel" tabindex="0" aria-labelledby="d3-component-tab" class="l-column l-column--small-space | c-indicator-component-tabpanel">
+        
+        
+    <section class="l-column l-column--no-space">
+        <div
+            role="tablist"
+            aria-label="Data visualisation options"
+            class="l-equal-width-columns l-equal-width-columns--no-space">
+            
+            
+    <button id="d3-figure-tab" type="button" role="tab" aria-selected="true" data-tabgroup="d3" aria-controls="d3-figure-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Figure</span>
+    </button>
+
+            
+            
+    <button id="d3-table-tab" type="button" role="tab" aria-selected="true" data-tabgroup="d3" aria-controls="d3-table-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Table</span>
+    </button>
+
+            
+        </div>
+        <div class="l-column | c-indicator-component-visualisation-tabpanels">
+            
+            
+    <div id="d3-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="d3" aria-labelledby="d3-figure-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Figure
+                D3: Area of woodland in England, 1980 to 2022</h4>
+            <div id="d3-figure-container" class="c-visualisation-container">
+                
+                    <img src='d3.svg' />
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Forestry Commission,Forest Research,
+                
+                
+                    England woodland area
+                
+                </dd>
+            
+        
+        
+            <dt class="c-indicator-component-metadata__key">Unit of Measurement</dt>
+            <dd>Million hectares</dd>
+        
+        
+            <dt class="c-indicator-component-metadata__key">Footnotes</dt>
+            <dd><p>Due to rounding, areas of conifer and broadleaf woodland shown here may not sum exactly to the total area of woodland in England published in Forest Research’s Forestry Statistics.</p>
+<p></br>The timeseries for this indicator was shortened in the 2022 update of the source publication; as a result, it now begins in 1990 rather than 1980.</p>
+<p></br>Data for 2012 and 2019 include cumulative updates based on analysis of remote sensing data.</p>
+<p></br>Data for 2020 and 2021 were revised in the 2023 update of this indicator.</p>
+<p></br>There is a general assumption that woodlands that have been clearfelled will be restocked. These areas are classified as ‘woodlands in transition’ until there is evidence (through fieldwork, satellite imagery or aerial photography) that the areas have been replanted or have regenerated. As natural regeneration can take some time to establish, some areas can remain as woodlands in transition for more than 10 years and there can be considerable time lags between the felling of woodland to create open habitats and the designation of that area as non-woodland. It is likely this leads to some overestimation of the area of conifer woodland.</p>
+<p></br>The area of woodland statistics are based on annual updates to both the National Forest Inventory woodland map based on remote sensing and also administrative data on new planting of woodland. The split between conifer and broadleaf in the woodland map data is based on more accurate assessments of stocked areas from fieldwork data. </p></dd>
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="d3.csv">Download  CSV</a>
+                
+                
+                    <a class="c-button" href="d3.svg" download=".svg">Download Figure Image</a>
+                
+            </div>
+        </section>
+    </div>
+
+            
+            
+    <div id="d3-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="d3" aria-labelledby="d3-table-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Table
+                D3: Area of woodland in England, 1980 to 2022</h4>
+            <div id="d3-table-container" class="c-visualisation-container">
+                
+                    <table class="dataframe" id="d3-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Year</th>
+      <th>Broadleaves</th>
+      <th>Conifers</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1990</td>
+      <td>0.86</td>
+      <td>0.35</td>
+    </tr>
+    <tr>
+      <td>1991</td>
+      <td>0.86</td>
+      <td>0.35</td>
+    </tr>
+    <tr>
+      <td>1992</td>
+      <td>0.86</td>
+      <td>0.35</td>
+    </tr>
+    <tr>
+      <td>1993</td>
+      <td>0.87</td>
+      <td>0.35</td>
+    </tr>
+    <tr>
+      <td>1994</td>
+      <td>0.87</td>
+      <td>0.35</td>
+    </tr>
+    <tr>
+      <td>1995</td>
+      <td>0.88</td>
+      <td>0.35</td>
+    </tr>
+    <tr>
+      <td>1996</td>
+      <td>0.88</td>
+      <td>0.35</td>
+    </tr>
+    <tr>
+      <td>1997</td>
+      <td>0.89</td>
+      <td>0.35</td>
+    </tr>
+    <tr>
+      <td>1998</td>
+      <td>0.89</td>
+      <td>0.35</td>
+    </tr>
+    <tr>
+      <td>1999</td>
+      <td>0.89</td>
+      <td>0.35</td>
+    </tr>
+    <tr>
+      <td>2000</td>
+      <td>0.90</td>
+      <td>0.35</td>
+    </tr>
+    <tr>
+      <td>2001</td>
+      <td>0.90</td>
+      <td>0.35</td>
+    </tr>
+    <tr>
+      <td>2002</td>
+      <td>0.91</td>
+      <td>0.35</td>
+    </tr>
+    <tr>
+      <td>2003</td>
+      <td>0.91</td>
+      <td>0.35</td>
+    </tr>
+    <tr>
+      <td>2004</td>
+      <td>0.92</td>
+      <td>0.35</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>0.92</td>
+      <td>0.35</td>
+    </tr>
+    <tr>
+      <td>2006</td>
+      <td>0.93</td>
+      <td>0.35</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>0.93</td>
+      <td>0.35</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>0.93</td>
+      <td>0.35</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>0.93</td>
+      <td>0.35</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>0.94</td>
+      <td>0.35</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>0.94</td>
+      <td>0.35</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>0.96</td>
+      <td>0.34</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>0.96</td>
+      <td>0.34</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>0.96</td>
+      <td>0.34</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>0.97</td>
+      <td>0.34</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>0.97</td>
+      <td>0.34</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>0.97</td>
+      <td>0.34</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>0.97</td>
+      <td>0.34</td>
+    </tr>
+    <tr>
+      <td>2019</td>
+      <td>0.97</td>
+      <td>0.34</td>
+    </tr>
+    <tr>
+      <td>2020</td>
+      <td>0.98</td>
+      <td>0.34</td>
+    </tr>
+    <tr>
+      <td>2021</td>
+      <td>0.98</td>
+      <td>0.34</td>
+    </tr>
+    <tr>
+      <td>2022</td>
+      <td>0.98</td>
+      <td>0.34</td>
+    </tr>
+  </tbody>
+</table>
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Forestry Commission,Forest Research,
+                
+                
+                    England woodland area
+                
+                </dd>
+            
+        
+        
+            <dt class="c-indicator-component-metadata__key">Unit of Measurement</dt>
+            <dd>Million hectares</dd>
+        
+        
+            <dt class="c-indicator-component-metadata__key">Footnotes</dt>
+            <dd><p>Due to rounding, areas of conifer and broadleaf woodland shown here may not sum exactly to the total area of woodland in England published in Forest Research’s Forestry Statistics.</p>
+<p></br>The timeseries for this indicator was shortened in the 2022 update of the source publication; as a result, it now begins in 1990 rather than 1980.</p>
+<p></br>Data for 2012 and 2019 include cumulative updates based on analysis of remote sensing data.</p>
+<p></br>Data for 2020 and 2021 were revised in the 2023 update of this indicator.</p>
+<p></br>There is a general assumption that woodlands that have been clearfelled will be restocked. These areas are classified as ‘woodlands in transition’ until there is evidence (through fieldwork, satellite imagery or aerial photography) that the areas have been replanted or have regenerated. As natural regeneration can take some time to establish, some areas can remain as woodlands in transition for more than 10 years and there can be considerable time lags between the felling of woodland to create open habitats and the designation of that area as non-woodland. It is likely this leads to some overestimation of the area of conifer woodland.</p>
+<p></br>The area of woodland statistics are based on annual updates to both the National Forest Inventory woodland map based on remote sensing and also administrative data on new planting of woodland. The split between conifer and broadleaf in the woodland map data is based on more accurate assessments of stocked areas from fieldwork data. </p></dd>
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="d3.csv">Download  CSV</a>
+                
+                
+            </div>
+        </section>
+    </div>
+
+            
+        </div>
+    </section>
+
+        
+        <section class="l-column l-column--small-space">
+            <h4>Trend description for D3</h4>
+            <p>The total area of woodland in England has increased from 1.21 million hectares in 1990 to 1.32 million hectares in 2022, equating to an increase from 9.2% to 10.2% of the land area of England. This growth has been driven by an increase in broadleaf woodland. The area of conifer woodland in England has remained relatively static over the last 33 years based on the area of new planting. However, an update is expected to March 2022, based on new remote sensing imagery, which will account for conifer woodland converted to open ground priority habitats and Plantations on Ancient Woodland Sites restored to native woodland.</p>
+        </section>
+        
+            <h2>Assessment of change</h2>
+            <p>The observed increases in the area of woodland in England over the short and medium term are assessed as ‘little or no change’. This is because it would take a large area of additional woodland cover to reach the 3% increase needed for the ‘improvement’ category to be assigned. There has, however, been an increase (improvement) over the long term. This assessment does not consider whether any improvement is on a sufficient scale for meeting targets. </p>
+<p>Change since 2018 has also been assessed. There has been ‘little or no change’ in woodland cover since 2018.</p>
+<p>Further information on this assessment, along with details on the methodology, is provided in the <a href="/assessment/">Assessment background</a> page. Summaries by 25 Year Environment Plan goal and information on indicator links are presented in the <a href="/assessment/">Assessment results</a> pages.</p>
+            
+                <h4>Table D3: Assessment of change</h4>
+                <table class="dataframe" id="d3-assessment-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Component</th>
+      <th>Subcomponent</th>
+      <th>Period</th>
+      <th>Date range</th>
+      <th>Percentage change</th>
+      <th>Smoothing function</th>
+      <th>Assessment of change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>D3</td>
+      <td>Total woodland</td>
+      <td>Short term</td>
+      <td>2017 to 2022</td>
+      <td>1.22</td>
+      <td>Unsmoothed</td>
+      <td>Little or no change</td>
+    </tr>
+    <tr>
+      <td>D3</td>
+      <td>Total woodland</td>
+      <td>Medium term</td>
+      <td>2012 to 2022</td>
+      <td>1.93</td>
+      <td>Unsmoothed</td>
+      <td>Little or no change</td>
+    </tr>
+    <tr>
+      <td>D3</td>
+      <td>Total woodland</td>
+      <td>Long term</td>
+      <td>1990 to 2022</td>
+      <td>9.79</td>
+      <td>Unsmoothed</td>
+      <td>Improvement</td>
+    </tr>
+  </tbody>
+</table>
+            
+            <p>Note that percentage change in Table D3 change refers to the difference seen from the first to last year in the specified date range.</p>
+        
+    </div>
+
+            
+        </section>
+    
+    <section id="indicator-metadata" class="l-column l-column--small-space">
+    <h2>Indicator Metadata</h2>
+    <dl class="l-column l-column--xx-small-space | c-indicator-metadata">
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Headline indicator status</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">Not applicable</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Primary goal in the 25 Year Environment Plan</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">Thriving plants and wildlife</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Relevant goal(s) in the 25 Year Environment Plan</dt>
+            
+            
+                
+                    <dd class="c-indicator-metadata__values">Thriving plants and wildlife</dd>
+                
+                    <dd class="c-indicator-metadata__values">Enhancing beauty, heritage and engagement with the natural environment</dd>
+                
+                    <dd class="c-indicator-metadata__values">Using resources from nature more sustainably and efficiently</dd>
+                
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Relevant target(s) in the 25 Year Environment Plan</dt>
+            
+            
+                
+                    <dd class="c-indicator-metadata__values">Creating or restoring 500,000 hectares of wildlife-rich habitat outside the protected site network, focusing on priority habitats as part of a wider set of land management changes providing extensive benefits</dd>
+                
+                    <dd class="c-indicator-metadata__values">Increasing woodland in England in line with our aspiration of 12% cover by 2060: this would involve planting 180,000 hectares by end of 2042</dd>
+                
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Position in the natural capital framework</dt>
+            
+            
+                
+                    <dd class="c-indicator-metadata__values">Condition of assets - land</dd>
+                
+                    <dd class="c-indicator-metadata__values">Condition of assets - species and ecological communities</dd>
+                
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Related reporting commitments</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">Equivalent data at UK level are reported to the United Nations Food and Agriculture Organisation for its regular Forest Resources Assessment, and to Forest Europe for publication in the State of Europe’s Forests</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Geographical Scope</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">England</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Status of indicator development</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">Final</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">First Reported</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">2019</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Last Updated</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">2023</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Latest Data</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">2022</dd>
+              
+            </div>
+        
+        
+        
+        
+    </dl>
+</section>
+    
+        
+    
+        
+            
+    <div class="l-row l-row--space-between">
+        
+        
+            
+        
+        
+            <a class="c-button c-button--previous" href="/themes/wildlife/D2/">Previous indicator</a>
+        
+        
+        
+            <a class="c-button c-button--next" href="/themes/wildlife/D4/">Next indicator</a>
+        
+    </div>
+
+        
+    
+
+      </main>
+      
+
+<footer class="c-footer">
+  <ul class="l-row l-row--horizontally-centred l-row--small-space l-row--wrap | c-footer__items">
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/contact-us/" target="_blank" rel="noopener noreferrer">Contact us</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/about/" target="_blank" rel="noopener noreferrer">About</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="https://twitter.com/defragovuk" target="_blank" rel="noopener noreferrer">Twitter</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/cookies/" target="_blank" rel="noopener noreferrer">Cookies</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/accessibility-statement/" target="_blank" rel="noopener noreferrer">Accessibility statement</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/official-statistics/" target="_blank" rel="noopener noreferrer">Official statistics</a>
+      </li>
+    
+  </ul>
+</footer>
+      
+    <link href="https://unpkg.com/tabulator-tables@5.4.3/dist/css/tabulator.min.css" rel="stylesheet"/>
+    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@5.4.3/dist/js/tabulator.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.21.0.min.js"></script>
+    <script src="/js/index.js" type="text/javascript"></script>
+    
+<script>
+    /**
+    * Replace a static SVG figure with an interactive Plotly figure. 
+    * 
+    * @param {string} code - An indicator component code
+    * @param {object} figure - A Plotly figure object 
+    * @param {object} config - A Plotly configuration object
+    */
+    const initialiseFigure = async (component_code, figure, config) => {
+        const figureContainer = document.querySelector(`#${component_code}-figure-container`);
+        figureContainer.replaceChildren();
+        Plotly.newPlot(`${component_code}-figure-container`, figure.data, figure.layout, config);
+    };
+
+    /**
+    * Replace a static HTML table with an interactive Tabulator table
+    * 
+    * @param {string} code - An indicator component code
+    * @param {object} config - A Tabulator configuration object
+    */
+    const initialiseTable = async (component_code, config) => {
+        new Tabulator(`#${component_code}-table`, config);
+    };
+
+    /**
+    * Replace a static SVG figure with an interactive Plotly figure and a
+    * a static HTML table with an interactive Tabulator table. 
+    * 
+    * @param {string} code - An indicator component code
+    * @param {object} figure - A Plotly figure object 
+    * @param {object} figureConfig - A Plotly configuration object 
+    * @param {object} tableConfig - A Tabulator configuration object 
+    */
+
+    const initialiseTableVisualisations = async (component_code, tableConfig) => {
+        await initialiseTable(component_code, tableConfig);
+    };
+    const initialiseFigureVisualisations = async (component_code, figure, figureConfig) => {
+        await initialiseFigure(component_code, figure, figureConfig);
+    };
+    
+        
+        
+            console.log("please work")
+            initialiseTableVisualisations(
+                "d3",
+                {"layout":"fitColumns","pagination":true,"paginationSize":13,"nestedFieldSeparator":"|","columnDefaults":{"hozAlign":"right","headerHozAlign":"right"},"columns":[{"title":"Year","hozAlign":"left","headerHozAlign":"left"}]}
+            )
+        
+        
+            
+                initialiseFigureVisualisations(
+                    "d3",
+                    {"data":[{"alignmentgroup":"True","hovertemplate":"%{y:.2f}","legendgroup":"Conifers","marker":{"color":"#12436D","pattern":{"shape":""}},"name":"Conifers","offsetgroup":"Conifers","orientation":"v","showlegend":true,"textposition":"auto","x":[1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022],"xaxis":"x","y":[0.347,0.348,0.348,0.349,0.35,0.35,0.351,0.351,0.352,0.352,0.353,0.354,0.354,0.355,0.355,0.355,0.355,0.355,0.355,0.355,0.355,0.355,0.34,0.339,0.339,0.339,0.339,0.34,0.34,0.341,0.342,0.343,0.343],"yaxis":"y","type":"bar"},{"alignmentgroup":"True","hovertemplate":"%{y:.2f}","legendgroup":"Broadleaves","marker":{"color":"#F46A25","pattern":{"shape":""}},"name":"Broadleaves","offsetgroup":"Broadleaves","orientation":"v","showlegend":true,"textposition":"auto","x":[1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022],"xaxis":"x","y":[0.858,0.861,0.864,0.868,0.874,0.878,0.882,0.886,0.89,0.894,0.898,0.903,0.908,0.913,0.917,0.922,0.925,0.928,0.93,0.932,0.935,0.937,0.958,0.959,0.963,0.966,0.966,0.967,0.968,0.975,0.978,0.978,0.98],"yaxis":"y","type":"bar"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":""},"dtick":2,"automargin":true,"tickangle":0},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Million hectares"},"showgrid":true,"dtick":0.2,"automargin":true,"range":[0,1.4]},"legend":{"title":{"text":""},"tracegroupgap":0,"yanchor":"bottom","y":-0.3,"xanchor":"center","x":0.5,"orientation":"v","traceorder":"reversed"},"margin":{"t":60},"barmode":"relative","hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true,"hovermode":"x unified"}},
+                    {"displayModeBar":false,"responsive":true}
+                )
+            
+        
+            
+        
+
+    
+
+
+    
+        
+        AssessmentTable = new Tabulator("#d3-assessment-table", {
+        layout: "fitDataStretch",
+        pagination: false,
+        columns: [
+            {title: "Component"},
+            {title: "Subcomponent"},
+            {title: "Period"},
+            {title: "Date range"},
+            {title: "Percentage change", hozAlign: "right"},
+        ]
+        });
+    
+
+</script>
+
+
+    </div>
+  </body>
+</html>

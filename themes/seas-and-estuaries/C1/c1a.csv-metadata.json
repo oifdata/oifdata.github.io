@@ -1,0 +1,98 @@
+{
+    "schema:name": "Items of litter per 100m of beach, UK, 2008 to 2015",
+    "url": "c1a.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "Trends in UK beach litter from 2008 to 2015",
+            "schema:url": "https://moat.cefas.co.uk/pressures-from-human-activities/marine-litter/beach-litter/",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "CEFAS",
+                "schema:name": "Centre for Environment, Fisheries and Aquaculture Science",
+                "schema:sameAs": "https://ror.org/04r7rxc53",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:dateModified": "2018-05-01",
+            "schema:datePublished": "2018-05-01"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "UK (Celtic Seas and Greater North Sea)",
+    "schema:temporalCoverage": "2008/2015",
+    "schema:version": "2018-05-01",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Items of litter per 100m of beach",
+    "@context": "http://www.w3.org/ns/csvw",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "integer",
+                    "minimum": "2008",
+                    "maximum": "2015",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "year",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The year range for the data present"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Greater North Sea|Celtic Seas",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "area",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Sea area surveyed"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "value",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Items of litter per 100m of beach"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

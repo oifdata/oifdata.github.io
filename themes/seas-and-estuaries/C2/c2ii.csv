@@ -1,0 +1,17 @@
+area,disturbance,percentage
+Southern Celtic Seas,High disturbance (categories 5 to 9),75
+Northern Celtic Seas,High disturbance (categories 5 to 9),31
+Southern North Sea,High disturbance (categories 5 to 9),48
+Northern North Sea,High disturbance (categories 5 to 9),50
+English Channel,High disturbance (categories 5 to 9),75
+OSPAR Region I,High disturbance (categories 5 to 9),0
+OSPAR Region IV,High disturbance (categories 5 to 9),0
+OSPAR Region V,High disturbance (categories 5 to 9),12
+Southern Celtic Seas,Low disturbance (categories 0 to 4),25
+Northern Celtic Seas,Low disturbance (categories 0 to 4),69
+Southern North Sea,Low disturbance (categories 0 to 4),52
+Northern North Sea,Low disturbance (categories 0 to 4),50
+English Channel,Low disturbance (categories 0 to 4),25
+OSPAR Region I,Low disturbance (categories 0 to 4),0
+OSPAR Region IV,Low disturbance (categories 0 to 4),0
+OSPAR Region V,Low disturbance (categories 0 to 4),88

@@ -1,0 +1,94 @@
+{
+    "schema:name": "Status of groundwaters in England, 2019 or 2022",
+    "url": "b3b.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "EA",
+                "schema:name": "Environment Agency",
+                "schema:sameAs": "https://ror.org/01zewfb16",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:headline": "Status of groundwaters in England"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "1970-01-01T00:33:39+00:00",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Percentage of water bodies assessed with corresponding status",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Results are based on the numbers of water bodies assessed and represent the achievement of good or better status.",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Water quantity (2022)|Water quality (2019)",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "variable",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Variable being assessed"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "At good status|Not at good status",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "status",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Status of water environment being assessed, as measured under the Water Environment (Water Framework Directive) (England and Wales) Regulations 2017 (the WFD Regulations)"
+            },
+            {
+                "datatype": "integer",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "percentage",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Percentage of water bodies assessed with corresponding status"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

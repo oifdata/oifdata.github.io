@@ -1,0 +1,4 @@
+Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
+J4,Total waste,Short term,2014 to 2019,19.53853644320294,Loess,Deterioration
+J4,Total waste,Medium term,N/A,N/A,N/A,Not assessed
+J4,Total waste,Long term,N/A,N/A,N/A,Not assessed

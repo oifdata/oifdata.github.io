@@ -1,0 +1,4 @@
+Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
+E8b,,Short term,2016-2017 to 2021-2022,4.122021457235681,rolling average,Deterioration
+E8b,,Medium term,2011-2012 to 2021-2022,-0.1588570580277651,rolling average,Little or no change
+E8b,,Long term,2003-2004 to 2021-2022,-4.195672368877533,rolling average,Improvement

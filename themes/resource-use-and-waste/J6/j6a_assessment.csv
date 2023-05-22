@@ -1,0 +1,4 @@
+Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
+J6a,Total active sites,Short term,2015/2016 to 2020/2021,-15.371819586258317,Loess,Improvement
+J6a,Total active sites,Medium term,2010/2011 to 2020/2021,-33.619690205933765,Loess,Improvement
+J6a,Total active sites,Long term,2009/2010 to 2020/2021,-24.814860450199657,Loess,Improvement

@@ -1,0 +1,121 @@
+year,trendline,value
+1980,Unsmoothed index,100.0
+1981,Unsmoothed index,99.5639656580649
+1982,Unsmoothed index,99.5393000277534
+1983,Unsmoothed index,99.8406403414426
+1984,Unsmoothed index,100.740207524852
+1985,Unsmoothed index,101.968001643913
+1986,Unsmoothed index,103.161699663508
+1987,Unsmoothed index,104.121448146532
+1988,Unsmoothed index,103.271279798963
+1989,Unsmoothed index,101.548364575123
+1990,Unsmoothed index,99.8580707850316
+1991,Unsmoothed index,99.0872779111598
+1992,Unsmoothed index,99.2484509577576
+1993,Unsmoothed index,99.9036620287741
+1994,Unsmoothed index,100.675670406001
+1995,Unsmoothed index,100.570148456065
+1996,Unsmoothed index,99.6686629549028
+1997,Unsmoothed index,98.3477134845788
+1998,Unsmoothed index,97.0431139641633
+1999,Unsmoothed index,96.1541055775266
+2000,Unsmoothed index,95.3472964354778
+2001,Unsmoothed index,94.6610991222518
+2002,Unsmoothed index,94.468338160421
+2003,Unsmoothed index,94.5186301708546
+2004,Unsmoothed index,94.3278247855663
+2005,Unsmoothed index,94.3202526269768
+2006,Unsmoothed index,94.2575172878429
+2007,Unsmoothed index,93.6532235939952
+2008,Unsmoothed index,92.8643177340252
+2009,Unsmoothed index,91.6555748759133
+2010,Unsmoothed index,89.8891832892459
+2011,Unsmoothed index,87.8715897183792
+2012,Unsmoothed index,86.0879096587434
+2013,Unsmoothed index,84.7052780417734
+2014,Unsmoothed index,83.5460282640554
+2015,Unsmoothed index,82.6574412883293
+2016,Unsmoothed index,81.698642528747
+2017,Unsmoothed index,80.6405940988869
+2018,Unsmoothed index,79.6913680189247
+2019,Unsmoothed index,78.8669972988465
+1980,90% credible interval lower bound,100.0
+1981,90% credible interval lower bound,98.5483004569197
+1982,90% credible interval lower bound,98.2339689881816
+1983,90% credible interval lower bound,98.4817955042029
+1984,90% credible interval lower bound,99.4064692678277
+1985,90% credible interval lower bound,100.639773690435
+1986,90% credible interval lower bound,101.776558134357
+1987,90% credible interval lower bound,102.644318223171
+1988,90% credible interval lower bound,101.759655127531
+1989,90% credible interval lower bound,100.122099046019
+1990,90% credible interval lower bound,98.3326697548282
+1991,90% credible interval lower bound,97.5246727614309
+1992,90% credible interval lower bound,97.824312420277
+1993,90% credible interval lower bound,98.5359222924658
+1994,90% credible interval lower bound,99.2579921448036
+1995,90% credible interval lower bound,99.0495459663208
+1996,90% credible interval lower bound,98.278786307252
+1997,90% credible interval lower bound,96.9725790697467
+1998,90% credible interval lower bound,95.7407876849659
+1999,90% credible interval lower bound,94.8965636627321
+2000,90% credible interval lower bound,94.0730458987124
+2001,90% credible interval lower bound,93.382716029006
+2002,90% credible interval lower bound,93.1982460329211
+2003,90% credible interval lower bound,93.2358014608006
+2004,90% credible interval lower bound,93.03546256195
+2005,90% credible interval lower bound,93.0850844795105
+2006,90% credible interval lower bound,92.9737476857926
+2007,90% credible interval lower bound,92.4024357224673
+2008,90% credible interval lower bound,91.6677794800752
+2009,90% credible interval lower bound,90.4118560281802
+2010,90% credible interval lower bound,88.6660071292446
+2011,90% credible interval lower bound,86.7172547745612
+2012,90% credible interval lower bound,84.8861026434677
+2013,90% credible interval lower bound,83.5320481765183
+2014,90% credible interval lower bound,82.4167904093557
+2015,90% credible interval lower bound,81.5558023810479
+2016,90% credible interval lower bound,80.5418621859561
+2017,90% credible interval lower bound,79.421119696486
+2018,90% credible interval lower bound,78.4051562828871
+2019,90% credible interval lower bound,77.1718391860171
+1980,90% credible interval upper bound,100.0
+1981,90% credible interval upper bound,100.608994477799
+1982,90% credible interval upper bound,100.882091912008
+1983,90% credible interval upper bound,101.260121794537
+1984,90% credible interval upper bound,102.115775921677
+1985,90% credible interval upper bound,103.317761221204
+1986,90% credible interval upper bound,104.588933871572
+1987,90% credible interval upper bound,105.637684977585
+1988,90% credible interval upper bound,104.774067029965
+1989,90% credible interval upper bound,102.933728077802
+1990,90% credible interval upper bound,101.410695198851
+1991,90% credible interval upper bound,100.716811879263
+1992,90% credible interval upper bound,100.707619453216
+1993,90% credible interval upper bound,101.243070707472
+1994,90% credible interval upper bound,102.132521504536
+1995,90% credible interval upper bound,102.020524781549
+1996,90% credible interval upper bound,101.15795336854
+1997,90% credible interval upper bound,99.8197368976433
+1998,90% credible interval upper bound,98.4573132192501
+1999,90% credible interval upper bound,97.5247689755785
+2000,90% credible interval upper bound,96.6037855309455
+2001,90% credible interval upper bound,95.9479570790116
+2002,90% credible interval upper bound,95.7640467412217
+2003,90% credible interval upper bound,95.7885995449731
+2004,90% credible interval upper bound,95.5581395511397
+2005,90% credible interval upper bound,95.5806263770011
+2006,90% credible interval upper bound,95.5589414746441
+2007,90% credible interval upper bound,94.9128646701118
+2008,90% credible interval upper bound,94.1161518365212
+2009,90% credible interval upper bound,92.9404370916127
+2010,90% credible interval upper bound,91.1088133621827
+2011,90% credible interval upper bound,89.0299197136565
+2012,90% credible interval upper bound,87.285286098719
+2013,90% credible interval upper bound,85.883019918834
+2014,90% credible interval upper bound,84.6481320436507
+2015,90% credible interval upper bound,83.8109585152443
+2016,90% credible interval upper bound,82.8800312905629
+2017,90% credible interval upper bound,81.9012396978768
+2018,90% credible interval upper bound,81.034580286747
+2019,90% credible interval upper bound,80.6690657102953

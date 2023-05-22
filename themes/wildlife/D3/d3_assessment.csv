@@ -1,0 +1,4 @@
+Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
+D3,Total woodland,Short term,2017 to 2022,1.2241775057383333,Unsmoothed,Little or no change
+D3,Total woodland,Medium term,2012 to 2022,1.926040061633275,Unsmoothed,Little or no change
+D3,Total woodland,Long term,1990 to 2022,9.79253112033194,Unsmoothed,Improvement

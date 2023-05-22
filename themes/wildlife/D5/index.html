@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js" type="text/javascript"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VZBZ0PVRQ0"></script>
+<script>
+  var cookieControlConfig = {
+    apiKey: "afbc7c2ae0265eed63b3dfb031e976fab80fa4ff",
+    product: "COMMUNITY",
+    necessaryCookies: ["CookieControl"],
+    optionalCookies: [
+      {
+        name: "analytics",
+        label: "Analytical Cookies",
+        description:
+          "Analytical cookies help us to improve our website by collecting and reporting information on its usage.",
+        cookies: [
+          "_ga",
+          "_gid",
+          "_gali",
+          "_gat",
+          "__utma",
+          "__utmt",
+          "__utmb",
+          "__utmc",
+          "__utmz",
+          "__utmv",
+        ],
+        onAccept: function () {
+          // Add Google Analytics
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag("js", new Date());
+
+          gtag("config", "G-VZBZ0PVRQ0");
+          // End Google Analytics
+        },
+        onRevoke: function () {
+          // Disable Google Analytics
+          window["ga-disable-G-VZBZ0PVRQ0"] = true;
+          // End Google Analytics
+        },
+      },
+    ],
+    statement: {
+      description:
+        "For more detailed information about the cookies we use, see our",
+      name: "Cookies and privacy page.",
+      url: "/cookies/",
+      updated: "24/04/2023",
+    },
+    initialState: "open",
+    text: {
+      necessaryDescription:
+        "This website sets a cookie to remember a user’s choice about cookies. Where users have previously indicated a preference, that user’s preference will be stored in this cookie.",
+    },
+  };
+  CookieControl.load(cookieControlConfig);
+</script>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="/css/main.css"/> 
+    
+    <title>D5: Conservation status of our native species</title>
+  </head>
+  <body>
+    <div class="c-colour-bar"></div>
+    <div class="l-column l-column--main l-column--large-space">
+      
+
+<header class="l-header">
+  
+
+<div id="site-phase" class="l-row l-row--x-small-space l-row--vertically-centred l-header__phase | c-phase">
+<strong class="c-phase__badge">alpha</strong>
+<span class="c-phase__text">This is a development website. We welcome your feedback via
+    <a href="mailto:25YEPindicators@defra.gov.uk">email</a>.</span>
+</div>
+
+
+  
+<a id="site-feedback" class="l-header__feedback | c-button c-button--feedback" role="link" href="https://defragroup.eu.qualtrics.com/jfe/form/SV_cTvfhqTFSj4QHlA">Complete our short user-feedback survey</a>
+
+  
+
+<a id="site-logo" class="l-header__logo | c-logo" role="link" href="/">
+    <img class="c-logo__image" src="/img/OIF_logo.png" width="459" height="161" alt="Outcome Indicator Framework - Home"/>
+</a>
+  
+
+
+
+<nav id="site-nav" class="l-header__nav | c-navigation" aria-label="Main navigation">
+    <button
+        id="navigation-toggle"
+        class="c-button c-navigation__toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="navigation-items">
+        Menu
+    </button>
+    <ul id="navigation-items" class="l-column l-column--no-space | c-navigation__items c-navigation__items--closed">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/themes/">Themes</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/reporting-status/">Reporting status</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/outcome-indicator-framework/">Outcome Indicator Framework</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/assessment/">Assessment</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/publications/">Publications</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/faqs/">FAQs</a>
+    
+  </li>
+
+        
+        
+    </ul>
+</nav>
+
+  
+
+<div id="site-search" class="l-header__search l-column l-column--vertical-bottom | c-search">
+    <button
+        id="search-toggle"
+        class="c-button c-search__toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="search-form">
+        Search
+    </button>
+    <form
+        action="/search/"
+        method="get"
+        id="search-form"
+        class="l-row l-row--no-space | c-search__form c-search__form--right c-search__form--closed">
+        <input class="c-search__input" type="text" name="q" value="" placeholder="Search...">
+        <button id="search-button" class="c-search__button c-button c-button--search" type="submit">
+        <img class="c-search__icon" src="/img/search-icon.svg" width="48" height="48" alt="Search"/>
+        </button>
+    </form>
+</div>
+
+
+</header>
+      <main class="l-column l-column--small-space">
+        
+
+
+
+  <nav aria-label="Breadcrumb" class="c-breadcrumbs">
+    <ol class="l-row l-row--xx-small-space l-row--wrap | c-breadcrumbs__items">
+      
+        
+          <li class="c-breadcrumbs__item">
+            <a class="c-breadcrumbs__link" href="/">Home</a>
+          </li>
+        
+      
+        
+          <li class="c-breadcrumbs__item">
+            <a class="c-breadcrumbs__link" href="/themes/">Themes</a>
+          </li>
+        
+      
+        
+          <li class="c-breadcrumbs__item">
+            <a class="c-breadcrumbs__link" href="/themes/wildlife/">Wildlife</a>
+          </li>
+        
+      
+        
+          <li class="c-breadcrumbs__item">
+            <a class="c-breadcrumbs__link" href="/themes/wildlife/D5/" aria-current="page">D5</a>
+          </li>
+        
+      
+    </ol>
+  </nav>
+
+        
+    
+        
+    
+        
+            
+    <div class="l-row l-row--space-between">
+        
+        
+            
+        
+        
+            <a class="c-button c-button--previous" href="/themes/wildlife/D4/">Previous indicator</a>
+        
+        
+        
+            <a class="c-button c-button--next" href="/themes/wildlife/D6/">Next indicator</a>
+        
+    </div>
+
+        
+    
+    
+    <div class="indicator-banner">
+        <div class="l-column indicator-icon">
+            
+  
+    <a class="c-theme-tiles__tile c-theme-tiles__tile--indicator" href="/themes/wildlife/">
+      <img
+        class="c-theme-tiles__image c-theme-tiles__image--indicator"
+        src="/img/wildlife.png"
+        alt="View Wildlife indicators"
+        height="100"
+        width="100"/>
+    </a>
+  
+
+        </div>
+        <div class="indicator-details">
+            <h1>D5: Conservation status of our native species</h1>
+        </div>
+    </div>
+    <section class="l-column l-column--small-space">
+        <h2>Short Description</h2>
+        <p>This indicator will track changes in the national extinction risk faced by terrestrial, freshwater and marine species using the International Union for Conservation of Nature’s (IUCN) Red List categories and criteria (Version 3.1 Second edition, 2000). The Red-listing process classifies each species into one of 11 categories including Least Concern, Near Threatened, Vulnerable, Endangered, Critically Endangered, Regionally Extinct, Extinct in the Wild and Extinct. Species classified as Vulnerable, Endangered and Critically Endangered are defined as ‘threatened’ with extinction. A simple Red List Index will be used to summarise the changes in numbers of species between each category over time.</p>
+    </section>
+    <section class="l-column l-column--small-space">
+        <h2>Readiness and links to data</h2>
+        <p>The <a href="https://www.iucnredlist.org/">IUCN red-listing process</a>  uses a globally accepted methodology for assessing species extinction risk at global and regional (including national) scales.</p>
+<p>A Red List Index is based on the numbers of species in each Red List category (Extinct, Extinct in the Wild, Regionally Extinct, Critically Endangered, Endangered, Vulnerable, Near Threatened and Least Concern) and how these numbers change over time as species improve or deteriorate in status. The index is expressed as a value between zero and one, where ‘one’ equates to all species assessed as Least Concern (hence none are expected to go extinct in the near future), and ‘zero’ indicates that all species have gone extinct. In this way, the index can be used to measure overall extinction risk of a large number of species at a specific point in time, and when recalculated at intervals, to provide a trend.</p>
+<p>The ‘Red List Index for England’, presented here for the first time, includes all species (taxa) native to England that appear in approved Great Britain IUCN Red Lists, and for which a Red List Category is available (excluding Data Deficient, Not Applicable, Not Evaluated and globally Extinct). It encompasses the status of 8,259 taxa across 23 major taxonomic groups, but focusses almost exclusively on terrestrial and freshwater taxa, comprising: 49% invertebrates’ 29% vascular plants, mosses and liverworts; 18% fungi and lichens; and 4% vertebrates. Assuming a total of approximately 40,000 native macro-species in terrestrial and freshwater groups in England, about 20% are covered by the index.</p>
+<p>Change in the Red List Index for England is expected to be subtle, partly because it is numerically dominated by species of Least Concern, and the index measures net changes in the movement of species between Red List categories. Furthermore, the index can exhibit time-lags, due to the implementation of biodiversity policies, resultant improvements in species populations, available data evidencing these and the frequency of Red List assessment. Therefore, the index will be most effective as a long-term indicator and we anticipate the indicator operating over at least a 20 year period (2022 to 2042), with a 10 year update cycle of every Great Britain Red List in the index.</p>
+<p>Further details on the development of the Red List Index for England together with supporting data and a species list are available in the <a href="https://publications.naturalengland.org.uk/publication/6315201438941184">Natural England research report 124</a>  while information on the derivation of a <a href="https://www.iucnredlist.org/assessment/red-list-index">Red List Index</a> is available on the IUCN website.</p>
+<p>Available data on changes in abundance and distribution of native species are presented in indicators <a href="/themes/wildlife/D4/">‘D4 Relative abundance and/or distribution of widespread species’</a>, ‘<a href="/themes/wildlife/D6/">D6 Relative abundance and/or distribution of priority species’</a> and <a href="/themes/wildlife/D7/">‘D7 Species supporting ecosystem functions’</a>.</p>
+    </section>
+    
+    
+        <section class="l-column l-column--small-space">
+            <h2 id="indicator-components-section-title">Indicator components</h2>
+            <div
+                role="tablist"
+                aria-labelledby="indicator-components-section-title"
+                class="l-column l-column--xx-small-space">
+            
+                
+    
+    <button id="d5-component-tab" type="button" role="tab" aria-selected="true" aria-controls="d5-component-tabpanel" class="c-indicator-component-tab" onclick="window.dispatchEvent(new Event('resize'));">
+        <h3 id="d5-component-title" class="l-row l-row--xx-small-space l-row--vertically-centred | c-indicator-component-tab__text">
+            <span class="c-indicator-component-tab__radio-button">
+                <svg class="c-radio-button" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="c-radio-button__outer-circle" cx="50" cy="50" r="30"/>
+                    <circle class="c-radio-button__inner-circle" cx="50" cy="50" r="20"/>
+                </svg>
+            </span>
+            D5: Red List Index for England by broad taxonomic group, 2022 baseline
+        </h3>
+    </button>
+
+            
+            </div>
+            
+                
+    
+    <div id="d5-component-tabpanel" role="tabpanel" tabindex="0" aria-labelledby="d5-component-tab" class="l-column l-column--small-space | c-indicator-component-tabpanel">
+        
+        
+    <section class="l-column l-column--no-space">
+        <div
+            role="tablist"
+            aria-label="Data visualisation options"
+            class="l-equal-width-columns l-equal-width-columns--no-space">
+            
+            
+    <button id="d5-figure-tab" type="button" role="tab" aria-selected="true" data-tabgroup="d5" aria-controls="d5-figure-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Figure</span>
+    </button>
+
+            
+            
+    <button id="d5-table-tab" type="button" role="tab" aria-selected="true" data-tabgroup="d5" aria-controls="d5-table-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Table</span>
+    </button>
+
+            
+        </div>
+        <div class="l-column | c-indicator-component-visualisation-tabpanels">
+            
+            
+    <div id="d5-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="d5" aria-labelledby="d5-figure-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Figure
+                D5: Red List Index for England by broad taxonomic group, 2022 baseline</h4>
+            <div id="d5-figure-container" class="c-visualisation-container">
+                
+                    <img src='d5.svg' />
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Natural England,
+                
+                
+                    <a href="http://nepubprod.appspot.com/publication/6315201438941184?_sm_au_=isV0jS3snJWZJtsScf4HfK3t7C6f4">D5 Conservation status of our native species, 2022 (NERR124)</a>
+                
+                </dd>
+            
+        
+        
+            <dt class="c-indicator-component-metadata__key">Unit of Measurement</dt>
+            <dd>Index value</dd>
+        
+        
+            <dt class="c-indicator-component-metadata__key">Footnotes</dt>
+            <dd><p>The Red List Index for England includes 8,259 taxa across 23 major taxonomic groups. The 'Aggregate' category includes the results for all these taxa.</p>
+<p>A comparison of Great Britain and England Red List categories across 4 taxonomic groups showed that between 80 to 92% of statuses align and therefore the Red List Index presented here is considered a good approximation of extinction risk in England. However, Great Britain scale assessments could still underestimate or overestimate extinction risk at an England scale and, importantly, losses from England of species still present in Scotland or Wales will not be detected by the index. </p>
+<p>Caution is needed when comparing Red List Index values, or percentage threatened, across taxonomic groups for a number of reasons:</p>
+<ol>
+<li>Data-rich groups may have a tendency towards elevated extinction risk because each taxon qualifies under relatively more assessment criteria than data-poor groups, and the highest qualifying threat category is assigned.</li>
+<li>Groups that contain higher proportions of infraspecific taxa can potentially introduce Red List Index bias because each species is effectively represented in the index multiple times.</li>
+<li>Groups that support higher proportions of Data Deficient taxa may result in Red List index values that underestimate the group's true extinction risk.</li>
+<li>Species loss in the Red List Index may be underestimated because of the use of inconsistent cut-off dates for extinction in Great Britain Red Lists.</li>
+</ol></dd>
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="d5.csv">Download  CSV</a>
+                
+                
+                    <a class="c-button" href="d5.svg" download=".svg">Download Figure Image</a>
+                
+            </div>
+        </section>
+    </div>
+
+            
+            
+    <div id="d5-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="d5" aria-labelledby="d5-table-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Table
+                D5: Red List Index for England by broad taxonomic group, 2022 baseline</h4>
+            <div id="d5-table-container" class="c-visualisation-container">
+                
+                    <table class="dataframe" id="d5-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Red list index group</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Butterflies</td>
+      <td>0.74</td>
+    </tr>
+    <tr>
+      <td>Birds</td>
+      <td>0.74</td>
+    </tr>
+    <tr>
+      <td>Amphibians and reptiles</td>
+      <td>0.77</td>
+    </tr>
+    <tr>
+      <td>Scarab beetles and allies</td>
+      <td>0.78</td>
+    </tr>
+    <tr>
+      <td>Mammals (non-marine)</td>
+      <td>0.82</td>
+    </tr>
+    <tr>
+      <td>Dragonflies and damselflies</td>
+      <td>0.83</td>
+    </tr>
+    <tr>
+      <td>Freshwater Fish</td>
+      <td>0.84</td>
+    </tr>
+    <tr>
+      <td>Bolete fungi</td>
+      <td>0.84</td>
+    </tr>
+    <tr>
+      <td>Clown and False-clown beetles</td>
+      <td>0.85</td>
+    </tr>
+    <tr>
+      <td>Shield bugs and allies</td>
+      <td>0.86</td>
+    </tr>
+    <tr>
+      <td>Longhorn beetles</td>
+      <td>0.88</td>
+    </tr>
+    <tr>
+      <td>Carrion beetles</td>
+      <td>0.88</td>
+    </tr>
+    <tr>
+      <td>Wood boring beetles and allies</td>
+      <td>0.88</td>
+    </tr>
+    <tr>
+      <td>Leaf beetles and allies</td>
+      <td>0.89</td>
+    </tr>
+    <tr>
+      <td>Grasshoppers, crickets and allies</td>
+      <td>0.89</td>
+    </tr>
+    <tr>
+      <td>Darkling beetles and allies</td>
+      <td>0.89</td>
+    </tr>
+    <tr>
+      <td>Mayflies</td>
+      <td>0.90</td>
+    </tr>
+    <tr>
+      <td>Soldier beetles and allies</td>
+      <td>0.90</td>
+    </tr>
+    <tr>
+      <td>Ground beetles</td>
+      <td>0.90</td>
+    </tr>
+    <tr>
+      <td>Soldier flies and allies</td>
+      <td>0.90</td>
+    </tr>
+    <tr>
+      <td>Vascular plants</td>
+      <td>0.90</td>
+    </tr>
+    <tr>
+      <td>Water beetles</td>
+      <td>0.91</td>
+    </tr>
+    <tr>
+      <td>Spiders</td>
+      <td>0.91</td>
+    </tr>
+    <tr>
+      <td>Aggregate</td>
+      <td>0.91</td>
+    </tr>
+    <tr>
+      <td>Mosses and liverworts</td>
+      <td>0.92</td>
+    </tr>
+    <tr>
+      <td>Lichens</td>
+      <td>0.93</td>
+    </tr>
+    <tr>
+      <td>Caddisflies</td>
+      <td>0.94</td>
+    </tr>
+    <tr>
+      <td>Molluscs (non-marine)</td>
+      <td>0.94</td>
+    </tr>
+    <tr>
+      <td>Rove beetles (macrostaphs)</td>
+      <td>0.94</td>
+    </tr>
+    <tr>
+      <td>Spear-winged and Flat-footed flies</td>
+      <td>0.94</td>
+    </tr>
+    <tr>
+      <td>Long-legged flies</td>
+      <td>0.94</td>
+    </tr>
+    <tr>
+      <td>Stoneflies</td>
+      <td>0.95</td>
+    </tr>
+    <tr>
+      <td>Pill beetles and allies</td>
+      <td>0.96</td>
+    </tr>
+    <tr>
+      <td>Rove beetles (tachyporines)</td>
+      <td>0.96</td>
+    </tr>
+    <tr>
+      <td>Water bugs</td>
+      <td>0.97</td>
+    </tr>
+    <tr>
+      <td>Millipedes, centipedes and woodlice</td>
+      <td>0.97</td>
+    </tr>
+    <tr>
+      <td>Hoverflies</td>
+      <td>0.97</td>
+    </tr>
+  </tbody>
+</table>
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Natural England,
+                
+                
+                    <a href="http://nepubprod.appspot.com/publication/6315201438941184?_sm_au_=isV0jS3snJWZJtsScf4HfK3t7C6f4">D5 Conservation status of our native species, 2022 (NERR124)</a>
+                
+                </dd>
+            
+        
+        
+            <dt class="c-indicator-component-metadata__key">Unit of Measurement</dt>
+            <dd>Index value</dd>
+        
+        
+            <dt class="c-indicator-component-metadata__key">Footnotes</dt>
+            <dd><p>The Red List Index for England includes 8,259 taxa across 23 major taxonomic groups. The 'Aggregate' category includes the results for all these taxa.</p>
+<p>A comparison of Great Britain and England Red List categories across 4 taxonomic groups showed that between 80 to 92% of statuses align and therefore the Red List Index presented here is considered a good approximation of extinction risk in England. However, Great Britain scale assessments could still underestimate or overestimate extinction risk at an England scale and, importantly, losses from England of species still present in Scotland or Wales will not be detected by the index. </p>
+<p>Caution is needed when comparing Red List Index values, or percentage threatened, across taxonomic groups for a number of reasons:</p>
+<ol>
+<li>Data-rich groups may have a tendency towards elevated extinction risk because each taxon qualifies under relatively more assessment criteria than data-poor groups, and the highest qualifying threat category is assigned.</li>
+<li>Groups that contain higher proportions of infraspecific taxa can potentially introduce Red List Index bias because each species is effectively represented in the index multiple times.</li>
+<li>Groups that support higher proportions of Data Deficient taxa may result in Red List index values that underestimate the group's true extinction risk.</li>
+<li>Species loss in the Red List Index may be underestimated because of the use of inconsistent cut-off dates for extinction in Great Britain Red Lists.</li>
+</ol></dd>
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="d5.csv">Download  CSV</a>
+                
+                
+            </div>
+        </section>
+    </div>
+
+            
+        </div>
+    </section>
+
+        
+        <section class="l-column l-column--small-space">
+            <h4>Trend description for D5</h4>
+            <p>The aggregate value of the Red List Index for England for the baseline year of 2022 is 0.9070, while the index values for individual groups ranged from 0.7387 to 0.9747, with a median of 0.8979. Butterflies; birds; and amphibians and reptiles had the lowest Red List Index values (highest extinction risk) of 0.7387, 0.7448 and 0.7692 respectively, while hoverflies; millipedes, centipedes and woodlice; and water bugs had the highest values (lowest extinction risk) of 0.9747, 0.9689 and 0.9651 respectively.</p>
+        </section>
+        
+            <h2>Assessment of change</h2>
+            <p>No assessment of change was undertaken for this indicator as a suitable time series is not yet available in the Outcome Indicator Framework.</p>
+            
+            
+        
+    </div>
+
+            
+        </section>
+    
+    <section id="indicator-metadata" class="l-column l-column--small-space">
+    <h2>Indicator Metadata</h2>
+    <dl class="l-column l-column--xx-small-space | c-indicator-metadata">
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Headline indicator status</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">Wildlife and wild places</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Primary goal in the 25 Year Environment Plan</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">Thriving plants and wildlife</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Relevant goal(s) in the 25 Year Environment Plan</dt>
+            
+            
+                
+                    <dd class="c-indicator-metadata__values">Thriving plants and wildlife</dd>
+                
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Relevant target(s) in the 25 Year Environment Plan</dt>
+            
+            
+                
+                    <dd class="c-indicator-metadata__values">Taking action to recover threatened, iconic or economically important species of animals, plants and fungi, and where possible to prevent human induced extinction or loss of known threatened species in England and the Overseas Territories</dd>
+                
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Position in the natural capital framework</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">Condition of assets - species and ecological communities</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Related reporting commitments</dt>
+            
+            
+                
+                    <dd class="c-indicator-metadata__values">Contributes to reporting under the Habitats and Species Conservation Regulation 2017, which meets our commitments under the Convention on Biological Diversity Aichi Targets 12 and 13</dd>
+                
+                    <dd class="c-indicator-metadata__values">Relevant to Sustainable Development Goal 15 (Life on land)</dd>
+                
+                    <dd class="c-indicator-metadata__values">May provide evidence in support of Climate Change Risk Assessment under the Climate Change Act (2008)</dd>
+                
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Geographical Scope</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">England</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Status of indicator development</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">Final</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">First Reported</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">2023</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Last Updated</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">2023</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Latest Data</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">2022</dd>
+              
+            </div>
+        
+        
+        
+        
+    </dl>
+</section>
+    
+        
+    
+        
+            
+    <div class="l-row l-row--space-between">
+        
+        
+            
+        
+        
+            <a class="c-button c-button--previous" href="/themes/wildlife/D4/">Previous indicator</a>
+        
+        
+        
+            <a class="c-button c-button--next" href="/themes/wildlife/D6/">Next indicator</a>
+        
+    </div>
+
+        
+    
+
+      </main>
+      
+
+<footer class="c-footer">
+  <ul class="l-row l-row--horizontally-centred l-row--small-space l-row--wrap | c-footer__items">
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/contact-us/" target="_blank" rel="noopener noreferrer">Contact us</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/about/" target="_blank" rel="noopener noreferrer">About</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="https://twitter.com/defragovuk" target="_blank" rel="noopener noreferrer">Twitter</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/cookies/" target="_blank" rel="noopener noreferrer">Cookies</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/accessibility-statement/" target="_blank" rel="noopener noreferrer">Accessibility statement</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/official-statistics/" target="_blank" rel="noopener noreferrer">Official statistics</a>
+      </li>
+    
+  </ul>
+</footer>
+      
+    <link href="https://unpkg.com/tabulator-tables@5.4.3/dist/css/tabulator.min.css" rel="stylesheet"/>
+    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@5.4.3/dist/js/tabulator.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.21.0.min.js"></script>
+    <script src="/js/index.js" type="text/javascript"></script>
+    
+<script>
+    /**
+    * Replace a static SVG figure with an interactive Plotly figure. 
+    * 
+    * @param {string} code - An indicator component code
+    * @param {object} figure - A Plotly figure object 
+    * @param {object} config - A Plotly configuration object
+    */
+    const initialiseFigure = async (component_code, figure, config) => {
+        const figureContainer = document.querySelector(`#${component_code}-figure-container`);
+        figureContainer.replaceChildren();
+        Plotly.newPlot(`${component_code}-figure-container`, figure.data, figure.layout, config);
+    };
+
+    /**
+    * Replace a static HTML table with an interactive Tabulator table
+    * 
+    * @param {string} code - An indicator component code
+    * @param {object} config - A Tabulator configuration object
+    */
+    const initialiseTable = async (component_code, config) => {
+        new Tabulator(`#${component_code}-table`, config);
+    };
+
+    /**
+    * Replace a static SVG figure with an interactive Plotly figure and a
+    * a static HTML table with an interactive Tabulator table. 
+    * 
+    * @param {string} code - An indicator component code
+    * @param {object} figure - A Plotly figure object 
+    * @param {object} figureConfig - A Plotly configuration object 
+    * @param {object} tableConfig - A Tabulator configuration object 
+    */
+
+    const initialiseTableVisualisations = async (component_code, tableConfig) => {
+        await initialiseTable(component_code, tableConfig);
+    };
+    const initialiseFigureVisualisations = async (component_code, figure, figureConfig) => {
+        await initialiseFigure(component_code, figure, figureConfig);
+    };
+    
+        
+        
+            initialiseTableVisualisations(
+                "d5",
+                {"layout":"fitColumns","pagination":true,"paginationSize":13,"nestedFieldSeparator":"|","columnDefaults":{"hozAlign":"right","headerHozAlign":"right"}}
+            )
+        
+        
+            
+                initialiseFigureVisualisations(
+                    "d5",
+                    {"data":[{"alignmentgroup":"True","hovertemplate":"<b>%{y}</b><br>Ranking:%{x:.2}","legendgroup":"","marker":{"color":"#12436D","pattern":{"shape":""}},"name":"","offsetgroup":"","orientation":"h","showlegend":false,"textposition":"auto","x":[0.974703557312253,0.9688524590163934,0.9651162790697676,0.96,0.9571428571428572,0.9517241379310344,0.9424,0.9419354838709676,0.9413533834586466,0.9382857142857144,0.9352601156069364,0.9252732240437158,0.9184770436730124,0.906907894736842,0.9066666666666666,0.9019346230820549,0.9013333333333332,0.8979472140762463,0.8978260869565218,0.8977777777777778,0.8947368421052632,0.8941176470588236,0.8858267716535433,0.8842105263157894,0.8842105263157894,0.8784313725490196,0.8633333333333333,0.848,0.8425531914893617,0.8352941176470589,0.835,0.819047619047619,0.7849462365591398,0.7692307692307692,0.744776119402985,0.7387096774193549],"xaxis":"x","y":["Hoverflies","Millipedes, centipedes and woodlice","Water bugs","Rove beetles (tachyporines)","Pill beetles and allies","Stoneflies","Long-legged flies","Spear-winged and Flat-footed flies","Rove beetles (macrostaphs)","Molluscs (non-marine)","Caddisflies","Lichens","Mosses and liverworts","Spiders","Water beetles","Vascular plants","Soldier flies and allies","Ground beetles","Soldier beetles and allies","Mayflies","Darkling beetles and allies","Grasshoppers, crickets and allies","Leaf beetles and allies","Wood boring beetles and allies","Carrion beetles","Longhorn beetles","Shield bugs and allies","Clown and False-clown beetles","Bolete fungi","Freshwater Fish","Dragonflies and damselflies","Mammals (non-marine)","Scarab beetles and allies","Amphibians and reptiles","Birds","Butterflies"],"yaxis":"y","type":"bar"},{"marker":{"color":"#F46A25"},"orientation":"h","x":[0.906986317956169],"y":["Aggregate"],"type":"bar","hovertemplate":"<b>%{y}</b><br>Ranking:%{x:.2}"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"Index value"},"showgrid":true,"automargin":true,"dtick":0.1},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Red List Index group"},"showgrid":false,"automargin":true,"dtick":1},"legend":{"tracegroupgap":0},"margin":{"t":60},"barmode":"relative","hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true,"showlegend":false,"height":650,"width":1000}},
+                    {"displayModeBar":false,"responsive":true}
+                )
+            
+        
+            
+        
+
+    
+
+
+    
+        
+        AssessmentTable = new Tabulator("#d5-assessment-table", {
+        layout: "fitDataStretch",
+        pagination: false,
+        columns: [
+            {title: "Component"},
+            {title: "Subcomponent"},
+            {title: "Period"},
+            {title: "Date range"},
+            {title: "Percentage change", hozAlign: "right"},
+        ]
+        });
+    
+
+</script>
+
+
+    </div>
+  </body>
+</html>

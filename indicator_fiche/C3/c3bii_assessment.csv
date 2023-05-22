@@ -1,0 +1,4 @@
+Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
+C3bii,Greater North Sea,Short term,2011 to 2016,-6.66666666666666,Rolling average,Deterioration
+C3bii,Greater North Sea,Medium term,2006 to 2016,-17.647058823529395,Rolling average,Deterioration
+C3bii,Greater North Sea,Long term,1996 to 2016,-29.999999999999964,Rolling average,Deterioration

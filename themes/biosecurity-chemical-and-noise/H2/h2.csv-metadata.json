@@ -1,0 +1,105 @@
+{
+    "schema:name": "Number of additional tree pests and diseases becoming established in England, 2000-2009 to 2012-2021",
+    "url": "h2.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:description": "<div class=\"govspeak\"><p>Annual statistical report providing the key performance indicators (KPIs) for the Forestry Commission showing progress towards the organisation’s key aims. This includes the six headline indicators of Forest Services and Forestry England respectively and around a further 25 indicators. Each indicator is for England as a whole at national level. This is an Official Statistics publication. The report itself is accompanied by tables of supporting data providing the indicator statistics.</p>\n</div>",
+            "schema:image": [
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-bf9e64d759af6dfd93bede8168f3087a329f405b382aff36747db0db4b7b23e9.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-13093f053c15f613acd827aff27cac83d3fab452947cbcae4c7b706dadf2f7f2.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-4233cd42671827e266e284c4d5ae68fb600bd9f9e35dda663ccabbc2b6ab7ec3.png"
+            ],
+            "schema:name": "Forestry Commission Key Performance Indicators: Report for 2021-22",
+            "@type": "Dataset",
+            "schema:about": [
+                {
+                    "@type": "Thing"
+                }
+            ],
+            "schema:author": {
+                "schema:name": "Forestry Commission",
+                "schema:url": "https://www.gov.uk/government/organisations/forestry-commission",
+                "@type": "Organization"
+            },
+            "schema:publisher": {
+                "schema:name": "GOV.UK",
+                "schema:url": "https://www.gov.uk",
+                "@type": "Organization"
+            },
+            "schema:text": "Annual report on the full suite of Forestry Commission key performance indicators (KPIs) for both Forest Services and Forestry England.",
+            "schema:distribution": [
+                {
+                    "name": "Forestry Commission Key Performance Indicators: Report for 2021-22",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1091565/Forestry-Commission-Key-Performance-Indicators-Report-2021-22-.pdf",
+                    "encodingFormat": "application/pdf"
+                },
+                {
+                    "name": "Forestry Commission Key Performance Indicators: Report for 2021-22 Supporting data",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1091558/Forestry-Commission-Key-Performance-Indicators-Report-for-2021-22-Supporting-Data.xlsx",
+                    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                }
+            ]
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "2000/2021",
+    "schema:version": "2022-07-18",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Number of additional tree pests and diseases becoming established within a rolling 10-year period",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Data are presented in rolling 10-year time periods.\n    \n</br>Data for 2002 to 2011 and 2003 to 2012 were revised in the 2023 update of this indicator.",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "2000-2009|2001-2010|2002-2011|2003-2012|2004-2013|2005-2014|2006-2015|2007-2016|2008-2017|2009-2018|2010-2019|2011-2020|2012-2021",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "10_year_period",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The year range for the data present"
+            },
+            {
+                "datatype": "integer",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "value",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Number of additional tree pests and diseases becoming established in England within a rolling 10-year period"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

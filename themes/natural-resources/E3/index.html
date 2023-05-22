@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js" type="text/javascript"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VZBZ0PVRQ0"></script>
+<script>
+  var cookieControlConfig = {
+    apiKey: "afbc7c2ae0265eed63b3dfb031e976fab80fa4ff",
+    product: "COMMUNITY",
+    necessaryCookies: ["CookieControl"],
+    optionalCookies: [
+      {
+        name: "analytics",
+        label: "Analytical Cookies",
+        description:
+          "Analytical cookies help us to improve our website by collecting and reporting information on its usage.",
+        cookies: [
+          "_ga",
+          "_gid",
+          "_gali",
+          "_gat",
+          "__utma",
+          "__utmt",
+          "__utmb",
+          "__utmc",
+          "__utmz",
+          "__utmv",
+        ],
+        onAccept: function () {
+          // Add Google Analytics
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag("js", new Date());
+
+          gtag("config", "G-VZBZ0PVRQ0");
+          // End Google Analytics
+        },
+        onRevoke: function () {
+          // Disable Google Analytics
+          window["ga-disable-G-VZBZ0PVRQ0"] = true;
+          // End Google Analytics
+        },
+      },
+    ],
+    statement: {
+      description:
+        "For more detailed information about the cookies we use, see our",
+      name: "Cookies and privacy page.",
+      url: "/cookies/",
+      updated: "24/04/2023",
+    },
+    initialState: "open",
+    text: {
+      necessaryDescription:
+        "This website sets a cookie to remember a user’s choice about cookies. Where users have previously indicated a preference, that user’s preference will be stored in this cookie.",
+    },
+  };
+  CookieControl.load(cookieControlConfig);
+</script>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="/css/main.css"/> 
+    
+    <title>E3: Volume of inputs used in agricultural production</title>
+  </head>
+  <body>
+    <div class="c-colour-bar"></div>
+    <div class="l-column l-column--main l-column--large-space">
+      
+
+<header class="l-header">
+  
+
+<div id="site-phase" class="l-row l-row--x-small-space l-row--vertically-centred l-header__phase | c-phase">
+<strong class="c-phase__badge">alpha</strong>
+<span class="c-phase__text">This is a development website. We welcome your feedback via
+    <a href="mailto:25YEPindicators@defra.gov.uk">email</a>.</span>
+</div>
+
+
+  
+<a id="site-feedback" class="l-header__feedback | c-button c-button--feedback" role="link" href="https://defragroup.eu.qualtrics.com/jfe/form/SV_cTvfhqTFSj4QHlA">Complete our short user-feedback survey</a>
+
+  
+
+<a id="site-logo" class="l-header__logo | c-logo" role="link" href="/">
+    <img class="c-logo__image" src="/img/OIF_logo.png" width="459" height="161" alt="Outcome Indicator Framework - Home"/>
+</a>
+  
+
+
+
+<nav id="site-nav" class="l-header__nav | c-navigation" aria-label="Main navigation">
+    <button
+        id="navigation-toggle"
+        class="c-button c-navigation__toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="navigation-items">
+        Menu
+    </button>
+    <ul id="navigation-items" class="l-column l-column--no-space | c-navigation__items c-navigation__items--closed">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/themes/">Themes</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/reporting-status/">Reporting status</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/outcome-indicator-framework/">Outcome Indicator Framework</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/assessment/">Assessment</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/publications/">Publications</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/faqs/">FAQs</a>
+    
+  </li>
+
+        
+        
+    </ul>
+</nav>
+
+  
+
+<div id="site-search" class="l-header__search l-column l-column--vertical-bottom | c-search">
+    <button
+        id="search-toggle"
+        class="c-button c-search__toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="search-form">
+        Search
+    </button>
+    <form
+        action="/search/"
+        method="get"
+        id="search-form"
+        class="l-row l-row--no-space | c-search__form c-search__form--right c-search__form--closed">
+        <input class="c-search__input" type="text" name="q" value="" placeholder="Search...">
+        <button id="search-button" class="c-search__button c-button c-button--search" type="submit">
+        <img class="c-search__icon" src="/img/search-icon.svg" width="48" height="48" alt="Search"/>
+        </button>
+    </form>
+</div>
+
+
+</header>
+      <main class="l-column l-column--small-space">
+        
+
+
+
+  <nav aria-label="Breadcrumb" class="c-breadcrumbs">
+    <ol class="l-row l-row--xx-small-space l-row--wrap | c-breadcrumbs__items">
+      
+        
+          <li class="c-breadcrumbs__item">
+            <a class="c-breadcrumbs__link" href="/">Home</a>
+          </li>
+        
+      
+        
+          <li class="c-breadcrumbs__item">
+            <a class="c-breadcrumbs__link" href="/themes/">Themes</a>
+          </li>
+        
+      
+        
+          <li class="c-breadcrumbs__item">
+            <a class="c-breadcrumbs__link" href="/themes/natural-resources/">Natural Resources</a>
+          </li>
+        
+      
+        
+          <li class="c-breadcrumbs__item">
+            <a class="c-breadcrumbs__link" href="/themes/natural-resources/E3/" aria-current="page">E3</a>
+          </li>
+        
+      
+    </ol>
+  </nav>
+
+        
+    
+        
+    
+        
+            
+    <div class="l-row l-row--space-between">
+        
+        
+            
+        
+        
+            <a class="c-button c-button--previous" href="/themes/natural-resources/E2/">Previous indicator</a>
+        
+        
+        
+            <a class="c-button c-button--next" href="/themes/natural-resources/E4/">Next indicator</a>
+        
+    </div>
+
+        
+    
+    
+    <div class="indicator-banner">
+        <div class="l-column indicator-icon">
+            
+  
+    <a class="c-theme-tiles__tile c-theme-tiles__tile--indicator" href="/themes/natural-resources/">
+      <img
+        class="c-theme-tiles__image c-theme-tiles__image--indicator"
+        src="/img/natural-resources.png"
+        alt="View Natural Resources indicators"
+        height="100"
+        width="100"/>
+    </a>
+  
+
+        </div>
+        <div class="indicator-details">
+            <h1>E3: Volume of inputs used in agricultural production</h1>
+        </div>
+    </div>
+    <section class="l-column l-column--small-space">
+        <h2>Short Description</h2>
+        <p>To produce food and feed, farming uses a range of inputs including fertilisers, pesticides, energy and animal feed. In addition, labour and land is required as well as depreciation of capital. Minimising the use of these inputs is an important policy driver to improve productivity and hence improve profitability whilst reducing the environmental impacts of farming. Farm practices and the use of inputs (particularly fertilisers and pesticides) directly influence the environmental pressures from farming including the quality, composition and availability of habitats and impact on air, water and soils. Volume of inputs may therefore be considered an indirect measure of pressure on a range of natural capital assets.</p>
+<p>This indicator should be viewed alongside indicator ‘E2 Volume of agricultural production’ and other indicators in the framework relating to the condition of natural capital assets. The index of the volume of inputs is an overall measure of the total inputs used with price effects removed. This includes all inputs including intermediate consumption, land, labour and depreciation of capital.</p>
+    </section>
+    <section class="l-column l-column--small-space">
+        <h2>Readiness and links to data</h2>
+        <p>As of 2022, the data published on <a href="https://www.gov.uk/government/statistics/total-factor-productivity-for-england-by-farm-type">total factor productivity for England by farm type</a> are no longer labelled as experimental statistics and are therefore considered to be a robust source of data for this indicator. The data presented here are collated via the <a href="https://www.gov.uk/government/collections/farm-business-survey">Farm Business Survey</a> and are updated annually. Data on the <a href="https://www.gov.uk/government/statistics/total-factor-productivity-of-the-agricultural-industry">total factor productivity of the agricultural industry in the UK</a> are still published as National Statistics.</p>
+    </section>
+    
+    
+        <section class="l-column l-column--small-space">
+            <h2 id="indicator-components-section-title">Indicator components</h2>
+            <div
+                role="tablist"
+                aria-labelledby="indicator-components-section-title"
+                class="l-column l-column--xx-small-space">
+            
+                
+    
+    <button id="e3-component-tab" type="button" role="tab" aria-selected="true" aria-controls="e3-component-tabpanel" class="c-indicator-component-tab" onclick="window.dispatchEvent(new Event('resize'));">
+        <h3 id="e3-component-title" class="l-row l-row--xx-small-space l-row--vertically-centred | c-indicator-component-tab__text">
+            <span class="c-indicator-component-tab__radio-button">
+                <svg class="c-radio-button" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="c-radio-button__outer-circle" cx="50" cy="50" r="30"/>
+                    <circle class="c-radio-button__inner-circle" cx="50" cy="50" r="20"/>
+                </svg>
+            </span>
+            E3: Volume of inputs used in agricultural production
+        </h3>
+    </button>
+
+            
+            </div>
+            
+                
+    
+    <div id="e3-component-tabpanel" role="tabpanel" tabindex="0" aria-labelledby="e3-component-tab" class="l-column l-column--small-space | c-indicator-component-tabpanel">
+        
+        
+    <section class="l-column l-column--no-space">
+        <div
+            role="tablist"
+            aria-label="Data visualisation options"
+            class="l-equal-width-columns l-equal-width-columns--no-space">
+            
+            
+    <button id="e3-figure-tab" type="button" role="tab" aria-selected="true" data-tabgroup="e3" aria-controls="e3-figure-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Figure</span>
+    </button>
+
+            
+            
+    <button id="e3-table-tab" type="button" role="tab" aria-selected="true" data-tabgroup="e3" aria-controls="e3-table-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Table</span>
+    </button>
+
+            
+        </div>
+        <div class="l-column | c-indicator-component-visualisation-tabpanels">
+            
+            
+    <div id="e3-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="e3" aria-labelledby="e3-figure-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Figure
+                E3: Volume of inputs used in agricultural production</h4>
+            <div id="e3-figure-container" class="c-visualisation-container">
+                
+                    <img src='e3.svg' />
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Department for Environment, Food &amp; Rural Affairs
+                
+                
+                    
+                
+                </dd>
+            
+        
+        
+            <dt class="c-indicator-component-metadata__key">Unit of Measurement</dt>
+            <dd>Index (1990/1991 = 100)</dd>
+        
+        
+            <dt class="c-indicator-component-metadata__key">Footnotes</dt>
+            <dd><p>The data are reported on a March to February year, which is the average accounting year for respondents to the Farm Business Survey.</p></dd>
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="e3.csv">Download  CSV</a>
+                
+                
+                    <a class="c-button" href="e3.svg" download=".svg">Download Figure Image</a>
+                
+            </div>
+        </section>
+    </div>
+
+            
+            
+    <div id="e3-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="e3" aria-labelledby="e3-table-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Table
+                E3: Volume of inputs used in agricultural production</h4>
+            <div id="e3-table-container" class="c-visualisation-container">
+                
+                    <table class="dataframe" id="e3-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Year</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1990/1991</td>
+      <td>100.00</td>
+    </tr>
+    <tr>
+      <td>1991/1992</td>
+      <td>100.48</td>
+    </tr>
+    <tr>
+      <td>1992/1993</td>
+      <td>94.46</td>
+    </tr>
+    <tr>
+      <td>1993/1994</td>
+      <td>94.70</td>
+    </tr>
+    <tr>
+      <td>1994/1995</td>
+      <td>95.26</td>
+    </tr>
+    <tr>
+      <td>1995/1996</td>
+      <td>98.55</td>
+    </tr>
+    <tr>
+      <td>1996/1997</td>
+      <td>98.02</td>
+    </tr>
+    <tr>
+      <td>1997/1998</td>
+      <td>96.50</td>
+    </tr>
+    <tr>
+      <td>1998/1999</td>
+      <td>95.11</td>
+    </tr>
+    <tr>
+      <td>1999/2000</td>
+      <td>92.57</td>
+    </tr>
+    <tr>
+      <td>2000/2001</td>
+      <td>85.02</td>
+    </tr>
+    <tr>
+      <td>2001/2002</td>
+      <td>93.72</td>
+    </tr>
+    <tr>
+      <td>2002/2003</td>
+      <td>91.30</td>
+    </tr>
+    <tr>
+      <td>2003/2004</td>
+      <td>90.67</td>
+    </tr>
+    <tr>
+      <td>2004/2005</td>
+      <td>87.87</td>
+    </tr>
+    <tr>
+      <td>2005/2006</td>
+      <td>85.12</td>
+    </tr>
+    <tr>
+      <td>2006/2007</td>
+      <td>84.42</td>
+    </tr>
+    <tr>
+      <td>2007/2008</td>
+      <td>85.53</td>
+    </tr>
+    <tr>
+      <td>2008/2009</td>
+      <td>84.97</td>
+    </tr>
+    <tr>
+      <td>2009/2010</td>
+      <td>87.29</td>
+    </tr>
+    <tr>
+      <td>2010/2011</td>
+      <td>88.04</td>
+    </tr>
+    <tr>
+      <td>2011/2012</td>
+      <td>85.35</td>
+    </tr>
+    <tr>
+      <td>2012/2013</td>
+      <td>88.08</td>
+    </tr>
+    <tr>
+      <td>2013/2014</td>
+      <td>88.86</td>
+    </tr>
+    <tr>
+      <td>2014/2015</td>
+      <td>91.40</td>
+    </tr>
+    <tr>
+      <td>2015/2016</td>
+      <td>89.87</td>
+    </tr>
+    <tr>
+      <td>2016/2017</td>
+      <td>90.47</td>
+    </tr>
+    <tr>
+      <td>2017/2018</td>
+      <td>91.60</td>
+    </tr>
+    <tr>
+      <td>2018/2019</td>
+      <td>91.33</td>
+    </tr>
+    <tr>
+      <td>2019/2020</td>
+      <td>90.76</td>
+    </tr>
+    <tr>
+      <td>2020/2021</td>
+      <td>87.81</td>
+    </tr>
+    <tr>
+      <td>2021/2022</td>
+      <td>83.31</td>
+    </tr>
+  </tbody>
+</table>
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Department for Environment, Food &amp; Rural Affairs
+                
+                
+                    
+                
+                </dd>
+            
+        
+        
+            <dt class="c-indicator-component-metadata__key">Unit of Measurement</dt>
+            <dd>Index (1990/1991 = 100)</dd>
+        
+        
+            <dt class="c-indicator-component-metadata__key">Footnotes</dt>
+            <dd><p>The data are reported on a March to February year, which is the average accounting year for respondents to the Farm Business Survey.</p></dd>
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="e3.csv">Download  CSV</a>
+                
+                
+            </div>
+        </section>
+    </div>
+
+            
+        </div>
+    </section>
+
+        
+        <section class="l-column l-column--small-space">
+            <h4>Trend description for E3</h4>
+            <p>The volume of inputs used in agricultural production in England has shown an overall decline of 17% since 1990/1991. Most of this decline took place between the late 1990s and 2006. Following a period of increase up to 2017/2018, there have been year-on-year declines, and in the latest year (2021/2022) the volume of inputs used in agricultural production in England fell by 5%.</p>
+        </section>
+        
+            <h2>Assessment of change</h2>
+            <p>Little or no change in volume of inputs used in agricultural production has been observed over the short term, and in the medium term. This is in contrast to long-term decreasing trends. It is not possible to simplistically categorise these changes as either an ‘improvement’ or ‘deterioration’ for the environment as this will depend on the types of input driving change. An increase in inputs of pesticide and fertiliser would likely have a negative effect, but this indicator also includes other inputs such as labour. This indicator is included in the Outcome Indicator Framework to help interpret the reasons behind changes in ‘E4 Efficiency of agricultural production measured by Total Factor Productivity’.</p>
+<p>Change since 2018 has also been assessed. There has been a decrease in volume of inputs used in agricultural production since 2018, based on 4 years of data. We set a minimum of 5 data points for the production of a robust trend for this assessment so this result should be treated with caution until the next iteration is available.</p>
+<p>Further information on this assessment, along with details on the methodology, is provided in the <a href="/assessment/background">Assessment background</a> page. Summaries by 25 Year Environment Plan goal and information on indicator links are presented in the <a href="/assessment/results/">Assessment results</a> pages.</p>
+            
+                <h4>Table E3: Assessment of change</h4>
+                <table class="dataframe" id="e3-assessment-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Component</th>
+      <th>Subcomponent</th>
+      <th>Period</th>
+      <th>Date range</th>
+      <th>Percentage change</th>
+      <th>Smoothing function</th>
+      <th>Assessment of change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>E3</td>
+      <td>None</td>
+      <td>Short term</td>
+      <td>2015/2016 to 2020/2021</td>
+      <td>-0.51</td>
+      <td>Loess</td>
+      <td>Little or no change</td>
+    </tr>
+    <tr>
+      <td>E3</td>
+      <td>None</td>
+      <td>Medium term</td>
+      <td>2010/2011 to 2020/2021</td>
+      <td>1.96</td>
+      <td>Loess</td>
+      <td>Little or no change</td>
+    </tr>
+    <tr>
+      <td>E3</td>
+      <td>None</td>
+      <td>Long term</td>
+      <td>1990/1991 to 2020/2021</td>
+      <td>-10.83</td>
+      <td>Loess</td>
+      <td>Change (decreasing)</td>
+    </tr>
+  </tbody>
+</table>
+            
+            <p>Note that assessment categories were assigned based on smoothed data, so percent change figures in Table E3 may differ from unsmoothed values quoted elsewhere.</p>
+        
+    </div>
+
+            
+        </section>
+    
+    <section id="indicator-metadata" class="l-column l-column--small-space">
+    <h2>Indicator Metadata</h2>
+    <dl class="l-column l-column--xx-small-space | c-indicator-metadata">
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Headline indicator status</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">Not applicable</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Primary goal in the 25 Year Environment Plan</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">Using resources from nature more sustainably and efficiently</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Relevant goal(s) in the 25 Year Environment Plan</dt>
+            
+            
+                
+                    <dd class="c-indicator-metadata__values">Using resources from nature more sustainably and efficiently</dd>
+                
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Relevant target(s) in the 25 Year Environment Plan</dt>
+            
+            
+                
+                    <dd class="c-indicator-metadata__values">Ensuring that food is produced sustainably and profitably</dd>
+                
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Position in the natural capital framework</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">Pressure on natural capital assets</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Related reporting commitments</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">None</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Geographical Scope</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">England</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Status of indicator development</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">Final</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">First Reported</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">2020</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Last Updated</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">2023</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Latest Data</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">2021/2022</dd>
+              
+            </div>
+        
+        
+        
+        
+    </dl>
+</section>
+    
+        
+    
+        
+            
+    <div class="l-row l-row--space-between">
+        
+        
+            
+        
+        
+            <a class="c-button c-button--previous" href="/themes/natural-resources/E2/">Previous indicator</a>
+        
+        
+        
+            <a class="c-button c-button--next" href="/themes/natural-resources/E4/">Next indicator</a>
+        
+    </div>
+
+        
+    
+
+      </main>
+      
+
+<footer class="c-footer">
+  <ul class="l-row l-row--horizontally-centred l-row--small-space l-row--wrap | c-footer__items">
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/contact-us/" target="_blank" rel="noopener noreferrer">Contact us</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/about/" target="_blank" rel="noopener noreferrer">About</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="https://twitter.com/defragovuk" target="_blank" rel="noopener noreferrer">Twitter</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/cookies/" target="_blank" rel="noopener noreferrer">Cookies</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/accessibility-statement/" target="_blank" rel="noopener noreferrer">Accessibility statement</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/official-statistics/" target="_blank" rel="noopener noreferrer">Official statistics</a>
+      </li>
+    
+  </ul>
+</footer>
+      
+    <link href="https://unpkg.com/tabulator-tables@5.4.3/dist/css/tabulator.min.css" rel="stylesheet"/>
+    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@5.4.3/dist/js/tabulator.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.21.0.min.js"></script>
+    <script src="/js/index.js" type="text/javascript"></script>
+    
+<script>
+    /**
+    * Replace a static SVG figure with an interactive Plotly figure. 
+    * 
+    * @param {string} code - An indicator component code
+    * @param {object} figure - A Plotly figure object 
+    * @param {object} config - A Plotly configuration object
+    */
+    const initialiseFigure = async (component_code, figure, config) => {
+        const figureContainer = document.querySelector(`#${component_code}-figure-container`);
+        figureContainer.replaceChildren();
+        Plotly.newPlot(`${component_code}-figure-container`, figure.data, figure.layout, config);
+    };
+
+    /**
+    * Replace a static HTML table with an interactive Tabulator table
+    * 
+    * @param {string} code - An indicator component code
+    * @param {object} config - A Tabulator configuration object
+    */
+    const initialiseTable = async (component_code, config) => {
+        new Tabulator(`#${component_code}-table`, config);
+    };
+
+    /**
+    * Replace a static SVG figure with an interactive Plotly figure and a
+    * a static HTML table with an interactive Tabulator table. 
+    * 
+    * @param {string} code - An indicator component code
+    * @param {object} figure - A Plotly figure object 
+    * @param {object} figureConfig - A Plotly configuration object 
+    * @param {object} tableConfig - A Tabulator configuration object 
+    */
+
+    const initialiseTableVisualisations = async (component_code, tableConfig) => {
+        await initialiseTable(component_code, tableConfig);
+    };
+    const initialiseFigureVisualisations = async (component_code, figure, figureConfig) => {
+        await initialiseFigure(component_code, figure, figureConfig);
+    };
+    
+        
+        
+            console.log("please work")
+            initialiseTableVisualisations(
+                "e3",
+                {"layout":"fitColumns","pagination":true,"paginationSize":13,"nestedFieldSeparator":"|","columnDefaults":{"hozAlign":"right","headerHozAlign":"right"},"columns":[{"title":"Year","hozAlign":"left","headerHozAlign":"left"}]}
+            )
+        
+        
+            
+                initialiseFigureVisualisations(
+                    "e3",
+                    {"data":[{"hovertemplate":"%{y:.2f}","legendgroup":"","line":{"color":"#12436D","dash":"solid","width":3},"marker":{"symbol":"circle"},"mode":"lines+markers","name":"","orientation":"v","showlegend":false,"x":["1990/1991","1991/1992","1992/1993","1993/1994","1994/1995","1995/1996","1996/1997","1997/1998","1998/1999","1999/2000","2000/2001","2001/2002","2002/2003","2003/2004","2004/2005","2005/2006","2006/2007","2007/2008","2008/2009","2009/2010","2010/2011","2011/2012","2012/2013","2013/2014","2014/2015","2015/2016","2016/2017","2017/2018","2018/2019","2019/2020","2020/2021","2021/2022"],"xaxis":"x","y":[100.0,100.484931616806,94.4628407129087,94.6958430395874,95.261333700637,98.5541740910083,98.0222251549306,96.5014872955222,95.1050386246722,92.5680658538376,85.0194768600735,93.7234525346659,91.3022719274843,90.6654189140098,87.8713409733491,85.1205948440325,84.4208512562096,85.5254827099736,84.9681147529572,87.2866128423879,88.0399718959475,85.3485905439048,88.075340281759,88.855359941409,91.4012470825133,89.8701353020414,90.4675291881471,91.6017280516426,91.3291585395683,90.7638427814046,87.8116951854156,83.307635561048],"yaxis":"y","type":"scatter"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":""},"dtick":1,"automargin":true,"range":[0,31]},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Index (1990 = 100)"},"showgrid":true,"dtick":10,"automargin":true,"range":[0,105]},"legend":{"tracegroupgap":0,"title":{"text":""},"yanchor":"bottom","y":-0.45,"xanchor":"center","x":0.5,"orientation":"h"},"margin":{"t":60},"shapes":[{"line":{"color":"#8F8F8F","dash":"dash","width":2},"type":"line","x0":0,"x1":1,"xref":"x domain","y0":100,"y1":100,"yref":"y"}],"annotations":[{"showarrow":false,"text":"Baseline","x":1,"xanchor":"right","xref":"x domain","y":100,"yanchor":"bottom","yref":"y"}],"hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true,"hovermode":"x unified"}},
+                    {"displayModeBar":false,"responsive":true}
+                )
+            
+        
+            
+        
+
+    
+
+
+    
+        
+        AssessmentTable = new Tabulator("#e3-assessment-table", {
+        layout: "fitDataStretch",
+        pagination: false,
+        columns: [
+            {title: "Component"},
+            {title: "Subcomponent"},
+            {title: "Period"},
+            {title: "Date range"},
+            {title: "Percentage change", hozAlign: "right"},
+        ]
+        });
+    
+
+</script>
+
+
+    </div>
+  </body>
+</html>

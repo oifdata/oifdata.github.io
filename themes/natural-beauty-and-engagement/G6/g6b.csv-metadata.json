@@ -1,0 +1,122 @@
+{
+    "schema:name": "Adults' pro-environmental behaviour score as an index from 0 to 100, England, survey years 2020/2021 and 2021/2022",
+    "url": "g6b.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:description": "<div class=\"govspeak\"><p>The People and Nature Survey for England gathers information on people’s experiences and views about the natural environment, and its contributions to our health and wellbeing.</p>\n\n<p>The publications report a set of weighted national indicators from the survey, which have been generated using data collected from a sample of approx. 25,000 adults (16+).</p>\n\n<p>To receive updates on the survey, including data releases and publications, sign-up via the <a rel=\"external\" href=\"https://people-and-nature-survey-defra.hub.arcgis.com/\" class=\"govuk-link\">People and Nature User Hub</a>.</p>\n</div>",
+            "schema:image": [
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-bf9e64d759af6dfd93bede8168f3087a329f405b382aff36747db0db4b7b23e9.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-13093f053c15f613acd827aff27cac83d3fab452947cbcae4c7b706dadf2f7f2.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-4233cd42671827e266e284c4d5ae68fb600bd9f9e35dda663ccabbc2b6ab7ec3.png"
+            ],
+            "schema:name": "The People and Nature Survey for England: Year 2 Annual Report – Data and publications (April 2021 - March 2022) (Official Statistics) main findings",
+            "@type": "Dataset",
+            "schema:about": [
+                {
+                    "@type": "Thing"
+                },
+                {
+                    "@type": "Thing"
+                }
+            ],
+            "schema:author": {
+                "schema:name": "Natural England",
+                "schema:url": "https://www.gov.uk/government/organisations/natural-england",
+                "@type": "Organization"
+            },
+            "schema:publisher": {
+                "schema:name": "GOV.UK",
+                "schema:url": "https://www.gov.uk",
+                "@type": "Organization"
+            },
+            "schema:text": "Data, and supporting documents, from the People and Nature Survey covering the period 1 April 2021 - 31 March 2022. ",
+            "schema:distribution": [
+                {
+                    "name": "The People and Nature Survey for England: Year 2 Annual Report - Data and publications (April 2021 - March 2022) (Official Statistics) main findings",
+                    "url": "/government/statistics/the-people-and-nature-survey-for-england-year-2-annual-report-data-and-publications-april-2021-march-2022-official-statistics-main-findings/the-people-and-nature-survey-for-england-year-2-annual-report-data-and-publications-april-2021-march-2022-official-statistics-main-findings"
+                },
+                {
+                    "name": "People and Nature Survey Year 1 and Year 2 Annual Report Summary Tables",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1110238/PANS_Y1Y2_Annual_Rpt_Summary_Tabs.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "People and Nature Survey Year 1 and Year 2 Annual Report Summary Tables",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1110239/PANS_Y1Y2_Annual_Rpt_Summary_Tabs.xlsx",
+                    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                },
+                {
+                    "name": "People and Nature Survey for England - Year 2 - Quarter 1 to Quarter 4 data",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1110240/PANS_Y2_Q1_Q4.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "People and Nature Survey for England - Year 2 - Quarter 1 to Quarter 4 data",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1110241/PANS_Y2_Q1_Q4.xlsx",
+                    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                }
+            ]
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "2020/2022",
+    "schema:version": "2022-10-14",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Pro-environmental behaviour score as an index from 0 to 100, weighted mean of adults in England",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Figure G6b is derived from PANS data collected in survey years (April to March) 2020/2021 and 2021/2022 with PANS weightings applied. Base: All asked Module 4.\n    \n</br>The indicator is based on responses to question [M4_Q11, options 1 to 9]: ‘Thinking about the last month, which of the following have you done?’. Scores from 0 (low pro-environmental behaviour) to 100 (high pro-environmental behaviour) represent an index of self-reported social action formed from the following statements:\n    \n* ‘Composted food waste, or put food waste out for collection’\n* ‘Switched off lights and appliances to save energy or to protect the environment’\n* ‘Recycled items’\n* ‘Brought your own bags when shopping’\n* ‘Bought products with an environmental label’\n* ‘Bought produce that is grown locally or in season’\n* ‘Bought second-hand items’\n* ‘Watched wildlife or nature programmes’\n* ‘Taken shorter showers to save water or energy’",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "2020/2021|2021/2022",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "year",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The year range for the data present"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "value",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Pro-environmental behaviour (PEB) score as an index from 0 (low PEB) to 100(high PEB), weighted mean of adults in England"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

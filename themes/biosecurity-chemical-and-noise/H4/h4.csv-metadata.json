@@ -1,0 +1,99 @@
+{
+    "schema:name": "Exposure of wildlife to chemicals in the environment in England and, for some marine components the UK; up to 2019 where available",
+    "url": "h4.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "Exposure and adverse effects of chemicals on wildlife in the environment: interim H4 indicator",
+            "schema:url": "https://www.gov.uk/government/publications/exposure-and-adverse-effects-of-chemicals-on-wildlife-in-the-environment-interim-h4-indicator",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "EA",
+                "schema:name": "Environment Agency",
+                "schema:sameAs": "https://ror.org/01zewfb16",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:dateModified": "2021-06-11",
+            "schema:datePublished": "2021-06-11"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England and UK for some marine components",
+    "schema:temporalCoverage": "2013/2019",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Assessment results",
+    "@context": "http://www.w3.org/ns/csvw",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Mercury|PBDEs|PCBs|PFOS|Lead|Cadmium|Nickel|Copper|Zinc|Pesticides|SGARs",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "chemical",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The chemical present"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Sparrowhawk/red kite|Red Fox|Freshwater|Roach/chub/brown trout|Otter|Estuarine/Coastal waters|Blue mussels|Dab|Harbour porpoise",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "wildlife",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Different wildlife being exposed"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "value",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Exposure levels"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "schema:name": "Percentage land cover in England by broad habitat types, 2022",
+    "url": "d1.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "Living England habitat extent summary",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "NE",
+                "schema:name": "Natural England",
+                "schema:sameAs": "https://ror.org/00r66pz14",
+                "@type": "schema:GovernmentOrganization"
+            }
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "2021/2022",
+    "schema:version": "2015/2021",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "predicted percentage of land cover by habitat",
+    "@context": "http://www.w3.org/ns/csvw",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Acid, calcareous and neutral grassland|Arable and horticultural|Bare ground|Bare sand|Bog|Bracken|Broadleaved, mixed and yew woodland|Built-up areas and gardens|Coastal saltmarsh|Coastal sand dunes|Coniferous woodland|Dwarf shrub heath|Fen, marsh and swamp|Improved grassland|Scrub|Unclassified|Water",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "habitat",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Predicted habitat type"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "percentage_cover",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Predicted percentage of total land covered by the habitat type, using a habitat probability map"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "schema:name": "Status of waters specially protected for specific uses in England, 2019 or 2022",
+    "url": "b3c.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "EA",
+                "schema:name": "Environment Agency",
+                "schema:sameAs": "https://ror.org/01zewfb16",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:headline": "Status of waters specially protected for specific uses in England"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "2019/2022",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Percentage of area assessed with corresponding status",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Results for the status of Drinking Water Protected Areas are based on the percentage of sites. The indicator for nature conservation includes all water-dependent (river, lake, small waterbody, coastal and wetland) SSSI units underpinning European sites, results are by area. Adverse condition reasons and threats unrelated to Water Framework Directive (water quality, water resources, physical modification) drivers are excluded from the analysis. The European sites series includes Special Areas of Conservation and Special Protection Areas (SPAs). SPAs are designated for bird features only, where favourable condition may not include assessment of water quality elements.",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Groundwater (2019)|Surface water (2022)|Protected wildlife sites (2022)",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "site",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Protected site being assessed"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Drinking water protected areas, not at risk|Drinking water protected areas, at risk|Condition of SSSI units underpinning European protected water and wetland sites, favourable|Condition of SSSI units underpinning European protected water and wetland sites, unfavourable recovering|Condition of SSSI units underpinning European protected water and wetland sites, other",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "status",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Status of water environment being assessed"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "percentage",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Percentage of area being assessed with corresponding status"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

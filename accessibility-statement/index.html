@@ -1,469 +1,7 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
-    <head>
-        <meta charset="utf-8">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CArray.prototype.reduce%2CObject.assign%2CArray.isArray%2CObject.values%2CObject.entries%2CArray.from%2CSet%2CArray.prototype.findIndex"></script>
-<script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/javascript-canvas-to-blob/3.15.0/js/canvas-to-blob.min.js"></script>
-
-        <script>
-// This is where we initialise any global variables, namespaced in "opensdg".
-var opensdg = {
-
-  // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: '/en',
-
-  chartConfigAlterations: [],
-  // A hook which can be used to modify the configuration for Chart.js.
-  chartConfigAlter: function(callback) {
-    this.chartConfigAlterations.push(callback);
-  },
-
-  tableConfigAlterations: [],
-  // A hook which can be used to modify the configuration for Datatables.
-  tableConfigAlter: function(callback) {
-    this.tableConfigAlterations.push(callback);
-  },
-
-  // A hook which can be replaced to alter whether/how the values that are
-  // displayed on indicator tables/graphs get rounded.
-  dataRounding: function(value) {
-    // Alterations go here.
-    return value;
-  },
-
-  // A hook which can be used to alter the data before it is displayed on charts/tables.
-  dataDisplayAlterations: [],
-  dataDisplayAlter: function(callback) {
-    this.dataDisplayAlterations.push(callback);
-  },
-
-  language: 'en',
-};
-
-// For backwards compatibility, some of these might need to be global.
-// @TODO: Remove these eventually.
-var remoteDataBaseUrl = opensdg.remoteDataBaseUrl;
-
-</script>
-
-        <script>
-// JavaScript container for translation data.
-var translations = {
-  //Javascript version of the "t" filter from jekyll-open-sdg-plugins.
-  t: function(key) {
-
-    if (!key || typeof key !== 'string') {
-      return '';
-    }
-
-    // The majority of uses of this function are to translate disaggregation
-    // data. To spare data providers of needing to enter "data." in front of
-    // their disaggregation data, we specifically look for that here.
-    if (typeof this.data === 'object' && this.data !== null && this.data[key]) {
-      return this.data[key];
-    }
-
-    var originalKey = key;
-    var drilled = this;
-    var levelsDrilled = 0;
-    var levels = key.split('.');
-
-    for (var level in levels) {
-      // If we have drilled down to soon, abort.
-      if (typeof drilled !== 'object') {
-        break;
-      }
-
-      if (levels[level] in drilled) {
-        drilled = drilled[levels[level]];
-        levelsDrilled += 1;
-      }
-    }
-
-    // If we didn't drill the right number of levels, return the original string.
-    if (levels.length != levelsDrilled) {
-      return originalKey;
-    }
-
-    // Otherwise we must have drilled all the way.
-    return drilled;
-  },
-};
-</script>
-
-        <!-- Basic Page Needs
-        ================================================== -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- Mobile Specific Metas
-        ================================================== -->
-        <meta name="HandheldFriendly" content="True">
-        <meta name="MobileOptimized" content="320">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Title and meta description
-        ================================================== -->
-
-        
-    <title>Accessibility statement - Outcome indicator framework for the 25 Year Environment Plan</title>
-
-
-
-        <meta name="description" content="">
-        <meta property="og:description" content="">
-        
-        <link rel="canonical" href="/">
-
-        <!--[if IE 9]>
-        <script src="/assets/js/lib/classList.js"></script>
-        <![endif]-->
-
-        
-
-
-
-
-<link rel="shortcut icon" type="image/ico" href="/assets/img/favicons/favicon.ico">
-<link rel="icon" type="image/png" href="/assets/img/favicons/favicon.png">
-
-
-        
-        
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
-        
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20230306105616">
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
-          integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
-          crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
-        <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
-        <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin="">
-        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/assets/css/custom.css?v=20230306105616">
-        
-
-        
-
-    </head>
-<body class="language-en
-layout-page
-">
-<!-- <div class="container"> -->
-
-
-
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your feedback via <a href=\"mailto:%email_address\">email</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"25 Year Environment Plan homepage","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
-
-<header role="banner" class="header-menu-left-aligned">
-  <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
-
-  <div class="container">
-
-    <div class="disclaimer" id="disclaimer">
-      
-<strong class="phase-tag">Alpha</strong>
-
-<p>This is a development website. We welcome your feedback via <a href="mailto:25YEPindicators@defra.gov.uk">email</a>.</p>
-
-<a id="takepartButton"
-    href="https://defragroup.eu.qualtrics.com/jfe/form/SV_cTvfhqTFSj4QHlA"
-    class="btn btn-primary btn-download btn-takepart" role="link">Complete our short user-feedback survey</a>
-
-
-    </div>
-    
-    <div class="widgets">
-      <a class="navbar-brand" href="/" id="home">
-    <img src="/assets/img/SDG_logo.png" alt="Outcome Indicator Framework - 25 Year Environment Plan homepage" />
-</a>
-      <div id="search" class="menu-target">
-  <form action="/search/">
-    <label class="sr-only" for="indicator_search">Search</label>
-    <input type="text" name="q" id="indicator_search" title="Search" /><!--
-    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
-  </form>
-</div>
-
-    </div>
-
-    <div class="navbar navbar-default menu-without-widgets" id="main-nav">
-      <ul class="top-level">
-    <li id="menuToggle"
-        aria-label="Menu toggle. Click to expand or collapse the menu."
-        aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
-        <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/goals">Themes</a>
-</li><li class="nav-link ">
-    <a href="/reporting-status">Reporting status</a>
-</li><li class="nav-link ">
-    <a href="/impact-of-coronavirus">Impacts of the Coronavirus (COVID-19) pandemic</a>
-</li><li class="nav-link ">
-    <a href="/introduction">Introduction and aims</a>
-</li><li class="nav-link ">
-    <a href="/structure">Structure</a>
-</li><li class="nav-link ">
-    <a href="/using-the-framework">Using the framework</a>
-</li><li class="nav-link ">
-    <a href="/latest-update">Latest annual update</a>
-</li><li class="nav-link ">
-    <a href="/assessment">Assessment</a>
-</li><li class="nav-link ">
-    <a href="/future-development">Future development</a>
-</li><li class="nav-link ">
-    <a href="/assessment/background">Background</a>
-</li><li class="nav-link ">
-    <a href="/assessment/results/">Summary of results</a>
-</li><li class="nav-link ">
-    <a href="/publications">Publications</a>
-</li><li class="nav-link ">
-    <a href="/faq">FAQs</a>
-</li>
-
-
-
-    <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
-           data-contrast-switch-to="default"
-           href="javascript:void(0)"
-           data-on="click"
-data-event-category="Accessibility"
-data-event-action="Change contrast setting"
-data-event-label="default"
-
-        >A</a>
-    </li>
-    <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
-           data-contrast-switch-to="high"
-           href="javascript:void(0)"
-           data-on="click"
-data-event-category="Accessibility"
-data-event-action="Change contrast setting"
-data-event-label="high"
-
-        >A</a>
-    </li>
-
-
-
-</ul>
-
-    </li>
-    <li id="searchToggle"
-        aria-label="Search toggle. Click to expand or collapse the search bar."
-        aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false">Search</button>
-        <div id="search-mobile" class="menu-target">
-  <form action="/search/">
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
-    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
-  </form>
-</div>
-
-    </li>
-</ul>
-      <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/goals">Themes</a>
-</li><li class="nav-link ">
-    <a href="/reporting-status">Reporting status</a>
-</li><li class="nav-link">
-            <div class="btn-group menu-dropdown">
-                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    The Outcome Indicator Framework
-                    <i class="fa fa-chevron-down"></i>
-                </button>
-                <ul class="dropdown-menu"><li class="nav-link ">
-    <a href="/impact-of-coronavirus">Impacts of the Coronavirus (COVID-19) pandemic</a>
-</li><li class="nav-link ">
-    <a href="/introduction">Introduction and aims</a>
-</li><li class="nav-link ">
-    <a href="/structure">Structure</a>
-</li><li class="nav-link ">
-    <a href="/using-the-framework">Using the framework</a>
-</li><li class="nav-link ">
-    <a href="/latest-update">Latest annual update</a>
-</li><li class="nav-link ">
-    <a href="/assessment">Assessment</a>
-</li><li class="nav-link ">
-    <a href="/future-development">Future development</a>
-</li></ul>
-            </div>
-        </li><li class="nav-link">
-            <div class="btn-group menu-dropdown">
-                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Assessment
-                    <i class="fa fa-chevron-down"></i>
-                </button>
-                <ul class="dropdown-menu"><li class="nav-link ">
-    <a href="/assessment/background">Background</a>
-</li><li class="nav-link ">
-    <a href="/assessment/results/">Summary of results</a>
-</li></ul>
-            </div>
-        </li><li class="nav-link ">
-    <a href="/publications">Publications</a>
-</li><li class="nav-link ">
-    <a href="/faq">FAQs</a>
-</li>
-
-</ul>
-
-    </div>
-
-  </div>
-
-</header>
-
-
-
-
-<div id="main-content" class="container" role="main">
-    <div>
-        <h1>Accessibility statement</h1>
-        
-            <h2 id="accessibility-statement-for-outcome-indicator-framework-for-the-25-year-environment-plan">Accessibility statement for Outcome Indicator Framework for the 25 Year Environment Plan</h2>
-
-<p>This accessibility statement applies to the Department for Environment, Food &amp; Rural Affairs (Defra) Outcome Indicator Framework for the 25 Year Environment Plan website.</p>
-
-<p>This website is run by Defra. We want as many people as possible to be able to use this website. For example, that means you should be able to:</p>
-
-<ul>
-  <li>Change colours, contrast levels and fonts</li>
-  <li>Zoom in up to 300% without the text spilling off the screen</li>
-  <li>Navigate most of the website using just a keyboard</li>
-  <li>Navigate most of the website using speech recognition software</li>
-  <li>Listen to most of the website using a screen reader (including the most recent versions of JAWS, NVDA, ZoomText, TalkBack and VoiceOver)</li>
-</ul>
-
-<p>We’ve also made the website text as simple as possible to understand.</p>
-
-<p><a href="https://mcmw.abilitynet.org.uk/">AbilityNet</a> has advice on making your device easier to use if you have a disability.</p>
-
-<h3 id="how-accessible-this-website-is">How accessible this website is</h3>
-
-<p>We know some parts of this website are not fully accessible:</p>
-
-<ul>
-  <li>Assistive technology can’t read charts or maps on the site so please use the data table view instead</li>
-</ul>
-
-<h3 id="feedback-and-contact-information">Feedback and contact information</h3>
-
-<p>If you need information on this website in a different format like accessible PDF, large print, easy read, audio recording or braille:</p>
-
-<ul>
-  <li>email: <a href="mailto:25YEPindicators@defra.gov.uk">25YEPindicators@defra.gov.uk</a></li>
-  <li>call: +44 (0)3459 33 55 77</li>
-</ul>
-
-<p>We’ll consider your request and get back to you in 10 days.</p>
-
-<p>If you cannot view the map on our ‘contact us’ page, call or email us <a href="mailto:25YEPindicators@defra.gov.uk">contact us</a> for directions.</p>
-
-<h3 id="reporting-accessibility-problems-with-this-website">Reporting accessibility problems with this website</h3>
-
-<p>We’re always looking to improve the accessibility of this website. If you find any problems not listed on this page or think we’re not meeting accessibility requirements, contact: <a href="mailto:25YEPindicators@defra.gov.uk">25YEPindicators@defra.gov.uk</a>.</p>
-
-<h3 id="enforcement-procedure">Enforcement procedure</h3>
-
-<p>The Equality and Human Rights Commission (EHRC) is responsible for enforcing the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018 (the ‘accessibility regulations’). If you’re not happy with how we respond to your complaint, <a href="https://www.equalityadvisoryservice.com/">contact the Equality Advisory and Support Service (EASS)</a>.</p>
-
-<h2 id="technical-information-about-this-websites-accessibility">Technical information about this website’s accessibility</h2>
-
-<p>The Defra Outcome Indicator Framework for the 25 Year Environment Plan team is committed to making its website accessible, in accordance with the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018.</p>
-
-<h3 id="compliance-status">Compliance status</h3>
-
-<p>This website is partially compliant with the <a href="https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag">Web Content Accessibility Guidelines (WCAG 2.1)</a> AA standard, due to the non-compliances listed below.</p>
-
-<h2 id="non-accessible-content">Non-accessible content</h2>
-
-<p>The content listed below is non-accessible for the following reasons.</p>
-
-<h3 id="non-compliance-with-the-accessibility-regulations">Non-compliance with the accessibility regulations</h3>
-
-<ul>
-  <li>Assistive technology can’t read charts or maps on the site.</li>
-</ul>
-
-<h2 id="what-were-doing-to-improve-accessibility">What we’re doing to improve accessibility</h2>
-
-<p>Ensuring accessibility is embedded in our development processes, including using automated accessibility testing. We commit to an annual assessment of accessibility of this website.</p>
-
-<h2 id="preparation-of-this-accessibility-statement">Preparation of this accessibility statement</h2>
-
-<p>This statement was prepared on 11.06.2021. It was last reviewed on 12.07.2022.</p>
-
-        
-    </div>
-</div>
-
-
-<footer role="contentinfo">
-  <div class="container">
-    <div class="oif-row">
-      <div class="col-xs-12">
-        <div id="footerLinks">
-          <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
-            
-              <li>
-                <a href="/contact-us/">Contact us</a>
-                
-                </li>
-              <li>
-                <a href="/about/">About</a>
-                
-                </li>
-              <li>
-                
-                  <a href="https://twitter.com/defragovuk" target="_blank">Twitter</a>
-                
-                </li>
-              <li>
-                <a href="/cookies-and-privacy/">Cookies</a>
-                
-                </li>
-              <li>
-                <a href="/accessibility-statement/">Accessibility statement</a>
-                
-                </li>
-              <li>
-                <a href="/official-statistics/">Official statistics</a>
-                
-                </li>
-              
-            
-            </ul>
-        </div>
-      </div>
-    </div>
-    
-  </div>
-</footer>
-
-<!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
-<!-- <script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA"></script> -->
-
-<!-- /.container </div> -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
-<script src="//cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
-<script src="//cdn.datatables.net/fixedcolumns/3.2.3/js/dataTables.fixedColumns.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js" type="text/javascript"></script>
+<html lang="en">
+  <head>
+    <script src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js" type="text/javascript"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-VZBZ0PVRQ0"></script>
 <script>
   var cookieControlConfig = {
@@ -510,8 +48,8 @@ data-event-label="high"
       description:
         "For more detailed information about the cookies we use, see our",
       name: "Cookies and privacy page.",
-      url: "/about/cookies-and-privacy/",
-      updated: "26/10/2021",
+      url: "/cookies/",
+      updated: "24/04/2023",
     },
     initialState: "open",
     text: {
@@ -521,98 +59,256 @@ data-event-label="high"
   };
   CookieControl.load(cookieControlConfig);
 </script>
-<script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
-
-<script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
-
-<script src='/assets/js/sdg.js?v=20230306105616'></script>
-
-
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="/css/main.css"/> 
     
-    
-    <script src="/assets/js/custom.js?v=20230306105616"></script><script>
-$(function() {
-    if($('#indicatorData').length) {
-      var domData = $('#indicatorData').data();
+    <link rel="stylesheet" href="/css/main.css"/>
 
-      if (domData.showdata) {
+    <title>Accessibility statement</title>
+  </head>
+  <body>
+    <div class="c-colour-bar"></div>
+    <div class="l-column l-column--main l-column--large-space">
+      
 
-        $('.async-loading').each(function(i, obj) {
-            $(obj).append($('<img />').attr('src', $(obj).data('img')).attr('alt', translations.indicator.loading));
-        });
-
-        var remoteUrl = '/comb/' + domData.id + '.json';
-        if (opensdg.remoteDataBaseUrl !== '/') {
-          remoteUrl = opensdg.remoteDataBaseUrl + remoteUrl;
-        }
-
-        $.ajax({
-          url: remoteUrl,
-          success: function(res) {
-
-            $('.async-loading').remove();
-            $('.async-loaded').show();
-
-            var model = new indicatorModel({
-              data: res.data,
-              edgesData: res.edges,
-              showMap: domData.showmap,
-              country: domData.country,
-              graphGeographies: domData.graphgeographies,
-              indicatorId: domData.indicatorid,
-              shortIndicatorId: domData.id,
-              chartTitle: domData.charttitle,
-              chartTitles: domData.charttitles,
-              measurementUnit: domData.measurementunit,
-              measurementUnits: domData.measurementunits,
-              showData: domData.showdata,
-              graphType: domData.graphtype,
-              graphTypes: domData.graphtypes,
-              startValues: domData.startvalues,
-              startValuesSeries: domData.startvaluesseries,
-              graphLimits: domData.graphlimits,
-              stackedDisaggregation: domData.stackeddisaggregation,
-              categoryOrder: domData.categoryorder,
-              stackOrder: domData.stackorder,
-              categoryColor: domData.categorycolor,
-              graphAnnotations: domData.graphannotations,
-              graphTargetLines: domData.graphtargetlines,
-              graphSeriesBreaks: domData.graphseriesbreaks,
-              indicatorDownloads: domData.indicatordownloads,
-              dataSchema: domData.dataschema,
-              compositeBreakdownLabel: domData.compositebreakdownlabel,
-              precision: domData.precision,
-              continuousError: domData.continuouserror,
-              multiAxes: domData.multiaxes,
-              mixedType: domData.mixedtype,
-              graphSource: domData.graphsource,
-              graphSources: domData.graphsources,
-              graphNote: domData.graphnote,
-              graphNotes: domData.graphnotes,
-              yAxisLabels: domData.yaxislabels
-            }),
-            view  = new indicatorView(model, {
-              rootElement: '#indicatorData',
-              legendElement: '#plotLegend',
-              decimalSeparator: '',
-              maxChartHeight: 420,
-              tableColumnDefs: [
-                { maxCharCount: 25 }, // nowrap
-                { maxCharCount: 35, width: 200 },
-                { maxCharCount: Infinity, width: 250 }
-              ]
-            }),
-            controller = new indicatorController(model, view);
-            controller.initialise();
-          }
-        });
-      }
-    }
-});
-</script>
+<header class="l-header">
   
-</body>
-</html>
 
+<div id="site-phase" class="l-row l-row--x-small-space l-row--vertically-centred l-header__phase | c-phase">
+<strong class="c-phase__badge">alpha</strong>
+<span class="c-phase__text">This is a development website. We welcome your feedback via
+    <a href="mailto:25YEPindicators@defra.gov.uk">email</a>.</span>
+</div>
+
+
+  
+<a id="site-feedback" class="l-header__feedback | c-button c-button--feedback" role="link" href="https://defragroup.eu.qualtrics.com/jfe/form/SV_cTvfhqTFSj4QHlA">Complete our short user-feedback survey</a>
+
+  
+
+<a id="site-logo" class="l-header__logo | c-logo" role="link" href="/">
+    <img class="c-logo__image" src="/img/OIF_logo.png" width="459" height="161" alt="Outcome Indicator Framework - Home"/>
+</a>
+  
+
+
+
+<nav id="site-nav" class="l-header__nav | c-navigation" aria-label="Main navigation">
+    <button
+        id="navigation-toggle"
+        class="c-button c-navigation__toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="navigation-items">
+        Menu
+    </button>
+    <ul id="navigation-items" class="l-column l-column--no-space | c-navigation__items c-navigation__items--closed">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/themes/">Themes</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/reporting-status/">Reporting status</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/outcome-indicator-framework/">Outcome Indicator Framework</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/assessment/">Assessment</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/publications/">Publications</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/faqs/">FAQs</a>
+    
+  </li>
+
+        
+        
+    </ul>
+</nav>
+
+  
+
+<div id="site-search" class="l-header__search l-column l-column--vertical-bottom | c-search">
+    <button
+        id="search-toggle"
+        class="c-button c-search__toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="search-form">
+        Search
+    </button>
+    <form
+        action="/search/"
+        method="get"
+        id="search-form"
+        class="l-row l-row--no-space | c-search__form c-search__form--right c-search__form--closed">
+        <input class="c-search__input" type="text" name="q" value="" placeholder="Search...">
+        <button id="search-button" class="c-search__button c-button c-button--search" type="submit">
+        <img class="c-search__icon" src="/img/search-icon.svg" width="48" height="48" alt="Search"/>
+        </button>
+    </form>
+</div>
+
+
+</header>
+      <main class="l-column l-column--small-space">
+        
+
+
+
+  <nav aria-label="Breadcrumb" class="c-breadcrumbs">
+    <ol class="l-row l-row--xx-small-space l-row--wrap | c-breadcrumbs__items">
+      
+        
+          <li class="c-breadcrumbs__item">
+            <a class="c-breadcrumbs__link" href="/">Home</a>
+          </li>
+        
+      
+        
+          <li class="c-breadcrumbs__item">
+            <a class="c-breadcrumbs__link" href="/accessibility-statement/" aria-current="page">Accessibility statement</a>
+          </li>
+        
+      
+    </ol>
+  </nav>
+
+        
+    <h1>Accessibility statement</h1>
+    <h2 id="accessibility-statement-for-outcome-indicator-framework-for-the-25-year-environment-plan" tabindex="-1">Accessibility statement for Outcome Indicator Framework for the 25 Year Environment Plan <a class="header-anchor" href="#accessibility-statement-for-outcome-indicator-framework-for-the-25-year-environment-plan"></a></h2>
+<p>This accessibility statement applies to the Department for Environment, Food &amp; Rural Affairs (Defra) Outcome Indicator Framework for the 25 Year Environment Plan website.</p>
+<p>This website is run by Defra. We want as many people as possible to be able to use this website. For example, that means you should be able to:</p>
+<ul>
+<li>Change colours, contrast levels and fonts</li>
+<li>Zoom in up to 300% without the text spilling off the screen</li>
+<li>Navigate most of the website using just a keyboard</li>
+<li>Navigate most of the website using speech recognition software</li>
+<li>Listen to most of the website using a screen reader (including the most recent versions of JAWS, NVDA, ZoomText, TalkBack and VoiceOver)</li>
+</ul>
+<p>We have also made the website text as simple as possible to understand.</p>
+<p><a href="https://mcmw.abilitynet.org.uk/">AbilityNet</a> has advice on making your device easier to use if you have a disability.</p>
+<h3 id="how-accessible-this-website-is" tabindex="-1">How accessible this website is <a class="header-anchor" href="#how-accessible-this-website-is"></a></h3>
+<p>We know some parts of this website are not fully accessible:</p>
+<ul>
+<li>Assistive technology cannot read charts or maps on the site so please use the data table view instead</li>
+</ul>
+<h3 id="feedback-and-contact-information" tabindex="-1">Feedback and contact information <a class="header-anchor" href="#feedback-and-contact-information"></a></h3>
+<p>If you need information on this website in a different format like accessible PDF, large print, easy read, audio recording or braille:</p>
+<ul>
+<li>email: <a href="mailto:25YEPindicators@defra.gov.uk">25YEPindicators@defra.gov.uk</a></li>
+<li>call: +44 (0)3459 33 55 77</li>
+</ul>
+<p>We will consider your request and get back to you within 10 days.</p>
+<h3 id="reporting-accessibility-problems-with-this-website" tabindex="-1">Reporting accessibility problems with this website <a class="header-anchor" href="#reporting-accessibility-problems-with-this-website"></a></h3>
+<p>We are always looking to improve the accessibility of this website. If you find any problems not listed on this page or you think we are not meeting accessibility requirements, contact: <a href="mailto:25YEPindicators@defra.gov.uk">25YEPindicators@defra.gov.uk</a>.</p>
+<h3 id="enforcement-procedure" tabindex="-1">Enforcement procedure <a class="header-anchor" href="#enforcement-procedure"></a></h3>
+<p>The Equality and Human Rights Commission (EHRC) is responsible for enforcing the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018 (the ‘accessibility regulations’). If you are not happy with how we respond to your complaint, <a href="https://www.equalityadvisoryservice.com/">contact the Equality Advisory and Support Service (EASS)</a>.</p>
+<h2 id="technical-information-about-this-website%E2%80%99s-accessibility" tabindex="-1">Technical information about this website’s accessibility <a class="header-anchor" href="#technical-information-about-this-website%E2%80%99s-accessibility"></a></h2>
+<p>The Defra Outcome Indicator Framework for the 25 Year Environment Plan team is committed to making its website accessible, in accordance with the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018.</p>
+<h3 id="compliance-status" tabindex="-1">Compliance status <a class="header-anchor" href="#compliance-status"></a></h3>
+<p>This website is partially compliant with the <a href="https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag">Web Content Accessibility Guidelines (WCAG 2.1)</a> AA standard, due to the non-compliances listed below.</p>
+<h2 id="non-accessible-content" tabindex="-1">Non-accessible content <a class="header-anchor" href="#non-accessible-content"></a></h2>
+<p>The content listed below is non-accessible for the following reasons.</p>
+<h3 id="non-compliance-with-the-accessibility-regulations" tabindex="-1">Non-compliance with the accessibility regulations <a class="header-anchor" href="#non-compliance-with-the-accessibility-regulations"></a></h3>
+<ul>
+<li>Assistive technology cannot read charts or maps on the site.</li>
+</ul>
+<h2 id="what-we-are-doing-to-improve-accessibility" tabindex="-1">What we are doing to improve accessibility <a class="header-anchor" href="#what-we-are-doing-to-improve-accessibility"></a></h2>
+<p>Ensuring accessibility is embedded in our development processes, including using automated accessibility testing. We commit to an annual assessment of accessibility of this website.</p>
+<h2 id="preparation-of-this-accessibility-statement" tabindex="-1">Preparation of this accessibility statement <a class="header-anchor" href="#preparation-of-this-accessibility-statement"></a></h2>
+<p>This statement was prepared on 11 June 2021. It was last reviewed on 19 May 2023.</p>
+
+
+      </main>
+      
+
+<footer class="c-footer">
+  <ul class="l-row l-row--horizontally-centred l-row--small-space l-row--wrap | c-footer__items">
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/contact-us/" target="_blank" rel="noopener noreferrer">Contact us</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/about/" target="_blank" rel="noopener noreferrer">About</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="https://twitter.com/defragovuk" target="_blank" rel="noopener noreferrer">Twitter</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/cookies/" target="_blank" rel="noopener noreferrer">Cookies</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/accessibility-statement/" target="_blank" rel="noopener noreferrer">Accessibility statement</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/official-statistics/" target="_blank" rel="noopener noreferrer">Official statistics</a>
+      </li>
+    
+  </ul>
+</footer>
+      
+    <script src="/js/index.js"></script>
+
+    </div>
+  </body>
+</html>

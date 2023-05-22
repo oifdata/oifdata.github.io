@@ -1,0 +1,121 @@
+year,category,value
+1990,Percentage unknown,49.122807017543856
+1991,Percentage unknown,45.614035087719294
+1992,Percentage unknown,43.85964912280701
+1993,Percentage unknown,36.84210526315789
+1994,Percentage unknown,35.08771929824561
+1995,Percentage unknown,36.84210526315789
+1996,Percentage unknown,33.33333333333333
+1997,Percentage unknown,36.84210526315789
+1998,Percentage unknown,33.33333333333333
+1999,Percentage unknown,31.57894736842105
+2000,Percentage unknown,31.57894736842105
+2001,Percentage unknown,28.07017543859649
+2002,Percentage unknown,28.07017543859649
+2003,Percentage unknown,24.561403508771928
+2004,Percentage unknown,26.31578947368421
+2005,Percentage unknown,24.561403508771928
+2006,Percentage unknown,24.561403508771928
+2007,Percentage unknown,24.561403508771928
+2008,Percentage unknown,24.561403508771928
+2009,Percentage unknown,22.807017543859647
+2010,Percentage unknown,24.561403508771928
+2011,Percentage unknown,24.561403508771928
+2012,Percentage unknown,22.807017543859647
+2013,Percentage unknown,21.052631578947366
+2014,Percentage unknown,21.052631578947366
+2015,Percentage unknown,21.052631578947366
+2016,Percentage unknown,21.052631578947366
+2017,Percentage unknown,21.052631578947366
+2018,Percentage unknown,21.052631578947366
+2019,Percentage unknown,22.807017543859647
+1990,Percentage above FMSY,42.10526315789473
+1991,Percentage above FMSY,43.85964912280701
+1992,Percentage above FMSY,42.10526315789473
+1993,Percentage above FMSY,52.63157894736842
+1994,Percentage above FMSY,52.63157894736842
+1995,Percentage above FMSY,56.14035087719298
+1996,Percentage above FMSY,59.64912280701754
+1997,Percentage above FMSY,54.38596491228071
+1998,Percentage above FMSY,59.64912280701754
+1999,Percentage above FMSY,63.1578947368421
+2000,Percentage above FMSY,59.64912280701754
+2001,Percentage above FMSY,61.40350877192983
+2002,Percentage above FMSY,54.38596491228071
+2003,Percentage above FMSY,50.877192982456144
+2004,Percentage above FMSY,52.63157894736842
+2005,Percentage above FMSY,56.14035087719298
+2006,Percentage above FMSY,56.14035087719298
+2007,Percentage above FMSY,56.14035087719298
+2008,Percentage above FMSY,54.38596491228071
+2009,Percentage above FMSY,54.38596491228071
+2010,Percentage above FMSY,47.368421052631575
+2011,Percentage above FMSY,42.10526315789473
+2012,Percentage above FMSY,42.10526315789473
+2013,Percentage above FMSY,31.57894736842105
+2014,Percentage above FMSY,40.35087719298245
+2015,Percentage above FMSY,35.08771929824561
+2016,Percentage above FMSY,29.82456140350877
+2017,Percentage above FMSY,35.08771929824561
+2018,Percentage above FMSY,22.807017543859647
+2019,Percentage above FMSY,26.31578947368421
+1990,Percentage less than or equal to FMSY,8.771929824561402
+1991,Percentage less than or equal to FMSY,8.771929824561402
+1992,Percentage less than or equal to FMSY,10.526315789473683
+1993,Percentage less than or equal to FMSY,7.017543859649122
+1994,Percentage less than or equal to FMSY,10.526315789473683
+1995,Percentage less than or equal to FMSY,3.508771929824561
+1996,Percentage less than or equal to FMSY,5.263157894736842
+1997,Percentage less than or equal to FMSY,5.263157894736842
+1998,Percentage less than or equal to FMSY,3.508771929824561
+1999,Percentage less than or equal to FMSY,3.508771929824561
+2000,Percentage less than or equal to FMSY,5.263157894736842
+2001,Percentage less than or equal to FMSY,7.017543859649122
+2002,Percentage less than or equal to FMSY,12.280701754385964
+2003,Percentage less than or equal to FMSY,19.29824561403509
+2004,Percentage less than or equal to FMSY,15.789473684210526
+2005,Percentage less than or equal to FMSY,12.280701754385964
+2006,Percentage less than or equal to FMSY,10.526315789473683
+2007,Percentage less than or equal to FMSY,15.789473684210526
+2008,Percentage less than or equal to FMSY,17.543859649122805
+2009,Percentage less than or equal to FMSY,19.29824561403509
+2010,Percentage less than or equal to FMSY,24.561403508771928
+2011,Percentage less than or equal to FMSY,24.561403508771928
+2012,Percentage less than or equal to FMSY,29.82456140350877
+2013,Percentage less than or equal to FMSY,38.59649122807017
+2014,Percentage less than or equal to FMSY,33.33333333333333
+2015,Percentage less than or equal to FMSY,36.84210526315789
+2016,Percentage less than or equal to FMSY,40.35087719298245
+2017,Percentage less than or equal to FMSY,35.08771929824561
+2018,Percentage less than or equal to FMSY,47.368421052631575
+2019,Percentage less than or equal to FMSY,43.85964912280701
+1990,Percentage in FMSY range,0.0
+1991,Percentage in FMSY range,1.7543859649122806
+1992,Percentage in FMSY range,3.508771929824561
+1993,Percentage in FMSY range,3.508771929824561
+1994,Percentage in FMSY range,1.7543859649122806
+1995,Percentage in FMSY range,3.508771929824561
+1996,Percentage in FMSY range,1.7543859649122806
+1997,Percentage in FMSY range,3.508771929824561
+1998,Percentage in FMSY range,3.508771929824561
+1999,Percentage in FMSY range,1.7543859649122806
+2000,Percentage in FMSY range,3.508771929824561
+2001,Percentage in FMSY range,3.508771929824561
+2002,Percentage in FMSY range,5.263157894736842
+2003,Percentage in FMSY range,5.263157894736842
+2004,Percentage in FMSY range,5.263157894736842
+2005,Percentage in FMSY range,7.017543859649122
+2006,Percentage in FMSY range,8.771929824561402
+2007,Percentage in FMSY range,3.508771929824561
+2008,Percentage in FMSY range,3.508771929824561
+2009,Percentage in FMSY range,3.508771929824561
+2010,Percentage in FMSY range,3.508771929824561
+2011,Percentage in FMSY range,8.771929824561402
+2012,Percentage in FMSY range,5.263157894736842
+2013,Percentage in FMSY range,8.771929824561402
+2014,Percentage in FMSY range,5.263157894736842
+2015,Percentage in FMSY range,7.017543859649122
+2016,Percentage in FMSY range,8.771929824561402
+2017,Percentage in FMSY range,8.771929824561402
+2018,Percentage in FMSY range,8.771929824561402
+2019,Percentage in FMSY range,7.017543859649122

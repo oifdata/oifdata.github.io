@@ -1,0 +1,4 @@
+Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
+B7a,Not at risk or probably not at risk,Short term,2015 to 2020,-31.344674124934663,Loess,Deterioration
+B7a,Not at risk or probably not at risk,Medium term,2010 to 2020,-78.91189233413444,Loess,Deterioration
+B7a,Not at risk or probably not at risk,Long term,2006 to 2020,-74.18448866752654,Loess,Deterioration

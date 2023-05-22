@@ -1,0 +1,125 @@
+{
+    "schema:name": "Change in the annual proportion of marine bird species achieving relative non-breeding abundance targets, Greater North Sea and Celtic Seas, 1996 to 2020",
+    "url": "c3bii.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "OSPAR Marine Bird Abundance",
+            "schema:url": "https://odims.ospar.org/en/submissions/ospar_birds_abund_snapshot_2022_06/",
+            "@type": "Dataset",
+            "schema:author": [
+                {
+                    "schema:alternateName": "DEFRA",
+                    "schema:name": "Department for Environment Food and Rural Affairs",
+                    "schema:sameAs": "https://ror.org/00tnppw48",
+                    "@type": "schema:GovernmentOrganization"
+                },
+                {
+                    "schema:alternateName": "JNCC",
+                    "schema:name": "Joint Nature Conservation Committee",
+                    "schema:sameAs": "https://ror.org/05tzsrw37",
+                    "@type": "schema:GovernmentOrganization"
+                },
+                {
+                    "schema:alternateName": "NE",
+                    "schema:name": "Natural England",
+                    "schema:sameAs": "https://ror.org/00r66pz14",
+                    "@type": "schema:GovernmentOrganization"
+                },
+                {
+                    "schema:alternateName": "Cyfoeth Naturiol Cymru",
+                    "schema:name": "Natural Resources Wales",
+                    "schema:sameAs": "https://ror.org/04x65hs26",
+                    "@type": "schema:GovernmentOrganization"
+                },
+                {
+                    "schema:alternateName": "Dualchas Nàdair na h-Alba, SNH",
+                    "schema:name": "Scottish Natural Heritage",
+                    "schema:sameAs": "https://ror.org/01t6g8w08",
+                    "@type": "schema:GovernmentOrganization"
+                }
+            ],
+            "schema:dateModified": "2022-06-30",
+            "schema:datePublished": "2022-06-30"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "OSPAR marine regions (Greater North Sea and Celtic Seas)",
+    "schema:temporalCoverage": "1996/2020",
+    "schema:version": "2022-06-30",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Relative abundance of bird species, measured by comparing breeding abundance of each species against assessment values that are designed to reflect the resilience of different species to population decline",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Individual species-specific assessments are based on a 6-year rolling geometric mean of relative abundance which accounts for year-to-year variations in the data. Each datapoint refers to the final year of the 6-year moving average. Time series for non-breeding marine birds used data from 1991 to 2016 for the Greater North Sea and from 1991 to 2020 for the Celtic Seas.",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "integer",
+                    "minimum": "1996",
+                    "maximum": "2020",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "year",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The year range for the data present"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Greater North Sea|Celtic Seas|Threshold Value",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "sea",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The region or area of sea"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "percentage",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Relative abundance of bird species, measured by comparing breeding abundance of each species against assessment values that are designed to reflect the resilience of different species to population decline"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "schema:name": "Extent of terrestrial and marine protected areas and other effective area-based conservation measures in the UK Overseas Territories, in total and by region, 2022",
+    "url": "k4.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "25 Year Environment Plan Outcome Indicator K4: Extent of Protected Areas in the UK Overseas Territories",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "JNCC",
+                "schema:name": "Joint Nature Conservation Committee",
+                "schema:sameAs": "https://ror.org/05tzsrw37",
+                "@type": "schema:GovernmentOrganization"
+            }
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "UK Overseas Territories",
+    "schema:temporalCoverage": "1970-01-01T00:33:42+00:00",
+    "schema:version": "2022-05-01",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Percentage of UK overseas territory protected",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Percentages for the extent of terrestrial and marine environments in protected areas have been rounded to the nearest 0.1% (including one result rounded up to 100%).",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Wider Caribbean|South Atlantic|Indian and Pacific Oceans|Mediterranean|All UKOTs",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "ukot",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "UK Overseas Territories"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Marine; Total area protected|Terrestrial; Total area protected|Marine; Total area unprotected|Terrestrial; Total area unprotected",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "category",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Ecosystem, whether marine or terrestrial and relevant protection"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "percentage",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Percentage of total area which is in the corresponding protection category"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

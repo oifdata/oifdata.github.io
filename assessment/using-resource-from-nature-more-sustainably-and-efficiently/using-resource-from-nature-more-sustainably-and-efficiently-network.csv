@@ -1,0 +1,28 @@
+FromIndicator,ToIndicator,Correlation
+E1 Area of productive agricultural land,E7 Soil health,Negative
+E1 Area of productive agricultural land,"D1 Quantity, quality and connectivity of habitats",Positive
+E1 Area of productive agricultural land,"D1 Quantity, quality and connectivity of habitats",Negative
+E2 Volume of agricultural production,E7 Soil health,Negative
+E2 Volume of agricultural production,A2 Emissions of greenhouse gases from natural resources ,Positive
+E3 Volume of inputs used in agricultural production,A1 Emissions for five key air pollutants,Positive
+E3 Volume of inputs used in agricultural production,A2 Emissions of greenhouse gases from natural resources ,Positive
+E3 Volume of inputs used in agricultural production,A6 Exceedance of damaging levels of nutrient nitrogen deposition on ecosystems,Positive
+E3 Volume of inputs used in agricultural production,A7 Area exposed to damaging levels of ammonia (NH3) in the atmosphere ,Positive
+E3 Volume of inputs used in agricultural production,B1 Pollution loads entering waters,Positive
+E3 Volume of inputs used in agricultural production,B2 Serious pollution incidents to water,Positive
+E3 Volume of inputs used in agricultural production,B3 State of the water environment,Negative
+E3 Volume of inputs used in agricultural production,B6 Natural functions of water and wetland ecosystems,Negative
+E3 Volume of inputs used in agricultural production,"D1 Quantity, quality and connectivity of habitats",Negative
+E3 Volume of inputs used in agricultural production,D4 Relative abundance and distribution of widespread species,Negative
+E3 Volume of inputs used in agricultural production,D5 Conservation status of our native species,Negative
+E3 Volume of inputs used in agricultural production,D6 Abundance and distribution of priority species in England,Negative
+E3 Volume of inputs used in agricultural production,D7 Species supporting ecosystem functions,Negative
+E3 Volume of inputs used in agricultural production,E2 Volume of agricultural production,Positive
+E3 Volume of inputs used in agricultural production,E7 Soil health,Negative
+E4 Efficiency of agricultural production measured by Total Factor Productivity,E1 Area of productive agricultural land,Negative
+E4 Efficiency of agricultural production measured by Total Factor Productivity,E2 Volume of agricultural production,Positive
+E5 Percentage of the annual growth of trees in English woodlands that is harvested  ,E6 Volume of timber brought to market each year,Positive
+E8 Sustainable use of water,B5 Water bodies achieving sustainable abstraction criteria ,Positive
+E8 Sustainable use of water,F3 Disruption or unwanted impacts caused by drought,Negative
+J2 Raw material consumption,J1 Carbon footprint and consumer buying choices,Positive
+J2 Raw material consumption,E6 Volume of timber brought to market each year,Positive

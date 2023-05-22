@@ -1,0 +1,106 @@
+{
+    "schema:name": "Harbour seal abundance, north-east and south-east England, 1994 to 2021",
+    "url": "c3ai.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "August Seal Counts – England Download",
+            "schema:url": "http://www.smru.st-andrews.ac.uk/scos/scos-data/august-seal-counts/august-seal-counts-england/august-seal-counts-england-download/",
+            "@type": "Dataset",
+            "schema:author": [
+                {
+                    "schema:name": "Seal Mammal Research Unit",
+                    "schema:sameAs": "http://www.smru.st-andrews.ac.uk/",
+                    "@type": "schema:ResearchOrganization"
+                },
+                {
+                    "schema:alternateName": "JNCC",
+                    "schema:name": "Joint Nature Conservation Committee",
+                    "schema:sameAs": "https://ror.org/05tzsrw37",
+                    "@type": "schema:GovernmentOrganization"
+                }
+            ],
+            "schema:dateModified": "2023-02-03",
+            "schema:datePublished": "2023-02-03"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "1994/2021",
+    "schema:version": "2023-02-03",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Count of seals",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "The chart allows the year-on-year trends in harbour seal abundance to be compared between north-east and south-east England, but differing scales on the y axes mean that care should be taken when comparing absolute numbers of harbour seals between the two regions. Trends in harbour seal abundance are derived from counts of seals on land in August of each year when they are moulting. No data are available for harbour seal abundance in south-east England for 1994. ",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "integer",
+                    "minimum": "1994",
+                    "maximum": "2021",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "year",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The year range for the data present"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Northeast England|Southeast England",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "region",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Region where counts are taken"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "count",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The count of seals in each area"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

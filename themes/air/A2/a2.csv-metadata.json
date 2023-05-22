@@ -1,0 +1,99 @@
+{
+    "schema:name": "Emissions of greenhouse gases from natural resources",
+    "url": "a2.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:sameAs": "https://naei.beis.gov.uk/reports/reports?report_id=1080",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "BEIS",
+                "schema:name": "Department for Business, Energy and Industrial Strategy",
+                "schema:sameAs": "https://ror.org/019ya6433",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:dateModified": "2022-09-20",
+            "schema:datePublished": "2022-09-20",
+            "schema:headline": "Report: Greenhouse Gas Inventories for England, Scotland, Wales & Northern Ireland: 1990-2020"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "1990/2020",
+    "schema:version": "2022-09-20",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "CO2 equivalent; Emission estimate displayed using the standard IPCC global warming potential conversion factors",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "No data are available for 1991 to 1994 inclusive, 1996 and 1997.",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "integer",
+                    "minimum": "1990",
+                    "maximum": "2020",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "year",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The year range for the data present"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Agriculture|Fluorinated gases|Net emissions from land use & land use change|Net removals by forestry sink|Net total including forestry sink|Waste",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "sector",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "National Communications nomenclature used for sector groupings, with customised edits using Intergovernmental Panel on Climate Change (IPCC) standard international code format groups used for emission inventories."
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "value",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "CO2 equivalent; Emission estimate displayed using the standard IPCC global warming potential conversion factors"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

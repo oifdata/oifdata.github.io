@@ -1,0 +1,4 @@
+Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
+C3bi,Celtic Seas,Short term,2014 to 2019,8.333333333333247,Rolling average,Improvement
+C3bi,Celtic Seas,Medium term,2009 to 2019,0.0,Rolling average,Little or no change
+C3bi,Celtic Seas,Long term,1996 to 2019,-27.7777777777778,Rolling average,Deterioration

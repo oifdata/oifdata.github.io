@@ -1,0 +1,140 @@
+{
+    "schema:name": "Adult’s mean overall levels of expectation and perception of the quality of green and natural spaces in England on a scale of 1 (low) to 5 (high), survey years 2020/2021 and 2021/2022",
+    "url": "g3bi.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:description": "<div class=\"govspeak\"><p>The People and Nature Survey for England gathers information on people’s experiences and views about the natural environment, and its contributions to our health and wellbeing.</p>\n\n<p>The publications report a set of weighted national indicators from the survey, which have been generated using data collected from a sample of approx. 25,000 adults (16+).</p>\n\n<p>To receive updates on the survey, including data releases and publications, sign-up via the <a rel=\"external\" href=\"https://people-and-nature-survey-defra.hub.arcgis.com/\" class=\"govuk-link\">People and Nature User Hub</a>.</p>\n</div>",
+            "schema:image": [
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-bf9e64d759af6dfd93bede8168f3087a329f405b382aff36747db0db4b7b23e9.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-13093f053c15f613acd827aff27cac83d3fab452947cbcae4c7b706dadf2f7f2.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-4233cd42671827e266e284c4d5ae68fb600bd9f9e35dda663ccabbc2b6ab7ec3.png"
+            ],
+            "schema:name": "The People and Nature Survey for England: Year 2 Annual Report – Data and publications (April 2021 - March 2022) (Official Statistics) main findings",
+            "@type": "Dataset",
+            "schema:about": [
+                {
+                    "@type": "Thing"
+                },
+                {
+                    "@type": "Thing"
+                }
+            ],
+            "schema:author": {
+                "schema:name": "Natural England",
+                "schema:url": "https://www.gov.uk/government/organisations/natural-england",
+                "@type": "Organization"
+            },
+            "schema:publisher": {
+                "schema:name": "GOV.UK",
+                "schema:url": "https://www.gov.uk",
+                "@type": "Organization"
+            },
+            "schema:text": "Data, and supporting documents, from the People and Nature Survey covering the period 1 April 2021 - 31 March 2022. ",
+            "schema:distribution": [
+                {
+                    "name": "The People and Nature Survey for England: Year 2 Annual Report - Data and publications (April 2021 - March 2022) (Official Statistics) main findings",
+                    "url": "/government/statistics/the-people-and-nature-survey-for-england-year-2-annual-report-data-and-publications-april-2021-march-2022-official-statistics-main-findings/the-people-and-nature-survey-for-england-year-2-annual-report-data-and-publications-april-2021-march-2022-official-statistics-main-findings"
+                },
+                {
+                    "name": "People and Nature Survey Year 1 and Year 2 Annual Report Summary Tables",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1110238/PANS_Y1Y2_Annual_Rpt_Summary_Tabs.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "People and Nature Survey Year 1 and Year 2 Annual Report Summary Tables",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1110239/PANS_Y1Y2_Annual_Rpt_Summary_Tabs.xlsx",
+                    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                },
+                {
+                    "name": "People and Nature Survey for England - Year 2 - Quarter 1 to Quarter 4 data",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1110240/PANS_Y2_Q1_Q4.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "People and Nature Survey for England - Year 2 - Quarter 1 to Quarter 4 data",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1110241/PANS_Y2_Q1_Q4.xlsx",
+                    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                }
+            ]
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "2020/2022",
+    "schema:version": "2022-10-12",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Adult’s mean overall levels of expectation and perception of the quality of green and natural spaces",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Figure G3bi is derived from PANS data collected in the survey years (April to March) 2020/2021 and 2021/2022. Base: All respondents.\n    \n</br>The indicator is based on responses to question [M1_Q4]: ‘How much do you agree or disagree with the following statements relating to green and natural spaces generally? In general, green and natural spaces should be:’ and question [M1_Q5]: ‘Now, thinking about green and natural spaces close to where you live, how much do you agree or disagree with the following statements? My local green and natural spaces actually are:’. The statements presented to respondents are:  \n \n* a) within easy walking distance \n* b) good places for mental health and wellbeing \n* c) a high enough standard to want to spend time in \n* d) good places for children to play \n* e) places that encourage physical health and exercise \n* f) good places to meet other people \n* g) provide good opportunities to see nature \n    \n</br>Scores from 1 (strongly disagree) to 5 (strongly agree) are attributed to all responses to each of the statements relating to general expectations about green and natural spaces (question [M1_Q4]) and perceptions of the quality of local green and natural spaces (question [M1_Q5]). Overall means of all responses to the 7 statements are then presented as the annual indicator values for both expectations and perceptions. These values can range from 1, indicating the lowest levels of expectation and perception of the quality of green and natural spaces (equivalent to strongly disagreeing with all 7 statements) to 5, indicating the highest levels of expectation and perception (strongly agreeing with all 7 statements).",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "2020/2021|2021/2022",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "year",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The survey year (April to March) the question was asked"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "General expectations of what green and natural spaces should be|Perceptions of what local green and natural spaces actually are",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "question",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The question asked to respondent"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "value",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Adult’s mean overall levels of expectation and perception of the quality of green and natural spaces"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

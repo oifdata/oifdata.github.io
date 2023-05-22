@@ -1,0 +1,56 @@
+{
+    "schema:name": "Regional sea assessments, and the status of coastal water bodies and offshore units for soft sediment invertebrates, 2010 to 2015",
+    "url": "c4iv.svg",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "Condition of soft sediment invertebrate communities in coastal waters determined using Water Framework Directive methods",
+            "schema:url": "https://moat.cefas.co.uk/biodiversity-food-webs-and-marine-protected-areas/benthic-habitats/infaunal-quality-index",
+            "@type": "Dataset",
+            "schema:author": [
+                {
+                    "schema:alternateName": "Defra",
+                    "schema:name": "Department for Environment, Food & Rural Affairs",
+                    "schema:sameAs": "https://ror.org/00tnppw48",
+                    "@type": "schema:GovernmentOrganization"
+                },
+                {
+                    "schema:alternateName": "EA",
+                    "schema:name": "Environment Agency",
+                    "schema:sameAs": "https://ror.org/01zewfb16",
+                    "@type": "schema:GovernmentOrganization"
+                },
+                {
+                    "schema:alternateName": "Cyfoeth Naturiol Cymru",
+                    "schema:name": "Natural Resources Wales",
+                    "schema:sameAs": "https://ror.org/04x65hs26",
+                    "@type": "schema:GovernmentOrganization"
+                },
+                {
+                    "schema:alternateName": "Buidheann Dìon Àrainneachd na h-Alba",
+                    "schema:name": "Scottish Environment Protection Agency",
+                    "schema:sameAs": "https://ror.org/01kxjy285",
+                    "@type": "schema:GovernmentOrganization"
+                }
+            ],
+            "schema:dateModified": "2018-01-01",
+            "schema:datePublished": "2018-01-01"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "UK",
+    "schema:temporalCoverage": "2010/2015",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Assessment/classification results",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Soft sediment invertebrates were assessed using inshore and offshore intertidal and subtidal data collected between 2010 and 2015.",
+    "tableDirection": "auto"
+}

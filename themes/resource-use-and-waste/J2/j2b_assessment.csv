@@ -1,0 +1,4 @@
+Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
+J2b,,Short term,2013 to 2018,8.316243496870017,Loess,Improvement
+J2b,,Medium term,2008 to 2018,25.37340123406997,Loess,Improvement
+J2b,,Long term,2001 to 2018,73.65140541712506,Loess,Improvement

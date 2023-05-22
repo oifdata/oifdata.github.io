@@ -1,0 +1,4 @@
+Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
+C10b,Percentage greater than or equal to MSY Btrigger,Short term,2013 to 2018,5.609870189217103,Loess,Improvement
+C10b,Percentage greater than or equal to MSY Btrigger,Medium term,2008 to 2018,24.379284599431525,Loess,Improvement
+C10b,Percentage greater than or equal to MSY Btrigger,Long term,1990 to 2018,89.10882943855677,Loess,Improvement

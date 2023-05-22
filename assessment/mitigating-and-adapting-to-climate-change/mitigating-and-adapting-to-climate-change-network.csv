@@ -1,0 +1,6 @@
+Primary goal,From Indicator,To Indicator,Correlation,Rationale
+Mitigating and adapting to climate change,D3 Area of woodland in England ,A2 Emissions of greenhouse gases from natural resources ,Negative,A2 includes negative emissions values from a forestry sink.
+Mitigating and adapting to climate change,E2 Volume of agricultural production,A2 Emissions of greenhouse gases from natural resources ,Positive,A2 includes greenhouse gas emissions from agriculture as a component in the graph (approximately 30% of total emissions).
+Mitigating and adapting to climate change,E3 Volume of inputs used in agricultural production,A2 Emissions of greenhouse gases from natural resources ,Positive,A2 includes greenhouse gas emissions from agriculture as a component in the graph ( approximately 30% of total emissions). This includes emissions from the use of agricultural inputs.
+Mitigating and adapting to climate change,J2 Raw material consumption,J1 Carbon footprint and consumer buying choices,Positive,Raw materials are used in the production of goods measured by J1.
+Mitigating and adapting to climate change,G6 Environmental attitudes and behaviours ,J1 Carbon footprint and consumer buying choices ,Positive,"G6 will include information on people’s self-reported environmental behaviours, likely including questions on behaviours related to carbon use. "

@@ -1,0 +1,1376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js" type="text/javascript"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VZBZ0PVRQ0"></script>
+<script>
+  var cookieControlConfig = {
+    apiKey: "afbc7c2ae0265eed63b3dfb031e976fab80fa4ff",
+    product: "COMMUNITY",
+    necessaryCookies: ["CookieControl"],
+    optionalCookies: [
+      {
+        name: "analytics",
+        label: "Analytical Cookies",
+        description:
+          "Analytical cookies help us to improve our website by collecting and reporting information on its usage.",
+        cookies: [
+          "_ga",
+          "_gid",
+          "_gali",
+          "_gat",
+          "__utma",
+          "__utmt",
+          "__utmb",
+          "__utmc",
+          "__utmz",
+          "__utmv",
+        ],
+        onAccept: function () {
+          // Add Google Analytics
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag("js", new Date());
+
+          gtag("config", "G-VZBZ0PVRQ0");
+          // End Google Analytics
+        },
+        onRevoke: function () {
+          // Disable Google Analytics
+          window["ga-disable-G-VZBZ0PVRQ0"] = true;
+          // End Google Analytics
+        },
+      },
+    ],
+    statement: {
+      description:
+        "For more detailed information about the cookies we use, see our",
+      name: "Cookies and privacy page.",
+      url: "/cookies/",
+      updated: "24/04/2023",
+    },
+    initialState: "open",
+    text: {
+      necessaryDescription:
+        "This website sets a cookie to remember a user’s choice about cookies. Where users have previously indicated a preference, that user’s preference will be stored in this cookie.",
+    },
+  };
+  CookieControl.load(cookieControlConfig);
+</script>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="/css/main.css"/> 
+    
+    <title>B1: Pollution loads entering waters</title>
+  </head>
+  <body>
+    <div class="c-colour-bar"></div>
+    <div class="l-column l-column--main l-column--large-space">
+      
+
+<header class="l-header">
+  
+
+<div id="site-phase" class="l-row l-row--x-small-space l-row--vertically-centred l-header__phase | c-phase">
+<strong class="c-phase__badge">alpha</strong>
+<span class="c-phase__text">This is a development website. We welcome your feedback via
+    <a href="mailto:25YEPindicators@defra.gov.uk">email</a>.</span>
+</div>
+
+
+  
+<a id="site-feedback" class="l-header__feedback | c-button c-button--feedback" role="link" href="https://defragroup.eu.qualtrics.com/jfe/form/SV_cTvfhqTFSj4QHlA">Complete our short user-feedback survey</a>
+
+  
+
+<a id="site-logo" class="l-header__logo | c-logo" role="link" href="/">
+    <img class="c-logo__image" src="/img/OIF_logo.png" width="459" height="161" alt="Outcome Indicator Framework - Home"/>
+</a>
+  
+
+
+
+<nav id="site-nav" class="l-header__nav | c-navigation" aria-label="Main navigation">
+    <button
+        id="navigation-toggle"
+        class="c-button c-navigation__toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="navigation-items">
+        Menu
+    </button>
+    <ul id="navigation-items" class="l-column l-column--no-space | c-navigation__items c-navigation__items--closed">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/themes/">Themes</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/reporting-status/">Reporting status</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/outcome-indicator-framework/">Outcome Indicator Framework</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/assessment/">Assessment</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/publications/">Publications</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/faqs/">FAQs</a>
+    
+  </li>
+
+        
+        
+    </ul>
+</nav>
+
+  
+
+<div id="site-search" class="l-header__search l-column l-column--vertical-bottom | c-search">
+    <button
+        id="search-toggle"
+        class="c-button c-search__toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="search-form">
+        Search
+    </button>
+    <form
+        action="/search/"
+        method="get"
+        id="search-form"
+        class="l-row l-row--no-space | c-search__form c-search__form--right c-search__form--closed">
+        <input class="c-search__input" type="text" name="q" value="" placeholder="Search...">
+        <button id="search-button" class="c-search__button c-button c-button--search" type="submit">
+        <img class="c-search__icon" src="/img/search-icon.svg" width="48" height="48" alt="Search"/>
+        </button>
+    </form>
+</div>
+
+
+</header>
+      <main class="l-column l-column--small-space">
+        
+
+
+
+  <nav aria-label="Breadcrumb" class="c-breadcrumbs">
+    <ol class="l-row l-row--xx-small-space l-row--wrap | c-breadcrumbs__items">
+      
+        
+          <li class="c-breadcrumbs__item">
+            <a class="c-breadcrumbs__link" href="/">Home</a>
+          </li>
+        
+      
+        
+          <li class="c-breadcrumbs__item">
+            <a class="c-breadcrumbs__link" href="/themes/">Themes</a>
+          </li>
+        
+      
+        
+          <li class="c-breadcrumbs__item">
+            <a class="c-breadcrumbs__link" href="/themes/water/">Water</a>
+          </li>
+        
+      
+        
+          <li class="c-breadcrumbs__item">
+            <a class="c-breadcrumbs__link" href="/themes/water/B1/" aria-current="page">B1</a>
+          </li>
+        
+      
+    </ol>
+  </nav>
+
+        
+    
+        
+    
+        
+            
+    <div class="l-row l-row--space-between">
+        
+        
+            
+        
+        
+        
+        
+            <a class="c-button c-button--next" href="/themes/water/B2/">Next indicator</a>
+        
+    </div>
+
+        
+    
+    
+    <div class="indicator-banner">
+        <div class="l-column indicator-icon">
+            
+  
+    <a class="c-theme-tiles__tile c-theme-tiles__tile--indicator" href="/themes/water/">
+      <img
+        class="c-theme-tiles__image c-theme-tiles__image--indicator"
+        src="/img/water.png"
+        alt="View Water indicators"
+        height="100"
+        width="100"/>
+    </a>
+  
+
+        </div>
+        <div class="indicator-details">
+            <h1>B1: Pollution loads entering waters</h1>
+        </div>
+    </div>
+    <section class="l-column l-column--small-space">
+        <h2>Short Description</h2>
+        <p>This indicator will track changes in selected contaminant loads entering rivers from water company sewage works and also in riverine loadings to tidal waters. The riverine loadings reflect inputs of nutrients and selected metals from point and diffuse sources across river catchments (where sources include agriculture, sewage treatment and metal mines).
+It will focus on selected contaminants that adversely affect the quality and uses of receiving waters. These also affect the wildlife and ecology of rivers, estuaries and coastal waters.</p>
+    </section>
+    <section class="l-column l-column--small-space">
+        <h2>Readiness and links to data</h2>
+        <p>This indicator is not available for reporting in 2023 in a finalised form. An interim indicator is presented here that shows (i) relative changes in measured riverine loads (inputs) of selected metals and nutrients into English tidal waters between 2008 and 2019, covering cadmium, copper, lead, mercury, zinc, nitrogen and ortho-phosphate and (ii) loads of ammonia, biochemical oxygen demand and phosphorus entering rivers from water company sewage treatment works. Some data for this interim indicator are published as part of the OSPAR assessments (<a href="https://oap.ospar.org/en/ospar-assessments/quality-status-reports/qsr-2023/indicator-assessments/inputs-heavy-metals/">Inputs of Mercury, Cadmium and Lead via Water and Air to the Greater North Sea</a>) and via the <a href="https://moat.cefas.co.uk/pressures-from-human-activities/contaminants/metal-inputs/">Marine online assessment tool</a> although for different time periods and so these data should be compared with caution. An additional data line has been added to the figure for B1a and B1b to include a representation of the variation of flow within rivers in England. This has been done to highlight the variation within the data that can be caused by higher and lower flows which can vary considerably year on year. This flow line is indicative of the total outflow of rivers in England, using data from the UK Centre for Ecology and Hydrology National <a href="https://nrfa.ceh.ac.uk/">River Flow Archive</a> </p>
+<p>Figure B1c is a new addition to the interim B1 metrics. It shows the loadings of selected pollutants entering rivers in England from water and sewerage company discharges of treated sewage effluent. The pollutants for which loads are assessed are ammonia, Biochemical Oxygen Demand (BOD, a measure of organic pollution) and total phosphorus. Annual loadings are assessed every 5 years at the end of each water industry asset management period. The data reported here are for the years 1995, 2000, 2010, 2015 and 2020. These data are reported periodically with the <a href="https://www.gov.uk/government/publications/regulating-for-people-the-environment-and-growth-2021">Environment Agency’s RPEG reports</a>.</p>
+<p>Further development is required to present statistical trends for the selected contaminants in an indicator. The data for B1a and B1b are taken from the existing OSPAR database. The Environment Agency reports a subset of these data to Defra on an annual basis known as the Riverine and Industrial Discharges (RIDS) dataset. Contact the Environment Agency’s National Customer Contact Centre <a href="enquiries@environment-agency.gov.uk">enquiries@environment-agency.gov.uk</a> for the OSPAR database extract used for the interim indicator.</p>
+    </section>
+    
+        <section class="l-column l-column--small-space">
+            <h2>Notes on indicator</h2>
+            <p>Data collection for B1a and B1b was heavily impacted by adherence to the government’s COVID-19 restrictions during the pandemic. This severely restricted sample collection and analysis during 2020 and 2021, so the available results are not considered representative of the riverine inputs to tidal waters, so have not been reported.</p>
+<p>Load (input) calculations (kg per day) are the product of the monitored concentration of substance and flow rate. The annual total loads (kg per year) for selected metals (total fraction), total nitrogen and ortho-phosphate are calculated using chemical concentration data reported in the <a href="https://environment.data.gov.uk/water-quality/view/landing">Water quality data Archive</a> and flow data reported in the Environment Agency’s core system of hydrometric and hydrological values (Water Information System by Kisters).</p>
+<p>Figures B1a and B1b show each annual load relative to the 2008 monitored load (2008 is represented as a baseline index = 100). Observed fluctuations in the data could be influenced by a number of external factors affecting movement and loading within river systems. These factors include flow caused by high or low rainfall in a given year and local impacts of changing industry or land use over time. There appears to be a relationship between high flows and high loads, and it should also be noted that the baseline year of 2008 saw high flows, the variation in flows can now be identified via the flow line on B1a and B1b, also calculated relative to the 2008 baseline. </p>
+        </section>
+    
+    
+        <section class="l-column l-column--small-space">
+            <h2 id="indicator-components-section-title">Indicator components</h2>
+            <div
+                role="tablist"
+                aria-labelledby="indicator-components-section-title"
+                class="l-column l-column--xx-small-space">
+            
+                
+    
+    <button id="b1a-component-tab" type="button" role="tab" aria-selected="true" aria-controls="b1a-component-tabpanel" class="c-indicator-component-tab" onclick="window.dispatchEvent(new Event('resize'));">
+        <h3 id="b1a-component-title" class="l-row l-row--xx-small-space l-row--vertically-centred | c-indicator-component-tab__text">
+            <span class="c-indicator-component-tab__radio-button">
+                <svg class="c-radio-button" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="c-radio-button__outer-circle" cx="50" cy="50" r="30"/>
+                    <circle class="c-radio-button__inner-circle" cx="50" cy="50" r="20"/>
+                </svg>
+            </span>
+            B1a: Riverine inputs of selected metals into English tidal waters, 2008 to 2019
+        </h3>
+    </button>
+
+            
+                
+    
+    <button id="b1b-component-tab" type="button" role="tab" aria-selected="true" aria-controls="b1b-component-tabpanel" class="c-indicator-component-tab" onclick="window.dispatchEvent(new Event('resize'));">
+        <h3 id="b1b-component-title" class="l-row l-row--xx-small-space l-row--vertically-centred | c-indicator-component-tab__text">
+            <span class="c-indicator-component-tab__radio-button">
+                <svg class="c-radio-button" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="c-radio-button__outer-circle" cx="50" cy="50" r="30"/>
+                    <circle class="c-radio-button__inner-circle" cx="50" cy="50" r="20"/>
+                </svg>
+            </span>
+            B1b: Riverine inputs of selected nutrients into English tidal waters, 2008 to 2019
+        </h3>
+    </button>
+
+            
+                
+    
+    <button id="b1c-component-tab" type="button" role="tab" aria-selected="true" aria-controls="b1c-component-tabpanel" class="c-indicator-component-tab" onclick="window.dispatchEvent(new Event('resize'));">
+        <h3 id="b1c-component-title" class="l-row l-row--xx-small-space l-row--vertically-centred | c-indicator-component-tab__text">
+            <span class="c-indicator-component-tab__radio-button">
+                <svg class="c-radio-button" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="c-radio-button__outer-circle" cx="50" cy="50" r="30"/>
+                    <circle class="c-radio-button__inner-circle" cx="50" cy="50" r="20"/>
+                </svg>
+            </span>
+            B1c: Loads discharged to rivers from water company sewage treatment works in England, 1995 to 2020
+        </h3>
+    </button>
+
+            
+            </div>
+            
+                
+    
+    <div id="b1a-component-tabpanel" role="tabpanel" tabindex="0" aria-labelledby="b1a-component-tab" class="l-column l-column--small-space | c-indicator-component-tabpanel">
+        
+        
+    <section class="l-column l-column--no-space">
+        <div
+            role="tablist"
+            aria-label="Data visualisation options"
+            class="l-equal-width-columns l-equal-width-columns--no-space">
+            
+            
+    <button id="b1a-figure-tab" type="button" role="tab" aria-selected="true" data-tabgroup="b1a" aria-controls="b1a-figure-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Figure</span>
+    </button>
+
+            
+            
+    <button id="b1a-table-tab" type="button" role="tab" aria-selected="true" data-tabgroup="b1a" aria-controls="b1a-table-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Table</span>
+    </button>
+
+            
+        </div>
+        <div class="l-column | c-indicator-component-visualisation-tabpanels">
+            
+            
+    <div id="b1a-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="b1a" aria-labelledby="b1a-figure-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Figure
+                B1a: Riverine inputs of selected metals into English tidal waters, 2008 to 2019</h4>
+            <div id="b1a-figure-container" class="c-visualisation-container">
+                
+                    <img src='b1a.svg' />
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Environment Agency
+                
+                
+                    
+                
+                </dd>
+            
+        
+        
+            <dt class="c-indicator-component-metadata__key">Unit of Measurement</dt>
+            <dd>Index (2008 = 100)</dd>
+        
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="b1a.csv">Download  CSV</a>
+                
+                
+                    <a class="c-button" href="b1a.svg" download=".svg">Download Figure Image</a>
+                
+            </div>
+        </section>
+    </div>
+
+            
+            
+    <div id="b1a-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="b1a" aria-labelledby="b1a-table-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Table
+                B1a: Riverine inputs of selected metals into English tidal waters, 2008 to 2019</h4>
+            <div id="b1a-table-container" class="c-visualisation-container">
+                
+                    <table class="dataframe" id="b1a-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Year</th>
+      <th>Cadmium</th>
+      <th>Copper</th>
+      <th>Lead</th>
+      <th>Mercury</th>
+      <th>Zinc</th>
+      <th>Flow</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2008</td>
+      <td>100.00</td>
+      <td>100.00</td>
+      <td>100.00</td>
+      <td>100.00</td>
+      <td>100.00</td>
+      <td>100.00</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>108.90</td>
+      <td>85.90</td>
+      <td>167.35</td>
+      <td>66.39</td>
+      <td>103.39</td>
+      <td>78.31</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>60.01</td>
+      <td>61.00</td>
+      <td>67.14</td>
+      <td>67.43</td>
+      <td>63.30</td>
+      <td>65.43</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>59.33</td>
+      <td>50.78</td>
+      <td>81.54</td>
+      <td>51.55</td>
+      <td>65.91</td>
+      <td>62.71</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>96.94</td>
+      <td>94.93</td>
+      <td>211.07</td>
+      <td>91.92</td>
+      <td>108.48</td>
+      <td>108.12</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>64.65</td>
+      <td>64.27</td>
+      <td>91.94</td>
+      <td>82.55</td>
+      <td>70.95</td>
+      <td>81.36</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>86.22</td>
+      <td>94.32</td>
+      <td>107.75</td>
+      <td>84.56</td>
+      <td>99.74</td>
+      <td>99.45</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>48.00</td>
+      <td>49.28</td>
+      <td>58.47</td>
+      <td>47.83</td>
+      <td>54.14</td>
+      <td>82.67</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>49.09</td>
+      <td>61.37</td>
+      <td>56.64</td>
+      <td>63.68</td>
+      <td>60.90</td>
+      <td>79.19</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>63.84</td>
+      <td>66.26</td>
+      <td>105.80</td>
+      <td>63.28</td>
+      <td>67.01</td>
+      <td>65.64</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>41.98</td>
+      <td>53.89</td>
+      <td>55.87</td>
+      <td>45.71</td>
+      <td>81.15</td>
+      <td>73.22</td>
+    </tr>
+    <tr>
+      <td>2019</td>
+      <td>51.49</td>
+      <td>58.71</td>
+      <td>78.89</td>
+      <td>54.72</td>
+      <td>68.34</td>
+      <td>90.11</td>
+    </tr>
+  </tbody>
+</table>
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Environment Agency
+                
+                
+                    
+                
+                </dd>
+            
+        
+        
+            <dt class="c-indicator-component-metadata__key">Unit of Measurement</dt>
+            <dd>Index (2008 = 100)</dd>
+        
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="b1a.csv">Download  CSV</a>
+                
+                
+            </div>
+        </section>
+    </div>
+
+            
+        </div>
+    </section>
+
+        
+        <section class="l-column l-column--small-space">
+            <h4>Trend description for B1a</h4>
+            <p>Riverine inputs of cadmium, copper, lead, mercury and zinc into English tidal waters have fluctuated considerably between 2008 and 2019 and using indexed data, overall, they have all fallen. Measured loads of cadmium, mercury, copper, zinc and lead were 49%, 45%, 41% 32% and 21% respectively less in 2019 than they were in 2008.</p>
+        </section>
+        
+            <h2>Assessment of change</h2>
+            <p>No assessment of change was undertaken for this indicator as further development is required to present statistical trends for the selected contaminants in an indicator.</p>
+            
+            
+        
+    </div>
+
+            
+                
+    
+    <div id="b1b-component-tabpanel" role="tabpanel" tabindex="0" aria-labelledby="b1b-component-tab" class="l-column l-column--small-space | c-indicator-component-tabpanel">
+        
+        
+    <section class="l-column l-column--no-space">
+        <div
+            role="tablist"
+            aria-label="Data visualisation options"
+            class="l-equal-width-columns l-equal-width-columns--no-space">
+            
+            
+    <button id="b1b-figure-tab" type="button" role="tab" aria-selected="true" data-tabgroup="b1b" aria-controls="b1b-figure-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Figure</span>
+    </button>
+
+            
+            
+    <button id="b1b-table-tab" type="button" role="tab" aria-selected="true" data-tabgroup="b1b" aria-controls="b1b-table-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Table</span>
+    </button>
+
+            
+        </div>
+        <div class="l-column | c-indicator-component-visualisation-tabpanels">
+            
+            
+    <div id="b1b-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="b1b" aria-labelledby="b1b-figure-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Figure
+                B1b: Riverine inputs of selected nutrients into English tidal waters, 2008 to 2019</h4>
+            <div id="b1b-figure-container" class="c-visualisation-container">
+                
+                    <img src='b1b.svg' />
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Environment Agency
+                
+                
+                    
+                
+                </dd>
+            
+        
+        
+            <dt class="c-indicator-component-metadata__key">Unit of Measurement</dt>
+            <dd>Index (2008 = 100)</dd>
+        
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="b1b.csv">Download  CSV</a>
+                
+                
+                    <a class="c-button" href="b1b.svg" download=".svg">Download Figure Image</a>
+                
+            </div>
+        </section>
+    </div>
+
+            
+            
+    <div id="b1b-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="b1b" aria-labelledby="b1b-table-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Table
+                B1b: Riverine inputs of selected nutrients into English tidal waters, 2008 to 2019</h4>
+            <div id="b1b-table-container" class="c-visualisation-container">
+                
+                    <table class="dataframe" id="b1b-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Year</th>
+      <th>Ortho-phosphate</th>
+      <th>Total nitrogen</th>
+      <th>Flow</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2008</td>
+      <td>100.00</td>
+      <td>100.00</td>
+      <td>100.00</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>65.18</td>
+      <td>69.70</td>
+      <td>78.31</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>59.07</td>
+      <td>57.26</td>
+      <td>65.43</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>60.85</td>
+      <td>52.15</td>
+      <td>62.71</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>81.06</td>
+      <td>79.80</td>
+      <td>108.12</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>59.58</td>
+      <td>70.33</td>
+      <td>81.36</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>63.64</td>
+      <td>82.38</td>
+      <td>99.45</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>53.06</td>
+      <td>63.63</td>
+      <td>82.67</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>53.67</td>
+      <td>76.99</td>
+      <td>79.19</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>48.81</td>
+      <td>60.12</td>
+      <td>65.64</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>48.99</td>
+      <td>80.66</td>
+      <td>73.22</td>
+    </tr>
+    <tr>
+      <td>2019</td>
+      <td>51.43</td>
+      <td>59.30</td>
+      <td>90.11</td>
+    </tr>
+  </tbody>
+</table>
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Environment Agency
+                
+                
+                    
+                
+                </dd>
+            
+        
+        
+            <dt class="c-indicator-component-metadata__key">Unit of Measurement</dt>
+            <dd>Index (2008 = 100)</dd>
+        
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="b1b.csv">Download  CSV</a>
+                
+                
+            </div>
+        </section>
+    </div>
+
+            
+        </div>
+    </section>
+
+        
+        <section class="l-column l-column--small-space">
+            <h4>Trend description for B1b</h4>
+            <p>B1b) Riverine inputs of selected nutrients
+Riverine inputs of total nitrogen and ortho-phosphate have also fluctuated considerably between 2008 and 2019, but overall, both have fallen, and both have remained below their baseline value with measured loads in 2019 being 41% and 49% respectively less than those measured in 2008</p>
+        </section>
+        
+            <h2>Assessment of change</h2>
+            <p>No assessment of change was undertaken for this indicator as further development is required to present statistical trends for the selected contaminants in an indicator.</p>
+            
+            
+        
+    </div>
+
+            
+                
+    
+    <div id="b1c-component-tabpanel" role="tabpanel" tabindex="0" aria-labelledby="b1c-component-tab" class="l-column l-column--small-space | c-indicator-component-tabpanel">
+        
+        
+    <section class="l-column l-column--no-space">
+        <div
+            role="tablist"
+            aria-label="Data visualisation options"
+            class="l-equal-width-columns l-equal-width-columns--no-space">
+            
+            
+    <button id="b1c-figure-tab" type="button" role="tab" aria-selected="true" data-tabgroup="b1c" aria-controls="b1c-figure-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Figure</span>
+    </button>
+
+            
+            
+    <button id="b1c-table-tab" type="button" role="tab" aria-selected="true" data-tabgroup="b1c" aria-controls="b1c-table-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Table</span>
+    </button>
+
+            
+        </div>
+        <div class="l-column | c-indicator-component-visualisation-tabpanels">
+            
+            
+    <div id="b1c-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="b1c" aria-labelledby="b1c-figure-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Figure
+                B1c: Loads discharged to rivers from water company sewage treatment works in England, 1995 to 2020</h4>
+            <div id="b1c-figure-container" class="c-visualisation-container">
+                
+                    <img src='b1c.svg' />
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Environment Agency
+                
+                
+                    
+                
+                </dd>
+            
+        
+        
+            <dt class="c-indicator-component-metadata__key">Unit of Measurement</dt>
+            <dd>kilotonnes per year</dd>
+        
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="b1c.csv">Download  CSV</a>
+                
+                
+                    <a class="c-button" href="b1c.svg" download=".svg">Download Figure Image</a>
+                
+            </div>
+        </section>
+    </div>
+
+            
+            
+    <div id="b1c-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="b1c" aria-labelledby="b1c-table-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Table
+                B1c: Loads discharged to rivers from water company sewage treatment works in England, 1995 to 2020</h4>
+            <div id="b1c-table-container" class="c-visualisation-container">
+                
+                    <table class="dataframe" id="b1c-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Year</th>
+      <th>Ammonia</th>
+      <th>Bod</th>
+      <th>Phosphorus</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1995</td>
+      <td>16.15</td>
+      <td>36.74</td>
+      <td>21.41</td>
+    </tr>
+    <tr>
+      <td>2000</td>
+      <td>8.17</td>
+      <td>27.11</td>
+      <td>16.68</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>7.66</td>
+      <td>25.21</td>
+      <td>12.84</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>5.42</td>
+      <td>22.40</td>
+      <td>10.61</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>3.60</td>
+      <td>19.20</td>
+      <td>8.60</td>
+    </tr>
+    <tr>
+      <td>2020</td>
+      <td>3.25</td>
+      <td>16.60</td>
+      <td>6.75</td>
+    </tr>
+  </tbody>
+</table>
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Environment Agency
+                
+                
+                    
+                
+                </dd>
+            
+        
+        
+            <dt class="c-indicator-component-metadata__key">Unit of Measurement</dt>
+            <dd>kilotonnes per year</dd>
+        
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="b1c.csv">Download  CSV</a>
+                
+                
+            </div>
+        </section>
+    </div>
+
+            
+        </div>
+    </section>
+
+        
+        <section class="l-column l-column--small-space">
+            <h4>Trend description for B1c</h4>
+            <p>The loads of all three pollutants have dropped significantly since the recording began in 1995. Ammonia has reduced by the greatest degree to approximately 20% of loads (80% reduction) in 2020 compared to loadings in 1995. While the loads for BOD and phosphorus have dropped by 55% and 68%. </p>
+        </section>
+        
+            <h2>Assessment of change</h2>
+            <p>No assessment of change was undertaken for this indicator as further development is required to present statistical trends for the selected contaminants in an indicator.</p>
+            
+            
+        
+    </div>
+
+            
+        </section>
+    
+    <section id="indicator-metadata" class="l-column l-column--small-space">
+    <h2>Indicator Metadata</h2>
+    <dl class="l-column l-column--xx-small-space | c-indicator-metadata">
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Headline indicator status</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">Not applicable</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Primary goal in the 25 Year Environment Plan</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">Clean and plentiful water</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Relevant goal(s) in the 25 Year Environment Plan</dt>
+            
+            
+                
+                    <dd class="c-indicator-metadata__values">Clean and plentiful water</dd>
+                
+                    <dd class="c-indicator-metadata__values">Thriving plants and wildlife</dd>
+                
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Relevant target(s) in the 25 Year Environment Plan</dt>
+            
+            
+                
+                    <dd class="c-indicator-metadata__values">Reducing the damaging abstraction of water from rivers and groundwater, ensuring that by 2021 the proportion of water bodies with enough water to support environmental standards increases from 82% to 90% for surface water bodies and from 72% to 77% for groundwater bodies</dd>
+                
+                    <dd class="c-indicator-metadata__values">Reaching or exceeding objectives for rivers, lakes, coastal and ground waters that are specially protected, whether for biodiversity or drinking water as per our River Basin Management Plans</dd>
+                
+                    <dd class="c-indicator-metadata__values">Restoring 75% of our one million hectares of terrestrial and freshwater protected sites to favourable condition, securing their wildlife value for the long term</dd>
+                
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Position in the natural capital framework</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">Pressure on natural capital assets</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Related reporting commitments</dt>
+            
+            
+                
+                    <dd class="c-indicator-metadata__values">UK Marine Strategy Regulations</dd>
+                
+                    <dd class="c-indicator-metadata__values">Convention for the Protection of the Marine Environment of the North-East Atlantic (OSPAR)</dd>
+                
+                    <dd class="c-indicator-metadata__values">The Water Environment (Water Framework Directive) (England and Wales) Regulations 2017</dd>
+                
+                    <dd class="c-indicator-metadata__values">Environment Agency reports on Regulating for People the Environment and Growth (RPEG)</dd>
+                
+                    <dd class="c-indicator-metadata__values">Environment Act 2021 targets: The Environmental Targets (Water) (England) Regulations 2023</dd>
+                
+                    <dd class="c-indicator-metadata__values">UNEP Minamata Convention on Mercury</dd>
+                
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Geographical Scope</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">England</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Status of indicator development</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">Interim</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">First Reported</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">2020</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Last Updated</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">2023</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Latest Data</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">2020</dd>
+              
+            </div>
+        
+        
+        
+        
+    </dl>
+</section>
+    
+        
+    
+        
+            
+    <div class="l-row l-row--space-between">
+        
+        
+            
+        
+        
+        
+        
+            <a class="c-button c-button--next" href="/themes/water/B2/">Next indicator</a>
+        
+    </div>
+
+        
+    
+
+      </main>
+      
+
+<footer class="c-footer">
+  <ul class="l-row l-row--horizontally-centred l-row--small-space l-row--wrap | c-footer__items">
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/contact-us/" target="_blank" rel="noopener noreferrer">Contact us</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/about/" target="_blank" rel="noopener noreferrer">About</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="https://twitter.com/defragovuk" target="_blank" rel="noopener noreferrer">Twitter</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/cookies/" target="_blank" rel="noopener noreferrer">Cookies</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/accessibility-statement/" target="_blank" rel="noopener noreferrer">Accessibility statement</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/official-statistics/" target="_blank" rel="noopener noreferrer">Official statistics</a>
+      </li>
+    
+  </ul>
+</footer>
+      
+    <link href="https://unpkg.com/tabulator-tables@5.4.3/dist/css/tabulator.min.css" rel="stylesheet"/>
+    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@5.4.3/dist/js/tabulator.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.21.0.min.js"></script>
+    <script src="/js/index.js" type="text/javascript"></script>
+    
+<script>
+    /**
+    * Replace a static SVG figure with an interactive Plotly figure. 
+    * 
+    * @param {string} code - An indicator component code
+    * @param {object} figure - A Plotly figure object 
+    * @param {object} config - A Plotly configuration object
+    */
+    const initialiseFigure = async (component_code, figure, config) => {
+        const figureContainer = document.querySelector(`#${component_code}-figure-container`);
+        figureContainer.replaceChildren();
+        Plotly.newPlot(`${component_code}-figure-container`, figure.data, figure.layout, config);
+    };
+
+    /**
+    * Replace a static HTML table with an interactive Tabulator table
+    * 
+    * @param {string} code - An indicator component code
+    * @param {object} config - A Tabulator configuration object
+    */
+    const initialiseTable = async (component_code, config) => {
+        new Tabulator(`#${component_code}-table`, config);
+    };
+
+    /**
+    * Replace a static SVG figure with an interactive Plotly figure and a
+    * a static HTML table with an interactive Tabulator table. 
+    * 
+    * @param {string} code - An indicator component code
+    * @param {object} figure - A Plotly figure object 
+    * @param {object} figureConfig - A Plotly configuration object 
+    * @param {object} tableConfig - A Tabulator configuration object 
+    */
+
+    const initialiseTableVisualisations = async (component_code, tableConfig) => {
+        await initialiseTable(component_code, tableConfig);
+    };
+    const initialiseFigureVisualisations = async (component_code, figure, figureConfig) => {
+        await initialiseFigure(component_code, figure, figureConfig);
+    };
+    
+        
+        
+            console.log("please work")
+            initialiseTableVisualisations(
+                "b1a",
+                {"layout":"fitColumns","pagination":true,"paginationSize":13,"nestedFieldSeparator":"|","columnDefaults":{"hozAlign":"right","headerHozAlign":"right"},"columns":[{"title":"Year","hozAlign":"left","headerHozAlign":"left"}]}
+            )
+        
+        
+            
+                initialiseFigureVisualisations(
+                    "b1a",
+                    {"data":[{"hovertemplate":"%{y:.2f}","legendgroup":"Cadmium","line":{"color":"#3F94DE","dash":"solid"},"marker":{"symbol":"circle"},"mode":"lines","name":"Cadmium","orientation":"v","showlegend":true,"x":[2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"xaxis":"x","y":[100.0,108.9045549,60.00548629,59.32863293,96.94299042,64.65312076,86.21970853,48.0045748,49.09488903,63.8411253,41.9819548,51.48585225],"yaxis":"y","type":"scatter"},{"hovertemplate":"%{y:.2f}","legendgroup":"Copper","line":{"color":"#F46A25","dash":"solid"},"marker":{"symbol":"circle"},"mode":"lines","name":"Copper","orientation":"v","showlegend":true,"x":[2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"xaxis":"x","y":[100.0,85.90201016,61.00212186,50.78497182,94.92682428,64.26931879,94.3190584,49.28327382,61.37248745,66.25747106,53.89021475,58.70768153],"yaxis":"y","type":"scatter"},{"hovertemplate":"%{y:.2f}","legendgroup":"Lead","line":{"color":"#28A197","dash":"solid"},"marker":{"symbol":"circle"},"mode":"lines","name":"Lead","orientation":"v","showlegend":true,"x":[2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"xaxis":"x","y":[100.0,167.3454765,67.13936087,81.53852677,211.0730546,91.93911392,107.7478279,58.47414514,56.63642318,105.80292,55.87305972,78.89476881],"yaxis":"y","type":"scatter"},{"hovertemplate":"%{y:.2f}","legendgroup":"Mercury","line":{"color":"#12436D","dash":"solid"},"marker":{"symbol":"circle"},"mode":"lines","name":"Mercury","orientation":"v","showlegend":true,"x":[2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"xaxis":"x","y":[100.0,66.39264531,67.42796596,51.55493786,91.92382054,82.54548879,84.56394659,47.82585521,63.68437133,63.27943979,45.70681992,54.71587886],"yaxis":"y","type":"scatter"},{"hovertemplate":"%{y:.2f}","legendgroup":"Zinc","line":{"color":"#801650","dash":"solid"},"marker":{"symbol":"circle"},"mode":"lines","name":"Zinc","orientation":"v","showlegend":true,"x":[2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"xaxis":"x","y":[100.0,103.3917075,63.29907919,65.9079589,108.4821672,70.95191714,99.73690019,54.13814,60.90452259,67.00755621,81.14911492,68.33728807],"yaxis":"y","type":"scatter"},{"line":{"color":"black","dash":"dot"},"mode":"lines","name":"Flow","x":[2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"y":[100.0,78.31492129,65.42533127,62.7103821,108.1184197,81.36298833,99.45438158,82.66669288,79.18649536,65.64258774,73.22303524,90.11383853],"type":"scatter","hovertemplate":"%{y:.2f}"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":""},"dtick":1,"automargin":true,"range":[2008,2019.2]},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Index (2008=100)"},"showgrid":true,"dtick":50,"automargin":true,"range":[0,225]},"legend":{"title":{"text":""},"tracegroupgap":0,"yanchor":"bottom","y":-0.45,"xanchor":"center","x":0.5,"orientation":"h"},"margin":{"t":60},"hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true,"hovermode":"x unified","shapes":[{"line":{"color":"#8F8F8F","dash":"dash","width":2},"opacity":1,"type":"line","x0":0,"x1":1,"xref":"x domain","y0":100,"y1":100,"yref":"y"}],"annotations":[{"showarrow":false,"text":"Baseline","x":1,"xanchor":"right","xref":"x domain","y":100,"yanchor":"bottom","yref":"y"}]}},
+                    {"displayModeBar":false,"responsive":true}
+                )
+            
+        
+            
+        
+
+    
+        
+        
+            console.log("please work")
+            initialiseTableVisualisations(
+                "b1b",
+                {"layout":"fitColumns","pagination":true,"paginationSize":13,"nestedFieldSeparator":"|","columnDefaults":{"hozAlign":"right","headerHozAlign":"right"},"columns":[{"title":"Year","hozAlign":"left","headerHozAlign":"left"}]}
+            )
+        
+        
+            
+                initialiseFigureVisualisations(
+                    "b1b",
+                    {"data":[{"hovertemplate":"%{y:.2f}","legendgroup":"Ortho-Phosphate","line":{"color":"#12436D","dash":"solid"},"marker":{"symbol":"circle"},"mode":"lines","name":"Ortho-Phosphate","orientation":"v","showlegend":true,"x":[2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"xaxis":"x","y":[100.0,65.17858313,59.07348095,60.85089678,81.06270708,59.57996353,63.63961788,53.05723564,53.66842816,48.80971958,48.9910605,51.43245221],"yaxis":"y","type":"scatter"},{"hovertemplate":"%{y:.2f}","legendgroup":"Total Nitrogen","line":{"color":"#F46A25","dash":"solid"},"marker":{"symbol":"circle"},"mode":"lines","name":"Total Nitrogen","orientation":"v","showlegend":true,"x":[2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"xaxis":"x","y":[100.0,69.69735487,57.258818,52.1461432,79.79558985,70.32894255,82.379647,63.63233418,76.98931947,60.12205384,80.65997078,59.29818048],"yaxis":"y","type":"scatter"},{"line":{"color":"black","dash":"dot"},"mode":"lines","name":"Flow","x":[2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"y":[100.0,78.31492129,65.42533127,62.7103821,108.1184197,81.36298833,99.45438158,82.66669288,79.18649536,65.64258774,73.22303524,90.11383853],"type":"scatter","hovertemplate":"%{y:.2f}"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":""},"dtick":1,"automargin":true,"range":[2008,2019.2]},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Index (2008=100)"},"showgrid":true,"dtick":10,"automargin":true},"legend":{"title":{"text":""},"tracegroupgap":0,"yanchor":"bottom","y":-0.45,"xanchor":"center","x":0.5,"orientation":"h"},"margin":{"t":60},"hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true,"hovermode":"x unified","shapes":[{"line":{"color":"#8F8F8F","dash":"dash","width":2},"opacity":1,"type":"line","x0":0,"x1":1,"xref":"x domain","y0":100,"y1":100,"yref":"y"}],"annotations":[{"showarrow":false,"text":"Baseline","x":1,"xanchor":"right","xref":"x domain","y":100,"yanchor":"bottom","yref":"y"}]}},
+                    {"displayModeBar":false,"responsive":true}
+                )
+            
+        
+            
+        
+
+    
+        
+        
+            console.log("please work")
+            initialiseTableVisualisations(
+                "b1c",
+                {"layout":"fitColumns","pagination":true,"paginationSize":13,"nestedFieldSeparator":"|","columnDefaults":{"hozAlign":"right","headerHozAlign":"right"},"columns":[{"title":"Year","hozAlign":"left","headerHozAlign":"left"}]}
+            )
+        
+        
+            
+                initialiseFigureVisualisations(
+                    "b1c",
+                    {"data":[{"alignmentgroup":"True","hovertemplate":"%{y:.2f}","legendgroup":"BOD","marker":{"color":"#12436D","pattern":{"shape":""}},"name":"BOD","offsetgroup":"BOD","orientation":"v","showlegend":true,"textposition":"auto","x":[1995,2020,2000,2015,2005,2010],"xaxis":"x","y":[36.74,16.6,27.11,19.2,25.21,22.4],"yaxis":"y","type":"bar"},{"alignmentgroup":"True","hovertemplate":"%{y:.2f}","legendgroup":"Phosphorus","marker":{"color":"#F46A25","pattern":{"shape":""}},"name":"Phosphorus","offsetgroup":"Phosphorus","orientation":"v","showlegend":true,"textposition":"auto","x":[2015,2010,2005,2000,1995,2020],"xaxis":"x","y":[8.6,10.61,12.84,16.68,21.41,6.75],"yaxis":"y","type":"bar"},{"alignmentgroup":"True","hovertemplate":"%{y:.2f}","legendgroup":"Ammonia","marker":{"color":"#801650","pattern":{"shape":""}},"name":"Ammonia","offsetgroup":"Ammonia","orientation":"v","showlegend":true,"textposition":"auto","x":[2005,2010,2000,2015,1995,2020],"xaxis":"x","y":[7.66,5.42,8.17,3.6,16.15,3.25],"yaxis":"y","type":"bar"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":""}},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Kilotonnes/ year"},"showgrid":true,"dtick":5,"automargin":true},"legend":{"title":{"text":""},"tracegroupgap":0,"yanchor":"bottom","y":-0.45,"xanchor":"center","x":0.5,"orientation":"h"},"margin":{"t":60},"barmode":"group","hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"hovermode":"x unified"}},
+                    {"displayModeBar":false,"responsive":true}
+                )
+            
+        
+            
+        
+
+    
+
+
+    
+        
+        AssessmentTable = new Tabulator("#b1a-assessment-table", {
+        layout: "fitDataStretch",
+        pagination: false,
+        columns: [
+            {title: "Component"},
+            {title: "Subcomponent"},
+            {title: "Period"},
+            {title: "Date range"},
+            {title: "Percentage change", hozAlign: "right"},
+        ]
+        });
+    
+        
+        AssessmentTable = new Tabulator("#b1b-assessment-table", {
+        layout: "fitDataStretch",
+        pagination: false,
+        columns: [
+            {title: "Component"},
+            {title: "Subcomponent"},
+            {title: "Period"},
+            {title: "Date range"},
+            {title: "Percentage change", hozAlign: "right"},
+        ]
+        });
+    
+        
+        AssessmentTable = new Tabulator("#b1c-assessment-table", {
+        layout: "fitDataStretch",
+        pagination: false,
+        columns: [
+            {title: "Component"},
+            {title: "Subcomponent"},
+            {title: "Period"},
+            {title: "Date range"},
+            {title: "Percentage change", hozAlign: "right"},
+        ]
+        });
+    
+
+</script>
+
+
+    </div>
+  </body>
+</html>

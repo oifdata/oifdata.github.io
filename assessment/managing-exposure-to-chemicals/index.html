@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js" type="text/javascript"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VZBZ0PVRQ0"></script>
+<script>
+  var cookieControlConfig = {
+    apiKey: "afbc7c2ae0265eed63b3dfb031e976fab80fa4ff",
+    product: "COMMUNITY",
+    necessaryCookies: ["CookieControl"],
+    optionalCookies: [
+      {
+        name: "analytics",
+        label: "Analytical Cookies",
+        description:
+          "Analytical cookies help us to improve our website by collecting and reporting information on its usage.",
+        cookies: [
+          "_ga",
+          "_gid",
+          "_gali",
+          "_gat",
+          "__utma",
+          "__utmt",
+          "__utmb",
+          "__utmc",
+          "__utmz",
+          "__utmv",
+        ],
+        onAccept: function () {
+          // Add Google Analytics
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag("js", new Date());
+
+          gtag("config", "G-VZBZ0PVRQ0");
+          // End Google Analytics
+        },
+        onRevoke: function () {
+          // Disable Google Analytics
+          window["ga-disable-G-VZBZ0PVRQ0"] = true;
+          // End Google Analytics
+        },
+      },
+    ],
+    statement: {
+      description:
+        "For more detailed information about the cookies we use, see our",
+      name: "Cookies and privacy page.",
+      url: "/cookies/",
+      updated: "24/04/2023",
+    },
+    initialState: "open",
+    text: {
+      necessaryDescription:
+        "This website sets a cookie to remember a user’s choice about cookies. Where users have previously indicated a preference, that user’s preference will be stored in this cookie.",
+    },
+  };
+  CookieControl.load(cookieControlConfig);
+</script>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="/css/main.css"/> 
+    
+    <title>Managing exposure to chemicals</title>
+  </head>
+  <body>
+    <div class="c-colour-bar"></div>
+    <div class="l-column l-column--main l-column--large-space">
+      
+
+<header class="l-header">
+  
+
+<div id="site-phase" class="l-row l-row--x-small-space l-row--vertically-centred l-header__phase | c-phase">
+<strong class="c-phase__badge">alpha</strong>
+<span class="c-phase__text">This is a development website. We welcome your feedback via
+    <a href="mailto:25YEPindicators@defra.gov.uk">email</a>.</span>
+</div>
+
+
+  
+<a id="site-feedback" class="l-header__feedback | c-button c-button--feedback" role="link" href="https://defragroup.eu.qualtrics.com/jfe/form/SV_cTvfhqTFSj4QHlA">Complete our short user-feedback survey</a>
+
+  
+
+<a id="site-logo" class="l-header__logo | c-logo" role="link" href="/">
+    <img class="c-logo__image" src="/img/OIF_logo.png" width="459" height="161" alt="Outcome Indicator Framework - Home"/>
+</a>
+  
+
+
+
+<nav id="site-nav" class="l-header__nav | c-navigation" aria-label="Main navigation">
+    <button
+        id="navigation-toggle"
+        class="c-button c-navigation__toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="navigation-items">
+        Menu
+    </button>
+    <ul id="navigation-items" class="l-column l-column--no-space | c-navigation__items c-navigation__items--closed">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/themes/">Themes</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/reporting-status/">Reporting status</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/outcome-indicator-framework/">Outcome Indicator Framework</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/assessment/">Assessment</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/publications/">Publications</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/faqs/">FAQs</a>
+    
+  </li>
+
+        
+        
+    </ul>
+</nav>
+
+  
+
+<div id="site-search" class="l-header__search l-column l-column--vertical-bottom | c-search">
+    <button
+        id="search-toggle"
+        class="c-button c-search__toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="search-form">
+        Search
+    </button>
+    <form
+        action="/search/"
+        method="get"
+        id="search-form"
+        class="l-row l-row--no-space | c-search__form c-search__form--right c-search__form--closed">
+        <input class="c-search__input" type="text" name="q" value="" placeholder="Search...">
+        <button id="search-button" class="c-search__button c-button c-button--search" type="submit">
+        <img class="c-search__icon" src="/img/search-icon.svg" width="48" height="48" alt="Search"/>
+        </button>
+    </form>
+</div>
+
+
+</header>
+      <main class="l-column l-column--small-space">
+        
+
+
+
+  <nav aria-label="Breadcrumb" class="c-breadcrumbs">
+    <ol class="l-row l-row--xx-small-space l-row--wrap | c-breadcrumbs__items">
+      
+        
+          <li class="c-breadcrumbs__item">
+            <a class="c-breadcrumbs__link" href="/">Home</a>
+          </li>
+        
+      
+        
+          <li class="c-breadcrumbs__item">
+            <a class="c-breadcrumbs__link" href="/assessment/">Assessment</a>
+          </li>
+        
+      
+        
+          <li class="c-breadcrumbs__item">
+            <a class="c-breadcrumbs__link" href="/assessment/managing-exposure-to-chemicals/" aria-current="page">Managing exposure to chemicals</a>
+          </li>
+        
+      
+    </ol>
+  </nav>
+
+        
+  
+    <div class="l-row l-row--space-between">
+        
+        
+            
+        
+        
+            <a class="c-button c-button--previous" href="/assessment/minimising-waste/">Previous goal</a>
+        
+        
+        
+            <a class="c-button c-button--next" href="/assessment/enhancing-biosecurity/">Next goal</a>
+        
+    </div>
+
+  <h2>Managing exposure to chemicals</h2>
+  <div></div>
+  <section class="l-column l-column--small-space">
+    The summary Figure shows the proportion of indicator components for which ‘Managing exposure to chemicals is the primary goal that have been assigned to each assessment category, with the exact number of indicator components shown as a label on the bars.
+
+</br>Indicator J5 (Prevent harmful chemicals from being recycled) is still in development and indicator H4 (Exposure of wildlife to chemicals in the environment in England) does not currently present information as the time series needed for applying the assessment method. 
+
+</br>Indicator H3a (Emissions of mercury to air land and water in England) does not yet have a sufficiently long time series for an assessment of any trend, but indicator H3b (Emissions of persistent organic pollutants to air land and water in England) could be assessed. All of the pollutants measured by this indicator showed an improvement over the medium and long term. Most have also shown short-term improvements, however, emissions of hexachlorobenzene increased over the short term and polychlorinated naphthalenes showed little or no change.
+  </section>  
+  <div class="tabs">
+    <h3 id="assessment-tablist">
+    </h3>
+    <div role="tablist" aria-labelledby="assessment-tablist" class="l-equal-width-columns-assessment l-equal-width-columns-assessment--no-space">
+      
+        <button id="managing-exposure-to-chemicals-assessment-figure-tab" type="button" role="tab" aria-selected="true" data-tabgroup="managing-exposure-to-chemicals" aria-controls="managing-exposure-to-chemicals-assessment-figure-tabpanel" class="c-indicator-component-visualisation-tab">
+          <span class="c-indicator-component-visualisation-tab__text">
+            Summary figure
+          </span>
+        </button>
+        <button id="managing-exposure-to-chemicals-assessment-table-tab" type="button" role="tab" aria-selected="true" data-tabgroup="managing-exposure-to-chemicals" aria-controls="managing-exposure-to-chemicals-assessment-table-tabpanel" class="c-indicator-component-visualisation-tab">
+          <span class="c-indicator-component-visualisation-tab__text">
+            Summary table
+          </span>
+        </button>
+      
+      <button id="managing-exposure-to-chemicals-network-figure-tab" type="button" role="tab" aria-selected="true" data-tabgroup="managing-exposure-to-chemicals" aria-controls="managing-exposure-to-chemicals-network-figure-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">
+          Network figure
+        </span>
+      </button>
+      <button id="managing-exposure-to-chemicals-network-table-tab" type="button" role="tab" aria-selected="true" data-tabgroup="managing-exposure-to-chemicals" aria-controls="managing-exposure-to-chemicals-network-table-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">
+          Network table
+        </span>
+      </button>
+    </div>
+    <div class="l-column | c-indicator-component-visualisation-tabpanels">
+      
+        <div id="managing-exposure-to-chemicals-assessment-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="managing-exposure-to-chemicals" aria-labelledby="managing-exposure-to-chemicals-assessment-figure-tab" class="c-indicator-component-visualisation-tabpanel">
+          <section class="l-column l-column-small-space">
+            <h4>Summary of assessment results - Managing exposure to chemicals</h4>
+            <div id="managing-exposure-to-chemicals-assesssment-figure-container" class="c-visualisation-container js-plotly-plot">
+                <img src = 'managing-exposure-to-chemicals-summary.svg' />
+            </div>
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+              <a class="c-button" href="managing-exposure-to-chemicals-summary.svg" download="managing-exposure-to-chemicals-summary.svg">Download figure image</a>
+              <a href="managing-exposure-to-chemicals-summary.csv" class="c-button">Download csv</a>
+            </div>
+          </section>
+        </div>
+        <div id="managing-exposure-to-chemicals-assessment-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="managing-exposure-to-chemicals" aria-labelledby="managing-exposure-to-chemicals-assessment-table-tab" class="c-indicator-component-visualisation-tabpanel">
+          <section class="l-column l-column-small-space">
+            <h4>Assessment results - Managing exposure to chemicals</h4>
+            <div id="managing-exposure-to-chemicals-assessment-table-container" class="c-visualisation-container">
+              <table class="dataframe" id="managing-exposure-to-chemicals-assessment-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Indicator component assessed</th>
+      <th>Short term</th>
+      <th>Medium term</th>
+      <th>Long term</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>H3a Emissions of mercury to air land and water, England</td>
+      <td>Not assessed</td>
+      <td>Not assessed</td>
+      <td>Not assessed</td>
+    </tr>
+    <tr>
+      <td>H3b Emissions of dioxin-like polychlorinated biphenyl to air, land and water, England</td>
+      <td>Improvement</td>
+      <td>Improvement</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>H3b Emissions of dioxins and furans to air, land and water, England</td>
+      <td>Improvement</td>
+      <td>Improvement</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>H3b Emissions of hexachlorobenzene to air, land and water, England</td>
+      <td>Deterioration</td>
+      <td>Improvement</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>H3b Emissions of pentachlorobenzine to air, land and water, England</td>
+      <td>Improvement</td>
+      <td>Improvement</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>H3b Emissions of pentachlorophenol to air, land and water, England</td>
+      <td>Improvement</td>
+      <td>Improvement</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>H3b Emissions of polychlorinated biphenyl to air, land and water, England</td>
+      <td>Improvement</td>
+      <td>Improvement</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>H3b Emissions of polychlorinated naphthalenes to air, land and water, England</td>
+      <td>Little or no change</td>
+      <td>Improvement</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>H4 Exposure of wildlife to chemicals in the environment in England and for some marine components in the UK</td>
+      <td>Not assessed</td>
+      <td>Not assessed</td>
+      <td>Not assessed</td>
+    </tr>
+    <tr>
+      <td>J5 Prevent harmful chemicals from being recycled</td>
+      <td>Not assessed</td>
+      <td>Not assessed</td>
+      <td>Not assessed</td>
+    </tr>
+  </tbody>
+</table>
+            </div>
+            <div class="l-equal-width-columns l-equal-width-columns--xx-small-space">
+              <a href="managing-exposure-to-chemicals-summary.csv" class="c-button">Download csv</a>
+            </div>
+          </section>
+        </div>
+      
+      
+      <div id="managing-exposure-to-chemicals-network-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="managing-exposure-to-chemicals" aria-labelledby="managing-exposure-to-chemicals-network-figure-tab" class="c-indicator-component-visualisation-tabpanel">
+          <h4>Potential links - Managing exposure to chemicals</h4>
+          <div id="managing-exposure-to-chemicals-links-assesssment-figure-container" class="c-visualisation-container js-plotly-plot">
+            <img src="managing-exposure-to-chemicals-network.svg" />
+          </div>
+          <div class="l-equal-width-columns l-equal-width-columns--xx-small-space">
+            <a href="managing-exposure-to-chemicals-network.svg" class="c-button" download="managing-exposure-to-chemicals-network.svg">Download figure image</a>
+          </div>
+      </div>
+      <div id="managing-exposure-to-chemicals-network-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="managing-exposure-to-chemicals" aria-labelledby="managing-exposure-to-chemicals-network-table-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column-small-space">
+          <h4>Potential links - Managing exposure to chemicals</h4>
+          <div id="managing-exposure-to-chemicals-network-table-container" class="c-visualisation-container">
+            <table class="dataframe" id="managing-exposure-to-chemicals-network-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Primary goal</th>
+      <th>From Indicator</th>
+      <th>To Indicator</th>
+      <th>Correlation</th>
+      <th>Rationale</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Managing exposure to chemicals</td>
+      <td>H3 Emissions of mercury and persistent organic pollutants to the environment</td>
+      <td>H4 Exposure and adverse effects of chemicals on wildlife in the environment</td>
+      <td>Positive</td>
+      <td>H3 includes exposure to POPs and mercury.</td>
+    </tr>
+    <tr>
+      <td>Managing exposure to chemicals</td>
+      <td>H3 Emissions of mercury and persistent organic pollutants to the environment</td>
+      <td>B1 Pollution loads entering waters</td>
+      <td>Positive</td>
+      <td>B1 includes levels of mercury.</td>
+    </tr>
+    <tr>
+      <td>Managing exposure to chemicals</td>
+      <td>H3 Emissions of mercury and persistent organic pollutants to the environment</td>
+      <td>G7 Health and wellbeing benefits</td>
+      <td>Negative</td>
+      <td>POPs are chemicals that remain intact in the environment for long periods, become widely distributed geographically, accumulate in the tissues of humans and wildlife, and have harmful impacts on human health or on the environment. Mercury is toxic and can cause damage to human health and accumulates in the environment and the food chain.</td>
+    </tr>
+    <tr>
+      <td>Managing exposure to chemicals</td>
+      <td>H4 Exposure and adverse effects of chemicals on wildlife in the environment</td>
+      <td>D4 Relative abundance and distribution of widespread species</td>
+      <td>Negative</td>
+      <td>POPs are chemicals that remain intact in the environment for long periods, become widely distributed geographically, accumulate in the tissues of humans and wildlife, and have harmful impacts on human health or on the environment. Mercury is toxic and can cause damage to human health and accumulates in the environment and the food chain.</td>
+    </tr>
+    <tr>
+      <td>Managing exposure to chemicals</td>
+      <td>H4 Exposure and adverse effects of chemicals on wildlife in the environment</td>
+      <td>D5 Conservation status of our native species</td>
+      <td>Negative</td>
+      <td>POPs are chemicals that remain intact in the environment for long periods, become widely distributed geographically, accumulate in the tissues of humans and wildlife, and have harmful impacts on human health or on the environment. Mercury is toxic and can cause damage to human health and accumulates in the environment and the food chain.</td>
+    </tr>
+    <tr>
+      <td>Managing exposure to chemicals</td>
+      <td>H4 Exposure and adverse effects of chemicals on wildlife in the environment</td>
+      <td>D6 Abundance and distribution of priority species in England</td>
+      <td>Negative</td>
+      <td>POPs are chemicals that remain intact in the environment for long periods, become widely distributed geographically, accumulate in the tissues of humans and wildlife, and have harmful impacts on human health or on the environment. Mercury is toxic and can cause damage to human health and accumulates in the environment and the food chain.</td>
+    </tr>
+    <tr>
+      <td>Managing exposure to chemicals</td>
+      <td>H4 Exposure and adverse effects of chemicals on wildlife in the environment</td>
+      <td>D7 Species supporting ecosystem functions</td>
+      <td>Negative</td>
+      <td>POPs are chemicals that remain intact in the environment for long periods, become widely distributed geographically, accumulate in the tissues of humans and wildlife, and have harmful impacts on human health or on the environment. Mercury is toxic and can cause damage to human health and accumulates in the environment and the food chain.</td>
+    </tr>
+    <tr>
+      <td>Managing exposure to chemicals</td>
+      <td>J5 Prevent harmful chemicals from being recycled</td>
+      <td>H3 Emissions of mercury and persistent organic pollutants to the environment</td>
+      <td>Negative</td>
+      <td>Harmful chemicals measured in J5 include POPs.</td>
+    </tr>
+    <tr>
+      <td>Managing exposure to chemicals</td>
+      <td>J5 Prevent harmful chemicals from being recycled</td>
+      <td>H4 Exposure and adverse effects of chemicals on wildlife in the environment</td>
+      <td>Negative</td>
+      <td>Harmful chemicals measured in J5 include POPs and PCBs and H4 measures the effects of these on wildlife.</td>
+    </tr>
+    <tr>
+      <td>Managing exposure to chemicals</td>
+      <td>J5 Prevent harmful chemicals from being recycled</td>
+      <td>G7 Health and wellbeing benefits</td>
+      <td>Positive</td>
+      <td>Chemicals measured in J5 include POPs which can bioaccumulate and have harmful impacts on health.</td>
+    </tr>
+    <tr>
+      <td>Managing exposure to chemicals</td>
+      <td>B1 Pollution loads entering waters</td>
+      <td>H4 Exposure and adverse effects of chemicals on wildlife in the environment</td>
+      <td>Positive</td>
+      <td>B1 includes emissions of mercury, H4 monitors exposure to mercury.</td>
+    </tr>
+    <tr>
+      <td>Managing exposure to chemicals</td>
+      <td>B2 Serious pollution incidents to water</td>
+      <td>H4 Exposure and adverse effects of chemicals on wildlife in the environment</td>
+      <td>Positive</td>
+      <td>Pollution incidents could involve the release of pollutants monitored through H4 for example, mercury.</td>
+    </tr>
+  </tbody>
+</table>
+          </div>
+          <div class="l-equal-width-columns l-equal-width-columns--xx-small-space">
+            <a href="managing-exposure-to-chemicals-network.csv" class="c-button">Download csv</a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  
+    <div class="l-row l-row--space-between">
+        
+        
+            
+        
+        
+            <a class="c-button c-button--previous" href="/assessment/minimising-waste/">Previous goal</a>
+        
+        
+        
+            <a class="c-button c-button--next" href="/assessment/enhancing-biosecurity/">Next goal</a>
+        
+    </div>
+
+
+  
+
+  <link href="https://unpkg.com/tabulator-tables@5.4.3/dist/css/tabulator.min.css" rel="stylesheet"/>
+  <script type="text/javascript" src="https://unpkg.com/tabulator-tables@5.4.3/dist/js/tabulator.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-2.21.0.min.js"></script>
+  <script src="/js/index.js" type="text/javascript"></script>
+  
+<script>
+    /**
+    * Replace a static SVG figure with an interactive Plotly figure. 
+    * 
+    * @param {string} code - An indicator component code
+    * @param {object} figure - A Plotly figure object 
+    * @param {object} config - A Plotly configuration object
+    */
+    const initialiseFigure = async (code, figure, config) => {
+        const figureContainer = document.querySelector(`#${code}-assesssment-figure-container`);
+        figureContainer.replaceChildren();
+        Plotly.newPlot(`${code}-assesssment-figure-container`, figure.data, figure.layout, config);
+    };
+    const initialiseNetworkFigure = async (code, linksFigure, config) => {
+        const figureContainer = document.querySelector(`#${code}-links-assesssment-figure-container`);
+        figureContainer.replaceChildren();
+        Plotly.newPlot(`${code}-links-assesssment-figure-container`, linksFigure.data, linksFigure.layout, config);
+    };
+    /**
+    * Replace a static HTML table with an interactive Tabulator table
+    * 
+    * @param {string} code - An indicator component code
+    * @param {object} config - A Tabulator configuration object
+    */
+    // const initialiseTable = async (code, config) => {
+    //     console.log(`#${code}-assesssment-table`);
+    //     new Tabulator(`#${code}-assesssment-table`, config);
+        
+    // };
+
+    /**
+    * Replace a static SVG figure with an interactive Plotly figure and a
+    * a static HTML table with an interactive Tabulator table. 
+    * 
+    * @param {string} code - An indicator component code
+    * @param {object} figure - A Plotly figure object 
+    * @param {object} figureConfig - A Plotly configuration object 
+    * @param {object} tableConfig - A Tabulator configuration object 
+    */
+    const initialiseVisualisations = async (code, figure, figureConfig, tableConfig) => {
+        await initialiseFigure(code, figure, figureConfig);
+    };
+    const initialiseNetworkVisualisations = async (code,linksFigure, figureConfig, tableConfig) => {
+        await initialiseNetworkFigure(code, linksFigure, figureConfig);
+    };
+    
+    
+        
+        
+            initialiseVisualisations(
+                code="managing-exposure-to-chemicals",
+                figure={"data":[{"alignmentgroup":"True","customdata":[["Improvement"],["Improvement"],["Improvement"]],"hovertemplate":"%{text} components (%{x} of total) showed %{customdata[0]} in the %{y}<extra></extra>","legendgroup":"Improvement","marker":{"color":"#12436D","pattern":{"shape":""},"line":{"color":"black","width":1}},"name":"Improvement","offsetgroup":"Improvement","orientation":"h","showlegend":true,"text":[7.0,7.0,5.0],"textposition":"auto","x":[0.7,0.7,0.5],"xaxis":"x","y":["Long term","Medium term","Short term"],"yaxis":"y","type":"bar","textfont":{"size":20}},{"alignmentgroup":"True","customdata":[["Little or no change"]],"hovertemplate":"%{text} components (%{x} of total) showed %{customdata[0]} in the %{y}<extra></extra>","legendgroup":"Little or no change","marker":{"color":"#8F8F8F","pattern":{"shape":""},"line":{"color":"black","width":1}},"name":"Little or no change","offsetgroup":"Little or no change","orientation":"h","showlegend":true,"text":[1.0],"textposition":"auto","x":[0.1],"xaxis":"x","y":["Short term"],"yaxis":"y","type":"bar","textfont":{"size":20}},{"alignmentgroup":"True","customdata":[["Deterioration"]],"hovertemplate":"%{text} components (%{x} of total) showed %{customdata[0]} in the %{y}<extra></extra>","legendgroup":"Deterioration","marker":{"color":"#801650","pattern":{"shape":""},"line":{"color":"black","width":1}},"name":"Deterioration","offsetgroup":"Deterioration","orientation":"h","showlegend":true,"text":[1.0],"textposition":"auto","x":[0.1],"xaxis":"x","y":["Short term"],"yaxis":"y","type":"bar","textfont":{"size":20}},{"alignmentgroup":"True","customdata":[["Not assessed"],["Not assessed"],["Not assessed"]],"hovertemplate":"%{text} components (%{x} of total) showed %{customdata[0]} in the %{y}<extra></extra>","legendgroup":"Not assessed","marker":{"color":"#FFFFFF","pattern":{"shape":""},"line":{"color":"black","width":1}},"name":"Not assessed","offsetgroup":"Not assessed","orientation":"h","showlegend":true,"text":[3.0,3.0,3.0],"textposition":"auto","x":[0.3,0.3,0.3],"xaxis":"x","y":["Long term","Medium term","Short term"],"yaxis":"y","type":"bar","textfont":{"size":20}}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":""},"dtick":0.2,"automargin":true,"tickformat":".00%"},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":""},"automargin":true},"legend":{"title":{"text":""},"tracegroupgap":0,"yanchor":"bottom","y":-0.45,"xanchor":"center","x":0.5,"orientation":"h"},"margin":{"t":60},"barmode":"relative","hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true,"hovermode":"closest"}},
+                figureConfig={"displayModeBar":false,"responsive":true}
+            )
+        
+
+        
+        
+        initialiseNetworkVisualisations(
+                code="managing-exposure-to-chemicals",
+                figure={"data":[{"marker":{"angleref":"previous","color":"#801650","size":20,"standoff":10,"symbol":"arrow"},"mode":"lines+markers","name":"Negative","x":[1.0,-0.30901702458252295,null,0.8090170037208972,-0.8090169917999684,null,0.8090170037208972,-0.999999988079071,null,0.8090170037208972,-0.809016932195324,null,0.8090170037208972,-0.30901711398948956,null,0.3090171259104184,1.0,null,0.3090171259104184,0.8090170037208972,null],"y":[1.4702742047251475e-08,0.9510564894417184,null,0.5877852551873061,0.5877852551873061,null,0.5877852551873061,-7.272003400514403e-08,null,0.5877852551873061,-0.5877852853864663,null,0.5877852551873061,-0.9510564600362343,null,-0.9510564600362343,1.4702742047251475e-08,null,-0.9510564600362343,0.5877852551873061,null],"type":"scatter"},{"marker":{"angleref":"previous","color":"#12436D","size":20,"standoff":10,"symbol":"arrow"},"mode":"lines+markers","name":"Positive","x":[1.0,0.8090170037208972,null,1.0,0.30901697689880736,null,0.30901697689880736,0.8090170037208972,null,0.3090171259104184,-0.30901702458252295,null,0.8090169441162529,0.8090170037208972,null],"y":[1.4702742047251475e-08,0.5877852551873061,null,1.4702742047251475e-08,0.9510565490463628,null,0.9510565490463628,0.5877852551873061,null,-0.9510564600362343,0.9510564894417184,null,-0.5877852853864663,0.5877852551873061,null],"type":"scatter"},{"hoverinfo":"text","hovertext":["Indicator H3 has a Positive effect on Indicator H4","Indicator H3 has a Positive effect on Indicator B1","Indicator H3 has a Negative effect on Indicator G7","Indicator H4 has a Negative effect on Indicator D4","Indicator H4 has a Negative effect on Indicator D5","Indicator H4 has a Negative effect on Indicator D6","Indicator H4 has a Negative effect on Indicator D7","Indicator B1 has a Positive effect on Indicator H4","Indicator J5 has a Negative effect on Indicator H3","Indicator J5 has a Negative effect on Indicator H4","Indicator J5 has a Positive effect on Indicator G7","Indicator B2 has a Positive effect on Indicator H4"],"marker":{"color":"Grey","size":20},"mode":"markers+lines","opacity":0,"showlegend":false,"x":[0.9045085018604486,0.6545084884494037,0.3454914877087385,5.960464399823451e-09,-0.09549149217908687,3.576278662098531e-08,0.24999994486570384,0.5590169903098523,0.6545085629552092,0.5590170648156578,5.066394773156624e-08,0.8090169739185751],"y":[0.29389263494502404,0.4755282818745524,0.4755282520722302,0.5877852551873061,0.29389259123363604,-1.5099580141786362e-08,-0.18163560242446414,0.7694209021168344,-0.47552822266674616,-0.18163560242446414,1.4702742023864346e-08,-1.5099580141786362e-08],"type":"scatter"},{"hoverinfo":"skip","marker":{"color":"lightgrey","line":{"width":2},"opacity":1,"size":30},"mode":"markers+text","showlegend":false,"text":["H3","H4","B1","G7","D4","D5","D6","D7","J5","B2"],"x":[1.0,0.8090170037208972,0.30901697689880736,-0.30901702458252295,-0.8090169917999684,-0.999999988079071,-0.809016932195324,-0.30901711398948956,0.3090171259104184,0.8090169441162529],"y":[1.4702742047251475e-08,0.5877852551873061,0.9510565490463628,0.9510564894417184,0.5877852551873061,-7.272003400514403e-08,-0.5877852853864663,-0.9510564600362343,-0.9510564600362343,-0.5877852853864663],"type":"scatter"},{"hoverinfo":"text","hovertext":["Indicator H3 has a Positive effect on Indicator H4","Indicator H3 has a Positive effect on Indicator B1","Indicator H3 has a Negative effect on Indicator G7","Indicator H4 has a Negative effect on Indicator D4","Indicator H4 has a Negative effect on Indicator D5","Indicator H4 has a Negative effect on Indicator D6","Indicator H4 has a Negative effect on Indicator D7","Indicator B1 has a Positive effect on Indicator H4","Indicator J5 has a Negative effect on Indicator H3","Indicator J5 has a Negative effect on Indicator H4","Indicator J5 has a Positive effect on Indicator G7","Indicator B2 has a Positive effect on Indicator H4"],"marker":{"color":"Grey","size":20},"mode":"markers+lines","opacity":0,"showlegend":false,"x":[0.9522542509302243,0.8272542442247018,0.6727457438543692,0.4045085048406808,0.3567627557709052,0.40450851974184193,0.5295084742933005,0.43401698360432983,0.4817628444328138,0.4340170953630381,0.15450858828718306,0.809016959017414],"y":[0.14694632482388306,0.23776414828864725,0.23776413338748614,0.5877852551873061,0.440838923210471,0.29389262004386296,0.20307482638142094,0.8602387255815986,-0.7132923413514902,-0.5663460312303492,-0.47552822266674616,-0.29389265024302325],"type":"scatter"}],"layout":{"height":700,"hoverlabel":{"bgcolor":"#FFFFFF"},"hovermode":"closest","legend":{"orientation":"h","title":{"text":""},"x":0.5,"xanchor":"center","y":-0.05,"yanchor":"bottom"},"margin":{"b":20,"l":5,"r":5,"t":40},"plot_bgcolor":"white","showlegend":true,"width":600,"xaxis":{"showgrid":false,"showticklabels":false,"zeroline":false},"yaxis":{"showgrid":false,"showticklabels":false,"zeroline":false},"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmapgl":[{"type":"heatmapgl","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}}}},
+                figureConfig={"displayModeBar":false,"responsive":true}
+            )
+
+        AssessmentNetworkTable = new Tabulator("#managing-exposure-to-chemicals-network-table", {
+            layout: "fitColumns",
+            pagination: true,
+            paginationSize: 13
+        });
+    
+        
+        
+
+        
+            AssessmentTable = new Tabulator("#managing-exposure-to-chemicals-assessment-table", {
+                layout: "fitColumns",
+                pagination: true,
+                paginationSize: 13,
+                autoColumns:true,
+                columns:[
+                {title:"Indicator component assessed", field:"indicator", widthShrink:1}, //column will not be shrunk
+                {title:"Short term", field:"short",width:200}, //column will be shrunk by 2/3 of the excess space
+                {title:"Medium term", field:"medium", width:200}, //column will be shrunk by 1/3 of the excess space
+                {title:"Long term", field:"long",width:200}, //column has no width set so will be set at the tables minWidth value
+            ]
+            });
+        
+        
+        initialiseNetworkVisualisations(
+                code="managing-exposure-to-chemicals",
+                figure={"data":[{"marker":{"angleref":"previous","color":"#801650","size":20,"standoff":10,"symbol":"arrow"},"mode":"lines+markers","name":"Negative","x":[1.0,-0.30901702458252295,null,0.8090170037208972,-0.8090169917999684,null,0.8090170037208972,-0.999999988079071,null,0.8090170037208972,-0.809016932195324,null,0.8090170037208972,-0.30901711398948956,null,0.3090171259104184,1.0,null,0.3090171259104184,0.8090170037208972,null],"y":[1.4702742047251475e-08,0.9510564894417184,null,0.5877852551873061,0.5877852551873061,null,0.5877852551873061,-7.272003400514403e-08,null,0.5877852551873061,-0.5877852853864663,null,0.5877852551873061,-0.9510564600362343,null,-0.9510564600362343,1.4702742047251475e-08,null,-0.9510564600362343,0.5877852551873061,null],"type":"scatter"},{"marker":{"angleref":"previous","color":"#12436D","size":20,"standoff":10,"symbol":"arrow"},"mode":"lines+markers","name":"Positive","x":[1.0,0.8090170037208972,null,1.0,0.30901697689880736,null,0.30901697689880736,0.8090170037208972,null,0.3090171259104184,-0.30901702458252295,null,0.8090169441162529,0.8090170037208972,null],"y":[1.4702742047251475e-08,0.5877852551873061,null,1.4702742047251475e-08,0.9510565490463628,null,0.9510565490463628,0.5877852551873061,null,-0.9510564600362343,0.9510564894417184,null,-0.5877852853864663,0.5877852551873061,null],"type":"scatter"},{"hoverinfo":"text","hovertext":["Indicator H3 has a Positive effect on Indicator H4","Indicator H3 has a Positive effect on Indicator B1","Indicator H3 has a Negative effect on Indicator G7","Indicator H4 has a Negative effect on Indicator D4","Indicator H4 has a Negative effect on Indicator D5","Indicator H4 has a Negative effect on Indicator D6","Indicator H4 has a Negative effect on Indicator D7","Indicator B1 has a Positive effect on Indicator H4","Indicator J5 has a Negative effect on Indicator H3","Indicator J5 has a Negative effect on Indicator H4","Indicator J5 has a Positive effect on Indicator G7","Indicator B2 has a Positive effect on Indicator H4"],"marker":{"color":"Grey","size":20},"mode":"markers+lines","opacity":0,"showlegend":false,"x":[0.9045085018604486,0.6545084884494037,0.3454914877087385,5.960464399823451e-09,-0.09549149217908687,3.576278662098531e-08,0.24999994486570384,0.5590169903098523,0.6545085629552092,0.5590170648156578,5.066394773156624e-08,0.8090169739185751],"y":[0.29389263494502404,0.4755282818745524,0.4755282520722302,0.5877852551873061,0.29389259123363604,-1.5099580141786362e-08,-0.18163560242446414,0.7694209021168344,-0.47552822266674616,-0.18163560242446414,1.4702742023864346e-08,-1.5099580141786362e-08],"type":"scatter"},{"hoverinfo":"skip","marker":{"color":"lightgrey","line":{"width":2},"opacity":1,"size":30},"mode":"markers+text","showlegend":false,"text":["H3","H4","B1","G7","D4","D5","D6","D7","J5","B2"],"x":[1.0,0.8090170037208972,0.30901697689880736,-0.30901702458252295,-0.8090169917999684,-0.999999988079071,-0.809016932195324,-0.30901711398948956,0.3090171259104184,0.8090169441162529],"y":[1.4702742047251475e-08,0.5877852551873061,0.9510565490463628,0.9510564894417184,0.5877852551873061,-7.272003400514403e-08,-0.5877852853864663,-0.9510564600362343,-0.9510564600362343,-0.5877852853864663],"type":"scatter"},{"hoverinfo":"text","hovertext":["Indicator H3 has a Positive effect on Indicator H4","Indicator H3 has a Positive effect on Indicator B1","Indicator H3 has a Negative effect on Indicator G7","Indicator H4 has a Negative effect on Indicator D4","Indicator H4 has a Negative effect on Indicator D5","Indicator H4 has a Negative effect on Indicator D6","Indicator H4 has a Negative effect on Indicator D7","Indicator B1 has a Positive effect on Indicator H4","Indicator J5 has a Negative effect on Indicator H3","Indicator J5 has a Negative effect on Indicator H4","Indicator J5 has a Positive effect on Indicator G7","Indicator B2 has a Positive effect on Indicator H4"],"marker":{"color":"Grey","size":20},"mode":"markers+lines","opacity":0,"showlegend":false,"x":[0.9522542509302243,0.8272542442247018,0.6727457438543692,0.4045085048406808,0.3567627557709052,0.40450851974184193,0.5295084742933005,0.43401698360432983,0.4817628444328138,0.4340170953630381,0.15450858828718306,0.809016959017414],"y":[0.14694632482388306,0.23776414828864725,0.23776413338748614,0.5877852551873061,0.440838923210471,0.29389262004386296,0.20307482638142094,0.8602387255815986,-0.7132923413514902,-0.5663460312303492,-0.47552822266674616,-0.29389265024302325],"type":"scatter"}],"layout":{"height":700,"hoverlabel":{"bgcolor":"#FFFFFF"},"hovermode":"closest","legend":{"orientation":"h","title":{"text":""},"x":0.5,"xanchor":"center","y":-0.05,"yanchor":"bottom"},"margin":{"b":20,"l":5,"r":5,"t":40},"plot_bgcolor":"white","showlegend":true,"width":600,"xaxis":{"showgrid":false,"showticklabels":false,"zeroline":false},"yaxis":{"showgrid":false,"showticklabels":false,"zeroline":false},"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmapgl":[{"type":"heatmapgl","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}}}},
+                figureConfig={"displayModeBar":false,"responsive":true}
+            )
+
+        AssessmentNetworkTable = new Tabulator("#managing-exposure-to-chemicals-network-table", {
+            layout: "fitColumns",
+            pagination: true,
+            paginationSize: 13
+        });
+    
+        
+        
+
+        
+        
+        initialiseNetworkVisualisations(
+                code="managing-exposure-to-chemicals",
+                figure={"data":[{"marker":{"angleref":"previous","color":"#801650","size":20,"standoff":10,"symbol":"arrow"},"mode":"lines+markers","name":"Negative","x":[1.0,-0.30901702458252295,null,0.8090170037208972,-0.8090169917999684,null,0.8090170037208972,-0.999999988079071,null,0.8090170037208972,-0.809016932195324,null,0.8090170037208972,-0.30901711398948956,null,0.3090171259104184,1.0,null,0.3090171259104184,0.8090170037208972,null],"y":[1.4702742047251475e-08,0.9510564894417184,null,0.5877852551873061,0.5877852551873061,null,0.5877852551873061,-7.272003400514403e-08,null,0.5877852551873061,-0.5877852853864663,null,0.5877852551873061,-0.9510564600362343,null,-0.9510564600362343,1.4702742047251475e-08,null,-0.9510564600362343,0.5877852551873061,null],"type":"scatter"},{"marker":{"angleref":"previous","color":"#12436D","size":20,"standoff":10,"symbol":"arrow"},"mode":"lines+markers","name":"Positive","x":[1.0,0.8090170037208972,null,1.0,0.30901697689880736,null,0.30901697689880736,0.8090170037208972,null,0.3090171259104184,-0.30901702458252295,null,0.8090169441162529,0.8090170037208972,null],"y":[1.4702742047251475e-08,0.5877852551873061,null,1.4702742047251475e-08,0.9510565490463628,null,0.9510565490463628,0.5877852551873061,null,-0.9510564600362343,0.9510564894417184,null,-0.5877852853864663,0.5877852551873061,null],"type":"scatter"},{"hoverinfo":"text","hovertext":["Indicator H3 has a Positive effect on Indicator H4","Indicator H3 has a Positive effect on Indicator B1","Indicator H3 has a Negative effect on Indicator G7","Indicator H4 has a Negative effect on Indicator D4","Indicator H4 has a Negative effect on Indicator D5","Indicator H4 has a Negative effect on Indicator D6","Indicator H4 has a Negative effect on Indicator D7","Indicator B1 has a Positive effect on Indicator H4","Indicator J5 has a Negative effect on Indicator H3","Indicator J5 has a Negative effect on Indicator H4","Indicator J5 has a Positive effect on Indicator G7","Indicator B2 has a Positive effect on Indicator H4"],"marker":{"color":"Grey","size":20},"mode":"markers+lines","opacity":0,"showlegend":false,"x":[0.9045085018604486,0.6545084884494037,0.3454914877087385,5.960464399823451e-09,-0.09549149217908687,3.576278662098531e-08,0.24999994486570384,0.5590169903098523,0.6545085629552092,0.5590170648156578,5.066394773156624e-08,0.8090169739185751],"y":[0.29389263494502404,0.4755282818745524,0.4755282520722302,0.5877852551873061,0.29389259123363604,-1.5099580141786362e-08,-0.18163560242446414,0.7694209021168344,-0.47552822266674616,-0.18163560242446414,1.4702742023864346e-08,-1.5099580141786362e-08],"type":"scatter"},{"hoverinfo":"skip","marker":{"color":"lightgrey","line":{"width":2},"opacity":1,"size":30},"mode":"markers+text","showlegend":false,"text":["H3","H4","B1","G7","D4","D5","D6","D7","J5","B2"],"x":[1.0,0.8090170037208972,0.30901697689880736,-0.30901702458252295,-0.8090169917999684,-0.999999988079071,-0.809016932195324,-0.30901711398948956,0.3090171259104184,0.8090169441162529],"y":[1.4702742047251475e-08,0.5877852551873061,0.9510565490463628,0.9510564894417184,0.5877852551873061,-7.272003400514403e-08,-0.5877852853864663,-0.9510564600362343,-0.9510564600362343,-0.5877852853864663],"type":"scatter"},{"hoverinfo":"text","hovertext":["Indicator H3 has a Positive effect on Indicator H4","Indicator H3 has a Positive effect on Indicator B1","Indicator H3 has a Negative effect on Indicator G7","Indicator H4 has a Negative effect on Indicator D4","Indicator H4 has a Negative effect on Indicator D5","Indicator H4 has a Negative effect on Indicator D6","Indicator H4 has a Negative effect on Indicator D7","Indicator B1 has a Positive effect on Indicator H4","Indicator J5 has a Negative effect on Indicator H3","Indicator J5 has a Negative effect on Indicator H4","Indicator J5 has a Positive effect on Indicator G7","Indicator B2 has a Positive effect on Indicator H4"],"marker":{"color":"Grey","size":20},"mode":"markers+lines","opacity":0,"showlegend":false,"x":[0.9522542509302243,0.8272542442247018,0.6727457438543692,0.4045085048406808,0.3567627557709052,0.40450851974184193,0.5295084742933005,0.43401698360432983,0.4817628444328138,0.4340170953630381,0.15450858828718306,0.809016959017414],"y":[0.14694632482388306,0.23776414828864725,0.23776413338748614,0.5877852551873061,0.440838923210471,0.29389262004386296,0.20307482638142094,0.8602387255815986,-0.7132923413514902,-0.5663460312303492,-0.47552822266674616,-0.29389265024302325],"type":"scatter"}],"layout":{"height":700,"hoverlabel":{"bgcolor":"#FFFFFF"},"hovermode":"closest","legend":{"orientation":"h","title":{"text":""},"x":0.5,"xanchor":"center","y":-0.05,"yanchor":"bottom"},"margin":{"b":20,"l":5,"r":5,"t":40},"plot_bgcolor":"white","showlegend":true,"width":600,"xaxis":{"showgrid":false,"showticklabels":false,"zeroline":false},"yaxis":{"showgrid":false,"showticklabels":false,"zeroline":false},"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmapgl":[{"type":"heatmapgl","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}}}},
+                figureConfig={"displayModeBar":false,"responsive":true}
+            )
+
+        AssessmentNetworkTable = new Tabulator("#managing-exposure-to-chemicals-network-table", {
+            layout: "fitColumns",
+            pagination: true,
+            paginationSize: 13
+        });
+    
+        
+        
+
+        
+        
+        initialiseNetworkVisualisations(
+                code="managing-exposure-to-chemicals",
+                figure={"data":[{"marker":{"angleref":"previous","color":"#801650","size":20,"standoff":10,"symbol":"arrow"},"mode":"lines+markers","name":"Negative","x":[1.0,-0.30901702458252295,null,0.8090170037208972,-0.8090169917999684,null,0.8090170037208972,-0.999999988079071,null,0.8090170037208972,-0.809016932195324,null,0.8090170037208972,-0.30901711398948956,null,0.3090171259104184,1.0,null,0.3090171259104184,0.8090170037208972,null],"y":[1.4702742047251475e-08,0.9510564894417184,null,0.5877852551873061,0.5877852551873061,null,0.5877852551873061,-7.272003400514403e-08,null,0.5877852551873061,-0.5877852853864663,null,0.5877852551873061,-0.9510564600362343,null,-0.9510564600362343,1.4702742047251475e-08,null,-0.9510564600362343,0.5877852551873061,null],"type":"scatter"},{"marker":{"angleref":"previous","color":"#12436D","size":20,"standoff":10,"symbol":"arrow"},"mode":"lines+markers","name":"Positive","x":[1.0,0.8090170037208972,null,1.0,0.30901697689880736,null,0.30901697689880736,0.8090170037208972,null,0.3090171259104184,-0.30901702458252295,null,0.8090169441162529,0.8090170037208972,null],"y":[1.4702742047251475e-08,0.5877852551873061,null,1.4702742047251475e-08,0.9510565490463628,null,0.9510565490463628,0.5877852551873061,null,-0.9510564600362343,0.9510564894417184,null,-0.5877852853864663,0.5877852551873061,null],"type":"scatter"},{"hoverinfo":"text","hovertext":["Indicator H3 has a Positive effect on Indicator H4","Indicator H3 has a Positive effect on Indicator B1","Indicator H3 has a Negative effect on Indicator G7","Indicator H4 has a Negative effect on Indicator D4","Indicator H4 has a Negative effect on Indicator D5","Indicator H4 has a Negative effect on Indicator D6","Indicator H4 has a Negative effect on Indicator D7","Indicator B1 has a Positive effect on Indicator H4","Indicator J5 has a Negative effect on Indicator H3","Indicator J5 has a Negative effect on Indicator H4","Indicator J5 has a Positive effect on Indicator G7","Indicator B2 has a Positive effect on Indicator H4"],"marker":{"color":"Grey","size":20},"mode":"markers+lines","opacity":0,"showlegend":false,"x":[0.9045085018604486,0.6545084884494037,0.3454914877087385,5.960464399823451e-09,-0.09549149217908687,3.576278662098531e-08,0.24999994486570384,0.5590169903098523,0.6545085629552092,0.5590170648156578,5.066394773156624e-08,0.8090169739185751],"y":[0.29389263494502404,0.4755282818745524,0.4755282520722302,0.5877852551873061,0.29389259123363604,-1.5099580141786362e-08,-0.18163560242446414,0.7694209021168344,-0.47552822266674616,-0.18163560242446414,1.4702742023864346e-08,-1.5099580141786362e-08],"type":"scatter"},{"hoverinfo":"skip","marker":{"color":"lightgrey","line":{"width":2},"opacity":1,"size":30},"mode":"markers+text","showlegend":false,"text":["H3","H4","B1","G7","D4","D5","D6","D7","J5","B2"],"x":[1.0,0.8090170037208972,0.30901697689880736,-0.30901702458252295,-0.8090169917999684,-0.999999988079071,-0.809016932195324,-0.30901711398948956,0.3090171259104184,0.8090169441162529],"y":[1.4702742047251475e-08,0.5877852551873061,0.9510565490463628,0.9510564894417184,0.5877852551873061,-7.272003400514403e-08,-0.5877852853864663,-0.9510564600362343,-0.9510564600362343,-0.5877852853864663],"type":"scatter"},{"hoverinfo":"text","hovertext":["Indicator H3 has a Positive effect on Indicator H4","Indicator H3 has a Positive effect on Indicator B1","Indicator H3 has a Negative effect on Indicator G7","Indicator H4 has a Negative effect on Indicator D4","Indicator H4 has a Negative effect on Indicator D5","Indicator H4 has a Negative effect on Indicator D6","Indicator H4 has a Negative effect on Indicator D7","Indicator B1 has a Positive effect on Indicator H4","Indicator J5 has a Negative effect on Indicator H3","Indicator J5 has a Negative effect on Indicator H4","Indicator J5 has a Positive effect on Indicator G7","Indicator B2 has a Positive effect on Indicator H4"],"marker":{"color":"Grey","size":20},"mode":"markers+lines","opacity":0,"showlegend":false,"x":[0.9522542509302243,0.8272542442247018,0.6727457438543692,0.4045085048406808,0.3567627557709052,0.40450851974184193,0.5295084742933005,0.43401698360432983,0.4817628444328138,0.4340170953630381,0.15450858828718306,0.809016959017414],"y":[0.14694632482388306,0.23776414828864725,0.23776413338748614,0.5877852551873061,0.440838923210471,0.29389262004386296,0.20307482638142094,0.8602387255815986,-0.7132923413514902,-0.5663460312303492,-0.47552822266674616,-0.29389265024302325],"type":"scatter"}],"layout":{"height":700,"hoverlabel":{"bgcolor":"#FFFFFF"},"hovermode":"closest","legend":{"orientation":"h","title":{"text":""},"x":0.5,"xanchor":"center","y":-0.05,"yanchor":"bottom"},"margin":{"b":20,"l":5,"r":5,"t":40},"plot_bgcolor":"white","showlegend":true,"width":600,"xaxis":{"showgrid":false,"showticklabels":false,"zeroline":false},"yaxis":{"showgrid":false,"showticklabels":false,"zeroline":false},"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmapgl":[{"type":"heatmapgl","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}}}},
+                figureConfig={"displayModeBar":false,"responsive":true}
+            )
+
+        AssessmentNetworkTable = new Tabulator("#managing-exposure-to-chemicals-network-table", {
+            layout: "fitColumns",
+            pagination: true,
+            paginationSize: 13
+        });
+    
+
+</script>
+
+
+  
+
+  
+
+
+      </main>
+      
+
+<footer class="c-footer">
+  <ul class="l-row l-row--horizontally-centred l-row--small-space l-row--wrap | c-footer__items">
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/contact-us/" target="_blank" rel="noopener noreferrer">Contact us</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/about/" target="_blank" rel="noopener noreferrer">About</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="https://twitter.com/defragovuk" target="_blank" rel="noopener noreferrer">Twitter</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/cookies/" target="_blank" rel="noopener noreferrer">Cookies</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/accessibility-statement/" target="_blank" rel="noopener noreferrer">Accessibility statement</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/official-statistics/" target="_blank" rel="noopener noreferrer">Official statistics</a>
+      </li>
+    
+  </ul>
+</footer>
+      
+  <link href="https://unpkg.com/tabulator-tables@5.4.3/dist/css/tabulator.min.css" rel="stylesheet"/>
+  <script type="text/javascript" src="https://unpkg.com/tabulator-tables@5.4.3/dist/js/tabulator.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-2.21.0.min.js"></script>
+  <script src="/js/index.js" type="text/javascript"></script>
+  
+<script>
+    /**
+    * Replace a static SVG figure with an interactive Plotly figure. 
+    * 
+    * @param {string} code - An indicator component code
+    * @param {object} figure - A Plotly figure object 
+    * @param {object} config - A Plotly configuration object
+    */
+    const initialiseFigure = async (code, figure, config) => {
+        const figureContainer = document.querySelector(`#${code}-assesssment-figure-container`);
+        figureContainer.replaceChildren();
+        Plotly.newPlot(`${code}-assesssment-figure-container`, figure.data, figure.layout, config);
+    };
+    const initialiseNetworkFigure = async (code, linksFigure, config) => {
+        const figureContainer = document.querySelector(`#${code}-links-assesssment-figure-container`);
+        figureContainer.replaceChildren();
+        Plotly.newPlot(`${code}-links-assesssment-figure-container`, linksFigure.data, linksFigure.layout, config);
+    };
+    /**
+    * Replace a static HTML table with an interactive Tabulator table
+    * 
+    * @param {string} code - An indicator component code
+    * @param {object} config - A Tabulator configuration object
+    */
+    // const initialiseTable = async (code, config) => {
+    //     console.log(`#${code}-assesssment-table`);
+    //     new Tabulator(`#${code}-assesssment-table`, config);
+        
+    // };
+
+    /**
+    * Replace a static SVG figure with an interactive Plotly figure and a
+    * a static HTML table with an interactive Tabulator table. 
+    * 
+    * @param {string} code - An indicator component code
+    * @param {object} figure - A Plotly figure object 
+    * @param {object} figureConfig - A Plotly configuration object 
+    * @param {object} tableConfig - A Tabulator configuration object 
+    */
+    const initialiseVisualisations = async (code, figure, figureConfig, tableConfig) => {
+        await initialiseFigure(code, figure, figureConfig);
+    };
+    const initialiseNetworkVisualisations = async (code,linksFigure, figureConfig, tableConfig) => {
+        await initialiseNetworkFigure(code, linksFigure, figureConfig);
+    };
+    
+    
+        
+        
+            initialiseVisualisations(
+                code="managing-exposure-to-chemicals",
+                figure={"data":[{"alignmentgroup":"True","customdata":[["Improvement"],["Improvement"],["Improvement"]],"hovertemplate":"%{text} components (%{x} of total) showed %{customdata[0]} in the %{y}<extra></extra>","legendgroup":"Improvement","marker":{"color":"#12436D","pattern":{"shape":""},"line":{"color":"black","width":1}},"name":"Improvement","offsetgroup":"Improvement","orientation":"h","showlegend":true,"text":[7.0,7.0,5.0],"textposition":"auto","x":[0.7,0.7,0.5],"xaxis":"x","y":["Long term","Medium term","Short term"],"yaxis":"y","type":"bar","textfont":{"size":20}},{"alignmentgroup":"True","customdata":[["Little or no change"]],"hovertemplate":"%{text} components (%{x} of total) showed %{customdata[0]} in the %{y}<extra></extra>","legendgroup":"Little or no change","marker":{"color":"#8F8F8F","pattern":{"shape":""},"line":{"color":"black","width":1}},"name":"Little or no change","offsetgroup":"Little or no change","orientation":"h","showlegend":true,"text":[1.0],"textposition":"auto","x":[0.1],"xaxis":"x","y":["Short term"],"yaxis":"y","type":"bar","textfont":{"size":20}},{"alignmentgroup":"True","customdata":[["Deterioration"]],"hovertemplate":"%{text} components (%{x} of total) showed %{customdata[0]} in the %{y}<extra></extra>","legendgroup":"Deterioration","marker":{"color":"#801650","pattern":{"shape":""},"line":{"color":"black","width":1}},"name":"Deterioration","offsetgroup":"Deterioration","orientation":"h","showlegend":true,"text":[1.0],"textposition":"auto","x":[0.1],"xaxis":"x","y":["Short term"],"yaxis":"y","type":"bar","textfont":{"size":20}},{"alignmentgroup":"True","customdata":[["Not assessed"],["Not assessed"],["Not assessed"]],"hovertemplate":"%{text} components (%{x} of total) showed %{customdata[0]} in the %{y}<extra></extra>","legendgroup":"Not assessed","marker":{"color":"#FFFFFF","pattern":{"shape":""},"line":{"color":"black","width":1}},"name":"Not assessed","offsetgroup":"Not assessed","orientation":"h","showlegend":true,"text":[3.0,3.0,3.0],"textposition":"auto","x":[0.3,0.3,0.3],"xaxis":"x","y":["Long term","Medium term","Short term"],"yaxis":"y","type":"bar","textfont":{"size":20}}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":""},"dtick":0.2,"automargin":true,"tickformat":".00%"},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":""},"automargin":true},"legend":{"title":{"text":""},"tracegroupgap":0,"yanchor":"bottom","y":-0.45,"xanchor":"center","x":0.5,"orientation":"h"},"margin":{"t":60},"barmode":"relative","hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true,"hovermode":"closest"}},
+                figureConfig={"displayModeBar":false,"responsive":true}
+            )
+        
+
+        
+        
+        initialiseNetworkVisualisations(
+                code="managing-exposure-to-chemicals",
+                figure={"data":[{"marker":{"angleref":"previous","color":"#801650","size":20,"standoff":10,"symbol":"arrow"},"mode":"lines+markers","name":"Negative","x":[1.0,-0.30901702458252295,null,0.8090170037208972,-0.8090169917999684,null,0.8090170037208972,-0.999999988079071,null,0.8090170037208972,-0.809016932195324,null,0.8090170037208972,-0.30901711398948956,null,0.3090171259104184,1.0,null,0.3090171259104184,0.8090170037208972,null],"y":[1.4702742047251475e-08,0.9510564894417184,null,0.5877852551873061,0.5877852551873061,null,0.5877852551873061,-7.272003400514403e-08,null,0.5877852551873061,-0.5877852853864663,null,0.5877852551873061,-0.9510564600362343,null,-0.9510564600362343,1.4702742047251475e-08,null,-0.9510564600362343,0.5877852551873061,null],"type":"scatter"},{"marker":{"angleref":"previous","color":"#12436D","size":20,"standoff":10,"symbol":"arrow"},"mode":"lines+markers","name":"Positive","x":[1.0,0.8090170037208972,null,1.0,0.30901697689880736,null,0.30901697689880736,0.8090170037208972,null,0.3090171259104184,-0.30901702458252295,null,0.8090169441162529,0.8090170037208972,null],"y":[1.4702742047251475e-08,0.5877852551873061,null,1.4702742047251475e-08,0.9510565490463628,null,0.9510565490463628,0.5877852551873061,null,-0.9510564600362343,0.9510564894417184,null,-0.5877852853864663,0.5877852551873061,null],"type":"scatter"},{"hoverinfo":"text","hovertext":["Indicator H3 has a Positive effect on Indicator H4","Indicator H3 has a Positive effect on Indicator B1","Indicator H3 has a Negative effect on Indicator G7","Indicator H4 has a Negative effect on Indicator D4","Indicator H4 has a Negative effect on Indicator D5","Indicator H4 has a Negative effect on Indicator D6","Indicator H4 has a Negative effect on Indicator D7","Indicator B1 has a Positive effect on Indicator H4","Indicator J5 has a Negative effect on Indicator H3","Indicator J5 has a Negative effect on Indicator H4","Indicator J5 has a Positive effect on Indicator G7","Indicator B2 has a Positive effect on Indicator H4"],"marker":{"color":"Grey","size":20},"mode":"markers+lines","opacity":0,"showlegend":false,"x":[0.9045085018604486,0.6545084884494037,0.3454914877087385,5.960464399823451e-09,-0.09549149217908687,3.576278662098531e-08,0.24999994486570384,0.5590169903098523,0.6545085629552092,0.5590170648156578,5.066394773156624e-08,0.8090169739185751],"y":[0.29389263494502404,0.4755282818745524,0.4755282520722302,0.5877852551873061,0.29389259123363604,-1.5099580141786362e-08,-0.18163560242446414,0.7694209021168344,-0.47552822266674616,-0.18163560242446414,1.4702742023864346e-08,-1.5099580141786362e-08],"type":"scatter"},{"hoverinfo":"skip","marker":{"color":"lightgrey","line":{"width":2},"opacity":1,"size":30},"mode":"markers+text","showlegend":false,"text":["H3","H4","B1","G7","D4","D5","D6","D7","J5","B2"],"x":[1.0,0.8090170037208972,0.30901697689880736,-0.30901702458252295,-0.8090169917999684,-0.999999988079071,-0.809016932195324,-0.30901711398948956,0.3090171259104184,0.8090169441162529],"y":[1.4702742047251475e-08,0.5877852551873061,0.9510565490463628,0.9510564894417184,0.5877852551873061,-7.272003400514403e-08,-0.5877852853864663,-0.9510564600362343,-0.9510564600362343,-0.5877852853864663],"type":"scatter"},{"hoverinfo":"text","hovertext":["Indicator H3 has a Positive effect on Indicator H4","Indicator H3 has a Positive effect on Indicator B1","Indicator H3 has a Negative effect on Indicator G7","Indicator H4 has a Negative effect on Indicator D4","Indicator H4 has a Negative effect on Indicator D5","Indicator H4 has a Negative effect on Indicator D6","Indicator H4 has a Negative effect on Indicator D7","Indicator B1 has a Positive effect on Indicator H4","Indicator J5 has a Negative effect on Indicator H3","Indicator J5 has a Negative effect on Indicator H4","Indicator J5 has a Positive effect on Indicator G7","Indicator B2 has a Positive effect on Indicator H4"],"marker":{"color":"Grey","size":20},"mode":"markers+lines","opacity":0,"showlegend":false,"x":[0.9522542509302243,0.8272542442247018,0.6727457438543692,0.4045085048406808,0.3567627557709052,0.40450851974184193,0.5295084742933005,0.43401698360432983,0.4817628444328138,0.4340170953630381,0.15450858828718306,0.809016959017414],"y":[0.14694632482388306,0.23776414828864725,0.23776413338748614,0.5877852551873061,0.440838923210471,0.29389262004386296,0.20307482638142094,0.8602387255815986,-0.7132923413514902,-0.5663460312303492,-0.47552822266674616,-0.29389265024302325],"type":"scatter"}],"layout":{"height":700,"hoverlabel":{"bgcolor":"#FFFFFF"},"hovermode":"closest","legend":{"orientation":"h","title":{"text":""},"x":0.5,"xanchor":"center","y":-0.05,"yanchor":"bottom"},"margin":{"b":20,"l":5,"r":5,"t":40},"plot_bgcolor":"white","showlegend":true,"width":600,"xaxis":{"showgrid":false,"showticklabels":false,"zeroline":false},"yaxis":{"showgrid":false,"showticklabels":false,"zeroline":false},"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmapgl":[{"type":"heatmapgl","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}}}},
+                figureConfig={"displayModeBar":false,"responsive":true}
+            )
+
+        AssessmentNetworkTable = new Tabulator("#managing-exposure-to-chemicals-network-table", {
+            layout: "fitColumns",
+            pagination: true,
+            paginationSize: 13
+        });
+    
+        
+        
+
+        
+            AssessmentTable = new Tabulator("#managing-exposure-to-chemicals-assessment-table", {
+                layout: "fitColumns",
+                pagination: true,
+                paginationSize: 13,
+                autoColumns:true,
+                columns:[
+                {title:"Indicator component assessed", field:"indicator", widthShrink:1}, //column will not be shrunk
+                {title:"Short term", field:"short",width:200}, //column will be shrunk by 2/3 of the excess space
+                {title:"Medium term", field:"medium", width:200}, //column will be shrunk by 1/3 of the excess space
+                {title:"Long term", field:"long",width:200}, //column has no width set so will be set at the tables minWidth value
+            ]
+            });
+        
+        
+        initialiseNetworkVisualisations(
+                code="managing-exposure-to-chemicals",
+                figure={"data":[{"marker":{"angleref":"previous","color":"#801650","size":20,"standoff":10,"symbol":"arrow"},"mode":"lines+markers","name":"Negative","x":[1.0,-0.30901702458252295,null,0.8090170037208972,-0.8090169917999684,null,0.8090170037208972,-0.999999988079071,null,0.8090170037208972,-0.809016932195324,null,0.8090170037208972,-0.30901711398948956,null,0.3090171259104184,1.0,null,0.3090171259104184,0.8090170037208972,null],"y":[1.4702742047251475e-08,0.9510564894417184,null,0.5877852551873061,0.5877852551873061,null,0.5877852551873061,-7.272003400514403e-08,null,0.5877852551873061,-0.5877852853864663,null,0.5877852551873061,-0.9510564600362343,null,-0.9510564600362343,1.4702742047251475e-08,null,-0.9510564600362343,0.5877852551873061,null],"type":"scatter"},{"marker":{"angleref":"previous","color":"#12436D","size":20,"standoff":10,"symbol":"arrow"},"mode":"lines+markers","name":"Positive","x":[1.0,0.8090170037208972,null,1.0,0.30901697689880736,null,0.30901697689880736,0.8090170037208972,null,0.3090171259104184,-0.30901702458252295,null,0.8090169441162529,0.8090170037208972,null],"y":[1.4702742047251475e-08,0.5877852551873061,null,1.4702742047251475e-08,0.9510565490463628,null,0.9510565490463628,0.5877852551873061,null,-0.9510564600362343,0.9510564894417184,null,-0.5877852853864663,0.5877852551873061,null],"type":"scatter"},{"hoverinfo":"text","hovertext":["Indicator H3 has a Positive effect on Indicator H4","Indicator H3 has a Positive effect on Indicator B1","Indicator H3 has a Negative effect on Indicator G7","Indicator H4 has a Negative effect on Indicator D4","Indicator H4 has a Negative effect on Indicator D5","Indicator H4 has a Negative effect on Indicator D6","Indicator H4 has a Negative effect on Indicator D7","Indicator B1 has a Positive effect on Indicator H4","Indicator J5 has a Negative effect on Indicator H3","Indicator J5 has a Negative effect on Indicator H4","Indicator J5 has a Positive effect on Indicator G7","Indicator B2 has a Positive effect on Indicator H4"],"marker":{"color":"Grey","size":20},"mode":"markers+lines","opacity":0,"showlegend":false,"x":[0.9045085018604486,0.6545084884494037,0.3454914877087385,5.960464399823451e-09,-0.09549149217908687,3.576278662098531e-08,0.24999994486570384,0.5590169903098523,0.6545085629552092,0.5590170648156578,5.066394773156624e-08,0.8090169739185751],"y":[0.29389263494502404,0.4755282818745524,0.4755282520722302,0.5877852551873061,0.29389259123363604,-1.5099580141786362e-08,-0.18163560242446414,0.7694209021168344,-0.47552822266674616,-0.18163560242446414,1.4702742023864346e-08,-1.5099580141786362e-08],"type":"scatter"},{"hoverinfo":"skip","marker":{"color":"lightgrey","line":{"width":2},"opacity":1,"size":30},"mode":"markers+text","showlegend":false,"text":["H3","H4","B1","G7","D4","D5","D6","D7","J5","B2"],"x":[1.0,0.8090170037208972,0.30901697689880736,-0.30901702458252295,-0.8090169917999684,-0.999999988079071,-0.809016932195324,-0.30901711398948956,0.3090171259104184,0.8090169441162529],"y":[1.4702742047251475e-08,0.5877852551873061,0.9510565490463628,0.9510564894417184,0.5877852551873061,-7.272003400514403e-08,-0.5877852853864663,-0.9510564600362343,-0.9510564600362343,-0.5877852853864663],"type":"scatter"},{"hoverinfo":"text","hovertext":["Indicator H3 has a Positive effect on Indicator H4","Indicator H3 has a Positive effect on Indicator B1","Indicator H3 has a Negative effect on Indicator G7","Indicator H4 has a Negative effect on Indicator D4","Indicator H4 has a Negative effect on Indicator D5","Indicator H4 has a Negative effect on Indicator D6","Indicator H4 has a Negative effect on Indicator D7","Indicator B1 has a Positive effect on Indicator H4","Indicator J5 has a Negative effect on Indicator H3","Indicator J5 has a Negative effect on Indicator H4","Indicator J5 has a Positive effect on Indicator G7","Indicator B2 has a Positive effect on Indicator H4"],"marker":{"color":"Grey","size":20},"mode":"markers+lines","opacity":0,"showlegend":false,"x":[0.9522542509302243,0.8272542442247018,0.6727457438543692,0.4045085048406808,0.3567627557709052,0.40450851974184193,0.5295084742933005,0.43401698360432983,0.4817628444328138,0.4340170953630381,0.15450858828718306,0.809016959017414],"y":[0.14694632482388306,0.23776414828864725,0.23776413338748614,0.5877852551873061,0.440838923210471,0.29389262004386296,0.20307482638142094,0.8602387255815986,-0.7132923413514902,-0.5663460312303492,-0.47552822266674616,-0.29389265024302325],"type":"scatter"}],"layout":{"height":700,"hoverlabel":{"bgcolor":"#FFFFFF"},"hovermode":"closest","legend":{"orientation":"h","title":{"text":""},"x":0.5,"xanchor":"center","y":-0.05,"yanchor":"bottom"},"margin":{"b":20,"l":5,"r":5,"t":40},"plot_bgcolor":"white","showlegend":true,"width":600,"xaxis":{"showgrid":false,"showticklabels":false,"zeroline":false},"yaxis":{"showgrid":false,"showticklabels":false,"zeroline":false},"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmapgl":[{"type":"heatmapgl","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}}}},
+                figureConfig={"displayModeBar":false,"responsive":true}
+            )
+
+        AssessmentNetworkTable = new Tabulator("#managing-exposure-to-chemicals-network-table", {
+            layout: "fitColumns",
+            pagination: true,
+            paginationSize: 13
+        });
+    
+        
+        
+
+        
+        
+        initialiseNetworkVisualisations(
+                code="managing-exposure-to-chemicals",
+                figure={"data":[{"marker":{"angleref":"previous","color":"#801650","size":20,"standoff":10,"symbol":"arrow"},"mode":"lines+markers","name":"Negative","x":[1.0,-0.30901702458252295,null,0.8090170037208972,-0.8090169917999684,null,0.8090170037208972,-0.999999988079071,null,0.8090170037208972,-0.809016932195324,null,0.8090170037208972,-0.30901711398948956,null,0.3090171259104184,1.0,null,0.3090171259104184,0.8090170037208972,null],"y":[1.4702742047251475e-08,0.9510564894417184,null,0.5877852551873061,0.5877852551873061,null,0.5877852551873061,-7.272003400514403e-08,null,0.5877852551873061,-0.5877852853864663,null,0.5877852551873061,-0.9510564600362343,null,-0.9510564600362343,1.4702742047251475e-08,null,-0.9510564600362343,0.5877852551873061,null],"type":"scatter"},{"marker":{"angleref":"previous","color":"#12436D","size":20,"standoff":10,"symbol":"arrow"},"mode":"lines+markers","name":"Positive","x":[1.0,0.8090170037208972,null,1.0,0.30901697689880736,null,0.30901697689880736,0.8090170037208972,null,0.3090171259104184,-0.30901702458252295,null,0.8090169441162529,0.8090170037208972,null],"y":[1.4702742047251475e-08,0.5877852551873061,null,1.4702742047251475e-08,0.9510565490463628,null,0.9510565490463628,0.5877852551873061,null,-0.9510564600362343,0.9510564894417184,null,-0.5877852853864663,0.5877852551873061,null],"type":"scatter"},{"hoverinfo":"text","hovertext":["Indicator H3 has a Positive effect on Indicator H4","Indicator H3 has a Positive effect on Indicator B1","Indicator H3 has a Negative effect on Indicator G7","Indicator H4 has a Negative effect on Indicator D4","Indicator H4 has a Negative effect on Indicator D5","Indicator H4 has a Negative effect on Indicator D6","Indicator H4 has a Negative effect on Indicator D7","Indicator B1 has a Positive effect on Indicator H4","Indicator J5 has a Negative effect on Indicator H3","Indicator J5 has a Negative effect on Indicator H4","Indicator J5 has a Positive effect on Indicator G7","Indicator B2 has a Positive effect on Indicator H4"],"marker":{"color":"Grey","size":20},"mode":"markers+lines","opacity":0,"showlegend":false,"x":[0.9045085018604486,0.6545084884494037,0.3454914877087385,5.960464399823451e-09,-0.09549149217908687,3.576278662098531e-08,0.24999994486570384,0.5590169903098523,0.6545085629552092,0.5590170648156578,5.066394773156624e-08,0.8090169739185751],"y":[0.29389263494502404,0.4755282818745524,0.4755282520722302,0.5877852551873061,0.29389259123363604,-1.5099580141786362e-08,-0.18163560242446414,0.7694209021168344,-0.47552822266674616,-0.18163560242446414,1.4702742023864346e-08,-1.5099580141786362e-08],"type":"scatter"},{"hoverinfo":"skip","marker":{"color":"lightgrey","line":{"width":2},"opacity":1,"size":30},"mode":"markers+text","showlegend":false,"text":["H3","H4","B1","G7","D4","D5","D6","D7","J5","B2"],"x":[1.0,0.8090170037208972,0.30901697689880736,-0.30901702458252295,-0.8090169917999684,-0.999999988079071,-0.809016932195324,-0.30901711398948956,0.3090171259104184,0.8090169441162529],"y":[1.4702742047251475e-08,0.5877852551873061,0.9510565490463628,0.9510564894417184,0.5877852551873061,-7.272003400514403e-08,-0.5877852853864663,-0.9510564600362343,-0.9510564600362343,-0.5877852853864663],"type":"scatter"},{"hoverinfo":"text","hovertext":["Indicator H3 has a Positive effect on Indicator H4","Indicator H3 has a Positive effect on Indicator B1","Indicator H3 has a Negative effect on Indicator G7","Indicator H4 has a Negative effect on Indicator D4","Indicator H4 has a Negative effect on Indicator D5","Indicator H4 has a Negative effect on Indicator D6","Indicator H4 has a Negative effect on Indicator D7","Indicator B1 has a Positive effect on Indicator H4","Indicator J5 has a Negative effect on Indicator H3","Indicator J5 has a Negative effect on Indicator H4","Indicator J5 has a Positive effect on Indicator G7","Indicator B2 has a Positive effect on Indicator H4"],"marker":{"color":"Grey","size":20},"mode":"markers+lines","opacity":0,"showlegend":false,"x":[0.9522542509302243,0.8272542442247018,0.6727457438543692,0.4045085048406808,0.3567627557709052,0.40450851974184193,0.5295084742933005,0.43401698360432983,0.4817628444328138,0.4340170953630381,0.15450858828718306,0.809016959017414],"y":[0.14694632482388306,0.23776414828864725,0.23776413338748614,0.5877852551873061,0.440838923210471,0.29389262004386296,0.20307482638142094,0.8602387255815986,-0.7132923413514902,-0.5663460312303492,-0.47552822266674616,-0.29389265024302325],"type":"scatter"}],"layout":{"height":700,"hoverlabel":{"bgcolor":"#FFFFFF"},"hovermode":"closest","legend":{"orientation":"h","title":{"text":""},"x":0.5,"xanchor":"center","y":-0.05,"yanchor":"bottom"},"margin":{"b":20,"l":5,"r":5,"t":40},"plot_bgcolor":"white","showlegend":true,"width":600,"xaxis":{"showgrid":false,"showticklabels":false,"zeroline":false},"yaxis":{"showgrid":false,"showticklabels":false,"zeroline":false},"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmapgl":[{"type":"heatmapgl","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}}}},
+                figureConfig={"displayModeBar":false,"responsive":true}
+            )
+
+        AssessmentNetworkTable = new Tabulator("#managing-exposure-to-chemicals-network-table", {
+            layout: "fitColumns",
+            pagination: true,
+            paginationSize: 13
+        });
+    
+        
+        
+
+        
+        
+        initialiseNetworkVisualisations(
+                code="managing-exposure-to-chemicals",
+                figure={"data":[{"marker":{"angleref":"previous","color":"#801650","size":20,"standoff":10,"symbol":"arrow"},"mode":"lines+markers","name":"Negative","x":[1.0,-0.30901702458252295,null,0.8090170037208972,-0.8090169917999684,null,0.8090170037208972,-0.999999988079071,null,0.8090170037208972,-0.809016932195324,null,0.8090170037208972,-0.30901711398948956,null,0.3090171259104184,1.0,null,0.3090171259104184,0.8090170037208972,null],"y":[1.4702742047251475e-08,0.9510564894417184,null,0.5877852551873061,0.5877852551873061,null,0.5877852551873061,-7.272003400514403e-08,null,0.5877852551873061,-0.5877852853864663,null,0.5877852551873061,-0.9510564600362343,null,-0.9510564600362343,1.4702742047251475e-08,null,-0.9510564600362343,0.5877852551873061,null],"type":"scatter"},{"marker":{"angleref":"previous","color":"#12436D","size":20,"standoff":10,"symbol":"arrow"},"mode":"lines+markers","name":"Positive","x":[1.0,0.8090170037208972,null,1.0,0.30901697689880736,null,0.30901697689880736,0.8090170037208972,null,0.3090171259104184,-0.30901702458252295,null,0.8090169441162529,0.8090170037208972,null],"y":[1.4702742047251475e-08,0.5877852551873061,null,1.4702742047251475e-08,0.9510565490463628,null,0.9510565490463628,0.5877852551873061,null,-0.9510564600362343,0.9510564894417184,null,-0.5877852853864663,0.5877852551873061,null],"type":"scatter"},{"hoverinfo":"text","hovertext":["Indicator H3 has a Positive effect on Indicator H4","Indicator H3 has a Positive effect on Indicator B1","Indicator H3 has a Negative effect on Indicator G7","Indicator H4 has a Negative effect on Indicator D4","Indicator H4 has a Negative effect on Indicator D5","Indicator H4 has a Negative effect on Indicator D6","Indicator H4 has a Negative effect on Indicator D7","Indicator B1 has a Positive effect on Indicator H4","Indicator J5 has a Negative effect on Indicator H3","Indicator J5 has a Negative effect on Indicator H4","Indicator J5 has a Positive effect on Indicator G7","Indicator B2 has a Positive effect on Indicator H4"],"marker":{"color":"Grey","size":20},"mode":"markers+lines","opacity":0,"showlegend":false,"x":[0.9045085018604486,0.6545084884494037,0.3454914877087385,5.960464399823451e-09,-0.09549149217908687,3.576278662098531e-08,0.24999994486570384,0.5590169903098523,0.6545085629552092,0.5590170648156578,5.066394773156624e-08,0.8090169739185751],"y":[0.29389263494502404,0.4755282818745524,0.4755282520722302,0.5877852551873061,0.29389259123363604,-1.5099580141786362e-08,-0.18163560242446414,0.7694209021168344,-0.47552822266674616,-0.18163560242446414,1.4702742023864346e-08,-1.5099580141786362e-08],"type":"scatter"},{"hoverinfo":"skip","marker":{"color":"lightgrey","line":{"width":2},"opacity":1,"size":30},"mode":"markers+text","showlegend":false,"text":["H3","H4","B1","G7","D4","D5","D6","D7","J5","B2"],"x":[1.0,0.8090170037208972,0.30901697689880736,-0.30901702458252295,-0.8090169917999684,-0.999999988079071,-0.809016932195324,-0.30901711398948956,0.3090171259104184,0.8090169441162529],"y":[1.4702742047251475e-08,0.5877852551873061,0.9510565490463628,0.9510564894417184,0.5877852551873061,-7.272003400514403e-08,-0.5877852853864663,-0.9510564600362343,-0.9510564600362343,-0.5877852853864663],"type":"scatter"},{"hoverinfo":"text","hovertext":["Indicator H3 has a Positive effect on Indicator H4","Indicator H3 has a Positive effect on Indicator B1","Indicator H3 has a Negative effect on Indicator G7","Indicator H4 has a Negative effect on Indicator D4","Indicator H4 has a Negative effect on Indicator D5","Indicator H4 has a Negative effect on Indicator D6","Indicator H4 has a Negative effect on Indicator D7","Indicator B1 has a Positive effect on Indicator H4","Indicator J5 has a Negative effect on Indicator H3","Indicator J5 has a Negative effect on Indicator H4","Indicator J5 has a Positive effect on Indicator G7","Indicator B2 has a Positive effect on Indicator H4"],"marker":{"color":"Grey","size":20},"mode":"markers+lines","opacity":0,"showlegend":false,"x":[0.9522542509302243,0.8272542442247018,0.6727457438543692,0.4045085048406808,0.3567627557709052,0.40450851974184193,0.5295084742933005,0.43401698360432983,0.4817628444328138,0.4340170953630381,0.15450858828718306,0.809016959017414],"y":[0.14694632482388306,0.23776414828864725,0.23776413338748614,0.5877852551873061,0.440838923210471,0.29389262004386296,0.20307482638142094,0.8602387255815986,-0.7132923413514902,-0.5663460312303492,-0.47552822266674616,-0.29389265024302325],"type":"scatter"}],"layout":{"height":700,"hoverlabel":{"bgcolor":"#FFFFFF"},"hovermode":"closest","legend":{"orientation":"h","title":{"text":""},"x":0.5,"xanchor":"center","y":-0.05,"yanchor":"bottom"},"margin":{"b":20,"l":5,"r":5,"t":40},"plot_bgcolor":"white","showlegend":true,"width":600,"xaxis":{"showgrid":false,"showticklabels":false,"zeroline":false},"yaxis":{"showgrid":false,"showticklabels":false,"zeroline":false},"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmapgl":[{"type":"heatmapgl","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}}}},
+                figureConfig={"displayModeBar":false,"responsive":true}
+            )
+
+        AssessmentNetworkTable = new Tabulator("#managing-exposure-to-chemicals-network-table", {
+            layout: "fitColumns",
+            pagination: true,
+            paginationSize: 13
+        });
+    
+
+</script>
+
+
+    </div>
+  </body>
+</html>

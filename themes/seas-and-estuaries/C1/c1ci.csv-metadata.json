@@ -1,0 +1,99 @@
+{
+    "schema:name": "Mean probability that benthic trawl surveys contain a litter item, expressed as a percentage, Greater North Sea and Celtic Seas, 2012 to 2019",
+    "url": "c1ci.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "OSPAR Seabed Litter - Data Results",
+            "schema:url": "https://oap.ospar.org/en/ospar-assessments/quality-status-reports/qsr-2023/indicator-assessments/seafloor-litter/",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "CEFAS",
+                "schema:name": "Centre for Environment, Fisheries and Aquaculture Science",
+                "schema:sameAs": "https://ror.org/04r7rxc53",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:dateModified": "2022-06-30",
+            "schema:datePublished": "2022-06-30"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "UK (Celtic Seas and Greater North Sea)",
+    "schema:temporalCoverage": "2012/2019",
+    "schema:version": "2022-06-30",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Mean probability that benthic trawl surveys contain a litter item, expressed as a percentage",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Seafloor litter surveys are conducted via routine benthic (seafloor) trawl surveys for fish stock assessments. These surveys are considered to be a practical way to monitor seafloor litter because they are already in use, are repeated so provide information on temporal trends, cover a wide area of seafloor and collect sufficient litter for analysis. The measure used in this indicator has changed from ‘median total seafloor litter per km2’ in the 2023 update of the Outcome Indicator Framework as the methodology for counting the number of items found in a survey was not consistently followed across the OSPAR region. As such, a measure based on the presence or absence of litter has been developed and trends in UK seafloor litter are now represented by the probability that a benthic trawl survey contains a piece of litter.",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "integer",
+                    "minimum": "2012",
+                    "maximum": "2019",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "year",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The year range for the data present"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Greater North Sea|Celtic Seas",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "area",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Area of sea"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "percentage",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Mean probability that benthic trawl surveys contain a litter item, expressed as a percentage"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

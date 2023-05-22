@@ -1,0 +1,89 @@
+year,measure,value
+1999,Unsmoothed index,100.0
+2000,Unsmoothed index,97.193948998965
+2001,Unsmoothed index,103.914675701599
+2002,Unsmoothed index,96.0105656205962
+2003,Unsmoothed index,105.289917483942
+2004,Unsmoothed index,106.601301170315
+2005,Unsmoothed index,113.306515634374
+2006,Unsmoothed index,115.47088405813
+2007,Unsmoothed index,116.571904660304
+2008,Unsmoothed index,122.600286974848
+2009,Unsmoothed index,121.179108627421
+2010,Unsmoothed index,116.54700025366
+2011,Unsmoothed index,122.084512300862
+2012,Unsmoothed index,115.741213492854
+2013,Unsmoothed index,126.323780638971
+2014,Unsmoothed index,118.726943160941
+2015,Unsmoothed index,134.09771481343
+2016,Unsmoothed index,129.792630772336
+2017,Unsmoothed index,131.571711655019
+2018,Unsmoothed index,134.101899409529
+2019,Unsmoothed index,137.074080561311
+2020,Unsmoothed index,139.642228915301
+1999,Smoothed index,100.0
+2000,Smoothed index,102.620405631812
+2001,Smoothed index,105.17730843116
+2002,Smoothed index,107.197513638034
+2003,Smoothed index,110.030445527577
+2004,Smoothed index,113.653383335776
+2005,Smoothed index,117.686087222563
+2006,Smoothed index,121.31760984941
+2007,Smoothed index,124.108527928412
+2008,Smoothed index,125.908196226849
+2009,Smoothed index,126.475068230486
+2010,Smoothed index,126.410392684854
+2011,Smoothed index,126.653134276324
+2012,Smoothed index,127.398985173847
+2013,Smoothed index,129.284703496519
+2014,Smoothed index,131.904200948922
+2015,Smoothed index,135.177155366699
+2016,Smoothed index,137.690559942903
+2017,Smoothed index,139.606267233094
+2018,Smoothed index,141.59640122865
+2019,Smoothed index,143.879818670324
+2020,Smoothed index,146.481057805197
+1999,95% confidence interval lower bound,100.0
+2000,95% confidence interval lower bound,99.9781958385139
+2001,95% confidence interval lower bound,100.498059535964
+2002,95% confidence interval lower bound,101.012137406924
+2003,95% confidence interval lower bound,102.494988963703
+2004,95% confidence interval lower bound,104.799908222619
+2005,95% confidence interval lower bound,108.111954570055
+2006,95% confidence interval lower bound,110.749114298683
+2007,95% confidence interval lower bound,113.531668015729
+2008,95% confidence interval lower bound,115.318361197897
+2009,95% confidence interval lower bound,116.155299608534
+2010,95% confidence interval lower bound,116.509889559905
+2011,95% confidence interval lower bound,117.222705411268
+2012,95% confidence interval lower bound,117.70881760651
+2013,95% confidence interval lower bound,119.022323373692
+2014,95% confidence interval lower bound,120.847167282503
+2015,95% confidence interval lower bound,123.568901623878
+2016,95% confidence interval lower bound,125.737499045352
+2017,95% confidence interval lower bound,127.43276079272
+2018,95% confidence interval lower bound,129.093096362444
+2019,95% confidence interval lower bound,129.975639971654
+2020,95% confidence interval lower bound,131.083926346848
+1999,95% confidence interval upper bound,100.0
+2000,95% confidence interval upper bound,104.506927669138
+2001,95% confidence interval upper bound,108.903596564336
+2002,95% confidence interval upper bound,112.600701451715
+2003,95% confidence interval upper bound,116.778049270951
+2004,95% confidence interval upper bound,121.961499598221
+2005,95% confidence interval upper bound,126.824463196469
+2006,95% confidence interval upper bound,130.870273022713
+2007,95% confidence interval upper bound,134.002376403932
+2008,95% confidence interval upper bound,136.478894544833
+2009,95% confidence interval upper bound,137.069326097712
+2010,95% confidence interval upper bound,137.327194095328
+2011,95% confidence interval upper bound,137.430493843326
+2012,95% confidence interval upper bound,138.742821114126
+2013,95% confidence interval upper bound,140.64666278345
+2014,95% confidence interval upper bound,143.505967027939
+2015,95% confidence interval upper bound,147.164937195999
+2016,95% confidence interval upper bound,150.240412851902
+2017,95% confidence interval upper bound,153.242525136869
+2018,95% confidence interval upper bound,155.368846561224
+2019,95% confidence interval upper bound,159.018484340251
+2020,95% confidence interval upper bound,162.883657513595

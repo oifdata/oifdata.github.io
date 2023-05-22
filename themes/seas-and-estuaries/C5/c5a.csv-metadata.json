@@ -1,0 +1,32 @@
+{
+    "schema:name": "Changes in plankton communities, 2004-2008 to 2009-2014",
+    "url": "c5a.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "Changes in plankton communities, 2004-2008 to 2009-2014",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "Defra",
+                "schema:name": "Department for Environment, Food & Rural Affairs",
+                "schema:sameAs": "https://ror.org/00tnppw48",
+                "@type": "schema:GovernmentOrganization"
+            }
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "UK (Celtic Seas and Greater North Sea)",
+    "schema:temporalCoverage": "2004/2014",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Lifeforms (functional groups of species) that make up the plankton communities",
+    "@context": "http://www.w3.org/ns/csvw",
+    "tableDirection": "auto"
+}

@@ -1,0 +1,106 @@
+{
+    "schema:name": "Atlantic grey seal pup production, north-east and south-east England, 1992 to 2019",
+    "url": "c3aii.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "Grey Seal Pup Production – England Download",
+            "schema:url": "http://www.smru.st-andrews.ac.uk/scos/scos-data/grey-seal-pup-production/grey-seal-pup-production-england/grey-seal-pup-production-england-download/",
+            "@type": "Dataset",
+            "schema:author": [
+                {
+                    "schema:name": "Seal Mammal Research Unit",
+                    "schema:sameAs": "http://www.smru.st-andrews.ac.uk/",
+                    "@type": "schema:ResearchOrganization"
+                },
+                {
+                    "schema:alternateName": "JNCC",
+                    "schema:name": "Joint Nature Conservation Committee",
+                    "schema:sameAs": "https://ror.org/05tzsrw37",
+                    "@type": "schema:GovernmentOrganization"
+                }
+            ],
+            "schema:dateModified": "2023-02-03",
+            "schema:datePublished": "2023-02-03"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "1991/2019",
+    "schema:version": "2023-02-03",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Annual grey seal pup production estimates",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "The chart allows the year-on-year trends in grey seal pup production to be compared between north-east and south-east England, but differing scales on the y axes mean that care should be taken when comparing absolute numbers of grey seal pups between the 2 regions.  Grey seal status is assessed using counts of pups that estimate pup production at major breeding sites. Most colonies of grey seals on the English coast are now surveyed biennially, analysis of data collected during the 2021 surveys has not yet been completed but will be available for the next assessment.  ",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "integer",
+                    "minimum": "1991",
+                    "maximum": "2019",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "year",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The year range for the data present"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Northeast England|Southeast England",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "region",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Region where counts are taken"
+            },
+            {
+                "datatype": "integer",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "count",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Annual grey seal pup production estimates"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

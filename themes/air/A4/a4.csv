@@ -1,0 +1,106 @@
+year,measure,value
+1987,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),56.1958322810192
+1988,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),63.6740120912583
+1989,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),66.7820862386868
+1990,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),69.0090526042944
+1991,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),67.5090647754196
+1992,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),66.925400004445
+1993,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),64.1228786974178
+1994,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),69.2194509663439
+1995,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),69.8537820350031
+1996,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),66.0445990777601
+1997,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),65.9271091380184
+1998,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),66.7536380580229
+1999,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),71.3998485231178
+2000,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),66.8667948330435
+2001,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),66.1832355723825
+2002,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),66.9609385037934
+2003,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),73.340827790841
+2004,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),71.6374870065958
+2005,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),69.7079889646969
+2006,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),73.7136627933317
+2007,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),67.1231779085362
+2008,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),68.2073208153939
+2009,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),66.5495631071086
+2010,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),66.5295678511618
+2011,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),66.8744812263178
+2012,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),64.4012367998204
+2013,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),67.4370181507237
+2014,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),68.7675323343962
+2015,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),70.3494330481011
+2016,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),66.1762383132998
+2017,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),68.3738345816187
+2018,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),72.4095159634489
+2019,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),71.817000400399
+2020,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),72.6692957869935
+2021,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),70.3450977618329
+1987,95% confidence interval upper bound,74.5401963908724
+1988,95% confidence interval upper bound,71.21238473229664
+1989,95% confidence interval upper bound,74.80402209779369
+1990,95% confidence interval upper bound,75.61463862914573
+1991,95% confidence interval upper bound,74.95505708288685
+1992,95% confidence interval upper bound,74.86349778355986
+1993,95% confidence interval upper bound,72.26774882041538
+1994,95% confidence interval upper bound,74.51863556372189
+1995,95% confidence interval upper bound,75.28449870123993
+1996,95% confidence interval upper bound,70.56802178137495
+1997,95% confidence interval upper bound,70.35249898367667
+1998,95% confidence interval upper bound,70.91502346105435
+1999,95% confidence interval upper bound,75.07291745154032
+2000,95% confidence interval upper bound,70.43044088822212
+2001,95% confidence interval upper bound,69.99514059496288
+2002,95% confidence interval upper bound,70.3149206344626
+2003,95% confidence interval upper bound,77.11546939101946
+2004,95% confidence interval upper bound,74.24676361141533
+2005,95% confidence interval upper bound,73.270513425801
+2006,95% confidence interval upper bound,77.63280939649326
+2007,95% confidence interval upper bound,70.06031376392872
+2008,95% confidence interval upper bound,71.01811703272006
+2009,95% confidence interval upper bound,70.03403439977315
+2010,95% confidence interval upper bound,70.47725118061184
+2011,95% confidence interval upper bound,70.15485186849325
+2012,95% confidence interval upper bound,67.39336354251351
+2013,95% confidence interval upper bound,70.0979104092008
+2014,95% confidence interval upper bound,71.95974723604337
+2015,95% confidence interval upper bound,72.89857113085036
+2016,95% confidence interval upper bound,68.3509763455663
+2017,95% confidence interval upper bound,71.0878589139653
+2018,95% confidence interval upper bound,74.87928484010448
+2019,95% confidence interval upper bound,74.55922772264144
+2020,95% confidence interval upper bound,75.15504887557744
+2021,95% confidence interval upper bound,72.06506411376036
+1987,95% confidence interval lower bound,37.851468171166005
+1988,95% confidence interval lower bound,56.13563945021996
+1989,95% confidence interval lower bound,58.76015037957991
+1990,95% confidence interval lower bound,62.40346657944307
+1991,95% confidence interval lower bound,60.06307246795235
+1992,95% confidence interval lower bound,58.987302225330126
+1993,95% confidence interval lower bound,55.97800857442023
+1994,95% confidence interval lower bound,63.92026636896591
+1995,95% confidence interval lower bound,64.42306536876629
+1996,95% confidence interval lower bound,61.52117637414525
+1997,95% confidence interval lower bound,61.501719292360114
+1998,95% confidence interval lower bound,62.59225265499145
+1999,95% confidence interval lower bound,67.72677959469527
+2000,95% confidence interval lower bound,63.30314877786488
+2001,95% confidence interval lower bound,62.37133054980212
+2002,95% confidence interval lower bound,63.6069563731242
+2003,95% confidence interval lower bound,69.56618619066255
+2004,95% confidence interval lower bound,69.02821040177628
+2005,95% confidence interval lower bound,66.14546450359279
+2006,95% confidence interval lower bound,69.79451619017013
+2007,95% confidence interval lower bound,64.1860420531437
+2008,95% confidence interval lower bound,65.39652459806774
+2009,95% confidence interval lower bound,63.065091814444045
+2010,95% confidence interval lower bound,62.58188452171176
+2011,95% confidence interval lower bound,63.59411058414235
+2012,95% confidence interval lower bound,61.409110057127286
+2013,95% confidence interval lower bound,64.77612589224661
+2014,95% confidence interval lower bound,65.57531743274902
+2015,95% confidence interval lower bound,67.80029496535185
+2016,95% confidence interval lower bound,64.00150028103332
+2017,95% confidence interval lower bound,65.65981024927208
+2018,95% confidence interval lower bound,69.93974708679332
+2019,95% confidence interval lower bound,69.07477307815655
+2020,95% confidence interval lower bound,70.18354269840957
+2021,95% confidence interval lower bound,68.62513140990545

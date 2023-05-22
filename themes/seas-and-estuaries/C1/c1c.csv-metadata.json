@@ -1,0 +1,33 @@
+{
+    "schema:name": "Smoothed median total of seafloor litter items per km2, UK, 2012 to 2015",
+    "url": "c1c.svg",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "CEFAS",
+                "schema:name": "Centre for Environment, Fisheries & Aquaculture Science",
+                "schema:sameAs": "https://ror.org/04r7rxc53",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:headline": "Smoothed median total of seafloor litter items per km2, UK, 2012 to 2015"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "UK (Celtic Seas and Greater North Sea)",
+    "schema:temporalCoverage": "2012/2015",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Smoothed median total of seafloor litter items per km2",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Trends in UK seafloor litter are represented by spatially smoothed predictions of the median total number of pieces of litter per km, at a grid of points. The colours represent differing relative medians. This is using data combined over the years, although similar patterns are present in the data for the individual years. More data are required to make a full assessment of the trend in the amount of seafloor litter in specific areas of UK waters.",
+    "tableDirection": "auto"
+}

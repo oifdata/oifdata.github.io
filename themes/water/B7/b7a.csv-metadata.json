@@ -1,0 +1,99 @@
+{
+    "schema:name": "Salmon stock status – principal salmon rivers in England within each risk category, 2006 to 2021",
+    "url": "b7a.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "Salmonid and freshwater fisheries statistics: 2021",
+            "schema:url": "https://www.gov.uk/government/publications/salmonid-and-freshwater-fisheries-statistics-2021#full-publication-update-history",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "EA",
+                "schema:name": "Environment Agency",
+                "schema:sameAs": "https://ror.org/01zewfb16",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:dateModified": "2022-11-17",
+            "schema:datePublished": "2022-09-26"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "2006/2021",
+    "schema:version": "2022-11-17",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Percentage of rivers assessed with salmon stock in corresponding status",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Data for 2004 and 2005 are no longer included in the source publication.",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "integer",
+                    "minimum": "2006",
+                    "maximum": "2021",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "year",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The year range for the data present"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Not at risk|Probably not at risk|Probably at risk|At risk",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "status",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Status of salmon stock"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "percentage",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Percentage of rivers assessed with salmon stock in corresponding status"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

@@ -1,0 +1,129 @@
+{
+    "schema:name": "Fly-tipping incidents in England, 2007/2008 to 2021/2022",
+    "url": "j6b.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:description": "<div class=\"govspeak\"><p>Statistics on the number of fly tipping incidents and actions taken in England reported by local councils. Including detailed figures by local council area from 2005 to 2006 and national level summaries from 2007.</p>\n\n<p>If you require the data in another format such as Excel please contact:  <a href=\"mailto:enviro.statistics@defra.gov.uk\" class=\"govuk-link\">enviro.statistics@defra.gov.uk</a></p>\n\n<section class=\"attachment embedded\" id=\"attachment_7159374\">\n  <div class=\"attachment-thumb\">\n      <a class=\"govuk-link\" tabindex=\"-1\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1132164/Flytipping_incidents_and_actions_taken_nat_level_data_2007-08_to_2021-22_accessible.ods\"><svg viewbox=\"0 0 99 140\" width=\"99\" height=\"140\">\n  <path d=\"M12 12h75v27H12zm0 47h18.75v63H12zm55 2v59H51V61h16m2-2H49v63h20V59z\"></path>\n  <path d=\"M49 61.05V120H32.8V61.05H49m2-2H30.75v63H51V59zm34 2V120H69.05V61.05H85m2-2H67v63h20V59z\"></path>\n  <path d=\"M30 68.5h56.5M30 77.34h56.5M30 112.7h56.5M30 95.02h56.5M30 86.18h56.5M30 103.86h56.5\" fill=\"none\"></path>\n</svg>\n</a>\n  </div>\n  <div class=\"attachment-details\">\n    <h3 class=\"title govuk-!-font-size-27 govuk-!-font-weight-regular\"><a class=\"govuk-link\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1132164/Flytipping_incidents_and_actions_taken_nat_level_data_2007-08_to_2021-22_accessible.ods\">Fly tipping incidents and actions taken national level data 2007/08 to 2021/22</a></h3>\n    <p class=\"govuk-body metadata\">\n        <span class=\"type\"><abbr title=\"OpenDocument Spreadsheet\">ODS</abbr></span>, <span class=\"file-size\">32.6 KB</span>\n    </p>\n\n      <p class=\"govuk-body opendocument-help\">\n        This file is in an <a href=\"https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation\" class=\"govuk-link\">OpenDocument</a> format\n      </p>\n\n  </div>\n</section>\n\n<section class=\"attachment embedded\" id=\"attachment_7159375\">\n  <div class=\"attachment-thumb\">\n      <a class=\"govuk-link\" tabindex=\"-1\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1132165/Flytipping_incidents_and_actions_taken_reported_by_LAs_in_England_2012-13_to_2021-22_accessible.ods\"><svg viewbox=\"0 0 99 140\" width=\"99\" height=\"140\">\n  <path d=\"M12 12h75v27H12zm0 47h18.75v63H12zm55 2v59H51V61h16m2-2H49v63h20V59z\"></path>\n  <path d=\"M49 61.05V120H32.8V61.05H49m2-2H30.75v63H51V59zm34 2V120H69.05V61.05H85m2-2H67v63h20V59z\"></path>\n  <path d=\"M30 68.5h56.5M30 77.34h56.5M30 112.7h56.5M30 95.02h56.5M30 86.18h56.5M30 103.86h56.5\" fill=\"none\"></path>\n</svg>\n</a>\n  </div>\n  <div class=\"attachment-details\">\n    <h3 class=\"title govuk-!-font-size-27 govuk-!-font-weight-regular\"><a class=\"govuk-link\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1132165/Flytipping_incidents_and_actions_taken_reported_by_LAs_in_England_2012-13_to_2021-22_accessible.ods\">Fly tipping incidents and actions taken, reported by local authorities in England 2012/13 to 2021/22</a></h3>\n    <p class=\"govuk-body metadata\">\n        <span class=\"type\"><abbr title=\"OpenDocument Spreadsheet\">ODS</abbr></span>, <span class=\"file-size\">1.51 MB</span>\n    </p>\n\n      <p class=\"govuk-body opendocument-help\">\n        This file is in an <a href=\"https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation\" class=\"govuk-link\">OpenDocument</a> format\n      </p>\n\n  </div>\n</section>\n\n<section class=\"attachment embedded\" id=\"attachment_7159376\">\n  <div class=\"attachment-thumb\">\n      <a class=\"govuk-link\" tabindex=\"-1\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1132166/Flytipping_datasets_in_Excel__2021_2022_Updated_Accessible.zip\"><svg viewbox=\"0 0 84 120\" width=\"84\" height=\"120\">\n  <path d=\"M74.85 5v106H5\" fill=\"none\"></path>\n  <path d=\"M79.85 10v106H10\" fill=\"none\"></path>\n</svg>\n</a>\n  </div>\n  <div class=\"attachment-details\">\n    <h3 class=\"title govuk-!-font-size-27 govuk-!-font-weight-regular\"><a class=\"govuk-link\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1132166/Flytipping_datasets_in_Excel__2021_2022_Updated_Accessible.zip\">Fly tipping datasets in Excel format 2007/08 to 2021/22</a></h3>\n    <p class=\"govuk-body metadata\">\n        <span class=\"type\"><abbr title=\"Zip archive\">ZIP</abbr></span>, <span class=\"file-size\">1.57 MB</span>\n    </p>\n\n\n  </div>\n</section>\n\n</div>",
+            "schema:image": [
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-bf9e64d759af6dfd93bede8168f3087a329f405b382aff36747db0db4b7b23e9.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-13093f053c15f613acd827aff27cac83d3fab452947cbcae4c7b706dadf2f7f2.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-4233cd42671827e266e284c4d5ae68fb600bd9f9e35dda663ccabbc2b6ab7ec3.png"
+            ],
+            "schema:name": "ENV24 - Fly tipping incidents and actions taken in England",
+            "@type": "Dataset",
+            "schema:about": [
+                {
+                    "@type": "Thing"
+                }
+            ],
+            "schema:author": {
+                "schema:name": "Department for Environment, Food & Rural Affairs",
+                "schema:url": "https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs",
+                "@type": "Organization"
+            },
+            "schema:publisher": {
+                "schema:name": "GOV.UK",
+                "schema:url": "https://www.gov.uk",
+                "@type": "Organization"
+            },
+            "schema:text": "Latest annual figures on fly tipping incidents and actions taken reported by local councils.",
+            "schema:distribution": [
+                {
+                    "name": "Fly tipping incidents and actions taken national level data 2007/08 to 2021/22",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1132164/Flytipping_incidents_and_actions_taken_nat_level_data_2007-08_to_2021-22_accessible.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "Fly tipping incidents and actions taken, reported by local authorities in England 2012/13 to 2021/22",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1132165/Flytipping_incidents_and_actions_taken_reported_by_LAs_in_England_2012-13_to_2021-22_accessible.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "Fly tipping datasets in Excel format 2007/08 to 2021/22",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1132166/Flytipping_datasets_in_Excel__2021_2022_Updated_Accessible.zip",
+                    "encodingFormat": "application/zip"
+                }
+            ]
+        }
+    ],
+    "schema:keywords": [
+        "Waste",
+        "Resource Use and Waste"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "2007/2022",
+    "schema:version": "2023-01-31",
+    "schema:measurementTechnique": "Number of incidents (000's)",
+    "schema:variableMeasured": "Fly-tipping incidents in England, 2007/2008 to 2021/2022",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Data are for April to March (financial years). The methodology used to calculate the total number of fly-tipping incidents in England was changed in 2019/2020 and results derived by using the new methodology are not comparable to those derived from the old methodology. These methodological changes have also been applied to the 2018/2019 results in order to show the effects of adopting the new methodology. Detailed information on these changes can be found in the reporting basis section of the source Fly-tipping statistics publication. For years 2007/2008 to 2017/2018 there is some level of estimation in the fly-tipping data, where returns for certain local authorities were missing or incomplete.",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "2007/2008|2008/2009|2009/2010|2010/2011|2011/2012|2012/2013|2013/2014|2014/2015|2015/2016|2016/2017|2017/2018|2018/2019|2018/2019|2019/2020|2020/2021|2021/2022",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "year",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The year ranges for the data present"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Old Methodology|New Methodology",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "category",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The two different methodologies that created this dataset"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "value",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The total number of fly tipping waste incidents recorded divided by 1000."
+            }
+        ],
+        "@type": "Schema"
+    }
+}

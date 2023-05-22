@@ -1,0 +1,36 @@
+{
+    "schema:name": "Probability that benthic trawl surveys contain a litter item, expressed as a percentage, UK, 2019 (smoothed)",
+    "url": "c1cii.svg",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "OSPAR Seabed Litter - Data Results",
+            "schema:url": "https://oap.ospar.org/en/ospar-assessments/quality-status-reports/qsr-2023/indicator-assessments/seafloor-litter/",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "CEFAS",
+                "schema:name": "Centre for Environment, Fisheries and Aquaculture Science",
+                "schema:sameAs": "https://ror.org/04r7rxc53",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:dateModified": "2022-06-30",
+            "schema:datePublished": "2022-06-30"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "UK (Celtic Seas and Greater North Sea)",
+    "schema:temporalCoverage": "1970-01-01T00:33:39+00:00",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Probability that benthic trawl surveys contain a litter item, expressed as a percentage, smoothed",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Shown here is a map of the probability of a benthic trawl survey containing litter for the year 2019, the colours represent differing probabilities. Maps for each year in the time series (2012 to 2019) have been produced for the OSPAR Quality Status Report 2023 [seafloor litter assessment](https://oap.ospar.org/en/ospar-assessments/quality-status-reports/qsr-2023/indicator-assessments/seafloor-litter/).",
+    "tableDirection": "auto"
+}

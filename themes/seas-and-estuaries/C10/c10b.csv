@@ -1,0 +1,121 @@
+year,category,value
+1990,Percentage unknown,47.368421052631575
+1991,Percentage unknown,43.85964912280701
+1992,Percentage unknown,42.10526315789473
+1993,Percentage unknown,35.08771929824561
+1994,Percentage unknown,33.33333333333333
+1995,Percentage unknown,35.08771929824561
+1996,Percentage unknown,31.57894736842105
+1997,Percentage unknown,33.33333333333333
+1998,Percentage unknown,29.82456140350877
+1999,Percentage unknown,28.07017543859649
+2000,Percentage unknown,28.07017543859649
+2001,Percentage unknown,26.31578947368421
+2002,Percentage unknown,26.31578947368421
+2003,Percentage unknown,24.561403508771928
+2004,Percentage unknown,24.561403508771928
+2005,Percentage unknown,24.561403508771928
+2006,Percentage unknown,24.561403508771928
+2007,Percentage unknown,24.561403508771928
+2008,Percentage unknown,22.807017543859647
+2009,Percentage unknown,22.807017543859647
+2010,Percentage unknown,22.807017543859647
+2011,Percentage unknown,22.807017543859647
+2012,Percentage unknown,22.807017543859647
+2013,Percentage unknown,22.807017543859647
+2014,Percentage unknown,22.807017543859647
+2015,Percentage unknown,22.807017543859647
+2016,Percentage unknown,22.807017543859647
+2017,Percentage unknown,22.807017543859647
+2018,Percentage unknown,22.807017543859647
+2019,Percentage unknown,22.807017543859647
+1990,Percentage below MSYBtrigger and below Blim (where available),10.526315789473683
+1991,Percentage below MSYBtrigger and below Blim (where available),12.280701754385964
+1992,Percentage below MSYBtrigger and below Blim (where available),8.771929824561402
+1993,Percentage below MSYBtrigger and below Blim (where available),12.280701754385964
+1994,Percentage below MSYBtrigger and below Blim (where available),12.280701754385964
+1995,Percentage below MSYBtrigger and below Blim (where available),15.789473684210526
+1996,Percentage below MSYBtrigger and below Blim (where available),12.280701754385964
+1997,Percentage below MSYBtrigger and below Blim (where available),12.280701754385964
+1998,Percentage below MSYBtrigger and below Blim (where available),12.280701754385964
+1999,Percentage below MSYBtrigger and below Blim (where available),12.280701754385964
+2000,Percentage below MSYBtrigger and below Blim (where available),14.035087719298245
+2001,Percentage below MSYBtrigger and below Blim (where available),15.789473684210526
+2002,Percentage below MSYBtrigger and below Blim (where available),17.543859649122805
+2003,Percentage below MSYBtrigger and below Blim (where available),19.29824561403509
+2004,Percentage below MSYBtrigger and below Blim (where available),15.789473684210526
+2005,Percentage below MSYBtrigger and below Blim (where available),17.543859649122805
+2006,Percentage below MSYBtrigger and below Blim (where available),19.29824561403509
+2007,Percentage below MSYBtrigger and below Blim (where available),19.29824561403509
+2008,Percentage below MSYBtrigger and below Blim (where available),14.035087719298245
+2009,Percentage below MSYBtrigger and below Blim (where available),17.543859649122805
+2010,Percentage below MSYBtrigger and below Blim (where available),14.035087719298245
+2011,Percentage below MSYBtrigger and below Blim (where available),10.526315789473683
+2012,Percentage below MSYBtrigger and below Blim (where available),15.789473684210526
+2013,Percentage below MSYBtrigger and below Blim (where available),10.526315789473683
+2014,Percentage below MSYBtrigger and below Blim (where available),14.035087719298245
+2015,Percentage below MSYBtrigger and below Blim (where available),14.035087719298245
+2016,Percentage below MSYBtrigger and below Blim (where available),12.280701754385964
+2017,Percentage below MSYBtrigger and below Blim (where available),15.789473684210526
+2018,Percentage below MSYBtrigger and below Blim (where available),15.789473684210526
+2019,Percentage below MSYBtrigger and below Blim (where available),15.789473684210526
+1990,Percentage greater than or equal to MSY Btrigger,29.82456140350877
+1991,Percentage greater than or equal to MSY Btrigger,31.57894736842105
+1992,Percentage greater than or equal to MSY Btrigger,33.33333333333333
+1993,Percentage greater than or equal to MSY Btrigger,36.84210526315789
+1994,Percentage greater than or equal to MSY Btrigger,40.35087719298245
+1995,Percentage greater than or equal to MSY Btrigger,35.08771929824561
+1996,Percentage greater than or equal to MSY Btrigger,33.33333333333333
+1997,Percentage greater than or equal to MSY Btrigger,36.84210526315789
+1998,Percentage greater than or equal to MSY Btrigger,42.10526315789473
+1999,Percentage greater than or equal to MSY Btrigger,42.10526315789473
+2000,Percentage greater than or equal to MSY Btrigger,35.08771929824561
+2001,Percentage greater than or equal to MSY Btrigger,42.10526315789473
+2002,Percentage greater than or equal to MSY Btrigger,38.59649122807017
+2003,Percentage greater than or equal to MSY Btrigger,45.614035087719294
+2004,Percentage greater than or equal to MSY Btrigger,42.10526315789473
+2005,Percentage greater than or equal to MSY Btrigger,40.35087719298245
+2006,Percentage greater than or equal to MSY Btrigger,42.10526315789473
+2007,Percentage greater than or equal to MSY Btrigger,38.59649122807017
+2008,Percentage greater than or equal to MSY Btrigger,45.614035087719294
+2009,Percentage greater than or equal to MSY Btrigger,49.122807017543856
+2010,Percentage greater than or equal to MSY Btrigger,54.38596491228071
+2011,Percentage greater than or equal to MSY Btrigger,59.64912280701754
+2012,Percentage greater than or equal to MSY Btrigger,54.38596491228071
+2013,Percentage greater than or equal to MSY Btrigger,56.14035087719298
+2014,Percentage greater than or equal to MSY Btrigger,59.64912280701754
+2015,Percentage greater than or equal to MSY Btrigger,57.89473684210527
+2016,Percentage greater than or equal to MSY Btrigger,57.89473684210527
+2017,Percentage greater than or equal to MSY Btrigger,57.89473684210527
+2018,Percentage greater than or equal to MSY Btrigger,57.89473684210527
+2019,Percentage greater than or equal to MSY Btrigger,57.89473684210527
+1990,Percentage less than MSY Btrigger but greater than Blim,12.280701754385964
+1991,Percentage less than MSY Btrigger but greater than Blim,12.280701754385964
+1992,Percentage less than MSY Btrigger but greater than Blim,15.789473684210526
+1993,Percentage less than MSY Btrigger but greater than Blim,15.789473684210526
+1994,Percentage less than MSY Btrigger but greater than Blim,14.035087719298245
+1995,Percentage less than MSY Btrigger but greater than Blim,14.035087719298245
+1996,Percentage less than MSY Btrigger but greater than Blim,22.807017543859647
+1997,Percentage less than MSY Btrigger but greater than Blim,17.543859649122805
+1998,Percentage less than MSY Btrigger but greater than Blim,15.789473684210526
+1999,Percentage less than MSY Btrigger but greater than Blim,17.543859649122805
+2000,Percentage less than MSY Btrigger but greater than Blim,22.807017543859647
+2001,Percentage less than MSY Btrigger but greater than Blim,15.789473684210526
+2002,Percentage less than MSY Btrigger but greater than Blim,17.543859649122805
+2003,Percentage less than MSY Btrigger but greater than Blim,10.526315789473683
+2004,Percentage less than MSY Btrigger but greater than Blim,17.543859649122805
+2005,Percentage less than MSY Btrigger but greater than Blim,17.543859649122805
+2006,Percentage less than MSY Btrigger but greater than Blim,14.035087719298245
+2007,Percentage less than MSY Btrigger but greater than Blim,17.543859649122805
+2008,Percentage less than MSY Btrigger but greater than Blim,17.543859649122805
+2009,Percentage less than MSY Btrigger but greater than Blim,10.526315789473683
+2010,Percentage less than MSY Btrigger but greater than Blim,8.771929824561402
+2011,Percentage less than MSY Btrigger but greater than Blim,7.017543859649122
+2012,Percentage less than MSY Btrigger but greater than Blim,7.017543859649122
+2013,Percentage less than MSY Btrigger but greater than Blim,10.526315789473683
+2014,Percentage less than MSY Btrigger but greater than Blim,3.508771929824561
+2015,Percentage less than MSY Btrigger but greater than Blim,5.263157894736842
+2016,Percentage less than MSY Btrigger but greater than Blim,7.017543859649122
+2017,Percentage less than MSY Btrigger but greater than Blim,3.508771929824561
+2018,Percentage less than MSY Btrigger but greater than Blim,3.508771929824561
+2019,Percentage less than MSY Btrigger but greater than Blim,3.508771929824561

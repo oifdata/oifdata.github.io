@@ -1,0 +1,201 @@
+year,measure,value
+1970,Unsmoothed index,100.0
+1971,Unsmoothed index,106.10456444943226
+1972,Unsmoothed index,112.47652261857498
+1973,Unsmoothed index,110.99471733704954
+1974,Unsmoothed index,110.59912886927644
+1975,Unsmoothed index,110.88936033915137
+1976,Unsmoothed index,103.9383023701673
+1977,Unsmoothed index,110.20594798419133
+1978,Unsmoothed index,101.62996567315584
+1979,Unsmoothed index,93.59383465459489
+1980,Unsmoothed index,104.5210240054815
+1981,Unsmoothed index,105.69738601239438
+1982,Unsmoothed index,96.31381977600336
+1983,Unsmoothed index,102.8589465323892
+1984,Unsmoothed index,102.75575942508648
+1985,Unsmoothed index,101.52988348407337
+1986,Unsmoothed index,90.27558873096793
+1987,Unsmoothed index,92.74336300831185
+1988,Unsmoothed index,98.21706703451196
+1989,Unsmoothed index,100.41727954451731
+1990,Unsmoothed index,94.77550016069726
+1991,Unsmoothed index,86.19201432848578
+1992,Unsmoothed index,83.70031213497757
+1993,Unsmoothed index,84.02696364142702
+1994,Unsmoothed index,84.30237075873546
+1995,Unsmoothed index,80.05011471745327
+1996,Unsmoothed index,84.25619443384882
+1997,Unsmoothed index,79.20879023652172
+1998,Unsmoothed index,81.60795794431358
+1999,Unsmoothed index,82.55713545689797
+2000,Unsmoothed index,83.94928655306829
+2001,Unsmoothed index,81.04267486705568
+2002,Unsmoothed index,77.32423663846728
+2003,Unsmoothed index,77.59450137812635
+2004,Unsmoothed index,77.87966712389104
+2005,Unsmoothed index,79.83153381178427
+2006,Unsmoothed index,80.46805416989383
+2007,Unsmoothed index,79.66716280601223
+2008,Unsmoothed index,79.29537031463957
+2009,Unsmoothed index,73.58735639014515
+2010,Unsmoothed index,79.66719903927141
+2011,Unsmoothed index,86.13170199598618
+2012,Unsmoothed index,81.46579831430375
+2013,Unsmoothed index,72.7713842475452
+2014,Unsmoothed index,78.00322370644862
+2015,Unsmoothed index,78.54943308105165
+2016,Unsmoothed index,76.5096222812873
+2017,Unsmoothed index,73.7420790131883
+2018,Unsmoothed index,72.77284529864694
+2019,Unsmoothed index,73.23034920865992
+1970,Smoothed index,100.0
+1971,Smoothed index,103.20094537206646
+1972,Smoothed index,105.8775929366331
+1973,Smoothed index,107.10383774923618
+1974,Smoothed index,106.95524281610138
+1975,Smoothed index,105.86492705385442
+1976,Smoothed index,104.12865505023755
+1977,Smoothed index,102.05636538764185
+1978,Smoothed index,99.66742711143492
+1979,Smoothed index,98.0575834935927
+1980,Smoothed index,97.91148269142114
+1981,Smoothed index,98.08403706923376
+1982,Smoothed index,97.90196784385608
+1983,Smoothed index,97.67450400511952
+1984,Smoothed index,96.92042207890164
+1985,Smoothed index,95.41395375955
+1986,Smoothed index,93.77843552917857
+1987,Smoothed index,93.20898280853103
+1988,Smoothed index,93.32500062115612
+1989,Smoothed index,92.56966251842312
+1990,Smoothed index,90.1373610283382
+1991,Smoothed index,86.78718773823253
+1992,Smoothed index,83.87972011592686
+1993,Smoothed index,82.00254896928773
+1994,Smoothed index,80.89949594000355
+1995,Smoothed index,80.28745191246678
+1996,Smoothed index,79.85659171290992
+1997,Smoothed index,79.59899199552916
+1998,Smoothed index,79.79293488794734
+1999,Smoothed index,80.0480679641868
+2000,Smoothed index,79.72603533945052
+2001,Smoothed index,78.64061229039014
+2002,Smoothed index,77.38287322161574
+2003,Smoothed index,76.63814561970092
+2004,Smoothed index,76.59031868516784
+2005,Smoothed index,76.98275587012887
+2006,Smoothed index,77.3169894850316
+2007,Smoothed index,77.392357702024
+2008,Smoothed index,77.4642715791364
+2009,Smoothed index,77.87640680181997
+2010,Smoothed index,78.79224231097172
+2011,Smoothed index,79.33012807697588
+2012,Smoothed index,78.57705801152808
+2013,Smoothed index,77.07773104174139
+2014,Smoothed index,75.95818760080554
+2015,Smoothed index,75.10839189703644
+2016,Smoothed index,74.23565081402671
+2017,Smoothed index,73.34421288441666
+2018,Smoothed index,72.44719425548128
+2019,Smoothed index,71.26807897367475
+1970,95% confidence interval lower bound,100.0
+1971,95% confidence interval lower bound,102.0744432461364
+1972,95% confidence interval lower bound,103.72489517112058
+1973,95% confidence interval lower bound,104.10983634981416
+1974,95% confidence interval lower bound,102.9722045344048
+1975,95% confidence interval lower bound,101.47741496387938
+1976,95% confidence interval lower bound,99.47990968531228
+1977,95% confidence interval lower bound,97.4898062293583
+1978,95% confidence interval lower bound,95.39201154511773
+1979,95% confidence interval lower bound,94.02119603474328
+1980,95% confidence interval lower bound,93.36701776418856
+1981,95% confidence interval lower bound,93.73239633499357
+1982,95% confidence interval lower bound,93.3867647063927
+1983,95% confidence interval lower bound,92.68800697265482
+1984,95% confidence interval lower bound,91.77065533976815
+1985,95% confidence interval lower bound,90.19109084896722
+1986,95% confidence interval lower bound,88.79770419663363
+1987,95% confidence interval lower bound,88.28273160540185
+1988,95% confidence interval lower bound,88.00897919209555
+1989,95% confidence interval lower bound,87.25361545855912
+1990,95% confidence interval lower bound,85.10507685107372
+1991,95% confidence interval lower bound,81.97426513214117
+1992,95% confidence interval lower bound,79.09431442775285
+1993,95% confidence interval lower bound,76.86571273012336
+1994,95% confidence interval lower bound,75.67614599913038
+1995,95% confidence interval lower bound,74.69186214471654
+1996,95% confidence interval lower bound,73.9330531592081
+1997,95% confidence interval lower bound,73.7029412150108
+1998,95% confidence interval lower bound,74.0650938319558
+1999,95% confidence interval lower bound,74.29129710516438
+2000,95% confidence interval lower bound,74.01951264743816
+2001,95% confidence interval lower bound,73.04798023348219
+2002,95% confidence interval lower bound,71.24672254915698
+2003,95% confidence interval lower bound,70.51433429001165
+2004,95% confidence interval lower bound,70.5046716665305
+2005,95% confidence interval lower bound,71.06148062471075
+2006,95% confidence interval lower bound,71.49123263808927
+2007,95% confidence interval lower bound,71.5183945728559
+2008,95% confidence interval lower bound,71.25312355099263
+2009,95% confidence interval lower bound,71.15739737740626
+2010,95% confidence interval lower bound,71.799191180351
+2011,95% confidence interval lower bound,72.25850243339423
+2012,95% confidence interval lower bound,71.81675847410614
+2013,95% confidence interval lower bound,70.48251857704595
+2014,95% confidence interval lower bound,69.62290260873989
+2015,95% confidence interval lower bound,68.92309752637851
+2016,95% confidence interval lower bound,68.08948978103884
+2017,95% confidence interval lower bound,67.053523116412
+2018,95% confidence interval lower bound,66.13113522564385
+2019,95% confidence interval lower bound,64.00194761924048
+1970,95% confidence interval upper bound,100.0
+1971,95% confidence interval upper bound,104.51883340666616
+1972,95% confidence interval upper bound,108.75728961558671
+1973,95% confidence interval upper bound,110.93868269785764
+1974,95% confidence interval upper bound,111.4751134916324
+1975,95% confidence interval upper bound,111.36733777600128
+1976,95% confidence interval upper bound,110.16911968717504
+1977,95% confidence interval upper bound,108.40963987216703
+1978,95% confidence interval upper bound,106.21965100618822
+1979,95% confidence interval upper bound,104.54142312626118
+1980,95% confidence interval upper bound,104.0491216509589
+1981,95% confidence interval upper bound,104.14686984073867
+1982,95% confidence interval upper bound,103.88952673579476
+1983,95% confidence interval upper bound,103.9438562239278
+1984,95% confidence interval upper bound,103.40124600524103
+1985,95% confidence interval upper bound,102.13858592257856
+1986,95% confidence interval upper bound,100.44413156605695
+1987,95% confidence interval upper bound,99.9139734282047
+1988,95% confidence interval upper bound,100.07679498413584
+1989,95% confidence interval upper bound,99.74362143534736
+1990,95% confidence interval upper bound,97.45046954366022
+1991,95% confidence interval upper bound,93.84298681034348
+1992,95% confidence interval upper bound,90.4789519472707
+1993,95% confidence interval upper bound,88.65625652022081
+1994,95% confidence interval upper bound,87.37305706219452
+1995,95% confidence interval upper bound,86.41732170175615
+1996,95% confidence interval upper bound,85.72225232756435
+1997,95% confidence interval upper bound,85.9584433169768
+1998,95% confidence interval upper bound,86.61144926242301
+1999,95% confidence interval upper bound,87.15692941715386
+2000,95% confidence interval upper bound,87.37728239368411
+2001,95% confidence interval upper bound,86.5887396317761
+2002,95% confidence interval upper bound,85.10575184598879
+2003,95% confidence interval upper bound,84.20625624891483
+2004,95% confidence interval upper bound,83.80890269659724
+2005,95% confidence interval upper bound,83.95271053679988
+2006,95% confidence interval upper bound,84.59255574246146
+2007,95% confidence interval upper bound,84.9745987835032
+2008,95% confidence interval upper bound,85.24795667817644
+2009,95% confidence interval upper bound,85.82401062656444
+2010,95% confidence interval upper bound,87.06798968882812
+2011,95% confidence interval upper bound,87.28386835024608
+2012,95% confidence interval upper bound,86.60022160442628
+2013,95% confidence interval upper bound,85.05965682838747
+2014,95% confidence interval upper bound,84.35326272915158
+2015,95% confidence interval upper bound,83.07167436821811
+2016,95% confidence interval upper bound,81.932028200735
+2017,95% confidence interval upper bound,80.7969397245193
+2018,95% confidence interval upper bound,79.2448734172372
+2019,95% confidence interval upper bound,78.22205881082311

@@ -1,0 +1,98 @@
+{
+    "schema:name": "Illegal waste sites in England, 2009/2010 to 2021/2022",
+    "url": "j6a.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:sameAs": "https://www.gov.uk/government/publications/environment-agency-2021-data-on-regulated-businesses-in-england",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "EA",
+                "schema:name": "Environment Agency",
+                "schema:sameAs": "https://ror.org/01zewfb16",
+                "@type": "schema:Organization"
+            },
+            "schema:dateModified": "2022-11-01",
+            "schema:datePublished": "2022-11-01",
+            "schema:headline": "Waste crime summary data 2021"
+        }
+    ],
+    "schema:keywords": [
+        "Waste"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "2009/2022",
+    "schema:version": "2022-11-01",
+    "schema:measurementTechnique": "Number of sites",
+    "schema:variableMeasured": "Illegal waste sites in England, 2009/2010 to 2021/2022",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Data are for April to March (financial years). Illegal waste site data for 2009/2010 and 2010/2011 are for the total number of active waste sites; a breakdown of these data into active sites and active high-risk sites is not available. Concerted sampling efforts from the Environment Agency to identify and investigate illegal waste sites resulted in a peak number being observed in 2011/2012. In subsequent years, activity focused on interventions to disrupt and deal with offenders and close down illegal waste sites. Some of the reduction for 2020/21 may be due to reduced enforcement activity during the COVID-19 pandemic, which may have led to fewer sites being identified.",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "2009/2010|2010/2011|2011/2012|2012/2013|2013/2014|2014/2015|2015/2016|2016/2017|2017/2018|2018/2019|2019/2020|2020/2021|2021/2022",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "f_year",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The year ranges for the data present"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Active high-risk sites|Total active sites",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "site_type",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The types of illegal waste sites in England"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "value",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The total number illegal waste sites in England."
+            }
+        ],
+        "@type": "Schema"
+    }
+}

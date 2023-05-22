@@ -1,0 +1,95 @@
+{
+    "schema:name": "Classification of fish in English rivers, 2009 to 2019",
+    "url": "b7b.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "EA",
+                "schema:name": "Environment Agency",
+                "schema:sameAs": "https://ror.org/01zewfb16",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:headline": "Classification of fish in English rivers"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "2009/2019",
+    "schema:version": "NA",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "percentage of rivers with corresponding classification of fish",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "There are 2 data points shown for 2015; these represent a change in assessment methods and a move from cycle 1 to cycle 2 of the Water Framework Directive reporting units. Reporting on fish classifications also moved from annual to triennial in 2016, so the next reporting point was 2019. Future data will be reported when available.",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "2009|2010|2011|2012|2013|2014|2015 C1|2015 C2|2016|2019",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "year",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The year range for the data present"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Bad|Poor|Moderate|Good|High",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "classification",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Classification of fish in English rivers"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "percentage",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Percentage of rivers assessed which are classified in corresponding classification"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

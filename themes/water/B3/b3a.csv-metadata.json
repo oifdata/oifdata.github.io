@@ -1,0 +1,94 @@
+{
+    "schema:name": "Status of surface waters in England, 2019",
+    "url": "b3a.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "EA",
+                "schema:name": "Environment Agency",
+                "schema:sameAs": "https://ror.org/01zewfb16",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:headline": "Status of surface waters in England"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "1970-01-01T00:33:39+00:00",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Percentage of water bodies assessed with corresponding status",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Results are based on the numbers of water bodies assessed and represent the achievement of good or better status (or potential for water bodies designated as artificial or heavily modified under the WFD Regulations). Ecological status (or potential) is assigned using various water, habitat and biological quality tests. Failure of any one individual test means that the whole water body fails to achieve good or better ecological status (or potential). This is known as the one-out-all-out principle.",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "All surface water bodies|Coastal waters: Saltmarsh|Estuaries: Saltmarsh|Lakes: Phytoplankton|Rivers: Plants & algae|Rivers: Invertebrates",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "water_body",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Water environment being assessed"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Ecological status, at good status|Ecological status, other|Biology, at good status|Biology, not at good status",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "status",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Status of water environment being assessed, as measured under the Water Environment (Water Framework Directive) (England and Wales) Regulations 2017 (the WFD Regulations)"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "percentage",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Percentage of water bodies assessed with corresponding status"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

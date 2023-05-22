@@ -1,0 +1,98 @@
+{
+    "schema:name": "Long-term and short-term changes in the occurrence of sensitive fish species, Greater North Sea, 1967 to 2020",
+    "url": "c11.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "Workshop on the production of abundance estimates for sensitive species",
+            "schema:url": "https://ices-library.figshare.com/articles/report/Workshop_on_the_production_of_abundance_estimates_for_sensitive_species_WKABSENS_/18618506",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "ICES",
+                "schema:name": "International Council for the Exploration of the Sea",
+                "schema:sameAs": "https://ror.org/03hg53255",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:dateModified": "2021-09-24",
+            "schema:datePublished": "2021-09-24"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "UK",
+    "schema:temporalCoverage": "1967/2020",
+    "schema:version": "2021-09-24",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Percentage of sensitive fish species in each status category",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Based on the assessment results for 55 sensitive fish species found in fisheries surveys of the Greater North Sea. In the long-term reference period (1967 to 2008), 48 of the 55 species (87%) could be assessed and in the short-term reference period (2009 to 2014), 51 of the 55 species (93%) could be assessed.",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Long term (1967-2008 to 2015-2020)|Short term (2009-2014 to 2015-2020)",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "assessment_period",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The time periods assessed"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Declining|Increasing|Stable|Not Assessed",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "status",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Status of fish species"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "percent",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Percentage of species in relevant status category"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

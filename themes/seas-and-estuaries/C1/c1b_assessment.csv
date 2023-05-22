@@ -1,0 +1,4 @@
+Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
+C1b,,Short term,2011-2015 to 2016-2020,-32.83582089552239,Rolling average,Improvement
+C1b,,Medium term,2006-2010 to 2016-2020,-29.6875,Rolling average,Improvement
+C1b,,Long term,2004-2008 to 2016-2020,-27.419354838709676,Rolling average,Improvement

@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js" type="text/javascript"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VZBZ0PVRQ0"></script>
+<script>
+  var cookieControlConfig = {
+    apiKey: "afbc7c2ae0265eed63b3dfb031e976fab80fa4ff",
+    product: "COMMUNITY",
+    necessaryCookies: ["CookieControl"],
+    optionalCookies: [
+      {
+        name: "analytics",
+        label: "Analytical Cookies",
+        description:
+          "Analytical cookies help us to improve our website by collecting and reporting information on its usage.",
+        cookies: [
+          "_ga",
+          "_gid",
+          "_gali",
+          "_gat",
+          "__utma",
+          "__utmt",
+          "__utmb",
+          "__utmc",
+          "__utmz",
+          "__utmv",
+        ],
+        onAccept: function () {
+          // Add Google Analytics
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag("js", new Date());
+
+          gtag("config", "G-VZBZ0PVRQ0");
+          // End Google Analytics
+        },
+        onRevoke: function () {
+          // Disable Google Analytics
+          window["ga-disable-G-VZBZ0PVRQ0"] = true;
+          // End Google Analytics
+        },
+      },
+    ],
+    statement: {
+      description:
+        "For more detailed information about the cookies we use, see our",
+      name: "Cookies and privacy page.",
+      url: "/cookies/",
+      updated: "24/04/2023",
+    },
+    initialState: "open",
+    text: {
+      necessaryDescription:
+        "This website sets a cookie to remember a user’s choice about cookies. Where users have previously indicated a preference, that user’s preference will be stored in this cookie.",
+    },
+  };
+  CookieControl.load(cookieControlConfig);
+</script>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="/css/main.css"/> 
+    
+    <title>J2: Raw material consumption</title>
+  </head>
+  <body>
+    <div class="c-colour-bar"></div>
+    <div class="l-column l-column--main l-column--large-space">
+      
+
+<header class="l-header">
+  
+
+<div id="site-phase" class="l-row l-row--x-small-space l-row--vertically-centred l-header__phase | c-phase">
+<strong class="c-phase__badge">alpha</strong>
+<span class="c-phase__text">This is a development website. We welcome your feedback via
+    <a href="mailto:25YEPindicators@defra.gov.uk">email</a>.</span>
+</div>
+
+
+  
+<a id="site-feedback" class="l-header__feedback | c-button c-button--feedback" role="link" href="https://defragroup.eu.qualtrics.com/jfe/form/SV_cTvfhqTFSj4QHlA">Complete our short user-feedback survey</a>
+
+  
+
+<a id="site-logo" class="l-header__logo | c-logo" role="link" href="/">
+    <img class="c-logo__image" src="/img/OIF_logo.png" width="459" height="161" alt="Outcome Indicator Framework - Home"/>
+</a>
+  
+
+
+
+<nav id="site-nav" class="l-header__nav | c-navigation" aria-label="Main navigation">
+    <button
+        id="navigation-toggle"
+        class="c-button c-navigation__toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="navigation-items">
+        Menu
+    </button>
+    <ul id="navigation-items" class="l-column l-column--no-space | c-navigation__items c-navigation__items--closed">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/themes/">Themes</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/reporting-status/">Reporting status</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/outcome-indicator-framework/">Outcome Indicator Framework</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/assessment/">Assessment</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/publications/">Publications</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/faqs/">FAQs</a>
+    
+  </li>
+
+        
+        
+    </ul>
+</nav>
+
+  
+
+<div id="site-search" class="l-header__search l-column l-column--vertical-bottom | c-search">
+    <button
+        id="search-toggle"
+        class="c-button c-search__toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="search-form">
+        Search
+    </button>
+    <form
+        action="/search/"
+        method="get"
+        id="search-form"
+        class="l-row l-row--no-space | c-search__form c-search__form--right c-search__form--closed">
+        <input class="c-search__input" type="text" name="q" value="" placeholder="Search...">
+        <button id="search-button" class="c-search__button c-button c-button--search" type="submit">
+        <img class="c-search__icon" src="/img/search-icon.svg" width="48" height="48" alt="Search"/>
+        </button>
+    </form>
+</div>
+
+
+</header>
+      <main class="l-column l-column--small-space">
+        
+
+
+
+  <nav aria-label="Breadcrumb" class="c-breadcrumbs">
+    <ol class="l-row l-row--xx-small-space l-row--wrap | c-breadcrumbs__items">
+      
+        
+          <li class="c-breadcrumbs__item">
+            <a class="c-breadcrumbs__link" href="/">Home</a>
+          </li>
+        
+      
+        
+          <li class="c-breadcrumbs__item">
+            <a class="c-breadcrumbs__link" href="/themes/">Themes</a>
+          </li>
+        
+      
+        
+          <li class="c-breadcrumbs__item">
+            <a class="c-breadcrumbs__link" href="/themes/resource-use-and-waste/">Resource Use and Waste</a>
+          </li>
+        
+      
+        
+          <li class="c-breadcrumbs__item">
+            <a class="c-breadcrumbs__link" href="/themes/resource-use-and-waste/J2/" aria-current="page">J2</a>
+          </li>
+        
+      
+    </ol>
+  </nav>
+
+        
+    
+        
+    
+        
+            
+    <div class="l-row l-row--space-between">
+        
+        
+            
+        
+        
+            <a class="c-button c-button--previous" href="/themes/resource-use-and-waste/J1/">Previous indicator</a>
+        
+        
+        
+            <a class="c-button c-button--next" href="/themes/resource-use-and-waste/J3/">Next indicator</a>
+        
+    </div>
+
+        
+    
+    
+    <div class="indicator-banner">
+        <div class="l-column indicator-icon">
+            
+  
+    <a class="c-theme-tiles__tile c-theme-tiles__tile--indicator" href="/themes/resource-use-and-waste/">
+      <img
+        class="c-theme-tiles__image c-theme-tiles__image--indicator"
+        src="/img/resource-use-and-waste.png"
+        alt="View Resource Use and Waste indicators"
+        height="100"
+        width="100"/>
+    </a>
+  
+
+        </div>
+        <div class="indicator-details">
+            <h1>J2: Raw material consumption</h1>
+        </div>
+    </div>
+    <section class="l-column l-column--small-space">
+        <h2>Short Description</h2>
+        <p>This indicator shows trends in the amount of (a) raw material consumption (RMC) per capita and (b) the amount of gross value added (GVA) per unit of raw material consumption. These measures give a proxy for the scale of our environmental impact associated with our material consumption, while helping identify how efficiently natural resources are being used and the extent to which economic output is being decoupled from consumption of materials.</p>
+    </section>
+    <section class="l-column l-column--small-space">
+        <h2>Readiness and links to data</h2>
+        <p>Data on RMC underpinning each metric are available in the <a href="https://www.gov.uk/government/statistics/englands-material-footprint/englands-material-footprint">England’s material footprint</a> release. Data on <a href="https://www.ons.gov.uk/economy/grossvalueaddedgva/datasets/nominalandrealregionalgrossvalueaddedbalancedbyindustry/current">Nominal and real regional gross value added (balance) by industry</a> and <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland">Estimates of the population for the UK, England and Wales, Scotland and Northern Ireland</a> are published by the Office for National Statistics. This indicator, together with additional supporting methodology is also included within the <a href="https://www.gov.uk/government/publications/resources-and-waste-strategy-for-england-monitoring-and-evaluation">Resources and waste strategy for England</a>.</p>
+    </section>
+    
+    
+        <section class="l-column l-column--small-space">
+            <h2 id="indicator-components-section-title">Indicator components</h2>
+            <div
+                role="tablist"
+                aria-labelledby="indicator-components-section-title"
+                class="l-column l-column--xx-small-space">
+            
+                
+    
+    <button id="j2a-component-tab" type="button" role="tab" aria-selected="true" aria-controls="j2a-component-tabpanel" class="c-indicator-component-tab" onclick="window.dispatchEvent(new Event('resize'));">
+        <h3 id="j2a-component-title" class="l-row l-row--xx-small-space l-row--vertically-centred | c-indicator-component-tab__text">
+            <span class="c-indicator-component-tab__radio-button">
+                <svg class="c-radio-button" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="c-radio-button__outer-circle" cx="50" cy="50" r="30"/>
+                    <circle class="c-radio-button__inner-circle" cx="50" cy="50" r="20"/>
+                </svg>
+            </span>
+            J2a: Raw material consumption (excluding fossil fuels) per capita
+        </h3>
+    </button>
+
+            
+                
+    
+    <button id="j2b-component-tab" type="button" role="tab" aria-selected="true" aria-controls="j2b-component-tabpanel" class="c-indicator-component-tab" onclick="window.dispatchEvent(new Event('resize'));">
+        <h3 id="j2b-component-title" class="l-row l-row--xx-small-space l-row--vertically-centred | c-indicator-component-tab__text">
+            <span class="c-indicator-component-tab__radio-button">
+                <svg class="c-radio-button" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="c-radio-button__outer-circle" cx="50" cy="50" r="30"/>
+                    <circle class="c-radio-button__inner-circle" cx="50" cy="50" r="20"/>
+                </svg>
+            </span>
+            J2b: Gross value added per kg of raw material consumption (excluding fossil fuels) in England, 2001 to 2019
+        </h3>
+    </button>
+
+            
+            </div>
+            
+                
+    
+    <div id="j2a-component-tabpanel" role="tabpanel" tabindex="0" aria-labelledby="j2a-component-tab" class="l-column l-column--small-space | c-indicator-component-tabpanel">
+        
+        
+    <section class="l-column l-column--no-space">
+        <div
+            role="tablist"
+            aria-label="Data visualisation options"
+            class="l-equal-width-columns l-equal-width-columns--no-space">
+            
+            
+    <button id="j2a-figure-tab" type="button" role="tab" aria-selected="true" data-tabgroup="j2a" aria-controls="j2a-figure-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Figure</span>
+    </button>
+
+            
+            
+    <button id="j2a-table-tab" type="button" role="tab" aria-selected="true" data-tabgroup="j2a" aria-controls="j2a-table-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Table</span>
+    </button>
+
+            
+        </div>
+        <div class="l-column | c-indicator-component-visualisation-tabpanels">
+            
+            
+    <div id="j2a-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="j2a" aria-labelledby="j2a-figure-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Figure
+                J2a: Raw material consumption (excluding fossil fuels) per capita</h4>
+            <div id="j2a-figure-container" class="c-visualisation-container">
+                
+                    <img src='j2a.svg' />
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Sources</dt>
+            
+                <dd class="c-indicator-component-metadata__values">
+                
+                    Department for Environment, Food &amp; Rural Affairs,
+                
+                
+                    England&#39;s material footprint
+                
+                </dd>
+            
+                <dd class="c-indicator-component-metadata__values">
+                
+                    Office for National Statistics,
+                
+                
+                    <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatestimeseriesdataset">Population estimates time series dataset</a>
+                
+                </dd>
+            
+        
+        
+            <dt class="c-indicator-component-metadata__key">Unit of Measurement</dt>
+            <dd>Tonnes per capita</dd>
+        
+        
+            <dt class="c-indicator-component-metadata__key">Footnotes</dt>
+            <dd><p>The data used in the model to produce these statistics is updated with every annual update which may result in changes to the time series.</p></dd>
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="j2a.csv">Download  CSV</a>
+                
+                
+                    <a class="c-button" href="j2a.svg" download=".svg">Download Figure Image</a>
+                
+            </div>
+        </section>
+    </div>
+
+            
+            
+    <div id="j2a-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="j2a" aria-labelledby="j2a-table-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Table
+                J2a: Raw material consumption (excluding fossil fuels) per capita</h4>
+            <div id="j2a-table-container" class="c-visualisation-container">
+                
+                    <table class="dataframe" id="j2a-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Year</th>
+      <th>Biomass</th>
+      <th>Metal ores</th>
+      <th>Non-metallic mineral materials</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2001</td>
+      <td>5.45</td>
+      <td>1.38</td>
+      <td>10.69</td>
+    </tr>
+    <tr>
+      <td>2002</td>
+      <td>5.42</td>
+      <td>1.47</td>
+      <td>12.24</td>
+    </tr>
+    <tr>
+      <td>2003</td>
+      <td>5.11</td>
+      <td>1.34</td>
+      <td>13.47</td>
+    </tr>
+    <tr>
+      <td>2004</td>
+      <td>5.77</td>
+      <td>1.53</td>
+      <td>12.11</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>5.59</td>
+      <td>1.48</td>
+      <td>11.67</td>
+    </tr>
+    <tr>
+      <td>2006</td>
+      <td>5.11</td>
+      <td>1.45</td>
+      <td>11.19</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>4.83</td>
+      <td>1.42</td>
+      <td>10.88</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>4.57</td>
+      <td>1.24</td>
+      <td>9.06</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>4.43</td>
+      <td>1.04</td>
+      <td>7.33</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>4.31</td>
+      <td>1.08</td>
+      <td>6.93</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>4.34</td>
+      <td>1.12</td>
+      <td>7.27</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>4.37</td>
+      <td>1.20</td>
+      <td>6.83</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>4.33</td>
+      <td>1.29</td>
+      <td>6.80</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>4.73</td>
+      <td>1.21</td>
+      <td>8.40</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>4.63</td>
+      <td>1.16</td>
+      <td>8.80</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>4.18</td>
+      <td>1.01</td>
+      <td>7.51</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>3.93</td>
+      <td>0.98</td>
+      <td>7.25</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>3.94</td>
+      <td>1.03</td>
+      <td>8.24</td>
+    </tr>
+    <tr>
+      <td>2019</td>
+      <td>3.99</td>
+      <td>1.00</td>
+      <td>8.02</td>
+    </tr>
+  </tbody>
+</table>
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Sources</dt>
+            
+                <dd class="c-indicator-component-metadata__values">
+                
+                    Department for Environment, Food &amp; Rural Affairs,
+                
+                
+                    England&#39;s material footprint
+                
+                </dd>
+            
+                <dd class="c-indicator-component-metadata__values">
+                
+                    Office for National Statistics,
+                
+                
+                    <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatestimeseriesdataset">Population estimates time series dataset</a>
+                
+                </dd>
+            
+        
+        
+            <dt class="c-indicator-component-metadata__key">Unit of Measurement</dt>
+            <dd>Tonnes per capita</dd>
+        
+        
+            <dt class="c-indicator-component-metadata__key">Footnotes</dt>
+            <dd><p>The data used in the model to produce these statistics is updated with every annual update which may result in changes to the time series.</p></dd>
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="j2a.csv">Download  CSV</a>
+                
+                
+            </div>
+        </section>
+    </div>
+
+            
+        </div>
+    </section>
+
+        
+        <section class="l-column l-column--small-space">
+            <h4>Trend description for J2a</h4>
+            <p>The average raw material footprint per capita in England (excluding fossil fuels) fell by 25.7% between 2001 and 2019. It peaked in 2003, decreased steadily until 2007, and then fell sharply during the 2008 to 2009 recession. It rose again until 2015 then fell to a new low in 2017. Over the latest 3 years for which data are available (2017 to 2019), it has risen to 13.0 tonnes per capita. Within the overall total, per capita consumption of non-metallic mineral materials, metal ores and biomass have all decreased between 2001 and 2019 (by 25.0%, 27.6% and 26.7% respectively). </p>
+        </section>
+        
+            <h2>Assessment of change</h2>
+            <p>A decrease in the biomass component of England’s Material Footprint has been observed over the short, medium and long-term assessment periods. England’s consumption of metal ores has decreased (an improvement) over the short, medium and long-term assessment periods. In the short-term, consumption of non-metallic mineral ores has increased (a deterioration), however in the long and medium-term assessment periods, consumption has decreased (an improvement). </p>
+<p>Change since 2018 has also been assessed. There has been little or no change in the consumption of biomass, metal ores, or non-metallic mineral materials, however this is based on 2 years of data and should be considered as indicative and not evidence of a clear trend. </p>
+<p>Further information on this assessment, along with details on the methodology, is provided in the <a href="/assessment/">Assessment background</a> page. Summaries by 25 Year Environment Plan goal and information on indicator links are presented in the <a href="/assessment/">Assessment results</a> pages.</p>
+            
+                <h4>Table J2a: Assessment of change</h4>
+                <table class="dataframe" id="j2a-assessment-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Component</th>
+      <th>Subcomponent</th>
+      <th>Period</th>
+      <th>Date range</th>
+      <th>Percent change</th>
+      <th>Smoothing function</th>
+      <th>Assessment of change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>J2a</td>
+      <td>Biomass</td>
+      <td>Short term</td>
+      <td>2013 to 2018</td>
+      <td>-9.75</td>
+      <td>Loess</td>
+      <td>Change (decreasing)</td>
+    </tr>
+    <tr>
+      <td>J2a</td>
+      <td>Biomass</td>
+      <td>Medium term</td>
+      <td>2008 to 2018</td>
+      <td>-13.75</td>
+      <td>Loess</td>
+      <td>Change (decreasing)</td>
+    </tr>
+    <tr>
+      <td>J2a</td>
+      <td>Biomass</td>
+      <td>Long term</td>
+      <td>2001 to 2019</td>
+      <td>-26.11</td>
+      <td>Loess</td>
+      <td>Change (decreasing)</td>
+    </tr>
+    <tr>
+      <td>J2a</td>
+      <td>Metal ores</td>
+      <td>Short term</td>
+      <td>2013 to 2018</td>
+      <td>-14.66</td>
+      <td>Loess</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>J2a</td>
+      <td>Metal ores</td>
+      <td>Medium term</td>
+      <td>2008 to 2018</td>
+      <td>-18.71</td>
+      <td>Loess</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>J2a</td>
+      <td>Metal ores</td>
+      <td>Long term</td>
+      <td>2001 to 2018</td>
+      <td>-27.23</td>
+      <td>Loess</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>J2a</td>
+      <td>Non-metallic mineral materials</td>
+      <td>Short term</td>
+      <td>2013 to 2018</td>
+      <td>8.19</td>
+      <td>Loess</td>
+      <td>Deterioration</td>
+    </tr>
+    <tr>
+      <td>J2a</td>
+      <td>Non-metallic mineral materials</td>
+      <td>Medium term</td>
+      <td>2008 to 2018</td>
+      <td>-11.54</td>
+      <td>Loess</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>J2a</td>
+      <td>Non-metallic mineral materials</td>
+      <td>Long term</td>
+      <td>2001 to 2018</td>
+      <td>-31.28</td>
+      <td>Loess</td>
+      <td>Improvement</td>
+    </tr>
+  </tbody>
+</table>
+            
+            <p>Note that assessment categories were assigned based on smoothed data, so percent change figures in Table J2a may differ from unsmoothed values quoted elsewhere. Percent change refers to the difference seen between the first and last years in the specified date range. It is not possible to define a simplistic desired direction of change for the biomass component of this indicator so cannot assign ‘improvement’ or ‘deterioration’.</p>
+        
+    </div>
+
+            
+                
+    
+    <div id="j2b-component-tabpanel" role="tabpanel" tabindex="0" aria-labelledby="j2b-component-tab" class="l-column l-column--small-space | c-indicator-component-tabpanel">
+        
+        
+    <section class="l-column l-column--no-space">
+        <div
+            role="tablist"
+            aria-label="Data visualisation options"
+            class="l-equal-width-columns l-equal-width-columns--no-space">
+            
+            
+    <button id="j2b-figure-tab" type="button" role="tab" aria-selected="true" data-tabgroup="j2b" aria-controls="j2b-figure-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Figure</span>
+    </button>
+
+            
+            
+    <button id="j2b-table-tab" type="button" role="tab" aria-selected="true" data-tabgroup="j2b" aria-controls="j2b-table-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Table</span>
+    </button>
+
+            
+        </div>
+        <div class="l-column | c-indicator-component-visualisation-tabpanels">
+            
+            
+    <div id="j2b-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="j2b" aria-labelledby="j2b-figure-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Figure
+                J2b: Gross value added per kg of raw material consumption (excluding fossil fuels) in England, 2001 to 2019</h4>
+            <div id="j2b-figure-container" class="c-visualisation-container">
+                
+                    <img src='j2b.svg' />
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Sources</dt>
+            
+                <dd class="c-indicator-component-metadata__values">
+                
+                    Office for National Statistics,
+                
+                
+                    <a href="https://www.ons.gov.uk/economy/grossvalueaddedgva/datasets/nominalandrealregionalgrossvalueaddedbalancedbyindustry">Regional gross value added (balanced) by industry: all ITL regions</a>
+                
+                </dd>
+            
+                <dd class="c-indicator-component-metadata__values">
+                
+                    Department for Environment, Food &amp; Rural Affairs,
+                
+                
+                    England&#39;s material footprint
+                
+                </dd>
+            
+        
+        
+            <dt class="c-indicator-component-metadata__key">Unit of Measurement</dt>
+            <dd>£/kg</dd>
+        
+        
+            <dt class="c-indicator-component-metadata__key">Footnotes</dt>
+            <dd><p>The data used in the model to produce these statistics is updated with every annual update which may result in changes to the time series.</p></dd>
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="j2b.csv">Download  CSV</a>
+                
+                
+                    <a class="c-button" href="j2b.svg" download=".svg">Download Figure Image</a>
+                
+            </div>
+        </section>
+    </div>
+
+            
+            
+    <div id="j2b-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="j2b" aria-labelledby="j2b-table-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Table
+                J2b: Gross value added per kg of raw material consumption (excluding fossil fuels) in England, 2001 to 2019</h4>
+            <div id="j2b-table-container" class="c-visualisation-container">
+                
+                    <table class="dataframe" id="j2b-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Year</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2001</td>
+      <td>1.42</td>
+    </tr>
+    <tr>
+      <td>2002</td>
+      <td>1.32</td>
+    </tr>
+    <tr>
+      <td>2003</td>
+      <td>1.30</td>
+    </tr>
+    <tr>
+      <td>2004</td>
+      <td>1.36</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>1.44</td>
+    </tr>
+    <tr>
+      <td>2006</td>
+      <td>1.56</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>1.64</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>1.88</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>2.08</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>2.20</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>2.15</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>2.24</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>2.27</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>2.01</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>2.00</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>2.34</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>2.48</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>2.30</td>
+    </tr>
+    <tr>
+      <td>2019</td>
+      <td>2.37</td>
+    </tr>
+  </tbody>
+</table>
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Sources</dt>
+            
+                <dd class="c-indicator-component-metadata__values">
+                
+                    Office for National Statistics,
+                
+                
+                    <a href="https://www.ons.gov.uk/economy/grossvalueaddedgva/datasets/nominalandrealregionalgrossvalueaddedbalancedbyindustry">Regional gross value added (balanced) by industry: all ITL regions</a>
+                
+                </dd>
+            
+                <dd class="c-indicator-component-metadata__values">
+                
+                    Department for Environment, Food &amp; Rural Affairs,
+                
+                
+                    England&#39;s material footprint
+                
+                </dd>
+            
+        
+        
+            <dt class="c-indicator-component-metadata__key">Unit of Measurement</dt>
+            <dd>£/kg</dd>
+        
+        
+            <dt class="c-indicator-component-metadata__key">Footnotes</dt>
+            <dd><p>The data used in the model to produce these statistics is updated with every annual update which may result in changes to the time series.</p></dd>
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="j2b.csv">Download  CSV</a>
+                
+                
+            </div>
+        </section>
+    </div>
+
+            
+        </div>
+    </section>
+
+        
+        <section class="l-column l-column--small-space">
+            <h4>Trend description for J2b</h4>
+            <p>In 2019, England generated approximately 66.7% more economic value than in 2001 (measured by GVA per unit of RMC (excluding fossil fuels), also described as resource productivity). Resource productivity measured on this basis, rose from a low of £1.30 of GVA per kg of RMC in 2003 to a peak of £2.27 in 2013. It then declined to £2.00 in 2015 before rising to a new high of £2.48 in 2017.</p>
+        </section>
+        
+            <h2>Assessment of change</h2>
+            <p>J2b Gross value added per kg of raw material consumption (excluding fossil fuels) in England has been assessed to be 'improving' over the short, medium, and long term, though progress has slowed over the last five years.</p>
+<p>Change since 2018 has also been assessed. An increase in gross value added per kg of raw material consumption production was found. However, this is based on 2 years of data so should be considered as indicative and not evidence of a clear trend. </p>
+<p>Further information on this assessment, along with details on the methodology, is provided in the <a href="/assessment/">Assessment background</a> page. Summaries by 25 Year Environment Plan goal and information on indicator links are presented in the <a href="/assessment/">Assessment results</a> pages.</p>
+            
+                <h4>Table J2b: Assessment of change</h4>
+                <table class="dataframe" id="j2b-assessment-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Component</th>
+      <th>Subcomponent</th>
+      <th>Period</th>
+      <th>Date range</th>
+      <th>Percentage change</th>
+      <th>Smoothing function</th>
+      <th>Assessment of change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>J2b</td>
+      <td>None</td>
+      <td>Short term</td>
+      <td>2013 to 2018</td>
+      <td>8.32</td>
+      <td>Loess</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>J2b</td>
+      <td>None</td>
+      <td>Medium term</td>
+      <td>2008 to 2018</td>
+      <td>25.37</td>
+      <td>Loess</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>J2b</td>
+      <td>None</td>
+      <td>Long term</td>
+      <td>2001 to 2018</td>
+      <td>73.65</td>
+      <td>Loess</td>
+      <td>Improvement</td>
+    </tr>
+  </tbody>
+</table>
+            
+            <p>Note that assessment categories were assigned based on smoothed data, so percent change figures in Table J2b may differ from unsmoothed values quoted elsewhere. Percent change refers to the difference seen between the first and last years in the specified date range.</p>
+        
+    </div>
+
+            
+        </section>
+    
+    <section id="indicator-metadata" class="l-column l-column--small-space">
+    <h2>Indicator Metadata</h2>
+    <dl class="l-column l-column--xx-small-space | c-indicator-metadata">
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Headline indicator status</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">Resource efficiency and waste</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Primary goal in the 25 Year Environment Plan</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">Using resources from nature more sustainably and efficiently</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Relevant goal(s) in the 25 Year Environment Plan</dt>
+            
+            
+                
+                    <dd class="c-indicator-metadata__values">Using resources from nature more sustainably and efficiently</dd>
+                
+                    <dd class="c-indicator-metadata__values">Mitigating and adapting to climate change</dd>
+                
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Relevant target(s) in the 25 Year Environment Plan</dt>
+            
+            
+                
+                    <dd class="c-indicator-metadata__values">Maximising the value and benefits we get from our resources, doubling resource productivity by 2050</dd>
+                
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Position in the natural capital framework</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">Pressure on natural capital assets</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Related reporting commitments</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">Links to the UN Sustainable Development Goals 8 and 12</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Geographical Scope</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">England</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Status of indicator development</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">Final</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">First Reported</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">2019</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Last Updated</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">2023</dd>
+              
+            </div>
+        
+        
+        
+            <div class="c-indicator-metadata__pair">
+            
+                <dt class="c-indicator-metadata__key">Latest Data</dt>
+            
+            
+                <dd class="c-indicator-metadata__value">2019</dd>
+              
+            </div>
+        
+        
+        
+        
+    </dl>
+</section>
+    
+        
+    
+        
+            
+    <div class="l-row l-row--space-between">
+        
+        
+            
+        
+        
+            <a class="c-button c-button--previous" href="/themes/resource-use-and-waste/J1/">Previous indicator</a>
+        
+        
+        
+            <a class="c-button c-button--next" href="/themes/resource-use-and-waste/J3/">Next indicator</a>
+        
+    </div>
+
+        
+    
+
+      </main>
+      
+
+<footer class="c-footer">
+  <ul class="l-row l-row--horizontally-centred l-row--small-space l-row--wrap | c-footer__items">
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/contact-us/" target="_blank" rel="noopener noreferrer">Contact us</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/about/" target="_blank" rel="noopener noreferrer">About</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="https://twitter.com/defragovuk" target="_blank" rel="noopener noreferrer">Twitter</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/cookies/" target="_blank" rel="noopener noreferrer">Cookies</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/accessibility-statement/" target="_blank" rel="noopener noreferrer">Accessibility statement</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/official-statistics/" target="_blank" rel="noopener noreferrer">Official statistics</a>
+      </li>
+    
+  </ul>
+</footer>
+      
+    <link href="https://unpkg.com/tabulator-tables@5.4.3/dist/css/tabulator.min.css" rel="stylesheet"/>
+    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@5.4.3/dist/js/tabulator.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.21.0.min.js"></script>
+    <script src="/js/index.js" type="text/javascript"></script>
+    
+<script>
+    /**
+    * Replace a static SVG figure with an interactive Plotly figure. 
+    * 
+    * @param {string} code - An indicator component code
+    * @param {object} figure - A Plotly figure object 
+    * @param {object} config - A Plotly configuration object
+    */
+    const initialiseFigure = async (component_code, figure, config) => {
+        const figureContainer = document.querySelector(`#${component_code}-figure-container`);
+        figureContainer.replaceChildren();
+        Plotly.newPlot(`${component_code}-figure-container`, figure.data, figure.layout, config);
+    };
+
+    /**
+    * Replace a static HTML table with an interactive Tabulator table
+    * 
+    * @param {string} code - An indicator component code
+    * @param {object} config - A Tabulator configuration object
+    */
+    const initialiseTable = async (component_code, config) => {
+        new Tabulator(`#${component_code}-table`, config);
+    };
+
+    /**
+    * Replace a static SVG figure with an interactive Plotly figure and a
+    * a static HTML table with an interactive Tabulator table. 
+    * 
+    * @param {string} code - An indicator component code
+    * @param {object} figure - A Plotly figure object 
+    * @param {object} figureConfig - A Plotly configuration object 
+    * @param {object} tableConfig - A Tabulator configuration object 
+    */
+
+    const initialiseTableVisualisations = async (component_code, tableConfig) => {
+        await initialiseTable(component_code, tableConfig);
+    };
+    const initialiseFigureVisualisations = async (component_code, figure, figureConfig) => {
+        await initialiseFigure(component_code, figure, figureConfig);
+    };
+    
+        
+        
+            console.log("please work")
+            initialiseTableVisualisations(
+                "j2a",
+                {"layout":"fitColumns","pagination":true,"paginationSize":13,"nestedFieldSeparator":"|","columnDefaults":{"hozAlign":"right","headerHozAlign":"right"},"columns":[{"title":"Year","hozAlign":"left","headerHozAlign":"left"}]}
+            )
+        
+        
+            
+                initialiseFigureVisualisations(
+                    "j2a",
+                    {"data":[{"alignmentgroup":"True","hovertemplate":"%{y:.2f}","legendgroup":"Non-metallic mineral materials","marker":{"color":"#12436D","pattern":{"shape":""}},"name":"Non-metallic mineral materials","offsetgroup":"Non-metallic mineral materials","orientation":"v","showlegend":true,"textposition":"auto","x":[2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"xaxis":"x","y":[10.688941890374656,12.238733367514325,13.472556189868214,12.110888861841566,11.67185450111428,11.194663774924893,10.88400138259092,9.05593139847612,7.332545978816335,6.932975497169542,7.268281667603576,6.834396214928194,6.795525325379844,8.40415394331426,8.804611027427269,7.512288117251538,7.253708649431916,8.236105817732529,8.020688696026568],"yaxis":"y","type":"bar"},{"alignmentgroup":"True","hovertemplate":"%{y:.2f}","legendgroup":"Biomass","marker":{"color":"#801650","pattern":{"shape":""}},"name":"Biomass","offsetgroup":"Biomass","orientation":"v","showlegend":true,"textposition":"auto","x":[2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"xaxis":"x","y":[5.44692182252684,5.418668798423565,5.112515576667591,5.767297525989377,5.593147601694848,5.107363316059664,4.832422226286995,4.565773669788016,4.430432437870499,4.307119373328486,4.335368064952832,4.365130323227608,4.325349117063678,4.727971065585916,4.634431060725155,4.177366367163062,3.930314486401661,3.944893056977613,3.994364159176131],"yaxis":"y","type":"bar"},{"alignmentgroup":"True","hovertemplate":"%{y:.2f}","legendgroup":"Metal ores","marker":{"color":"#F46A25","pattern":{"shape":""}},"name":"Metal ores","offsetgroup":"Metal ores","orientation":"v","showlegend":true,"textposition":"auto","x":[2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"xaxis":"x","y":[1.3787888631256735,1.468378773987836,1.3358293768761282,1.5297138090500293,1.481876948895008,1.4458064038280638,1.424333387869322,1.2448985839050422,1.038313665055343,1.0807416584543197,1.1242822711090694,1.1952970368982148,1.2878404189002866,1.2097693545115138,1.16236048496978,1.0123367016090017,0.9821226418376396,1.032305683146146,0.997930984237926],"yaxis":"y","type":"bar"},{"line":{"color":"#3F94DE"},"name":"Total","x":[2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"y":[17.51465257602717,19.125780939925725,19.920901143411935,19.407900196880973,18.746879051704138,17.74783349481262,17.140756996747236,14.866603652169179,12.801292081742176,12.320836528952348,12.727932003665478,12.394823575054016,12.408714861343809,14.34189436341169,14.601402573122204,12.701991186023601,12.166145777671217,13.213304557856286,13.012983839440624],"type":"scatter"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":""},"dtick":1,"automargin":true,"range":[2000.5,2019.5]},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Tonnes / capita"},"showgrid":true,"dtick":2,"automargin":true},"legend":{"title":{"text":""},"tracegroupgap":0,"yanchor":"bottom","y":-0.45,"xanchor":"center","x":0.5,"orientation":"h"},"margin":{"t":60},"barmode":"group","hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true,"hovermode":"x unified"}},
+                    {"displayModeBar":false,"responsive":true}
+                )
+            
+        
+            
+        
+
+    
+        
+        
+            console.log("please work")
+            initialiseTableVisualisations(
+                "j2b",
+                {"layout":"fitColumns","pagination":true,"paginationSize":13,"nestedFieldSeparator":"|","columnDefaults":{"hozAlign":"right","headerHozAlign":"right"},"columns":[{"title":"Year","hozAlign":"left","headerHozAlign":"left"}]}
+            )
+        
+        
+            
+                initialiseFigureVisualisations(
+                    "j2b",
+                    {"data":[{"hovertemplate":"%{y:.2f}","legendgroup":"","line":{"color":"#12436D","dash":"solid"},"marker":{"symbol":"circle"},"mode":"lines+markers","name":"","orientation":"v","showlegend":false,"x":[2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"xaxis":"x","y":[1.422086460993484,1.3235592704344026,1.3041573771359276,1.361711576335363,1.4412959057980608,1.5577721506809334,1.6432042784391716,1.8807688654883723,2.075622097295101,2.1970487165938777,2.1502583264287765,2.2392447850388573,2.2671886053095167,2.0066368443291656,2.0025793347342025,2.3361982138167425,2.478411573330001,2.3046350401053672,2.369926935921099],"yaxis":"y","type":"scatter"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":""},"range":[2001,2019],"dtick":1},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"\u00a3 / kg"},"range":[0.0,3.0],"showgrid":true,"dtick":0.5,"tickformat":".2f"},"legend":{"tracegroupgap":0,"title":{"text":""},"yanchor":"bottom","y":-0.25,"xanchor":"center","x":0.5,"orientation":"h"},"margin":{"t":60},"hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"hovermode":"x unified"}},
+                    {"displayModeBar":false,"responsive":true}
+                )
+            
+        
+            
+        
+
+    
+
+
+    
+        
+        AssessmentTable = new Tabulator("#j2a-assessment-table", {
+        layout: "fitDataStretch",
+        pagination: false,
+        columns: [
+            {title: "Component"},
+            {title: "Subcomponent"},
+            {title: "Period"},
+            {title: "Date range"},
+            {title: "Percentage change", hozAlign: "right"},
+        ]
+        });
+    
+        
+        AssessmentTable = new Tabulator("#j2b-assessment-table", {
+        layout: "fitDataStretch",
+        pagination: false,
+        columns: [
+            {title: "Component"},
+            {title: "Subcomponent"},
+            {title: "Period"},
+            {title: "Date range"},
+            {title: "Percentage change", hozAlign: "right"},
+        ]
+        });
+    
+
+</script>
+
+
+    </div>
+  </body>
+</html>

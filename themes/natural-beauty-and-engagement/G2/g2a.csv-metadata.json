@@ -1,0 +1,95 @@
+{
+    "schema:name": "Condition of geological and geomorphological heritage features of Sites of Special Scientific Interest in England, 2019 to 2021",
+    "url": "g2a.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "Condition of geological and geomorphological heritage features of Sites of Special Scientific Interest in England",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "NE",
+                "schema:name": "Natural England",
+                "schema:sameAs": "https://ror.org/00r66pz14",
+                "@type": "schema:GovernmentOrganization"
+            }
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "2019/2021",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "percentage of sites by condition",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Based on the condition of 1,526 geological and geomorphological heritage features that had been assessed by December 2021, with 30% of those assessments being carried out since 2015 and 60% being carried out since 2011. A further 9% of all 1,679 features are still to be assessed. As of December 2019, 1,326 geological and geomorphological heritage features had been assessed.\n    \n</br>This indicator is updated biennially; the next scheduled update, using 2023 data, will take place in 2024.",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "integer",
+                    "minimum": "2019",
+                    "maximum": "2021",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "year",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The year range for the data present"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Favourable|Unfavourable - Recovering|Unfavourable - No change|Unfavourable - Declining|Partially destroyed|Destroyed|Unassessed",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "condition",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The condition of sites"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "percentage",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The percentage of sites in the corresponding condition"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

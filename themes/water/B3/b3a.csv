@@ -1,0 +1,13 @@
+water_body,status,percentage
+All surface water bodies,"Ecological status, at good status",16.0
+All surface water bodies,"Ecological status, other",84.0
+Coastal waters: Saltmarsh,"Biology, at good status",50.0
+Estuaries: Saltmarsh,"Biology, at good status",36.0
+Lakes: Phytoplankton,"Biology, at good status",52.0
+Rivers: Plants & algae,"Biology, at good status",45.0
+Rivers: Invertebrates,"Biology, at good status",76.0
+Coastal waters: Saltmarsh,"Biology, not at good status",50.0
+Estuaries: Saltmarsh,"Biology, not at good status",64.0
+Lakes: Phytoplankton,"Biology, not at good status",48.0
+Rivers: Plants & algae,"Biology, not at good status",55.0
+Rivers: Invertebrates,"Biology, not at good status",24.0

@@ -1,0 +1,4 @@
+Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
+K1a,,Short term,2012 to 2017,-19.521091788010185,Loess,Improvement
+K1a,,Medium term,2007 to 2017,-43.73448272619532,Loess,Improvement
+K1a,,Long term,2005 to 2017,-54.334927871382696,Loess,Improvement

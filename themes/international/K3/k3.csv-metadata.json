@@ -1,0 +1,76 @@
+{
+    "schema:name": "Status of endemic and globally threatened species in the UK Overseas Territories, 2022",
+    "url": "k3.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "Status of endemic and globally threatened species in the UK Overseas Territories",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "JNCC",
+                "schema:name": "Joint Nature Conservation Committee",
+                "schema:sameAs": "https://ror.org/05tzsrw37",
+                "@type": "schema:GovernmentOrganization"
+            }
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "UK Overseas Territories",
+    "schema:temporalCoverage": "1970-01-01T00:33:42+00:00",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "percentage of endemic species in each red list categor",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Threatened species are those that are in the Red List categories Vulnerable, Endangered and Critically Endangered.",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Unassessed|Data deficient|Least concern|Near threatened|Vulnerable|Endangered|Critically endangered|Extinct in the wild|Extinct|Threatened categories",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "category",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "IUCN red list category"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "percentage",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The percentage of endemic species in each red list category"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

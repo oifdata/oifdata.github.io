@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js" type="text/javascript"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VZBZ0PVRQ0"></script>
+<script>
+  var cookieControlConfig = {
+    apiKey: "afbc7c2ae0265eed63b3dfb031e976fab80fa4ff",
+    product: "COMMUNITY",
+    necessaryCookies: ["CookieControl"],
+    optionalCookies: [
+      {
+        name: "analytics",
+        label: "Analytical Cookies",
+        description:
+          "Analytical cookies help us to improve our website by collecting and reporting information on its usage.",
+        cookies: [
+          "_ga",
+          "_gid",
+          "_gali",
+          "_gat",
+          "__utma",
+          "__utmt",
+          "__utmb",
+          "__utmc",
+          "__utmz",
+          "__utmv",
+        ],
+        onAccept: function () {
+          // Add Google Analytics
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag("js", new Date());
+
+          gtag("config", "G-VZBZ0PVRQ0");
+          // End Google Analytics
+        },
+        onRevoke: function () {
+          // Disable Google Analytics
+          window["ga-disable-G-VZBZ0PVRQ0"] = true;
+          // End Google Analytics
+        },
+      },
+    ],
+    statement: {
+      description:
+        "For more detailed information about the cookies we use, see our",
+      name: "Cookies and privacy page.",
+      url: "/cookies/",
+      updated: "24/04/2023",
+    },
+    initialState: "open",
+    text: {
+      necessaryDescription:
+        "This website sets a cookie to remember a user’s choice about cookies. Where users have previously indicated a preference, that user’s preference will be stored in this cookie.",
+    },
+  };
+  CookieControl.load(cookieControlConfig);
+</script>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="/css/main.css"/> 
+    
+    <link rel="stylesheet" href="/css/main.css"/>
+
+    <title>Outcome Indicator Framework</title>
+  </head>
+  <body>
+    <div class="c-colour-bar"></div>
+    <div class="l-column l-column--main l-column--large-space">
+      
+
+<header class="l-header">
+  
+
+<div id="site-phase" class="l-row l-row--x-small-space l-row--vertically-centred l-header__phase | c-phase">
+<strong class="c-phase__badge">alpha</strong>
+<span class="c-phase__text">This is a development website. We welcome your feedback via
+    <a href="mailto:25YEPindicators@defra.gov.uk">email</a>.</span>
+</div>
+
+
+  
+<a id="site-feedback" class="l-header__feedback | c-button c-button--feedback" role="link" href="https://defragroup.eu.qualtrics.com/jfe/form/SV_cTvfhqTFSj4QHlA">Complete our short user-feedback survey</a>
+
+  
+
+<a id="site-logo" class="l-header__logo | c-logo" role="link" href="/">
+    <img class="c-logo__image" src="/img/OIF_logo.png" width="459" height="161" alt="Outcome Indicator Framework - Home"/>
+</a>
+  
+
+
+
+<nav id="site-nav" class="l-header__nav | c-navigation" aria-label="Main navigation">
+    <button
+        id="navigation-toggle"
+        class="c-button c-navigation__toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="navigation-items">
+        Menu
+    </button>
+    <ul id="navigation-items" class="l-column l-column--no-space | c-navigation__items c-navigation__items--closed">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/themes/">Themes</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/reporting-status/">Reporting status</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/outcome-indicator-framework/">Outcome Indicator Framework</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/assessment/">Assessment</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/publications/">Publications</a>
+    
+  </li>
+
+        
+        
+        
+            
+  <li class="c-navigation__item">
+    
+      <a class="c-navigation__link" href="/faqs/">FAQs</a>
+    
+  </li>
+
+        
+        
+    </ul>
+</nav>
+
+  
+
+<div id="site-search" class="l-header__search l-column l-column--vertical-bottom | c-search">
+    <button
+        id="search-toggle"
+        class="c-button c-search__toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="search-form">
+        Search
+    </button>
+    <form
+        action="/search/"
+        method="get"
+        id="search-form"
+        class="l-row l-row--no-space | c-search__form c-search__form--right c-search__form--closed">
+        <input class="c-search__input" type="text" name="q" value="" placeholder="Search...">
+        <button id="search-button" class="c-search__button c-button c-button--search" type="submit">
+        <img class="c-search__icon" src="/img/search-icon.svg" width="48" height="48" alt="Search"/>
+        </button>
+    </form>
+</div>
+
+
+</header>
+      <main class="l-column l-column--small-space">
+        
+
+
+
+  <nav aria-label="Breadcrumb" class="c-breadcrumbs">
+    <ol class="l-row l-row--xx-small-space l-row--wrap | c-breadcrumbs__items">
+      
+        
+          <li class="c-breadcrumbs__item">
+            <a class="c-breadcrumbs__link" href="/">Home</a>
+          </li>
+        
+      
+        
+          <li class="c-breadcrumbs__item">
+            <a class="c-breadcrumbs__link" href="/outcome-indicator-framework/" aria-current="page">Outcome Indicator Framework</a>
+          </li>
+        
+      
+    </ol>
+  </nav>
+
+        
+    <h1>Outcome Indicator Framework</h1>
+    
+<h2>Table of contents</h2>
+
+<div class="toc affix">
+    <ul>
+        <li>
+            <a href="#intro-and-aim">Introduction and aim</a>
+        </li>
+        <li>
+            <a href="#structure">Structure</a>
+        </li>
+        <li>
+            <a href="#using-the-framework">Using the framework</a>
+        </li>
+        <li>
+            <a href="#latest-annual-update">Latest annual update</a>
+        </li>
+        <li>
+            <a href="#impact-of-the-coronavirus-(COVID-19)-pandemic">Impact of the coronavirus (COVID-19) pandemic </a>
+        </li>
+        <li>
+            <a href="#assessment">Assessment</a>
+        </li>
+        <li>
+            <a href="#future-development">Future development</a>
+        </li>   
+    </ul>
+</div>
+
+<h2 id="intro-and-aim">
+    Introduction and aim
+</h2>
+<p>The government published the <a href="https://www.gov.uk/government/publications/25-year-environment-plan">25 Year Environment Plan</a> in January 2018 setting out goals for improving the environment in England. A commitment was made to develop a comprehensive set of indicators to measure environmental change. These indicators help us to show how the environment is changing over time. This will support the assessment of policies and other interventions, including how we are delivering on international and domestic commitments. In particular, the Outcome Indicator Framework can support the statutory cycle of monitoring, planning and reporting on progress in improving the environment as established by the Environment Act, (2021).</p>
+<p>The first Outcome Indicator Framework report: ‘<a href="https://www.gov.uk/government/publications/25-year-environment-plan">Measuring environmental change: Outcome Indicator Framework for the 25 Year Environment Plan’</a>, was published in May 2019. Drawing on advice from a wide range of experts and stakeholders, it presented 66 indicators to give a comprehensive view of the environment and how it is changing. The 2019 report set out in detail the purpose of the Outcome Indicator Framework and examples of how the indicators can be used.</p>
+<p>The Outcome Indicator Framework has an important role in our longer-term understanding of the effectiveness of policies and interventions. The indicators are a systematic means of monitoring environmental change, recognising that complex natural and social systems will respond to change on a range of timescales.</p>
+<p>The Outcome Indicator Framework will:</p>
+<ul>
+<li>enable clear communication of important environmental trends in England</li>
+<li>provide a set of indicators which relate to all aspects of the environment and all goals within the 25 Year Environment Plan</li>
+<li>communicate data which gives a high-level picture of the environment and how it is changing – more extensive data and indicators may additionally be available from other sources</li>
+<li>be used for assessment of changes in the natural environment, for example against the goals of the 25 Year Environment Plan, or in applying a natural capital approach</li>
+</ul>
+
+
+
+<h2 id="structure">
+    Structure
+</h2>
+<p>Outcome indicators are:</p>
+<ul>
+<li>based on a natural capital framework – each indicator is assigned as a condition of, pressure on, or service/benefit from, natural capital</li>
+<li>designed to make best use of existing monitoring programmes</li>
+<li>to be used to show changes in the environment over the period of the 25 Year Environment Plan</li>
+<li>voluntarily compliant with the Code of Practice for Statistics and some are official statistics in themselves (see <a href="/official-statistics/">Official statistics</a>)</li>
+<li>reported showing their connections to relevant actions, commitments, targets and strategies as well as links to relevant datasets</li>
+</ul>
+<p>The 66 indicators are arranged into 10 broad themes. These are topics that people will generally recognise as relating to different aspects of the environment (for example, air, water, seas and estuaries, and wildlife). Some indicators may be applicable to one or more themes but have been allocated to just one of them. The 25 Year Environment Plan goals and targets relevant to each indicator are  detailed within each of their descriptions.</p>
+<p>The inclusion of 66 indicators in the framework provides a comprehensive and systematic means to observe and convey environmental change. However, for some purposes it may not be necessary to examine this large number of indicators. Therefore, in the framework we identify a sub-set of the indicators under 16 headlines; these are highlighted in the individual indicator pages of this dashboard. The headline indicators relate to key aspects of the environment which are a focus of policy intervention and should make intuitive sense to a wide range of readers. When complete, the framework will present a large amount of information and so we will highlight key indicators under headlines to provide a way to simplify this information and provide clear communication.</p>
+<p>Further examples on how the headlines and indicators may be used are given in Section B of the <a href="https://www.gov.uk/government/publications/25-year-environment-plan">2019 Outcome Indicator Framework report</a>.</p>
+
+
+<h2 id="using-the-framework">
+    Using the framework
+</h2>
+<p>The Outcome Indicator Framework is designed to be adaptable for multiple uses. For example, it can be used to communicate environmental change or to support management of natural capital. By presenting a wide variety of data in a single location, the framework enables a comprehensive approach to analysis of environmental issues and decision making.</p>
+<p>The concept of natural capital was used to develop the framework. Natural capital is defined as the elements of the environment which provide valuable goods and services to people such as clean air, clean water, food, and recreation. A natural capital approach is advocated by the 25 Year Environment Plan as it accounts for all the different ways the environment benefits society and so can inform better decision making. A natural capital framework sets out the need to:</p>
+<ul>
+<li>reduce pressures on natural capital (for example, pollution or plant disease)</li>
+<li>improve the state of natural assets (including air, water, land and seas)</li>
+<li>increase the benefits that we get from those assets</li>
+</ul>
+<p>The 66 outcome indicators can be considered as either a measure of (a) the drivers or pressures on natural capital assets, (b) the extent or condition of natural capital assets or (c) the services or benefits associated with natural capital assets. This classification is not always straightforward since the condition of one natural capital asset (for example, air quality) may place a pressure on another (for example, wildlife habitat).</p>
+<p>It is important to recognise that multiple interactions occur across the indicators and categories. By classifying these indicators in this way, we can also show which direction of change in the indicator reflects an improvement to the environment (that is a downward trend for pressures and an upward trend for the condition of an asset or the provision of a benefit).</p>
+<p>This structure is flexible, and indicators can be selected as appropriate to the needs of a particular analysis; several examples of how the indicators may be used to examine specific questions are provided in our <a href="https://www.gov.uk/government/publications/25-year-environment-plan">2019 Outcome Indicator Framework report</a>. Monitoring and evaluation of these indicators can inform appropriate actions with an ultimate goal of maximising a healthy environment, economy and society.</p>
+<p>The indicators that can be considered drivers or pressures on natural capital assets are:</p>
+<ul>
+<li><a href="/themes/air/A1">A1: Emissions for five key air pollutants</a></li>
+<li><a href="/themes/air/A2">A2: Emissions of greenhouse gases from natural resources</a></li>
+<li><a href="/themes/air/A6">A6: Exceedance of damaging levels of nutrient nitrogen deposition on ecosystems</a></li>
+<li><a href="/themes/air/A7">A7: Area of land exposed to damaging levels of ammonia (NH3) in the atmosphere</a></li>
+<li><a href="/themes/water/B1">B1: Pollution loads entering waters</a></li>
+<li><a href="/themes/water/B2">B2: Serious pollution incidents to water</a></li>
+<li><a href="/themes/seas-and-estuaries/C1">C1: Clean seas: marine litter</a></li>
+<li><a href="/themes/seas-and-estuaries/C2">C2: Seabed subject to high pressure from human activity</a></li>
+<li><a href="/themes/natural-resources/E3">E3: Volume of inputs used in agricultural production</a></li>
+<li><a href="/themes/biosecurity-chemical-and-noise/H1">H1: Abatement of the number of invasive non-native species entering and establishing against a baseline</a></li>
+<li><a href="/themes/biosecurity-chemical-and-noise/H2">H2: Distribution of invasive non-native species and plant pests and diseases</a></li>
+<li><a href="/themes/biosecurity-chemical-and-noise/H3">H3: Emissions of mercury and persistent organic pollutants to the environment</a></li>
+<li><a href="/themes/biosecurity-chemical-and-noise/H4">H4: Exposure and adverse effects of chemicals on wildlife in the environment</a></li>
+<li><a href="/themes/biosecurity-chemical-and-noise/H5">H5: Exposure to transport noise</a></li>
+<li><a href="/themes/resource-use-and-waste/J1">J1: Carbon footprint and consumer buying choices</a></li>
+<li><a href="/themes/resource-use-and-waste/J2">J2: Raw material consumption</a></li>
+<li><a href="/themes/resource-use-and-waste/J3">J3: Municipal waste recycling rates</a></li>
+<li><a href="/themes/resource-use-and-waste/J4">J4: Residual waste arising by type and sector</a></li>
+<li><a href="/themes/resource-use-and-waste/J5">J5: Prevent harmful chemical from being recycled</a></li>
+<li><a href="/themes/resource-use-and-waste/J6">J6: Waste crime</a></li>
+</ul>
+<p>The indicators that can be considered extent or condition of natural capital assets are:</p>
+<ul>
+<li><a href="/themes/air/A3">A3: Concentrations of fine particulate matter (PM2.5) in the air</a></li>
+<li><a href="/themes/air/A4">A4: Rural background concentrations of ozone (O3)</a></li>
+<li><a href="/themes/air/A5">A5: Roadside nitrogen dioxide (NO2) concentrations</a></li>
+<li><a href="/themes/water/B3">B3: State of the water environment</a></li>
+<li><a href="/themes/water/B4">B4: Condition of bathing water</a></li>
+<li><a href="/themes/water/B5">B5: Water bodies achieving sustainable abstraction criteria</a></li>
+<li><a href="/themes/water/B6">B6: Natural functions of water and wetland ecosystems</a></li>
+<li><a href="/themes/water/B7">B7: Health of freshwater assessed through fish populations</a></li>
+<li><a href="/themes/seas-and-estuaries/C3">C3: Diverse seas: status of marine mammals and marine birds</a></li>
+<li><a href="/themes/seas-and-estuaries/C4">C4: Diverse seas: condition of seafloor habitats</a></li>
+<li><a href="/themes/seas-and-estuaries/C5">C5: Diverse seas: condition of pelagic habitats</a></li>
+<li><a href="/themes/seas-and-estuaries/C6">C6: Diverse seas: status of threatened and declining features</a></li>
+<li><a href="/themes/seas-and-estuaries/C7">C7: Healthy seas: fish and shellfish populations</a></li>
+<li><a href="/themes/seas-and-estuaries/C8">C8: Healthy seas: marine food webs functioning</a></li>
+<li><a href="/themes/seas-and-estuaries/C9">C9: Healthy seas: seafloor habitats functioning</a></li>
+<li><a href="/themes/seas-and-estuaries/C10">C10: Productive seas: fish and shellfish stocks fished sustainably</a></li>
+<li><a href="/themes/seas-and-estuaries/C11">C11 Productive seas: status of sensitive fish and shellfish stocks</a></li>
+<li><a href="/themes/wildlife/D1">D1: Quantity, quality and connectivity of habitats</a></li>
+<li><a href="/themes/wildlife/D2">D2: Extent and condition of protected sites – land, water and sea</a></li>
+<li><a href="/themes/wildlife/D3">D3: Area of woodland in England</a></li>
+<li><a href="/themes/wildlife/D4">D4: Relative abundance and/or distribution of widespread species</a></li>
+<li><a href="/themes/wildlife/D5">D5: Conservation status of our native species</a></li>
+<li><a href="/themes/wildlife/D6">D6: Relative abundance and distribution of priority species in England</a></li>
+<li><a href="/themes/wildlife/D7">D7: Species supporting ecosystem functions</a></li>
+<li><a href="/themes/natural-resources/E1">E1: Area of productive agricultural land</a></li>
+<li><a href="/themes/natural-resources/E7">E7: Healthy soils</a></li>
+<li><a href="/themes/natural-beauty-and-engagement/G1">G1: Changes in landscape and waterscape character</a></li>
+<li><a href="/themes/natural-beauty-and-engagement/G2">G2: Condition of heritage features including designated geological sites and scheduled monuments</a></li>
+<li><a href="/themes/natural-beauty-and-engagement/G3">G3: Enhancement of green/blue infrastructure</a></li>
+<li><a href="/themes/international/K3">K3: Status of endemic and globally threatened species in the UK Overseas Territories</a></li>
+<li><a href="/themes/international/K4">K4: Extent and condition of terrestrial and marine protected areas in the UK Overseas Territories</a></li>
+</ul>
+<p>The indicators that can be considered services or benefits associated with natural capital assets are:</p>
+<ul>
+<li><a href="/themes/natural-resources/E2">E2: Volume of agricultural production</a></li>
+<li><a href="/themes/natural-resources/E4">E4: Efficiency of agricultural production measured by Total Factor Productivity</a></li>
+<li><a href="/themes/natural-resources/E5">E5: Percentage of the annual growth of trees in English woodlands that is harvested</a></li>
+<li><a href="/themes/natural-resources/E6">E6: Volume of timber brought to market per annum from English sources</a></li>
+<li><a href="/themes/natural-resources/E8">E8: Efficient use of water</a></li>
+<li><a href="/themes/natural-resources/E9">E9: Percentage of our seafood coming from healthy ecosystems, produced sustainably</a></li>
+<li><a href="/themes/resilience/F1">F1: Disruption or unwanted impacts from flooding or coastal erosion</a></li>
+<li><a href="/themes/resilience/F2">F2: Communities resilient to flooding and coastal erosion</a></li>
+<li><a href="/themes/resilience/F3">F3: Disruption or unwanted impacts caused by drought</a></li>
+<li><a href="/themes/natural-beauty-and-engagement/G4">G4: Engagement with the natural environment</a></li>
+<li><a href="/themes/natural-beauty-and-engagement/G5">G5: People engaged in social action for the environment</a></li>
+<li><a href="/themes/natural-beauty-and-engagement/G6">G6: Environmental attitudes and behaviours</a></li>
+<li><a href="/themes/natural-beauty-and-engagement/G7">G7: Health and wellbeing benefits</a></li>
+<li><a href="/themes/international/K1">K1: Overseas environmental impacts of UK consumption of key commodities</a></li>
+<li><a href="/themes/international/K4">K2: Developing countries better able to protect and improve the environment with UK support</a></li>
+</ul>
+
+
+<h2 id="latest-annual-update">
+    Latest annual update
+</h2>
+<p>This 2023 version of the dashboard includes data on environmental trends for 56 of the 66 outcome indicators spanning across the 10 themes in the Outcome Indicator Framework. This year for the first time we have data for indicators across all 10 themes, with a new indicator being published within the Resilience Theme.</p>
+<p>In this dashboard we update trends for 42 of the indicators reported in 2022, reflecting the most recent available data and the addition of new components to 4 previously reported indicators. Wherever appropriate, when indicators are updated the entire time series is updated to reflect methodological refinements and this can sometimes result in changes to the historic data reported in previous iterations of the dashboard. The remaining 8 indicators presented in 2022 have not been updated as no new data were available for inclusion in the 2023 dashboard at the time of analysis. This year’s update also includes data for 6 additional indicators newly reported in 2023:</p>
+<ul>
+<li><a href="/themes/water/B6">B6: Natural functions of water and wetland ecosystems</a></li>
+<li><a href="/themes/seas-and-estuaries/C9">C9: Healthy seas: seafloor habitats functioning</a></li>
+<li><a href="/themes/wildlife/D1">D1: Quantity, quality and connectivity of habitats</a></li>
+<li><a href="/themes/wildlife/D5">D5: Conservation status of our native species</a></li>
+<li><a href="/themes/resilience/F3">F3: Disruption or unwanted impacts caused by drought</a></li>
+<li><a href="/themes/international/K3">K3: Status of endemic and globally threatened species in the UK Overseas Territories</a></li>
+</ul>
+<p>Five of the indicators presented in this 2023 update to the dashboard are classified as ‘<a href="https://osr.statisticsauthority.gov.uk/publication/experimental-statistics-official-statistics-in-development/">experimental statistics’</a>:</p>
+<ul>
+<li><a href="/themes/water/B3">B3: State of the water environment</a></li>
+<li><a href="/themes/biosecurity-chemical-and-noise/H4">H4: Exposure and adverse effects of chemicals on wildlife in the environment</a></li>
+<li><a href="/themes/international/K1">K1: Overseas environmental impacts of UK consumption of key commodities</a></li>
+<li><a href="/themes/international/K3">K3: Status of endemic and globally threatened species in the UK Overseas Territories</a></li>
+<li><a href="/themes/international/K4">K4: Extent and condition of terrestrial and marine protected areas in the UK Overseas Territories</a></li>
+</ul>
+<p>These indicators are being published as experimental statistics in order to facilitate user involvement in their development – information on how the data have been obtained and how the indicators have been prepared is available via the links in the individual indicator pages of this dashboard. We would welcome any feedback, particularly on the usefulness and value of these statistics, via <a href="mailto:25YEPindicators@defra.gov.uk">25YEPindicators@defra.gov.uk.</a></p>
+<p>Of the 56 indicators presented, 35 are described as interim indicators. Interim indicators are those where further development is expected to extend or improve the reporting of the indicator. Reporting interim indicators means that we can communicate data where they are available, whilst recognising that further development is necessary for the indicator to be complete. Examples of circumstances under which an indicator is considered to be interim include: data need to be extracted for England from a UK wide dataset, additional data need to be added to the indicator, or the methods used for deriving an indicator are expected to be further developed. The specific reason why an indicator is currently presented as interim is described in the individual indicator pages of this dashboard. Indicators are described as ‘final’ indicators where no further significant development is immediately expected, notwithstanding the future development of the framework as a whole.</p>
+<p>A limited number of changes have been made to the indicator descriptions over the last year. These reflect feedback as well as further consideration and development of the indicators to ensure the most appropriate data are presented.</p>
+<p>There have been some specific changes to individual indicators after further consideration of their intended purpose, in order to better reflect alignment with 25 Year Environment Plan commitments and to deliver the insights required to support associated policy needs.</p>
+<p>The short descriptions of two indicators within the water theme have both had adjustments based upon their continued development and new datasets included. <a href="/themes/water/B1">B1: Pollution loads entering waters</a> has been expanded to include the reference to its new metric tracking the loads discharged to rivers from water company sewage treatment works. Similarly, <a href="/themes/water/B6">B6: Natural functions of water and wetlands ecosystems</a> has been updated to better reflect the indicator now that it has been published for the first time. It details the different ecosystems and natural functions that have been assessed as part of the indicator.</p>
+<p>A minor change has been made to the short description for <a href="/themes/water/B1">B4: Condition of Bathing Waters</a>. This has been to amend the description of bathing waters to cover the brand new designation of an additional river as a recognised bathing water.</p>
+<p>The methodology for <a href="/themes/seas-and-estuaries/C1">C1: Clean seas: marine litter</a>, has changed to reflect new source data from the OSPAR quality Status Report 2023. The measure of C3c, Seafloor litter has changed from the ‘number of litter items per km2’ to the ‘probability that benthic trawl surveys contain a litter item’. The short description for C1 has also changed to more accurately reflect the data on plastic particles in fulmar stomachs.</p>
+<p>There has been a methodological change to <a href="/themes/seas-and-estuaries/C3">C3: Status of marine mammals and birds</a> to reflect data on breeding abundance and non-breeding abundance from the OSPAR Quality Status Report 2023. The short description has been amended slightly to reflect this.</p>
+<p>The newly published indicator for <a href="/themes/resilience/F3">F3: Disruption or unwanted impacts caused by drought</a> has also had its short description updated to define the basis for the indicator’s methodology and the relationship between the Supply Demand Balance Index reported and the Water Resource Management Plans they are based upon.</p>
+<p>Finally, now that <a href="/themes/international/K3">K3: Status of endemic and globally threatened species in the UK Overseas Territories</a> has been published for the first time, the short description has been updated to better reflect the indicator. It has been expanded to include reference to the International Union for Conservation of Nature Red List assessments, which form the basis of the research presented here, and how these assessments have been incorporated into the methodology of the indicator.</p>
+<p>A number of indicators remaining in development have recent progress described in their respective pages.</p>
+
+
+<h2 id="impact-of-the-coronavirus-(COVID-19)-pandemic">
+    Impact of the coronavirus (COVID-19) pandemic
+</h2>
+<p>The coronavirus (COVID-19) pandemic had severe and wide-ranging effects on many formerly routine activities. In some instances, this temporarily affected the data collection of some of the indicators within this publication. This will be detailed in the ‘Notes’ section of affected indicators.</p>
+
+
+<h2 id="assessment">
+    Assessment
+</h2>
+<p>A new <a href="/assessment/#background">assessment section</a> was added for the first time to the 2022 update of the Outcome Indicator Framework report and dashboard, to help with interpreting results, to allow for easier comparison across indicators and to enable the production of additional summary statistics. This section has been updated in the 2023 version of the dashboard for indicators where new data were available.</p>
+<p>Consistent categories of change for different time periods have been assigned to all indicators which are already published in a suitable format and with sufficient historic data to enable analysis. Indicator-specific results with a supporting narrative are provided for each indicator within the relevant indicator specific pages of this dashboard.</p>
+<p>Where data are available for individual indicators, an assessment of environmental change since 2018 has been undertaken, to reflect progress made since the publication of the 25 Year Environment Plan. However, it is important to note that for most indicators, the currently available time series of data points since 2018 does not yet allow for anything more than an early indication of likely change. It is expected that the ongoing annual updates of the Outcome Indicator Framework will in time allow for statistically robust assessment of changes since 2018. This will require more than 5 data points in a given indicator’s time series since 2018 to minimise the impact of year-to-year fluctuations which make it difficult to interpret a clear trend. For this reason, care should be taken to not overinterpret offered assessments for the ‘since 2018’ category, as this is not felt to be as robust an assessment as the other categories which have more datapoints informing their analysis.</p>
+<p>There are <a href="/assessment/#important-considerations-for-interpretation-of-results">important considerations to be aware of when interpreting results</a>. These are highlighted in the <a href="/assessment/#background">assessment background</a> section of this dashboard, a new addition which also provides more detail on the <a href="/assessment/#aims-of-the-assessment">aims of the assessment</a> and the <a href="/assessment/#method">methodology employed</a>. The assessment results section presents <a href="/assessment/#summary-of-results">summaries of assessment results</a> by each 25 Year Environment Plan Goal. These summaries help to interpret how much change has been observed across goals and include information on potential links between indicators for different goals to indicate where there may be knock on effects.</p>
+
+
+<h2 id="future-development">
+    Future development
+</h2>
+<p>Currently, some indicators are not yet available to report, and further research is required to determine the most suitable data and methods for analysis. We expect additional indicators to be reported in 2024 and subsequent years.</p>
+<p>The technologies for monitoring and assessing change in the environment are advancing rapidly and offer new cost-effective methods (for example, Earth Observations, DNA methods, citizen science / mobile apps and new sensor technologies). We will look to update indicators to reflect these developments when appropriate but will ensure the environmental parameters used for reporting indicators are consistent and so retain the trend time-series where possible.</p>
+<p>The Outcome Indicator Framework will be kept under regular review so that it continues to be relevant and provide the best and most cost-effective ways of assessing progress. In 2023, the Environmental Improvement Plan was published as an update to the 25 Year Environment Plan. The Outcome Indicator Framework was custom-designed to describe environmental change as relevant to the 10 overarching goals of government’s inaugural 25 Year Environment Plan. EIP23 constitutes a refreshed update to the 25 Year Environment Plan and the continuation of the original 10 goals means the OIF remains an authoritative depiction of how the environment is changing. The OIF has always been intended to remain dynamic to best capitalise on new data opportunities and will undergo its first formal review in 2024, which will also consider ongoing alignment with new fine-grain EIP23 policy detail and statutory environment act targets.</p>
+<p>In order to add value to the insights available from the Outcome Indicator Framework data, the 2022 report and dashboard introduced an initial assessment of change analyses, where suitable datasets and methodologies were available for individual indicators.</p>
+<p>Further research into potential assessment approaches is ongoing, considering appropriate statistical techniques and timeframes, in future years, this may focus on the indicator headlines and their corresponding indicators. Where possible, a baseline near to 2018 (to align with the publication of the 25 Year Environment Plan) will be used as a reference point to assess change. Longer-term (historic) trends will also be presented for comparison where these data are available. Where suitable time-series are available, we will also assess medium-term and short-term trends.</p>
+<p>It is important to note that data series of less than 5 years are likely to show year-to-year fluctuations that are difficult to assess and as such, due caution should be taken when inferring meaning from the assessments represented. Further narrative is provided for individual indicator analyses which is important for contextualisation of results.</p>
+<p>It is also important to note that time lags exist in the environmental responses to interventions. It is expected that the majority of outcome indicators will require longer-term reporting (greater than 5 years) before they may be considered as showing response to policy and other actions.</p>
+
+
+      </main>
+      
+
+<footer class="c-footer">
+  <ul class="l-row l-row--horizontally-centred l-row--small-space l-row--wrap | c-footer__items">
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/contact-us/" target="_blank" rel="noopener noreferrer">Contact us</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/about/" target="_blank" rel="noopener noreferrer">About</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="https://twitter.com/defragovuk" target="_blank" rel="noopener noreferrer">Twitter</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/cookies/" target="_blank" rel="noopener noreferrer">Cookies</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/accessibility-statement/" target="_blank" rel="noopener noreferrer">Accessibility statement</a>
+      </li>
+    
+      <li class="c-footer__item">
+        <a class="c-footer__link" href="/official-statistics/" target="_blank" rel="noopener noreferrer">Official statistics</a>
+      </li>
+    
+  </ul>
+</footer>
+      
+    <script src="/js/index.js"></script>
+
+    </div>
+  </body>
+</html>

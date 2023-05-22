@@ -1,0 +1,4 @@
+Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
+E1,Productive agricultural land,Short term,2016 to 2021,-0.27713268170311245,Loess,Little or no change
+E1,Productive agricultural land,Medium term,2011 to 2021,-0.9287659407601189,Loess,Little or no change
+E1,Productive agricultural land,Long term,1983 to 2021,-7.588631073644677,Loess,Change (decreasing)

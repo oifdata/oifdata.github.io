@@ -1,0 +1,16 @@
+Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
+A1,NH3,Short term,2014 to 2019,0.8569902192825082,Loess,Little or no change
+A1,NH3,Medium term,2009 to 2019,0.4000766234341358,Loess,Little or no change
+A1,NH3,Long term,2005 to 2019,-7.390610586370294,Loess,Improvement
+A1,NMVOCs,Short term,2014 to 2019,-5.196062908370796,Loess,Improvement
+A1,NMVOCs,Medium term,2009 to 2019,-22.415771569999272,Loess,Improvement
+A1,NMVOCs,Long term,2005 to 2019,-41.49063345160096,Loess,Improvement
+A1,NOx,Short term,2014 to 2019,-27.720593800041605,Loess,Improvement
+A1,NOx,Medium term,2009 to 2019,-43.817037731534086,Loess,Improvement
+A1,NOx,Long term,2005 to 2019,-59.202829512471396,Loess,Improvement
+A1,PM2.5,Short term,2014 to 2019,-5.222921847141774,Loess,Improvement
+A1,PM2.5,Medium term,2009 to 2019,-14.847664406218513,Loess,Improvement
+A1,PM2.5,Long term,2005 to 2019,-31.926241411780477,Loess,Improvement
+A1,SO2,Short term,2014 to 2019,-56.8465354194986,Loess,Improvement
+A1,SO2,Medium term,2009 to 2019,-70.63048061998882,Loess,Improvement
+A1,SO2,Long term,2005 to 2019,-82.60002037013089,Loess,Improvement

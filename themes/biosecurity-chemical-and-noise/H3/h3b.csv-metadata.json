@@ -1,0 +1,95 @@
+{
+    "schema:name": "Emissions of persistent organic pollutants to air, land and water, England, 2000 to 2019",
+    "url": "h3b.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "POPs Emissions",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "EA",
+                "schema:name": "Environment Agency",
+                "schema:sameAs": "https://ror.org/01zewfb16",
+                "@type": "schema:GovernmentOrganization"
+            }
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "2000/2019",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Emissions of persistent organic pollutants to air, land and water in England, indexed to 2000",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Emissions of POPs are to air, land and water. POPs are also present in landfill and other waste streams, which are not currently included in these data. Historical data are available which show significantly reduced emissions prior to 2000; data are presented here from 2000 onwards to focus upon recent trends. The England-level POPs emissions presented in Figure H3b have been calculated from UK data by attributing emissions from larger industrial sources to their country of origin; emissions from other sources have been attributed on a population basis. This approach is considered to give the best available figures for England within the UK context.",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "integer",
+                    "minimum": "2000",
+                    "maximum": "2019",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "year",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The year range for the data present"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Dioxin-like Polychlorinated Biphenyls|Dioxins and Furans|Hexachlorobenzene|Polychlorinated Biphenyls|Polychlorinated Naphthalenes|Pentachlorophenol|Pentachlorobenzine",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "pollutant",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Category of persistent organic pollutant"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "value",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Emissions of persistent organic pollutants to air, land and water in England, indexed to 2000"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

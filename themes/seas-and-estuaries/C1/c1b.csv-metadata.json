@@ -1,0 +1,88 @@
+{
+    "schema:name": "Percentage of sampled fulmars having more than 0.1g of plastic in their stomach, Greater North Sea, 2004-2008 to 2017-2021",
+    "url": "c1b.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "Using Northern Fulmars as an ecological monitor of marine litter in line with indicators set for UK Marine Strategy",
+            "schema:url": "https://www.wur.nl/en/research-results/research-institutes/marine-research/show-marine/annual-report-published-on-plastics-in-fulmars-from-the-uk-in-2021.htm",
+            "@type": "Dataset",
+            "schema:author": [
+                {
+                    "schema:alternateName": "CEFAS",
+                    "schema:name": "Centre for Environment, Fisheries and Aquaculture Science",
+                    "schema:sameAs": "https://ror.org/04r7rxc53",
+                    "@type": "schema:GovernmentOrganization"
+                },
+                {
+                    "schema:alternateName": "Wageningen University and Research Centre",
+                    "schema:name": "Wageningen University & Research",
+                    "schema:sameAs": "https://ror.org/04qw24q55",
+                    "@type": "schema:EducationalOrganization"
+                }
+            ],
+            "schema:dateModified": "2023-03-13",
+            "schema:datePublished": "2023-03-13"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "Greater North Sea",
+    "schema:temporalCoverage": "2004/2021",
+    "schema:version": "2023-03-13",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Percentage of sampled fulmars having more than 0.1g of plastic in their stomach",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Data on fulmars are presented as 5-year moving average time periods because annual data may show strong variation for reasons such as smaller sample size. ",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "2004-2008|2005-2009|2006-2010|2007-2011|2008-2012|2009-2013|2010-2014|2011-2015|2012-2016|2013-2017|2014-2018|2015-2019|2016-2020|2017-2021",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "time_period",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The time period for the data shown"
+            },
+            {
+                "datatype": "integer",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "percentage",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Percentage of sampled fulmars having more than 0.1g of plastic in their stomach"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

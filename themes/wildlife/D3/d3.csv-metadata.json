@@ -1,0 +1,101 @@
+{
+    "schema:name": "Area of woodland in England, 1980 to 2022",
+    "url": "d3.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "England woodland area",
+            "@type": "Dataset",
+            "schema:author": [
+                {
+                    "schema:name": "Forestry Commission",
+                    "schema:sameAs": "https://ror.org/03wcc3744",
+                    "@type": "schema:GovernmentOrganization"
+                },
+                {
+                    "schema:name": "Forest Research",
+                    "schema:sameAs": "https://ror.org/04jqr6p02",
+                    "@type": "schema:GovernmentOrganization"
+                }
+            ]
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "1980/2022",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "area of woodland split by category, in thousand hectares",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Due to rounding, areas of conifer and broadleaf woodland shown here may not sum exactly to the total area of woodland in England published in Forest Research’s Forestry Statistics.\n    \n</br>The timeseries for this indicator was shortened in the 2022 update of the source publication; as a result, it now begins in 1990 rather than 1980.\n\n</br>Data for 2012 and 2019 include cumulative updates based on analysis of remote sensing data.\n    \n</br>Data for 2020 and 2021 were revised in the 2023 update of this indicator.\n    \n</br>There is a general assumption that woodlands that have been clearfelled will be restocked. These areas are classified as ‘woodlands in transition’ until there is evidence (through fieldwork, satellite imagery or aerial photography) that the areas have been replanted or have regenerated. As natural regeneration can take some time to establish, some areas can remain as woodlands in transition for more than 10 years and there can be considerable time lags between the felling of woodland to create open habitats and the designation of that area as non-woodland. It is likely this leads to some overestimation of the area of conifer woodland.\n    \n</br>The area of woodland statistics are based on annual updates to both the National Forest Inventory woodland map based on remote sensing and also administrative data on new planting of woodland. The split between conifer and broadleaf in the woodland map data is based on more accurate assessments of stocked areas from fieldwork data. ",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "integer",
+                    "minimum": "1990",
+                    "maximum": "2022",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "year",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The year range for the data present"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Conifers|Broadleaves",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "variable",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Category of tree"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "value",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The area of broadleaved and conifer woodland, million hectares"
+            }
+        ],
+        "@type": "Schema"
+    }
+}
