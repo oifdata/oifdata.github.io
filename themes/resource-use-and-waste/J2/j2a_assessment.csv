@@ -1,7 +1,7 @@
 Component,Subcomponent,Period,Date range,Percent change,Smoothing function,Assessment of change
 J2a,Biomass,Short term,2013 to 2018,-9.75,Loess,Change (decreasing)
 J2a,Biomass,Medium term,2008 to 2018,-13.75,Loess,Change (decreasing)
-J2a,Biomass,Long term,2001 to 2019,-26.11,Loess,Change (decreasing)
+J2a,Biomass,Long term,2001 to 2018,-26.11,Loess,Change (decreasing)
 J2a,Metal ores,Short term,2013 to 2018,-14.66,Loess,Improvement
 J2a,Metal ores,Medium term,2008 to 2018,-18.71,Loess,Improvement
 J2a,Metal ores,Long term,2001 to 2018,-27.23,Loess,Improvement

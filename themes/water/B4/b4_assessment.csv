@@ -1,4 +1,4 @@
 Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
-B4,Meeting at least Sufficient,Short term,2016 to 2021,-12.191173868896088,Loess,Deterioration
+B4,Meeting at least Sufficient,Short term,2016 to 2021,3.52091,Loess,Improvement
 B4,Meeting at least Sufficient,Medium term,,,N/A,Not assessed
 B4,Meeting at least Sufficient,Long term,,,N/A,Not assessed
