@@ -1,4 +1,4 @@
 Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
-A5,Annual Mean NO2 concentration (µg/m3),Short term,2015 to 2020,-28.94362717353387,Loess,Improvement
-A5,Annual Mean NO2 concentration (µg/m3),Medium term,2010 to 2020,-45.38528730476551,Loess,Improvement
-A5,Annual Mean NO2 concentration (µg/m3),Long term,1997 to 2020,-54.91406989246963,Loess,Improvement
+A5,Annual Mean NO2 concentration (µg/m3),Short term,2015 to 2020,-28.943627173533947,Loess,Improvement
+A5,Annual Mean NO2 concentration (µg/m3),Medium term,2010 to 2020,-45.385287304765555,Loess,Improvement
+A5,Annual Mean NO2 concentration (µg/m3),Long term,1997 to 2020,-54.91406989246966,Loess,Improvement

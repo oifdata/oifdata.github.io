@@ -1,5 +1,5 @@
 {
-    "schema:name": "Volume of inputs used in agricultural production",
+    "schema:name": "Volume of inputs used in agricultural production in England, 1990/1991 to 2021/2022",
     "url": "e3.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -32,7 +32,7 @@
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Volume of agricultural inputs in the UK, indexed (1990=100)",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "The data for each year is from end of February to end of February.",
+    "notes": "The data are reported on a March to February year, which is the average accounting year for respondents to the Farm Business Survey.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",

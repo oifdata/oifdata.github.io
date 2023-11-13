@@ -39,7 +39,7 @@
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Count of seals",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "The chart allows the year-on-year trends in harbour seal abundance to be compared between north-east and south-east England, but differing scales on the y axes mean that care should be taken when comparing absolute numbers of harbour seals between the two regions. Trends in harbour seal abundance are derived from counts of seals on land in August of each year when they are moulting. No data are available for harbour seal abundance in south-east England for 1994. ",
+    "notes": "The chart allows the year-on-year trends in harbour seal abundance to be compared between north-east and south-east England, but differing scales on the y axes mean that care should be taken when comparing absolute numbers of harbour seals between the 2 regions. Trends in harbour seal abundance are derived from counts of seals on land in August of each year when they are moulting. No data are available for harbour seal abundance in south-east England for 1994. ",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",

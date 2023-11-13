@@ -27,7 +27,7 @@
     "schema:temporalCoverage": "1970-01-01T00:33:41+00:00",
     "schema:version": "2023-01-01",
     "schema:measurementTechnique": "?",
-    "schema:variableMeasured": "The percentage of the total population in England with access to nearby green space (defined by ANGSt buffers), as of October 2021",
+    "schema:variableMeasured": "The percentage of the total population in England with access to nearby green space, as of October 2021",
     "@context": "http://www.w3.org/ns/csvw",
     "notes": "Figure G3a covers both urban and rural areas.\n    \n</br>Doorstep Greenspace is accessible greenspace of at least 0.5 hectares in size within a 200 metre straight-line distance from home; Local Greenspace is accessible natural greenspace of at least 2 hectares in size within a 300 metre straight-line distance from home; and Neighbourhood Greenspace is accessible natural greenspace of at least 10 hectares within a 1 kilometre (km) straight-line distance from home. The combined greenspace category, while not an officially designated greenspace standard in itself, includes the percentage of the population living within the defined proximity of access to any one or more of the doorstep greenspace, and local and neighbourhood natural greenspace standards outlined above. \n\n</br>The ‘percentage of total population covered by greenspace buffer’ is based on an assumption that the population within each [lower layer super output area](https://www.ons.gov.uk/methodology/geography/ukgeographies/censusgeography#super-output-area-soa) (LSOA) is evenly distributed.",
     "tableDirection": "auto",
@@ -69,7 +69,7 @@
                 "suppressOutput": false,
                 "virtual": false,
                 "@type": "Column",
-                "schema:description": "The percentage of the total population in England with access to nearby green space (defined by ANGSt buffers), as of October 2021"
+                "schema:description": "The percentage of the total population in England with access to nearby green space, as of October 2021"
             }
         ],
         "@type": "Schema"

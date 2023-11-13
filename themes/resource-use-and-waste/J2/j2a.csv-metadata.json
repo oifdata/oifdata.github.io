@@ -1,5 +1,5 @@
 {
-    "schema:name": "Raw material consumption (excluding fossil fuels) per capita",
+    "schema:name": "Raw material consumption (excluding fossil fuels) per capita in England, 2001 to 2019",
     "url": "j2a.csv",
     "@type": "TableGroup",
     "schema:creator": {

@@ -1,5 +1,5 @@
 {
-    "schema:name": "Efficiency of agricultural production measured by Total Factor Productivity",
+    "schema:name": "Efficiency of agricultural production measured by Total Factor Productivity, England, 1990/1991 to 2021/2022",
     "url": "e4.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -27,12 +27,12 @@
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "1990/2021",
+    "schema:temporalCoverage": "1990/2022",
     "schema:version": "2023-01-19",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Efficiency of agricultural production measured by Total Factor Productivity in the UK (1990=100)",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "The data for each year is from end of February to end of February.",
+    "notes": "The data are reported on a March to February year, which is the average accounting year for respondents to the Farm Business Survey.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",

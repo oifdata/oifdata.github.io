@@ -1,4 +1,4 @@
-Component,Subcomponent,Period,Date range,Percent change,Smoothing function,Assessment of change
+Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
 J2a,Biomass,Short term,2013 to 2018,-9.75,Loess,Change (decreasing)
 J2a,Biomass,Medium term,2008 to 2018,-13.75,Loess,Change (decreasing)
 J2a,Biomass,Long term,2001 to 2018,-26.11,Loess,Change (decreasing)

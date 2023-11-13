@@ -1,5 +1,5 @@
 {
-    "schema:name": "Volume of agricultural production",
+    "schema:name": "Volume of agricultural production in England, 1990/1991 to 2021/2022",
     "url": "e2.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -32,7 +32,7 @@
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Volume of agricultural outputs in the UK, indexed (1990=100)",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "The data for each year is from end of February to end of February.",
+    "notes": "The data are reported on a March to February year, which is the average accounting year for respondents to the Farm Business Survey.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -57,7 +57,7 @@
                 "suppressOutput": false,
                 "virtual": false,
                 "@type": "Column",
-                "schema:description": "The year range for the data present"
+                "schema:description": "The year range for the data present, taken from February end each year"
             },
             {
                 "datatype": "number",

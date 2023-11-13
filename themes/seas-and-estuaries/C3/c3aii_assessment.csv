@@ -1,7 +1,7 @@
 Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
-C3aii,Northeast England,Short term,2013 to 2018,50.97984384375892,Loess,Improvement
-C3aii,Northeast England,Medium term,2008 to 2018,98.34402806043842,Loess,Improvement
-C3aii,Northeast England,Long term,1991 to 2018,170.53981907415883,Loess,Improvement
-C3aii,Southeast England,Short term,2013 to 2018,77.44975629785314,Loess,Improvement
-C3aii,Southeast England,Medium term,2008 to 2018,276.4193077246661,Loess,Improvement
-C3aii,Southeast England,Long term,1991 to 2018,2931.89193624775,Loess,Improvement
+C3aii,Northeast England,Short term,2013 to 2018,50.979843843758765,Loess,Improvement
+C3aii,Northeast England,Medium term,2008 to 2018,98.34402806043838,Loess,Improvement
+C3aii,Northeast England,Long term,1991 to 2018,170.53981907415897,Loess,Improvement
+C3aii,Southeast England,Short term,2013 to 2018,77.44975629785291,Loess,Improvement
+C3aii,Southeast England,Medium term,2008 to 2018,276.41930772466566,Loess,Improvement
+C3aii,Southeast England,Long term,1991 to 2018,2931.8919362477577,Loess,Improvement
