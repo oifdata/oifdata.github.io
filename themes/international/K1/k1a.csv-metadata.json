@@ -1,5 +1,5 @@
 {
-    "schema:name": "Area of tropical deforestation associated with UK consumption, 2005 to 2018",
+    "schema:name": "Area of deforestation associated with UK consumption, 2005 to 2021",
     "url": "k1a.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -18,8 +18,8 @@
                 "schema:sameAs": "https://ror.org/05tzsrw37",
                 "@type": "schema:GovernmentOrganization"
             },
-            "schema:dateModified": "2022-10-27",
-            "schema:datePublished": "2022-10-27",
+            "schema:dateModified": "2023-11-14",
+            "schema:datePublished": "2023-11-14",
             "schema:headline": "Indicator A4: Global biodiversity impacts of UK economic activity / sustainable consumption"
         }
     ],
@@ -27,12 +27,12 @@
         "tbc"
     ],
     "schema:spatialCoverage": "International",
-    "schema:temporalCoverage": "2005/2018",
-    "schema:version": "2022-10-27",
+    "schema:temporalCoverage": "2005/2021",
+    "schema:version": "2023-12-19",
     "schema:measurementTechnique": "?",
-    "schema:variableMeasured": "Area of tropical deforestation associated with UK consumption (hectares)",
+    "schema:variableMeasured": "Area of deforestation associated with UK consumption (hectares)",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "Estimates refer to tropical and subtropical deforestation from UK consumption of crop, cattle related and timber commodities only.",
+    "notes": "Estimates refer to deforestation from UK consumption of crop, cattle related and timber commodities only.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -45,8 +45,8 @@
             {
                 "datatype": {
                     "base": "integer",
-                    "minimum": "2001",
-                    "maximum": "2019",
+                    "minimum": "2005",
+                    "maximum": "2021",
                     "@type": "Datatype"
                 },
                 "default": "",
@@ -73,7 +73,7 @@
                 "suppressOutput": false,
                 "virtual": false,
                 "@type": "Column",
-                "schema:description": "The area of tropical deforestation associated with UK consumption (hectares)"
+                "schema:description": "The area of deforestation associated with UK consumption (hectares)"
             }
         ],
         "@type": "Schema"

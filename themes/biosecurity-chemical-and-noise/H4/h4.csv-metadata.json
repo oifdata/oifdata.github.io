@@ -1,5 +1,5 @@
 {
-    "schema:name": "Exposure of wildlife to chemicals in the environment in England and, for some marine components the UK; up to 2019 where available",
+    "schema:name": "Exposure of wildlife to chemicals in the environment in England and, for some marine components the UK; up to 2022 where available",
     "url": "h4.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -19,15 +19,15 @@
                 "schema:sameAs": "https://ror.org/01zewfb16",
                 "@type": "schema:GovernmentOrganization"
             },
-            "schema:dateModified": "2021-06-11",
-            "schema:datePublished": "2021-06-11"
+            "schema:dateModified": "2024-04-10",
+            "schema:datePublished": "2024-04-10"
         }
     ],
     "schema:keywords": [
         "tbc"
     ],
     "schema:spatialCoverage": "England and UK for some marine components",
-    "schema:temporalCoverage": "2013/2019",
+    "schema:temporalCoverage": "2013/2022",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Assessment results",
     "@context": "http://www.w3.org/ns/csvw",
@@ -43,7 +43,7 @@
             {
                 "datatype": {
                     "base": "string",
-                    "format": "Mercury|PBDEs|PCBs|PFOS|Lead|Cadmium|Nickel|Copper|Zinc|Pesticides|SGARs",
+                    "format": "Mercury|PBDEs|PCBs|PCB 118|PFOS|PFAS|Lead|Cadmium|Nickel|Copper|Zinc|Pesticides|SGARs",
                     "@type": "Datatype"
                 },
                 "default": "",
@@ -61,7 +61,7 @@
             {
                 "datatype": {
                     "base": "string",
-                    "format": "Sparrowhawk/red kite|Red Fox|Freshwater|Roach/chub/brown trout|Otter|Estuarine/Coastal waters|Blue mussels|Dab|Harbour porpoise",
+                    "format": "Buzzard|Sparrowhawk|Red kite|Red fox|Freshwater|Freshwater fish|Otter|Estuarine/coastal waters|Blue mussel|Estuarine/coastal fish|Offshore fish (common dab)|Harbour porpoise",
                     "@type": "Datatype"
                 },
                 "default": "",
@@ -79,6 +79,7 @@
             {
                 "datatype": {
                     "base": "string",
+                    "format": "No observed change in concentrations. Population average below threshold. Time period: 2001, 2004–2006, 2010, 2013, 2016, and 2018–2021. |Data available; not currently able to assess trends. No threshold available. Time period: 2018, 2019 and 2021.|Data available; not currently able to assess trends. No threshold available.  Time period: 2018, 2019 and 2021.|Increasing concentrations. 1 to 24% samples above threshold.  Time period: 2001, 2004–2006, 2010, 2013, 2016, and 2018–2021.|No observed change in concentrations. Individual average below threshold. Time period: 2001, 2004–2006, 2010, 2013, 2016, and 2018–2021.|No observed changes in concentrations. No threshold available. Time period: 2001, 2004–2006, 2010, 2013, 2016, and 2018–2021.|Not covered|No observed change in concentrations. Population average below threshold. Time period: 2000, 2005, 2006, 2011–2013, 2020, and 2021.|No observed change in concentrations. Individuals average below threshold. Time period: 2007–2014, 2020 and 2021. |Data available; not currently able to assess trends. No threshold available. Time period: 2007–2014, 2020 and 2021. |No observed changes in concentrations. 1 to 24% samples above threshold.  Time period: 2015-2021.|Data available; not currently able to assess trends. No threshold available. Time period: 2018–2021.|Increasing concentrations. No threshold available. Time period: 2015-2022.|Decreasing concentrations. 1 to 24% samples above threshold.  Time period: 2016–2022. |Data available; not currently able to assess trends. No threshold available. Time period: 2016–2022. |Decreasing concentrations. 1 to 24% samples above threshold.  Time period: 2014-2022.|No observed changes in concentrations. 1 to 24% samples above threshold.  Time period: 2014-2022.|Decreasing concentrations. 25 to 49% samples above threshold. Time period: 2014-2022. |No observed changes in concentrations. More than 75% sites above threshold. Time period: 2016-2022. |No observed changes in concentrations. More than 75% sites above threshold. Time period: 2014–2019 and 2022. |Decreasing concentrations. All sites average below threshold. Time period: 2015–2019, 2021 and 2022.|No observed changes in concentrations. No threshold available. Time period: 2015–2019 and 2022. |Decreasing concentrations. No threshold available. Time period: 2015–2019 and 2022. |Data available; not currently able to assess trends. No threshold available. Time period: 2022.|Increasing concentrations. No threshold available. Time period: 2016–2019, 2021 and 2022.|No observed changes in concentrations. No threshold available. Time period: 2016–2019, 2021 and 2022.|No observed change in concentrations. Population average below threshold. Time period: 2014-2021. |Decreasing concentrations. No threshold available. Time period: 2014-2021. |No observed changes in concentrations. No threshold available. Time period: 2014-2021. |No observed changes in concentrations. 1 to 24% samples above threshold.  Time period: 2014–2022. |No observed change in concentrations. All sites average below threshold. Time period: 2014–2022. |No observed changes in concentrations. 50 to 74% samples above threshold.  Time period: 2014–2022. |Increasing concentrations. More than 75% sites above threshold. Time period: 2011-2019 and 2021, 2022.|Decreasing concentrations. Inividual average below threshold. Time period: 2015-2022.|No observed changes in concentrations. 25 to 49% samples above threshold.  Time period: 2011-2022.|Decreasing concentrations. No threshold available. Time period: 2011-2022.|No observed changes in concentrations. No threshold available. Time period: 2011-2022.|Increasing concentrations. No threshold available. Time period: 2011-2022.|Data available; not currently able to assess trends. More than 75% sites above threshold. Time period: 2018-2022.  |Data available; not currently able to assess trends. All sites average below threshold. Time period: 2017-2022. |Data available; not currently able to assess trends. More than 75% sites above threshold. Time period: 2018-2022. |Data available; not currently able to assess trends. No threshold available. Time period: 2018 to 2022. |No observed changes in concentrations. More than 75% sites above threshold. Time period: 2008-2022.|Decreasing concentrations. 1 to 24% samples above threshold.  Time period: 2008-2022.|Data available; not currently able to assess trends. Individuals average below threshold. Time period: 2014–2022.|Data available; not currently able to assess trends. No threshold available. Time period: 2014–2022.|Increasing concentrations. No threshold available. Time period: 2008-2022.|No observed changes in concentrations. No threshold available. Time period: 2008-2022.|No observed changes in concentrations. No threshold available. Time period: 2009 and 2011-2021.|Decreasing concentrations. Individuals average below threshold. Time period: 2009 and 2011-2021.|No observed changes in concentrations. 25 to 49% samples above threshold.  Time period: 2004–2021.|Increasing concentrations. No threshold available. Time period: 2004–2021.|Decreasing concentrations. Population average below threshold. Individuals average below threshold. Time period: 2001–2003, 2009 and 2012–2021.|No observed changes in concentrations. No threshold available. Time period: 2009 and 2012–2021.|Increasing concentrations. No threshold available. Time period: 2009 and 2011-2021.",
                     "@type": "Datatype"
                 },
                 "default": "",

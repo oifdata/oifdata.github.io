@@ -1,0 +1,95 @@
+{
+    "schema:name": "Spatial changes in visual and experiential landscape character in England, overall and by key attributes of character, 2015 to 2019",
+    "url": "g1c.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "Changes in landscape character in England",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "NE",
+                "schema:name": "Natural England",
+                "schema:sameAs": "https://ror.org/00r66pz14",
+                "@type": "schema:GovernmentOrganization"
+            }
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "2015/2019",
+    "schema:version": "2024-05-20",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Spatial changes in visual and experiential landscape character",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "The analysis underpinning this component provides spatial changes in key attributes of landscape that contribute to visual and experiential character. These key attributes of visual and experiential landscape character are defined within 5 themes:</br>\n\n* Positive visual (rivers, habitat diversity and buildings greater than 70 metres in height such as cathedrals)  \n\n* Negative visual (new postcodes, roads and industrial land-use)  \n\n* Cultural (including scheduled monuments, national trails, canals and open green spaces)  \n\n* Experiential (noise intensity and remoteness)  \n\n* Access (green space access, accessible land and footpath access) \n\n</br>The analysis is modelled at fine scale (for example, metres or kilometres) across the whole of England.  \n\n</br>The change mapping uses a subset of 21 component indicators taken from a broader spatial indicator which maps landscape character using 32 components. The component indicators selected to report on spatial change were chosen from those aspects which are more likely to alter within a 10-year period. \n\n</br>There were insufficient data available to assess changes to the experiential and access attributes.\n\n</br>More granular results for each of the 18 broad landscape types underpinning this indicator component are available on the [Change in Visual and Experiential Landscape Character](https://experience.arcgis.com/experience/40a937ef320441ca97b0b7b5e728b000) website.",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Overall|Positive visual|Negative visual|Cultural|Experiential|Access",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "attribute",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The different key attributes of visual and experiential landscape character change"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Strongly negative|Negative|Little change|Positive|Strongly positive",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "trend",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The different categories of change for the key attributes of visual and experiential landscape character change"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "percentage",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The percentage of land area in England falling into each category of change for each of the key attributes of visual and experiential landscape character change"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

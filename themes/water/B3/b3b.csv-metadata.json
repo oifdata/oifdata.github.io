@@ -24,7 +24,7 @@
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "1970-01-01T00:33:39+00:00",
+    "schema:temporalCoverage": "2019/2022",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Percentage of water bodies assessed with corresponding status",
     "@context": "http://www.w3.org/ns/csvw",

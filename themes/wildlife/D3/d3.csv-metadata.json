@@ -1,5 +1,5 @@
 {
-    "schema:name": "Area of woodland in England, 1980 to 2022",
+    "schema:name": "Area of woodland in England, 1998 to 2023",
     "url": "d3.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -10,31 +10,35 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:name": "England woodland area",
+            "schema:name": "Woodland area by forest type and ownership, England",
+            "schema:url": "https://www.forestresearch.gov.uk/tools-and-resources/statistics/data-downloads/",
             "@type": "Dataset",
             "schema:author": [
                 {
-                    "schema:name": "Forestry Commission",
+                    "schema:name": "Forest Research",
                     "schema:sameAs": "https://ror.org/03wcc3744",
                     "@type": "schema:GovernmentOrganization"
                 },
                 {
-                    "schema:name": "Forest Research",
-                    "schema:sameAs": "https://ror.org/04jqr6p02",
+                    "schema:name": "Forestry Commission",
+                    "schema:sameAs": "https://ror.org/03hkswm52",
                     "@type": "schema:GovernmentOrganization"
                 }
-            ]
+            ],
+            "schema:dateModified": "2023-06-15",
+            "schema:datePublished": "2023-06-15"
         }
     ],
     "schema:keywords": [
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "1980/2022",
+    "schema:temporalCoverage": "1998/2023",
+    "schema:version": "2023-06-15",
     "schema:measurementTechnique": "?",
-    "schema:variableMeasured": "area of woodland split by category, in thousand hectares",
+    "schema:variableMeasured": "area of woodland split by category, in million hectares",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "Due to rounding, areas of conifer and broadleaf woodland shown here may not sum exactly to the total area of woodland in England published in Forest Research’s Forestry Statistics.\n    \n</br>The timeseries for this indicator was shortened in the 2022 update of the source publication; as a result, it now begins in 1990 rather than 1980.\n\n</br>Data for 2012 and 2019 include cumulative updates based on analysis of remote sensing data.\n    \n</br>Data for 2020 and 2021 were revised in the 2023 update of this indicator.\n    \n</br>There is a general assumption that woodlands that have been clearfelled will be restocked. These areas are classified as ‘woodlands in transition’ until there is evidence (through fieldwork, satellite imagery or aerial photography) that the areas have been replanted or have regenerated. As natural regeneration can take some time to establish, some areas can remain as woodlands in transition for more than 10 years and there can be considerable time lags between the felling of woodland to create open habitats and the designation of that area as non-woodland. It is likely this leads to some overestimation of the area of conifer woodland.\n    \n</br>The area of woodland statistics are based on annual updates to both the National Forest Inventory woodland map based on remote sensing and also administrative data on new planting of woodland. The split between conifer and broadleaf in the woodland map data is based on more accurate assessments of stocked areas from fieldwork data. ",
+    "notes": "Annual datapoints reflect the area of conifer and broadleaf woodland in England at 31 March each year. \n    \n</br>Due to rounding, areas of conifer and broadleaf woodland shown here may not sum exactly to the total area of woodland in England shown in this indicator and in the source publication (Forest Research’s Forestry Statistics).\n\n</br>The time series for this indicator was shortened during the 2024 update of the Outcome Indicator Framework to align with the source publication; as a result, it now begins in 1998 rather than 1990.\n\n</br>Data presented here for 2012 and 2019 include cumulative updates based on analysis of remote sensing data.\n\n</br>Data for 2021 and 2022 were revised in the 2024 update of this indicator. The total area of woodland reported for both years remains the same as the totals reported in the 2023 update of D3, however, the totals for conifer woodland have reduced and the totals for broadleaf woodland have increased in the 2024 update.\n\n</br>There is a general assumption that woodlands that have been clearfelled will be restocked. These areas are classified as ‘woodlands in transition’ until there is evidence (through fieldwork, satellite imagery or aerial photography) that the areas have been replanted or have regenerated. As natural regeneration can take some time to establish, some areas can remain as woodlands in transition for more than 10 years and there can be considerable time lags between the felling of woodland to create open habitats and the designation of that area as non-woodland. It is likely this leads to some overestimation of the area of conifer woodland.\n\n</br>The area of woodland statistics are based on annual updates to both the NFI woodland map based on remote sensing and also administrative data on new planting of woodland. The split between conifer and broadleaf in the woodland map data is based on more accurate assessments of stocked areas from fieldwork data.\n\n</br>An update to March 2022 is now available (1.33 million hectares) based on an updated NFI map that is currently available for England only. This revised estimate of woodland area differs slightly from the figures reported for woodland area in England in 2022 in this indicator and in the source publication. The figure for England, Scotland and Wales in Tables 1.1 to 1.3 of Forestry Statistics 2023 are based on the latest NFI woodland map that is complete for the whole of Great Britain, with estimated new planting to 2021/2022 added to give estimates of woodland area at March 2022 that are consistent across Great Britain. The woodland figure provided in this paragraph is derived from a more recent NFI woodland map for England, providing estimates at March 2022 and including some revisions for earlier planting that had been omitted from earlier maps.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -47,8 +51,8 @@
             {
                 "datatype": {
                     "base": "integer",
-                    "minimum": "1990",
-                    "maximum": "2022",
+                    "minimum": "1998",
+                    "maximum": "2023",
                     "@type": "Datatype"
                 },
                 "default": "",
@@ -66,7 +70,7 @@
             {
                 "datatype": {
                     "base": "string",
-                    "format": "Conifers|Broadleaves",
+                    "format": "Total|Conifers|Broadleaves",
                     "@type": "Datatype"
                 },
                 "default": "",
@@ -79,7 +83,7 @@
                 "suppressOutput": false,
                 "virtual": false,
                 "@type": "Column",
-                "schema:description": "Category of tree"
+                "schema:description": "Category of woodland"
             },
             {
                 "datatype": "number",

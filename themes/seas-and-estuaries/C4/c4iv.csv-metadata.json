@@ -1,6 +1,6 @@
 {
     "schema:name": "Regional sea assessments, and the status of coastal water bodies and offshore units for soft sediment invertebrates, 2010 to 2015",
-    "url": "c4iv.svg",
+    "url": "c4iv.csv",
     "@type": "TableGroup",
     "schema:creator": {
         "schema:alternateName": "Defra",
@@ -15,9 +15,9 @@
             "@type": "Dataset",
             "schema:author": [
                 {
-                    "schema:alternateName": "Defra",
-                    "schema:name": "Department for Environment, Food & Rural Affairs",
-                    "schema:sameAs": "https://ror.org/00tnppw48",
+                    "schema:alternateName": "DAERA",
+                    "schema:name": "Department for Agriculture, Environment & Rural Affairs of Northern Ireland",
+                    "schema:sameAs": "https://ror.org/01jksdf22",
                     "@type": "schema:GovernmentOrganization"
                 },
                 {
@@ -52,5 +52,88 @@
     "schema:variableMeasured": "Assessment/classification results",
     "@context": "http://www.w3.org/ns/csvw",
     "notes": "Soft sediment invertebrates were assessed using inshore and offshore intertidal and subtidal data collected between 2010 and 2015.",
-    "tableDirection": "auto"
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Greater North Sea|Celtic Seas",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "UKMS sub region",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Broad UKMS sub region"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Northern North Sea|Southern North Sea|Eastern Channel|Western Channel and Celtic Seas|Irish Sea|Minches and Western Scotland|Scottish Continental Shelf|Atlantic North-West Approaches|Shared waters between N. Ireland and Rep of Ireland",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "Regional Sea",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Regional sea within sub region"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "|Regional Sea Assessment results|Water body classification results (high)|Water body classification results (good)|Water body classification results (moderate)|Offshore assessment results (high)|Offshore assessment results (good)|Offshore assessment results (moderate)|Offshore assessment results (poor)",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "Result type",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Assessment result types and categories types"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "|Above GES target|Below GES target|No data|2|0|1|5|3|7|4|12|16|28|14|27|51",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "value",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Different assessment results"
+            }
+        ],
+        "@type": "Schema"
+    }
 }

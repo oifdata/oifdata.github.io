@@ -1,0 +1,98 @@
+{
+    "schema:name": "Status of Habitats Directive Article 17 listed coastal and marine features in the UK, 2019",
+    "url": "c6b.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "JNCC_Report_759",
+            "schema:url": "https://hub.jncc.gov.uk/assets/4624a05d-4f40-429d-8504-1085155b6d59",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "JNCC",
+                "schema:name": "Joint Nature Conservation Committee",
+                "schema:sameAs": "https://ror.org/05tzsrw37",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:dateModified": "2024-04-01",
+            "schema:datePublished": "2024-04-01"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "UK",
+    "schema:temporalCoverage": "1970-01-01T00:33:39+00:00",
+    "schema:version": "2024-01-01",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Status assessment results",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "In Article 17 assessments, Favourable Conservation Status assessments are made by assessment of 4 components: Range, Area (for habitats) or Population (for species), Structure and Function (for habitats) or Suitable Habitat (for species), and Future Prospects. The status for each of these components dictates whether the overall assessment concludes if the feature is in favourable; unfavourable-inadequate; unfavourable-bad; or unknown state. Unknown is when there is no or insufficient information available to form assessment. \n\n</br>Under Article 17, maerl was assessed as 2 separate species in 2019. However, due to the difficulties in differentiating between species, the assessment was combined and the same report was submitted for both species. In figure C6a, both species have been combined, and feature as a habitat, rather than a species. \n\n</br>The assessment categories are defined based on a combination of assessments made on range, area or population, structure and function or suitable habitat, and future prospects. ",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Habitat (coastal)|Habitat (marine)|Mammals|Reptiles",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "feature",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Habitat or taxonomic group"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "favourable|unfavourable-bad|unfavourable-inadequate|unknown",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "status",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Assessment result"
+            },
+            {
+                "datatype": "integer",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "number of species",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The number of species at each assessment result"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

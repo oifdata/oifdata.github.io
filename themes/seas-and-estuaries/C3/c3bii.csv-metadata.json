@@ -13,38 +13,12 @@
             "schema:name": "OSPAR Marine Bird Abundance",
             "schema:url": "https://odims.ospar.org/en/submissions/ospar_birds_abund_snapshot_2022_06/",
             "@type": "Dataset",
-            "schema:author": [
-                {
-                    "schema:alternateName": "DEFRA",
-                    "schema:name": "Department for Environment Food and Rural Affairs",
-                    "schema:sameAs": "https://ror.org/00tnppw48",
-                    "@type": "schema:GovernmentOrganization"
-                },
-                {
-                    "schema:alternateName": "JNCC",
-                    "schema:name": "Joint Nature Conservation Committee",
-                    "schema:sameAs": "https://ror.org/05tzsrw37",
-                    "@type": "schema:GovernmentOrganization"
-                },
-                {
-                    "schema:alternateName": "NE",
-                    "schema:name": "Natural England",
-                    "schema:sameAs": "https://ror.org/00r66pz14",
-                    "@type": "schema:GovernmentOrganization"
-                },
-                {
-                    "schema:alternateName": "Cyfoeth Naturiol Cymru",
-                    "schema:name": "Natural Resources Wales",
-                    "schema:sameAs": "https://ror.org/04x65hs26",
-                    "@type": "schema:GovernmentOrganization"
-                },
-                {
-                    "schema:alternateName": "Dualchas Nàdair na h-Alba, SNH",
-                    "schema:name": "Scottish Natural Heritage",
-                    "schema:sameAs": "https://ror.org/01t6g8w08",
-                    "@type": "schema:GovernmentOrganization"
-                }
-            ],
+            "schema:author": {
+                "schema:alternateName": "OSPAR",
+                "schema:name": "The Convention for the Protection of the Marine Environment of the North-East Atlantic",
+                "schema:sameAs": "https://oap.ospar.org/en/",
+                "@type": "schema:GovernmentOrganization"
+            },
             "schema:dateModified": "2022-06-30",
             "schema:datePublished": "2022-06-30"
         }

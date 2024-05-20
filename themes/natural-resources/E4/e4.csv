@@ -1,33 +1,100 @@
-year,value
-1990/1991,100.0
-1991/1992,103.06351805496
-1992/1993,104.643231039253
-1993/1994,98.9817512934868
-1994/1995,99.4311034792168
-1995/1996,102.099479143244
-1996/1997,103.819630223347
-1997/1998,105.191975287222
-1998/1999,105.39301414295
-1999/2000,109.325984621219
-2000/2001,107.960718055573
-2001/2002,106.91443539374
-2002/2003,116.10915738663
-2003/2004,119.009254048823
-2004/2005,123.988804949255
-2005/2006,125.239581381761
-2006/2007,124.272514560296
-2007/2008,116.428222778867
-2008/2009,123.63772957957
-2009/2010,115.443979186704
-2010/2011,113.405325109379
-2011/2012,121.459251165973
-2012/2013,107.927688479461
-2013/2014,110.94660391713
-2014/2015,115.029936191718
-2015/2016,118.505632759627
-2016/2017,112.815133441895
-2017/2018,116.124165399425
-2018/2019,117.855855479239
-2019/2020,122.106490160524
-2020/2021,118.891327382836
-2021/2022,127.480210299445
+year,variable,value
+1990/1991,Volume of agricultural production,100.0
+1990/1991,Volume of inputs used in agricultural production,100.0
+1990/1991,Total factor productivity,100.0
+1991/1992,Volume of agricultural production,103.56
+1991/1992,Volume of inputs used in agricultural production,100.48
+1991/1992,Total factor productivity,103.06
+1992/1993,Volume of agricultural production,98.85
+1992/1993,Volume of inputs used in agricultural production,94.46
+1992/1993,Total factor productivity,104.64
+1993/1994,Volume of agricultural production,93.73
+1993/1994,Volume of inputs used in agricultural production,94.7
+1993/1994,Total factor productivity,98.98
+1994/1995,Volume of agricultural production,94.72
+1994/1995,Volume of inputs used in agricultural production,95.26
+1994/1995,Total factor productivity,99.43
+1995/1996,Volume of agricultural production,100.62
+1995/1996,Volume of inputs used in agricultural production,98.55
+1995/1996,Total factor productivity,102.1
+1996/1997,Volume of agricultural production,101.77
+1996/1997,Volume of inputs used in agricultural production,98.02
+1996/1997,Total factor productivity,103.82
+1997/1998,Volume of agricultural production,101.51
+1997/1998,Volume of inputs used in agricultural production,96.5
+1997/1998,Total factor productivity,105.19
+1998/1999,Volume of agricultural production,100.23
+1998/1999,Volume of inputs used in agricultural production,95.11
+1998/1999,Total factor productivity,105.39
+1999/2000,Volume of agricultural production,101.2
+1999/2000,Volume of inputs used in agricultural production,92.57
+1999/2000,Total factor productivity,109.33
+2000/2001,Volume of agricultural production,91.79
+2000/2001,Volume of inputs used in agricultural production,85.02
+2000/2001,Total factor productivity,107.96
+2001/2002,Volume of agricultural production,100.2
+2001/2002,Volume of inputs used in agricultural production,93.72
+2001/2002,Total factor productivity,106.91
+2002/2003,Volume of agricultural production,106.01
+2002/2003,Volume of inputs used in agricultural production,91.3
+2002/2003,Total factor productivity,116.11
+2003/2004,Volume of agricultural production,107.9
+2003/2004,Volume of inputs used in agricultural production,90.67
+2003/2004,Total factor productivity,119.01
+2004/2005,Volume of agricultural production,108.95
+2004/2005,Volume of inputs used in agricultural production,87.87
+2004/2005,Total factor productivity,123.99
+2005/2006,Volume of agricultural production,106.6
+2005/2006,Volume of inputs used in agricultural production,85.12
+2005/2006,Total factor productivity,125.24
+2006/2007,Volume of agricultural production,104.91
+2006/2007,Volume of inputs used in agricultural production,84.42
+2006/2007,Total factor productivity,124.27
+2007/2008,Volume of agricultural production,99.58
+2007/2008,Volume of inputs used in agricultural production,85.53
+2007/2008,Total factor productivity,116.43
+2008/2009,Volume of agricultural production,105.05
+2008/2009,Volume of inputs used in agricultural production,84.97
+2008/2009,Total factor productivity,123.64
+2009/2010,Volume of agricultural production,100.77
+2009/2010,Volume of inputs used in agricultural production,87.29
+2009/2010,Total factor productivity,115.44
+2010/2011,Volume of agricultural production,99.84
+2010/2011,Volume of inputs used in agricultural production,88.04
+2010/2011,Total factor productivity,113.41
+2011/2012,Volume of agricultural production,103.66
+2011/2012,Volume of inputs used in agricultural production,85.35
+2011/2012,Total factor productivity,121.46
+2012/2013,Volume of agricultural production,95.06
+2012/2013,Volume of inputs used in agricultural production,88.08
+2012/2013,Total factor productivity,107.93
+2013/2014,Volume of agricultural production,98.58
+2013/2014,Volume of inputs used in agricultural production,88.86
+2013/2014,Total factor productivity,110.95
+2014/2015,Volume of agricultural production,105.14
+2014/2015,Volume of inputs used in agricultural production,91.4
+2014/2015,Total factor productivity,115.03
+2015/2016,Volume of agricultural production,106.5
+2015/2016,Volume of inputs used in agricultural production,89.87
+2015/2016,Total factor productivity,118.51
+2016/2017,Volume of agricultural production,102.06
+2016/2017,Volume of inputs used in agricultural production,90.47
+2016/2017,Total factor productivity,112.82
+2017/2018,Volume of agricultural production,106.37
+2017/2018,Volume of inputs used in agricultural production,91.6
+2017/2018,Total factor productivity,116.12
+2018/2019,Volume of agricultural production,107.64
+2018/2019,Volume of inputs used in agricultural production,91.33
+2018/2019,Total factor productivity,117.86
+2019/2020,Volume of agricultural production,110.83
+2019/2020,Volume of inputs used in agricultural production,90.76
+2019/2020,Total factor productivity,122.11
+2020/2021,Volume of agricultural production,102.64
+2020/2021,Volume of inputs used in agricultural production,87.93
+2020/2021,Total factor productivity,116.73
+2021/2022,Volume of agricultural production,103.61
+2021/2022,Volume of inputs used in agricultural production,83.6
+2021/2022,Total factor productivity,123.94
+2022/2023,Volume of agricultural production,107.19
+2022/2023,Volume of inputs used in agricultural production,81.82
+2022/2023,Total factor productivity,131.01

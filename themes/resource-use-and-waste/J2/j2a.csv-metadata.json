@@ -1,5 +1,5 @@
 {
-    "schema:name": "Raw material consumption (excluding fossil fuels) per capita in England, 2001 to 2019",
+    "schema:name": "Raw material consumption (excluding fossil fuels) per capita in England, 2001 to 2020",
     "url": "j2a.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -10,11 +10,11 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:description": "<div class=\"govspeak\"><p>Material resources input into production and consumption. When resources are from primary rather than secondary or recycled sources, these are extracted or harvested from the natural environment and hence global stock of natural capital.</p>\n\n<p>The material footprint, or raw material consumption, is the allocation of global primary raw material extraction to final domestic demand for goods and services. The footprint takes a consumption-based perspective, reallocating material extraction associated with the production of goods and services, to sources of final demand rather than location of extraction.</p>\n\n</div>",
+            "schema:description": "<div class=\"govspeak\"><p>Material resources are an essential input into processes of production and consumption that underpin our wellbeing. When these resources are from primary rather than secondary or recycled sources, they must be extracted or harvested from the natural environment, which can often deplete the planet’s stock of natural capital.</p>\n\n<p>The material footprint, or raw material consumption, is the allocation of global primary used raw material extraction to final domestic demand for goods and services, typically measured at the level of a country. The footprint takes a consumption-based perspective, reallocating environmental pressures or change linked to the production of goods and services, to sources of final demand rather than location of associated extraction, emission, or occurrence.</p>\n\n</div>",
             "schema:image": [
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-bf9e64d759af6dfd93bede8168f3087a329f405b382aff36747db0db4b7b23e9.png",
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-13093f053c15f613acd827aff27cac83d3fab452947cbcae4c7b706dadf2f7f2.png",
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-4233cd42671827e266e284c4d5ae68fb600bd9f9e35dda663ccabbc2b6ab7ec3.png"
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-c3d38c0d4fc00005df38a71e1db7097276681d6917bca58f0dc8336a252e1bb3.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-edc38c137a14ecfc3fc83f404090e20dab806dad345c96a1df6a163ee2d1e3aa.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-5dc2d0ea1eb72cd94e66db210ef41b22ce364e7ed09d63a3acc28fda09e27864.png"
             ],
             "schema:name": "England's material footprint",
             "@type": "Dataset",
@@ -40,51 +40,56 @@
                     "url": "/government/statistics/englands-material-footprint/englands-material-footprint"
                 },
                 {
-                    "name": "England Material Footprint Results 2001 to 2019",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1102986/2001_2019_England_MF.ods",
+                    "name": "England Material Footprint Results 2001 to 2020",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/64cca575ef14e6001417895c/2020_Defra_results_England.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
                     "name": "Figure 1 Datatable",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1102979/Figure_1.csv",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/64cca80d995827000dc1e8dc/fig1_2020.csv",
                     "encodingFormat": "text/csv"
                 },
                 {
                     "name": "Figure 2 Datatable",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1102980/Figure_2.csv",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/64cca8243c4564000d9429f4/fig2_2020.csv",
                     "encodingFormat": "text/csv"
                 },
                 {
                     "name": "Figure 3 Datatable",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1102981/Figure_3.csv",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/64cca83b995827000dc1e8dd/fig3_2020.csv",
                     "encodingFormat": "text/csv"
                 }
             ]
         },
         {
-            "schema:name": "Population estimates time series dataset",
-            "schema:url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatestimeseriesdataset",
+            "schema:description": "National and subnational mid-year population estimates for England and Wales by administrative area, age and sex (including components of population change, median age and population density).",
+            "schema:name": "Estimates of the population for England and Wales",
+            "schema:url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/estimatesofthepopulationforenglandandwales",
             "@type": "Dataset",
-            "schema:author": {
-                "schema:alternateName": "ONS",
+            "schema:publisher": {
                 "schema:name": "Office for National Statistics",
-                "schema:sameAs": "https://ror.org/021fhft25",
-                "@type": "schema:GovernmentOrganization"
+                "@type": "Organization"
             },
-            "schema:dateModified": "2022-12-21",
-            "schema:datePublished": "2022-12-21"
+            "schema:license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+            "schema:distribution": [
+                {
+                    "@type": "DataDownload",
+                    "encodingFormat": "xlsx",
+                    "contentUrl": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/estimatesofthepopulationforenglandandwales/current/mye22tablesew2023geogsv2.xlsx"
+                }
+            ]
         }
     ],
     "schema:keywords": [
         "Mineral Resources"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "2001/2018",
-    "schema:version": "2022-05-19",
+    "schema:temporalCoverage": "2001/2020",
+    "schema:version": "2024-05-01",
     "schema:measurementTechnique": "?",
-    "schema:variableMeasured": "raw material consumption (excluding fossil fuels), in tonnes, per capita",
+    "schema:variableMeasured": "Raw material consumption (excluding fossil fuels), in tonnes, per capita",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "The data used in the model to produce these statistics is updated with every annual update which may result in changes to the time series.",
+    "notes": "The data used in the model to produce these statistics is updated with every annual update which may result in changes to the time series.</br>The 2020 datapoint covers the first year of the COVID-19 pandemic, and the associated national lockdowns and travel restrictions. This is likely to have impacted England's material footprint.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -98,7 +103,7 @@
                 "datatype": {
                     "base": "integer",
                     "minimum": "2001",
-                    "maximum": "2019",
+                    "maximum": "2020",
                     "@type": "Datatype"
                 },
                 "default": "",
@@ -116,7 +121,7 @@
             {
                 "datatype": {
                     "base": "string",
-                    "format": "Metal ores|Non-metallic mineral materials|Biomass",
+                    "format": "Metal ores|Non-metallic mineral materials|Biomass|Total",
                     "@type": "Datatype"
                 },
                 "default": "",
@@ -143,7 +148,7 @@
                 "suppressOutput": false,
                 "virtual": false,
                 "@type": "Column",
-                "schema:description": "The average raw material consumption per capita in England excluding fossil fuels for 2001 - 2019 in tonnes"
+                "schema:description": "The average raw material consumption per capita in England excluding fossil fuels for 2001 - 2020 in tonnes"
             }
         ],
         "@type": "Schema"

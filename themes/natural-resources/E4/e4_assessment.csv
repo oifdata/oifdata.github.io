@@ -1,4 +1,4 @@
 Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
-E4,,Short term,2015/2016 to 2020/2021,5.100480423721986,Loess,Change (increasing)
-E4,,Medium term,2010/2011 to 2020/2021,3.5035531190714653,Loess,Change (increasing)
-E4,,Long term,1990/1991 to 2020/2021,21.630744306853504,Loess,Change (increasing)
+E4,Total factor productivity,Short term,2016/2017 to 2021/2022,7.3037917100789285,Loess,Change (increasing)
+E4,Total factor productivity,Medium term,2011/2012 to 2021/2022,6.862701470423945,Loess,Change (increasing)
+E4,Total factor productivity,Long term,1990/1991 to 2021/2022,24.191721816393652,Loess,Change (increasing)

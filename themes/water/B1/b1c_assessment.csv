@@ -1,0 +1,10 @@
+Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
+B1c,Ammonia,Short term,N/A,N/A,N/A,Not assessed
+B1c,Ammonia,Medium term,N/A,N/A,N/A,Not assessed
+B1c,Ammonia,Long term,1995 to 2020,-79.87616099071208,Unsmoothed,Improvement
+B1c,BOD,Short term,N/A,N/A,N/A,Not assessed
+B1c,BOD,Medium term,N/A,N/A,N/A,Not assessed
+B1c,BOD,Long term,1995 to 2020,-54.81763745236798,Unsmoothed,Improvement
+B1c,Phosphorus,Short term,N/A,N/A,N/A,Not assessed
+B1c,Phosphorus,Medium term,N/A,N/A,N/A,Not assessed
+B1c,Phosphorus,Long term,1995 to 2020,-68.47267631947688,Unsmoothed,Improvement

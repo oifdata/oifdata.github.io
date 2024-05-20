@@ -1,7 +1,7 @@
 Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
-C1ci,Celtic Seas,Short term,2013 to 2018,-16.298536496738343,Loess,Improvement
+C1ci,Celtic Seas,Short term,2013 to 2018,-16.298536496738386,Loess,Improvement
 C1ci,Celtic Seas,Medium term,N/A,N/A,N/A,Not assessed
 C1ci,Celtic Seas,Long term,N/A,N/A,N/A,Not assessed
-C1ci,Greater North Sea,Short term,2013 to 2018,16.469460264306836,Loess,Deterioration
+C1ci,Greater North Sea,Short term,2013 to 2018,16.469460264306797,Loess,Deterioration
 C1ci,Greater North Sea,Medium term,N/A,N/A,N/A,Not assessed
 C1ci,Greater North Sea,Long term,N/A,N/A,N/A,Not assessed

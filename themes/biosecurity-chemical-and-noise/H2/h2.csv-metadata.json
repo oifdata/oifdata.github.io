@@ -1,5 +1,5 @@
 {
-    "schema:name": "Number of additional tree pests and diseases becoming established in England, 2000-2009 to 2012-2021",
+    "schema:name": "Number of additional tree pests and diseases becoming established in England, 2000-2009 to 2013-2022",
     "url": "h2.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -16,7 +16,7 @@
                 "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-13093f053c15f613acd827aff27cac83d3fab452947cbcae4c7b706dadf2f7f2.png",
                 "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-4233cd42671827e266e284c4d5ae68fb600bd9f9e35dda663ccabbc2b6ab7ec3.png"
             ],
-            "schema:name": "Forestry Commission Key Performance Indicators: Report for 2021-22",
+            "schema:name": "Forestry Commission Key Performance Indicators: Report for 2022-23",
             "@type": "Dataset",
             "schema:about": [
                 {
@@ -33,16 +33,16 @@
                 "schema:url": "https://www.gov.uk",
                 "@type": "Organization"
             },
-            "schema:text": "Annual report on the full suite of Forestry Commission key performance indicators (KPIs) for both Forest Services and Forestry England.",
+            "schema:text": "Annual report on the full suite of Forestry Commission key performance indicators (KPIs) for both Forest Services and Forestry England.\r\n",
             "schema:distribution": [
                 {
-                    "name": "Forestry Commission Key Performance Indicators: Report for 2021-22",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1091565/Forestry-Commission-Key-Performance-Indicators-Report-2021-22-.pdf",
+                    "name": "Forestry Commission Key Performance Indicators: Report for 2022-23",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/6489c0bb5f7bb700127faa2f/Forestry-Commission-Key-Performance-Indicators-Report-2022-23.pdf",
                     "encodingFormat": "application/pdf"
                 },
                 {
-                    "name": "Forestry Commission Key Performance Indicators: Report for 2021-22 Supporting data",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1091558/Forestry-Commission-Key-Performance-Indicators-Report-for-2021-22-Supporting-Data.xlsx",
+                    "name": "Forestry Commission Key Performance Indicators: Report for 2022-23 Supporting data",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/64d345d85cac650014c2dc78/Forestry-Commission-Key-Performance-Indicators-Report-Supporting-Data-2022-23.xlsx",
                     "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
                 }
             ]
@@ -52,12 +52,12 @@
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "2000/2021",
-    "schema:version": "2022-07-18",
+    "schema:temporalCoverage": "2000/2022",
+    "schema:version": "2023-11-16",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Number of additional tree pests and diseases becoming established within a rolling 10-year period",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "Data are presented in rolling 10-year time periods.\n    \n</br>Data for 2002 to 2011 and 2003 to 2012 were revised in the 2023 update of this indicator.",
+    "notes": "Data are presented in rolling 10-year time periods.\n    \n</br>Data for 2002 to 2011 and 2003 to 2012 were revised in an earlier update of this indicator.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -70,7 +70,7 @@
             {
                 "datatype": {
                     "base": "string",
-                    "format": "2000-2009|2001-2010|2002-2011|2003-2012|2004-2013|2005-2014|2006-2015|2007-2016|2008-2017|2009-2018|2010-2019|2011-2020|2012-2021",
+                    "format": "2000-2009|2001-2010|2002-2011|2003-2012|2004-2013|2005-2014|2006-2015|2007-2016|2008-2017|2009-2018|2010-2019|2011-2020|2012-2021|2013-2022",
                     "@type": "Datatype"
                 },
                 "default": "",

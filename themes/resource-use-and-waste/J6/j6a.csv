@@ -1,6 +1,6 @@
-f_year,site_type,value
-2009/2010,Active high-risk sites,0.0
-2010/2011,Active high-risk sites,0.0
+financial_year,site_type,value
+2009/2010,Active high-risk sites,
+2010/2011,Active high-risk sites,
 2011/2012,Active high-risk sites,315.0
 2012/2013,Active high-risk sites,353.0
 2013/2014,Active high-risk sites,272.0
@@ -12,6 +12,7 @@ f_year,site_type,value
 2019/2020,Active high-risk sites,238.0
 2020/2021,Active high-risk sites,197.0
 2021/2022,Active high-risk sites,188.0
+2022/2023,Active high-risk sites,174.0
 2009/2010,Total active sites,680.0
 2010/2011,Total active sites,618.0
 2011/2012,Total active sites,1011.0
@@ -25,3 +26,4 @@ f_year,site_type,value
 2019/2020,Total active sites,544.0
 2020/2021,Total active sites,470.0
 2021/2022,Total active sites,419.0
+2022/2023,Total active sites,407.0

@@ -282,11 +282,11 @@
     </div>
     <section class="l-column l-column--small-space">
         <h2>Short Description</h2>
-        <p>This indicator shows trends in the amount of (a) raw material consumption (RMC) per capita and (b) the amount of gross value added (GVA) per unit of raw material consumption. These measures give a proxy for the scale of our environmental impact associated with our material consumption, while helping identify how efficiently natural resources are being used and the extent to which economic output is being decoupled from consumption of materials.</p>
+        <p>This indicator shows trends in the amount of (a) raw material consumption per capita and (b) the amount of gross value added per unit of raw material consumption. These measures give a proxy for the scale of our environmental impact associated with our material consumption, while helping identify how efficiently natural resources are being used and the extent to which economic output is being decoupled from consumption of materials.</p>
     </section>
     <section class="l-column l-column--small-space">
         <h2>Readiness and links to data</h2>
-        <p>Data on RMC underpinning each metric are available in the <a href="https://www.gov.uk/government/statistics/englands-material-footprint/englands-material-footprint">England’s material footprint</a> release. Data on <a href="https://www.ons.gov.uk/economy/grossvalueaddedgva/datasets/nominalandrealregionalgrossvalueaddedbalancedbyindustry/current">Nominal and real regional gross value added (balance) by industry</a> and <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland">Estimates of the population for the UK, England and Wales, Scotland and Northern Ireland</a> are published by the Office for National Statistics. This indicator, together with additional supporting methodology is also included within the <a href="https://www.gov.uk/government/publications/resources-and-waste-strategy-for-england-monitoring-and-evaluation">Resources and waste strategy for England</a>.</p>
+        <p>Data on raw material consumption underpinning each metric are available in the <a href="https://www.gov.uk/government/statistics/englands-material-footprint/englands-material-footprint">England’s material footprint</a> release. Data on <a href="https://www.ons.gov.uk/economy/grossvalueaddedgva/datasets/nominalandrealregionalgrossvalueaddedbalancedbyindustry/current">Nominal and real regional gross value added (balance) by industry</a> and <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland">Estimates of the population for the UK, England and Wales, Scotland and Northern Ireland</a> are published by the Office for National Statistics. This indicator is also included within the <a href="https://www.gov.uk/government/publications/resources-and-waste-strategy-for-england-monitoring-and-evaluation">Resources and Waste Strategy: Monitoring Progress</a> report.</p>
     </section>
     
     
@@ -307,7 +307,7 @@
                     <circle class="c-radio-button__inner-circle" cx="50" cy="50" r="20"/>
                 </svg>
             </span>
-            J2a: Raw material consumption (excluding fossil fuels) per capita in England, 2001 to 2019
+            J2a: Raw material consumption (excluding fossil fuels) per capita in England, 2001 to 2020
         </h3>
     </button>
 
@@ -322,7 +322,7 @@
                     <circle class="c-radio-button__inner-circle" cx="50" cy="50" r="20"/>
                 </svg>
             </span>
-            J2b: Gross value added per kg of raw material consumption (excluding fossil fuels) in England, 2001 to 2019
+            J2b: Gross value added per kg of raw material consumption (excluding fossil fuels) in England, 2001 to 2020
         </h3>
     </button>
 
@@ -359,7 +359,7 @@
     <div id="j2a-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="j2a" aria-labelledby="j2a-figure-tab" class="c-indicator-component-visualisation-tabpanel">
         <section class="l-column l-column--small-space">
             <h4>Figure
-                J2a: Raw material consumption (excluding fossil fuels) per capita in England, 2001 to 2019</h4>
+                J2a: Raw material consumption (excluding fossil fuels) per capita in England, 2001 to 2020</h4>
             <div id="j2a-figure-container" class="c-visualisation-container">
                 
                     <img src='j2a.svg' />
@@ -387,7 +387,7 @@
                     Office for National Statistics,
                 
                 
-                    <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatestimeseriesdataset">Population estimates time series dataset</a>
+                    <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/estimatesofthepopulationforenglandandwales">Estimates of the population for England and Wales</a>
                 
                 </dd>
             
@@ -398,7 +398,7 @@
         
         
             <dt class="c-indicator-component-metadata__key">Footnotes</dt>
-            <dd><p>The data used in the model to produce these statistics is updated with every annual update which may result in changes to the time series.</p></dd>
+            <dd><p>The data used in the model to produce these statistics is updated with every annual update which may result in changes to the time series.</br>The 2020 datapoint covers the first year of the COVID-19 pandemic, and the associated national lockdowns and travel restrictions. This is likely to have impacted England's material footprint.</p></dd>
         
     </dl>
 
@@ -418,7 +418,7 @@
     <div id="j2a-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="j2a" aria-labelledby="j2a-table-tab" class="c-indicator-component-visualisation-tabpanel">
         <section class="l-column l-column--small-space">
             <h4>Table
-                J2a: Raw material consumption (excluding fossil fuels) per capita in England, 2001 to 2019</h4>
+                J2a: Raw material consumption (excluding fossil fuels) per capita in England, 2001 to 2020</h4>
             <div id="j2a-table-container" class="c-visualisation-container">
                 
                     <table class="dataframe" id="j2a-table">
@@ -428,122 +428,149 @@
       <th>Biomass</th>
       <th>Metal ores</th>
       <th>Non-metallic mineral materials</th>
+      <th>Total</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>2001</td>
-      <td>5.45</td>
-      <td>1.38</td>
-      <td>10.69</td>
+      <td>4.79</td>
+      <td>1.09</td>
+      <td>8.61</td>
+      <td>14.50</td>
     </tr>
     <tr>
       <td>2002</td>
-      <td>5.42</td>
-      <td>1.47</td>
-      <td>12.24</td>
+      <td>5.39</td>
+      <td>1.23</td>
+      <td>9.94</td>
+      <td>16.57</td>
     </tr>
     <tr>
       <td>2003</td>
-      <td>5.11</td>
-      <td>1.34</td>
-      <td>13.47</td>
+      <td>5.13</td>
+      <td>1.10</td>
+      <td>11.22</td>
+      <td>17.45</td>
     </tr>
     <tr>
       <td>2004</td>
-      <td>5.77</td>
-      <td>1.53</td>
-      <td>12.11</td>
+      <td>6.02</td>
+      <td>1.43</td>
+      <td>11.52</td>
+      <td>18.97</td>
     </tr>
     <tr>
       <td>2005</td>
-      <td>5.59</td>
-      <td>1.48</td>
-      <td>11.67</td>
+      <td>5.81</td>
+      <td>1.38</td>
+      <td>10.99</td>
+      <td>18.18</td>
     </tr>
     <tr>
       <td>2006</td>
-      <td>5.11</td>
-      <td>1.45</td>
-      <td>11.19</td>
+      <td>5.28</td>
+      <td>1.31</td>
+      <td>10.71</td>
+      <td>17.31</td>
     </tr>
     <tr>
       <td>2007</td>
-      <td>4.83</td>
-      <td>1.42</td>
-      <td>10.88</td>
+      <td>5.10</td>
+      <td>1.28</td>
+      <td>10.59</td>
+      <td>16.97</td>
     </tr>
     <tr>
       <td>2008</td>
-      <td>4.57</td>
-      <td>1.24</td>
-      <td>9.06</td>
+      <td>4.73</td>
+      <td>1.12</td>
+      <td>8.72</td>
+      <td>14.57</td>
     </tr>
     <tr>
       <td>2009</td>
-      <td>4.43</td>
-      <td>1.04</td>
-      <td>7.33</td>
+      <td>4.52</td>
+      <td>1.00</td>
+      <td>6.82</td>
+      <td>12.34</td>
     </tr>
     <tr>
       <td>2010</td>
-      <td>4.31</td>
-      <td>1.08</td>
-      <td>6.93</td>
+      <td>4.37</td>
+      <td>0.99</td>
+      <td>6.78</td>
+      <td>12.14</td>
     </tr>
     <tr>
       <td>2011</td>
-      <td>4.34</td>
-      <td>1.12</td>
-      <td>7.27</td>
+      <td>4.29</td>
+      <td>1.02</td>
+      <td>7.44</td>
+      <td>12.75</td>
     </tr>
     <tr>
       <td>2012</td>
-      <td>4.37</td>
-      <td>1.20</td>
-      <td>6.83</td>
+      <td>4.49</td>
+      <td>1.12</td>
+      <td>7.42</td>
+      <td>13.03</td>
     </tr>
     <tr>
       <td>2013</td>
-      <td>4.33</td>
-      <td>1.29</td>
-      <td>6.80</td>
+      <td>4.32</td>
+      <td>1.21</td>
+      <td>6.42</td>
+      <td>11.94</td>
     </tr>
     <tr>
       <td>2014</td>
-      <td>4.73</td>
-      <td>1.21</td>
-      <td>8.40</td>
+      <td>4.69</td>
+      <td>1.18</td>
+      <td>8.37</td>
+      <td>14.24</td>
     </tr>
     <tr>
       <td>2015</td>
-      <td>4.63</td>
-      <td>1.16</td>
-      <td>8.80</td>
+      <td>4.51</td>
+      <td>1.09</td>
+      <td>9.21</td>
+      <td>14.82</td>
     </tr>
     <tr>
       <td>2016</td>
-      <td>4.18</td>
-      <td>1.01</td>
-      <td>7.51</td>
+      <td>3.92</td>
+      <td>0.90</td>
+      <td>6.93</td>
+      <td>11.76</td>
     </tr>
     <tr>
       <td>2017</td>
-      <td>3.93</td>
-      <td>0.98</td>
-      <td>7.25</td>
+      <td>3.83</td>
+      <td>0.90</td>
+      <td>6.80</td>
+      <td>11.52</td>
     </tr>
     <tr>
       <td>2018</td>
-      <td>3.94</td>
-      <td>1.03</td>
-      <td>8.24</td>
+      <td>3.79</td>
+      <td>0.98</td>
+      <td>8.53</td>
+      <td>13.30</td>
     </tr>
     <tr>
       <td>2019</td>
-      <td>3.99</td>
-      <td>1.00</td>
-      <td>8.02</td>
+      <td>3.86</td>
+      <td>0.98</td>
+      <td>8.27</td>
+      <td>13.11</td>
+    </tr>
+    <tr>
+      <td>2020</td>
+      <td>3.36</td>
+      <td>0.82</td>
+      <td>7.58</td>
+      <td>11.75</td>
     </tr>
   </tbody>
 </table>
@@ -571,7 +598,7 @@
                     Office for National Statistics,
                 
                 
-                    <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatestimeseriesdataset">Population estimates time series dataset</a>
+                    <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/estimatesofthepopulationforenglandandwales">Estimates of the population for England and Wales</a>
                 
                 </dd>
             
@@ -582,7 +609,7 @@
         
         
             <dt class="c-indicator-component-metadata__key">Footnotes</dt>
-            <dd><p>The data used in the model to produce these statistics is updated with every annual update which may result in changes to the time series.</p></dd>
+            <dd><p>The data used in the model to produce these statistics is updated with every annual update which may result in changes to the time series.</br>The 2020 datapoint covers the first year of the COVID-19 pandemic, and the associated national lockdowns and travel restrictions. This is likely to have impacted England's material footprint.</p></dd>
         
     </dl>
 
@@ -602,13 +629,13 @@
         
         <section class="l-column l-column--small-space">
             <h4>Trend description for J2a</h4>
-            <p>The average raw material footprint per capita in England (excluding fossil fuels) fell by 25.7% between 2001 and 2019. It peaked in 2003, decreased steadily until 2007, and then fell sharply during the 2008 to 2009 recession. It rose again until 2015 then fell to a new low in 2017. Over the latest 3 years for which data are available (2017 to 2019), it has risen to 13.0 tonnes per capita. Within the overall total, per capita consumption of non-metallic mineral materials, metal ores and biomass have all decreased between 2001 and 2019 (by 25.0%, 27.6% and 26.7% respectively). </p>
+            <p>The average raw material footprint per capita in England (excluding fossil fuels) fell by 18.9% between 2001 and 2020. It peaked in 2003, decreased steadily until 2007, and then fell sharply during the 2008 to 2009 recession. It fluctuated until rising to a peak in 2015 then fell to a new low in 2017. Over the latest 3 years for which data are available (2018 to 2020), it decreased from 13.3 to 11.8 tonnes per capita. Within the overall total, per capita consumption of non-metallic mineral materials, metal ores and biomass have all decreased between 2001 and 2019 (by 12.0%, 25.2% and 30.0% respectively).   </p>
         </section>
         
             <h2>Assessment of change</h2>
-            <p>A decrease in the biomass component of England’s Material Footprint has been observed over the short, medium and long-term assessment periods. England’s consumption of metal ores has decreased (an improvement) over the short, medium and long-term assessment periods. In the short-term, consumption of non-metallic mineral ores has increased (a deterioration), however in the long and medium-term assessment periods, consumption has decreased (an improvement). </p>
-<p>Change since 2018 has also been assessed. There has been little or no change in the consumption of biomass, metal ores, or non-metallic mineral materials, however this is based on 2 years of data and should be considered as indicative and not evidence of a clear trend. </p>
-<p>Further information on this assessment, along with details on the methodology, is provided in the <a href="/assessment/">Assessment background</a> page. Summaries by 25 Year Environment Plan goal and information on indicator links are presented in the <a href="/assessment/">Assessment results</a> pages.</p>
+            <p>A decrease in the biomass component of England’s Material Footprint has been observed over the short, medium and long-term assessment periods,however it is not possible to simplistically categorise any change in biomass consumption as either an ‘improvement’ or ‘deterioration’ for the environment. England’s consumption of metal ores has decreased (an improvement) over the short, medium and long-term assessment periods. In the short-term, consumption of non-metallic mineral ores has increased (a deterioration), and there has been little to no change over the medium term. However in the long-term assessment period, consumption has decreased (an improvement). </p>
+<p>Change since 2018 has also been assessed. There has been a decrease in the consumption of biomass, metal ores and non-metallic mineral materials, however this is based on 3 data points and should be considered as indicative and not evidence of a clear trend. </p>
+<p>Further information on this assessment, along with details on the methodology, is provided in the <a href="/assessment/#background">Assessment background</a> page. Summaries by 25 Year Environment Plan goal and information on indicator links are presented in the <a href="/assessment/#results">Assessment results</a> pages.</p>
             
                 <h4>Table J2a: Assessment of change</h4>
                 <table class="dataframe" id="j2a-assessment-table">
@@ -628,8 +655,8 @@
       <td>J2a</td>
       <td>Biomass</td>
       <td>Short term</td>
-      <td>2013 to 2018</td>
-      <td>-9.75</td>
+      <td>2014 to 2019</td>
+      <td>-16.49</td>
       <td>Loess</td>
       <td>Change (decreasing)</td>
     </tr>
@@ -637,8 +664,8 @@
       <td>J2a</td>
       <td>Biomass</td>
       <td>Medium term</td>
-      <td>2008 to 2018</td>
-      <td>-13.75</td>
+      <td>2009 to 2019</td>
+      <td>-21.00</td>
       <td>Loess</td>
       <td>Change (decreasing)</td>
     </tr>
@@ -646,8 +673,8 @@
       <td>J2a</td>
       <td>Biomass</td>
       <td>Long term</td>
-      <td>2001 to 2018</td>
-      <td>-26.11</td>
+      <td>2001 to 2019</td>
+      <td>-28.12</td>
       <td>Loess</td>
       <td>Change (decreasing)</td>
     </tr>
@@ -655,8 +682,8 @@
       <td>J2a</td>
       <td>Metal ores</td>
       <td>Short term</td>
-      <td>2013 to 2018</td>
-      <td>-14.66</td>
+      <td>2014 to 2019</td>
+      <td>-17.89</td>
       <td>Loess</td>
       <td>Improvement</td>
     </tr>
@@ -664,8 +691,8 @@
       <td>J2a</td>
       <td>Metal ores</td>
       <td>Medium term</td>
-      <td>2008 to 2018</td>
-      <td>-18.71</td>
+      <td>2009 to 2019</td>
+      <td>-17.68</td>
       <td>Loess</td>
       <td>Improvement</td>
     </tr>
@@ -673,8 +700,8 @@
       <td>J2a</td>
       <td>Metal ores</td>
       <td>Long term</td>
-      <td>2001 to 2018</td>
-      <td>-27.23</td>
+      <td>2001 to 2019</td>
+      <td>-20.56</td>
       <td>Loess</td>
       <td>Improvement</td>
     </tr>
@@ -682,8 +709,8 @@
       <td>J2a</td>
       <td>Non-metallic mineral materials</td>
       <td>Short term</td>
-      <td>2013 to 2018</td>
-      <td>8.19</td>
+      <td>2014 to 2019</td>
+      <td>4.38</td>
       <td>Loess</td>
       <td>Deterioration</td>
     </tr>
@@ -691,24 +718,24 @@
       <td>J2a</td>
       <td>Non-metallic mineral materials</td>
       <td>Medium term</td>
-      <td>2008 to 2018</td>
-      <td>-11.54</td>
+      <td>2009 to 2019</td>
+      <td>-0.84</td>
       <td>Loess</td>
-      <td>Improvement</td>
+      <td>Little or no change</td>
     </tr>
     <tr>
       <td>J2a</td>
       <td>Non-metallic mineral materials</td>
       <td>Long term</td>
-      <td>2001 to 2018</td>
-      <td>-31.28</td>
+      <td>2001 to 2019</td>
+      <td>-16.15</td>
       <td>Loess</td>
       <td>Improvement</td>
     </tr>
   </tbody>
 </table>
             
-            <p>Note that assessment categories were assigned based on smoothed data, so percent change figures in Table J2a may differ from unsmoothed values quoted elsewhere. Percent change refers to the difference seen between the first and last years in the specified date range. It is not possible to define a simplistic desired direction of change for the biomass component of this indicator so cannot assign ‘improvement’ or ‘deterioration’.</p>
+            <p>Note that assessment categories were assigned based on smoothed data, so percent change figures in Table J2a may differ from unsmoothed values quoted elsewhere. Percent change refers to the difference seen between the first and last years in the specified date range. It is not possible to define a simplistic desired direction of change for the biomass component of this indicator so we cannot assign ‘improvement’ or ‘deterioration’ label to these results.</p>
         
     </div>
 
@@ -743,7 +770,7 @@
     <div id="j2b-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="j2b" aria-labelledby="j2b-figure-tab" class="c-indicator-component-visualisation-tabpanel">
         <section class="l-column l-column--small-space">
             <h4>Figure
-                J2b: Gross value added per kg of raw material consumption (excluding fossil fuels) in England, 2001 to 2019</h4>
+                J2b: Gross value added per kg of raw material consumption (excluding fossil fuels) in England, 2001 to 2020</h4>
             <div id="j2b-figure-container" class="c-visualisation-container">
                 
                     <img src='j2b.svg' />
@@ -802,7 +829,7 @@
     <div id="j2b-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="j2b" aria-labelledby="j2b-table-tab" class="c-indicator-component-visualisation-tabpanel">
         <section class="l-column l-column--small-space">
             <h4>Table
-                J2b: Gross value added per kg of raw material consumption (excluding fossil fuels) in England, 2001 to 2019</h4>
+                J2b: Gross value added per kg of raw material consumption (excluding fossil fuels) in England, 2001 to 2020</h4>
             <div id="j2b-table-container" class="c-visualisation-container">
                 
                     <table class="dataframe" id="j2b-table">
@@ -815,55 +842,55 @@
   <tbody>
     <tr>
       <td>2001</td>
-      <td>1.42</td>
+      <td>1.71</td>
     </tr>
     <tr>
       <td>2002</td>
-      <td>1.32</td>
+      <td>1.52</td>
     </tr>
     <tr>
       <td>2003</td>
-      <td>1.30</td>
+      <td>1.48</td>
     </tr>
     <tr>
       <td>2004</td>
-      <td>1.36</td>
+      <td>1.39</td>
     </tr>
     <tr>
       <td>2005</td>
-      <td>1.44</td>
+      <td>1.48</td>
     </tr>
     <tr>
       <td>2006</td>
-      <td>1.56</td>
+      <td>1.59</td>
     </tr>
     <tr>
       <td>2007</td>
-      <td>1.64</td>
+      <td>1.66</td>
     </tr>
     <tr>
       <td>2008</td>
-      <td>1.88</td>
+      <td>1.92</td>
     </tr>
     <tr>
       <td>2009</td>
-      <td>2.08</td>
+      <td>2.14</td>
     </tr>
     <tr>
       <td>2010</td>
-      <td>2.20</td>
+      <td>2.22</td>
     </tr>
     <tr>
       <td>2011</td>
-      <td>2.15</td>
+      <td>2.13</td>
     </tr>
     <tr>
       <td>2012</td>
-      <td>2.24</td>
+      <td>2.12</td>
     </tr>
     <tr>
       <td>2013</td>
-      <td>2.27</td>
+      <td>2.34</td>
     </tr>
     <tr>
       <td>2014</td>
@@ -871,23 +898,27 @@
     </tr>
     <tr>
       <td>2015</td>
-      <td>2.00</td>
+      <td>1.95</td>
     </tr>
     <tr>
       <td>2016</td>
-      <td>2.34</td>
+      <td>2.49</td>
     </tr>
     <tr>
       <td>2017</td>
-      <td>2.48</td>
+      <td>2.60</td>
     </tr>
     <tr>
       <td>2018</td>
-      <td>2.30</td>
+      <td>2.27</td>
     </tr>
     <tr>
       <td>2019</td>
-      <td>2.37</td>
+      <td>2.33</td>
+    </tr>
+    <tr>
+      <td>2020</td>
+      <td>2.34</td>
     </tr>
   </tbody>
 </table>
@@ -946,13 +977,13 @@
         
         <section class="l-column l-column--small-space">
             <h4>Trend description for J2b</h4>
-            <p>In 2019, England generated approximately 66.7% more economic value than in 2001 (measured by GVA per unit of RMC (excluding fossil fuels), also described as resource productivity). Resource productivity measured on this basis, rose from a low of £1.30 of GVA per kg of RMC in 2003 to a peak of £2.27 in 2013. It then declined to £2.00 in 2015 before rising to a new high of £2.48 in 2017.</p>
+            <p>In 2020, England generated approximately 36.5% more economic value than in 2001 (measured by gross value added per unit of raw material consumption (excluding fossil fuels), also described as resource productivity). Resource productivity measured on this basis rose from a low of £1.39 of gross value added per kg of raw material consumption in 2004 to a peak of £2.34 in 2013. It then declined to £1.95 in 2015 before rising to a new high of £2.60 in 2017. Since, it has declined to £2.32 in 2020.</p>
         </section>
         
             <h2>Assessment of change</h2>
-            <p>J2b Gross value added per kg of raw material consumption (excluding fossil fuels) in England has been assessed to be 'improving' over the short, medium, and long term, though progress has slowed over the last five years.</p>
-<p>Change since 2018 has also been assessed. An increase in gross value added per kg of raw material consumption production was found. However, this is based on 2 years of data so should be considered as indicative and not evidence of a clear trend. </p>
-<p>Further information on this assessment, along with details on the methodology, is provided in the <a href="/assessment/">Assessment background</a> page. Summaries by 25 Year Environment Plan goal and information on indicator links are presented in the <a href="/assessment/">Assessment results</a> pages.</p>
+            <p>Gross value added per kg of raw material consumption (excluding fossil fuels) in England has been assessed to be 'improving' over the short, medium, and long term, though progress has slowed over the last 5 years.</p>
+<p>Change since 2018 has also been assessed. There has been little or no change in gross value added per kg of raw material consumption. However, this is based on 3 years of data so should be considered as indicative and not evidence of a clear trend. </p>
+<p>Further information on this assessment, along with details on the methodology, is provided in the <a href="/assessment/#background">Assessment background</a> page. Summaries by 25 Year Environment Plan goal and information on indicator links are presented in the <a href="/assessment/#results">Assessment results</a> pages.</p>
             
                 <h4>Table J2b: Assessment of change</h4>
                 <table class="dataframe" id="j2b-assessment-table">
@@ -972,8 +1003,8 @@
       <td>J2b</td>
       <td>None</td>
       <td>Short term</td>
-      <td>2013 to 2018</td>
-      <td>8.32</td>
+      <td>2014 to 2019</td>
+      <td>7.10</td>
       <td>Loess</td>
       <td>Improvement</td>
     </tr>
@@ -981,8 +1012,8 @@
       <td>J2b</td>
       <td>None</td>
       <td>Medium term</td>
-      <td>2008 to 2018</td>
-      <td>25.37</td>
+      <td>2009 to 2019</td>
+      <td>16.52</td>
       <td>Loess</td>
       <td>Improvement</td>
     </tr>
@@ -990,8 +1021,8 @@
       <td>J2b</td>
       <td>None</td>
       <td>Long term</td>
-      <td>2001 to 2018</td>
-      <td>73.65</td>
+      <td>2001 to 2019</td>
+      <td>48.20</td>
       <td>Loess</td>
       <td>Improvement</td>
     </tr>
@@ -1052,9 +1083,7 @@
                 <dt class="c-indicator-metadata__key">Relevant target(s) in the 25 Year Environment Plan</dt>
             
             
-                
-                    <dd class="c-indicator-metadata__values">Maximising the value and benefits we get from our resources, doubling resource productivity by 2050</dd>
-                
+                <dd class="c-indicator-metadata__value">Maximising the value and benefits we get from our resources, doubling resource productivity by 2050</dd>
               
             </div>
         
@@ -1120,7 +1149,7 @@
                 <dt class="c-indicator-metadata__key">Last Updated</dt>
             
             
-                <dd class="c-indicator-metadata__value">2023</dd>
+                <dd class="c-indicator-metadata__value">2024</dd>
               
             </div>
         
@@ -1131,7 +1160,7 @@
                 <dt class="c-indicator-metadata__key">Latest Data</dt>
             
             
-                <dd class="c-indicator-metadata__value">2019</dd>
+                <dd class="c-indicator-metadata__value">2020</dd>
               
             </div>
         
@@ -1252,7 +1281,7 @@
             
                 initialiseFigureVisualisations(
                     "j2a",
-                    {"data":[{"alignmentgroup":"True","hovertemplate":"%{y:.2f}","legendgroup":"Non-metallic mineral materials","marker":{"color":"#12436D","pattern":{"shape":""}},"name":"Non-metallic mineral materials","offsetgroup":"Non-metallic mineral materials","orientation":"v","showlegend":true,"textposition":"auto","x":[2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"xaxis":"x","y":[10.688941890374656,12.238733367514325,13.472556189868214,12.110888861841566,11.67185450111428,11.194663774924893,10.88400138259092,9.05593139847612,7.332545978816335,6.932975497169542,7.268281667603576,6.834396214928194,6.795525325379844,8.40415394331426,8.804611027427269,7.512288117251538,7.253708649431916,8.236105817732529,8.020688696026568],"yaxis":"y","type":"bar"},{"alignmentgroup":"True","hovertemplate":"%{y:.2f}","legendgroup":"Biomass","marker":{"color":"#801650","pattern":{"shape":""}},"name":"Biomass","offsetgroup":"Biomass","orientation":"v","showlegend":true,"textposition":"auto","x":[2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"xaxis":"x","y":[5.44692182252684,5.418668798423565,5.112515576667591,5.767297525989377,5.593147601694848,5.107363316059664,4.832422226286995,4.565773669788016,4.430432437870499,4.307119373328486,4.335368064952832,4.365130323227608,4.325349117063678,4.727971065585916,4.634431060725155,4.177366367163062,3.930314486401661,3.944893056977613,3.994364159176131],"yaxis":"y","type":"bar"},{"alignmentgroup":"True","hovertemplate":"%{y:.2f}","legendgroup":"Metal ores","marker":{"color":"#F46A25","pattern":{"shape":""}},"name":"Metal ores","offsetgroup":"Metal ores","orientation":"v","showlegend":true,"textposition":"auto","x":[2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"xaxis":"x","y":[1.3787888631256735,1.468378773987836,1.3358293768761282,1.5297138090500293,1.481876948895008,1.4458064038280638,1.424333387869322,1.2448985839050422,1.038313665055343,1.0807416584543197,1.1242822711090694,1.1952970368982148,1.2878404189002866,1.2097693545115138,1.16236048496978,1.0123367016090017,0.9821226418376396,1.032305683146146,0.997930984237926],"yaxis":"y","type":"bar"},{"line":{"color":"#3F94DE"},"name":"Total","x":[2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"y":[17.51465257602717,19.125780939925725,19.920901143411935,19.407900196880973,18.746879051704138,17.74783349481262,17.140756996747236,14.866603652169179,12.801292081742176,12.320836528952348,12.727932003665478,12.394823575054016,12.408714861343809,14.34189436341169,14.601402573122204,12.701991186023601,12.166145777671217,13.213304557856286,13.012983839440624],"type":"scatter"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":""},"dtick":1,"automargin":true,"range":[2000.5,2019.5]},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Tonnes / capita"},"showgrid":true,"dtick":2,"automargin":true},"legend":{"title":{"text":""},"tracegroupgap":0,"yanchor":"bottom","y":-0.45,"xanchor":"center","x":0.5,"orientation":"h"},"margin":{"t":60},"barmode":"group","hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true,"hovermode":"x unified"}},
+                    {"data":[{"alignmentgroup":"True","hovertemplate":"%{y:.2f}","legendgroup":"Non-metallic mineral materials","marker":{"color":"#12436D","pattern":{"shape":""}},"name":"Non-metallic mineral materials","offsetgroup":"Non-metallic mineral materials","orientation":"v","showlegend":true,"textposition":"auto","x":[2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020],"xaxis":"x","y":[8.61480663621609,9.943786006343451,11.21670908285236,11.515182908121592,10.986832123615931,10.713195474259624,10.587552117663204,8.723199056474087,6.8203962263207485,6.781599003025163,7.43779055516968,7.419616029450605,6.417070326973473,8.368536517139066,9.21386971653904,6.927232622657144,6.79617173444128,8.529352272763035,8.269598735594359,7.580873764408564],"yaxis":"y","type":"bar"},{"alignmentgroup":"True","hovertemplate":"%{y:.2f}","legendgroup":"Biomass","marker":{"color":"#F46A25","pattern":{"shape":""}},"name":"Biomass","offsetgroup":"Biomass","orientation":"v","showlegend":true,"textposition":"auto","x":[2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020],"xaxis":"x","y":[4.792744537049796,5.394604554048674,5.127638437875365,6.0165834571846375,5.809583892703388,5.2781127886004375,5.099151939021616,4.728282674416264,4.521386262392406,4.369097396906968,4.293205687540979,4.485410194126311,4.32132192538965,4.690058927187828,4.506585782148797,3.9248289271973897,3.829588834486753,3.790823232339127,3.859146076610701,3.355468715393955],"yaxis":"y","type":"bar"},{"alignmentgroup":"True","hovertemplate":"%{y:.2f}","legendgroup":"Metal ores","marker":{"color":"#801650","pattern":{"shape":""}},"name":"Metal ores","offsetgroup":"Metal ores","orientation":"v","showlegend":true,"textposition":"auto","x":[2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020],"xaxis":"x","y":[1.0920177426189408,1.2278764096901833,1.1016410706372854,1.4344172480705095,1.3832342601674734,1.3146228878670236,1.2845191907459033,1.1193485514944626,0.9962376510356148,0.9877959332137493,1.016811873364969,1.1213525485315776,1.2055189920614906,1.1771128287843962,1.0947171940442422,0.9043384624878776,0.8989645151377353,0.9834682914087356,0.9781245816294404,0.8166749254397986],"yaxis":"y","type":"bar"},{"line":{"color":"#3F94DE"},"mode":"lines+markers","name":"Total","x":[2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020],"y":[14.499568915884826,16.566266970082307,17.445988591365012,18.96618361337674,18.179650276486797,17.305931150727087,16.971223247430725,14.570830282384811,12.33802013974877,12.13849233314588,12.747808116075628,13.026378772108494,11.943911244424614,14.23570827311129,14.815172692732078,11.75640001234241,11.524725084065768,13.303643796510896,13.1068693938345,11.753017405242318],"type":"scatter"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":""},"dtick":1,"automargin":true,"range":[2000.5,2020.5]},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Tonnes \u002f capita"},"showgrid":true,"dtick":2,"automargin":true},"legend":{"title":{"text":""},"tracegroupgap":0,"yanchor":"bottom","y":-0.45,"xanchor":"center","x":0.5,"orientation":"h"},"margin":{"t":60},"barmode":"group","hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true,"hovermode":"x unified"}},
                     {"displayModeBar":false,"responsive":true}
                 )
             
@@ -1272,7 +1301,7 @@
             
                 initialiseFigureVisualisations(
                     "j2b",
-                    {"data":[{"hovertemplate":"%{y:.2f}","legendgroup":"","line":{"color":"#12436D","dash":"solid"},"marker":{"symbol":"circle"},"mode":"lines+markers","name":"","orientation":"v","showlegend":false,"x":[2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"xaxis":"x","y":[1.422086460993484,1.3235592704344026,1.3041573771359276,1.361711576335363,1.4412959057980608,1.5577721506809334,1.6432042784391716,1.8807688654883723,2.075622097295101,2.1970487165938777,2.1502583264287765,2.2392447850388573,2.2671886053095167,2.0066368443291656,2.0025793347342025,2.3361982138167425,2.478411573330001,2.3046350401053672,2.369926935921099],"yaxis":"y","type":"scatter"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":""},"range":[2001,2019],"dtick":1},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"\u00a3 / kg"},"range":[0.0,3.0],"showgrid":true,"dtick":0.5,"tickformat":".2f"},"legend":{"tracegroupgap":0,"title":{"text":""},"yanchor":"bottom","y":-0.25,"xanchor":"center","x":0.5,"orientation":"h"},"margin":{"t":60},"hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"hovermode":"x unified"}},
+                    {"data":[{"hovertemplate":"%{y:.2f}","legendgroup":"","line":{"color":"#12436D","dash":"solid"},"marker":{"symbol":"circle"},"mode":"lines+markers","name":"","orientation":"v","showlegend":false,"x":[2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020],"xaxis":"x","y":[1.7119554,1.5178931,1.4809322,1.3862574,1.4817663,1.5894116,1.6566377,1.9169377,2.1420124,2.2224507,2.1324136,2.1159484,2.3350108,2.0086203,1.9533252,2.48964,2.5955539,2.2667406,2.328954,2.3360968],"yaxis":"y","type":"scatter"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":""},"range":[2001,2020.5],"dtick":1},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"\u00a3 \u002f kg"},"range":[0.0,3.0],"showgrid":true,"dtick":0.5,"tickformat":".2f"},"legend":{"tracegroupgap":0,"title":{"text":""},"yanchor":"bottom","y":-0.25,"xanchor":"center","x":0.5,"orientation":"h"},"margin":{"t":60},"hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"hovermode":"x unified"}},
                     {"displayModeBar":false,"responsive":true}
                 )
             

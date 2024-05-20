@@ -1,0 +1,73 @@
+UKMS sub region,Regional Sea,Result type,value
+Greater North Sea,Northern North Sea,Regional Sea Assessment results,Above GES target
+Greater North Sea,Southern North Sea,Regional Sea Assessment results,Below GES target
+Greater North Sea,Eastern Channel,Regional Sea Assessment results,Above GES target
+Celtic Seas,Western Channel and Celtic Seas,Regional Sea Assessment results,Below GES target
+Celtic Seas,Irish Sea,Regional Sea Assessment results,Below GES target
+Celtic Seas,Minches and Western Scotland,Regional Sea Assessment results,Above GES target
+Celtic Seas,Scottish Continental Shelf,Regional Sea Assessment results,Above GES target
+Celtic Seas,Atlantic North-West Approaches,Regional Sea Assessment results,No data
+Celtic Seas,Shared waters between N. Ireland and Rep of Ireland,Regional Sea Assessment results,Above GES target
+Greater North Sea,Northern North Sea,Water body classification results (high),2
+Greater North Sea,Southern North Sea,Water body classification results (high),0
+Greater North Sea,Eastern Channel,Water body classification results (high),1
+Celtic Seas,Western Channel and Celtic Seas,Water body classification results (high),2
+Celtic Seas,Irish Sea,Water body classification results (high),5
+Celtic Seas,Minches and Western Scotland,Water body classification results (high),3
+Celtic Seas,Scottish Continental Shelf,Water body classification results (high),0
+Celtic Seas,Atlantic North-West Approaches,Water body classification results (high),No data
+Celtic Seas,Shared waters between N. Ireland and Rep of Ireland,Water body classification results (high),0
+Greater North Sea,Northern North Sea,Water body classification results (good),7
+Greater North Sea,Southern North Sea,Water body classification results (good),4
+Greater North Sea,Eastern Channel,Water body classification results (good),1
+Celtic Seas,Western Channel and Celtic Seas,Water body classification results (good),12
+Celtic Seas,Irish Sea,Water body classification results (good),16
+Celtic Seas,Minches and Western Scotland,Water body classification results (good),5
+Celtic Seas,Scottish Continental Shelf,Water body classification results (good),4
+Celtic Seas,Atlantic North-West Approaches,Water body classification results (good),No data
+Celtic Seas,Shared waters between N. Ireland and Rep of Ireland,Water body classification results (good),3
+Greater North Sea,Northern North Sea,Water body classification results (moderate),0
+Greater North Sea,Southern North Sea,Water body classification results (moderate),2
+Greater North Sea,Eastern Channel,Water body classification results (moderate),0
+Celtic Seas,Western Channel and Celtic Seas,Water body classification results (moderate),3
+Celtic Seas,Irish Sea,Water body classification results (moderate),7
+Celtic Seas,Minches and Western Scotland,Water body classification results (moderate),2
+Celtic Seas,Scottish Continental Shelf,Water body classification results (moderate),0
+Celtic Seas,Atlantic North-West Approaches,Water body classification results (moderate),No data
+Celtic Seas,Shared waters between N. Ireland and Rep of Ireland,Water body classification results (moderate),0
+Greater North Sea,Northern North Sea,Offshore assessment results (high),28
+Greater North Sea,Southern North Sea,Offshore assessment results (high),14
+Greater North Sea,Eastern Channel,Offshore assessment results (high),1
+Celtic Seas,Western Channel and Celtic Seas,Offshore assessment results (high),0
+Celtic Seas,Irish Sea,Offshore assessment results (high),2
+Celtic Seas,Minches and Western Scotland,Offshore assessment results (high),No data
+Celtic Seas,Scottish Continental Shelf,Offshore assessment results (high),0
+Celtic Seas,Atlantic North-West Approaches,Offshore assessment results (high),No data
+Celtic Seas,Shared waters between N. Ireland and Rep of Ireland,Offshore assessment results (high),No data
+Greater North Sea,Northern North Sea,Offshore assessment results (good),27
+Greater North Sea,Southern North Sea,Offshore assessment results (good),51
+Greater North Sea,Eastern Channel,Offshore assessment results (good),1
+Celtic Seas,Western Channel and Celtic Seas,Offshore assessment results (good),3
+Celtic Seas,Irish Sea,Offshore assessment results (good),12
+Celtic Seas,Minches and Western Scotland,Offshore assessment results (good),No data
+Celtic Seas,Scottish Continental Shelf,Offshore assessment results (good),3
+Celtic Seas,Atlantic North-West Approaches,Offshore assessment results (good),No data
+Celtic Seas,Shared waters between N. Ireland and Rep of Ireland,Offshore assessment results (good),No data
+Greater North Sea,Northern North Sea,Offshore assessment results (moderate),1
+Greater North Sea,Southern North Sea,Offshore assessment results (moderate),28
+Greater North Sea,Eastern Channel,Offshore assessment results (moderate),0
+Celtic Seas,Western Channel and Celtic Seas,Offshore assessment results (moderate),0
+Celtic Seas,Irish Sea,Offshore assessment results (moderate),5
+Celtic Seas,Minches and Western Scotland,Offshore assessment results (moderate),No data
+Celtic Seas,Scottish Continental Shelf,Offshore assessment results (moderate),0
+Celtic Seas,Atlantic North-West Approaches,Offshore assessment results (moderate),No data
+Celtic Seas,Shared waters between N. Ireland and Rep of Ireland,Offshore assessment results (moderate),No data
+Greater North Sea,Northern North Sea,Offshore assessment results (poor),0
+Greater North Sea,Southern North Sea,Offshore assessment results (poor),1
+Greater North Sea,Eastern Channel,Offshore assessment results (poor),0
+Celtic Seas,Western Channel and Celtic Seas,Offshore assessment results (poor),0
+Celtic Seas,Irish Sea,Offshore assessment results (poor),0
+Celtic Seas,Minches and Western Scotland,Offshore assessment results (poor),No data
+Celtic Seas,Scottish Continental Shelf,Offshore assessment results (poor),0
+Celtic Seas,Atlantic North-West Approaches,Offshore assessment results (poor),No data
+Celtic Seas,Shared waters between N. Ireland and Rep of Ireland,Offshore assessment results (poor),No data

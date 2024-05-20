@@ -1,5 +1,5 @@
 {
-    "schema:name": "Emissions of mercury to air, land and water, England, 2016 to 2020",
+    "schema:name": "Emissions of mercury to air, land and water, England, 2016 to 2021",
     "url": "h3a.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -10,8 +10,7 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:name": "Pollution Inventory",
-            "schema:url": "https://www.data.gov.uk/dataset/cfd94301-a2f2-48a2-9915-e477ca6d8b7e/pollution-inventory",
+            "schema:name": "Pollution Inventory, 2021",
             "@type": "Dataset",
             "schema:author": {
                 "schema:alternateName": "EA",
@@ -19,29 +18,29 @@
                 "schema:sameAs": "https://ror.org/01zewfb16",
                 "@type": "schema:GovernmentOrganization"
             },
-            "schema:dateModified": "2022-11-02",
-            "schema:datePublished": "2022-11-02"
+            "schema:dateModified": "2023-11-15",
+            "schema:datePublished": "2023-11-10"
         },
         {
-            "schema:name": "Air Pollutant Inventories for England, Scotland, Wales and Northern Ireland",
-            "schema:url": "https://naei.beis.gov.uk/reports/reports?report_id=1100",
+            "schema:sameAs": "https://naei.beis.gov.uk/reports/reports?report_id=1131",
             "@type": "Dataset",
             "schema:author": {
-                "schema:alternateName": "NAEI",
-                "schema:name": "National Atmospheric Emissions Inventory",
-                "schema:sameAs": "https://naei.beis.gov.uk/",
-                "@type": "schema:GovernmentOrganization"
+                "schema:alternateName": "Ricardo AEA",
+                "schema:name": "Ricardo Energy and Environment",
+                "schema:sameAs": "https://ror.org/03nbbc502",
+                "@type": "schema:Organization"
             },
-            "schema:dateModified": "2022-10-25",
-            "schema:datePublished": "2022-10-25"
+            "schema:dateModified": "2023-10-26",
+            "schema:datePublished": "2023-10-26",
+            "schema:headline": "Devolved Administration Air Pollutants Inventory (2005-2021)"
         }
     ],
     "schema:keywords": [
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "2016/2020",
-    "schema:version": "2022-11-02",
+    "schema:temporalCoverage": "2016/2021",
+    "schema:version": "2023-10-26",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Emissions of mercury, kg",
     "@context": "http://www.w3.org/ns/csvw",
@@ -59,7 +58,7 @@
                 "datatype": {
                     "base": "integer",
                     "minimum": "2016",
-                    "maximum": "2020",
+                    "maximum": "2021",
                     "@type": "Datatype"
                 },
                 "default": "",

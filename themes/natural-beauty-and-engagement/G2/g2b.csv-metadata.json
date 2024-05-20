@@ -1,5 +1,5 @@
 {
-    "schema:name": "Condition of Scheduled Monuments in England (based on entries with archaeological assessments), 2019 to 2021",
+    "schema:name": "Condition of Scheduled Monuments in England (based on entries with archaeological assessments), 2019 to 2023",
     "url": "g2b.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -24,11 +24,11 @@
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "2019/2021",
+    "schema:temporalCoverage": "2019/2023",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "percentage of monuments by condition",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "Based on the archaeological assessments of the 19,921 Scheduled Monuments that had been assessed by August 2021. Of these, 16.0% have been subject to new or updated condition assessments since 2015 and 29.7% have been assessed since 2011. A further 1.1% of all features are still to be assessed. As of August 2019, 19,848 Scheduled Monuments had archaeological assessments in place.\n    \n</br>This indicator is updated biennially; the next scheduled update, using 2023 data, will take place in 2024.",
+    "notes": "Based on the archaeological assessments of the 19,955 Scheduled Monuments that had been assessed by August 2023. Of these, 19% have been subject to new or updated condition assessments since 2017 and 32% have been assessed since 2013. A further 1% of all features are still to be assessed. As of August 2019, 19,848 Scheduled Monuments had archaeological assessments in place.\n    \n</br>This indicator is updated biennially; the next scheduled update, using 2025 data, will take place in 2026.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -42,7 +42,7 @@
                 "datatype": {
                     "base": "integer",
                     "minimum": "2019",
-                    "maximum": "2021",
+                    "maximum": "2023",
                     "@type": "Datatype"
                 },
                 "default": "",

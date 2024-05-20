@@ -6,7 +6,7 @@ A1,PM2.5,Clean air,A1 Emissions of fine particulate matter (PM2.5) in England
 A1,SO2,Clean air,A1 Emissions of sulphur dioxide (SO2) in England
 A3,,Clean air,A3 Concentrations of fine particulate matter (PM2.5) in the air in England
 A4,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),Clean air,A4 Rural background concentrations of ozone (O3) in England
-A5,Annual Mean NO2 concentration (µg/m3),Clean air,A5 Roadside nitrogen dioxide (NO2) concentrations in England
+A5,Annual mean NO2 concentration (µg/m3),Clean air,A5 Roadside nitrogen dioxide (NO2) concentrations in England
 A6,,Clean air,A6 Exceedances of damaging levels of nutrient nitrogen deposition on ecosystems in England
 A7,,Clean air,A7 Area of land in England exposed to damaging levels of ammonia (NH3) in the atmosphere
 B1a,Cadmium,Clean and plentiful water,B1a Riverine inputs of selected metals into English tidal waters (cadmium)
@@ -51,53 +51,52 @@ C4i,,Thriving plants and wildlife,C4i Regional sea assessments and the status of
 C4ii,,Thriving plants and wildlife,C4ii Regional sea assessments and the status of coastal water bodies and offshore units - Rocky shore macroalgae
 C4iii,,Thriving plants and wildlife,C4iii Regional sea assessments and the status of coastal water bodies and offshore units - Saltmarsh
 C4iv,,Thriving plants and wildlife,C4iv Regional sea assessments and the status of coastal water bodies and offshore units - Soft sediment invertebrates
-C5a,,Thriving plants and wildlife,C5a Changes in plankton communities
+C5a,,Thriving plants and wildlife,C5a Changes in phytoplankton and zooplankton communities
 C5b,,Thriving plants and wildlife,C5b Changes in phytoplankton biomass and zooplankton abundance
-C6,,Thriving plants and wildlife,C6 Status of threatened and declining features
+C6a,,Thriving plants and wildlife,C6a Status of UK relevant OSPAR threatened and/or declining species and habitats
+C6b,,Thriving plants and wildlife,C6b Status of Habitats Directive Article 17 listed costal and marine features
 C7ai,,Thriving plants and wildlife,C7ai Typical length of demersal fish communities
 C7aii,,Thriving plants and wildlife,C7aii Typical length of pelagic fish communities
 C7bi,,Thriving plants and wildlife,C7bi Mean maximum length of demersal fish communities
 C7bii,,Thriving plants and wildlife,C7bii Mean maximum length pelagic fish communities
-C8,,Thriving plants and wildlife,C8 Marine food webs functioning
-C9,,Thriving plants and wildlife,C9 Seafloor habitats functioning
+C8,,Thriving plants and wildlife,C8 Change in the biomass of fish feeding guilds in UK waters and surrounding areas
+C9,,Thriving plants and wildlife,C9 Extent and distribution of potential habitat for seagrass beds and horse mussel reefs
 D1,,Thriving plants and wildlife,"D1 Quantity, quality and connectivity of habitats"
-D2a,At sea,Thriving plants and wildlife,D2a Extent of protected sites in England (sites at sea)
-D2a,On land,Thriving plants and wildlife,D2a Extent of protected sites in England (sites on land and water)
+D2a,Extent at sea,Thriving plants and wildlife,D2a Extent of protected sites in England (sites at sea)
+D2a,Extent on land,Thriving plants and wildlife,D2a Extent of protected sites in England (sites on land and water)
 D2b,Favourable condition,Thriving plants and wildlife,D2b Condition of Sites of Special Scientific Interest in England (favourable condition)
 D3,Total woodland,Thriving plants and wildlife,D3 Area of woodland in England
-D4ai,Breeding wild birds in woodland,Thriving plants and wildlife,"D4ai Breeding wild birds in woodland, England"
-D4aii,Breeding wild birds on farmland,Thriving plants and wildlife,"D4aii Breeding wild birds on farmland, England"
-D4bi,Widespread butterflies in woodland,Thriving plants and wildlife,"D4bi Widespread butterflies in woodland, England"
-D4bii,Widespread butterflies on farmland,Thriving plants and wildlife,"D4bii Widespread butterflies on farmland, England"
-D4c,Abundance of widespread bats,Thriving plants and wildlife,"D4c Widespread bats, England"
-D5,,Thriving plants and wildlife,D5 Conservation status of our native species
-D6ai,,Thriving plants and wildlife,D6ai Relative abundance of priority species in England
-D6bi,,Thriving plants and wildlife,D6bi Distribution of priority species in England
-D7i,,Thriving plants and wildlife,D7i Distribution of pollinators in the UK
+D4i,Smoothed index (options 1 and 2),Thriving plants and wildlife,D4i Relative abundance of all species in England
+D5i,,Thriving plants and wildlife,D5i Conservation status of our native species
+D6ai,Smoothed index (options 1 and 2),Thriving plants and wildlife,D6ai Relative abundance of priority species in England
+D6bi,Smoothed index,Thriving plants and wildlife,D6bi Distribution of priority species in England
+D7i,Unsmoothed index,Thriving plants and wildlife,D7i Distribution of pollinators in the UK
 C10a,below FMSY or in FMSY range,Using resources from nature more sustainably and efficiently,C10a Marine fish (quota) stocks of UK interest harvested sustainably (below FMSY or in FMSY range)
 C10b,Percentage greater than or equal to MSY Btrigger,Using resources from nature more sustainably and efficiently,C10b Marine fish (quota) stocks of UK interest with biomass at levels capable of maintaining full reproductive capacity (above MSY Btrigger)
-C11i,"Occurence of sensitive fish species, Greater North Sea",Using resources from nature more sustainably and efficiently,"C11i Status of sensitive fish and shellfish stocks, Greater North Sea"
-C11ii,"Occurence of sensitive fish species, Celtic Seas",Using resources from nature more sustainably and efficiently,"C11ii Status of sensitive fish and shellfish stocks, Celtic Seas"
+C11,"Occurence of sensitive fish species, Greater North Sea",Using resources from nature more sustainably and efficiently,"C11 Long-term and short-term changes in the occurrence of sensitive fish species, Greater North Sea and Celtic Seas"
 E1,Productive agricultural land,Using resources from nature more sustainably and efficiently,E1 Area of productive agricultural land in England
 E2,,Using resources from nature more sustainably and efficiently,E2 Volume of agricultural production in England
 E3,,Using resources from nature more sustainably and efficiently,E3 Volume of inputs used in agricultural production in England
-E4,,Using resources from nature more sustainably and efficiently,E4 Efficiency of agricultural production measured by Total Factor Productivity in England
+E4,Total factor productivity,Using resources from nature more sustainably and efficiently,E4 Efficiency of agricultural production measured by Total Factor Productivity in England
 E5,Hardwood and softwood,Using resources from nature more sustainably and efficiently,E5 Percentage of the annual growth of trees in English woodlands that is harvested
 E6,Softwood and hardwood removals from all English sources,Using resources from nature more sustainably and efficiently,E6 Volume of timber brought to market from English sources
 E7,,Using resources from nature more sustainably and efficiently,E7 Healthy soils
 E8a,,Using resources from nature more sustainably and efficiently,E8a Water leakage in England
 E8b,,Using resources from nature more sustainably and efficiently,E8b Per capita water consumption in England
-E9,,Using resources from nature more sustainably and efficiently,"E9 Percentage of our seafood coming from healthy ecosystems, produced sustainably"
+E9a,Percentage sustainable,Using resources from nature more sustainably and efficiently,E9a Landings of quota fish and shellfish into English ports by sustainability status (percentage sustainable)
+E9b,,Using resources from nature more sustainably and efficiently,E9b Matrix of environmental management metrics for English aquaculture
 J2a,Biomass,Using resources from nature more sustainably and efficiently,J2a Raw material consumption per capita in England (biomass)
 J2a,Metal ores,Using resources from nature more sustainably and efficiently,J2a  Raw material consumption per capita in England (metal ores)
 J2a,Non-metallic mineral materials,Using resources from nature more sustainably and efficiently,J2a  Raw material consumption per capita in England (non-metalic mineral ores)
 J2b,,Using resources from nature more sustainably and efficiently,J2b Gross value added per kg of raw material consumption (excluding fossil fuels) in England
 D3,Total woodland,"Enhancing beauty, heritage and engagement with the natural environment",D3 Area of woodland in England
-G1,,"Enhancing beauty, heritage and engagement with the natural environment",G1 Changes in landscape and waterscape character
+G1a,,"Enhancing beauty, heritage and engagement with the natural environment","G1a Changes in the landscape characteristics of NCAs in England, overall and within and outside of protected landscapes"
+G1b,,"Enhancing beauty, heritage and engagement with the natural environment",G1b The influence of agri-environment schemes in conserving and enhancing landscape character in England
+G1c,,"Enhancing beauty, heritage and engagement with the natural environment","G1c Spatial changes in visual and experiential landscape character in England, overall and by key attributes of character"
 G2a,,"Enhancing beauty, heritage and engagement with the natural environment",G2a Condition of geological and geomorphological heritage features of Sites of Special Scientific Interest in England (favourable or unfavourable recovering)
 G2b,,"Enhancing beauty, heritage and engagement with the natural environment",G2b Condition of Scheduled Monuments in England (optimal or generally satisfactory)
 G3a,,"Enhancing beauty, heritage and engagement with the natural environment",G3a Percentage of the total population in England living in close proximity of greenspace
-G3bi,,"Enhancing beauty, heritage and engagement with the natural environment",G3bi Adult’s mean overall levels of expectation and perception of the quality of green and natural spaces in England
+G3bi,,"Enhancing beauty, heritage and engagement with the natural environment",G3bi Adult's mean overall levels of expectation and perception of the quality of green and natural spaces in England
 G4a,At least once a week,"Enhancing beauty, heritage and engagement with the natural environment",G4a Frequency of adult visits to the natural environment in the past 12 months in England
 G4b,,"Enhancing beauty, heritage and engagement with the natural environment",G4b Frequency of adult visits to green and natural spaces in the past 12 months in England
 G4c,In school,"Enhancing beauty, heritage and engagement with the natural environment","G4c Frequency of time spent outside in the last week by children in England, in school"
@@ -115,17 +114,18 @@ G7b,,"Enhancing beauty, heritage and engagement with the natural environment",G7
 H5,,"Enhancing beauty, heritage and engagement with the natural environment",H5 Exposure to transport noise
 A2,Net total including forestry sink,Mitigating and adapting to climate change,A2 Emissions of greenhouse gases from natural resources in England (net total)
 J1,Total,Mitigating and adapting to climate change,J1 Consumption based greenhouse gas emissions in England (total)
-C1a,Celtic Seas,Minimising waste,"C1a Items of litter per 100m of beach, Celtic Seas"
-C1a,Greater North Sea,Minimising waste,"C1a Items of litter per 100m of beach, Greater North Sea"
+C1a,Observed values,Minimising waste,"C1a Items of litter per 100m of beach, England"
 C1b,,Minimising waste,"C1b Percentage of sampled fulmars having more than 0.1 g of plastic in their stomach, UK"
 C1ci,Celtic Seas,Minimising waste,"C1ci Mean probability that benthic trawl surveys contain a litter item, Celtic Seas"
 C1ci,Greater North Sea,Minimising waste,"C1ci Mean probability that benthic trawl surveys contain a litter item, Greater North Sea"
 J1,Total,Minimising waste,J1 Consumption based greenhouse gas emissions in England (total)
-J3,,Minimising waste,J3 Waste from households recycling rates in England
-J4,Total waste,Minimising waste,J4 Residual waste (excluding major mineral wastes) in England (total)
+J3,Waste from households recycling rate,Minimising waste,J3 Waste from households recycling rates in England
+J4i,,Minimising waste,J4i Residual waste (excluding major mineral wastes) in England (kilograms per capita)
+J4ii,,Minimising waste,J4ii Residual waste (excluding major mineral wastes) in England (total)
 J6a,Total active sites,Minimising waste,J6a Illegal waste sites in England (total active sites)
 J6b,Old Methodology,Minimising waste,J6b Fly-tipping incidents in England (old methodology)
-H3a,,Managing exposure to chemicals,"H3a Emissions of mercury to air land and water, England"
+H3a,Larger industrial sites,Managing exposure to chemicals,"H3a Emissions of mercury from larger industrial sites to air land and water, England"
+H3a,Crematoria,Managing exposure to chemicals,"H3a Emissions of mercury from crematoria to air land and water, England"
 H3b,Dioxin-like Polychlorinated Biphenyls,Managing exposure to chemicals,"H3b Emissions of dioxin-like polychlorinated biphenyl to air, land and water, England"
 H3b,Dioxins and Furans,Managing exposure to chemicals,"H3b Emissions of dioxins and furans to air, land and water, England"
 H3b,Hexachlorobenzene,Managing exposure to chemicals,"H3b Emissions of hexachlorobenzene to air, land and water, England"
@@ -134,7 +134,7 @@ H3b,Polychlorinated Biphenyls,Managing exposure to chemicals,"H3b Emissions of p
 H3b,Polychlorinated Naphthalenes,Managing exposure to chemicals,"H3b Emissions of polychlorinated naphthalenes to air, land and water, England"
 H3b,Pentachlorobenzine,Managing exposure to chemicals,"H3b Emissions of pentachlorobenzine to air, land and water, England"
 H4,,Managing exposure to chemicals,H4 Exposure of wildlife to chemicals in the environment in England and for some marine components in the UK
-J5,,Managing exposure to chemicals,J5 Prevent harmful chemicals from being recycled
+J5,,Managing exposure to chemicals,J5 Total bank of in-use polychlorinated biphenyls remaining in the UK
 H1,Freshwater,Enhancing biosecurity,H1 Number of invasive non-native species established across or along 10% or more of the land area or coastline of Great Britain (freshwater)
 H1,Marine (Coastal),Enhancing biosecurity,H1 Number of invasive non-native species established across or along 10% or more of the land area or coastline of Great Britain (marine)
 H1,Terrestrial,Enhancing biosecurity,H1 Number of invasive non-native species established across or along 10% or more of the land area or coastline of Great Britain (terrestrial)

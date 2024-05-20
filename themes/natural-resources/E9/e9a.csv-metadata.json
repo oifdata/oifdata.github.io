@@ -1,0 +1,107 @@
+{
+    "schema:name": "Landings of quota fish and shellfish into English ports by sustainability status, 2009 to 2020",
+    "url": "e9a.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "Percentage_of_our_seafood_coming_from_healthy_ecosystems_produced_sustainably_development_report",
+            "schema:url": "https://randd.defra.gov.uk/",
+            "@type": "Dataset",
+            "schema:author": [
+                {
+                    "schema:alternateName": "Cefas",
+                    "schema:name": "Centre for Environment, Fisheries and Aquaculture Science",
+                    "schema:sameAs": "https://ror.org/04r7rxc53",
+                    "@type": "schema:GovernmentOrganization"
+                },
+                {
+                    "schema:alternateName": "Defra",
+                    "schema:name": "Department for Environment, Food and Rural Affairs ",
+                    "schema:sameAs": "https://ror.org/00tnppw48",
+                    "@type": "schema:GovernmentOrganization"
+                }
+            ],
+            "schema:dateModified": "2024-01-01",
+            "schema:datePublished": "2024-01-01"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "2009/2020",
+    "schema:version": "2024-05-08",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Landings of fish in Envglish ports by sustainability status",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "This chart shows how much fish and shellfish (live weight) from quota stocks is landed at English ports from fisheries managed sustainably, unsustainably or with unknown status. For total landings of quota fish and shellfish, refer to left-hand Y-axis. For the percentage of landings from sustainably managed fisheries, refer to right-hand Y-axis.  \n\n</br>Sustainable fisheries landings are those from fish stocks that either have a high spawning stock biomass (greater than or equal to MSY Btrigger) and are fished at or below the level capable of producing Maximum Sustainable Yield (FMSY), or have a high spawning stock biomass and are fished within a range consistent with internationally agreed management plans (up to FMSY upper). Unsustainable fisheries landings are those from fish stocks that either have a low spawning stock biomass (less than MSY Btrigger) or from fish stocks that are fished above limits (that is, FMSY or FMSY upper where applicable). ",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "integer",
+                    "minimum": "2009",
+                    "maximum": "2020",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "year",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The year range for the data present"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Total (thousand tonnes)|Sustainable (thousand tonnes)|Unsustainable (thousand tonnes)|Unknown (thousand tonnes)|Sustainable (%)|Unsustainable (%)|Unknown (%)",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "category",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Different sustainability status for seafood"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "value",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Tonnage, or percentage of fish landed by sustainability status"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

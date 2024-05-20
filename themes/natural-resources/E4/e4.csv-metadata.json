@@ -1,5 +1,5 @@
 {
-    "schema:name": "Efficiency of agricultural production measured by Total Factor Productivity, England, 1990/1991 to 2021/2022",
+    "schema:name": "Efficiency of agricultural production measured by Total Factor Productivity, England, 1990/1991 to 2022/2023",
     "url": "e4.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -10,29 +10,59 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:sameAs": "https://www.gov.uk/government/statistics/total-factor-productivity-of-the-agricultural-industry",
+            "schema:description": "<div class=\"govspeak\"><p>Total factor productivity (TFP) is a key measure of the economic performance of agriculture.  It represents how efficiently the agricultural industry uses the resources that are available to turn inputs into outputs.  The methodology used to calculate the national statistics for “Total factor productivity for the UK agricultural industry” has been applied to data from the Farm Business Survey for England to produce TFP for selected farm types.  Results for specialist pigs, specialist poultry and horticulture farms have not been presented due to concerns around smaller sample sizes for these farm types.</p>\n\n<p>For UK Total Factor Productivity statistics please refer to <a href=\"https://www.gov.uk/government/collections/productivity-of-the-agricultural-industry\" class=\"govuk-link\">“TFP for the UK agricultural industry”</a></p>\n\n<p>Next update: see the <a href=\"https://www.gov.uk/search/research-and-statistics?content_store_document_type=upcoming_statistics&amp;organisations%5B%5D=department-for-environment-food-rural-affairs&amp;order=release-date-oldest\" class=\"govuk-link\">statistics release calendar</a></p>\n\n<div class=\"contact contact\" id=\"contact_3225\">\n    <p class=\"govuk-body\">Defra statistics: farm business survey</p>\n\n\n    <div>\n        <p class=\"govuk-body govuk-!-margin-bottom-4\">\n          Email <a class=\"govuk-link\" href=\"mailto:fbs.queries@defra.gov.uk\">fbs.queries@defra.gov.uk</a>\n        </p>\n\n\n    </div>\n\n    <p class=\"govuk-body\">You can also contact us via Twitter: <a href=\"https://twitter.com/DefraStats\" class=\"govuk-link\">https://twitter.com/DefraStats</a></p>\n\n</div>\n</div>",
+            "schema:image": [
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-bf9e64d759af6dfd93bede8168f3087a329f405b382aff36747db0db4b7b23e9.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-13093f053c15f613acd827aff27cac83d3fab452947cbcae4c7b706dadf2f7f2.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-4233cd42671827e266e284c4d5ae68fb600bd9f9e35dda663ccabbc2b6ab7ec3.png"
+            ],
+            "schema:name": "Total factor productivity for England by farm type",
             "@type": "Dataset",
+            "schema:about": [
+                {
+                    "@type": "Thing"
+                }
+            ],
             "schema:author": {
-                "schema:alternateName": "Defra",
                 "schema:name": "Department for Environment, Food & Rural Affairs",
-                "schema:sameAs": "https://ror.org/00tnppw48",
-                "@type": "schema:GovernmentOrganization"
+                "schema:url": "https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs",
+                "@type": "Organization"
             },
-            "schema:dateModified": "2023-01-19",
-            "schema:datePublished": "2023-01-19",
-            "schema:headline": "Total factor productivity for England by farm type"
+            "schema:publisher": {
+                "schema:name": "GOV.UK",
+                "schema:url": "https://www.gov.uk",
+                "@type": "Organization"
+            },
+            "schema:text": "Official statistics of total factor productivity for England by farm type using Farm Business Survey data from 1990/91.",
+            "schema:distribution": [
+                {
+                    "name": "Total factor productivity for England by farm type: 1990/91 to 2022/23 – dataset",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/65a4f73b74ae660014738a8d/fbs_tfp_england_farmtype-dataset-16jan24.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "Total factor productivity for England by farm type: 1990/91 to 2017/18  - statistical notice",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5d137c3740f0b6350572aaf0/fbs-tfp-england-farmtype-statsnotice-27jun19.pdf",
+                    "encodingFormat": "application/pdf"
+                },
+                {
+                    "name": "Total factor productivity for England by farm type - technical note",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/633c463ed3bf7f1885bf5639/fbs-tfp-england-farmtype-technote-27jun19.odt",
+                    "encodingFormat": "application/vnd.oasis.opendocument.text"
+                }
+            ]
         }
     ],
     "schema:keywords": [
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "1990/2022",
-    "schema:version": "2023-01-19",
+    "schema:temporalCoverage": "1990/2023",
+    "schema:version": "2024-01-16",
     "schema:measurementTechnique": "?",
-    "schema:variableMeasured": "Efficiency of agricultural production measured by Total Factor Productivity in the UK (1990=100)",
+    "schema:variableMeasured": "Efficiency of agricultural production measured by Total Factor Productivity in the UK (1990/91=100)",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "The data are reported on a March to February year, which is the average accounting year for respondents to the Farm Business Survey.",
+    "notes": "The data are reported on a March to February year, which is the average accounting year for respondents to the Farm Business Survey.\n    \n</br>As of the 2024 update, data on the volume of agricultural production and the volume of inputs used in agricultural production (from indicators E2 and E3 respectively) have been added to this chart to aid interpretation.\n\n</br>Following an improvement to the methodology in the source publication, figures for 2020/2021 and 2021/2022 have been revised in the 2024 update to this indicator.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -45,6 +75,7 @@
             {
                 "datatype": {
                     "base": "string",
+                    "format": "1990/1991|1991/1992|1992/1993|1993/1994|1994/1995|1995/1996|1996/1997|1997/1998|1998/1999|1999/2000|2000/2001|2001/2002|2002/2003|2003/2004|2004/2005|2005/2006|2006/2007|2007/2008|2008/2009|2009/2010|2010/2011|2011/2012|2012/2013|2013/2014|2014/2015|2015/2016|2016/2017|2017/2018|2018/2019|2019/2020|2020/2021|2021/2022|2022/2023",
                     "@type": "Datatype"
                 },
                 "default": "",
@@ -60,6 +91,24 @@
                 "schema:description": "The year range for the data present"
             },
             {
+                "datatype": {
+                    "base": "string",
+                    "format": "Volume of agricultural production|Volume of inputs used in agricultural production|Total factor productivity",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "variable",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Component of Total Factor Productivity"
+            },
+            {
                 "datatype": "number",
                 "default": "",
                 "lang": "und",
@@ -71,7 +120,7 @@
                 "suppressOutput": false,
                 "virtual": false,
                 "@type": "Column",
-                "schema:description": "Total Factor Productivity (1990=100)"
+                "schema:description": "Value of component of Total Factor Productivity (1990/91=100)"
             }
         ],
         "@type": "Schema"

@@ -1,5 +1,5 @@
 {
-    "schema:name": "Condition of geological and geomorphological heritage features of Sites of Special Scientific Interest in England, 2019 to 2021",
+    "schema:name": "Condition of geological and geomorphological heritage features of Sites of Special Scientific Interest in England, 2019 to 2023",
     "url": "g2a.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -24,11 +24,11 @@
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "2019/2021",
+    "schema:temporalCoverage": "2019/2023",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "percentage of sites by condition",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "Based on the condition of 1,526 geological and geomorphological heritage features that had been assessed by December 2021, with 30% of those assessments being carried out since 2015 and 60% being carried out since 2011. A further 9% of all 1,679 features are still to be assessed. As of December 2019, 1,326 geological and geomorphological heritage features had been assessed.\n    \n</br>This indicator is updated biennially; the next scheduled update, using 2023 data, will take place in 2024.",
+    "notes": "Based on the condition of 1,742 geological and geomorphological heritage features that had been assessed by December 2023, with 46% of those assessments being carried out since 2017 and 53% being carried out since 2013. A further 3% of all 1,797 features are still to be assessed. As of December 2019, 1,326 geological and geomorphological heritage features had been assessed.\n    \n</br>This indicator is updated biennially; the next scheduled update, using 2025 data, will take place in 2026.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -42,7 +42,7 @@
                 "datatype": {
                     "base": "integer",
                     "minimum": "2019",
-                    "maximum": "2021",
+                    "maximum": "2023",
                     "@type": "Datatype"
                 },
                 "default": "",

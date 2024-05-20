@@ -1,5 +1,5 @@
 {
-    "schema:name": "Emissions of greenhouse gases from natural resources in England, 1990 to 2020",
+    "schema:name": "Emissions of greenhouse gases from natural resources, waste and fluorinated gases in England, 1990 to 2021",
     "url": "a2.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -10,25 +10,25 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:sameAs": "https://naei.beis.gov.uk/reports/reports?report_id=1080",
+            "schema:sameAs": "https://naei.beis.gov.uk/reports/reports?report_id=1110",
             "@type": "Dataset",
             "schema:author": {
-                "schema:alternateName": "BEIS",
-                "schema:name": "Department for Business, Energy and Industrial Strategy",
+                "schema:alternateName": "DESNZ",
+                "schema:name": "Department for Energy Security and Net Zero",
                 "schema:sameAs": "https://ror.org/019ya6433",
                 "@type": "schema:GovernmentOrganization"
             },
-            "schema:dateModified": "2022-09-20",
-            "schema:datePublished": "2022-09-20",
-            "schema:headline": "Report: Greenhouse Gas Inventories for England, Scotland, Wales & Northern Ireland: 1990-2020"
+            "schema:dateModified": "2023-06-20",
+            "schema:datePublished": "2023-06-20",
+            "schema:headline": "Report: Greenhouse Gas Inventories for England, Scotland, Wales & Northern Ireland: 1990-2021"
         }
     ],
     "schema:keywords": [
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "1990/2020",
-    "schema:version": "2022-09-20",
+    "schema:temporalCoverage": "1990/2021",
+    "schema:version": "2023-06-20",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "CO2 equivalent; Emission estimate displayed using the standard IPCC global warming potential conversion factors",
     "@context": "http://www.w3.org/ns/csvw",
@@ -46,7 +46,7 @@
                 "datatype": {
                     "base": "integer",
                     "minimum": "1990",
-                    "maximum": "2020",
+                    "maximum": "2021",
                     "@type": "Datatype"
                 },
                 "default": "",

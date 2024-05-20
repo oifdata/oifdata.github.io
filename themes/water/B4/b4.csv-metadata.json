@@ -1,5 +1,5 @@
 {
-    "schema:name": "Condition of designated bathing waters in England, 1995 to 2022",
+    "schema:name": "Condition of designated bathing waters in England, 1995 to 2023",
     "url": "b4.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -21,94 +21,120 @@
             "schema:headline": "Bathing Water Classifications (BW2006/7/EC) and historic 1976 directive (76/160/EEC) compliance"
         },
         {
-            "schema:description": "<div class=\"govspeak\"><p>This data contains compliance information for bathing waters in England.</p>\n\n<p>Site data and summary information for English bathing waters is available from <a href=\"https://www.gov.uk/government/collections/bathing-waters\" class=\"govuk-link\">here</a>:</p>\n\n<p>These tables show compliance with the Bathing Water Directive for bathing waters in England from 2017. The previous tables show compliance across the UK.</p>\n\n<section class=\"attachment embedded\" id=\"attachment_7059912\">\n  <div class=\"attachment-thumb\">\n      <a class=\"govuk-link\" tabindex=\"-1\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1120670/EMBARGOED_EA_National_Bathing_Waters_Classification_Results_2022.ods\"><svg viewbox=\"0 0 99 140\" width=\"99\" height=\"140\">\n  <path d=\"M12 12h75v27H12zm0 47h18.75v63H12zm55 2v59H51V61h16m2-2H49v63h20V59z\"></path>\n  <path d=\"M49 61.05V120H32.8V61.05H49m2-2H30.75v63H51V59zm34 2V120H69.05V61.05H85m2-2H67v63h20V59z\"></path>\n  <path d=\"M30 68.5h56.5M30 77.34h56.5M30 112.7h56.5M30 95.02h56.5M30 86.18h56.5M30 103.86h56.5\" fill=\"none\"></path>\n</svg>\n</a>\n  </div>\n  <div class=\"attachment-details\">\n    <h3 class=\"title govuk-!-font-size-27 govuk-!-font-weight-regular\"><a class=\"govuk-link\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1120670/EMBARGOED_EA_National_Bathing_Waters_Classification_Results_2022.ods\">National bathing waters in England for 2022: Individual bathing water classifications</a></h3>\n    <p class=\"govuk-body metadata\">\n        <span class=\"type\"><abbr title=\"OpenDocument Spreadsheet\">ODS</abbr></span>, <span class=\"file-size\">1.34 MB</span>\n    </p>\n\n      <p class=\"govuk-body opendocument-help\">\n        This file is in an <a href=\"https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation\" class=\"govuk-link\">OpenDocument</a> format\n      </p>\n\n  </div>\n</section>\n\n<section class=\"attachment embedded\" id=\"attachment_7059893\">\n  <div class=\"attachment-thumb\">\n      <a class=\"govuk-link\" tabindex=\"-1\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1118772/EMBARGOED_EA_National_BathingWaters_2021_Class_Summary.ods\"><svg viewbox=\"0 0 99 140\" width=\"99\" height=\"140\">\n  <path d=\"M12 12h75v27H12zm0 47h18.75v63H12zm55 2v59H51V61h16m2-2H49v63h20V59z\"></path>\n  <path d=\"M49 61.05V120H32.8V61.05H49m2-2H30.75v63H51V59zm34 2V120H69.05V61.05H85m2-2H67v63h20V59z\"></path>\n  <path d=\"M30 68.5h56.5M30 77.34h56.5M30 112.7h56.5M30 95.02h56.5M30 86.18h56.5M30 103.86h56.5\" fill=\"none\"></path>\n</svg>\n</a>\n  </div>\n  <div class=\"attachment-details\">\n    <h3 class=\"title govuk-!-font-size-27 govuk-!-font-weight-regular\"><a class=\"govuk-link\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1118772/EMBARGOED_EA_National_BathingWaters_2021_Class_Summary.ods\">National bathing waters in England for 2021: Classifications summary information</a></h3>\n    <p class=\"govuk-body metadata\">\n        <span class=\"type\"><abbr title=\"OpenDocument Spreadsheet\">ODS</abbr></span>, <span class=\"file-size\">8.57 KB</span>\n    </p>\n\n      <p class=\"govuk-body opendocument-help\">\n        This file is in an <a href=\"https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation\" class=\"govuk-link\">OpenDocument</a> format\n      </p>\n\n  </div>\n</section>\n\n<section class=\"attachment embedded\" id=\"attachment_7059894\">\n  <div class=\"attachment-thumb\">\n      <a class=\"govuk-link\" tabindex=\"-1\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1118773/EMBARGOED_EA_National_BathingWaters_2021_Class_Results.ods\"><svg viewbox=\"0 0 99 140\" width=\"99\" height=\"140\">\n  <path d=\"M12 12h75v27H12zm0 47h18.75v63H12zm55 2v59H51V61h16m2-2H49v63h20V59z\"></path>\n  <path d=\"M49 61.05V120H32.8V61.05H49m2-2H30.75v63H51V59zm34 2V120H69.05V61.05H85m2-2H67v63h20V59z\"></path>\n  <path d=\"M30 68.5h56.5M30 77.34h56.5M30 112.7h56.5M30 95.02h56.5M30 86.18h56.5M30 103.86h56.5\" fill=\"none\"></path>\n</svg>\n</a>\n  </div>\n  <div class=\"attachment-details\">\n    <h3 class=\"title govuk-!-font-size-27 govuk-!-font-weight-regular\"><a class=\"govuk-link\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1118773/EMBARGOED_EA_National_BathingWaters_2021_Class_Results.ods\">National bathing waters in England for 2021: Individual bathing water classifications</a></h3>\n    <p class=\"govuk-body metadata\">\n        <span class=\"type\"><abbr title=\"OpenDocument Spreadsheet\">ODS</abbr></span>, <span class=\"file-size\">12.9 KB</span>\n    </p>\n\n      <p class=\"govuk-body opendocument-help\">\n        This file is in an <a href=\"https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation\" class=\"govuk-link\">OpenDocument</a> format\n      </p>\n\n  </div>\n</section>\n\n<section class=\"attachment embedded\" id=\"at",
-            "schema:image": [
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-bf9e64d759af6dfd93bede8168f3087a329f405b382aff36747db0db4b7b23e9.png",
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-13093f053c15f613acd827aff27cac83d3fab452947cbcae4c7b706dadf2f7f2.png",
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-4233cd42671827e266e284c4d5ae68fb600bd9f9e35dda663ccabbc2b6ab7ec3.png"
-            ],
-            "schema:name": "ENV17 - Bathing water quality: additional datasets",
+            "schema:url": "https://www.gov.uk/government/statistical-data-sets/env17-bathing-water-quality-additional-datasets",
             "@type": "Dataset",
-            "schema:about": [
-                {
-                    "@type": "Thing"
-                }
-            ],
             "schema:author": {
+                "schema:alternateName": "Defra",
                 "schema:name": "Department for Environment, Food & Rural Affairs",
-                "schema:url": "https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs",
-                "@type": "Organization"
+                "schema:sameAs": "https://ror.org/00tnppw48",
+                "@type": "schema:GovernmentOrganization"
             },
-            "schema:publisher": {
-                "schema:name": "GOV.UK",
-                "schema:url": "https://www.gov.uk",
-                "@type": "Organization"
+            "schema:dateModified": "2016-11-08",
+            "schema:datePublished": "2016-11-08",
+            "schema:headline": "England - compliance with the Bathing Water Directive for 2016''"
+        },
+        {
+            "schema:url": "https://www.gov.uk/government/statistical-data-sets/env17-bathing-water-quality-additional-datasets",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "Defra",
+                "schema:name": "Department for Environment, Food & Rural Affairs",
+                "schema:sameAs": "https://ror.org/00tnppw48",
+                "@type": "schema:GovernmentOrganization"
             },
-            "schema:text": "A summary of compliance with the (2006/7/EC) Bathing Water Directive.",
-            "schema:distribution": [
-                {
-                    "name": "UK - compliance with the (2006/7/EC) Bathing Water Directive for 2015",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/473049/Copy_of_2015_cBWD_UK_stats_v1.ods",
-                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
-                },
-                {
-                    "name": "England - compliance with the Bathing Water Directive for 2016",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/566116/EA_BathingWaters_2016_summaryv2.ods",
-                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
-                },
-                {
-                    "name": "National bathing waters in England for 2017 classification summary (revised May 2018)",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/703905/EA_National_BathingWaters_2017_Class_Summary_v2.ods",
-                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
-                },
-                {
-                    "name": "National bathing waters in England for 2017 classification results (revised May 2018)",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/703906/EA_National_BathingWaters_2017_Class_Results_v2.ods",
-                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
-                },
-                {
-                    "name": "National bathing waters in England for 2018 classification summary (revised 12 December 2018)",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/763502/Copy_of_EA_National_BathingWaters_2018_Class_Summary_V2.ods",
-                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
-                },
-                {
-                    "name": "National bathing waters in England for 2018 classification results (revised 12 December 2018)",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/763503/Copy_of_EA_National_BathingWaters_2018_Class_Results_V2.ods",
-                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
-                },
-                {
-                    "name": "National bathing waters in England for 2019 summary and  classification",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/845786/EMBARGOED_EA_National_BathingWaters_2019_Class_Summary.ods",
-                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
-                },
-                {
-                    "name": "National bathing waters in England for 2021: Classifications summary information",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1118772/EMBARGOED_EA_National_BathingWaters_2021_Class_Summary.ods",
-                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
-                },
-                {
-                    "name": "National bathing waters in England for 2021: Individual bathing water classifications",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1118773/EMBARGOED_EA_National_BathingWaters_2021_Class_Results.ods",
-                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
-                },
-                {
-                    "name": "National bathing waters in England for 2022: Individual bathing water classifications",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1120670/EMBARGOED_EA_National_Bathing_Waters_Classification_Results_2022.ods",
-                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
-                }
-            ]
+            "schema:dateModified": "2016-11-08",
+            "schema:datePublished": "2016-11-08",
+            "schema:headline": "England - compliance with the Bathing Water Directive for 2016''"
+        },
+        {
+            "schema:url": "https://www.gov.uk/government/statistical-data-sets/env17-bathing-water-quality-additional-datasets",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "Defra",
+                "schema:name": "Department for Environment, Food & Rural Affairs",
+                "schema:sameAs": "https://ror.org/00tnppw48",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:dateModified": "2018-05-01",
+            "schema:datePublished": "2027-11-14",
+            "schema:headline": "National bathing waters in England for 2017 classification summary (revised May 2018)"
+        },
+        {
+            "schema:url": "https://www.gov.uk/government/statistical-data-sets/env17-bathing-water-quality-additional-datasets",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "Defra",
+                "schema:name": "Department for Environment, Food & Rural Affairs",
+                "schema:sameAs": "https://ror.org/00tnppw48",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:dateModified": "2018-12-12",
+            "schema:datePublished": "2018-11-15",
+            "schema:headline": "National bathing waters in England for 2018 classification summary (revised 12 December 2018)"
+        },
+        {
+            "schema:url": "https://www.gov.uk/government/statistical-data-sets/env17-bathing-water-quality-additional-datasets",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "Defra",
+                "schema:name": "Department for Environment, Food & Rural Affairs",
+                "schema:sameAs": "https://ror.org/00tnppw48",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:dateModified": "2019-11-13",
+            "schema:datePublished": "2019-11-13",
+            "schema:headline": "'National bathing waters in England for 2019 summary and  classification'"
+        },
+        {
+            "schema:url": "https://www.gov.uk/government/statistical-data-sets/env17-bathing-water-quality-additional-datasets",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "Defra",
+                "schema:name": "Department for Environment, Food & Rural Affairs",
+                "schema:sameAs": "https://ror.org/00tnppw48",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:dateModified": "2022-01-19",
+            "schema:datePublished": "2022-01-19",
+            "schema:headline": "National bathing waters in England for 2021: Classifications summary information"
+        },
+        {
+            "schema:url": "https://www.gov.uk/government/statistical-data-sets/env17-bathing-water-quality-additional-datasets",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "Defra",
+                "schema:name": "Department for Environment, Food & Rural Affairs",
+                "schema:sameAs": "https://ror.org/00tnppw48",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:dateModified": "2022-11-30",
+            "schema:datePublished": "2022-11-30",
+            "schema:headline": "National bathing waters in England for 2022: Individual bathing water classifications"
+        },
+        {
+            "schema:url": "https://www.gov.uk/government/statistical-data-sets/env17-bathing-water-quality-additional-datasets",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "Defra",
+                "schema:name": "Department for Environment, Food & Rural Affairs",
+                "schema:sameAs": "https://ror.org/00tnppw48",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:dateModified": "2023-12-01",
+            "schema:datePublished": "2023-12-01",
+            "schema:headline": "National bathing waters in England for 2023: Individual bathing water classifications"
         }
     ],
     "schema:keywords": [
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "1995/2022",
-    "schema:version": "2022-11-30",
+    "schema:temporalCoverage": "1995/2023",
+    "schema:version": "2023-12-01",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "percentage of bathing waters categorised by each condition by the Bathing Water Directive",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "Any classifications pre 2015 are projected classifications and were not formally reported. They have been back calculated using historic methods and data collected for the 1976 Bathing Water Directive (76/160/EEC) which was repealed in 2014. <br> Bathing waters in England were not classified in 2020 due to the constraints posed by COVID-19 lockdowns. Classifications between 2021 and 2023 will therefore use the most recent 4 years with samples drawn from the previous 5 years. This will revert back to normal practice in 2024 with the most recent 4 years data used for classification.",
+    "notes": "Any classifications pre-2015 are projected classifications and were not formally reported. They have been back calculated using historic methods and data collected for the 1976 Bathing Water Directive (76/160/EEC) which was repealed in 2014. <br> Bathing waters in England were not classified in 2020 due to the constraints posed by COVID-19 lockdowns. Classifications between 2021 and 2023 will therefore use the most recent 4 years with samples drawn from the previous 5 years. This will revert back to normal practice in 2024 with the most recent 4 years data used for classification.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -122,7 +148,7 @@
                 "datatype": {
                     "base": "integer",
                     "minimum": "1995",
-                    "maximum": "2022",
+                    "maximum": "2023",
                     "@type": "Datatype"
                 },
                 "default": "",

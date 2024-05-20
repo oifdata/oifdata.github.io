@@ -1,5 +1,5 @@
 {
-    "schema:name": "Supply Demand Balance Index (SDBI) status by water company, 2021/2022",
+    "schema:name": "Supply Demand Balance Index (SDBI) status by water company, 2022/2023",
     "url": "f3.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -10,8 +10,8 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:name": "Water and sewerage companies in England: environmental performance report",
-            "schema:url": "https://www.gov.uk/government/publications/water-and-sewerage-companies-in-england-environmental-performance-report-2021",
+            "schema:name": "Water and sewerage companies in England: environmental performance report 2022",
+            "schema:url": "https://www.gov.uk/government/publications/water-and-sewerage-companies-in-england-environmental-performance-report-2022",
             "@type": "Dataset",
             "schema:author": {
                 "schema:alternateName": "EA",
@@ -19,20 +19,20 @@
                 "schema:sameAs": "https://ror.org/01zewfb16",
                 "@type": "schema:GovernmentOrganization"
             },
-            "schema:dateModified": "2022-07-22",
-            "schema:datePublished": "2022-07-14"
+            "schema:dateModified": "2023-07-12",
+            "schema:datePublished": "2023-07-12"
         }
     ],
     "schema:keywords": [
         "tbc"
     ],
     "schema:spatialCoverage": "England, and by water company area for those with customers wholly or mainly in England",
-    "schema:temporalCoverage": "2021/2022",
-    "schema:version": "2022-07-14",
+    "schema:temporalCoverage": "2022/2023",
+    "schema:version": "2023-07-12",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Supply Demand Balance Index (SDBI) status by water company",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "The SDBI metric is calculated based on data reported over a financial year (April to March) and measured on a three-tiered system where water and sewerage companies are assessed to be performing; Better than Target, Below Target or Significantly Below Target.",
+    "notes": "The SDBI metric is calculated based on data reported over a financial year (April to March) and measured on a 3-tiered system where water and sewerage companies are assessed to be performing; Better than Target, Below Target or Significantly Below Target.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",

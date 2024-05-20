@@ -1,0 +1,136 @@
+{
+    "schema:name": "Summary of regional sea assessment results for coastal and offshore habitats, 2010 to 2015",
+    "url": "c4.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "Benthic habitats",
+            "schema:url": "https://moat.cefas.co.uk/biodiversity-food-webs-and-marine-protected-areas/benthic-habitats/",
+            "@type": "Dataset",
+            "schema:author": [
+                {
+                    "schema:alternateName": "DAERA",
+                    "schema:name": "Department for Agriculture, Environment & Rural Affairs of Northern Ireland",
+                    "schema:sameAs": "https://ror.org/01jksdf22",
+                    "@type": "schema:GovernmentOrganization"
+                },
+                {
+                    "schema:alternateName": "EA",
+                    "schema:name": "Environment Agency",
+                    "schema:sameAs": "https://ror.org/01zewfb16",
+                    "@type": "schema:GovernmentOrganization"
+                },
+                {
+                    "schema:alternateName": "Cyfoeth Naturiol Cymru",
+                    "schema:name": "Natural Resources Wales",
+                    "schema:sameAs": "https://ror.org/04x65hs26",
+                    "@type": "schema:GovernmentOrganization"
+                },
+                {
+                    "schema:alternateName": "Buidheann Dìon Àrainneachd na h-Alba",
+                    "schema:name": "Scottish Environment Protection Agency",
+                    "schema:sameAs": "https://ror.org/01kxjy285",
+                    "@type": "schema:GovernmentOrganization"
+                }
+            ],
+            "schema:dateModified": "2018-01-01",
+            "schema:datePublished": "2018-01-01"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "UK",
+    "schema:temporalCoverage": "2010/2015",
+    "schema:version": "2022-01-01",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Regional sea assessment results",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "This chart is based on the regional-sea level assessments conducted for the UK Marine Strategy in 2019, and is presented spatially in figures C4i, C4ii, C4iii and C4iv. Data was collected between 2010 and 2015.</br>Under the UK Marine Strategy, the UK is split into 2 sub-regions, the Greater North Sea and the Celtic Seas. There are 3 assessment units (Regional Seas) in the Greater North Sea and 6 in the Celtic Seas. In the Celtic Seas, only soft sediment invertebrates are present in all Celtic Sea assessment units, the other habitat types shown in C4 are only present in 5. ",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Greater North Sea|Celtic Seas",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "UKMS sub region",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Varying broad-scale UKMS regional seas"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Intertidal seagrass|Rocky shore macroalgae|Intertidal saltmarsh|Soft sediment invertebrates",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "Habitat",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Coastal and benthic habitats assessed under the WFD"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Achieved|Not achieved|No data|Suitable habitat absent",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "Assessment outcome",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Different material categories for the values"
+            },
+            {
+                "datatype": "integer",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "Number of results",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Overall assessment results"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

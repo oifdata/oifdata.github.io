@@ -1,15 +1,22 @@
 year,condition,percentage
-2019,Optimal/generally satisfactory,25.91193067
-2019,Generally satisfactory but with minor localised problems,35.39399436
-2019,Generally satisfactory but with significant localised problems,23.63462314
-2019,Generally unsatisfactory with major localised problems,7.638049174
-2019,Extensive significant problems,5.038291012
-2019,Unknown,1.571946796
-2019,Not recorded,0.811164853
-2021,Optimal/generally satisfactory,25.8069374
-2021,Generally satisfactory but with minor localised problems,35.46508709
-2021,Generally satisfactory but with significant localised problems,23.65343105
-2021,Generally unsatisfactory with major localised problems,7.534762311
-2021,Extensive significant problems,4.834094674
-2021,Unknown,1.576226093
-2021,Not recorded,1.129461372
+2019,Not recorded,0.8111648528819
+2019,Unknown,1.57194679564691
+2019,Extensive significant problems,5.03829101168883
+2019,Generally unsatisfactory with major localised problems,7.63804917372027
+2019,Generally satisfactory but with significant localised problems,23.63462313583232
+2019,Generally satisfactory but with minor localised problems,35.39399435711406
+2019,Optimal/generally satisfactory,25.91193067311568
+2021,Not recorded,1.02010050251256
+2021,Unknown,1.57788944723618
+2021,Extensive significant problems,4.839195979899491
+2021,Generally unsatisfactory with major localised problems,7.542713567839191
+2021,Generally satisfactory but with significant localised problems,23.67839195979899
+2021,Generally satisfactory but with minor localised problems,35.507537688442206
+2021,Optimal/generally satisfactory,25.83417085427135
+2023,Not recorded,1.02731145076421
+2023,Unknown,1.53345026309195
+2023,Extensive significant problems,4.63542971686294
+2023,Generally unsatisfactory with major localised problems,7.52192432974191
+2023,Generally satisfactory but with significant localised problems,23.70333249812077
+2023,Generally satisfactory but with minor localised problems,35.72037083437734
+2023,Optimal/generally satisfactory,25.85818090704084

@@ -1,10 +1,10 @@
 Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
-J2a,Biomass,Short term,2013 to 2018,-9.75,Loess,Change (decreasing)
-J2a,Biomass,Medium term,2008 to 2018,-13.75,Loess,Change (decreasing)
-J2a,Biomass,Long term,2001 to 2018,-26.11,Loess,Change (decreasing)
-J2a,Metal ores,Short term,2013 to 2018,-14.66,Loess,Improvement
-J2a,Metal ores,Medium term,2008 to 2018,-18.71,Loess,Improvement
-J2a,Metal ores,Long term,2001 to 2018,-27.23,Loess,Improvement
-J2a,Non-metallic mineral materials,Short term,2013 to 2018,8.19,Loess,Deterioration
-J2a,Non-metallic mineral materials,Medium term,2008 to 2018,-11.54,Loess,Improvement
-J2a,Non-metallic mineral materials,Long term,2001 to 2018,-31.28,Loess,Improvement
+J2a,Biomass,Short term,2014 to 2019,-16.49,Loess,Change (decreasing)
+J2a,Biomass,Medium term,2009 to 2019,-21.0,Loess,Change (decreasing)
+J2a,Biomass,Long term,2001 to 2019,-28.12,Loess,Change (decreasing)
+J2a,Metal ores,Short term,2014 to 2019,-17.89,Loess,Improvement
+J2a,Metal ores,Medium term,2009 to 2019,-17.68,Loess,Improvement
+J2a,Metal ores,Long term,2001 to 2019,-20.56,Loess,Improvement
+J2a,Non-metallic mineral materials,Short term,2014 to 2019,4.38,Loess,Deterioration
+J2a,Non-metallic mineral materials,Medium term,2009 to 2019,-0.84,Loess,Little or no change
+J2a,Non-metallic mineral materials,Long term,2001 to 2019,-16.15,Loess,Improvement

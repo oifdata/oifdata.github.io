@@ -282,16 +282,17 @@
     </div>
     <section class="l-column l-column--small-space">
         <h2>Short Description</h2>
-        <p>Protected sites are areas of land, inland water and the sea that have special legal protection to conserve important habitats and species in England. These include our Sites of Special Scientific Interest (SSSIs), Marine Conservation Zones (MCZs), Special Areas of Conservation (SACs), Special Protection Areas (SPAs) and Ramsar sites. These area designations have been included as they focus on the protection of biodiversity and provide legal mechanisms for this protection. This indicator currently has 2 components: (a) extent of protected sites on land, freshwater and at sea and (b) condition of terrestrial SSSIs on land and water. Condition for terrestrial sites is assessed against relevant common standards agreed by the UK conservation agencies. Condition methodology for marine sites is currently under development.</p>
+        <p>Protected sites are areas of land, inland water and the sea that have special legal protection to conserve important habitats and species in England. These include our Sites of Special Scientific Interest (SSSIs), Marine Conservation Zones (MCZs), National Nature Reserves (NNRs), Special Areas of Conservation (SACs), Special Protection Areas (SPAs) and Ramsar sites. These area designations have been included as they focus on the protection of biodiversity and provide legal mechanisms for this protection. This indicator currently has 2 components: (a) extent of protected sites on land, freshwater and at sea and (b) condition of terrestrial SSSIs on land and water. Condition for terrestrial sites is assessed against relevant common standards agreed by the UK conservation agencies. Condition methodology for marine sites is currently under development.</p>
     </section>
     <section class="l-column l-column--small-space">
         <h2>Readiness and links to data</h2>
-        <p>This indicator is not available for publishing in 2023 in a finalised form. An interim indicator is presented here that shows the condition of SSSIs in England (D2b). Data for this interim indicator are published annually as <a href="https://www.gov.uk/government/statistics/england-biodiversity-indicators">England Biodiversity Indicator 1 – Extent and condition of protected areas</a>. Work is underway to review reporting for terrestrial and freshwater sites. Further work is required to implement a methodology for assessing the condition of marine sites.</p>
+        <p>This indicator is not available for publishing in 2024 in a finalised form. An interim indicator is presented here that shows the extent of protected areas (D2a) and condition of SSSIs in England (D2b). Data for this interim indicator are published annually as <a href="https://www.gov.uk/government/statistics/england-biodiversity-indicators">England Biodiversity Indicator 1 – Extent and condition of protected areas</a>. Work is underway to review reporting for terrestrial and freshwater sites. Further work is required to implement a methodology for assessing the condition of marine sites.</p>
     </section>
     
         <section class="l-column l-column--small-space">
             <h2>Notes on indicator</h2>
-            <p>In December 2022, Natural England and Defra identified a methodological issue with part 1a (extent of protected areas), which resulted in some historic overestimation. Both Natural England and Defra have worked closely together to resolve this issue. Consequently, part a of this indicator has been temporarily removed from the 2023 OIF Update. The issue has now been resolved and the latest data published on the England Biodiversity Indicator pages linked above. The newly published data will be reflected within the 2024 OIF update.</p>
+            <p>In December 2022, Natural England and Defra identified a methodological issue with part D2a (extent of protected areas), which resulted in some historic overestimation. Both Natural England and Defra have worked closely together to resolve this issue. The previous method did not correctly account for overlaps in protected areas, which resulted in some over-estimation of the total protected area. This method has now been corrected and new estimates calculated back to 2005.</p>
+<p>In October 2023 Natural England identified a minor methodological issue with part D2b, which relates to the condition of Sites of Special Scientific Interest. This issue has now been resolved, the impact on the final indicator has been minimal with favourable or unfavourable recovering condition changing by less than 1 percentage point, however it has not been possible to correct data relating to the years prior to 2016, and so a shorter time series is published here.</p>
         </section>
     
     
@@ -304,6 +305,21 @@
             
                 
     
+    <button id="d2a-component-tab" type="button" role="tab" aria-selected="true" aria-controls="d2a-component-tabpanel" class="c-indicator-component-tab" onclick="window.dispatchEvent(new Event('resize'));">
+        <h3 id="d2a-component-title" class="l-row l-row--xx-small-space l-row--vertically-centred | c-indicator-component-tab__text">
+            <span class="c-indicator-component-tab__radio-button">
+                <svg class="c-radio-button" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="c-radio-button__outer-circle" cx="50" cy="50" r="30"/>
+                    <circle class="c-radio-button__inner-circle" cx="50" cy="50" r="20"/>
+                </svg>
+            </span>
+            D2a: Extent of protected sites in England, 2005 to 2023
+        </h3>
+    </button>
+
+            
+                
+    
     <button id="d2b-component-tab" type="button" role="tab" aria-selected="true" aria-controls="d2b-component-tabpanel" class="c-indicator-component-tab" onclick="window.dispatchEvent(new Event('resize'));">
         <h3 id="d2b-component-title" class="l-row l-row--xx-small-space l-row--vertically-centred | c-indicator-component-tab__text">
             <span class="c-indicator-component-tab__radio-button">
@@ -312,12 +328,331 @@
                     <circle class="c-radio-button__inner-circle" cx="50" cy="50" r="20"/>
                 </svg>
             </span>
-            D2b: Condition of Sites of Special Scientific Interest in England, 2003 to 2022
+            D2b: Condition of Sites of Special Scientific Interest in England, 2016 to 2023
         </h3>
     </button>
 
             
             </div>
+            
+                
+    
+    <div id="d2a-component-tabpanel" role="tabpanel" tabindex="0" aria-labelledby="d2a-component-tab" class="l-column l-column--small-space | c-indicator-component-tabpanel">
+        
+        
+    <section class="l-column l-column--no-space">
+        <div
+            role="tablist"
+            aria-label="Data visualisation options"
+            class="l-equal-width-columns l-equal-width-columns--no-space">
+            
+            
+    <button id="d2a-figure-tab" type="button" role="tab" aria-selected="true" data-tabgroup="d2a" aria-controls="d2a-figure-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Figure</span>
+    </button>
+
+            
+            
+    <button id="d2a-table-tab" type="button" role="tab" aria-selected="true" data-tabgroup="d2a" aria-controls="d2a-table-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Table</span>
+    </button>
+
+            
+        </div>
+        <div class="l-column | c-indicator-component-visualisation-tabpanels">
+            
+            
+    <div id="d2a-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="d2a" aria-labelledby="d2a-figure-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Figure
+                D2a: Extent of protected sites in England, 2005 to 2023</h4>
+            <div id="d2a-figure-container" class="c-visualisation-container">
+                
+                    <img src='d2a.svg' />
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Department for Environment, Food &amp; Rural Affairs,
+                
+                
+                    ENV09 - England biodiversity indicators
+                
+                </dd>
+            
+        
+        
+            <dt class="c-indicator-component-metadata__key">Unit of Measurement</dt>
+            <dd>Hectares</dd>
+        
+        
+            <dt class="c-indicator-component-metadata__key">Footnotes</dt>
+            <dd><p>The extent of protected sites is the cumulative area assessed in March of each year shown. It is based on the following designations: Sites of Special Scientific Interest (SSSI), Special Areas of Conservation (SAC), Special Protection Areas (SPA), National Nature Reserves (NNR), Ramsar sites and Marine Conservation Zones (MCZ). For sites that span English borders, only the area within England is included. Extent of Protected Sites located between mean low water and the 12 nautical mile limit are included in the ‘marine’ measure; extent of protected sites located beyond 12 nautical miles, in UK waters, are excluded.</p></dd>
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="d2a.csv">Download  CSV</a>
+                
+                
+                    <a class="c-button" href="d2a.svg" download=".svg">Download Figure Image</a>
+                
+            </div>
+        </section>
+    </div>
+
+            
+            
+    <div id="d2a-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="d2a" aria-labelledby="d2a-table-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Table
+                D2a: Extent of protected sites in England, 2005 to 2023</h4>
+            <div id="d2a-table-container" class="c-visualisation-container">
+                
+                    <table class="dataframe" id="d2a-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Year</th>
+      <th>Extent at sea</th>
+      <th>Extent on land</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2005</td>
+      <td>298,919.47</td>
+      <td>988,754.45</td>
+    </tr>
+    <tr>
+      <td>2006</td>
+      <td>298,966.78</td>
+      <td>990,324.23</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>299,036.80</td>
+      <td>993,031.21</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>328,511.63</td>
+      <td>994,135.51</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>328,511.24</td>
+      <td>994,400.40</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>328,505.40</td>
+      <td>994,207.75</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>328,505.26</td>
+      <td>998,035.30</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>328,505.38</td>
+      <td>998,405.85</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>328,504.73</td>
+      <td>998,825.48</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>783,967.05</td>
+      <td>1,000,894.33</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>1,103,353.95</td>
+      <td>1,002,529.98</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>1,343,627.78</td>
+      <td>1,004,719.51</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>1,343,627.78</td>
+      <td>1,012,970.14</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>1,685,216.97</td>
+      <td>1,015,777.56</td>
+    </tr>
+    <tr>
+      <td>2019</td>
+      <td>1,690,235.65</td>
+      <td>1,017,242.43</td>
+    </tr>
+    <tr>
+      <td>2020</td>
+      <td>2,343,422.44</td>
+      <td>1,018,303.60</td>
+    </tr>
+    <tr>
+      <td>2021</td>
+      <td>2,447,633.04</td>
+      <td>1,023,023.10</td>
+    </tr>
+    <tr>
+      <td>2022</td>
+      <td>2,447,633.04</td>
+      <td>1,024,397.18</td>
+    </tr>
+    <tr>
+      <td>2023</td>
+      <td>2,447,635.69</td>
+      <td>1,030,886.61</td>
+    </tr>
+  </tbody>
+</table>
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Department for Environment, Food &amp; Rural Affairs,
+                
+                
+                    ENV09 - England biodiversity indicators
+                
+                </dd>
+            
+        
+        
+            <dt class="c-indicator-component-metadata__key">Unit of Measurement</dt>
+            <dd>Hectares</dd>
+        
+        
+            <dt class="c-indicator-component-metadata__key">Footnotes</dt>
+            <dd><p>The extent of protected sites is the cumulative area assessed in March of each year shown. It is based on the following designations: Sites of Special Scientific Interest (SSSI), Special Areas of Conservation (SAC), Special Protection Areas (SPA), National Nature Reserves (NNR), Ramsar sites and Marine Conservation Zones (MCZ). For sites that span English borders, only the area within England is included. Extent of Protected Sites located between mean low water and the 12 nautical mile limit are included in the ‘marine’ measure; extent of protected sites located beyond 12 nautical miles, in UK waters, are excluded.</p></dd>
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="d2a.csv">Download  CSV</a>
+                
+                
+            </div>
+        </section>
+    </div>
+
+            
+        </div>
+    </section>
+
+        
+        <section class="l-column l-column--small-space">
+            <h4>Trend description for D2a</h4>
+            <p>The total extent of land, water and sea protected in England through national and international protected areas has increased from 1.29 million hectares in 2005 to 3.48 million hectares in 2023. The area of sites at sea has increased substantially, by more than 8 times since the time series began in 2005, although the majority of this increase took place between 2013 and 2020. The area of sites on land has remained relatively stable over time, increasing by 4% between 2005 and 2023.</p>
+        </section>
+        
+            <h2>Assessment of change</h2>
+            <p>On land, there has been little or no change for the extent of protected sites in the most recent 5 years for which trends can be assessed (2018 to 2023), however an increase (or improvement) has been observed in both the medium and long-term time period. The extent of protected areas at sea has seen an improvement across the short, medium and long term.</p>
+<p>Change since 2018 is covered by the short-term trend within the assessment. This shows that the Extent of protected sites at sea increased by 45% since 2018, while the extent of protected sites at land showed little or no change at 1.49% increase.</p>
+<p>Further information on this assessment, along with details on the methodology, is provided in the <a href="/assessment/#background">Assessment background</a> page. Summaries by 25 Year Environment Plan goal and information on indicator links are presented in the <a href="/assessment/#results">Assessment results</a> pages.</p>
+            
+                <h4>Table D2a: Assessment of change</h4>
+                <table class="dataframe" id="d2a-assessment-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Component</th>
+      <th>Subcomponent</th>
+      <th>Period</th>
+      <th>Date range</th>
+      <th>Percentage change</th>
+      <th>Smoothing function</th>
+      <th>Assessment of change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>D2a</td>
+      <td>Extent at sea</td>
+      <td>Short term</td>
+      <td>2018 to 2023</td>
+      <td>45.24</td>
+      <td>Unsmoothed</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>D2a</td>
+      <td>Extent at sea</td>
+      <td>Medium term</td>
+      <td>2013 to 2023</td>
+      <td>645.08</td>
+      <td>Unsmoothed</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>D2a</td>
+      <td>Extent at sea</td>
+      <td>Long term</td>
+      <td>2005 to 2023</td>
+      <td>718.83</td>
+      <td>Unsmoothed</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>D2a</td>
+      <td>Extent on land</td>
+      <td>Short term</td>
+      <td>2018 to 2023</td>
+      <td>1.49</td>
+      <td>Unsmoothed</td>
+      <td>Little or no change</td>
+    </tr>
+    <tr>
+      <td>D2a</td>
+      <td>Extent on land</td>
+      <td>Medium term</td>
+      <td>2013 to 2023</td>
+      <td>3.21</td>
+      <td>Unsmoothed</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>D2a</td>
+      <td>Extent on land</td>
+      <td>Long term</td>
+      <td>2005 to 2023</td>
+      <td>4.26</td>
+      <td>Unsmoothed</td>
+      <td>Improvement</td>
+    </tr>
+  </tbody>
+</table>
+            
+            <p>Note that percentage change in Table D2a refers to the difference seen between the first and last years in the specified date range. Assessment results presented here differ from those presented in the source publication (the England Biodiversity Indicators) because we use unsmoothed data and assess sites in favourable condition, whereas the England Biodiversity Indicators use a 3-year average for the baseline (effectively smoothing the data) and assess sites in favourable and unfavourable recovering condition.</p>
+        
+    </div>
+
             
                 
     
@@ -349,7 +684,7 @@
     <div id="d2b-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="d2b" aria-labelledby="d2b-figure-tab" class="c-indicator-component-visualisation-tabpanel">
         <section class="l-column l-column--small-space">
             <h4>Figure
-                D2b: Condition of Sites of Special Scientific Interest in England, 2003 to 2022</h4>
+                D2b: Condition of Sites of Special Scientific Interest in England, 2016 to 2023</h4>
             <div id="d2b-figure-container" class="c-visualisation-container">
                 
                     <img src='d2b.svg' />
@@ -379,9 +714,7 @@
         
         
             <dt class="c-indicator-component-metadata__key">Footnotes</dt>
-            <dd><p>Site condition is the cumulative area assessed by 31 March of each year shown. As new assessments are completed, they replace the previous ones, so Figure D2b is a snapshot of the condition of the site network at a given point in time.</p>
-<p></br>The gradual drop in the area of SSSIs in favourable condition between 2004 and 2010 was largely due to the application of the ‘Common Standard for Monitoring’ protocols which set more demanding targets for assessing the condition of some feature types as favourable. The step-change from 2010 to 2011 was due to the larger than average number of condition assessments being completed and recorded in the final year before the Public Services Agreement target deadline of 31 December 2010.</p>
-<p></br>The linear increase in the area of SSSIs in favourable recovering condition between 2003 and 2011 was also driven by the 2010 Public Services Agreement target. A large number of condition assessments were carried out in the years running up to the target deadline and additional resources were used to ensure these sites had appropriate management schemes, such as agri-environment agreements, in place and could therefore be classed as recovering.</p></dd>
+            <dd><p>Site condition is the cumulative area assessed by 31 March of each year shown. As new assessments are completed, they replace the previous ones, so Figure D2b is a snapshot of the condition of the site network at a given point in time.</p></dd>
         
     </dl>
 
@@ -401,7 +734,7 @@
     <div id="d2b-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="d2b" aria-labelledby="d2b-table-tab" class="c-indicator-component-visualisation-tabpanel">
         <section class="l-column l-column--small-space">
             <h4>Table
-                D2b: Condition of Sites of Special Scientific Interest in England, 2003 to 2022</h4>
+                D2b: Condition of Sites of Special Scientific Interest in England, 2016 to 2023</h4>
             <div id="d2b-table-container" class="c-visualisation-container">
                 
                     <table class="dataframe" id="d2b-table">
@@ -414,104 +747,44 @@
   </thead>
   <tbody>
     <tr>
-      <td>2003</td>
-      <td>43.98</td>
-      <td>12.96</td>
-    </tr>
-    <tr>
-      <td>2004</td>
-      <td>45.82</td>
-      <td>17.04</td>
-    </tr>
-    <tr>
-      <td>2005</td>
-      <td>45.02</td>
-      <td>22.34</td>
-    </tr>
-    <tr>
-      <td>2006</td>
-      <td>45.26</td>
-      <td>27.01</td>
-    </tr>
-    <tr>
-      <td>2007</td>
-      <td>44.84</td>
-      <td>30.60</td>
-    </tr>
-    <tr>
-      <td>2008</td>
-      <td>44.54</td>
-      <td>38.14</td>
-    </tr>
-    <tr>
-      <td>2009</td>
-      <td>44.02</td>
-      <td>44.39</td>
-    </tr>
-    <tr>
-      <td>2010</td>
-      <td>43.24</td>
-      <td>49.84</td>
-    </tr>
-    <tr>
-      <td>2011</td>
-      <td>36.57</td>
-      <td>60.05</td>
-    </tr>
-    <tr>
-      <td>2012</td>
-      <td>37.24</td>
-      <td>59.40</td>
-    </tr>
-    <tr>
-      <td>2013</td>
-      <td>37.55</td>
-      <td>58.56</td>
-    </tr>
-    <tr>
-      <td>2014</td>
-      <td>37.54</td>
-      <td>58.64</td>
-    </tr>
-    <tr>
-      <td>2015</td>
-      <td>37.50</td>
-      <td>58.44</td>
-    </tr>
-    <tr>
       <td>2016</td>
-      <td>38.54</td>
-      <td>57.21</td>
+      <td>38.50</td>
+      <td>57.30</td>
     </tr>
     <tr>
       <td>2017</td>
-      <td>38.71</td>
-      <td>56.05</td>
+      <td>38.70</td>
+      <td>56.00</td>
     </tr>
     <tr>
       <td>2018</td>
-      <td>38.75</td>
-      <td>55.53</td>
+      <td>38.70</td>
+      <td>55.50</td>
     </tr>
     <tr>
       <td>2019</td>
-      <td>38.89</td>
-      <td>54.66</td>
+      <td>38.90</td>
+      <td>54.60</td>
     </tr>
     <tr>
       <td>2020</td>
-      <td>38.88</td>
-      <td>54.24</td>
+      <td>38.70</td>
+      <td>54.10</td>
     </tr>
     <tr>
       <td>2021</td>
-      <td>38.36</td>
-      <td>53.00</td>
+      <td>38.30</td>
+      <td>52.90</td>
     </tr>
     <tr>
       <td>2022</td>
-      <td>38.24</td>
-      <td>50.81</td>
+      <td>38.20</td>
+      <td>50.80</td>
+    </tr>
+    <tr>
+      <td>2023</td>
+      <td>36.80</td>
+      <td>49.10</td>
     </tr>
   </tbody>
 </table>
@@ -541,9 +814,7 @@
         
         
             <dt class="c-indicator-component-metadata__key">Footnotes</dt>
-            <dd><p>Site condition is the cumulative area assessed by 31 March of each year shown. As new assessments are completed, they replace the previous ones, so Figure D2b is a snapshot of the condition of the site network at a given point in time.</p>
-<p></br>The gradual drop in the area of SSSIs in favourable condition between 2004 and 2010 was largely due to the application of the ‘Common Standard for Monitoring’ protocols which set more demanding targets for assessing the condition of some feature types as favourable. The step-change from 2010 to 2011 was due to the larger than average number of condition assessments being completed and recorded in the final year before the Public Services Agreement target deadline of 31 December 2010.</p>
-<p></br>The linear increase in the area of SSSIs in favourable recovering condition between 2003 and 2011 was also driven by the 2010 Public Services Agreement target. A large number of condition assessments were carried out in the years running up to the target deadline and additional resources were used to ensure these sites had appropriate management schemes, such as agri-environment agreements, in place and could therefore be classed as recovering.</p></dd>
+            <dd><p>Site condition is the cumulative area assessed by 31 March of each year shown. As new assessments are completed, they replace the previous ones, so Figure D2b is a snapshot of the condition of the site network at a given point in time.</p></dd>
         
     </dl>
 
@@ -563,13 +834,13 @@
         
         <section class="l-column l-column--small-space">
             <h4>Trend description for D2b</h4>
-            <p>There has been a net decrease in the area of SSSIs in favourable condition; down from 44.0% in 2003 to 38.2% in 2022. While there has been a small increase in the area in favourable condition over the last 10 years (from 37.2% in 2012 to 38.2% in 2022), the figure has fallen slightly in the latest years. The area of SSSIs in unfavourable recovering condition has increased substantially from 13.0% in 2003 to 50.8% in 2022.</p>
+            <p>There has been little change in the area of SSSIs in favourable condition since 2016 (38.5%), and in 2023 36.8% of SSSI area was in favourable condition. The area in unfavourable recovering condition has decreased from 57.3% in 2016, to around 49.1% in 2023. </p>
         </section>
         
             <h2>Assessment of change</h2>
-            <p>There has been little or no change in the percentage of SSSIs in England achieving favourable condition over the short and medium-term assessment periods, while there has been a decrease (deterioration) over the long-term period.</p>
-<p>Change since 2018 has also been assessed. There has been little or no change in the percentage of SSSIs in England achieving favourable condition since 2018.</p>
-<p>Further information on this assessment, along with details on the methodology, is provided in the <a href="/assessment/">Assessment background</a> page. Summaries by 25 Year Environment Plan goal and information on indicator links are presented in the <a href="/assessment/">Assessment results</a> pages.</p>
+            <p>There has been a decrease (or deterioration) in the percentage of SSSIs in England achieving favourable condition over the short, medium and long-term assessment periods.</p>
+<p>Change since 2018 is covered by the short-term trend within the assessment. This shows there has been decrease in the percentage of SSSIs in England achieving favourable condition since 2018.</p>
+<p>Further information on this assessment, along with details on the methodology, is provided in the <a href="/assessment/#background">Assessment background</a> page. Summaries by 25 Year Environment Plan goal and information on indicator links are presented in the <a href="/assessment/#results">Assessment results</a> pages.</p>
             
                 <h4>Table D2b: Assessment of change</h4>
                 <table class="dataframe" id="d2b-assessment-table">
@@ -589,26 +860,26 @@
       <td>D2b</td>
       <td>Favourable condition</td>
       <td>Short term</td>
-      <td>2017 to 2022</td>
-      <td>-1.22</td>
+      <td>2018 to 2023</td>
+      <td>-4.91</td>
       <td>Unsmoothed</td>
-      <td>Little or no change</td>
+      <td>Deterioration</td>
     </tr>
     <tr>
       <td>D2b</td>
       <td>Favourable condition</td>
       <td>Medium term</td>
-      <td>2012 to 2022</td>
-      <td>2.68</td>
+      <td>2016 to 2023</td>
+      <td>-4.42</td>
       <td>Unsmoothed</td>
-      <td>Little or no change</td>
+      <td>Deterioration</td>
     </tr>
     <tr>
       <td>D2b</td>
       <td>Favourable condition</td>
       <td>Long term</td>
-      <td>2003 to 2022</td>
-      <td>-13.04</td>
+      <td>2016 to 2023</td>
+      <td>-4.42</td>
       <td>Unsmoothed</td>
       <td>Deterioration</td>
     </tr>
@@ -654,9 +925,7 @@
                 <dt class="c-indicator-metadata__key">Relevant goal(s) in the 25 Year Environment Plan</dt>
             
             
-                
-                    <dd class="c-indicator-metadata__values">Thriving plants and wildlife</dd>
-                
+                <dd class="c-indicator-metadata__value">Thriving plants and wildlife</dd>
               
             </div>
         
@@ -702,8 +971,6 @@
                 
                     <dd class="c-indicator-metadata__values">Convention for the Protection of the Marine Environment of the North-East Atlantic (OSPAR)</dd>
                 
-                    <dd class="c-indicator-metadata__values">Convention on Biological Diversity Aichi Target 11</dd>
-                
               
             </div>
         
@@ -747,7 +1014,7 @@
                 <dt class="c-indicator-metadata__key">Last Updated</dt>
             
             
-                <dd class="c-indicator-metadata__value">2023</dd>
+                <dd class="c-indicator-metadata__value">2024</dd>
               
             </div>
         
@@ -758,7 +1025,7 @@
                 <dt class="c-indicator-metadata__key">Latest Data</dt>
             
             
-                <dd class="c-indicator-metadata__value">2022</dd>
+                <dd class="c-indicator-metadata__value">2023</dd>
               
             </div>
         
@@ -871,6 +1138,26 @@
         
         
             initialiseTableVisualisations(
+                "d2a",
+                {"layout":"fitColumns","pagination":true,"paginationSize":13,"nestedFieldSeparator":"|","columnDefaults":{"hozAlign":"right","headerHozAlign":"right"},"columns":[{"title":"Year","hozAlign":"left","headerHozAlign":"left"}]}
+            )
+        
+        
+            
+                initialiseFigureVisualisations(
+                    "d2a",
+                    {"data":[{"alignmentgroup":"True","hovertemplate":"%{y:.3s}","legendgroup":"Extent on land","marker":{"color":"#12436D","pattern":{"shape":""}},"name":"Extent on land","offsetgroup":"Extent on land","orientation":"v","showlegend":true,"textposition":"auto","x":[2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023],"xaxis":"x","y":[988754.451984867,990324.231310061,993031.207933118,994135.505488494,994400.40173056,994207.751286559,998035.300781861,998405.854922756,998825.476932941,1000894.33379139,1002529.97969811,1004719.51009171,1012970.13539104,1015777.55648388,1017242.42688665,1018303.5968852,1023023.10044631,1024397.18074146,1030886.60999452],"yaxis":"y","type":"bar"},{"alignmentgroup":"True","hovertemplate":"%{y:.3s}","legendgroup":"Extent at sea","marker":{"color":"#3F94DE","pattern":{"shape":""}},"name":"Extent at sea","offsetgroup":"Extent at sea","orientation":"v","showlegend":true,"textposition":"auto","x":[2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023],"xaxis":"x","y":[298919.469064392,298966.782095292,299036.804253938,328511.629746945,328511.23898662,328505.397826588,328505.261509774,328505.383235461,328504.733988291,783967.045615208,1103353.95145934,1343627.78396892,1343627.78396892,1685216.96529779,1690235.65039896,2343422.44199602,2447633.03834508,2447633.03835393,2447635.69041249],"yaxis":"y","type":"bar"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":""},"dtick":1,"automargin":true},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Hectares"},"showgrid":true,"automargin":true},"legend":{"title":{"text":""},"tracegroupgap":0,"yanchor":"bottom","y":-0.4,"xanchor":"center","x":0.5,"orientation":"v","traceorder":"reversed"},"margin":{"t":60},"barmode":"relative","hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true,"hovermode":"x unified"}},
+                    {"displayModeBar":false,"responsive":true}
+                )
+            
+        
+            
+        
+
+    
+        
+        
+            initialiseTableVisualisations(
                 "d2b",
                 {"layout":"fitColumns","pagination":true,"paginationSize":13,"nestedFieldSeparator":"|","columnDefaults":{"hozAlign":"right","headerHozAlign":"right"},"columns":[{"title":"Year","hozAlign":"left","headerHozAlign":"left"}]}
             )
@@ -879,7 +1166,7 @@
             
                 initialiseFigureVisualisations(
                     "d2b",
-                    {"data":[{"alignmentgroup":"True","hovertemplate":"%{y:.2f}%","legendgroup":"Favourable condition","marker":{"color":"#12436D","pattern":{"shape":""}},"name":"Favourable condition","offsetgroup":"Favourable condition","orientation":"v","showlegend":true,"textposition":"auto","x":[2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022],"xaxis":"x","y":[43.975613674531175,45.82208135461949,45.02,45.26,44.84,44.53612744839554,44.019236079786914,43.23627166666648,36.57462659615091,37.2404309817191,37.5485918181625,37.54,37.49962312174725,38.54049661104492,38.71165531954694,38.7521177080357,38.89314300940309,38.876978091893776,38.36209292012256,38.24],"yaxis":"y","type":"bar"},{"alignmentgroup":"True","hovertemplate":"%{y:.2f}%","legendgroup":"Unfavourable recovering condition","marker":{"color":"#3F94DE","pattern":{"shape":""}},"name":"Unfavourable recovering condition","offsetgroup":"Unfavourable recovering condition","orientation":"v","showlegend":true,"textposition":"auto","x":[2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022],"xaxis":"x","y":[12.95695093152859,17.03698980787908,22.34,27.01,30.6,38.14121326911292,44.38532085218138,49.83979449780295,60.04960487584642,59.4033734828451,58.56241148275048,58.64,58.4354439088964,57.21068368973851,56.05184381362982,55.53311837450401,54.65602224192612,54.24441151145756,53.0002892461651,50.81],"yaxis":"y","type":"bar"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":""},"dtick":1,"automargin":true,"range":[2002.5,2022.5]},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Percentage of site area"},"showgrid":true,"dtick":10,"automargin":true,"ticksuffix":"%"},"legend":{"title":{"text":""},"tracegroupgap":0,"yanchor":"bottom","y":-0.4,"xanchor":"center","x":0.5,"orientation":"v","traceorder":"reversed"},"margin":{"t":60},"barmode":"relative","hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true,"hovermode":"x unified"}},
+                    {"data":[{"alignmentgroup":"True","hovertemplate":"%{y:.2f}%","legendgroup":"Favourable condition","marker":{"color":"#12436D","pattern":{"shape":""}},"name":"Favourable condition","offsetgroup":"Favourable condition","orientation":"v","showlegend":true,"textposition":"auto","x":[2016,2017,2018,2019,2020,2021,2022,2023],"xaxis":"x","y":[38.5,38.7,38.7,38.9,38.7,38.3,38.2,36.8],"yaxis":"y","type":"bar"},{"alignmentgroup":"True","hovertemplate":"%{y:.2f}%","legendgroup":"Unfavourable recovering condition","marker":{"color":"#3F94DE","pattern":{"shape":""}},"name":"Unfavourable recovering condition","offsetgroup":"Unfavourable recovering condition","orientation":"v","showlegend":true,"textposition":"auto","x":[2016,2017,2018,2019,2020,2021,2022,2023],"xaxis":"x","y":[57.3,56.00000000000001,55.50000000000001,54.6,54.1,52.900000000000006,50.8,49.1],"yaxis":"y","type":"bar"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":""},"dtick":1,"automargin":true,"range":[2015.5,2023.5]},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Percentage of site area"},"showgrid":true,"dtick":10,"automargin":true},"legend":{"title":{"text":""},"tracegroupgap":0,"yanchor":"bottom","y":-0.4,"xanchor":"center","x":0.5,"orientation":"v","traceorder":"reversed"},"margin":{"t":60},"barmode":"relative","hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true,"hovermode":"x unified"}},
                     {"displayModeBar":false,"responsive":true}
                 )
             
@@ -890,6 +1177,19 @@
     
 
 
+    
+        
+        AssessmentTable = new Tabulator("#d2a-assessment-table", {
+        layout: "fitDataStretch",
+        pagination: false,
+        columns: [
+            {title: "Component"},
+            {title: "Subcomponent"},
+            {title: "Period"},
+            {title: "Date range"},
+            {title: "Percentage change", hozAlign: "right"},
+        ]
+        });
     
         
         AssessmentTable = new Tabulator("#d2b-assessment-table", {

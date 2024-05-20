@@ -261,6 +261,16 @@
         
     
     
+        
+
+<div class="container">
+    <div class="experimental-indicator">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        <p><strong>Information - </strong>This Indicator is an <a href="https://www.ons.gov.uk/methodology/methodologytopicsandstatisticalconcepts/guidetoofficialstatisticsindevelopment">official statistic in development</a> and has been published in order to facilitate user involvement in its development – information on how the data have been obtained and how the indicator has been prepared is available via the link(s) in the 'Readiness and links to data' section. We would welcome any feedback, particularly on the usefulness and value of this statistic, via <a href="mailto:25YEPindicators@defra.gov.uk">25YEPindicators@defra.gov.uk</a>.</p>
+    </div>
+</div>
+
+    
     <div class="indicator-banner">
         <div class="l-column indicator-icon">
             
@@ -282,17 +292,18 @@
     </div>
     <section class="l-column l-column--small-space">
         <h2>Short Description</h2>
-        <p>This indicator shows how much waste is incinerated and landfilled in England rather than recycled, reused or treated further up the waste hierarchy. Data presented are captured through the Environment Agency’s permitted site data and annual monitoring reports. There are still gaps in the data and these will need to be addressed in order to provide reporting by source sector.</p>
+        <p>This indicator shows how much waste generated in England is landfilled, incinerated or sent for energy recovery, rather than recycled, reused or treated further up the waste hierarchy. Data presented are captured through the Environment Agency’s permitted site data, and annual monitoring reports and international waste shipments data. There are still gaps in the data and these will need to be addressed in order to provide reporting by source sector. </p>
     </section>
     <section class="l-column l-column--small-space">
         <h2>Readiness and links to data</h2>
-        <p>This indicator is not available for reporting in 2023 in a finalised form. An interim indicator is presented here that shows trends in waste landfilled or incinerated (with and without energy recovery) in England, excluding major minerals. Some data are available via the Environment Agency’s <a href="https://www.data.gov.uk/dataset/d8a12b93-03ef-4fbf-9a43-1ca7a054479c/2021-waste-data-interrogator">Waste data interrogator</a> and <a href="https://www.data.gov.uk/dataset/0de19ba3-9c2f-417c-b092-4a6baaf9744d/incinerator-annual-monitoring-reporting">incineration monitoring reports</a>, but further work is required to split these data by source sector. This interim indicator, together with additional supporting methodology is also included within Defra’s <a href="https://www.gov.uk/government/publications/resources-and-waste-strategy-for-england-monitoring-and-evaluation">Resources and waste strategy for England</a>.</p>
+        <p>This indicator is not available for reporting in 2024 in a finalised form. An interim indicator is presented here that shows waste generated in England that is landfilled or incinerated, or used in energy recovery. This indicator excludes major mineral wastes. The data are presented on both a per capita basis (J4i) and total tonnage (J4ii). Data are available via the statistical notice <a href="https://www.gov.uk/government/statistics/estimates-of-residual-waste-excluding-major-mineral-wastes-and-municipal-residual-waste-in-england">Estimates of Residual Waste (excluding Major Mineral Wastes) and Municipal Residual Waste in England</a>. </p>
+<p>These source data are currently published as official statistics in development as there may be refinements to the methodology following the introduction of <a href="https://www.gov.uk/government/collections/waste-management-smart-tracking-of-waste-govtech-catalyst">digital waste tracking</a>. We would welcome any feedback on these statistics, particularly on their usefulness and value, via <a href="mailto:25YEPindicators@defra.gov.uk">25YEPindicators@defra.gov.uk</a>.</p>
     </section>
     
         <section class="l-column l-column--small-space">
             <h2>Notes on indicator</h2>
-            <p>For the purposes of this indicator, residual waste refers to waste sent to landfill or incineration in England.</p>
-<p>These data do not include exported waste figures. However, it is intended for these to be incorporated in the future.</p>
+            <p>For the purposes of this indicator, residual waste refers to waste generated in England that is sent to landfill in the UK, put through incineration in the UK, used in energy recovery in the UK, or sent outside the UK for energy recovery.   </p>
+<p>Figures reported for the years 2020 to 2022 are not directly comparable to those reported from 2010 to 2018 due to methodological differences, and therefore comparisons should be made with care. For both components of indicator J4, there are two values available for the year 2019. The value for 2019a was derived from the 2010 to 2018 method, and 2019b is based upon the new method. Further detail on the methodological differences is available in the statistical notice underpinning the indicator presented here.</p>
         </section>
     
     
@@ -305,15 +316,30 @@
             
                 
     
-    <button id="j4-component-tab" type="button" role="tab" aria-selected="true" aria-controls="j4-component-tabpanel" class="c-indicator-component-tab" onclick="window.dispatchEvent(new Event('resize'));">
-        <h3 id="j4-component-title" class="l-row l-row--xx-small-space l-row--vertically-centred | c-indicator-component-tab__text">
+    <button id="j4i-component-tab" type="button" role="tab" aria-selected="true" aria-controls="j4i-component-tabpanel" class="c-indicator-component-tab" onclick="window.dispatchEvent(new Event('resize'));">
+        <h3 id="j4i-component-title" class="l-row l-row--xx-small-space l-row--vertically-centred | c-indicator-component-tab__text">
             <span class="c-indicator-component-tab__radio-button">
                 <svg class="c-radio-button" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                     <circle class="c-radio-button__outer-circle" cx="50" cy="50" r="30"/>
                     <circle class="c-radio-button__inner-circle" cx="50" cy="50" r="20"/>
                 </svg>
             </span>
-            J4: Residual waste (excluding major mineral wastes) in England, 2010 to 2020
+            J4i: Residual waste (excluding major mineral wastes) per capita in England, 2010 to 2022
+        </h3>
+    </button>
+
+            
+                
+    
+    <button id="j4ii-component-tab" type="button" role="tab" aria-selected="true" aria-controls="j4ii-component-tabpanel" class="c-indicator-component-tab" onclick="window.dispatchEvent(new Event('resize'));">
+        <h3 id="j4ii-component-title" class="l-row l-row--xx-small-space l-row--vertically-centred | c-indicator-component-tab__text">
+            <span class="c-indicator-component-tab__radio-button">
+                <svg class="c-radio-button" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="c-radio-button__outer-circle" cx="50" cy="50" r="30"/>
+                    <circle class="c-radio-button__inner-circle" cx="50" cy="50" r="20"/>
+                </svg>
+            </span>
+            J4ii: Residual waste (excluding major mineral wastes) in England, 2010 to 2022
         </h3>
     </button>
 
@@ -322,7 +348,7 @@
             
                 
     
-    <div id="j4-component-tabpanel" role="tabpanel" tabindex="0" aria-labelledby="j4-component-tab" class="l-column l-column--small-space | c-indicator-component-tabpanel">
+    <div id="j4i-component-tabpanel" role="tabpanel" tabindex="0" aria-labelledby="j4i-component-tab" class="l-column l-column--small-space | c-indicator-component-tabpanel">
         
         
     <section class="l-column l-column--no-space">
@@ -332,13 +358,13 @@
             class="l-equal-width-columns l-equal-width-columns--no-space">
             
             
-    <button id="j4-figure-tab" type="button" role="tab" aria-selected="true" data-tabgroup="j4" aria-controls="j4-figure-tabpanel" class="c-indicator-component-visualisation-tab">
+    <button id="j4i-figure-tab" type="button" role="tab" aria-selected="true" data-tabgroup="j4i" aria-controls="j4i-figure-tabpanel" class="c-indicator-component-visualisation-tab">
         <span class="c-indicator-component-visualisation-tab__text">Figure</span>
     </button>
 
             
             
-    <button id="j4-table-tab" type="button" role="tab" aria-selected="true" data-tabgroup="j4" aria-controls="j4-table-tabpanel" class="c-indicator-component-visualisation-tab">
+    <button id="j4i-table-tab" type="button" role="tab" aria-selected="true" data-tabgroup="j4i" aria-controls="j4i-table-tabpanel" class="c-indicator-component-visualisation-tab">
         <span class="c-indicator-component-visualisation-tab__text">Table</span>
     </button>
 
@@ -347,13 +373,13 @@
         <div class="l-column | c-indicator-component-visualisation-tabpanels">
             
             
-    <div id="j4-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="j4" aria-labelledby="j4-figure-tab" class="c-indicator-component-visualisation-tabpanel">
+    <div id="j4i-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="j4i" aria-labelledby="j4i-figure-tab" class="c-indicator-component-visualisation-tabpanel">
         <section class="l-column l-column--small-space">
             <h4>Figure
-                J4: Residual waste (excluding major mineral wastes) in England, 2010 to 2020</h4>
-            <div id="j4-figure-container" class="c-visualisation-container">
+                J4i: Residual waste (excluding major mineral wastes) per capita in England, 2010 to 2022</h4>
+            <div id="j4i-figure-container" class="c-visualisation-container">
                 
-                    <img src='j4.svg' />
+                    <img src='j4i.svg' />
                 
             </div>
             
@@ -362,43 +388,34 @@
     
     <dl class="c-indicator-component-metadata">
         
-            <dt class="c-indicator-component-metadata__key">Sources</dt>
+            <dt class="c-indicator-component-metadata__key">Source</dt>
             
-                <dd class="c-indicator-component-metadata__values">
+                <dd class="c-indicator-component-metadata__value">
                 
                     Department for Environment, Food &amp; Rural Affairs,
                 
                 
-                    Data waste interrogator
-                
-                </dd>
-            
-                <dd class="c-indicator-component-metadata__values">
-                
-                    Environment Agency,
-                
-                
-                    Incineration data
+                    Estimates of Residual Waste (excluding Major Mineral Wastes) and Municipal Residual Waste in England
                 
                 </dd>
             
         
         
             <dt class="c-indicator-component-metadata__key">Unit of Measurement</dt>
-            <dd>Million tonnes</dd>
+            <dd>Kilograms per capita</dd>
         
         
             <dt class="c-indicator-component-metadata__key">Footnotes</dt>
-            <dd><p>Prior to 2014, incineration data was generated on a biennial basis, and therefore there is no incineration data available for the years 2011 and 2013.</p></dd>
+            <dd><p>Prior to 2014, incineration data were generated on a biennial basis, and therefore there are no incineration data available for the years 2011 and 2013. Prior to 2015, data on waste sent outside the UK for energy recovery included both waste originating in England and Wales so they are not included in these figures.</p></dd>
         
     </dl>
 
             <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
                 
-                    <a class="c-button" href="j4.csv">Download  CSV</a>
+                    <a class="c-button" href="j4i.csv">Download  CSV</a>
                 
                 
-                    <a class="c-button" href="j4.svg" download=".svg">Download Figure Image</a>
+                    <a class="c-button" href="j4i.svg" download=".svg">Download Figure Image</a>
                 
             </div>
         </section>
@@ -406,75 +423,105 @@
 
             
             
-    <div id="j4-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="j4" aria-labelledby="j4-table-tab" class="c-indicator-component-visualisation-tabpanel">
+    <div id="j4i-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="j4i" aria-labelledby="j4i-table-tab" class="c-indicator-component-visualisation-tabpanel">
         <section class="l-column l-column--small-space">
             <h4>Table
-                J4: Residual waste (excluding major mineral wastes) in England, 2010 to 2020</h4>
-            <div id="j4-table-container" class="c-visualisation-container">
+                J4i: Residual waste (excluding major mineral wastes) per capita in England, 2010 to 2022</h4>
+            <div id="j4i-table-container" class="c-visualisation-container">
                 
-                    <table class="dataframe" id="j4-table">
+                    <table class="dataframe" id="j4i-table">
   <thead>
     <tr style="text-align: right;">
       <th>Year</th>
-      <th>Incineration</th>
-      <th>Landfill</th>
+      <th>Put through incineration (including Energy from Waste)</th>
+      <th>Sent outside the UK for energy recovery</th>
+      <th>Sent to landfill</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>2010</td>
-      <td>5,968,551.74</td>
-      <td>24,612,296.41</td>
+      <td>112.84</td>
+      <td>0.00</td>
+      <td>467.54</td>
     </tr>
     <tr>
       <td>2011</td>
       <td>-</td>
-      <td>23,068,274.01</td>
+      <td>0.00</td>
+      <td>434.35</td>
     </tr>
     <tr>
       <td>2012</td>
-      <td>7,036,313.00</td>
-      <td>21,250,142.45</td>
+      <td>131.50</td>
+      <td>0.00</td>
+      <td>397.15</td>
     </tr>
     <tr>
       <td>2013</td>
       <td>-</td>
-      <td>19,281,184.22</td>
+      <td>0.00</td>
+      <td>357.60</td>
     </tr>
     <tr>
       <td>2014</td>
-      <td>8,599,041.49</td>
-      <td>17,051,546.03</td>
+      <td>158.14</td>
+      <td>0.00</td>
+      <td>313.62</td>
     </tr>
     <tr>
       <td>2015</td>
-      <td>10,366,875.00</td>
-      <td>15,161,446.70</td>
+      <td>189.27</td>
+      <td>51.50</td>
+      <td>276.48</td>
     </tr>
     <tr>
       <td>2016</td>
-      <td>11,639,105.59</td>
-      <td>14,550,501.19</td>
+      <td>210.51</td>
+      <td>58.11</td>
+      <td>263.17</td>
     </tr>
     <tr>
       <td>2017</td>
-      <td>12,992,265.46</td>
-      <td>13,658,447.21</td>
+      <td>233.27</td>
+      <td>57.55</td>
+      <td>245.57</td>
     </tr>
     <tr>
       <td>2018</td>
-      <td>14,346,646.30</td>
-      <td>13,749,225.36</td>
+      <td>256.54</td>
+      <td>56.99</td>
+      <td>245.85</td>
     </tr>
     <tr>
-      <td>2019</td>
-      <td>15,296,420.62</td>
-      <td>13,755,240.19</td>
+      <td>2019a</td>
+      <td>271.91</td>
+      <td>50.20</td>
+      <td>244.62</td>
+    </tr>
+    <tr>
+      <td>2019b</td>
+      <td>286.68</td>
+      <td>50.20</td>
+      <td>237.96</td>
     </tr>
     <tr>
       <td>2020</td>
-      <td>16,328,078.00</td>
-      <td>12,756,526.69</td>
+      <td>299.29</td>
+      <td>30.90</td>
+      <td>219.90</td>
+    </tr>
+    <tr>
+      <td>2021</td>
+      <td>307.39</td>
+      <td>26.42</td>
+      <td>243.03</td>
+    </tr>
+    <tr>
+      <td>2022</td>
+      <td>306.84</td>
+      <td>25.16</td>
+      <td>226.82</td>
     </tr>
   </tbody>
 </table>
@@ -486,40 +533,31 @@
     
     <dl class="c-indicator-component-metadata">
         
-            <dt class="c-indicator-component-metadata__key">Sources</dt>
+            <dt class="c-indicator-component-metadata__key">Source</dt>
             
-                <dd class="c-indicator-component-metadata__values">
+                <dd class="c-indicator-component-metadata__value">
                 
                     Department for Environment, Food &amp; Rural Affairs,
                 
                 
-                    Data waste interrogator
-                
-                </dd>
-            
-                <dd class="c-indicator-component-metadata__values">
-                
-                    Environment Agency,
-                
-                
-                    Incineration data
+                    Estimates of Residual Waste (excluding Major Mineral Wastes) and Municipal Residual Waste in England
                 
                 </dd>
             
         
         
             <dt class="c-indicator-component-metadata__key">Unit of Measurement</dt>
-            <dd>Million tonnes</dd>
+            <dd>Kilograms per capita</dd>
         
         
             <dt class="c-indicator-component-metadata__key">Footnotes</dt>
-            <dd><p>Prior to 2014, incineration data was generated on a biennial basis, and therefore there is no incineration data available for the years 2011 and 2013.</p></dd>
+            <dd><p>Prior to 2014, incineration data were generated on a biennial basis, and therefore there are no incineration data available for the years 2011 and 2013. Prior to 2015, data on waste sent outside the UK for energy recovery included both waste originating in England and Wales so they are not included in these figures.</p></dd>
         
     </dl>
 
             <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
                 
-                    <a class="c-button" href="j4.csv">Download  CSV</a>
+                    <a class="c-button" href="j4i.csv">Download  CSV</a>
                 
                 
             </div>
@@ -532,60 +570,250 @@
 
         
         <section class="l-column l-column--small-space">
-            <h4>Trend description for J4</h4>
-            <p>In 2020, the total quantity of waste (excluding major mineral wastes) landfilled or incinerated in England was 29.1 million tonnes, a 5% reduction against levels in 2010 (30.6 million tonnes). This reduction was due to less waste being landfilled (falling by 48% over the period 2010 to 2020), and more waste being sent to incineration (increasing by 174% over the same period).</p>
+            <h4>Trend description for J4i</h4>
+            <p>In 2022, the per capita quantity of residual waste (excluding major mineral wastes) was 559 kg per person, a small reduction on levels in 2019 (575 kg per person). Due to a methodological difference, levels of residual waste prior to 2019 are not comparable, however between 2010 and 2019, the amount of residual waste sent to landfill and put through incineration reduced to a low of 457 kg per person in 2015, before increasing to 517 tonnes in 2019 (under the old methodology). The amount of residual waste sent outside the UK for energy recovery remained steady between 2015 and 2019 (from 51.5 to 50.2 kg per person). With the methodology used for the data for 2019 to 2022, this waste stream reduced from 50.2 to 25.2 kg per person.</p>
         </section>
         
             <h2>Assessment of change</h2>
-            <p>The time series for interim J4 indicator Residual waste (excluding major mineral wastes) in England begins in 2010 which is not yet long enough to produce an assessment for medium and long-term time periods. The assessment shows trends for the total of both landfill and incineration waste. A small increase in residual waste (or deterioration) was observed over the short term. This assessment does not consider whether this improvement is on a sufficient scale to meet any targets.</p>
-<p>Change since 2018 has also been assessed. An increase in residual waste has been observed since 2018. However, this is based on only 3 data points so should be considered as indicative only and not evidence of a clear trend.</p>
-<p>Further information on this assessment, along with details on the methodology, is provided in the <a href="/assessment/">Assessment background</a> page. Summaries by 25 Year Environment Plan goal and information on indicator links are presented in the <a href="/assessment/">Assessment results</a> pages.</p>
+            <p>No assessment of change was undertaken for this indicator as a suitable time series is not yet available in the Outcome Indicator Framework. In previous years, a short-term assessment was presented for J4, however due to the methodology change in 2019, there are not currently enough datapoints available to carry out an assessment over this time period</p>
             
-                <h4>Table J4: Assessment of change</h4>
-                <table class="dataframe" id="j4-assessment-table">
+            
+        
+    </div>
+
+            
+                
+    
+    <div id="j4ii-component-tabpanel" role="tabpanel" tabindex="0" aria-labelledby="j4ii-component-tab" class="l-column l-column--small-space | c-indicator-component-tabpanel">
+        
+        
+    <section class="l-column l-column--no-space">
+        <div
+            role="tablist"
+            aria-label="Data visualisation options"
+            class="l-equal-width-columns l-equal-width-columns--no-space">
+            
+            
+    <button id="j4ii-figure-tab" type="button" role="tab" aria-selected="true" data-tabgroup="j4ii" aria-controls="j4ii-figure-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Figure</span>
+    </button>
+
+            
+            
+    <button id="j4ii-table-tab" type="button" role="tab" aria-selected="true" data-tabgroup="j4ii" aria-controls="j4ii-table-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Table</span>
+    </button>
+
+            
+        </div>
+        <div class="l-column | c-indicator-component-visualisation-tabpanels">
+            
+            
+    <div id="j4ii-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="j4ii" aria-labelledby="j4ii-figure-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Figure
+                J4ii: Residual waste (excluding major mineral wastes) in England, 2010 to 2022</h4>
+            <div id="j4ii-figure-container" class="c-visualisation-container">
+                
+                    <img src='j4ii.svg' />
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Department for Environment, Food &amp; Rural Affairs,
+                
+                
+                    Estimates of Residual Waste (excluding Major Mineral Wastes) and Municipal Residual Waste in England
+                
+                </dd>
+            
+        
+        
+            <dt class="c-indicator-component-metadata__key">Unit of Measurement</dt>
+            <dd>Million tonnes</dd>
+        
+        
+            <dt class="c-indicator-component-metadata__key">Footnotes</dt>
+            <dd><p>Prior to 2014, incineration data were generated on a biennial basis, and therefore there are no incineration data available for the years 2011 and 2013. Prior to 2015, data on waste sent outside the UK for energy recovery included both waste originating in England and Wales so they are not included in these figures. </p></dd>
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="j4ii.csv">Download  CSV</a>
+                
+                
+                    <a class="c-button" href="j4ii.svg" download=".svg">Download Figure Image</a>
+                
+            </div>
+        </section>
+    </div>
+
+            
+            
+    <div id="j4ii-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="j4ii" aria-labelledby="j4ii-table-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Table
+                J4ii: Residual waste (excluding major mineral wastes) in England, 2010 to 2022</h4>
+            <div id="j4ii-table-container" class="c-visualisation-container">
+                
+                    <table class="dataframe" id="j4ii-table">
   <thead>
     <tr style="text-align: right;">
-      <th>Component</th>
-      <th>Subcomponent</th>
-      <th>Period</th>
-      <th>Date range</th>
-      <th>Percentage change</th>
-      <th>Smoothing function</th>
-      <th>Assessment of change</th>
+      <th>Year</th>
+      <th>Put through incineration (including Energy from Waste)</th>
+      <th>Sent outside the UK for energy recovery</th>
+      <th>Sent to landfill</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>J4</td>
-      <td>Total waste</td>
-      <td>Short term</td>
-      <td>2014 to 2019</td>
-      <td>19.54</td>
-      <td>Loess</td>
-      <td>Deterioration</td>
+      <td>2010</td>
+      <td>5.94</td>
+      <td>0.00</td>
+      <td>24.61</td>
     </tr>
     <tr>
-      <td>J4</td>
-      <td>Total waste</td>
-      <td>Medium term</td>
-      <td>N/A</td>
-      <td>N/A</td>
-      <td>N/A</td>
-      <td>Not assessed</td>
+      <td>2011</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>23.07</td>
     </tr>
     <tr>
-      <td>J4</td>
-      <td>Total waste</td>
-      <td>Long term</td>
-      <td>N/A</td>
-      <td>N/A</td>
-      <td>N/A</td>
-      <td>Not assessed</td>
+      <td>2012</td>
+      <td>7.04</td>
+      <td>0.00</td>
+      <td>21.25</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>19.28</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>8.60</td>
+      <td>0.00</td>
+      <td>17.05</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>10.37</td>
+      <td>2.82</td>
+      <td>15.15</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>11.64</td>
+      <td>3.21</td>
+      <td>14.55</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>12.97</td>
+      <td>3.20</td>
+      <td>13.66</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>14.35</td>
+      <td>3.19</td>
+      <td>13.75</td>
+    </tr>
+    <tr>
+      <td>2019a</td>
+      <td>15.29</td>
+      <td>2.82</td>
+      <td>13.76</td>
+    </tr>
+    <tr>
+      <td>2019b</td>
+      <td>16.12</td>
+      <td>2.82</td>
+      <td>13.38</td>
+    </tr>
+    <tr>
+      <td>2020</td>
+      <td>16.86</td>
+      <td>1.74</td>
+      <td>12.39</td>
+    </tr>
+    <tr>
+      <td>2021</td>
+      <td>17.38</td>
+      <td>1.49</td>
+      <td>13.74</td>
+    </tr>
+    <tr>
+      <td>2022</td>
+      <td>17.52</td>
+      <td>1.44</td>
+      <td>12.95</td>
     </tr>
   </tbody>
 </table>
+                
+            </div>
             
-            <p>Note that assessment categories were assigned based on smoothed data, so percent change figures in Table J4 may differ from unsmoothed values quoted elsewhere. Percent change refers to the difference seen between the first and last years in the specified date range.</p>
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Department for Environment, Food &amp; Rural Affairs,
+                
+                
+                    Estimates of Residual Waste (excluding Major Mineral Wastes) and Municipal Residual Waste in England
+                
+                </dd>
+            
+        
+        
+            <dt class="c-indicator-component-metadata__key">Unit of Measurement</dt>
+            <dd>Million tonnes</dd>
+        
+        
+            <dt class="c-indicator-component-metadata__key">Footnotes</dt>
+            <dd><p>Prior to 2014, incineration data were generated on a biennial basis, and therefore there are no incineration data available for the years 2011 and 2013. Prior to 2015, data on waste sent outside the UK for energy recovery included both waste originating in England and Wales so they are not included in these figures. </p></dd>
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="j4ii.csv">Download  CSV</a>
+                
+                
+            </div>
+        </section>
+    </div>
+
+            
+        </div>
+    </section>
+
+        
+        <section class="l-column l-column--small-space">
+            <h4>Trend description for J4ii</h4>
+            <p>In 2022, the amount of residual waste (excluding major mineral wastes) was 31.9 million tonnes, a small decrease on levels in 2019 (32.3 million tonnes).  Due to a methodological difference, levels of residual waste prior to 2019 are not comparable, however between 2010 and 2019, the amount of residual waste sent to landfill or put through incineration reduced from 30.6 million tonnes to a low of 25.5 million tonnes in 2015, before increasing to 29.0 million tonnes in 2019. The amount of residual waste sent outside the UK for energy recovery remained steady between 2015 and 2019 (remaining at 2.8 million tonnes). With the methodology used for the data for 2019 to 2022, this waste stream reduced from 2.8 to 1.4 million tonnes.</p>
+        </section>
+        
+            <h2>Assessment of change</h2>
+            <p>No assessment of change was undertaken for this indicator component because when sufficient data are available, the assessment will now be based on the residual waste per capita data presented in component J4i.</p>
+            
+            
         
     </div>
 
@@ -707,7 +935,7 @@
                 <dt class="c-indicator-metadata__key">Last Updated</dt>
             
             
-                <dd class="c-indicator-metadata__value">2023</dd>
+                <dd class="c-indicator-metadata__value">2024</dd>
               
             </div>
         
@@ -718,7 +946,7 @@
                 <dt class="c-indicator-metadata__key">Latest Data</dt>
             
             
-                <dd class="c-indicator-metadata__value">2020</dd>
+                <dd class="c-indicator-metadata__value">2022</dd>
               
             </div>
         
@@ -831,15 +1059,35 @@
         
         
             initialiseTableVisualisations(
-                "j4",
+                "j4i",
                 {"layout":"fitColumns","pagination":true,"paginationSize":13,"nestedFieldSeparator":"|","columnDefaults":{"hozAlign":"right","headerHozAlign":"right"},"columns":[{"title":"Year","hozAlign":"left","headerHozAlign":"left"}]}
             )
         
         
             
                 initialiseFigureVisualisations(
-                    "j4",
-                    {"data":[{"alignmentgroup":"True","hovertemplate":"%{y:.1f}","legendgroup":"Landfill","marker":{"color":"#12436D","pattern":{"shape":""}},"name":"Landfill","offsetgroup":"Landfill","orientation":"v","showlegend":true,"textposition":"auto","x":[2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020],"xaxis":"x","y":[24.612296412,23.068274008000003,21.250142445,19.281184222000007,17.051546027000004,15.161446701,14.550501192000004,13.658447213999999,13.749225364000006,13.755240190490998,12.756526690998],"yaxis":"y","type":"bar"},{"alignmentgroup":"True","hovertemplate":"%{y:.1f}","legendgroup":"Incineration","marker":{"color":"#F46A25","pattern":{"shape":""}},"name":"Incineration","offsetgroup":"Incineration","orientation":"v","showlegend":true,"textposition":"auto","x":[2010,2012,2014,2015,2016,2017,2018,2019,2020],"xaxis":"x","y":[5.9685517400000005,7.036313,8.59904149,10.366875,11.63910559,12.992265460999999,14.346646300000002,15.296420618920003,16.328078],"yaxis":"y","type":"bar"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":""},"dtick":1,"automargin":true},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Million tonnes"},"showgrid":true,"dtick":5,"automargin":true},"legend":{"title":{"text":""},"tracegroupgap":0,"yanchor":"bottom","y":-0.45,"xanchor":"center","x":0.5,"orientation":"v","traceorder":"reversed"},"margin":{"t":60},"barmode":"relative","hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true,"hovermode":"x unified"}},
+                    "j4i",
+                    {"data":[{"alignmentgroup":"True","hovertemplate":"%{y:.1f}","legendgroup":"Sent to landfill","marker":{"color":"#12436D","pattern":{"shape":""}},"name":"Sent to landfill","offsetgroup":"Sent to landfill","orientation":"v","showlegend":true,"textposition":"auto","x":["2010","2011","2012","2013","2014","2015","2016","2017","2018","2019a","2019b","2020","2021","2022"],"xaxis":"x","y":[467.537044285095,434.352450758578,397.148356455997,357.597442600882,313.618649671708,276.482863789667,263.171557528026,245.569187545357,245.853221398668,244.624337391572,237.958897933358,219.899448692904,243.027964740097,226.821889564108],"yaxis":"y","type":"bar"},{"alignmentgroup":"True","hovertemplate":"%{y:.1f}","legendgroup":"Put through incineration (including Energy from Waste)","marker":{"color":"#F46A25","pattern":{"shape":""}},"name":"Put through incineration (including Energy from Waste)","offsetgroup":"Put through incineration (including Energy from Waste)","orientation":"v","showlegend":true,"textposition":"auto","x":["2010","2011","2012","2013","2014","2015","2016","2017","2018","2019a","2019b","2020","2021","2022"],"xaxis":"x","y":[112.840065656516,null,131.503125246931,null,158.135197441089,189.267516697539,210.513817079893,233.273191306769,256.535849529208,271.908756749593,286.684766079939,299.29488569505,307.38511693559,306.835561293272],"yaxis":"y","type":"bar"},{"alignmentgroup":"True","hovertemplate":"%{y:.1f}","legendgroup":"Sent outside the UK for energy recovery","marker":{"color":"#801650","pattern":{"shape":""}},"name":"Sent outside the UK for energy recovery","offsetgroup":"Sent outside the UK for energy recovery","orientation":"v","showlegend":true,"textposition":"auto","x":["2010","2011","2012","2013","2014","2015","2016","2017","2018","2019a","2019b","2020","2021","2022"],"xaxis":"x","y":[0.0,0.0,0.0,0.0,0.0,51.5011241508735,58.1122530572735,57.5478897383344,56.9863195626792,50.1962216896956,50.1962216896956,30.9032737852444,26.4170790462667,25.1645898941131],"yaxis":"y","type":"bar"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":""},"dtick":1,"automargin":true},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Kilograms per person"},"showgrid":true,"dtick":100,"automargin":true},"legend":{"title":{"text":""},"tracegroupgap":0,"yanchor":"bottom","y":-0.45,"xanchor":"center","x":0.5,"orientation":"v","traceorder":"reversed"},"margin":{"t":60},"barmode":"relative","hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true,"hovermode":"x unified","shapes":[{"line":{"color":"dark grey","dash":"dash","width":3},"type":"line","x0":9.5,"x1":9.5,"xref":"x","y0":0,"y1":1,"yref":"y domain"}],"annotations":[{"showarrow":false,"text":"Methodology\u003cbr\u003echanged","x":9.5,"xanchor":"center","xref":"x","y":1,"yanchor":"bottom","yref":"y domain"}]}},
+                    {"displayModeBar":false,"responsive":true}
+                )
+            
+        
+            
+        
+
+    
+        
+        
+            initialiseTableVisualisations(
+                "j4ii",
+                {"layout":"fitColumns","pagination":true,"paginationSize":13,"nestedFieldSeparator":"|","columnDefaults":{"hozAlign":"right","headerHozAlign":"right"},"columns":[{"title":"Year","hozAlign":"left","headerHozAlign":"left"}]}
+            )
+        
+        
+            
+                initialiseFigureVisualisations(
+                    "j4ii",
+                    {"data":[{"alignmentgroup":"True","hovertemplate":"%{y:.1f}","legendgroup":"Sent to landfill","marker":{"color":"#12436D","pattern":{"shape":""}},"name":"Sent to landfill","offsetgroup":"Sent to landfill","orientation":"v","showlegend":true,"textposition":"auto","x":["2010","2011","2012","2013","2014","2015","2016","2017","2018","2019a","2019b","2020","2021","2022"],"xaxis":"x","y":[24.612296412,23.067229008,21.250142445,19.281184222,17.051546027,15.153659701,14.550501192,13.658447214,13.749225364,13.755240190491,13.380442156491,12.386047770998,13.744420055828,12.95298110056],"yaxis":"y","type":"bar"},{"alignmentgroup":"True","hovertemplate":"%{y:.1f}","legendgroup":"Put through incineration (including Energy from Waste)","marker":{"color":"#F46A25","pattern":{"shape":""}},"name":"Put through incineration (including Energy from Waste)","offsetgroup":"Put through incineration (including Energy from Waste)","orientation":"v","showlegend":true,"textposition":"auto","x":["2010","2011","2012","2013","2014","2015","2016","2017","2018","2019a","2019b","2020","2021","2022"],"xaxis":"x","y":[5.94017774,0.0,7.036313,0.0,8.59786113,10.373502,11.63910559,12.974549461,14.346646300000002,15.28944461892,16.1203004510219,16.8580720591589,17.3841317833145,17.522273683767],"yaxis":"y","type":"bar"},{"alignmentgroup":"True","hovertemplate":"%{y:.1f}","legendgroup":"Sent outside the UK for energy recovery","marker":{"color":"#801650","pattern":{"shape":""}},"name":"Sent outside the UK for energy recovery","offsetgroup":"Sent outside the UK for energy recovery","orientation":"v","showlegend":true,"textposition":"auto","x":["2010","2011","2012","2013","2014","2015","2016","2017","2018","2019a","2019b","2020","2021","2022"],"xaxis":"x","y":[0.0,0.0,0.0,0.0,0.0,2.8227084272210003,3.2129703351002,3.2007876156000004,3.186933024,2.8225363566,2.8225363566,1.740656594,1.494015026,1.437059086],"yaxis":"y","type":"bar"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":""},"dtick":2,"automargin":true,"tickvals":[0,1,2,3,4,5,6,7,8,9,10,11,12,13]},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Million tonnes"},"showgrid":true,"dtick":10,"automargin":true},"legend":{"title":{"text":""},"tracegroupgap":0,"yanchor":"bottom","y":-0.45,"xanchor":"center","x":0.5,"orientation":"v","traceorder":"reversed"},"margin":{"t":60},"barmode":"relative","hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true,"hovermode":"x unified","shapes":[{"line":{"color":"dark grey","dash":"dash","width":3},"type":"line","x0":9.5,"x1":9.5,"xref":"x","y0":0,"y1":1,"yref":"y domain"}],"annotations":[{"showarrow":false,"text":"Methodology\u003cbr\u003echanged","x":9.5,"xanchor":"center","xref":"x","y":1,"yanchor":"bottom","yref":"y domain"}]}},
                     {"displayModeBar":false,"responsive":true}
                 )
             
@@ -852,7 +1100,20 @@
 
     
         
-        AssessmentTable = new Tabulator("#j4-assessment-table", {
+        AssessmentTable = new Tabulator("#j4i-assessment-table", {
+        layout: "fitDataStretch",
+        pagination: false,
+        columns: [
+            {title: "Component"},
+            {title: "Subcomponent"},
+            {title: "Period"},
+            {title: "Date range"},
+            {title: "Percentage change", hozAlign: "right"},
+        ]
+        });
+    
+        
+        AssessmentTable = new Tabulator("#j4ii-assessment-table", {
         layout: "fitDataStretch",
         pagination: false,
         columns: [

@@ -1,5 +1,5 @@
 {
-    "schema:name": "Fly-tipping incidents in England, 2007/2008 to 2021/2022",
+    "schema:name": "Fly-tipping incidents in England, 2007/2008 to 2022/2023",
     "url": "j6b.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -10,13 +10,13 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:description": "<div class=\"govspeak\"><p>Statistics on the number of fly tipping incidents and actions taken in England reported by local councils. Including detailed figures by local council area from 2005 to 2006 and national level summaries from 2007.</p>\n\n<p>If you require the data in another format such as Excel please contact:  <a href=\"mailto:enviro.statistics@defra.gov.uk\" class=\"govuk-link\">enviro.statistics@defra.gov.uk</a></p>\n\n<section class=\"attachment embedded\" id=\"attachment_7159374\">\n  <div class=\"attachment-thumb\">\n      <a class=\"govuk-link\" tabindex=\"-1\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1132164/Flytipping_incidents_and_actions_taken_nat_level_data_2007-08_to_2021-22_accessible.ods\"><svg viewbox=\"0 0 99 140\" width=\"99\" height=\"140\">\n  <path d=\"M12 12h75v27H12zm0 47h18.75v63H12zm55 2v59H51V61h16m2-2H49v63h20V59z\"></path>\n  <path d=\"M49 61.05V120H32.8V61.05H49m2-2H30.75v63H51V59zm34 2V120H69.05V61.05H85m2-2H67v63h20V59z\"></path>\n  <path d=\"M30 68.5h56.5M30 77.34h56.5M30 112.7h56.5M30 95.02h56.5M30 86.18h56.5M30 103.86h56.5\" fill=\"none\"></path>\n</svg>\n</a>\n  </div>\n  <div class=\"attachment-details\">\n    <h3 class=\"title govuk-!-font-size-27 govuk-!-font-weight-regular\"><a class=\"govuk-link\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1132164/Flytipping_incidents_and_actions_taken_nat_level_data_2007-08_to_2021-22_accessible.ods\">Fly tipping incidents and actions taken national level data 2007/08 to 2021/22</a></h3>\n    <p class=\"govuk-body metadata\">\n        <span class=\"type\"><abbr title=\"OpenDocument Spreadsheet\">ODS</abbr></span>, <span class=\"file-size\">32.6 KB</span>\n    </p>\n\n      <p class=\"govuk-body opendocument-help\">\n        This file is in an <a href=\"https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation\" class=\"govuk-link\">OpenDocument</a> format\n      </p>\n\n  </div>\n</section>\n\n<section class=\"attachment embedded\" id=\"attachment_7159375\">\n  <div class=\"attachment-thumb\">\n      <a class=\"govuk-link\" tabindex=\"-1\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1132165/Flytipping_incidents_and_actions_taken_reported_by_LAs_in_England_2012-13_to_2021-22_accessible.ods\"><svg viewbox=\"0 0 99 140\" width=\"99\" height=\"140\">\n  <path d=\"M12 12h75v27H12zm0 47h18.75v63H12zm55 2v59H51V61h16m2-2H49v63h20V59z\"></path>\n  <path d=\"M49 61.05V120H32.8V61.05H49m2-2H30.75v63H51V59zm34 2V120H69.05V61.05H85m2-2H67v63h20V59z\"></path>\n  <path d=\"M30 68.5h56.5M30 77.34h56.5M30 112.7h56.5M30 95.02h56.5M30 86.18h56.5M30 103.86h56.5\" fill=\"none\"></path>\n</svg>\n</a>\n  </div>\n  <div class=\"attachment-details\">\n    <h3 class=\"title govuk-!-font-size-27 govuk-!-font-weight-regular\"><a class=\"govuk-link\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1132165/Flytipping_incidents_and_actions_taken_reported_by_LAs_in_England_2012-13_to_2021-22_accessible.ods\">Fly tipping incidents and actions taken, reported by local authorities in England 2012/13 to 2021/22</a></h3>\n    <p class=\"govuk-body metadata\">\n        <span class=\"type\"><abbr title=\"OpenDocument Spreadsheet\">ODS</abbr></span>, <span class=\"file-size\">1.51 MB</span>\n    </p>\n\n      <p class=\"govuk-body opendocument-help\">\n        This file is in an <a href=\"https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation\" class=\"govuk-link\">OpenDocument</a> format\n      </p>\n\n  </div>\n</section>\n\n<section class=\"attachment embedded\" id=\"attachment_7159376\">\n  <div class=\"attachment-thumb\">\n      <a class=\"govuk-link\" tabindex=\"-1\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1132166/Flytipping_datasets_in_Excel__2021_2022_Updated_Accessible.zip\"><svg viewbox=\"0 0 84 120\" width=\"84\" height=\"120\">\n  <path d=\"M74.85 5v106H5\" fill=\"none\"></path>\n  <path d=\"M79.85 10v106H10\" fill=\"none\"></path>\n</svg>\n</a>\n  </div>\n  <div class=\"attachment-details\">\n    <h3 class=\"title govuk-!-font-size-27 govuk-!-font-weight-regular\"><a class=\"govuk-link\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1132166/Flytipping_datasets_in_Excel__2021_2022_Updated_Accessible.zip\">Fly tipping datasets in Excel format 2007/08 to 2021/22</a></h3>\n    <p class=\"govuk-body metadata\">\n        <span class=\"type\"><abbr title=\"Zip archive\">ZIP</abbr></span>, <span class=\"file-size\">1.57 MB</span>\n    </p>\n\n\n  </div>\n</section>\n\n</div>",
+            "schema:description": "<div class=\"govspeak\"><div class=\"call-to-action\">\n  <p>This statistical notice and datasets were updated on 13th March 2024. They incorporate revisions to 8 local authorities’ data. The data revisions affect the number of fixed penalty notices reported, the number of paid fixed penalty notices, the number of prosecutions, prosecution outcomes, the number of enforcement actions, the national totals for these and the local authority enforcement league tables. All other sections of the notice and datasets are not affected. For more detail, please see the revisions section of the statistical notice.</p>\n\n  <p><strong>For further information around revisions please see <a rel=\"external\" href=\"https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.gov.uk%2Fgovernment%2Fpublications%2Fdefra-policy-statement-on-revisions-and-corrections%2Fdefra-policy-statement-on-revisions-and-corrections&amp;data=05%7C02%7CKatherine.Merrett%40defra.gov.uk%7C63c81a62c4844e8d650e08dc386ce173%7C770a245002274c6290c74e38537f1102%7C0%7C0%7C638447287487245213%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=Yaj1aVmqoMZfNCq0ra%2FT3dFwuN0Mb3bEqe6Fm9tmnI8%3D&amp;reserved=0\" class=\"govuk-link\">Defra Policy Statement on Revisions and Corrections</a></strong></p>\n</div>\n\n<p>This publication summarises the number and type of fly-tipping incidents and the enforcement actions taken against fly tipping in England.</p>\n\n<p>In the <a href=\"https://www.gov.uk/government/publications/anti-social-behaviour-action-plan\" class=\"govuk-link\">Antisocial Behaviour Action Plan</a>, government committed to “increase transparency of the data on the use of on-the-spot fines, including publishing league tables on fly-tipping”.  This release contains a set of tables to meet this commitment.</p>\n\n<p>Fly tipping is the illegal deposit of waste on land contrary to Section 33(1)(a) of the <a rel=\"external\" href=\"http://www.legislation.gov.uk/ukpga/1990/43/contents\" class=\"govuk-link\">Environmental Protection Act 1990</a>. The types of waste fly tipped range from ‘black bag’ waste to large deposits of materials such as industrial waste, tyres, construction material and liquid waste. Fly tipping is a significant blight on local environments; a source of pollution; a potential danger to public health and hazard to wildlife. It also undermines legitimate waste businesses where unscrupulous operators undercut those operating within the law.</p>\n\n<p>Local councils and the Environment Agency (EA) both have a responsibility in respect of illegally deposited waste. Local councils deal with most cases of fly tipping on public land, whilst the EA investigates and enforces against the larger, more serious and organised illegal waste crimes.</p>\n\n<p>The associated data is available in CSV format and can be found here: <a rel=\"external\" href=\"https://www.data.gov.uk/dataset/1388104c-3599-4cd2-abb5-ca8ddeeb4c9c/fly-tipping-in-england\" class=\"govuk-link\">Fly-tipping in England - data.gov.uk</a></p>\n\n<h2 id=\"historic-releases\">Historic Releases</h2>\n\n<p><a rel=\"external\" href=\"https://webarchive.nationalarchives.gov.uk/ukgwa/20230821231156/https://www.gov.uk/government/statistics/fly-tipping-in-england\" class=\"govuk-link\">Fly-tipping statistics for England, 2021 to 2022</a></p>\n\n<p><a href=\"https://www.gov.uk/government/statistics/fly-tipping-in-england/local-authority-fly-tipping-enforcement-league-tables-for-england-202122?preview=false\" class=\"govuk-link\">Local authority fly-tipping enforcement league tables for England, 2021/22</a></p>\n\n<p><a rel=\"external\" href=\"https://webarchive.nationalarchives.gov.uk/ukgwa/20220104175558/https://www.gov.uk/government/statistics/fly-tipping-in-england\" class=\"govuk-link\">Fly-tipping statistics for England, 2020 to 2021</a></p>\n\n<p><a rel=\"external\" href=\"https://webarchive.nationalarchives.gov.uk/ukgwa/20210618184143/https://www.gov.uk/government/statistics/fly-tipping-in-england\" class=\"govuk-link\">Fly-tipping statistics for England, 2019 to 2020</a></p>\n\n<p><a rel=\"external\" href=\"https://webarchive.nationalarchives.gov.uk/ukgwa/20200303093903/https://www.gov.uk/government/statistics/fly-tipping-in-england\" class=\"govuk-link\">Fly-tipping statistics for England, 2018 to 2019</a></p>\n\n<p><a rel=\"external\" href=\"https://webarchive.nationalarchives.gov.uk/ukgwa/20191101220726/https://www.gov.uk/government/statistics/fly-tipping-in-england\" class=\"govuk-link\">Fly-tipping statistics for England, 2017 to 2018</a></p>\n\n<p><a rel=\"external\" href=\"https://webarchive.nationalarchives.gov.uk/ukgwa/20180228134511/https://www.gov.uk/government/statistics/fly-tipping-in-england\" class=\"govuk-link\">Fly-tipping statistics for England, 2016 to 2017</a></p>\n\n<p><a rel=\"external\" href=\"https://webarchive.nationalarchives.gov.uk/ukgwa/20170908124407/https://www.gov.uk/government/statistics/fly-tipping-in-england\" class=\"govuk-link\">Fly-tipping statistics for England, 2015 to 2016</",
             "schema:image": [
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-bf9e64d759af6dfd93bede8168f3087a329f405b382aff36747db0db4b7b23e9.png",
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-13093f053c15f613acd827aff27cac83d3fab452947cbcae4c7b706dadf2f7f2.png",
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-4233cd42671827e266e284c4d5ae68fb600bd9f9e35dda663ccabbc2b6ab7ec3.png"
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-c3d38c0d4fc00005df38a71e1db7097276681d6917bca58f0dc8336a252e1bb3.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-edc38c137a14ecfc3fc83f404090e20dab806dad345c96a1df6a163ee2d1e3aa.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-5dc2d0ea1eb72cd94e66db210ef41b22ce364e7ed09d63a3acc28fda09e27864.png"
             ],
-            "schema:name": "ENV24 - Fly tipping incidents and actions taken in England",
+            "schema:name": "Fly-tipping statistics for England",
             "@type": "Dataset",
             "schema:about": [
                 {
@@ -33,22 +33,31 @@
                 "schema:url": "https://www.gov.uk",
                 "@type": "Organization"
             },
-            "schema:text": "Latest annual figures on fly tipping incidents and actions taken reported by local councils.",
+            "schema:text": "Annual incidents of fly tipping in England. (Statistical notice and datasets updated on 13 March 2024).\r\n",
             "schema:distribution": [
                 {
-                    "name": "Fly tipping incidents and actions taken national level data 2007/08 to 2021/22",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1132164/Flytipping_incidents_and_actions_taken_nat_level_data_2007-08_to_2021-22_accessible.ods",
+                    "name": "Fly-tipping statistics for England, 2022 to 2023",
+                    "url": "/government/statistics/fly-tipping-in-england/local-authority-fly-tipping-enforcement-league-tables-for-england-202122"
+                },
+                {
+                    "name": "Fly tipping incidents and actions taken national level data 2007/08 to 2022/23",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/65e9d53062ff48001a87b392/Flytipping_incidents_and_actions_taken__national_level_data__2007-08_to_2022-23_accessible_revised.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
-                    "name": "Fly tipping incidents and actions taken, reported by local authorities in England 2012/13 to 2021/22",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1132165/Flytipping_incidents_and_actions_taken_reported_by_LAs_in_England_2012-13_to_2021-22_accessible.ods",
+                    "name": "Fly tipping incidents and actions taken, reported by local authorities in England 2012/13 to 2022/23",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/65e9d56462ff48001a87b393/Flytipping_incidents_and_actions_taken__reported_by_LAs_in_England__2012-13_to_2022-23_accessible_revised.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
-                    "name": "Fly tipping datasets in Excel format 2007/08 to 2021/22",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1132166/Flytipping_datasets_in_Excel__2021_2022_Updated_Accessible.zip",
-                    "encodingFormat": "application/zip"
+                    "name": "Fly-tipping statistical release figures and tables dataset",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/65e9d58562ff489bab87b2a6/Fly-tipping_statistical_release_figures_and_tables_dataset_revised.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "Local authority flytipping league table data 2021-22 to 2022-23",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/65e9d61862ff48001a87b396/Local_authority_flytipping_league_table_data_2021_22_to_2022_23_revised.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 }
             ]
         }
@@ -58,12 +67,12 @@
         "Resource Use and Waste"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "2007/2022",
-    "schema:version": "2023-01-31",
+    "schema:temporalCoverage": "2007/2023",
+    "schema:version": "2024-03-13",
     "schema:measurementTechnique": "Number of incidents (000's)",
-    "schema:variableMeasured": "Fly-tipping incidents in England, 2007/2008 to 2021/2022",
+    "schema:variableMeasured": "Fly-tipping incidents in England, 2007/2008 to 2022/2023",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "Data are for April to March (financial years). The methodology used to calculate the total number of fly-tipping incidents in England was changed in 2019/2020 and results derived by using the new methodology are not comparable to those derived from the old methodology. These methodological changes have also been applied to the 2018/2019 results in order to show the effects of adopting the new methodology. Detailed information on these changes can be found in the reporting basis section of the source Fly-tipping statistics publication. For years 2007/2008 to 2017/2018 there is some level of estimation in the fly-tipping data, where returns for certain local authorities were missing or incomplete.",
+    "notes": "Data are for April to March (financial years). The methodology used to calculate the total number of fly-tipping incidents in England was changed in 2019/2020 and results derived by using the new methodology are not comparable to those derived from the old methodology. These methodological changes have also been applied to the 2018/2019 results in order to show the effects of adopting the new methodology. Detailed information on these changes can be found in the reporting basis section of the source Fly-tipping statistics publication. There is some level of estimation in the fly-tipping data, where returns for certain local authorities were missing or incomplete.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -76,7 +85,7 @@
             {
                 "datatype": {
                     "base": "string",
-                    "format": "2007/2008|2008/2009|2009/2010|2010/2011|2011/2012|2012/2013|2013/2014|2014/2015|2015/2016|2016/2017|2017/2018|2018/2019|2018/2019|2019/2020|2020/2021|2021/2022",
+                    "format": "2007/2008|2008/2009|2009/2010|2010/2011|2011/2012|2012/2013|2013/2014|2014/2015|2015/2016|2016/2017|2017/2018|2018/2019|2018/2019|2019/2020|2020/2021|2021/2022|2022/2023",
                     "@type": "Datatype"
                 },
                 "default": "",
@@ -85,11 +94,11 @@
                 "ordered": false,
                 "required": false,
                 "textDirection": "inherit",
-                "name": "year",
+                "name": "financial_year",
                 "suppressOutput": false,
                 "virtual": false,
                 "@type": "Column",
-                "schema:description": "The year ranges for the data present"
+                "schema:description": "The financial year ranges for the data present"
             },
             {
                 "datatype": {

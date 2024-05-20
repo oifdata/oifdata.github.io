@@ -1,16 +1,16 @@
 Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
-A1,NH3,Short term,2014 to 2019,0.856990219282524,Loess,Little or no change
-A1,NH3,Medium term,2009 to 2019,0.400076623434028,Loess,Little or no change
-A1,NH3,Long term,2005 to 2019,-7.390610586370336,Loess,Improvement
-A1,NMVOCs,Short term,2014 to 2019,-5.196062908370751,Loess,Improvement
-A1,NMVOCs,Medium term,2009 to 2019,-22.415771569999222,Loess,Improvement
-A1,NMVOCs,Long term,2005 to 2019,-41.490633451600914,Loess,Improvement
-A1,NOx,Short term,2014 to 2019,-27.72059380004167,Loess,Improvement
-A1,NOx,Medium term,2009 to 2019,-43.81703773153408,Loess,Improvement
-A1,NOx,Long term,2005 to 2019,-59.20282951247137,Loess,Improvement
-A1,PM2.5,Short term,2014 to 2019,-5.222921847141736,Loess,Improvement
-A1,PM2.5,Medium term,2009 to 2019,-14.847664406218467,Loess,Improvement
-A1,PM2.5,Long term,2005 to 2019,-31.92624141178043,Loess,Improvement
-A1,SO2,Short term,2014 to 2019,-56.846535419498586,Loess,Improvement
-A1,SO2,Medium term,2009 to 2019,-70.63048061998883,Loess,Improvement
-A1,SO2,Long term,2005 to 2019,-82.60002037013089,Loess,Improvement
+A1,NH3,Short term,2015 to 2020,-2.4162715691525753,Loess,Little or no change
+A1,NH3,Medium term,2010 to 2020,-0.15116460915717075,Loess,Little or no change
+A1,NH3,Long term,2005 to 2020,-7.751543270161792,Loess,Improvement
+A1,NMVOCs,Short term,2015 to 2020,-5.200078449927792,Loess,Improvement
+A1,NMVOCs,Medium term,2010 to 2020,-18.620500697305424,Loess,Improvement
+A1,NMVOCs,Long term,2005 to 2020,-42.51503711016714,Loess,Improvement
+A1,NOx,Short term,2015 to 2020,-29.98085155625832,Loess,Improvement
+A1,NOx,Medium term,2010 to 2020,-45.18747787132719,Loess,Improvement
+A1,NOx,Long term,2005 to 2020,-62.689747405734906,Loess,Improvement
+A1,PM2.5,Short term,2015 to 2020,-4.32520507491103,Loess,Improvement
+A1,PM2.5,Medium term,2010 to 2020,-9.507348264716738,Loess,Improvement
+A1,PM2.5,Long term,2005 to 2020,-30.475982616324693,Loess,Improvement
+A1,SO2,Short term,2015 to 2020,-54.30284924595544,Loess,Improvement
+A1,SO2,Medium term,2010 to 2020,-72.35807809981024,Loess,Improvement
+A1,SO2,Long term,2005 to 2020,-84.28970118120252,Loess,Improvement

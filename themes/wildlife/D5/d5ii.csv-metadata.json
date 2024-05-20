@@ -1,0 +1,80 @@
+{
+    "schema:name": "Percentage of species in the 2022 baseline Red List Index for England by category of extinction risk",
+    "url": "d5ii.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "D5 Conservation status of our native species, 2022 (NERR124)",
+            "schema:url": "https://publications.naturalengland.org.uk/publication/6315201438941184",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "NE",
+                "schema:name": "Natural England",
+                "schema:sameAs": "https://ror.org/00r66pz14",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:dateModified": "2022-10-19",
+            "schema:datePublished": "2022-10-19"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "1970-01-01T00:33:42+00:00",
+    "schema:version": "2022-10-19",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "percentage of native species in each red list index category",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Results are based on Great Britain Red List assessments of species known to be native to England. \n    \n</br>The Red List Index for England includes 8,259 taxa across 23 major taxonomic groups.\n\n</br>For the purposes of this indicator component, the ‘Extinct’ category includes taxa that are Extinct, Extinct in the Wild, Regionally Extinct and Critically Endangered (Possibly Extinct). The combined ‘Threatened categories’ total presented here is simply the total number of taxa in the Vulnerable, Endangered and Critically Endangered categories, calculated as a percentage of the total number of taxa in the Red List Index for England.\n    \n</br>A comparison of Great Britain and England Red List categories across 4 taxonomic groups showed that between 80% to 92% of statuses aligned and therefore the Red List Index presented here is considered a good approximation of extinction risk in England. However, Great Britain scale assessments can underestimate or overestimate extinction risk at an England scale and, importantly, losses from England of species still present in Scotland or Wales will not be detected by the index.",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Threatened categories|Extinct|Critically endangered|Endangered|Vulnerable|Near threatened|Least concern",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "Red List Index category",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Red list category of native species"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "Percentage",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The percentage of native species in each Red List Index category"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

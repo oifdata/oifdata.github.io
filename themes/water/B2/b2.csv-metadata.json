@@ -1,5 +1,5 @@
 {
-    "schema:name": "Serious pollution incidents to water in England, 2001 to 2020",
+    "schema:name": "Serious pollution incidents to water in England, 2001 to 2022",
     "url": "b2.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -31,8 +31,8 @@
                 "schema:sameAs": "https://ror.org/01zewfb16",
                 "@type": "schema:GovernmentOrganization"
             },
-            "schema:dateModified": "2015-03-26",
-            "schema:datePublished": "2015-11-05",
+            "schema:dateModified": "2015-11-05",
+            "schema:datePublished": "2015-03-26",
             "schema:headline": "2013 Pollution inventory data, England"
         },
         {
@@ -138,14 +138,27 @@
             "schema:dateModified": "2022-11-01",
             "schema:datePublished": "2022-11-01",
             "schema:headline": "Pollution incidents data 2021"
+        },
+        {
+            "schema:sameAs": "https://www.gov.uk/government/publications/environment-agency-2021-data-on-regulated-businesses-in-england",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "EA",
+                "schema:name": "Environment Agency",
+                "schema:sameAs": "https://ror.org/01zewfb16",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:dateModified": "2024-01-23",
+            "schema:datePublished": "2024-01-23",
+            "schema:headline": "Pollution incidents data 2022"
         }
     ],
     "schema:keywords": [
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "2001/2021",
-    "schema:version": "2022-11-01",
+    "schema:temporalCoverage": "2001/2022",
+    "schema:version": "2024-01-23",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Number of serious pollution incidents that met category 1 and 2 impact criteria",
     "@context": "http://www.w3.org/ns/csvw",
@@ -163,7 +176,7 @@
                 "datatype": {
                     "base": "integer",
                     "minimum": "2001",
-                    "maximum": "2021",
+                    "maximum": "2022",
                     "@type": "Datatype"
                 },
                 "default": "",

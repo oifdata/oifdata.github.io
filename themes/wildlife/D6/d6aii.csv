@@ -1,11 +1,11 @@
-time_period,trend,percentage
-Long term (1970–2018),Strong increase,1.342282
-Long term (1970–2018),Weak increase,5.369128
-Long term (1970–2018),Little or no change,10.067114
-Long term (1970–2018),Weak decrease,17.449664
-Long term (1970–2018),Strong decrease,65.771812
-Short term (2013–2018),Strong increase,14.09396
-Short term (2013–2018),Weak increase,6.040268
-Short term (2013–2018),Little or no change,23.489933
-Short term (2013–2018),Weak decrease,11.409396
-Short term (2013–2018),Strong decrease,44.966443
+period,trend,percentage
+Long term (1970–2022),Strong decrease,42.95302013422819
+Long term (1970–2022),Weak decrease,25.503355704697988
+Long term (1970–2022),Little or no change,18.79194630872483
+Long term (1970–2022),Weak increase,3.355704697986577
+Long term (1970–2022),Strong increase,9.395973154362416
+Short term (2017–2022),Strong decrease,29.166666666666668
+Short term (2017–2022),Weak decrease,9.027777777777777
+Short term (2017–2022),Little or no change,10.416666666666668
+Short term (2017–2022),Weak increase,7.638888888888889
+Short term (2017–2022),Strong increase,43.75

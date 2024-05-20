@@ -1,0 +1,95 @@
+{
+    "schema:name": "Changes in the landscape characteristics of NCAs in England, overall and within and outside of protected landscapes, 2015 to 2019",
+    "url": "g1a.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "Changes in landscape character in England",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "NE",
+                "schema:name": "Natural England",
+                "schema:sameAs": "https://ror.org/00r66pz14",
+                "@type": "schema:GovernmentOrganization"
+            }
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "2015/2019",
+    "schema:version": "2024-05-20",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Changes in the landscape characteristics of NCAs in England",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Results are based on the total number of NCAs within each extent category. Of the 159 NCAs across England, 74 were deemed to fall within a protected landscape and 85 were deemed to fall outside of a protected landscape.\n\n</br>Data are not always available for the exact monitoring points of 2015 and 2019. Where there is deviation to reflect data availability, this is recorded in the source publication.  \n\n</br>Additional data limitations and caveats are also recorded in the source publication.  \n\n</br>NCA change data are evaluated against a set of high-level landscape objectives. The objectives differ according to the landscape type to which an NCA is allocated, to reflect the relevant landscape pressures and opportunities.\n\n</br>For the purposes of establishing high-level trends for this reporting, the detailed evaluation of change allows each NCA to be allocated to one of the following ‘overall’ landscape change categories:</br>  \n\n* Mainly improving – the majority of evidence shows improving trends against objectives  \n\n* Some improving – some objectives show little change, but where there is change, there is more evidence of improving trends than declining \n\n* Mixed change – less stable than ‘mainly little change’, but some evidence of equal amounts of declining and improving trends\n\n* Mainly little change – although there is some evidence of both improving and declining trends, the majority of evidence relates to little change against objectives\n\n* Some declining – some objectives show little change, but where there is change, there is more evidence of declining trends than improving\n\n* Mainly declining – the majority of evidence shows declining trends against objectives\n\n</br>To understand whether there is a difference in the results between NCAs that are wholly or partly within protected landscapes and those that are outside of them, NCAs are analysed as falling within protected landscapes if more than 5% of an NCA area is within a protected landscape, or an NCA contains a whole protected landscape that covers less than 5% of the total NCA area. \n\n</br>While being a relatively low threshold, 5% of an NCA's area is considered enough for a protected landscape designation to positively influence the management of important landscape features within an NCA. Remaining NCAs are analysed as falling outside of protected landscapes. \n\n</br>More granular results for each of the 18 broad landscape types underpinning this indicator component are available in the [G1a: Atlas](https://experience.arcgis.com/experience/5e866b78a56f4519b81bd88ddf61afac)",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "All NCAs in England|NCAs within protected landscapes|NCAs outside protected landscapes",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "extent",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The extent of NCA coverage"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Mainly improving|Some improving|Mixed change and mainly little change|Some declining|Mainly declining",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "trend",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The different categories of changes to landscape character"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "percentage",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The percentage of NCAs in each category of change"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

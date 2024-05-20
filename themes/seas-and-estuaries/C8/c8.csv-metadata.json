@@ -1,0 +1,35 @@
+{
+    "schema:name": "Change in the biomass of fish feeding guilds in UK waters and surrounding areas, from 1997 to 2020",
+    "url": "c8.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "Pilot assessment of feeding guilds",
+            "schema:url": "https://oap.ospar.org/en/ospar-assessments/quality-status-reports/qsr-2023/indicator-assessments/feeding-guild-pilot-assessment/",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "OSPAR",
+                "schema:name": "The Convention for the Protection of the Marine Environment of the North-East Atlantic",
+                "schema:sameAs": "https://oap.ospar.org/en/",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:dateModified": "2022-06-30",
+            "schema:datePublished": "2022-06-30"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "UK",
+    "schema:temporalCoverage": "1997-2020",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Trends in biomass of fish feeding guilds",
+    "@context": "http://www.w3.org/ns/csvw",
+    "tableDirection": "auto"
+}

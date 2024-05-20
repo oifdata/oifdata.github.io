@@ -1,5 +1,5 @@
 {
-    "schema:name": "Condition of Sites of Special Scientific Interest in England, 2003 to 2022",
+    "schema:name": "Condition of Sites of Special Scientific Interest in England, 2016 to 2023",
     "url": "d2b.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -10,7 +10,7 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:description": "<div class=\"govspeak\"><p><strong>Natural England and Defra have identified a methodological issue with the protected sites data contained in the England Biodiversity Indicator 1, which may have resulted in some overestimation. It is unlikely to have affected the overall trend. We are working together to resolve the issue as quickly as possible.</strong></p>\n\n<p>These data sets provide a detailed statistical update of 24 indicators that give an overview of biodiversity in England.</p>\n\n<p>The 2022 publication of the Biodiversity Indicators updates 7 of the 24 indicators. This reduced publication has been produced at the same time as a thorough review of the indicators during 2022.</p>\n\n<p>The 7 indicators which have been updated in 2022 are:</p>\n\n<ul>\n  <li>1 - Condition of protected areas</li>\n  <li>5 - Species in the wider countryside: farmland (butterflies only)</li>\n  <li>6 - Species in the wider countryside: woodland (butterflies only)</li>\n  <li>10 - Biodiversity and ecosystem services: distribution of pollinators</li>\n  <li>15 - Funding for biodiversity</li>\n  <li>17 - Sustainable consumption</li>\n  <li>19a - Air pollution</li>\n</ul>\n\n<p>We do not anticipate the reduced publication leading to missing data for the indicators which have not been updated in 2022; data which would have been published this year will be available in the next publication. Data for the previous year’s update of all the indicators are available in the ‘England Biodiversity Indicators 2021 data set’.</p>\n\n<p>If you would like the data in Excel format please email: <a href=\"mailto:enviro.statistics@defra.gov.uk\" class=\"govuk-link\">enviro.statistics@defra.gov.uk</a></p>\n\n<section class=\"attachment embedded\" id=\"attachment_7251463\">\n  <div class=\"attachment-thumb\">\n      <a class=\"govuk-link\" tabindex=\"-1\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1145572/1_protected_areas_2022_final_revised.ods\"><svg viewbox=\"0 0 99 140\" width=\"99\" height=\"140\">\n  <path d=\"M12 12h75v27H12zm0 47h18.75v63H12zm55 2v59H51V61h16m2-2H49v63h20V59z\"></path>\n  <path d=\"M49 61.05V120H32.8V61.05H49m2-2H30.75v63H51V59zm34 2V120H69.05V61.05H85m2-2H67v63h20V59z\"></path>\n  <path d=\"M30 68.5h56.5M30 77.34h56.5M30 112.7h56.5M30 95.02h56.5M30 86.18h56.5M30 103.86h56.5\" fill=\"none\"></path>\n</svg>\n</a>\n  </div>\n  <div class=\"attachment-details\">\n    <h3 class=\"title govuk-!-font-size-27 govuk-!-font-weight-regular\"><a class=\"govuk-link\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1145572/1_protected_areas_2022_final_revised.ods\">Protected areas 2022</a></h3>\n    <p class=\"govuk-body metadata\">\n        <span class=\"type\"><abbr title=\"OpenDocument Spreadsheet\">ODS</abbr></span>, <span class=\"file-size\">7.98 KB</span>\n    </p>\n\n      <p class=\"govuk-body opendocument-help\">\n        This file is in an <a href=\"https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation\" class=\"govuk-link\">OpenDocument</a> format\n      </p>\n\n  </div>\n</section>\n\n<section class=\"attachment embedded\" id=\"attachment_7251457\">\n  <div class=\"attachment-thumb\">\n      <a class=\"govuk-link\" tabindex=\"-1\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1122473/Farmland_butterflies_England_1990_to_2021.ods\"><svg viewbox=\"0 0 99 140\" width=\"99\" height=\"140\">\n  <path d=\"M12 12h75v27H12zm0 47h18.75v63H12zm55 2v59H51V61h16m2-2H49v63h20V59z\"></path>\n  <path d=\"M49 61.05V120H32.8V61.05H49m2-2H30.75v63H51V59zm34 2V120H69.05V61.05H85m2-2H67v63h20V59z\"></path>\n  <path d=\"M30 68.5h56.5M30 77.34h56.5M30 112.7h56.5M30 95.02h56.5M30 86.18h56.5M30 103.86h56.5\" fill=\"none\"></path>\n</svg>\n</a>\n  </div>\n  <div class=\"attachment-details\">\n    <h3 class=\"title govuk-!-font-size-27 govuk-!-font-weight-regular\"><a class=\"govuk-link\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1122473/Farmland_butterflies_England_1990_to_2021.ods\">Farmland butterflies 2022</a></h3>\n    <p class=\"govuk-body metadata\">\n        <span class=\"type\"><abbr title=\"OpenDocument Spreadsheet\">ODS</abbr></span>, <span class=\"file-size\">15.9 KB</span>\n    </p>\n\n      <p class=\"govuk-body opendocument-help\">\n        This file is in an <a href=\"https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation\" class=\"govuk-link\">OpenDocument</a> format\n      </p>\n\n  </div>\n</section>\n\n<section class=\"attachment embedded\" id=\"attachment_7251458\">\n  <div class=\"attachment-thumb\">\n      <a class=\"govuk-link\" tabindex=\"-1\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1122474/Woodland_butterflies_England_1990_to_2021.ods\"><svg viewbox=\"0 0 99 140\" width=\"99\" height=\"140\">\n  <path d=\"M12 12h75v27H12zm0 47h18.75v63H12zm55 2v59H51V61h16m2-2H49v63h20V59z\"></path>\n  <path d=\"M49 61.05V120H32.8V61.05H49m2-2H30.75v63H51V59zm34 2V120H69.05V61.05H",
+            "schema:description": "<div class=\"govspeak\"><p>These datasets relate to the most recent publication of the Biodiversity Indicators, which includes 24 indicators that give an overview of biodiversity in England.</p>\n\n<p>In this publication 20 of the 24 indicators were updated, those for which new data are available. For the indicators not updated in 2023, data can be found in the <a rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/6537c10a1bf90d0013d844fb/Eng_BDI_Dataset_2021_FINAL_amended_Feb_23.ods\" class=\"govuk-link\">England Biodiversity Indicators 2021 dataset</a>.</p>\n\n<p>If you would like the data in Excel format please email: <a href=\"mailto:enviro.statistics@defra.gov.uk\" class=\"govuk-link\">enviro.statistics@defra.gov.uk</a></p>\n\n<section class=\"gem-c-attachment govuk-!-display-none-print govuk-!-margin-bottom-6\" data-module=\"ga4-link-tracker\">\n  <div class=\"gem-c-attachment__thumbnail\">\n    <a class=\"govuk-link\" target=\"_self\" tabindex=\"-1\" aria-hidden=\"true\" data-ga4-link='{\"event_name\":\"file_download\",\"type\":\"attachment\"}' href=\"https://assets.publishing.service.gov.uk/media/65a69c5496a5ec0013731a54/Eng_BDI_2023_1_Protected_Sites_rev.ods\">\n        <svg class=\"gem-c-attachment__thumbnail-image gem-c-attachment__thumbnail-image--spreadsheet\" version=\"1.1\" viewbox=\"0 0 99 140\" width=\"99\" height=\"140\" aria-hidden=\"true\">\n  <path d=\"M12 12h75v27H12zm0 47h18.75v63H12zm55 2v59H51V61h16m2-2H49v63h20V59z\" stroke-width=\"0\"></path>\n  <path d=\"M49 61.05V120H32.8V61.05H49m2-2H30.75v63H51V59zm34 2V120H69.05V61.05H85m2-2H67v63h20V59z\" stroke-width=\"0\"></path>\n  <path d=\"M30 68.5h56.5M30 77.34h56.5M30 112.7h56.5M30 95.02h56.5M30 86.18h56.5M30 103.86h56.5\" fill=\"none\" stroke-miterlimit=\"10\" stroke-width=\"2\"></path>\n</svg>\n\n</a>\n</div>\n  <div class=\"gem-c-attachment__details\">\n    <h2 class=\"gem-c-attachment__title\">\n      <a class=\"govuk-link\" target=\"_self\" data-ga4-link='{\"event_name\":\"file_download\",\"type\":\"attachment\"}' href=\"https://assets.publishing.service.gov.uk/media/65a69c5496a5ec0013731a54/Eng_BDI_2023_1_Protected_Sites_rev.ods\">1. Extent and condition of protected areas</a>\n</h2>\n\n\n      <p class=\"gem-c-attachment__metadata\"><span class=\"gem-c-attachment__attribute\"><abbr title=\"OpenDocument Spreadsheet\" class=\"gem-c-attachment__abbr\">ODS</abbr></span>, <span class=\"gem-c-attachment__attribute\">13.5 KB</span></p>\n\n\n\n        <p class=\"gem-c-attachment__metadata\">\n          This file is in an <a href=\"https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation\" target=\"_self\" class=\"govuk-link\">OpenDocument</a> format\n</p>\n</div></section>\n\n<section class=\"gem-c-attachment govuk-!-display-none-print govuk-!-margin-bottom-6\" data-module=\"ga4-link-tracker\">\n  <div class=\"gem-c-attachment__thumbnail\">\n    <a class=\"govuk-link\" target=\"_self\" tabindex=\"-1\" aria-hidden=\"true\" data-ga4-link='{\"event_name\":\"file_download\",\"type\":\"attachment\"}' href=\"https://assets.publishing.service.gov.uk/media/653f7ad7e6c9680014aa9cdc/Eng_BDI_4a_Status_of_priority_species_relative_abundance.ods\">\n        <svg class=\"gem-c-attachment__thumbnail-image gem-c-attachment__thumbnail-image--spreadsheet\" version=\"1.1\" viewbox=\"0 0 99 140\" width=\"99\" height=\"140\" aria-hidden=\"true\">\n  <path d=\"M12 12h75v27H12zm0 47h18.75v63H12zm55 2v59H51V61h16m2-2H49v63h20V59z\" stroke-width=\"0\"></path>\n  <path d=\"M49 61.05V120H32.8V61.05H49m2-2H30.75v63H51V59zm34 2V120H69.05V61.05H85m2-2H67v63h20V59z\" stroke-width=\"0\"></path>\n  <path d=\"M30 68.5h56.5M30 77.34h56.5M30 112.7h56.5M30 95.02h56.5M30 86.18h56.5M30 103.86h56.5\" fill=\"none\" stroke-miterlimit=\"10\" stroke-width=\"2\"></path>\n</svg>\n\n</a>\n</div>\n  <div class=\"gem-c-attachment__details\">\n    <h2 class=\"gem-c-attachment__title\">\n      <a class=\"govuk-link\" target=\"_self\" data-ga4-link='{\"event_name\":\"file_download\",\"type\":\"attachment\"}' href=\"https://assets.publishing.service.gov.uk/media/653f7ad7e6c9680014aa9cdc/Eng_BDI_4a_Status_of_priority_species_relative_abundance.ods\">4a Status of priority species: relative abundance</a>\n</h2>\n\n\n      <p class=\"gem-c-attachment__metadata\"><span class=\"gem-c-attachment__attribute\"><abbr title=\"OpenDocument Spreadsheet\" class=\"gem-c-attachment__abbr\">ODS</abbr></span>, <span class=\"gem-c-attachment__attribute\">36.3 KB</span></p>\n\n\n\n        <p class=\"gem-c-attachment__metadata\">\n          This file is in an <a href=\"https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation\" target=\"_self\" class=\"govuk-link\">OpenDocument</a> format\n</p>\n</div></section>\n\n<section class=\"gem-c-attachment govuk-!-display-none-print govuk-!-margin-bottom-6\" data-module=\"ga4-link-tracker\">\n  <div class=\"gem-c-attachment__thumbnail\">\n    <a class=\"govuk-link\" target=\"_self\" tabindex=\"-1\" aria-hidden=\"true\" data-ga4-link='{\"event_name\":\"file_download\",\"type\":\"attachment\"}' href=\"https://assets.publishing.service.gov.uk/media/654e338cce0b3a001249153e/5_Farmland_species_data.ods\">\n        <svg class=\"gem-c-attachment__thumbnail-image gem-c-attachm",
             "schema:image": [
                 "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-bf9e64d759af6dfd93bede8168f3087a329f405b382aff36747db0db4b7b23e9.png",
                 "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-13093f053c15f613acd827aff27cac83d3fab452947cbcae4c7b706dadf2f7f2.png",
@@ -33,51 +33,116 @@
                 "schema:url": "https://www.gov.uk",
                 "@type": "Organization"
             },
-            "schema:text": "A strategy for England’s wildlife and ecosystem services, biodiversity 2020 indicators: 2021 and 2022 assessments.\r\n\r\n",
+            "schema:text": "A strategy for England’s wildlife and ecosystem services, biodiversity indicators: 2023 assessment.\r\n\r\n",
             "schema:distribution": [
                 {
-                    "name": "England Biodiversity Indicators 2021 data set",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1135675/Eng_BDI_Dataset_2021_FINAL_amended_Feb_23.ods",
+                    "name": "16 Integrating biodiversity considerations into local decision making",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/64fae016a78c5f000d265854/Eng_BDI_16_Local_Sites_rev.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "18 Spring index",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/64faec34572780000d2517e3/Eng_BDI_2023_18_spring_index.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "19b Marine pollution",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/64fafb3657278000142517ea/Eng_BDI_19b_Marine_pollution.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "22 Agri-environment and forestry",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/65367436e839fd0014867345/Eng_BDI_2023_22_AES_and_Forestry_rev.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "10 Status of pollinating insects",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/651d6ffbe4e658001459d957/Eng_BDI_10_Pollinators.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "23 Sustainable fisheries",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/651d79f3e4e658000d59d96a/Eng_BDI_23_Sustainable_Fisheries.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "11 Biodiversity and ecosystem services fish size classes",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/65268274aea2d0000d219b92/Eng_BDI_11_Biodiversity_and_ecosystem_services_fish_size_classes.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "9. Biodiversity and ecosystem services: greenhouse gas removal by forests",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/6537b6f81bf90d0013d844ec/Eng_BDI_2023_9_GHG_Removal.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
                     "name": "England Biodiversity Indicators 2021 data set",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1135676/Eng_BDI_Dataset_2021_FINAL_amended_Feb_23.xlsx",
-                    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-                },
-                {
-                    "name": "Farmland butterflies 2022",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1122473/Farmland_butterflies_England_1990_to_2021.ods",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/6537c10a1bf90d0013d844fb/Eng_BDI_Dataset_2021_FINAL_amended_Feb_23.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
-                    "name": "Woodland butterflies 2022",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1122474/Woodland_butterflies_England_1990_to_2021.ods",
+                    "name": "19 Pollution: air and marine",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/653bb8c9e6c9680014aa9c6a/EBI19_2023_Air_Pollution.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
-                    "name": "Pollinators 2022",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1122476/Pollinators_2022.ods",
+                    "name": "1. Extent and condition of protected areas",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/65a69c5496a5ec0013731a54/Eng_BDI_2023_1_Protected_Sites_rev.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
-                    "name": "Funding for biodiversity 2022",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1122480/Funding_for_biodiversity_2022.ods",
+                    "name": "4a Status of priority species: relative abundance",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/653f7ad7e6c9680014aa9cdc/Eng_BDI_4a_Status_of_priority_species_relative_abundance.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
-                    "name": "Sustainable consumption 2022",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1122481/Sustainable_consumption_2022.ods",
+                    "name": "14 Taking action for the environment",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/65b9051ae9e10a00130310be/Eng_BDI_2023_14_Taking_action_for_the_environment_rev.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
-                    "name": "Air pollution 2022",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1122482/Air_pollution_2022.ods",
+                    "name": "20. Pressure from invasive species",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/65435ec21f1a600010360c31/Eng_BDI_2023_20_Pressure_from_invasive_species.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
-                    "name": "Protected areas 2022",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1145572/1_protected_areas_2022_final_revised.ods",
+                    "name": "24 Biodiversity data for decision making",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/654366cb1f1a600010360c40/Eng_BDI_2023_24_Biodiversity_data_for_decision_making.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "15 Funding for Biodiversity",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/654370831f1a60000d360c48/Eng_BDI_2023_15_funding_for_biodiversity.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "12a Animal genetic resources",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/6544dce749ec560010476792/12a_Animal_genetic_resources.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "21. Surface water status",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/654a1caebdb7ef00124af950/Eng_BDI_21_surface_water_status.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "5 – Farmland species",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/654e338cce0b3a001249153e/5_Farmland_species_data.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "6 – Woodland Species",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/654e33d58a2ed40013720cbd/Eng_BDI_2023_6_Woodland_species.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "7 - Wetland species",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/654e33fcce0b3a001249153f/Eng_BDI_2023_7_Wetland_species.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "17 Global Impacts of UK Consumption",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/654b8cedb9068c000d0e757c/EBI17_Global_Impacts_of_UK_Consumption.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 }
             ]
@@ -87,12 +152,12 @@
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "2003/2022",
-    "schema:version": "date version of data used was published",
+    "schema:temporalCoverage": "2016/2023",
+    "schema:version": "2024-01-16",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Condition of Sites of Special Scientific Interest, in percentage",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "Site condition is the cumulative area assessed by 31 March of each year shown. As new assessments are completed, they replace the previous ones, so Figure D2b is a snapshot of the condition of the site network at a given point in time.\n    \n</br>The gradual drop in the area of SSSIs in favourable condition between 2004 and 2010 was largely due to the application of the ‘Common Standard for Monitoring’ protocols which set more demanding targets for assessing the condition of some feature types as favourable. The step-change from 2010 to 2011 was due to the larger than average number of condition assessments being completed and recorded in the final year before the Public Services Agreement target deadline of 31 December 2010.\n    \n</br>The linear increase in the area of SSSIs in favourable recovering condition between 2003 and 2011 was also driven by the 2010 Public Services Agreement target. A large number of condition assessments were carried out in the years running up to the target deadline and additional resources were used to ensure these sites had appropriate management schemes, such as agri-environment agreements, in place and could therefore be classed as recovering.",
+    "notes": "Site condition is the cumulative area assessed by 31 March of each year shown. As new assessments are completed, they replace the previous ones, so Figure D2b is a snapshot of the condition of the site network at a given point in time.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -105,8 +170,8 @@
             {
                 "datatype": {
                     "base": "integer",
-                    "minimum": "2003",
-                    "maximum": "2022",
+                    "minimum": "2016",
+                    "maximum": "2023",
                     "@type": "Datatype"
                 },
                 "default": "",

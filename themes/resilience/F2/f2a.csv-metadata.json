@@ -1,0 +1,80 @@
+{
+    "schema:name": "Number of properties registered for free flood warnings in England, 2017/2018 to 2022/2023",
+    "url": "f2a.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "Flood and coastal erosion risk management report: 1 April 2022 to 31 March 2023",
+            "schema:url": "https://www.gov.uk/government/publications/flood-and-coastal-risk-management-national-report/flood-and-coastal-erosion-risk-management-report-1-april-2022-to-31-march-2023",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "ea",
+                "schema:name": "Environment Agency",
+                "schema:sameAs": "https://ror.org/01zewfb16",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:dateModified": "2023-09-26",
+            "schema:datePublished": "2023-09-26"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "2017/2023",
+    "schema:version": "2023-09-26",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Number of properties registered for free flood warnings",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Data is reported on each financial year from April to March of the following year.",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "2017/2018|2018/2019|2019/2020|2020/2021|2021/2022|2022/2023",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "Year",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The year range for the data present"
+            },
+            {
+                "datatype": "integer",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "Number of properties registered for free flood warnings",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Number of properties that have been registered for free flood warnings"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

@@ -1,7 +1,16 @@
-assessment_period,status,percent
-Long term (1967-2008 to 2015-2020),Declining,33.333333333333336
-Long term (1967-2008 to 2015-2020),Increasing,56.25
-Long term (1967-2008 to 2015-2020),Stable,10.416666666666666
-Short term (2009-2014 to 2015-2020),Declining,21.568627450980397
-Short term (2009-2014 to 2015-2020),Increasing,56.86274509803921
-Short term (2009-2014 to 2015-2020),Stable,21.568627450980397
+ospar_region,time_period,assessment,percentage
+Celtic Seas,Long term (1983-2014 to 2015-2020),declining,15.384615384615383
+Celtic Seas,Long term (1983-2014 to 2015-2020),mixed,11.538461538461538
+Celtic Seas,Long term (1983-2014 to 2015-2020),recovering,46.15384615384615
+Celtic Seas,Long term (1983-2014 to 2015-2020),stable,26.923076923076923
+Celtic Seas,Short term (2009-2014 to 2015-2020),declining,18.51851851851852
+Celtic Seas,Short term (2009-2014 to 2015-2020),mixed,3.7037037037037033
+Celtic Seas,Short term (2009-2014 to 2015-2020),recovering,44.44444444444444
+Celtic Seas,Short term (2009-2014 to 2015-2020),stable,33.33333333333333
+Greater North Sea,Long term (1983-2014 to 2015-2020),declining,15.151515151515152
+Greater North Sea,Long term (1983-2014 to 2015-2020),mixed,6.0606060606060606
+Greater North Sea,Long term (1983-2014 to 2015-2020),recovering,42.42424242424242
+Greater North Sea,Long term (1983-2014 to 2015-2020),stable,36.36363636363637
+Greater North Sea,Short term (2009-2014 to 2015-2020),declining,12.12121212121212
+Greater North Sea,Short term (2009-2014 to 2015-2020),recovering,48.48484848484848
+Greater North Sea,Short term (2009-2014 to 2015-2020),stable,39.39393939393939

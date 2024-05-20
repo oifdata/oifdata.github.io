@@ -25,7 +25,7 @@
     ],
     "schema:spatialCoverage": "England",
     "schema:temporalCoverage": "1995/2020",
-    "schema:version": "Not published",
+    "schema:version": "2024-02-12",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Annual loading of key pollutants entering rivers in England from water and sewerage company discharges of treated sewage effluent",
     "@context": "http://www.w3.org/ns/csvw",

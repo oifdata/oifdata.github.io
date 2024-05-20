@@ -11,12 +11,20 @@
     "schema:isBasedOn": [
         {
             "@type": "Dataset",
-            "schema:author": {
-                "schema:alternateName": "EA",
-                "schema:name": "Environment Agency",
-                "schema:sameAs": "https://ror.org/01zewfb16",
-                "@type": "schema:GovernmentOrganization"
-            },
+            "schema:author": [
+                {
+                    "schema:alternateName": "EA",
+                    "schema:name": "Environment Agency",
+                    "schema:sameAs": "https://ror.org/01zewfb16",
+                    "@type": "schema:GovernmentOrganization"
+                },
+                {
+                    "schema:alternateName": "UKCEH",
+                    "schema:name": "UK Centre for Ecology and Hydrology",
+                    "schema:sameAs": "https://ror.org/00pggkr55",
+                    "@type": "schema:ResearchOrganization"
+                }
+            ],
             "schema:headline": "Riverine inputs of selected metals into English tidal waters"
         }
     ],
@@ -25,7 +33,7 @@
     ],
     "schema:spatialCoverage": "England",
     "schema:temporalCoverage": "2008/2019",
-    "schema:version": "Not published",
+    "schema:version": "2024-02-12",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Riverine inputs of selected metals into English tidal waters, indexed relative to 2008",
     "@context": "http://www.w3.org/ns/csvw",

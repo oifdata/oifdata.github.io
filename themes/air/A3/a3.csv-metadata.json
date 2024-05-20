@@ -1,5 +1,5 @@
 {
-    "schema:name": "Concentrations of fine particulate matter (PM2.5) in England, 2011 to 2021",
+    "schema:name": "Concentrations of fine particulate matter (PM2.5) in England, 2011 to 2022",
     "url": "a3.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -18,8 +18,8 @@
                 "schema:sameAs": "https://ror.org/00tnppw48",
                 "@type": "schema:GovernmentOrganization"
             },
-            "schema:dateModified": "2022-10-30",
-            "schema:datePublished": "2022-10-30",
+            "schema:dateModified": "2023-11-02",
+            "schema:datePublished": "2023-09-28",
             "schema:headline": "Population-weighted annual mean PM2.5 data"
         }
     ],
@@ -27,12 +27,12 @@
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "2011/2021",
-    "schema:version": "2022-10-30",
+    "schema:temporalCoverage": "2011/2022",
+    "schema:version": "2023-11-02",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "population-weighted annual mean PM2.5 concentration in ugm-3",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "PM2.5 annual mean concentrations are estimated annually for every square km of the UK using the Pollution Climate Mapping (PCM) model. The geographical distribution of the UK population is then joined to the estimated concentrations to estimate the annual mean concentration of PM2.5, weighted by where the population lives. This enables us to account for most of the population living in densely populated urban areas, where concentrations are likely to be greatest.",
+    "notes": "PM2.5 annual mean concentrations are estimated annually for every square kilometre of the UK using the Pollution Climate Mapping (PCM) model. The geographical distribution of the UK population is then joined to the estimated concentrations to estimate the annual mean concentration of PM2.5, weighted by where the population lives. This enables us to account for most of the population living in densely populated urban areas, where concentrations are likely to be greatest.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -46,7 +46,7 @@
                 "datatype": {
                     "base": "integer",
                     "minimum": "2011",
-                    "maximum": "2021",
+                    "maximum": "2022",
                     "@type": "Datatype"
                 },
                 "default": "",

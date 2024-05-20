@@ -1,5 +1,5 @@
 {
-    "schema:name": "Changes in plankton communities, 2004-2008 to 2009-2014",
+    "schema:name": "Changes in phytoplankton and zooplankton communities: proportion of lifeforms consistent with Good Environmental Status, Greater North Sea and Celtic Seas, 1960 to 2019",
     "url": "c5a.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -10,23 +10,107 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:name": "Changes in plankton communities, 2004-2008 to 2009-2014",
+            "schema:name": "Changes in Phytoplankton and Zooplankton Communities",
+            "schema:url": "https://oap.ospar.org/en/ospar-assessments/quality-status-reports/qsr-2023/indicator-assessments/changes-plankton-communities/",
             "@type": "Dataset",
             "schema:author": {
-                "schema:alternateName": "Defra",
-                "schema:name": "Department for Environment, Food & Rural Affairs",
-                "schema:sameAs": "https://ror.org/00tnppw48",
+                "schema:alternateName": "OSPAR",
+                "schema:name": "The Convention for the Protection of the Marine Environment of the North-East Atlantic",
+                "schema:sameAs": "https://oap.ospar.org/en/",
                 "@type": "schema:GovernmentOrganization"
-            }
+            },
+            "schema:dateModified": "2023-06-30",
+            "schema:datePublished": "2023-06-30"
         }
     ],
     "schema:keywords": [
         "tbc"
     ],
-    "schema:spatialCoverage": "UK (Celtic Seas and Greater North Sea)",
-    "schema:temporalCoverage": "2004/2014",
+    "schema:spatialCoverage": "Greater North Sea and Celtic Seas",
+    "schema:temporalCoverage": "1960-2019",
+    "schema:version": "2023-06-30",
     "schema:measurementTechnique": "?",
-    "schema:variableMeasured": "Lifeforms (functional groups of species) that make up the plankton communities",
+    "schema:variableMeasured": "Status of plankton lifeforms",
     "@context": "http://www.w3.org/ns/csvw",
-    "tableDirection": "auto"
+    "notes": "The categories presented in the chart are:</br>\n\n* Not good: Change is linked to increasing impact of anthropogenic pressures (including climate change)\n\n* Unknown: No assessment threshold and/or unclear if change in abundance represents declining or improving state, or indicator shows no change but uncertain if state represented is satisfactory.\n\n* Good: Lifeform value is above assessment threshold, or indicator represents improving state, or indicator shows no change but state is satisfactory. There are no 'good' results in the recent assessment as there is not currently a strong baseline for what represents Good Environmental Status in pelagic habitats.\n\n* Not assessed: Lifeform(s) were not assessed in a region due to lack of data, lack of expert resource, or lack of policy support. \n\n</br>Maps are also available which demonstrate the changing nature of these lifeforms.\n",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Greater North Sea|Celtic Seas",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "OSPAR Region",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Relevant OSPAR region"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Variable salinity|Coastal|Shelf",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "Habitat",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Different assessed pelagic habitat"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Not good|Unknown|Not assessed",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "Result",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Result types"
+            },
+            {
+                "datatype": "integer",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "value",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The number of lifeforms in each category"
+            }
+        ],
+        "@type": "Schema"
+    }
 }

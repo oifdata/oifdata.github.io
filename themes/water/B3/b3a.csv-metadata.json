@@ -28,7 +28,7 @@
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Percentage of water bodies assessed with corresponding status",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "Results are based on the numbers of water bodies assessed and represent the achievement of good or better status (or potential for water bodies designated as artificial or heavily modified under the WFD Regulations). Ecological status (or potential) is assigned using various water, habitat and biological quality tests. Failure of any one individual test means that the whole water body fails to achieve good or better ecological status (or potential). This is known as the one-out-all-out principle.",
+    "notes": "Results are based on the numbers of water bodies assessed and represent the achievement of good or better status (or potential for water bodies designated as artificial or heavily modified under the WFD Regulations). Ecological status (or potential) is assigned using various water, habitat and biological quality tests. Failure of any one individual test means that the whole water body fails to achieve good or better ecological status (or potential). This is known as the one-out-all-out principle. Further definitions of terms can be found at [Glossary - Catchment Data Explorer](https://environment.data.gov.uk/catchment-planning/help/glossary)",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",

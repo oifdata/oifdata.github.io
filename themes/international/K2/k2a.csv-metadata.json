@@ -1,0 +1,81 @@
+{
+    "schema:name": "Area of ecosystem loss avoided due to International Climate Finance programmes, 2011/2012 to 2022/2023",
+    "url": "k2a.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "UK International Climate Finance results 2023",
+            "schema:url": "https://www.gov.uk/government/publications/uk-international-climate-finance-results-2023",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "FCDO",
+                "schema:name": "Foreign, Commonwealth & Development Office",
+                "schema:sameAs": "https://ror.org/02vtmh618",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:dateModified": "2023-10-06",
+            "schema:datePublished": "2023-09-28"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "International",
+    "schema:temporalCoverage": "2011/2023",
+    "schema:version": "2023-10-06",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Area of Ecosystem Loss Avoided due to International Climate Finance programmes in hectares",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Data is reported on each financial year from April to March of the following year.",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "minimum": "0.9995029821073559",
+                    "maximum": "0.9995056846267919",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "Year",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The year range for the data present"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "Value",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Ecosystem Loss Avoided  (Hectares)"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

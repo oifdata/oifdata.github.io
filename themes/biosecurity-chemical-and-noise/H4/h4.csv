@@ -1,100 +1,157 @@
 chemical,wildlife,value
-Mercury,Sparrowhawk/red kite,No observed change in concentrations. Population average below threshold.
-PBDEs,Sparrowhawk/red kite,Insufficient data or no comparable data available.
-PCBs,Sparrowhawk/red kite,Insufficient data or no comparable data available.
-PFOS,Sparrowhawk/red kite,Insufficient data or no comparable data available.
-Lead,Sparrowhawk/red kite,No observed change in concentrations. All individuals average below threshold.
-Cadmium,Sparrowhawk/red kite,No observed change in concentrations. All individuals average below threshold.
-Nickel,Sparrowhawk/red kite,Decreasing concentrations. No threshold available.
-Copper,Sparrowhawk/red kite,No observed changes in concentrations. No threshold available.
-Zinc,Sparrowhawk/red kite,Decreasing concentrations. No threshold available.
-Pesticides,Sparrowhawk/red kite,Insufficient data or no comparable data available.
-SGARs,Sparrowhawk/red kite,Insufficient data for trend assessment. 1 to 24% samples above threshold.
-Mercury,Red Fox,Insufficient data or no comparable data available.
-PBDEs,Red Fox,Insufficient data or no comparable data available.
-PCBs,Red Fox,Insufficient data or no comparable data available.
-PFOS,Red Fox,Insufficient data or no comparable data available.
-Lead,Red Fox,Insufficient data or no comparable data available.
-Cadmium,Red Fox,Insufficient data or no comparable data available.
-Nickel,Red Fox,Insufficient data or no comparable data available.
-Copper,Red Fox,Insufficient data or no comparable data available.
-Zinc,Red Fox,Insufficient data or no comparable data available.
-Pesticides,Red Fox,Insufficient data or no comparable data available.
-SGARs,Red Fox,Insufficient data or no comparable data available.
-Mercury,Freshwater,Not relevant - unlikely to be an exposure route.
-PBDEs,Freshwater,Not relevant - unlikely to be an exposure route.
-PCBs,Freshwater,Not relevant - unlikely to be an exposure route.
-PFOS,Freshwater,Insufficient data for trend assessment. 1 to 24% sites above threshold.
-Lead,Freshwater,No observed change in concentrations. 1 to 24% sites above threshold.
-Cadmium,Freshwater,No observed change in concentrations. 1 to 24% sites above threshold.
-Nickel,Freshwater,No observed change in concentrations. 1 to 24% sites above threshold. 
-Copper,Freshwater,No observed change in concentrations. 1 to 24% sites above threshold. 
-Zinc,Freshwater,No observed change in concentrations. 1 to 24% sites above threshold.
-Pesticides,Freshwater,Insufficient data for trend assessment. 1 to 24% sites samples above threshold.
-SGARs,Freshwater,Insufficient data or no comparable data available.
-Mercury,Roach/chub/brown trout,No observed change in concentrations. More than 75% sites above threshold.
-PBDEs,Roach/chub/brown trout,Insufficient data for trend assessment. All sites below threshold.  
-PCBs,Roach/chub/brown trout,No observed change in concentrations. No threshold available.
-PFOS,Roach/chub/brown trout,Insufficient data for trend assessment. 1 to 24% sites above threshold.
-Lead,Roach/chub/brown trout,Insufficient data or no comparable data available.
-Cadmium,Roach/chub/brown trout,Insufficient data or no comparable data available.
-Nickel,Roach/chub/brown trout,Insufficient data or no comparable data available.
-Copper,Roach/chub/brown trout,Insufficient data or no comparable data available.
-Zinc,Roach/chub/brown trout,Insufficient data or no comparable data available.
-Pesticides,Roach/chub/brown trout,Insufficient data or no comparable data available.
-SGARs,Roach/chub/brown trout,Insufficient data or no comparable data available.
-Mercury,Otter,No observed change in concentrations. Population average below threshold.
-PBDEs,Otter,Insufficient data or no comparable data available.
-PCBs,Otter,Insufficient data or no comparable data available.
-PFOS,Otter,Insufficient data or no comparable data available.
-Lead,Otter,Insufficient data or no comparable data available.
-Cadmium,Otter,No observed changes in concentrations. No threshold available. 
-Nickel,Otter,Insufficient data or no comparable data available.
-Copper,Otter,Insufficient data or no comparable data available.
-Zinc,Otter,Insufficient data or no comparable data available.
-Pesticides,Otter,Insufficient data or no comparable data available.
-SGARs,Otter,Insufficient data or no comparable data available.
-Mercury,Estuarine/Coastal waters,Not relevant - unlikely to be an exposure route.
-PBDEs,Estuarine/Coastal waters,Not relevant - unlikely to be an exposure route.
-PCBs,Estuarine/Coastal waters,Not relevant - unlikely to be an exposure route.
-PFOS,Estuarine/Coastal waters,Insufficient data or no comparable data available.
-Lead,Estuarine/Coastal waters,No observed change in concentrations. All sites average below threshold. 
-Cadmium,Estuarine/Coastal waters,No observed change in concentrations. All sites average below threshold. 
-Nickel,Estuarine/Coastal waters,No observed change in concentrations. 1 to 24% sites samples above threshold. 
-Copper,Estuarine/Coastal waters,No observed change in concentrations. All sites average below threshold. 
-Zinc,Estuarine/Coastal waters,No observed change in concentrations. 1 to 24% sites above threshold. 
-Pesticides,Estuarine/Coastal waters,Not relevant - unlikely to be an exposure route.
-SGARs,Estuarine/Coastal waters,Not relevant - unlikely to be an exposure route.
-Mercury,Blue mussels,No observed change in concentrations. More than 75% sites above threshold. 
-PBDEs,Blue mussels,Insufficient data for trend assessment. All sites below threshold. 
-PCBs,Blue mussels,Insufficient data for trend assessment. 50 to 74% sites above threshold. 
-PFOS,Blue mussels,Not relevant - unlikely to be an exposure route.
-Lead,Blue mussels,No observed changes in concentrations. No threshold available.
-Cadmium,Blue mussels,No observed changes in concentrations. No threshold available.
-Nickel,Blue mussels,No observed changes in concentrations. No threshold available.
-Copper,Blue mussels,No observed changes in concentrations. No threshold available.
-Zinc,Blue mussels,No observed changes in concentrations. No threshold available.
-Pesticides,Blue mussels,Not relevant - unlikely to be an exposure route.
-SGARs,Blue mussels,Not relevant - unlikely to be an exposure route.
-Mercury,Dab,No observed change in concentrations. More than 75% samples above threshold. 
-PBDEs,Dab,Decreasing concentrations. 1 to 24% samples above threshold.  
-PCBs,Dab,Decreasing concentrations. 25 to 49% samples above threshold. 
-PFOS,Dab,Insufficient data for trend assessment. All samples below threshold. 
-Lead,Dab,No observed changes in concentrations. No threshold available.
-Cadmium,Dab,No observed changes in concentrations. No threshold available.
-Nickel,Dab,Increasing concentrations. No threshold available.
-Copper,Dab,No observed changes in concentrations. No threshold available.
-Zinc,Dab,No observed changes in concentrations. No threshold available.
-Pesticides,Dab,Not relevant - unlikely to be an exposure route.
-SGARs,Dab,Not relevant - unlikely to be an exposure route.
-Mercury,Harbour porpoise,Insufficient data or no comparable data available.
-PBDEs,Harbour porpoise,Decreasing concentrations. All individuals below threshold. 
-PCBs,Harbour porpoise,No observed change in concentrations. 50 to 74% individuals above threshold. 
-PFOS,Harbour porpoise,Decreasing concentrations. All individuals below threshold. 
-Lead,Harbour porpoise,Insufficient data or no comparable data available.
-Cadmium,Harbour porpoise,Insufficient data or no comparable data available.
-Nickel,Harbour porpoise,Insufficient data or no comparable data available.
-Copper,Harbour porpoise,Insufficient data or no comparable data available.
-Zinc,Harbour porpoise,Insufficient data or no comparable data available.
-Pesticides,Harbour porpoise,Not relevant - unlikely to be an exposure route.
-SGARs,Harbour porpoise,Not relevant - unlikely to be an exposure route.
+Mercury,Buzzard,"No observed change in concentrations. Population average below threshold. Time period: 2001, 2004–2006, 2010, 2013, 2016, and 2018–2021. "
+PBDEs,Buzzard,"Data available; not currently able to assess trends. No threshold available. Time period: 2018, 2019 and 2021."
+PCBs,Buzzard,"Data available; not currently able to assess trends. No threshold available. Time period: 2018, 2019 and 2021."
+PCB 118,Buzzard,"Data available; not currently able to assess trends. No threshold available. Time period: 2018, 2019 and 2021."
+PFOS,Buzzard,"Data available; not currently able to assess trends. No threshold available. Time period: 2018, 2019 and 2021."
+PFAS,Buzzard,"Data available; not currently able to assess trends. No threshold available.  Time period: 2018, 2019 and 2021."
+Lead,Buzzard,"Increasing concentrations. 1 to 24% samples above threshold.  Time period: 2001, 2004–2006, 2010, 2013, 2016, and 2018–2021."
+Cadmium,Buzzard,"No observed change in concentrations. Individual average below threshold. Time period: 2001, 2004–2006, 2010, 2013, 2016, and 2018–2021."
+Nickel,Buzzard,"No observed changes in concentrations. No threshold available. Time period: 2001, 2004–2006, 2010, 2013, 2016, and 2018–2021."
+Copper,Buzzard,Not covered
+Zinc,Buzzard,Not covered
+Pesticides,Buzzard,Not covered
+SGARs,Buzzard,Not covered
+Mercury,Sparrowhawk,"No observed change in concentrations. Population average below threshold. Time period: 2000, 2005, 2006, 2011–2013, 2020, and 2021."
+PBDEs,Sparrowhawk,Not covered
+PCBs,Sparrowhawk,Not covered
+PCB 118,Sparrowhawk,Not covered
+PFOS,Sparrowhawk,Not covered
+PFAS,Sparrowhawk,Not covered
+Lead,Sparrowhawk,"No observed change in concentrations. Individuals average below threshold. Time period: 2007–2014, 2020 and 2021. "
+Cadmium,Sparrowhawk,"No observed change in concentrations. Individuals average below threshold. Time period: 2007–2014, 2020 and 2021. "
+Nickel,Sparrowhawk,"Data available; not currently able to assess trends. No threshold available. Time period: 2007–2014, 2020 and 2021. "
+Copper,Sparrowhawk,Not covered
+Zinc,Sparrowhawk,Not covered
+Pesticides,Sparrowhawk,Not covered
+SGARs,Sparrowhawk,Not covered
+Mercury,Red kite,Not covered
+PBDEs,Red kite,Not covered
+PCBs,Red kite,Not covered
+PCB 118,Red kite,Not covered
+PFOS,Red kite,Not covered
+PFAS,Red kite,Not covered
+Lead,Red kite,Not covered
+Cadmium,Red kite,Not covered
+Nickel,Red kite,Not covered
+Copper,Red kite,Not covered
+Zinc,Red kite,Not covered
+Pesticides,Red kite,Not covered
+SGARs,Red kite,No observed changes in concentrations. 1 to 24% samples above threshold.  Time period: 2015-2021.
+Mercury,Red fox,Data available; not currently able to assess trends. No threshold available. Time period: 2018–2021.
+PBDEs,Red fox,Not covered
+PCBs,Red fox,Not covered
+PCB 118,Red fox,Not covered
+PFOS,Red fox,Data available; not currently able to assess trends. No threshold available. Time period: 2018–2021.
+PFAS,Red fox,Data available; not currently able to assess trends. No threshold available. Time period: 2018–2021.
+Lead,Red fox,Data available; not currently able to assess trends. No threshold available. Time period: 2018–2021.
+Cadmium,Red fox,Data available; not currently able to assess trends. No threshold available. Time period: 2018–2021.
+Nickel,Red fox,Data available; not currently able to assess trends. No threshold available. Time period: 2018–2021.
+Copper,Red fox,Not covered
+Zinc,Red fox,Not covered
+Pesticides,Red fox,Not covered
+SGARs,Red fox,Increasing concentrations. No threshold available. Time period: 2015-2022.
+Mercury,Freshwater,Not covered
+PBDEs,Freshwater,Not covered
+PCBs,Freshwater,Not covered
+PCB 118,Freshwater,Not covered
+PFOS,Freshwater,Decreasing concentrations. 1 to 24% samples above threshold.  Time period: 2016–2022. 
+PFAS,Freshwater,Data available; not currently able to assess trends. No threshold available. Time period: 2016–2022. 
+Lead,Freshwater,Decreasing concentrations. 1 to 24% samples above threshold.  Time period: 2014-2022.
+Cadmium,Freshwater,Decreasing concentrations. 1 to 24% samples above threshold.  Time period: 2014-2022.
+Nickel,Freshwater,Decreasing concentrations. 1 to 24% samples above threshold.  Time period: 2014-2022.
+Copper,Freshwater,No observed changes in concentrations. 1 to 24% samples above threshold.  Time period: 2014-2022.
+Zinc,Freshwater,Decreasing concentrations. 25 to 49% samples above threshold. Time period: 2014-2022. 
+Pesticides,Freshwater,No observed changes in concentrations. More than 75% sites above threshold. Time period: 2016-2022. 
+SGARs,Freshwater,Not covered
+Mercury,Freshwater fish,No observed changes in concentrations. More than 75% sites above threshold. Time period: 2014–2019 and 2022. 
+PBDEs,Freshwater fish,"Decreasing concentrations. All sites average below threshold. Time period: 2015–2019, 2021 and 2022."
+PCBs,Freshwater fish,No observed changes in concentrations. No threshold available. Time period: 2015–2019 and 2022. 
+PCB 118,Freshwater fish,Decreasing concentrations. No threshold available. Time period: 2015–2019 and 2022. 
+PFOS,Freshwater fish,"Decreasing concentrations. All sites average below threshold. Time period: 2015–2019, 2021 and 2022."
+PFAS,Freshwater fish,Data available; not currently able to assess trends. No threshold available. Time period: 2022.
+Lead,Freshwater fish,"Increasing concentrations. No threshold available. Time period: 2016–2019, 2021 and 2022."
+Cadmium,Freshwater fish,"No observed changes in concentrations. No threshold available. Time period: 2016–2019, 2021 and 2022."
+Nickel,Freshwater fish,Not covered
+Copper,Freshwater fish,Not covered
+Zinc,Freshwater fish,Not covered
+Pesticides,Freshwater fish,Not covered
+SGARs,Freshwater fish,Not covered
+Mercury,Otter,No observed change in concentrations. Population average below threshold. Time period: 2014-2021. 
+PBDEs,Otter,Decreasing concentrations. No threshold available. Time period: 2014-2021. 
+PCBs,Otter,No observed changes in concentrations. No threshold available. Time period: 2014-2021. 
+PCB 118,Otter,No observed changes in concentrations. No threshold available. Time period: 2014-2021. 
+PFOS,Otter,No observed changes in concentrations. No threshold available. Time period: 2014-2021. 
+PFAS,Otter,No observed changes in concentrations. No threshold available. Time period: 2014-2021. 
+Lead,Otter,Decreasing concentrations. No threshold available. Time period: 2014-2021. 
+Cadmium,Otter,No observed changes in concentrations. No threshold available. Time period: 2014-2021. 
+Nickel,Otter,No observed changes in concentrations. No threshold available. Time period: 2014-2021. 
+Copper,Otter,Not covered
+Zinc,Otter,Not covered
+Pesticides,Otter,Not covered
+SGARs,Otter,Not covered
+Mercury,Estuarine/coastal waters,Not covered
+PBDEs,Estuarine/coastal waters,Not covered
+PCBs,Estuarine/coastal waters,Not covered
+PCB 118,Estuarine/coastal waters,Not covered
+PFOS,Estuarine/coastal waters,Not covered
+PFAS,Estuarine/coastal waters,Not covered
+Lead,Estuarine/coastal waters,No observed changes in concentrations. 1 to 24% samples above threshold.  Time period: 2014–2022. 
+Cadmium,Estuarine/coastal waters,No observed change in concentrations. All sites average below threshold. Time period: 2014–2022. 
+Nickel,Estuarine/coastal waters,No observed change in concentrations. All sites average below threshold. Time period: 2014–2022. 
+Copper,Estuarine/coastal waters,No observed change in concentrations. All sites average below threshold. Time period: 2014–2022. 
+Zinc,Estuarine/coastal waters,No observed changes in concentrations. 50 to 74% samples above threshold.  Time period: 2014–2022. 
+Pesticides,Estuarine/coastal waters,Not covered
+SGARs,Estuarine/coastal waters,Not covered
+Mercury,Blue mussel,"Increasing concentrations. More than 75% sites above threshold. Time period: 2011-2019 and 2021, 2022."
+PBDEs,Blue mussel,Decreasing concentrations. Inividual average below threshold. Time period: 2015-2022.
+PCBs,Blue mussel,No observed changes in concentrations. 25 to 49% samples above threshold.  Time period: 2011-2022.
+PCB 118,Blue mussel,No observed changes in concentrations. 25 to 49% samples above threshold.  Time period: 2011-2022.
+PFOS,Blue mussel,Not covered
+PFAS,Blue mussel,Not covered
+Lead,Blue mussel,Decreasing concentrations. No threshold available. Time period: 2011-2022.
+Cadmium,Blue mussel,No observed changes in concentrations. No threshold available. Time period: 2011-2022.
+Nickel,Blue mussel,No observed changes in concentrations. No threshold available. Time period: 2011-2022.
+Copper,Blue mussel,Decreasing concentrations. No threshold available. Time period: 2011-2022.
+Zinc,Blue mussel,Increasing concentrations. No threshold available. Time period: 2011-2022.
+Pesticides,Blue mussel,Not covered
+SGARs,Blue mussel,Not covered
+Mercury,Estuarine/coastal fish,Data available; not currently able to assess trends. More than 75% sites above threshold. Time period: 2018-2022.  
+PBDEs,Estuarine/coastal fish,Data available; not currently able to assess trends. All sites average below threshold. Time period: 2017-2022. 
+PCBs,Estuarine/coastal fish,Data available; not currently able to assess trends. More than 75% sites above threshold. Time period: 2018-2022. 
+PCB 118,Estuarine/coastal fish,Data available; not currently able to assess trends. More than 75% sites above threshold. Time period: 2018-2022. 
+PFOS,Estuarine/coastal fish,Data available; not currently able to assess trends. All sites average below threshold. Time period: 2017-2022. 
+PFAS,Estuarine/coastal fish,Not covered
+Lead,Estuarine/coastal fish,Data available; not currently able to assess trends. No threshold available. Time period: 2018 to 2022. 
+Cadmium,Estuarine/coastal fish,Data available; not currently able to assess trends. No threshold available. Time period: 2018 to 2022. 
+Nickel,Estuarine/coastal fish,Data available; not currently able to assess trends. No threshold available. Time period: 2018 to 2022. 
+Copper,Estuarine/coastal fish,Data available; not currently able to assess trends. No threshold available. Time period: 2018 to 2022. 
+Zinc,Estuarine/coastal fish,Data available; not currently able to assess trends. No threshold available. Time period: 2018 to 2022. 
+Pesticides,Estuarine/coastal fish,Not covered
+SGARs,Estuarine/coastal fish,Not covered
+Mercury,Offshore fish (common dab),No observed changes in concentrations. More than 75% sites above threshold. Time period: 2008-2022.
+PBDEs,Offshore fish (common dab),Decreasing concentrations. 1 to 24% samples above threshold.  Time period: 2008-2022.
+PCBs,Offshore fish (common dab),No observed changes in concentrations. More than 75% sites above threshold. Time period: 2008-2022.
+PCB 118,Offshore fish (common dab),No observed changes in concentrations. More than 75% sites above threshold. Time period: 2008-2022.
+PFOS,Offshore fish (common dab),Data available; not currently able to assess trends. Individuals average below threshold. Time period: 2014–2022.
+PFAS,Offshore fish (common dab),Data available; not currently able to assess trends. No threshold available. Time period: 2014–2022.
+Lead,Offshore fish (common dab),Increasing concentrations. No threshold available. Time period: 2008-2022.
+Cadmium,Offshore fish (common dab),Increasing concentrations. No threshold available. Time period: 2008-2022.
+Nickel,Offshore fish (common dab),No observed changes in concentrations. No threshold available. Time period: 2008-2022.
+Copper,Offshore fish (common dab),No observed changes in concentrations. No threshold available. Time period: 2008-2022.
+Zinc,Offshore fish (common dab),No observed changes in concentrations. No threshold available. Time period: 2008-2022.
+Pesticides,Offshore fish (common dab),Not covered
+SGARs,Offshore fish (common dab),Not covered
+Mercury,Harbour porpoise,No observed changes in concentrations. No threshold available. Time period: 2009 and 2011-2021.
+PBDEs,Harbour porpoise,Decreasing concentrations. Individuals average below threshold. Time period: 2009 and 2011-2021.
+PCBs,Harbour porpoise,No observed changes in concentrations. 25 to 49% samples above threshold.  Time period: 2004–2021.
+PCB 118,Harbour porpoise,Increasing concentrations. No threshold available. Time period: 2004–2021.
+PFOS,Harbour porpoise,"Decreasing concentrations. Population average below threshold. Individuals average below threshold. Time period: 2001–2003, 2009 and 2012–2021."
+PFAS,Harbour porpoise,No observed changes in concentrations. No threshold available. Time period: 2009 and 2012–2021.
+Lead,Harbour porpoise,Increasing concentrations. No threshold available. Time period: 2009 and 2011-2021.
+Cadmium,Harbour porpoise,No observed changes in concentrations. No threshold available. Time period: 2009 and 2011-2021.
+Nickel,Harbour porpoise,No observed changes in concentrations. No threshold available. Time period: 2009 and 2011-2021.
+Copper,Harbour porpoise,Not covered
+Zinc,Harbour porpoise,Not covered
+Pesticides,Harbour porpoise,Not covered
+SGARs,Harbour porpoise,Not covered

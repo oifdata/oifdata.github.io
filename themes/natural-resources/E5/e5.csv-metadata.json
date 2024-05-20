@@ -1,5 +1,5 @@
 {
-    "schema:name": "Percentage of the annual growth of trees in English woodlands that is harvested, 2010 to 2021",
+    "schema:name": "Percentage of the annual growth of trees in English woodlands that is harvested, 2010 to 2022",
     "url": "e5.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -16,7 +16,7 @@
                 "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-13093f053c15f613acd827aff27cac83d3fab452947cbcae4c7b706dadf2f7f2.png",
                 "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-4233cd42671827e266e284c4d5ae68fb600bd9f9e35dda663ccabbc2b6ab7ec3.png"
             ],
-            "schema:name": "Forestry Commission Key Performance Indicators: Report for 2021-22",
+            "schema:name": "Forestry Commission Key Performance Indicators: Report for 2022-23",
             "@type": "Dataset",
             "schema:about": [
                 {
@@ -33,16 +33,16 @@
                 "schema:url": "https://www.gov.uk",
                 "@type": "Organization"
             },
-            "schema:text": "Annual report on the full suite of Forestry Commission key performance indicators (KPIs) for both Forest Services and Forestry England.",
+            "schema:text": "Annual report on the full suite of Forestry Commission key performance indicators (KPIs) for both Forest Services and Forestry England.\r\n",
             "schema:distribution": [
                 {
-                    "name": "Forestry Commission Key Performance Indicators: Report for 2021-22",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1091565/Forestry-Commission-Key-Performance-Indicators-Report-2021-22-.pdf",
+                    "name": "Forestry Commission Key Performance Indicators: Report for 2022-23",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/6489c0bb5f7bb700127faa2f/Forestry-Commission-Key-Performance-Indicators-Report-2022-23.pdf",
                     "encodingFormat": "application/pdf"
                 },
                 {
-                    "name": "Forestry Commission Key Performance Indicators: Report for 2021-22 Supporting data",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1091558/Forestry-Commission-Key-Performance-Indicators-Report-for-2021-22-Supporting-Data.xlsx",
+                    "name": "Forestry Commission Key Performance Indicators: Report for 2022-23 Supporting data",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/64d345d85cac650014c2dc78/Forestry-Commission-Key-Performance-Indicators-Report-Supporting-Data-2022-23.xlsx",
                     "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
                 }
             ]
@@ -52,12 +52,12 @@
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "2010/2021",
-    "schema:version": "2022-07-18",
+    "schema:temporalCoverage": "2010/2022",
+    "schema:version": "2023-06-15",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "percentage of the annual growth of trees in English woodlands that is harvested",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "Data for 2020 were revised in the 2023 update of this indicator.",
+    "notes": "",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -71,7 +71,7 @@
                 "datatype": {
                     "base": "integer",
                     "minimum": "2010",
-                    "maximum": "2021",
+                    "maximum": "2022",
                     "@type": "Datatype"
                 },
                 "default": "",

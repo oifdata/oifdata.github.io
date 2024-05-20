@@ -1,0 +1,175 @@
+{
+    "schema:name": "Matrix of environmental management metrics for English aquaculture, 1992 to 2023",
+    "url": "e9b.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "E9 - Percentage of Our Seafood Coming from Healthy Ecosystems, Produced Sustainably Indicator development - EV0809",
+            "schema:url": "https://sciencesearch.defra.gov.uk/ProjectDetails?ProjectId=21620",
+            "@type": "Dataset",
+            "schema:author": [
+                {
+                    "schema:alternateName": "Cefas",
+                    "schema:name": "Centre for Environment, Fisheries and Aquaculture Science",
+                    "schema:sameAs": "https://ror.org/04r7rxc53",
+                    "@type": "schema:GovernmentOrganization"
+                },
+                {
+                    "schema:alternateName": "EA",
+                    "schema:name": "Environment Agency",
+                    "schema:sameAs": "https://ror.org/01zewfb16",
+                    "@type": "schema:GovernmentOrganization"
+                },
+                {
+                    "schema:alternateName": "VMD",
+                    "schema:name": "Veterinary Medicines Directorate",
+                    "schema:sameAs": "https://ror.org/04qke1n53",
+                    "@type": "schema:GovernmentOrganization"
+                },
+                {
+                    "schema:alternateName": "FSA",
+                    "schema:name": "Food Standards Agency",
+                    "schema:sameAs": "https://ror.org/05p20a626",
+                    "@type": "schema:GovernmentOrganization"
+                }
+            ],
+            "schema:dateModified": "2024-01-01",
+            "schema:datePublished": "2024-01-01"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England for most elements UK for finfish antibiotic use and chemical contamination",
+    "schema:temporalCoverage": "1992/2023",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Outcomes of multiple measures of aquaculture management",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Only statistically significant trends over the full time series are identified in figure E9b. Full details of the individual metrics are available in the source publication, including links to the underlying data or statistics.  \n\n</br>Finfish refers to farmed rainbow trout, common carp, brown trout, other freshwater fishes and other salmonids. Bivalve shellfish refers to farmed sea mussels, Pacific cupped oyster, native flat oyster, cockle and clams. \n\n</br>Production refers to the live weight at harvest reported in tonnes for seafood (and angling for finfish). \n\n</br>The length of time series differs between metrics due to data availability, which can affect the identification of trends. Furthermore, for some metrics: not all farmed bivalve shellfish or finfish species may be included due to data availability or relevance; published data may be for the UK rather than just England; wild stocks may be included if not differentiated in the source data; the number of samples the annual statistics reflect may change over time.\n\n</br>Please note:</br>\n\n* Triploidy relates to just Pacific oyster - the production of triploid (sterile) stock in place of diploid stock should limit spread of this non-native species outside of farms. \n\n* Statistics for finfish antibiotic use and chemical contamination are available for trout at UK level. \n\n* Chemical contamination of bivalve shellfish data includes wild stocks, and monitoring is risk-based so sample numbers are low.  \n\n* Bacterial contamination statistics for bivalve shellfish are for sea mussels, Pacific oyster and native oyster, and include wild stocks. \n\n* Biotoxin contamination statistics are for all bivalve shellfish species sampled, include wild stocks, and all biotoxins.  \n\n* Biotoxins are naturally produced by some algal species, can accumulate in the tissues of bivalve molluscs, and cause severe health effects if ingested in sufficient quantities. \n",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Seafood supply|Managing pressures on local environments|Environmental contamination",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "Indicator for",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "To signify broad measure use"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Production|Aquatic Animal Health compliance|Farm pollution offences|Triploidy|Antibiotic use|Chemical contamination|Bacterial contamination|Biotoxin contamination",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "Metric",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Specific measure of aquaculture management/ environmental health"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Tonnes|Number of enforcement actions pernumber of farms|Number of pollution incidents per number of farms|Percentage reported as triploid|Milligrams active ingredients per kilograms production|Percentage non-compliant samples|Percentage of samples above threshold for E. coli|Percentage of samples above Maximum Permitted Level",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "Unit",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Unit of measurement for each metric"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "2012 to 2021|2011 to 2022|Not relevant|2017 to 2022|2015 to 2023|1992 to 2022|2016 to 2022",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "Time series",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Assessment result types and categories types"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Bivalve shellfish|Finfish",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "Sector",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Aquaculture sector"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Decreasing trend|No trend|Not relevant",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "Trend",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Assessment result types and categories types"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

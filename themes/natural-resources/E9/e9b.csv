@@ -1,0 +1,17 @@
+Indicator for,Metric,Unit,Time series,Sector,Trend
+Seafood supply,Production,Tonnes,2012 to 2021,Bivalve shellfish,No trend
+Seafood supply,Production,Tonnes,2012 to 2021,Finfish,Decreasing trend
+Managing pressures on local environments,Aquatic Animal Health compliance,Number of enforcement actions pernumber of farms,2011 to 2022,Bivalve shellfish,No trend
+Managing pressures on local environments,Aquatic Animal Health compliance,Number of enforcement actions pernumber of farms,2011 to 2022,Finfish,No trend
+Managing pressures on local environments,Farm pollution offences,Number of pollution incidents per number of farms,2011 to 2022,Bivalve shellfish,Not relevant
+Managing pressures on local environments,Farm pollution offences,Number of pollution incidents per number of farms,2011 to 2022,Finfish,No trend
+Managing pressures on local environments,Triploidy,Percentage reported as triploid,2012 to 2021,Bivalve shellfish,Decreasing trend
+Managing pressures on local environments,Triploidy,Percentage reported as triploid,2012 to 2021,Finfish,Not relevant
+Managing pressures on local environments,Antibiotic use,Milligrams active ingredients per kilograms production,2017 to 2022,Bivalve shellfish,Not relevant
+Managing pressures on local environments,Antibiotic use,Milligrams active ingredients per kilograms production,2017 to 2022,Finfish,No trend
+Environmental contamination,Chemical contamination,Percentage non-compliant samples,2015 to 2023,Bivalve shellfish,No trend
+Environmental contamination,Chemical contamination,Percentage non-compliant samples,2011 to 2022,Finfish,Decreasing trend
+Environmental contamination,Bacterial contamination,Percentage of samples above threshold for E. coli,1992 to 2022,Bivalve shellfish,Decreasing trend
+Environmental contamination,Bacterial contamination,Percentage of samples above threshold for E. coli,1992 to 2022,Finfish,Not relevant
+Environmental contamination,Biotoxin contamination,Percentage of samples above Maximum Permitted Level,2016 to 2022,Bivalve shellfish,No trend
+Environmental contamination,Biotoxin contamination,Percentage of samples above Maximum Permitted Level,2016 to 2022,Finfish,Not relevant

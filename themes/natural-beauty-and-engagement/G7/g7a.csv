@@ -1,17 +1,25 @@
 year,health,response,percentage
-2020/2021,Mental health,Agree,92.1
-2020/2021,Mental health,Neither agree nor disagree,6.0
-2020/2021,Mental health,Disagree,1.2
-2020/2021,Mental health,"Not applicable, don't know and prefer not to say",0.7000000000000001
-2020/2021,Physical health,Agree,93.8
-2020/2021,Physical health,Neither agree nor disagree,4.4
-2020/2021,Physical health,Disagree,1.3
-2020/2021,Physical health,"Not applicable, don't know and prefer not to say",0.4
-2021/2022,Mental health,Agree,91.8
-2021/2022,Mental health,Neither agree nor disagree,5.9
-2021/2022,Mental health,Disagree,1.4
-2021/2022,Mental health,"Not applicable, don't know and prefer not to say",0.8999999999999999
-2021/2022,Physical health,Agree,93.5
-2021/2022,Physical health,Neither agree nor disagree,4.6
-2021/2022,Physical health,Disagree,1.3
-2021/2022,Physical health,"Not applicable, don't know and prefer not to say",0.6
+2020/2021,Physical health,Agree,93.79275166768122
+2020/2021,Physical health,Neither agree nor disagree,4.44510388748473
+2020/2021,Physical health,Disagree,1.33362407768593
+2020/2021,Physical health,"Not applicable, don't know and prefer not to say",0.4285203671481
+2021/2022,Physical health,Agree,93.47094194457011
+2021/2022,Physical health,Neither agree nor disagree,4.5865715117457695
+2021/2022,Physical health,Disagree,1.30475084217973
+2021/2022,Physical health,"Not applicable, don't know and prefer not to say",0.63773570150437
+2022/2023,Physical health,Agree,92.0617716102352
+2022/2023,Physical health,Neither agree nor disagree,5.28475508982703
+2022/2023,Physical health,Disagree,2.0607337607745
+2022/2023,Physical health,"Not applicable, don't know and prefer not to say",0.5927395391632401
+2020/2021,Mental health,Agree,92.136073286291
+2020/2021,Mental health,Neither agree nor disagree,5.975085129731831
+2020/2021,Mental health,Disagree,1.17492091970412
+2020/2021,Mental health,"Not applicable, don't know and prefer not to say",0.71392066427305
+2021/2022,Mental health,Agree,91.77419413427135
+2021/2022,Mental health,Neither agree nor disagree,5.916144660331351
+2021/2022,Mental health,Disagree,1.39022974633233
+2021/2022,Mental health,"Not applicable, don't know and prefer not to say",0.91943145906494
+2022/2023,Mental health,Agree,90.17555858082916
+2022/2023,Mental health,Neither agree nor disagree,6.86276774303861
+2022/2023,Mental health,Disagree,2.0721133277919
+2022/2023,Mental health,"Not applicable, don't know and prefer not to say",0.8895603483403001

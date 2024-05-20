@@ -10,7 +10,7 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:name": "Percentage of the total population in England with access to nearby green space (defined by ANGSt buffers), as of October 2021",
+            "schema:name": "Percentage of the total population in England with access to nearby green space, as of October 2021",
             "@type": "Dataset",
             "schema:author": {
                 "schema:alternateName": "NE",

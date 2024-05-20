@@ -1,21 +1,31 @@
 year,location,frequency,percentage
-2021,In school,Every day,59.6
-2021,In school,Most days,28.2
-2021,In school,Once or twice,9.6
-2021,In school,Never,1.6
-2021,In school,Don't know and prefer not to say,1.0
-2021,Outside of school,Every day,13.7
-2021,Outside of school,Most days,38.8
-2021,Outside of school,Once or twice,41.4
-2021,Outside of school,Never,6.1
-2021,Outside of school,Don't know and prefer not to say,0.0
-2022,In school,Every day,56.10000000000001
-2022,In school,Most days,28.5
-2022,In school,Once or twice,12.3
-2022,In school,Never,1.9
-2022,In school,Don't know and prefer not to say,1.2
-2022,Outside of school,Every day,12.5
-2022,Outside of school,Most days,37.7
-2022,Outside of school,Once or twice,43.4
-2022,Outside of school,Never,6.4
-2022,Outside of school,Don't know and prefer not to say,0.1
+2021,In school,Every day,59.63602742280656
+2021,In school,Most days,28.18494106783512
+2021,In school,Once or twice,9.5888087667687
+2021,In school,Never,1.57246819012398
+2021,In school,Don't know and prefer not to say,1.01775455246561
+2022,In school,Every day,56.069187519126864
+2022,In school,Most days,28.51746128307411
+2022,In school,Once or twice,12.32931126432264
+2022,In school,Never,1.90758713376555
+2022,In school,Don't know and prefer not to say,1.17645279971082
+2023,In school,Every day,56.75600015914849
+2023,In school,Most days,30.35452378309018
+2023,In school,Once or twice,10.56971055726351
+2023,In school,Never,1.46574435493614
+2023,In school,Don't know and prefer not to say,0.8540211455616601
+2021,Outside of school,Every day,13.683018736198829
+2021,Outside of school,Most days,38.7640103740814
+2021,Outside of school,Once or twice,41.40207441055293
+2021,Outside of school,Never,6.11338000459392
+2021,Outside of school,Don't know and prefer not to say,0.0375164745729
+2022,Outside of school,Every day,12.46034295014699
+2022,Outside of school,Most days,37.68520947099745
+2022,Outside of school,Once or twice,43.396552312253625
+2022,Outside of school,Never,6.40784475164686
+2022,Outside of school,Don't know and prefer not to say,0.0500505149550499
+2023,Outside of school,Every day,11.72829365918572
+2023,Outside of school,Most days,34.689818100372946
+2023,Outside of school,Once or twice,47.47196311018157
+2023,Outside of school,Never,4.84913026515724
+2023,Outside of school,Don't know and prefer not to say,1.2607948651025

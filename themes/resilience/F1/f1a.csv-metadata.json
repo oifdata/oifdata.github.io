@@ -1,0 +1,98 @@
+{
+    "schema:name": "Number of properties in areas at different levels of risk of flooding from rivers and the sea, and from surface water, 2022/2023",
+    "url": "f1a.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "Flood and coastal erosion risk management report: 1 April 2022 to 31 March 2023",
+            "schema:url": "https://www.gov.uk/government/publications/flood-and-coastal-risk-management-national-report/flood-and-coastal-erosion-risk-management-report-1-april-2022-to-31-march-2023",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "ea",
+                "schema:name": "Environment Agency",
+                "schema:sameAs": "https://ror.org/01zewfb16",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:dateModified": "2023-09-26",
+            "schema:datePublished": "2023-09-26"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "2022/2023",
+    "schema:version": "2023-09-26",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Risk of Flooding",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Some properties are at risk from more than one source of flooding. Due to the complexity and nature of groundwater flooding, we are not able to assign a likelihood to it.",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "High|Medium|Low|Very low|Total",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "Level of risk",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The level of risk of flooding for residential and non-residential properties"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Rivers and the sea: Residential properties|Surface waters: Residential properties|Rivers and the sea: Non-residential properties|Surface waters: Non-residential properties",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "variable",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Description of number of residential or non-residential properties at risk"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "value",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Number of properties at risk of flooding"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

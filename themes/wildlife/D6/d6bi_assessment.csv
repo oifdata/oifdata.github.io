@@ -1,4 +1,4 @@
-Component,Period,Date range,Percentage change,Smoothing function,Assessment of change
-D6bi,Short term,2011 to 2016,-9.31,Smoothed data,Deterioration
-D6bi,Medium term,N/A,N/A,N/A,Not assessed
-D6bi,Long term,1970 to 2016,-16.32,Smoothed data,Deterioration
+Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
+D6bi,Smoothed index,Short term,2011 to 2016,-9.31,Smoothed data,Deterioration
+D6bi,Smoothed index,Medium term,2006 to 2016,-12.03,Smoothed data,Deterioration
+D6bi,Smoothed index,Long term,1970 to 2016,-16.32,Smoothed data,Deterioration

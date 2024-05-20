@@ -1,5 +1,5 @@
 {
-    "schema:name": "Long-term and short-term changes in the occurrence of sensitive fish species, Greater North Sea, 1967 to 2020",
+    "schema:name": "Long-term and short-term changes in the occurrence of sensitive fish species, Greater North Sea and Celtic Seas, 1983 to 2020",
     "url": "c11.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -10,29 +10,29 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:name": "Workshop on the production of abundance estimates for sensitive species",
-            "schema:url": "https://ices-library.figshare.com/articles/report/Workshop_on_the_production_of_abundance_estimates_for_sensitive_species_WKABSENS_/18618506",
+            "schema:name": "OSPAR Recovery of Sensitive Fish Species - Data Results",
+            "schema:url": "https://odims.ospar.org/en/submissions/ospar_rec_sens_fish_dres_2022_06/",
             "@type": "Dataset",
             "schema:author": {
-                "schema:alternateName": "ICES",
-                "schema:name": "International Council for the Exploration of the Sea",
-                "schema:sameAs": "https://ror.org/03hg53255",
+                "schema:alternateName": "OSPAR",
+                "schema:name": "The Convention for the Protection of the Marine Environment of the North-East Atlantic",
+                "schema:sameAs": "https://oap.ospar.org/en/",
                 "@type": "schema:GovernmentOrganization"
             },
-            "schema:dateModified": "2021-09-24",
-            "schema:datePublished": "2021-09-24"
+            "schema:dateModified": "2022-06-30",
+            "schema:datePublished": "2022-06-30"
         }
     ],
     "schema:keywords": [
         "tbc"
     ],
-    "schema:spatialCoverage": "UK",
-    "schema:temporalCoverage": "1967/2020",
-    "schema:version": "2021-09-24",
+    "schema:spatialCoverage": "UK (Greater North Sea and Celtic Seas)",
+    "schema:temporalCoverage": "1983/2020",
+    "schema:version": "2022-06-30",
     "schema:measurementTechnique": "?",
-    "schema:variableMeasured": "Percentage of sensitive fish species in each status category",
+    "schema:variableMeasured": "Long-term and short-term changes in the occurrence of sensitive fish species, percentage in each assessment category",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "Based on the assessment results for 55 sensitive fish species found in fisheries surveys of the Greater North Sea. In the long-term reference period (1967 to 2008), 48 of the 55 species (87%) could be assessed and in the short-term reference period (2009 to 2014), 51 of the 55 species (93%) could be assessed.",
+    "notes": "Figure C11 is based on the assessment results for 33 sensitive fish species found in fisheries surveys in the Greater North Sea and in the Celtic Seas, 26 and 27 species in the long-term and short-term assessments respectively. Additionally, in both the long-term and short-term assessments for the Greater North Sea, 11 species had insufficient data to assess against thresholds. For the long and short term assessments for the Celtic Seas, 24 and 23 species respectively had insufficient data to assess against thresholds.  \n \nEach regional sea was surveyed multiple times and surveys can be conducted across differing extents of each regional sea. A mixed category has been included for those species where both increases and decreases were detected across the relevant region.  \n\nA more detailed assessment can be found on the OSPAR indicator page for the [Recovery in the Population Abundance of Sensitive Fish Species](https://oap.ospar.org/en/ospar-assessments/quality-status-reports/qsr-2023/indicator-assessments/recovery-sensitive-fish-species/).",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -45,7 +45,7 @@
             {
                 "datatype": {
                     "base": "string",
-                    "format": "Long term (1967-2008 to 2015-2020)|Short term (2009-2014 to 2015-2020)",
+                    "format": "Celtic Seas|Greater North Sea",
                     "@type": "Datatype"
                 },
                 "default": "",
@@ -54,16 +54,16 @@
                 "ordered": false,
                 "required": false,
                 "textDirection": "inherit",
-                "name": "assessment_period",
+                "name": "ospar_region",
                 "suppressOutput": false,
                 "virtual": false,
                 "@type": "Column",
-                "schema:description": "The time periods assessed"
+                "schema:description": "ospar region"
             },
             {
                 "datatype": {
                     "base": "string",
-                    "format": "Declining|Increasing|Stable|Not Assessed",
+                    "format": "Long term (1983-2014 to 2015-2020)|Short term (2009-2014 to 2015-2020)",
                     "@type": "Datatype"
                 },
                 "default": "",
@@ -72,11 +72,29 @@
                 "ordered": false,
                 "required": false,
                 "textDirection": "inherit",
-                "name": "status",
+                "name": "time_period",
                 "suppressOutput": false,
                 "virtual": false,
                 "@type": "Column",
-                "schema:description": "Status of fish species"
+                "schema:description": "The time period assessed"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "declining|mixed|recovering|stable",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "assessment",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The assessment result"
             },
             {
                 "datatype": "number",
@@ -86,11 +104,11 @@
                 "ordered": false,
                 "required": false,
                 "textDirection": "inherit",
-                "name": "percent",
+                "name": "percentage",
                 "suppressOutput": false,
                 "virtual": false,
                 "@type": "Column",
-                "schema:description": "Percentage of species in relevant status category"
+                "schema:description": "The percentage of fish in the corresponding assessment category"
             }
         ],
         "@type": "Schema"

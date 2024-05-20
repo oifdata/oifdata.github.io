@@ -1,4 +1,4 @@
 Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
-E3,,Short term,2015/2016 to 2020/2021,-0.5103408915387171,Loess,Little or no change
-E3,,Medium term,2010/2011 to 2020/2021,1.964385308929487,Loess,Little or no change
-E3,,Long term,1990/1991 to 2020/2021,-10.832050516972169,Loess,Change (decreasing)
+E3,,Short term,2016/2017 to 2021/2022,-3.37235497753148,Loess,Change (decreasing)
+E3,,Medium term,2011/2012 to 2021/2022,-1.3605980668343514,Loess,Little or no change
+E3,,Long term,1990/1991 to 2021/2022,-13.183492862098953,Loess,Change (decreasing)

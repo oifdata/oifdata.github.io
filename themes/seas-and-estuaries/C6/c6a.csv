@@ -1,0 +1,49 @@
+Regional Sea,Feature,Status,value
+II,Birds,Poor,2
+II,Birds,Good,1
+II,Birds,Unknown,0
+II,Birds,Not assessed,0
+II,Fish,Poor,10
+II,Fish,Good,2
+II,Fish,Unknown,1
+II,Fish,Not assessed,6
+II,Habitats,Poor,8
+II,Habitats,Good,0
+II,Habitats,Unknown,1
+II,Habitats,Not assessed,4
+II,Mammals,Poor,2
+II,Mammals,Good,0
+II,Mammals,Unknown,0
+II,Mammals,Not assessed,0
+II,Reptiles,Poor,1
+II,Reptiles,Good,0
+II,Reptiles,Unknown,0
+II,Reptiles,Not assessed,0
+II,Invertebrates,Poor,0
+II,Invertebrates,Good,0
+II,Invertebrates,Unknown,0
+II,Invertebrates,Not assessed,2
+III,Birds,Poor,2
+III,Birds,Good,0
+III,Birds,Unknown,0
+III,Birds,Not assessed,1
+III,Fish,Poor,12
+III,Fish,Good,1
+III,Fish,Unknown,2
+III,Fish,Not assessed,6
+III,Habitats,Poor,6
+III,Habitats,Good,0
+III,Habitats,Unknown,1
+III,Habitats,Not assessed,3
+III,Mammals,Poor,2
+III,Mammals,Good,0
+III,Mammals,Unknown,0
+III,Mammals,Not assessed,0
+III,Reptiles,Poor,1
+III,Reptiles,Good,0
+III,Reptiles,Unknown,0
+III,Reptiles,Not assessed,0
+III,Invertebrates,Poor,0
+III,Invertebrates,Good,0
+III,Invertebrates,Unknown,0
+III,Invertebrates,Not assessed,2

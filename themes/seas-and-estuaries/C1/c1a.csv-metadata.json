@@ -1,5 +1,5 @@
 {
-    "schema:name": "Items of litter per 100m of beach, UK, 2008 to 2015",
+    "schema:name": "Items of litter per 100m of beach, England, 2017 to 2022",
     "url": "c1a.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -10,28 +10,29 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:name": "Trends in UK beach litter from 2008 to 2015",
-            "schema:url": "https://moat.cefas.co.uk/pressures-from-human-activities/marine-litter/beach-litter/",
+            "schema:name": "UK Marine Strategy / OSPAR Beach Litter Monitoring Data Collection - ME5438",
+            "schema:url": "https://randd.defra.gov.uk/ProjectDetails?ProjectId=20672",
             "@type": "Dataset",
             "schema:author": {
-                "schema:alternateName": "CEFAS",
-                "schema:name": "Centre for Environment, Fisheries and Aquaculture Science",
-                "schema:sameAs": "https://ror.org/04r7rxc53",
+                "schema:alternateName": "Defra",
+                "schema:name": "Department for Environment, Food and Rural Affairs",
+                "schema:sameAs": "https://ror.org/00tnppw48",
                 "@type": "schema:GovernmentOrganization"
             },
-            "schema:dateModified": "2018-05-01",
-            "schema:datePublished": "2018-05-01"
+            "schema:dateModified": "2024-02-29",
+            "schema:datePublished": "2024-02-29"
         }
     ],
     "schema:keywords": [
         "tbc"
     ],
-    "schema:spatialCoverage": "UK (Celtic Seas and Greater North Sea)",
-    "schema:temporalCoverage": "2008/2015",
-    "schema:version": "2018-05-01",
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "2017/2022",
+    "schema:version": "2024-02-29",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Items of litter per 100m of beach",
     "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Full scale locally estimated scatterplot smoothing (LOESS) curve (dark blue line) of total litter count over time on OSPAR monitored beaches in England between 2017 to 2022. Each individual data point represents the total litter count for an individual survey. The 95% confidence interval is represented by the light blue area in each plot.</br>Some datapoints from the 2016 calendar year are included in the plot, as the winter survey season for a given year includes surveys conducted in the December of the previous year.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -43,9 +44,8 @@
         "columns": [
             {
                 "datatype": {
-                    "base": "integer",
-                    "minimum": "2008",
-                    "maximum": "2015",
+                    "base": "string",
+                    "format": "2016-12-03|2016-12-18|2017-01-14|2017-01-15|2017-01-20|2017-04-02|2017-04-03|2017-04-08|2017-04-09|2017-06-10|2017-06-12|2017-06-18|2017-07-08|2017-07-09|2017-09-16|2017-09-17|2017-10-13|2017-12-16|2017-12-17|2018-01-14|2018-01-15|2018-02-24|2018-04-13|2018-04-14|2018-04-15|2018-04-21|2018-04-22|2018-06-03|2018-06-17|2018-06-22|2018-06-26|2018-06-30|2018-09-15|2018-12-16|2019-01-13|2019-01-26|2019-02-15|2019-04-07|2019-04-13|2019-04-15|2019-04-20|2019-06-22|2019-07-06|2019-07-07|2019-07-14|2019-09-18|2019-09-20|2019-09-21|2019-12-14|2019-12-15|2020-01-05|2020-01-25|2020-02-25|2020-09-19|2020-09-20|2020-12-11|2021-06-28|2021-07-11|2021-09-18|2021-09-21|2021-09-23|2021-12-12|2022-01-07|2022-01-09|2022-04-02|2022-04-03|2022-04-06|2022-04-10|2022-06-19|2022-07-08|2022-07-10|2022-09-17|2022-09-18|2022-09-24|2022-10-06",
                     "@type": "Datatype"
                 },
                 "default": "",
@@ -54,16 +54,16 @@
                 "ordered": false,
                 "required": false,
                 "textDirection": "inherit",
-                "name": "year",
+                "name": "date",
                 "suppressOutput": false,
                 "virtual": false,
                 "@type": "Column",
-                "schema:description": "The year range for the data present"
+                "schema:description": "The date range for the data present"
             },
             {
                 "datatype": {
                     "base": "string",
-                    "format": "Greater North Sea|Celtic Seas",
+                    "format": "UK020|UK043|UK048|UK049|UK050",
                     "@type": "Datatype"
                 },
                 "default": "",
@@ -72,11 +72,29 @@
                 "ordered": false,
                 "required": false,
                 "textDirection": "inherit",
-                "name": "area",
+                "name": "location_code",
                 "suppressOutput": false,
                 "virtual": false,
                 "@type": "Column",
-                "schema:description": "Sea area surveyed"
+                "schema:description": "site number"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "observed_values|smoothed_values|upper_ci_values|lower_ci_values",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "measure",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "site number"
             },
             {
                 "datatype": "number",
@@ -90,7 +108,7 @@
                 "suppressOutput": false,
                 "virtual": false,
                 "@type": "Column",
-                "schema:description": "Items of litter per 100m of beach"
+                "schema:description": "Number of items of litter per 100m of beach, including observed"
             }
         ],
         "@type": "Schema"

@@ -1,5 +1,5 @@
 {
-    "schema:name": "Area of productive agricultural land in England, 1983 to 2022",
+    "schema:name": "Area of productive agricultural land in England, 1983 to 2023",
     "url": "E1.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -10,29 +10,144 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:sameAs": "https://www.gov.uk/government/statistical-data-sets/structure-of-the-agricultural-industry-in-england-and-the-uk-at-june",
+            "schema:description": "<div class=\"govspeak\"><p>These data series show land and crop areas, livestock populations and agricultural workforce estimates for England and the UK as at 1 June each year. The results come from the long-running June surveys of agriculture and horticulture that are carried out each year in England, Scotland, Wales and Northern Ireland. The information includes long-term trends or detailed results for different types of farm, farm size or geographical area. The series are updated as new results become available.</p>\n\n<p>On average the survey sample size is small to reduce the burden on farmers however, every 3 to 4 years a larger sample survey is run and every ten years we run a census.  This enables us to produce good quality estimates for detailed geographies in those years.  The latest detailed geographical data available is for the June 2021 census, with the exception of regional data which is available annually and has been updated to include 2022 results</p>\n\n<h3 id=\"farm-type-and-farm-size\">Farm type and farm size</h3>\n\n<p>Key land use &amp; crop areas, livestock populations and agricultural workforce numbers broken down by farm type or farm size bands.</p>\n\n<ul>\n  <li><span class=\"gem-c-attachment-link\">\n  <a class=\"govuk-link\" href=\"https://assets.publishing.service.gov.uk/media/6426ee7d7de82b000c3133f5/structure-england-june-farmtype-31mar23.ods\">Results by type of farm in England</a>  (<span class=\"gem-c-attachment-link__attribute\"><abbr title=\"OpenDocument Spreadsheet\" class=\"gem-c-attachment-link__abbr\">ODS</abbr></span>, <span class=\"gem-c-attachment-link__attribute\">365 KB</span>)</span></li>\n  <li><span class=\"gem-c-attachment-link\">\n  <a class=\"govuk-link\" href=\"https://assets.publishing.service.gov.uk/media/6426ef947de82b000c3133f8/structure-england-june-farmsize-31mar23.ods\">Results by size of farm in England</a>  (<span class=\"gem-c-attachment-link__attribute\"><abbr title=\"OpenDocument Spreadsheet\" class=\"gem-c-attachment-link__abbr\">ODS</abbr></span>, <span class=\"gem-c-attachment-link__attribute\">98.7 KB</span>)</span></li>\n  <li><span class=\"gem-c-attachment-link\">\n  <a class=\"govuk-link\" href=\"https://assets.publishing.service.gov.uk/media/638f73a8d3bf7f327f4c70b0/structure-june-UKsizebands-06dec22.xlsx\">Results by size of farm in the United Kingdom</a>  (<span class=\"gem-c-attachment-link__attribute\">MS Excel Spreadsheet</span>, <span class=\"gem-c-attachment-link__attribute\">84.5 KB</span>)</span></li>\n</ul>\n\n<h3 id=\"english-geographical-breakdowns\">English geographical breakdowns</h3>\n\n<p>Key land use &amp; crop areas, livestock populations and people in the agricultural workforce broken down by various geographical boundaries.</p>\n\n<ul>\n  <li><span class=\"gem-c-attachment-link\">\n  <a class=\"govuk-link\" href=\"https://assets.publishing.service.gov.uk/media/6509a53e4cd3c3000d68ccda/structure-england-regions-31mar23i.ods\">Region </a>  (<span class=\"gem-c-attachment-link__attribute\"><abbr title=\"OpenDocument Spreadsheet\" class=\"gem-c-attachment-link__abbr\">ODS</abbr></span>, <span class=\"gem-c-attachment-link__attribute\">309 KB</span>)</span></li>\n  <li><span class=\"gem-c-attachment-link\">\n  <a class=\"govuk-link\" href=\"https://assets.publishing.service.gov.uk/media/62b33f628fa8f5357862f442/structure-england-june21-county-23jun22.ods\">County/unitary authority </a>  (<span class=\"gem-c-attachment-link__attribute\"><abbr title=\"OpenDocument Spreadsheet\" class=\"gem-c-attachment-link__abbr\">ODS</abbr></span>, <span class=\"gem-c-attachment-link__attribute\">1.87 MB</span>)</span></li>\n  <li><span class=\"gem-c-attachment-link\">\n  <a class=\"govuk-link\" href=\"https://assets.publishing.service.gov.uk/media/62c40b06e90e077485f509d5/structure-june-eng-localauthority-05jul22.ods\">Local authority</a>  (<span class=\"gem-c-attachment-link__attribute\"><abbr title=\"OpenDocument Spreadsheet\" class=\"gem-c-attachment-link__abbr\">ODS</abbr></span>, <span class=\"gem-c-attachment-link__attribute\">715 KB</span>)</span></li>\n  <li><span class=\"gem-c-attachment-link\">\n  <a class=\"govuk-link\" href=\"https://assets.publishing.service.gov.uk/media/65801b271c0c2a000d18ced5/structure-june-AONB-14dec23.ods\">National Landscapes</a>  (<span class=\"gem-c-attachment-link__attribute\"><abbr title=\"OpenDocument Spreadsheet\" class=\"gem-c-attachment-link__abbr\">ODS</abbr></span>, <span class=\"gem-c-attachment-link__attribute\">291 KB</span>)</span></li>\n  <li><span class=\"gem-c-attachment-link\">\n  <a class=\"govuk-link\" href=\"https://assets.publishing.service.gov.uk/media/65801aee83ba38000de1b6cf/structure-june-eng-nationalparks-14dec23.ods\">National parks</a>  (<span class=\"gem-c-attachment-link__attribute\"><abbr title=\"OpenDocument Spreadsheet\" class=\"gem-c-attachment-link__abbr\">ODS</abbr></span>, <span class=\"gem-c-attachment-link__attribute\">747 KB</span>)</span></li>\n  <li><span class=\"gem-c-attachment-link\">\n  <a class=\"govuk-link\" href=\"https://assets.publishing.service.gov.uk/media/646620e2e140700013b6e201/structure-june-",
+            "schema:image": [
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-bf9e64d759af6dfd93bede8168f3087a329f405b382aff36747db0db4b7b23e9.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-13093f053c15f613acd827aff27cac83d3fab452947cbcae4c7b706dadf2f7f2.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-4233cd42671827e266e284c4d5ae68fb600bd9f9e35dda663ccabbc2b6ab7ec3.png"
+            ],
+            "schema:name": "Structure of the agricultural industry in England and the UK at June",
             "@type": "Dataset",
+            "schema:about": [
+                {
+                    "@type": "Thing"
+                }
+            ],
             "schema:author": {
-                "schema:alternateName": "Defra",
                 "schema:name": "Department for Environment, Food & Rural Affairs",
-                "schema:sameAs": "https://ror.org/00tnppw48",
-                "@type": "schema:GovernmentOrganization"
+                "schema:url": "https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs",
+                "@type": "Organization"
             },
-            "schema:dateModified": "2023-03-31",
-            "schema:datePublished": "2023-03-31",
-            "schema:headline": "Structure of the agricultural industry in England and the UK at June"
+            "schema:publisher": {
+                "schema:name": "GOV.UK",
+                "schema:url": "https://www.gov.uk",
+                "@type": "Organization"
+            },
+            "schema:text": "Detailed annual statistics on the structure of the agricultural industry at 1 June in England and the UK.",
+            "schema:distribution": [
+                {
+                    "name": "England annual time series (1983 to 2023)",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/651d464bbef21800156ded36/structure-june-eng-series-280923_v2.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "England key results at 10-year intervals (1900 to 2010) ",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5a7b0ac5e5274a319e77c973/defra-stats-foodfarm-landuselivestock-june-results-england-1900series111129.xls",
+                    "encodingFormat": "application/vnd.ms-excel"
+                },
+                {
+                    "name": "Results by type of farm in England",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/6426ee7d7de82b000c3133f5/structure-england-june-farmtype-31mar23.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "Results by size of farm in England",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/6426ef947de82b000c3133f8/structure-england-june-farmsize-31mar23.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "Land use and crops maps 2000 and 2010",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5a7b6e5c40f0b6425d5931ae/defra-stats-foodfarm-landuselivestock-june-detailedresults-cropmaps111125.pdf",
+                    "encodingFormat": "application/pdf"
+                },
+                {
+                    "name": "Livestock maps 2000 and 2010",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5a7aec1040f0b66a2fc03c0e/defra-stats-foodfarm-landuselivestock-june-detailedresults-livestockmaps111125.pdf",
+                    "encodingFormat": "application/pdf"
+                },
+                {
+                    "name": "Region ",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/6509a53e4cd3c3000d68ccda/structure-england-regions-31mar23i.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "Local authority",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/62c40b06e90e077485f509d5/structure-june-eng-localauthority-05jul22.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "National parks",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/65801aee83ba38000de1b6cf/structure-june-eng-nationalparks-14dec23.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "National character areas",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/646620e2e140700013b6e201/structure-june-nationalcharacterareas-18may2023.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "National Landscapes",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/65801b271c0c2a000d18ced5/structure-june-AONB-14dec23.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "United Kingdom annual timeseries (1984 to 2023) ",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/6579b33a0467eb000d55f6f3/structure-june-uktimeseries-14dec23.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "United Kingdom key results by country (1866 to 2023) ",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/6579b390254aaa000d050c38/structure-june-ukkeyresults-14dec23.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "cereal and oilseed area, yield and production",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/61ba233be90e07043f2b9943/structure-june-ukcerealoilseed-16dec21.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "Results by size of farm in the United Kingdom",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/638f73a8d3bf7f327f4c70b0/structure-june-UKsizebands-06dec22.xlsx",
+                    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                },
+                {
+                    "name": "Local nature partnerships",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/62deb0cfd3bf7f2d868e6a10/structure-june-localnaturepartnership-25jul22.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "Less favoured areas",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/62c40b2ae90e07748814bc57/structure-june-eng-lessfavouredareas-05jul22.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "County/unitary authority ",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/62b33f628fa8f5357862f442/structure-england-june21-county-23jun22.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "Land use and crops maps 2021",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/6426fda4fbe620000c17da9b/structure-england-land-use-maps-31mar23.pdf",
+                    "encodingFormat": "application/pdf"
+                },
+                {
+                    "name": "Livestock maps 2021",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/6426fec9fbe620000f17da9f/structure-england-livestock-maps-31mar23.pdf",
+                    "encodingFormat": "application/pdf"
+                }
+            ]
         }
     ],
     "schema:keywords": [
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "1983/2022",
-    "schema:version": "2023-03-31",
+    "schema:temporalCoverage": "1983/2023",
+    "schema:version": "2023-09-28",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Land use on agricultural holdings on 1 June (millions of hectares)",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "The 2009 June figures were revised in 2010 to take account of new methodology.",
+    "notes": "Annual datapoints reflect agricultural land use in England at 1 June each year.\n\n</br>Figures prior to 2009 relate to all farm holdings, whereas figures from 2009 onwards relate to commercial holdings only and thereby exclude holdings with very low levels of activity.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -46,7 +161,7 @@
                 "datatype": {
                     "base": "integer",
                     "minimum": "1983",
-                    "maximum": "2022",
+                    "maximum": "2023",
                     "@type": "Datatype"
                 },
                 "default": "",

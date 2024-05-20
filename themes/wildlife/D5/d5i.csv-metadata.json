@@ -1,0 +1,80 @@
+{
+    "schema:name": "Red List Index for England by broad taxonomic group, 2022 baseline",
+    "url": "d5i.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "D5 Conservation status of our native species, 2022 (NERR124)",
+            "schema:url": "https://publications.naturalengland.org.uk/publication/6315201438941184",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "NE",
+                "schema:name": "Natural England",
+                "schema:sameAs": "https://ror.org/00r66pz14",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:dateModified": "2022-10-19",
+            "schema:datePublished": "2022-10-19"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "1970-01-01T00:33:42+00:00",
+    "schema:version": "2022-10-19",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "red list index ranking of native species",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Results are based on Great Britain Red List assessments of species known to be native to England.\n\n</br>The Red List Index for England includes 8,259 taxa across 23 major taxonomic groups. The 'Aggregate' category includes the results for all these taxa.\n\n</br>A comparison of Great Britain and England Red List categories across 4 taxonomic groups showed that between 80% to 92% of statuses aligned and therefore the Red List Index presented here is considered a good approximation of extinction risk in England. However, Great Britain scale assessments can underestimate or overestimate extinction risk at an England scale and, importantly, losses from England of species still present in Scotland or Wales will not be detected by the index. \n    \n</br>Care should be taken when comparing Red List Index values across groups because of differences in ‘red-listing’ that can result from data availability, taxonomic rank, and extinction definitions.",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Butterflies|Birds|Amphibians and reptiles|Scarab beetles and allies|Mammals (non-marine)|Dragonflies and damselflies|Freshwater Fish|Bolete fungi|Clown and False-clown beetles|Shield bugs and allies|Longhorn beetles|Carrion beetles|Wood boring beetles and allies|Leaf beetles and allies|Grasshoppers, crickets and allies|Darkling beetles and allies|Mayflies|Soldier beetles and allies|Ground beetles|Soldier flies and allies|Vascular plants|Water beetles|Spiders|Aggregate|Mosses and liverworts|Lichens|Caddisflies|Molluscs (non-marine)|Rove beetles (macrostaphs)|Spear-winged and Flat-footed flies|Long-legged flies|Stoneflies|Pill beetles and allies|Rove beetles (tachyporines)|Water bugs|Millipedes, centipedes and woodlice|Hoverflies",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "Red List Index group",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Red list group of native species"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "value",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The red list index ranking of native species"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

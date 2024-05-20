@@ -1,5 +1,5 @@
 {
-    "schema:name": "‘Household waste’ and ‘waste from households’ recycling rates in England, 2000/2001 to 2021/2022",
+    "schema:name": "‘Household waste’ and ‘waste from households’ recycling rates in England, 2000/2001 to 2022/2023",
     "url": "j3.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -10,229 +10,11 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:description": "<div class=\"govspeak\"><p>These datasets contain the annual results for local authority collected waste in England.</p>\n\n<p>If you require the data in another format please contact:  <a href=\"mailto:enviro.statistics@defra.gov.uk\" class=\"govuk-link\">enviro.statistics@defra.gov.uk</a> or visit the waste pages on <a rel=\"external\" href=\"https://data.gov.uk/dataset/local_authority_collected_waste_management_statistics\" class=\"govuk-link\">Data.Gov.UK</a></p>\n\n<section class=\"attachment embedded\" id=\"attachment_6340542\">\n  <div class=\"attachment-thumb\">\n      <a class=\"govuk-link\" tabindex=\"-1\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1040527/WFH_England_Data_202021.ods\"><svg viewbox=\"0 0 99 140\" width=\"99\" height=\"140\">\n  <path d=\"M12 12h75v27H12zm0 47h18.75v63H12zm55 2v59H51V61h16m2-2H49v63h20V59z\"></path>\n  <path d=\"M49 61.05V120H32.8V61.05H49m2-2H30.75v63H51V59zm34 2V120H69.05V61.05H85m2-2H67v63h20V59z\"></path>\n  <path d=\"M30 68.5h56.5M30 77.34h56.5M30 112.7h56.5M30 95.02h56.5M30 86.18h56.5M30 103.86h56.5\" fill=\"none\"></path>\n</svg>\n</a>\n  </div>\n  <div class=\"attachment-details\">\n    <h3 class=\"title govuk-!-font-size-27 govuk-!-font-weight-regular\"><a class=\"govuk-link\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1040527/WFH_England_Data_202021.ods\">Local authority collected waste from households from January 2010 to March 2021 England data</a></h3>\n    <p class=\"govuk-body metadata\">\n        <span class=\"type\"><abbr title=\"OpenDocument Spreadsheet\">ODS</abbr></span>, <span class=\"file-size\">37.5 KB</span>\n    </p>\n\n      <p class=\"govuk-body opendocument-help\">\n        This file is in an <a href=\"https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation\" class=\"govuk-link\">OpenDocument</a> format\n      </p>\n\n  </div>\n</section>\n\n<section class=\"attachment embedded\" id=\"attachment_6340543\">\n  <div class=\"attachment-thumb\">\n      <a class=\"govuk-link\" tabindex=\"-1\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1040528/WFH_England_Data_202021.xlsx\"><svg viewbox=\"0 0 99 140\" width=\"99\" height=\"140\">\n  <path d=\"M12 12h75v27H12zm0 47h18.75v63H12zm55 2v59H51V61h16m2-2H49v63h20V59z\"></path>\n  <path d=\"M49 61.05V120H32.8V61.05H49m2-2H30.75v63H51V59zm34 2V120H69.05V61.05H85m2-2H67v63h20V59z\"></path>\n  <path d=\"M30 68.5h56.5M30 77.34h56.5M30 112.7h56.5M30 95.02h56.5M30 86.18h56.5M30 103.86h56.5\" fill=\"none\"></path>\n</svg>\n</a>\n  </div>\n  <div class=\"attachment-details\">\n    <h3 class=\"title govuk-!-font-size-27 govuk-!-font-weight-regular\"><a class=\"govuk-link\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1040528/WFH_England_Data_202021.xlsx\">Local authority collected waste from households from January 2010 to March 2021 England data</a></h3>\n    <p class=\"govuk-body metadata\">\n        <span class=\"type\">MS Excel Spreadsheet</span>, <span class=\"file-size\">64.5 KB</span>\n    </p>\n\n\n  </div>\n</section>\n\n<section class=\"attachment embedded\" id=\"attachment_6340544\">\n  <div class=\"attachment-thumb\">\n      <a class=\"govuk-link\" tabindex=\"-1\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1047704/LA_and_Regional_Spreadsheet_2021_rev.ods\"><svg viewbox=\"0 0 99 140\" width=\"99\" height=\"140\">\n  <path d=\"M12 12h75v27H12zm0 47h18.75v63H12zm55 2v59H51V61h16m2-2H49v63h20V59z\"></path>\n  <path d=\"M49 61.05V120H32.8V61.05H49m2-2H30.75v63H51V59zm34 2V120H69.05V61.05H85m2-2H67v63h20V59z\"></path>\n  <path d=\"M30 68.5h56.5M30 77.34h56.5M30 112.7h56.5M30 95.02h56.5M30 86.18h56.5M30 103.86h56.5\" fill=\"none\"></path>\n</svg>\n</a>\n  </div>\n  <div class=\"attachment-details\">\n    <h3 class=\"title govuk-!-font-size-27 govuk-!-font-weight-regular\"><a class=\"govuk-link\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1047704/LA_and_Regional_Spreadsheet_2021_rev.ods\">Local authority collected waste generation from April 2000 to March 2021 (England and regions) and local authority data April 2020 to March 2021</a></h3>\n    <p class=\"govuk-body metadata\">\n        <span class=\"type\"><abbr title=\"OpenDocument Spreadsheet\">ODS</abbr></span>, <span class=\"file-size\">920 KB</span>\n    </p>\n\n      <p class=\"govuk-body opendocument-help\">\n        This file is in an <a href=\"https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation\" class=\"govuk-link\">OpenDocument</a> format\n      </p>\n\n  </div>\n</section>\n\n<section class=\"attachment embedded\" id=\"attachment_6340545\">\n  <div class=\"attachment-thumb\">\n      <a class=\"govuk-link\" tabindex=\"-1\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1047705/LA_and_Regional_Spreadsheet_2021_rev.xlsx\"><svg viewbox=\"0 0 99 140\" width=\"99\" height=\"140\">\n  <path d=\"M12 12h75v27H12zm0 47h18.75v6",
+            "schema:description": "<div class=\"govspeak\">\n<p>These datasets contain the annual results for local authority collected waste in England.</p>\n\n<p>If you require the data in another format please contact:  <a href=\"mailto:enviro.statistics@defra.gov.uk\" class=\"govuk-link\">enviro.statistics@defra.gov.uk</a> or visit the waste pages on <a rel=\"external\" href=\"https://data.gov.uk/dataset/local_authority_collected_waste_management_statistics\" class=\"govuk-link\">Data.Gov.UK</a></p>\n\n<section class=\"gem-c-attachment govuk-!-display-none-print govuk-!-margin-bottom-6\" data-module=\"ga4-link-tracker\">\n  <div class=\"gem-c-attachment__thumbnail\">\n    <a class=\"govuk-link\" target=\"_self\" tabindex=\"-1\" aria-hidden=\"true\" data-ga4-link='{\"event_name\":\"file_download\",\"type\":\"attachment\"}' href=\"https://assets.publishing.service.gov.uk/media/65ba6e0ff51b10000d6a7e44/WFH_England_Data_202122__1_.ods\">\n        <svg class=\"gem-c-attachment__thumbnail-image gem-c-attachment__thumbnail-image--spreadsheet\" version=\"1.1\" viewbox=\"0 0 99 140\" width=\"99\" height=\"140\" aria-hidden=\"true\">\n  <path d=\"M12 12h75v27H12zm0 47h18.75v63H12zm55 2v59H51V61h16m2-2H49v63h20V59z\" stroke-width=\"0\"></path>\n  <path d=\"M49 61.05V120H32.8V61.05H49m2-2H30.75v63H51V59zm34 2V120H69.05V61.05H85m2-2H67v63h20V59z\" stroke-width=\"0\"></path>\n  <path d=\"M30 68.5h56.5M30 77.34h56.5M30 112.7h56.5M30 95.02h56.5M30 86.18h56.5M30 103.86h56.5\" fill=\"none\" stroke-miterlimit=\"10\" stroke-width=\"2\"></path>\n</svg>\n\n</a>\n</div>\n  <div class=\"gem-c-attachment__details\">\n    <h2 class=\"gem-c-attachment__title\">\n      <a class=\"govuk-link\" target=\"_self\" data-ga4-link='{\"event_name\":\"file_download\",\"type\":\"attachment\"}' href=\"https://assets.publishing.service.gov.uk/media/65ba6e0ff51b10000d6a7e44/WFH_England_Data_202122__1_.ods\">Local authority collected waste from households annual results 2021/22 England data</a>\n</h2>\n\n\n      <p class=\"gem-c-attachment__metadata\"><span class=\"gem-c-attachment__attribute\"><abbr title=\"OpenDocument Spreadsheet\" class=\"gem-c-attachment__abbr\">ODS</abbr></span>, <span class=\"gem-c-attachment__attribute\">36.2 KB</span></p>\n\n\n\n        <p class=\"gem-c-attachment__metadata\">\n          This file is in an <a href=\"https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation\" target=\"_self\" class=\"govuk-link\">OpenDocument</a> format\n</p>\n</div></section>\n\n<section class=\"gem-c-attachment govuk-!-display-none-print govuk-!-margin-bottom-6\" data-module=\"ga4-link-tracker\">\n  <div class=\"gem-c-attachment__thumbnail\">\n    <a class=\"govuk-link\" target=\"_self\" tabindex=\"-1\" aria-hidden=\"true\" data-ga4-link='{\"event_name\":\"file_download\",\"type\":\"attachment\"}' href=\"https://assets.publishing.service.gov.uk/media/65ba6e32c75d300012ca1006/LA_and_Regional_Spreadsheet_202122__2_.ods\">\n        <svg class=\"gem-c-attachment__thumbnail-image gem-c-attachment__thumbnail-image--spreadsheet\" version=\"1.1\" viewbox=\"0 0 99 140\" width=\"99\" height=\"140\" aria-hidden=\"true\">\n  <path d=\"M12 12h75v27H12zm0 47h18.75v63H12zm55 2v59H51V61h16m2-2H49v63h20V59z\" stroke-width=\"0\"></path>\n  <path d=\"M49 61.05V120H32.8V61.05H49m2-2H30.75v63H51V59zm34 2V120H69.05V61.05H85m2-2H67v63h20V59z\" stroke-width=\"0\"></path>\n  <path d=\"M30 68.5h56.5M30 77.34h56.5M30 112.7h56.5M30 95.02h56.5M30 86.18h56.5M30 103.86h56.5\" fill=\"none\" stroke-miterlimit=\"10\" stroke-width=\"2\"></path>\n</svg>\n\n</a>\n</div>\n  <div class=\"gem-c-attachment__details\">\n    <h2 class=\"gem-c-attachment__title\">\n      <a class=\"govuk-link\" target=\"_self\" data-ga4-link='{\"event_name\":\"file_download\",\"type\":\"attachment\"}' href=\"https://assets.publishing.service.gov.uk/media/65ba6e32c75d300012ca1006/LA_and_Regional_Spreadsheet_202122__2_.ods\">Local authority collected waste generation from annual results 2021/22 (England and regions) and local authority data annual results 2021/22</a>\n</h2>\n\n\n      <p class=\"gem-c-attachment__metadata\"><span class=\"gem-c-attachment__attribute\"><abbr title=\"OpenDocument Spreadsheet\" class=\"gem-c-attachment__abbr\">ODS</abbr></span>, <span class=\"gem-c-attachment__attribute\">1.25 MB</span></p>\n\n\n\n        <p class=\"gem-c-attachment__metadata\">\n          This file is in an <a href=\"https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation\" target=\"_self\" class=\"govuk-link\">OpenDocument</a> format\n</p>\n</div></section>\n\n<section class=\"gem-c-attachment govuk-!-display-none-print govuk-!-margin-bottom-6\" data-module=\"ga4-link-tracker\">\n  <div class=\"gem-c-attachment__thumbnail\">\n    <a class=\"govuk-link\" target=\"_self\" tabindex=\"-1\" aria-hidden=\"true\" data-ga4-link='{\"event_name\":\"file_download\",\"type\":\"attachment\"}' href=\"https://assets.publishing.service.gov.uk/media/61b85658e90e070441bcf97c/WFH_England_Data_202021.ods\">\n        <svg class=\"gem-c-attachment__thumbnail-image gem-c-attachment__thumbnail-image--spreadsheet\" version=\"1.1\" viewbox=\"0 0 99 140\" width=\"99\" height=\"140\" aria-hidden=\"true\">\n  <path d=\"M12 12h75v27H12zm0 47h18.75v63H12zm55 2v59H51V61h16m2-2H49v63h20V59z\" stroke-",
             "schema:image": [
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-bf9e64d759af6dfd93bede8168f3087a329f405b382aff36747db0db4b7b23e9.png",
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-13093f053c15f613acd827aff27cac83d3fab452947cbcae4c7b706dadf2f7f2.png",
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-4233cd42671827e266e284c4d5ae68fb600bd9f9e35dda663ccabbc2b6ab7ec3.png"
-            ],
-            "schema:name": "ENV18 - Local authority collected waste: annual results tables",
-            "@type": "Dataset",
-            "schema:about": [
-                {
-                    "@type": "Thing"
-                }
-            ],
-            "schema:author": {
-                "schema:name": "Department for Environment, Food & Rural Affairs",
-                "schema:url": "https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs",
-                "@type": "Organization"
-            },
-            "schema:publisher": {
-                "schema:name": "GOV.UK",
-                "schema:url": "https://www.gov.uk",
-                "@type": "Organization"
-            },
-            "schema:text": "Final annual results for local authority collected waste and management figures for England.",
-            "schema:distribution": [
-                {
-                    "name": "England carbon metric report - Summary",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/142019/Carbon_Metric_-_final_published.xls",
-                    "encodingFormat": "application/vnd.ms-excel"
-                },
-                {
-                    "name": "Local authority collected waste generation from April 2000 to March 2014 (England and regions) and local authority data April 2013 to March 2014",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/386270/LA_and_Regional_spreadsheet_2013-14_publicationv2.ods",
-                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
-                },
-                {
-                    "name": "Local authority collected and household waste statistics 2011 to 2012",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/142046/2011-12_ANNUAL_publication_LA_level_WITHOUTLINKS.xls",
-                    "encodingFormat": "application/vnd.ms-excel"
-                },
-                {
-                    "name": "Local authority collected and household waste statistics 2010 to 2011",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/142047/2010-11_ANNUAL_publication_LA_level_WITHOUTLINKS.xls",
-                    "encodingFormat": "application/vnd.ms-excel"
-                },
-                {
-                    "name": "Local authority collected and household waste statistics 2009 to 2010",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/142048/mwb200910a.xls",
-                    "encodingFormat": "application/vnd.ms-excel"
-                },
-                {
-                    "name": "Local authority collected and household waste statistics 2008 to 2009",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/142049/mwb200809a.xls",
-                    "encodingFormat": "application/vnd.ms-excel"
-                },
-                {
-                    "name": "Local authority collected and household waste statistics 2007 to 2008",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/142050/mwb200708a.xls",
-                    "encodingFormat": "application/vnd.ms-excel"
-                },
-                {
-                    "name": "Local authority collected and household waste statistics 2006 to 2007",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/142051/mwb200607a.xls",
-                    "encodingFormat": "application/vnd.ms-excel"
-                },
-                {
-                    "name": "Local authority collected and household waste statistics 2005 to 2006",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/142055/mwb200506a.xls",
-                    "encodingFormat": "application/vnd.ms-excel"
-                },
-                {
-                    "name": "Household recycling by material and region, England: April 1996 to March 2010",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/181160/lacw_recycling_199697-200910.xls",
-                    "encodingFormat": "application/vnd.ms-excel"
-                },
-                {
-                    "name": "Local authority collected waste statistics -  Local authority data, England: April  2012 to March 2013",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/310067/Copy_of_2012-13_ANNUAL_publication_LA_level_WITHOUTLINKS3.xls",
-                    "encodingFormat": "application/vnd.ms-excel"
-                },
-                {
-                    "name": "Local authority collected waste from households from January 2010 to March 2015 - England data.",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/481058/WfH_data_for_publication.ods",
-                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
-                },
-                {
-                    "name": "LA collected and household waste datasheets 2015 in csv format",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/481061/LA_collected_and_household_waste_2015_in_csv_format.zip",
-                    "encodingFormat": "application/x-zip-compressed"
-                },
-                {
-                    "name": "Local authority collected waste generation from April 2000 to March 2015 (England and regions) and local authority data April 2014 to March 2015",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/481060/LA_and_Regional_spreadsheet_2014-15_publication.ods",
-                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
-                },
-                {
-                    "name": "Local authority collected waste from households from January 2010 to March 2016 - England data",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/577718/WfH_data_for_publication_v1.ods",
-                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
-                },
-                {
-                    "name": "Local authority collected waste generation from April 2000 to March 2016 (England and regions) and local authority data April 2015 to March 2016",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/592895/LA_regional_spreadsheet_march_2016rev.ods",
-                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
-                },
-                {
-                    "name": "Local authority collected waste from households from January 2010 to March 2016 - England data (Excel)",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/577740/WfH_data_for_publication_v1.xlsx",
-                    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-                },
-                {
-                    "name": "Local authority collected waste generation from April 2000 to March 2016 (England and regions) and local authority data April 2015 to March 2016 (Excel)",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/592899/LA_regional_spreadsheet_march_2016rev.xls",
-                    "encodingFormat": "application/vnd.ms-excel"
-                },
-                {
-                    "name": "Local authority collected waste from households from January 2010 to March 2017 - England data",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/664601/WfH_England_data.ods",
-                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
-                },
-                {
-                    "name": "Local authority collected waste from households from January 2010 to March 2017 - England data",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/664604/WfH_England_data.xlsx",
-                    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-                },
-                {
-                    "name": "Local authority collected waste generation from April 2000 to March 2017 (England and regions) and local authority data April 2016 to March 2017",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/664605/LA_and_Regional_Spreadsheet_201617.ods",
-                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
-                },
-                {
-                    "name": "Local authority collected waste generation from April 2000 to March 2017 (England and regions) and local authority data April 2016 to March 2017",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/664608/LA_and_Regional_Spreadsheet_201617.xlsx",
-                    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-                },
-                {
-                    "name": "Local authority collected waste from households from January 2010 to March 2018 - England data",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/918330/WfH_England_Data_201718_accessible.ods",
-                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
-                },
-                {
-                    "name": "Local authority collected waste from households from January 2010 to March 2018 - England data",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/918332/WfH_England_Data_201718_accessible.xlsx",
-                    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-                },
-                {
-                    "name": "Local authority collected waste generation from April 2000 to March 2018 (England and regions) and local authority data April 2017 to March 2018",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/918333/LA_and_Regional_Spreadsheet_201718_rev2_accessible.ods",
-                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
-                },
-                {
-                    "name": "Local authority collected waste generation from April 2000 to March 2018 (England and regions) and local authority data April 2017 to March 2018",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/918334/LA_and_Regional_Spreadsheet_201718_rev2_accessible.xlsx",
-                    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-                },
-                {
-                    "name": "Local authority collected waste generation from April 2000 to March 2019 (England and regions) and local authority data April 2018 to March 2019",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/849135/LA_and_Regional_Spreadsheet_1819.ods",
-                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
-                },
-                {
-                    "name": "Local authority collected waste generation from April 2000 to March 2019 (England and regions) and local authority data April 2018 to March 2019",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/849136/LA_and_Regional_Spreadsheet_1819.xlsx",
-                    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-                },
-                {
-                    "name": "Local authority collected waste from households from January 2010 to March 2019 England data",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/848688/WFH_England_Data_201819.ods",
-                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
-                },
-                {
-                    "name": "Local authority collected waste from households from January 2010 to March 2019 England data",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/848689/WFH_England_Data_201819.xlsx",
-                    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-                },
-                {
-                    "name": "Local authority collected waste from households from January 2010 to March 2020 England data ",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/965842/WFH_England_Data_201920_.ods",
-                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
-                },
-                {
-                    "name": "Local authority collected waste from households from January 2010 to March 2020 England data ",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/965843/WFH_England_Data_201920_.xlsx",
-                    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-                },
-                {
-                    "name": "Local authority collected waste generation from April 2000 to March 2020 (England and regions) and local authority data April 2019 to March 2020",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/966042/LA_and_Regional_Spreadsheet_1920_rev.ods",
-                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
-                },
-                {
-                    "name": "Local authority collected waste generation from April 2000 to March 2020 (England and regions) and local authority data April 2019 to March 2020",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/966043/LA_and_Regional_Spreadsheet_1920_rev.xlsx",
-                    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-                },
-                {
-                    "name": "Local authority collected waste from households from January 2010 to March 2021 England data",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1040527/WFH_England_Data_202021.ods",
-                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
-                },
-                {
-                    "name": "Local authority collected waste from households from January 2010 to March 2021 England data",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1040528/WFH_England_Data_202021.xlsx",
-                    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-                },
-                {
-                    "name": "Local authority collected waste generation from April 2000 to March 2021 (England and regions) and local authority data April 2020 to March 2021",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1047704/LA_and_Regional_Spreadsheet_2021_rev.ods",
-                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
-                },
-                {
-                    "name": "Local authority collected waste generation from April 2000 to March 2021 (England and regions) and local authority data April 2020 to March 2021",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1047705/LA_and_Regional_Spreadsheet_2021_rev.xlsx",
-                    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-                }
-            ]
-        },
-        {
-            "schema:description": "<div class=\"govspeak\"><p><strong>The latest data is available from: <a href=\"https://www.gov.uk/government/statistical-data-sets/env18-local-authority-collected-waste-annual-results-tables-202122\" class=\"govuk-link\">ENV18 - Local authority collected waste: annual results tables 2021/22 - GOV.UK (www.gov.uk)</a></strong></p>\n\n<p>These datasets contain the annual results for local authority collected waste in England.</p>\n\n<p>If you require the data in another format please contact:  <a href=\"mailto:enviro.statistics@defra.gov.uk\" class=\"govuk-link\">enviro.statistics@defra.gov.uk</a> or visit the waste pages on <a rel=\"external\" href=\"https://data.gov.uk/dataset/local_authority_collected_waste_management_statistics\" class=\"govuk-link\">Data.Gov.UK</a></p>\n\n<section class=\"attachment embedded\" id=\"attachment_7251873\">\n  <div class=\"attachment-thumb\">\n      <a class=\"govuk-link\" tabindex=\"-1\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1040527/WFH_England_Data_202021.ods\"><svg viewbox=\"0 0 99 140\" width=\"99\" height=\"140\">\n  <path d=\"M12 12h75v27H12zm0 47h18.75v63H12zm55 2v59H51V61h16m2-2H49v63h20V59z\"></path>\n  <path d=\"M49 61.05V120H32.8V61.05H49m2-2H30.75v63H51V59zm34 2V120H69.05V61.05H85m2-2H67v63h20V59z\"></path>\n  <path d=\"M30 68.5h56.5M30 77.34h56.5M30 112.7h56.5M30 95.02h56.5M30 86.18h56.5M30 103.86h56.5\" fill=\"none\"></path>\n</svg>\n</a>\n  </div>\n  <div class=\"attachment-details\">\n    <h3 class=\"title govuk-!-font-size-27 govuk-!-font-weight-regular\"><a class=\"govuk-link\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1040527/WFH_England_Data_202021.ods\">Local authority collected waste from households from January 2010 to March 2021 England data</a></h3>\n    <p class=\"govuk-body metadata\">\n        <span class=\"type\"><abbr title=\"OpenDocument Spreadsheet\">ODS</abbr></span>, <span class=\"file-size\">37.5 KB</span>\n    </p>\n\n      <p class=\"govuk-body opendocument-help\">\n        This file is in an <a href=\"https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation\" class=\"govuk-link\">OpenDocument</a> format\n      </p>\n\n  </div>\n</section>\n\n<section class=\"attachment embedded\" id=\"attachment_7251874\">\n  <div class=\"attachment-thumb\">\n      <a class=\"govuk-link\" tabindex=\"-1\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1040528/WFH_England_Data_202021.xlsx\"><svg viewbox=\"0 0 99 140\" width=\"99\" height=\"140\">\n  <path d=\"M12 12h75v27H12zm0 47h18.75v63H12zm55 2v59H51V61h16m2-2H49v63h20V59z\"></path>\n  <path d=\"M49 61.05V120H32.8V61.05H49m2-2H30.75v63H51V59zm34 2V120H69.05V61.05H85m2-2H67v63h20V59z\"></path>\n  <path d=\"M30 68.5h56.5M30 77.34h56.5M30 112.7h56.5M30 95.02h56.5M30 86.18h56.5M30 103.86h56.5\" fill=\"none\"></path>\n</svg>\n</a>\n  </div>\n  <div class=\"attachment-details\">\n    <h3 class=\"title govuk-!-font-size-27 govuk-!-font-weight-regular\"><a class=\"govuk-link\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1040528/WFH_England_Data_202021.xlsx\">Local authority collected waste from households from January 2010 to March 2021 England data</a></h3>\n    <p class=\"govuk-body metadata\">\n        <span class=\"type\">MS Excel Spreadsheet</span>, <span class=\"file-size\">64.5 KB</span>\n    </p>\n\n\n  </div>\n</section>\n\n<section class=\"attachment embedded\" id=\"attachment_7251875\">\n  <div class=\"attachment-thumb\">\n      <a class=\"govuk-link\" tabindex=\"-1\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1047704/LA_and_Regional_Spreadsheet_2021_rev.ods\"><svg viewbox=\"0 0 99 140\" width=\"99\" height=\"140\">\n  <path d=\"M12 12h75v27H12zm0 47h18.75v63H12zm55 2v59H51V61h16m2-2H49v63h20V59z\"></path>\n  <path d=\"M49 61.05V120H32.8V61.05H49m2-2H30.75v63H51V59zm34 2V120H69.05V61.05H85m2-2H67v63h20V59z\"></path>\n  <path d=\"M30 68.5h56.5M30 77.34h56.5M30 112.7h56.5M30 95.02h56.5M30 86.18h56.5M30 103.86h56.5\" fill=\"none\"></path>\n</svg>\n</a>\n  </div>\n  <div class=\"attachment-details\">\n    <h3 class=\"title govuk-!-font-size-27 govuk-!-font-weight-regular\"><a class=\"govuk-link\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1047704/LA_and_Regional_Spreadsheet_2021_rev.ods\">Local authority collected waste generation from April 2000 to March 2021 (England and regions) and local authority data April 2020 to March 2021</a></h3>\n    <p class=\"govuk-body metadata\">\n        <span class=\"type\"><abbr title=\"OpenDocument Spreadsheet\">ODS</abbr></span>, <span class=\"file-size\">920 KB</span>\n    </p>\n\n      <p class=\"govuk-body opendocument-help\">\n        This file is in an <a href=\"https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation\" class=\"govuk-link\">OpenDocument</a> format\n      </p>\n\n  </div>\n</section>\n\n<section class=\"attachment embedded\" id=\"attachment_7251876\">\n  <div class=\"",
-            "schema:image": [
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-bf9e64d759af6dfd93bede8168f3087a329f405b382aff36747db0db4b7b23e9.png",
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-13093f053c15f613acd827aff27cac83d3fab452947cbcae4c7b706dadf2f7f2.png",
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-4233cd42671827e266e284c4d5ae68fb600bd9f9e35dda663ccabbc2b6ab7ec3.png"
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-c3d38c0d4fc00005df38a71e1db7097276681d6917bca58f0dc8336a252e1bb3.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-edc38c137a14ecfc3fc83f404090e20dab806dad345c96a1df6a163ee2d1e3aa.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-5dc2d0ea1eb72cd94e66db210ef41b22ce364e7ed09d63a3acc28fda09e27864.png"
             ],
             "schema:name": "ENV18 - Local authority collected waste: annual results tables (Historical)",
             "@type": "Dataset",
@@ -255,193 +37,260 @@
             "schema:distribution": [
                 {
                     "name": "England carbon metric report - Summary",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/142019/Carbon_Metric_-_final_published.xls",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5a7a1929e5274a34770e43d3/Carbon_Metric_-_final_published.xls",
                     "encodingFormat": "application/vnd.ms-excel"
                 },
                 {
                     "name": "Local authority collected waste generation from April 2000 to March 2014 (England and regions) and local authority data April 2013 to March 2014",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/386270/LA_and_Regional_spreadsheet_2013-14_publicationv2.ods",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5a757084ed915d6faf2b2fe8/LA_and_Regional_spreadsheet_2013-14_publicationv2.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
                     "name": "Local authority collected and household waste statistics 2011 to 2012",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/142046/2011-12_ANNUAL_publication_LA_level_WITHOUTLINKS.xls",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5a7af83840f0b66eab99df7f/2011-12_ANNUAL_publication_LA_level_WITHOUTLINKS.xls",
                     "encodingFormat": "application/vnd.ms-excel"
                 },
                 {
                     "name": "Local authority collected and household waste statistics 2010 to 2011",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/142047/2010-11_ANNUAL_publication_LA_level_WITHOUTLINKS.xls",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5a7b04d140f0b66a2fc0487f/2010-11_ANNUAL_publication_LA_level_WITHOUTLINKS.xls",
                     "encodingFormat": "application/vnd.ms-excel"
                 },
                 {
                     "name": "Local authority collected and household waste statistics 2009 to 2010",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/142048/mwb200910a.xls",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5a7a1c8540f0b66a2fbfff96/mwb200910a.xls",
                     "encodingFormat": "application/vnd.ms-excel"
                 },
                 {
                     "name": "Local authority collected and household waste statistics 2008 to 2009",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/142049/mwb200809a.xls",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5a7b4efded915d429748e374/mwb200809a.xls",
                     "encodingFormat": "application/vnd.ms-excel"
                 },
                 {
                     "name": "Local authority collected and household waste statistics 2007 to 2008",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/142050/mwb200708a.xls",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5a7aea2540f0b66eab99d8b5/mwb200708a.xls",
                     "encodingFormat": "application/vnd.ms-excel"
                 },
                 {
                     "name": "Local authority collected and household waste statistics 2006 to 2007",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/142051/mwb200607a.xls",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5a7a1f22e5274a319e77801a/mwb200607a.xls",
                     "encodingFormat": "application/vnd.ms-excel"
                 },
                 {
                     "name": "Local authority collected and household waste statistics 2005 to 2006",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/142055/mwb200506a.xls",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5a7af54ced915d71db8b3ba0/mwb200506a.xls",
                     "encodingFormat": "application/vnd.ms-excel"
                 },
                 {
                     "name": "Household recycling by material and region, England: April 1996 to March 2010",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/181160/lacw_recycling_199697-200910.xls",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5a7ae97840f0b66a2fc03afd/lacw_recycling_199697-200910.xls",
                     "encodingFormat": "application/vnd.ms-excel"
                 },
                 {
                     "name": "Local authority collected waste statistics -  Local authority data, England: April  2012 to March 2013",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/310067/Copy_of_2012-13_ANNUAL_publication_LA_level_WITHOUTLINKS3.xls",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5a7ebb82ed915d74e33f212e/Copy_of_2012-13_ANNUAL_publication_LA_level_WITHOUTLINKS3.xls",
                     "encodingFormat": "application/vnd.ms-excel"
                 },
                 {
                     "name": "Local authority collected waste from households from January 2010 to March 2015 - England data.",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/481058/WfH_data_for_publication.ods",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5a81911840f0b62305b8fa68/WfH_data_for_publication.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
                     "name": "LA collected and household waste datasheets 2015 in csv format",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/481061/LA_collected_and_household_waste_2015_in_csv_format.zip",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5a803730e5274a2e87db8879/LA_collected_and_household_waste_2015_in_csv_format.zip",
                     "encodingFormat": "application/x-zip-compressed"
                 },
                 {
                     "name": "Local authority collected waste generation from April 2000 to March 2015 (England and regions) and local authority data April 2014 to March 2015",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/481060/LA_and_Regional_spreadsheet_2014-15_publication.ods",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5a75b8e8ed915d6faf2b5326/LA_and_Regional_spreadsheet_2014-15_publication.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
                     "name": "Local authority collected waste from households from January 2010 to March 2016 - England data",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/577718/WfH_data_for_publication_v1.ods",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5a80792ae5274a2e8ab5058c/WfH_data_for_publication_v1.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
                     "name": "Local authority collected waste generation from April 2000 to March 2016 (England and regions) and local authority data April 2015 to March 2016",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/592895/LA_regional_spreadsheet_march_2016rev.ods",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5a81b3a940f0b62305b905ef/LA_regional_spreadsheet_march_2016rev.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
                     "name": "Local authority collected waste from households from January 2010 to March 2016 - England data (Excel)",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/577740/WfH_data_for_publication_v1.xlsx",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5a74db18ed915d502d6cb899/WfH_data_for_publication_v1.xlsx",
                     "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
                 },
                 {
                     "name": "Local authority collected waste generation from April 2000 to March 2016 (England and regions) and local authority data April 2015 to March 2016 (Excel)",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/592899/LA_regional_spreadsheet_march_2016rev.xls",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5a8168a5ed915d74e33fe0c9/LA_regional_spreadsheet_march_2016rev.xls",
                     "encodingFormat": "application/vnd.ms-excel"
                 },
                 {
                     "name": "Local authority collected waste from households from January 2010 to March 2017 - England data",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/664601/WfH_England_data.ods",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5a75a5a0e5274a545822d1e2/WfH_England_data.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
                     "name": "Local authority collected waste from households from January 2010 to March 2017 - England data",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/664604/WfH_England_data.xlsx",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5a823e32e5274a2e8ab583fa/WfH_England_data.xlsx",
                     "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
                 },
                 {
                     "name": "Local authority collected waste generation from April 2000 to March 2017 (England and regions) and local authority data April 2016 to March 2017",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/664605/LA_and_Regional_Spreadsheet_201617.ods",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5a821ea340f0b6230269af22/LA_and_Regional_Spreadsheet_201617.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
                     "name": "Local authority collected waste generation from April 2000 to March 2017 (England and regions) and local authority data April 2016 to March 2017",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/664608/LA_and_Regional_Spreadsheet_201617.xlsx",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5a81c7de40f0b623026991ef/LA_and_Regional_Spreadsheet_201617.xlsx",
                     "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
                 },
                 {
                     "name": "Local authority collected waste from households from January 2010 to March 2018 - England data",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/918330/WfH_England_Data_201718_accessible.ods",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5f62134d8fa8f5107025c136/WfH_England_Data_201718_accessible.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
                     "name": "Local authority collected waste from households from January 2010 to March 2018 - England data",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/918332/WfH_England_Data_201718_accessible.xlsx",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5f6213a0d3bf7f7232e7e6ce/WfH_England_Data_201718_accessible.xlsx",
                     "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
                 },
                 {
                     "name": "Local authority collected waste generation from April 2000 to March 2018 (England and regions) and local authority data April 2017 to March 2018",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/918333/LA_and_Regional_Spreadsheet_201718_rev2_accessible.ods",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5f6213d9d3bf7f7235427de8/LA_and_Regional_Spreadsheet_201718_rev2_accessible.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
                     "name": "Local authority collected waste generation from April 2000 to March 2018 (England and regions) and local authority data April 2017 to March 2018",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/918334/LA_and_Regional_Spreadsheet_201718_rev2_accessible.xlsx",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5f62140dd3bf7f72337b6e51/LA_and_Regional_Spreadsheet_201718_rev2_accessible.xlsx",
                     "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
                 },
                 {
                     "name": "Local authority collected waste generation from April 2000 to March 2019 (England and regions) and local authority data April 2018 to March 2019",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/849135/LA_and_Regional_Spreadsheet_1819.ods",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5ddfd29840f0b650bf4dee09/LA_and_Regional_Spreadsheet_1819.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
                     "name": "Local authority collected waste generation from April 2000 to March 2019 (England and regions) and local authority data April 2018 to March 2019",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/849136/LA_and_Regional_Spreadsheet_1819.xlsx",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5ddfd2c6ed915d015c5482eb/LA_and_Regional_Spreadsheet_1819.xlsx",
                     "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
                 },
                 {
                     "name": "Local authority collected waste from households from January 2010 to March 2019 England data",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/848688/WFH_England_Data_201819.ods",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5dde4fdced915d01684a2a64/WFH_England_Data_201819.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
                     "name": "Local authority collected waste from households from January 2010 to March 2019 England data",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/848689/WFH_England_Data_201819.xlsx",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5dde503ae5274a65dddf284a/WFH_England_Data_201819.xlsx",
                     "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
                 },
                 {
                     "name": "Local authority collected waste from households from January 2010 to March 2020 England data ",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/965842/WFH_England_Data_201920_.ods",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/603e11e4d3bf7f021d5ab490/WFH_England_Data_201920_.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
                     "name": "Local authority collected waste from households from January 2010 to March 2020 England data ",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/965843/WFH_England_Data_201920_.xlsx",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/603e122ed3bf7f02248b3dc5/WFH_England_Data_201920_.xlsx",
                     "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
                 },
                 {
                     "name": "Local authority collected waste generation from April 2000 to March 2020 (England and regions) and local authority data April 2019 to March 2020",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/966042/LA_and_Regional_Spreadsheet_1920_rev.ods",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/603e5b28d3bf7f021c1945ef/LA_and_Regional_Spreadsheet_1920_rev.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
                     "name": "Local authority collected waste generation from April 2000 to March 2020 (England and regions) and local authority data April 2019 to March 2020",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/966043/LA_and_Regional_Spreadsheet_1920_rev.xlsx",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/603e5b54d3bf7f0217c354fc/LA_and_Regional_Spreadsheet_1920_rev.xlsx",
                     "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
                 },
                 {
                     "name": "Local authority collected waste from households from January 2010 to March 2021 England data",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1040527/WFH_England_Data_202021.ods",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/61b85658e90e070441bcf97c/WFH_England_Data_202021.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
                     "name": "Local authority collected waste from households from January 2010 to March 2021 England data",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1040528/WFH_England_Data_202021.xlsx",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/61b8568bd3bf7f0560be6597/WFH_England_Data_202021.xlsx",
                     "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
                 },
                 {
                     "name": "Local authority collected waste generation from April 2000 to March 2021 (England and regions) and local authority data April 2020 to March 2021",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1047704/LA_and_Regional_Spreadsheet_2021_rev.ods",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/61e6cdb2d3bf7f0540d10c6d/LA_and_Regional_Spreadsheet_2021_rev.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
                     "name": "Local authority collected waste generation from April 2000 to March 2021 (England and regions) and local authority data April 2020 to March 2021",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1047705/LA_and_Regional_Spreadsheet_2021_rev.xlsx",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/61e6cdd1d3bf7f054798bcae/LA_and_Regional_Spreadsheet_2021_rev.xlsx",
                     "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                },
+                {
+                    "name": "Local authority collected waste from households annual results 2021/22 England data",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/65ba6e0ff51b10000d6a7e44/WFH_England_Data_202122__1_.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "Local authority collected waste generation from annual results 2021/22 (England and regions) and local authority data annual results 2021/22",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/65ba6e32c75d300012ca1006/LA_and_Regional_Spreadsheet_202122__2_.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                }
+            ]
+        },
+        {
+            "schema:description": "<div class=\"govspeak\"><p>This publication covers annual final estimates for waste collected by local authorities in England and the regions. These statistics are based on data submitted by all local authorities in England to <a rel=\"external\" href=\"http://www.wastedataflow.org/\" class=\"govuk-link\">WasteDataFlow</a> on the waste they collect and manage.</p>\n\n<p>The methodology and recycling explainer documents give background and context to this statistical notice, accompanying datasets and the waste and recycling measures they present.</p>\n\n<p>There is also a further historical note on the <a href=\"https://www.gov.uk/guidance/local-authority-collected-waste-definition-of-terms\" class=\"govuk-link\">definition of local authority collected waste</a> relating to earlier releases.</p>\n\n<p>The entire raw dataset is available in CSV format and can be found here: <a rel=\"external\" href=\"https://www.data.gov.uk/dataset/0e0c12d8-24f6-461f-b4bc-f6d6a5bf2de5/wastedataflow-local-authority-waste-management\" class=\"govuk-link\">WasteDataFlow - Local Authority waste management - data.gov.uk</a></p>\n\n<h2 id=\"historic-releases\">Historic releases</h2>\n\n<p><a rel=\"external\" href=\"https://webarchive.nationalarchives.gov.uk/ukgwa/20230802024231/https://www.gov.uk/government/statistics/local-authority-collected-waste-management-annual-results-202122\" class=\"govuk-link\">2021- 2022</a></p>\n\n<p><a rel=\"external\" href=\"https://webarchive.nationalarchives.gov.uk/ukgwa/20220503105415/https://www.gov.uk/government/statistics/local-authority-collected-waste-management-annual-results\" class=\"govuk-link\">2020 - 2021</a></p>\n\n<p><a rel=\"external\" href=\"https://webarchive.nationalarchives.gov.uk/ukgwa/20210728220801/https://www.gov.uk/government/statistics/local-authority-collected-waste-management-annual-results\" class=\"govuk-link\">2019-2020</a></p>\n\n<p><a rel=\"external\" href=\"https://webarchive.nationalarchives.gov.uk/ukgwa/20200604042448/https://www.gov.uk/government/statistics/local-authority-collected-waste-management-annual-results\" class=\"govuk-link\">2018 - 2019</a></p>\n\n<p><a rel=\"external\" href=\"https://webarchive.nationalarchives.gov.uk/ukgwa/20190903035029/https://www.gov.uk/government/statistics/local-authority-collected-waste-management-annual-results\" class=\"govuk-link\">2017 - 2018</a></p>\n\n<p><a rel=\"external\" href=\"https://webarchive.nationalarchives.gov.uk/ukgwa/20181207030346/https://www.gov.uk/government/statistics/local-authority-collected-waste-management-annual-results\" class=\"govuk-link\">2016 - 2017</a></p>\n\n<p><a rel=\"external\" href=\"https://webarchive.nationalarchives.gov.uk/ukgwa/20170418015547/https://www.gov.uk/government/statistics/local-authority-collected-waste-management-annual-results\" class=\"govuk-link\">2015 - 2016</a> This includes the ad hoc release entitled “Provisional 2016/17 local authority data on waste collection and treatment for England (April to June and July to September 2016)”.</p>\n\n<p><a rel=\"external\" href=\"https://webarchive.nationalarchives.gov.uk/ukgwa/20160512131028/https://www.gov.uk/government/statistics/local-authority-collected-waste-management-annual-results\" class=\"govuk-link\">2014 - 2015</a></p>\n\n<p><a rel=\"external\" href=\"https://webarchive.nationalarchives.gov.uk/ukgwa/20150401112814/https://www.gov.uk/government/statistics/local-authority-collected-waste-management-annual-results\" class=\"govuk-link\">2013 - 2014</a></p>\n\n<p><a rel=\"external\" href=\"https://webarchive.nationalarchives.gov.uk/ukgwa/20140321171631/https://www.gov.uk/government/publications/local-authority-collected-waste-management-annual-results\" class=\"govuk-link\">2012 - 2013</a></p>\n\n<div class=\"contact contact\" id=\"contact_1889\">\n    <p class=\"govuk-body\">Defra statistics: environment</p>\n\n\n    <div>\n        <p class=\"govuk-body govuk-!-margin-bottom-4\">\n          Email <a class=\"govuk-link\" href=\"mailto:enviro.statistics@defra.gov.uk\">enviro.statistics@defra.gov.uk</a>\n        </p>\n\n\n    </div>\n\n    <p class=\"govuk-body\">Taking a minute to provide an insight into your data requirements would really help us improve the way we produce our data in the future. Please complete a snap survey at: <a href=\"https://defragroup.eu.qualtrics.com/jfe/form/SV_6fLTen4iYwNI4Rv\" class=\"govuk-link\">https://defragroup.eu.qualtrics.com/jfe/form/SV_6fLTen4iYwNI4Rv</a>  <br><br>All responses will be taken into account in developing future products.</p>\n\n</div>\n</div>",
+            "schema:image": [
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-bf9e64d759af6dfd93bede8168f3087a329f405b382aff36747db0db4b7b23e9.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-13093f053c15f613acd827aff27cac83d3fab452947cbcae4c7b706dadf2f7f2.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-4233cd42671827e266e284c4d5ae68fb600bd9f9e35dda663ccabbc2b6ab7ec3.png"
+            ],
+            "schema:name": "Local authority collected waste management - annual results",
+            "@type": "Dataset",
+            "schema:about": [
+                {
+                    "@type": "Thing"
+                }
+            ],
+            "schema:author": {
+                "schema:name": "Department for Environment, Food & Rural Affairs",
+                "schema:url": "https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs",
+                "@type": "Organization"
+            },
+            "schema:publisher": {
+                "schema:name": "GOV.UK",
+                "schema:url": "https://www.gov.uk",
+                "@type": "Organization"
+            },
+            "schema:text": "Final annual results for local authority collected waste generation and management for England.",
+            "schema:distribution": [
+                {
+                    "name": "Local authority collected waste management - annual results 2022/23",
+                    "url": "/government/statistics/local-authority-collected-waste-management-annual-results/local-authority-collected-waste-management-annual-results-202223"
+                },
+                {
+                    "name": "Local authority collected waste from households annual results 2022/23 England data",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/65b8f10f4ec51d0014c9f160/WFH_England_Data_202223.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "Local authority collected waste generation annual results 2022/23 (England and regions) and local authority data annual results 2022/23",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/65b8f13ce9e10a000d03109f/LA_and_Regional_Spreadsheet_2022-23_for_Web.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "Statistics on waste management by local authorities Figures and Tables Dataset",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/65b8f00ee9e10a00130310a0/Statistics_on_Waste_Management_by_Local_Authorities_Statistical_Release_Figures_and_Tables_Datasetv2.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "Methodology Summary 2022/23",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/65b91d904ec51d000dc9f19d/Methodology_summary_202223_rev.pdf",
+                    "encodingFormat": "application/pdf"
+                },
+                {
+                    "name": "Recycling Explainer",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/65b8f1b7e9e10a00130310a6/Recycling_Explainer_2223.pdf",
+                    "encodingFormat": "application/pdf"
                 }
             ]
         }
@@ -450,8 +299,8 @@
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "2000/2022",
-    "schema:version": "2023-03-24",
+    "schema:temporalCoverage": "2000/2023",
+    "schema:version": "2024-01-24",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Household recycling rate (%)",
     "@context": "http://www.w3.org/ns/csvw",

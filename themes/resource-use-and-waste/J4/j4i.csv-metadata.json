@@ -1,0 +1,136 @@
+{
+    "schema:name": "Residual waste (excluding major mineral wastes) per capita in England, 2010 to 2022",
+    "url": "j4i.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:description": "<div class=\"govspeak\"><p>This release presents estimates of residual waste (excluding major mineral wastes) and municipal residual waste generated in England. The measures included in this publication are:</p>\n\n<ul>\n  <li>Residual waste excluding major mineral wastes</li>\n  <li>Municipal residual waste</li>\n  <li>Residual municipal food, plastic, paper and card, metal, and glass waste</li>\n</ul>\n\n<p>These figures are published as official statistics in development (formerly known as experimental statistics).</p>\n\n</div>",
+            "schema:image": [
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-c3d38c0d4fc00005df38a71e1db7097276681d6917bca58f0dc8336a252e1bb3.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-edc38c137a14ecfc3fc83f404090e20dab806dad345c96a1df6a163ee2d1e3aa.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-5dc2d0ea1eb72cd94e66db210ef41b22ce364e7ed09d63a3acc28fda09e27864.png"
+            ],
+            "schema:name": "Estimates of Residual Waste (excluding Major Mineral Wastes) and Municipal Residual Waste in England",
+            "@type": "Dataset",
+            "schema:about": [
+                {
+                    "@type": "Thing"
+                }
+            ],
+            "schema:author": {
+                "schema:name": "Department for Environment, Food & Rural Affairs",
+                "schema:url": "https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs",
+                "@type": "Organization"
+            },
+            "schema:publisher": {
+                "schema:name": "GOV.UK",
+                "schema:url": "https://www.gov.uk",
+                "@type": "Organization"
+            },
+            "schema:text": "Statistics estimating the amount of Residual Waste (excluding major mineral wastes) and Municipal Residual Waste generated in England.",
+            "schema:distribution": [
+                {
+                    "name": "Estimates of Residual Waste (excluding Major Mineral Wastes) and Municipal Residual Waste in England",
+                    "url": "/government/statistics/estimates-of-residual-waste-excluding-major-mineral-wastes-and-municipal-residual-waste-in-england/estimates-of-residual-waste-excluding-major-mineral-wastes-and-municipal-residual-waste-in-england"
+                },
+                {
+                    "name": "Estimates of residual waste in England 2019-2022",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/660e6b9a97e606001a2b2268/EstimatesOResidualWasteEngland_2019-2022.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "Estimates of residual waste in England 2019-2022",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/660e6bb90616d0001a1cb122/EstimatesOfResidualWasteEngland_2019-2022.xlsx",
+                    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                },
+                {
+                    "name": "Estimates of residual waste in England 2019-2022: Figures and tables",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/660d3e130616d000111cb0a7/EstimatesOfResidualWasteEngland_2019-2022_Figures_and_Tables.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "Estimates of residual waste in England: Methodology",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/660c19ebfb0f770011ec66be/EstimatesOfResidualWasteEngland_Methodology.pdf",
+                    "encodingFormat": "application/pdf"
+                }
+            ]
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "2010/2022",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Amount incinerated, landfilled or sent outside of the United Kingdom for energy recovery in kilograms per person",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Prior to 2014, incineration data were generated on a biennial basis, and therefore there are no incineration data available for the years 2011 and 2013. Prior to 2015, data on waste sent outside the UK for energy recovery included both waste originating in England and Wales so they are not included in these figures.",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "2010|2011|2012|2013|2014|2015|2016|2017|2018|2019a|2019b|2020|2021|2022",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "year",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The year range for the data present"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Put through incineration (including Energy from Waste)|Sent to landfill|Sent outside the UK for energy recovery",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "category",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Destination of residual waste"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "value",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Amount landfilled or incinerated, tonnes"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

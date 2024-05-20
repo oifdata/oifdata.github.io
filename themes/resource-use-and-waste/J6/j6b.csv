@@ -1,4 +1,4 @@
-year,category,value
+financial_year,category,value
 2007/2008,Old Methodology,1284.125
 2008/2009,Old Methodology,1165.001
 2009/2010,Old Methodology,946.906
@@ -15,3 +15,4 @@ year,category,value
 2019/2020,New Methodology,979.728
 2020/2021,New Methodology,1138.347
 2021/2022,New Methodology,1091.019
+2022/2023,New Methodology,1082.673

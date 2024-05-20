@@ -1,4 +1,4 @@
 Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
-A4,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),Short term,2015 to 2020,4.468007490374015,Loess,Deterioration
-A4,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),Medium term,2010 to 2020,5.309161496374086,Loess,Deterioration
-A4,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),Long term,1987 to 2020,14.976380307029613,Loess,Deterioration
+A4,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),Short term,2016 to 2021,5.33647922926748,Loess,Deterioration
+A4,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),Medium term,2011 to 2021,7.048613377934726,Loess,Deterioration
+A4,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),Long term,1987 to 2021,16.613827324294476,Loess,Deterioration

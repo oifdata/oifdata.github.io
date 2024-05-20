@@ -1,7 +1,4 @@
 Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
-C1a,Celtic Seas,Short term,2009 to 2014,-9.611945042761267,Loess,Improvement
-C1a,Celtic Seas,Medium term,N/A,N/A,N/A,Not assessed
-C1a,Celtic Seas,Long term,N/A,N/A,N/A,Not assessed
-C1a,Greater North Sea,Short term,2009 to 2014,73.74412965595673,Loess,Deterioration
-C1a,Greater North Sea,Medium term,N/A,N/A,N/A,Not assessed
-C1a,Greater North Sea,Long term,N/A,N/A,N/A,Not assessed
+C1a,Observed values,Short term,2017 to 2022,N/A,Theil-Sen slope estimation,Improvement
+C1a,Observed values,Medium term,N/A,N/A,N/A,Not assessed
+C1a,Observed values,Long term,N/A,N/A,N/A,Not assessed

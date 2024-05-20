@@ -12,12 +12,44 @@
         {
             "schema:name": "Potential physical loss of seagrass beds and horse mussel reefs to 2016",
             "@type": "Dataset",
-            "schema:author": {
-                "schema:alternateName": "Defra",
-                "schema:name": "Department for Environment, Food & Rural Affairs",
-                "schema:sameAs": "https://ror.org/00tnppw48",
-                "@type": "schema:GovernmentOrganization"
-            }
+            "schema:author": [
+                {
+                    "schema:alternateName": "DAERA",
+                    "schema:name": "Department of Agriculture, Environment and Rural Affairs of Northern Ireland",
+                    "schema:sameAs": "https://ror.org/01jksdf22",
+                    "@type": "schema:GovernmentOrganization"
+                },
+                {
+                    "schema:alternateName": "JNCC",
+                    "schema:name": "Joint Nature Conservation Committee",
+                    "schema:sameAs": "https://ror.org/05tzsrw37",
+                    "@type": "schema:GovernmentOrganization"
+                },
+                {
+                    "schema:alternateName": "Marine Scotland",
+                    "schema:name": "Marine Scotland",
+                    "schema:sameAs": "https://ror.org/02kh2f959",
+                    "@type": "schema:GovernmentOrganization"
+                },
+                {
+                    "schema:alternateName": "NE",
+                    "schema:name": "Natural England",
+                    "schema:sameAs": "https://ror.org/00r66pz14",
+                    "@type": "schema:GovernmentOrganization"
+                },
+                {
+                    "schema:alternateName": "Cyfoeth Naturiol Cymru",
+                    "schema:name": "Natural Resources Wales",
+                    "schema:sameAs": "https://ror.org/04r7rxc53",
+                    "@type": "schema:GovernmentOrganization"
+                },
+                {
+                    "schema:alternateName": "University of Hull",
+                    "schema:name": "University of Hull",
+                    "schema:sameAs": "https://ror.org/04nkhwh30",
+                    "@type": "schema:Organization"
+                }
+            ]
         }
     ],
     "schema:keywords": [

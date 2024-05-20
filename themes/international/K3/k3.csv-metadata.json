@@ -17,7 +17,9 @@
                 "schema:name": "Joint Nature Conservation Committee",
                 "schema:sameAs": "https://ror.org/05tzsrw37",
                 "@type": "schema:GovernmentOrganization"
-            }
+            },
+            "schema:dateModified": "2023-05-01",
+            "schema:datePublished": "2023-05-01"
         }
     ],
     "schema:keywords": [
@@ -25,6 +27,7 @@
     ],
     "schema:spatialCoverage": "UK Overseas Territories",
     "schema:temporalCoverage": "1970-01-01T00:33:42+00:00",
+    "schema:version": "2024-01-29",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "percentage of endemic species in each red list categor",
     "@context": "http://www.w3.org/ns/csvw",

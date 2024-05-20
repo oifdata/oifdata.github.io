@@ -1,0 +1,98 @@
+{
+    "schema:name": "Number of properties in areas at risk of flooding by source each year in England, 2018/2019 to 2022/2023",
+    "url": "f1b.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "Flood and coastal erosion risk management report: 1 April 2022 to 31 March 2023",
+            "schema:url": "https://www.gov.uk/government/publications/flood-and-coastal-risk-management-national-report/flood-and-coastal-erosion-risk-management-report-1-april-2022-to-31-march-2023",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "ea",
+                "schema:name": "Environment Agency",
+                "schema:sameAs": "https://ror.org/01zewfb16",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:dateModified": "2023-09-26",
+            "schema:datePublished": "2023-09-26"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "2018/2023",
+    "schema:version": "2023-09-26",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Number of properties at risk of flooding",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Data is reported on each financial year from April to March of the following year. Some properties are at risk from more than one source of flooding. Due to the complexity and nature of groundwater flooding, we are not able to assign a likelihood to it.",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "2018/2019|2019/2020|2020/2021|2021/2022|2022/2023",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "year",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The year range for the data present"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Rivers and the sea at high or medium risk|Rivers and the sea at low or very low risk|Surface water",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "source_of_flooding_and_risk",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The different sources of flooding and their associated level of risk"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "number_of_properties",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The number of properties at risk of flooding each year"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

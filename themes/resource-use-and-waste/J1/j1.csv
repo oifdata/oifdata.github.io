@@ -1,58 +1,61 @@
-year,variable,value
-2001,GHG from England produced goods and services consumed by England's residents,349
-2002,GHG from England produced goods and services consumed by England's residents,336
-2003,GHG from England produced goods and services consumed by England's residents,349
-2004,GHG from England produced goods and services consumed by England's residents,348
-2005,GHG from England produced goods and services consumed by England's residents,349
-2006,GHG from England produced goods and services consumed by England's residents,339
-2007,GHG from England produced goods and services consumed by England's residents,333
-2008,GHG from England produced goods and services consumed by England's residents,318
-2009,GHG from England produced goods and services consumed by England's residents,290
-2010,GHG from England produced goods and services consumed by England's residents,297
-2011,GHG from England produced goods and services consumed by England's residents,280
-2012,GHG from England produced goods and services consumed by England's residents,289
-2013,GHG from England produced goods and services consumed by England's residents,277
-2014,GHG from England produced goods and services consumed by England's residents,267
-2015,GHG from England produced goods and services consumed by England's residents,259
-2016,GHG from England produced goods and services consumed by England's residents,245
-2017,GHG from England produced goods and services consumed by England's residents,226
-2018,GHG from England produced goods and services consumed by England's residents,224
-2019,GHG from England produced goods and services consumed by England's residents,218
-2001,GHG embedded in imported goods and services to England,412
-2002,GHG embedded in imported goods and services to England,427
-2003,GHG embedded in imported goods and services to England,414
-2004,GHG embedded in imported goods and services to England,456
-2005,GHG embedded in imported goods and services to England,451
-2006,GHG embedded in imported goods and services to England,458
-2007,GHG embedded in imported goods and services to England,461
-2008,GHG embedded in imported goods and services to England,399
-2009,GHG embedded in imported goods and services to England,345
-2010,GHG embedded in imported goods and services to England,343
-2011,GHG embedded in imported goods and services to England,352
-2012,GHG embedded in imported goods and services to England,358
-2013,GHG embedded in imported goods and services to England,361
-2014,GHG embedded in imported goods and services to England,373
-2015,GHG embedded in imported goods and services to England,368
-2016,GHG embedded in imported goods and services to England,313
-2017,GHG embedded in imported goods and services to England,304
-2018,GHG embedded in imported goods and services to England,315
-2019,GHG embedded in imported goods and services to England,312
-2001,Direct household emissions of GHGs,138
-2002,Direct household emissions of GHGs,137
-2003,Direct household emissions of GHGs,137
-2004,Direct household emissions of GHGs,139
-2005,Direct household emissions of GHGs,136
-2006,Direct household emissions of GHGs,133
-2007,Direct household emissions of GHGs,130
-2008,Direct household emissions of GHGs,130
-2009,Direct household emissions of GHGs,128
-2010,Direct household emissions of GHGs,136
-2011,Direct household emissions of GHGs,119
-2012,Direct household emissions of GHGs,126
-2013,Direct household emissions of GHGs,128
-2014,Direct household emissions of GHGs,117
-2015,Direct household emissions of GHGs,121
-2016,Direct household emissions of GHGs,123
-2017,Direct household emissions of GHGs,122
-2018,Direct household emissions of GHGs,125
-2019,Direct household emissions of GHGs,124
+year,category,value
+2001,GHGs embedded in imported goods and services to England,274.45892148257326
+2002,GHGs embedded in imported goods and services to England,316.97519029517804
+2003,GHGs embedded in imported goods and services to England,313.4277652418994
+2004,GHGs embedded in imported goods and services to England,363.4789372483155
+2005,GHGs embedded in imported goods and services to England,356.1019556423904
+2006,GHGs embedded in imported goods and services to England,363.4007518032928
+2007,GHGs embedded in imported goods and services to England,377.9415522107371
+2008,GHGs embedded in imported goods and services to England,334.0067915052533
+2009,GHGs embedded in imported goods and services to England,286.9581681887772
+2010,GHGs embedded in imported goods and services to England,285.0426195455042
+2011,GHGs embedded in imported goods and services to England,292.11572772591086
+2012,GHGs embedded in imported goods and services to England,304.0104066134392
+2013,GHGs embedded in imported goods and services to England,301.3250902014382
+2014,GHGs embedded in imported goods and services to England,309.1933407339223
+2015,GHGs embedded in imported goods and services to England,305.1722314222589
+2016,GHGs embedded in imported goods and services to England,250.33267613086616
+2017,GHGs embedded in imported goods and services to England,249.14710281502173
+2018,GHGs embedded in imported goods and services to England,260.8608112996929
+2019,GHGs embedded in imported goods and services to England,255.5731194079897
+2020,GHGs embedded in imported goods and services to England,229.8301252463476
+2001,Direct household emissions of GHGs,132.7876388413737
+2002,Direct household emissions of GHGs,132.0817466014715
+2003,Direct household emissions of GHGs,131.67482255695734
+2004,Direct household emissions of GHGs,134.5115531208824
+2005,Direct household emissions of GHGs,130.50511398831358
+2006,Direct household emissions of GHGs,127.8481063752968
+2007,Direct household emissions of GHGs,125.45746058650428
+2008,Direct household emissions of GHGs,123.3336004845314
+2009,Direct household emissions of GHGs,122.23285288715182
+2010,Direct household emissions of GHGs,129.44057705814248
+2011,Direct household emissions of GHGs,113.83176175414026
+2012,Direct household emissions of GHGs,119.01256515566102
+2013,Direct household emissions of GHGs,121.61100578001452
+2014,Direct household emissions of GHGs,110.5362140639023
+2015,Direct household emissions of GHGs,113.63800269950764
+2016,Direct household emissions of GHGs,116.7611023916306
+2017,Direct household emissions of GHGs,116.30048162136576
+2018,Direct household emissions of GHGs,118.25028238078582
+2019,Direct household emissions of GHGs,115.02881111279876
+2020,Direct household emissions of GHGs,102.9915156778536
+2001,GHGs from England produced goods and services consumed by England's residents,307.2807816613716
+2002,GHGs from England produced goods and services consumed by England's residents,300.1844205790388
+2003,GHGs from England produced goods and services consumed by England's residents,305.41851159242776
+2004,GHGs from England produced goods and services consumed by England's residents,305.28242232208527
+2005,GHGs from England produced goods and services consumed by England's residents,303.78325780666046
+2006,GHGs from England produced goods and services consumed by England's residents,299.80280059877225
+2007,GHGs from England produced goods and services consumed by England's residents,298.61383047498146
+2008,GHGs from England produced goods and services consumed by England's residents,283.04865307389804
+2009,GHGs from England produced goods and services consumed by England's residents,258.3783348429076
+2010,GHGs from England produced goods and services consumed by England's residents,260.6339870337328
+2011,GHGs from England produced goods and services consumed by England's residents,244.8516654200156
+2012,GHGs from England produced goods and services consumed by England's residents,257.2161545156606
+2013,GHGs from England produced goods and services consumed by England's residents,249.1647618134595
+2014,GHGs from England produced goods and services consumed by England's residents,240.74222184900717
+2015,GHGs from England produced goods and services consumed by England's residents,232.7398211513197
+2016,GHGs from England produced goods and services consumed by England's residents,215.81425392641657
+2017,GHGs from England produced goods and services consumed by England's residents,200.2388500147088
+2018,GHGs from England produced goods and services consumed by England's residents,199.20659466846627
+2019,GHGs from England produced goods and services consumed by England's residents,193.31510546374875
+2020,GHGs from England produced goods and services consumed by England's residents,157.2433769093829

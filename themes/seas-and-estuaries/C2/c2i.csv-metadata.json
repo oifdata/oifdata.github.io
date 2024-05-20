@@ -1,6 +1,6 @@
 {
-    "schema:name": "Predicted area of seabed in the UK Continental Shelf exposed to disturbance from bottom contact fishing vessels over 12m long, 2010 to 2015",
-    "url": "c2i.svg",
+    "schema:name": "Predicted area of seabed in the UK Continental Shelf exposed to disturbance from bottom contact fishing by vessels over 12m long and regional progress towards Good Environmental Status (GES) 2010 to 2015",
+    "url": "c2i.csv",
     "@type": "TableGroup",
     "schema:creator": {
         "schema:alternateName": "Defra",
@@ -28,9 +28,71 @@
     ],
     "schema:spatialCoverage": "UK Continental Shelf",
     "schema:temporalCoverage": "2010/2015",
+    "schema:version": "2018-01-01",
     "schema:measurementTechnique": "?",
-    "schema:variableMeasured": "Predicted area (% of total) exposed to disturbance",
+    "schema:variableMeasured": "Percentage area of OSPAR sub-regions in disturbance categories 0 to 4 (no or low disturbance) and 5 to 9 (high disturbance) across the reporting cycle (2010 to 2015)",
     "@context": "http://www.w3.org/ns/csvw",
     "notes": "The chart shows the percentage area of OSPAR sub-regions in disturbance categories 0 to 4 (no or low disturbance) and 5 to 9 (high disturbance) across the reporting cycle (2010 to 2015). Incomplete data made it difficult to assess disturbance in the Bay of Biscay and Iberian Coast (OSPAR Region IV) and in Arctic Waters (OSPAR Region I).",
-    "tableDirection": "auto"
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Southern Celtic Seas|Northern Celtic Seas|Southern North Sea|Northern North Sea|English Channel|OSPAR Region I|OSPAR Region IV|OSPAR Region V",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "area",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Sub-division area of the UK marine strategy framework directive sub-region"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "High disturbance (categories 5 to 9)|Low disturbance (categories 0 to 4)",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "disturbance",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Disturbance category from bottom contact fishing by vessels over 12m long"
+            },
+            {
+                "datatype": "integer",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "percentage",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Percentage area of OSPAR sub-regions in disturbance categories 0 to 4 (no or low disturbance) and 5 to 9 (high disturbance) across the reporting cycle (2010 to 2015)"
+            }
+        ],
+        "@type": "Schema"
+    }
 }

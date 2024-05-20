@@ -1,5 +1,5 @@
 {
-    "schema:name": "Regional species loss associated with UK consumption (the number of species predicted to be committed to extinction if current conditions continue, per ecoregion), 2005 to 2018",
+    "schema:name": "Regional species loss associated with UK consumption (the number of species predicted to be committed to extinction if current conditions continue, per ecoregion), 2005 to 2021",
     "url": "k1c.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -18,8 +18,8 @@
                 "schema:sameAs": "https://ror.org/05tzsrw37",
                 "@type": "schema:GovernmentOrganization"
             },
-            "schema:dateModified": "2022-10-27",
-            "schema:datePublished": "2022-10-27",
+            "schema:dateModified": "2023-11-14",
+            "schema:datePublished": "2023-11-14",
             "schema:headline": "Indicator A4: Global biodiversity impacts of UK economic activity / sustainable consumption"
         }
     ],
@@ -27,8 +27,8 @@
         "tbc"
     ],
     "schema:spatialCoverage": "International",
-    "schema:temporalCoverage": "2005/2018",
-    "schema:version": "2022-10-27",
+    "schema:temporalCoverage": "2005/2021",
+    "schema:version": "2023-12-19",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "number of species predicted to be committed to extinction if current conditions continue, per ecoregion",
     "@context": "http://www.w3.org/ns/csvw",
@@ -46,7 +46,7 @@
                 "datatype": {
                     "base": "integer",
                     "minimum": "2005",
-                    "maximum": "2018",
+                    "maximum": "2021",
                     "@type": "Datatype"
                 },
                 "default": "",
