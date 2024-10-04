@@ -1,19 +1,19 @@
 year,pollutant,value
 1995,BOD,36.74
 1995,Ammonia,16.15
-1995,Phosphorus,21.41
+1995,Phosphorus (as ortho-phosphate),21.41
 2000,BOD,27.11
 2000,Ammonia,8.17
-2000,Phosphorus,16.68
+2000,Phosphorus (as ortho-phosphate),16.68
 2005,BOD,25.21
 2005,Ammonia,7.66
-2005,Phosphorus,12.84
+2005,Phosphorus (as ortho-phosphate),12.84
 2010,BOD,22.4
 2010,Ammonia,5.42
-2010,Phosphorus,10.61
+2010,Phosphorus (as ortho-phosphate),10.61
 2015,BOD,19.2
 2015,Ammonia,3.6
-2015,Phosphorus,8.6
+2015,Phosphorus (as ortho-phosphate),8.6
 2020,BOD,16.6
 2020,Ammonia,3.25
-2020,Phosphorus,6.75
+2020,Phosphorus (as ortho-phosphate),6.75

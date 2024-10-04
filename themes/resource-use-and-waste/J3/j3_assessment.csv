@@ -1,4 +1,4 @@
 Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
-J3,Waste from households recycling rate,Short term,2016/2017 to 2021/2022,-1.8047063993174874,Loess,Little or no change
-J3,Waste from households recycling rate,Medium term,2011/2012 to 2021/2022,2.0538729175052177,Loess,Little or no change
-J3,Waste from households recycling rate,Long term,2010/2011 to 2021/2022,4.603661689850272,Loess,Improvement
+J3,Waste from households recycling rate,Short term,2016/2017 to 2021/2022,-1.8047063993174555,Loess,Little or no change
+J3,Waste from households recycling rate,Medium term,2011/2012 to 2021/2022,2.05387291750525,Loess,Little or no change
+J3,Waste from households recycling rate,Long term,2010/2011 to 2021/2022,4.603661689850305,Loess,Improvement

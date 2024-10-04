@@ -111,7 +111,7 @@
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Greenhouse gas emissions associated with England’s consumption, in million tonnes CO2 equivalent",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "The data used in the model to produce these statistics is updated with every annual update, which may result in changes to the time series.</br>The 2020 datapoint covers the first year of the COVID-19 pandemic and the associated national lockdowns and travel restrictions. This probably had an impact on emissions, especially on emissions from transport generated directly from households and the emissions associated with household spend on air travel, hotels and restaurants.",
+    "notes": "The data used in the model to produce these statistics is updated with every annual update, which may result in changes to the time series.\n    \n</br>The 2020 datapoint covers the first year of the COVID-19 pandemic and the associated national lockdowns and travel restrictions. This probably had an impact on emissions, especially on emissions from transport generated directly from households and the emissions associated with household spend on air travel, hotels and restaurants.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",

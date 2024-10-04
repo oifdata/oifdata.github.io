@@ -5,8 +5,8 @@ A1,NOx,Clean air,A1 Emissions of nitrogen oxides (NOx) in England
 A1,PM2.5,Clean air,A1 Emissions of fine particulate matter (PM2.5) in England
 A1,SO2,Clean air,A1 Emissions of sulphur dioxide (SO2) in England
 A3,,Clean air,A3 Concentrations of fine particulate matter (PM2.5) in the air in England
-A4,Annual average maximum daily 8-hour mean O3 concentration (µg/m3),Clean air,A4 Rural background concentrations of ozone (O3) in England
-A5,Annual mean NO2 concentration (µg/m3),Clean air,A5 Roadside nitrogen dioxide (NO2) concentrations in England
+A4,Annual average maximum daily 8-hour mean O3 concentration,Clean air,A4 Rural background concentrations of ozone (O3) in England
+A5,Annual mean NO2 concentration,Clean air,A5 Roadside nitrogen dioxide (NO2) concentrations in England
 A6,,Clean air,A6 Exceedances of damaging levels of nutrient nitrogen deposition on ecosystems in England
 A7,,Clean air,A7 Area of land in England exposed to damaging levels of ammonia (NH3) in the atmosphere
 B1a,Cadmium,Clean and plentiful water,B1a Riverine inputs of selected metals into English tidal waters (cadmium)
@@ -18,7 +18,7 @@ B1b,Ortho-Phosphate,Clean and plentiful water,B1b Riverine inputs of selected nu
 B1b,Total Nitrogen,Clean and plentiful water,B1b Riverine inputs of selected nutrients into English tidal waters (nitrogen)
 B1c,Ammonia,Clean and plentiful water,B1c Loads discharged to rivers from water company sewage treatment works in England (ammonia)
 B1c,BOD,Clean and plentiful water,B1c Loads discharged to rivers from water company sewage treatment works in England (BOD)
-B1c,Phosphorus,Clean and plentiful water,B1c Loads discharged to rivers from water company sewage treatment works in England (phosphorus)
+B1c,Phosphorus (as ortho-phosphate),Clean and plentiful water,B1c Loads discharged to rivers from water company sewage treatment works in England (phosphorus)
 B2,Serious pollution incidents,Clean and plentiful water,B2 Serious pollution incidents to water (category 1 and 2)
 B3a,"Biology of coastal waters, saltmarsh (at least Good)",Clean and plentiful water,"B3a Biology of coastal waters, saltmarsh (at least good)"
 B3a,"Biology of esturaries, saltmarsh (at least Good)",Clean and plentiful water,"B3a Biology of esturaries, saltmarsh (at least good)"

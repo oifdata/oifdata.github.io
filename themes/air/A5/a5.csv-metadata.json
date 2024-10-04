@@ -204,7 +204,7 @@
             {
                 "datatype": {
                     "base": "string",
-                    "format": "Annual mean NO2 concentration (µg/m3)|95% confidence interval lower bound|95% confidence interval upper bound",
+                    "format": "Annual mean NO2 concentration|95% confidence interval lower bound|95% confidence interval upper bound",
                     "@type": "Datatype"
                 },
                 "default": "",
@@ -231,7 +231,7 @@
                 "suppressOutput": false,
                 "virtual": false,
                 "@type": "Column",
-                "schema:description": "The Annual mean NO2 concentration (µg/m3) in England at roadside monitoring sites and relevant confidence intervals"
+                "schema:description": "The Annual mean NO2 concentration in England at roadside monitoring sites and relevant confidence intervals"
             }
         ],
         "@type": "Schema"

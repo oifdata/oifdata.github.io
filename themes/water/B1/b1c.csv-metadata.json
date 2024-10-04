@@ -60,7 +60,7 @@
             {
                 "datatype": {
                     "base": "string",
-                    "format": "BOD|Ammonia|Phosphorus",
+                    "format": "BOD|Ammonia|Phosphorus (as ortho-phosphate)",
                     "@type": "Datatype"
                 },
                 "default": "",

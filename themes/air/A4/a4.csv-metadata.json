@@ -204,7 +204,7 @@
             {
                 "datatype": {
                     "base": "string",
-                    "format": "Annual average maximum daily 8-hour mean O3 concentration (µg/m3)|95% confidence interval upper bound|95% confidence interval lower bound",
+                    "format": "Annual average maximum daily 8-hour mean O3 concentration|95% confidence interval upper bound|95% confidence interval lower bound",
                     "@type": "Datatype"
                 },
                 "default": "",
@@ -231,7 +231,7 @@
                 "suppressOutput": false,
                 "virtual": false,
                 "@type": "Column",
-                "schema:description": "Annual average maximum daily 8-hour mean O3 concentration (µg/m3) and 95% confidence intervals"
+                "schema:description": "Annual average maximum daily 8-hour mean O3 concentration and 95% confidence intervals"
             }
         ],
         "@type": "Schema"

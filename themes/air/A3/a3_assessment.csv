@@ -1,4 +1,4 @@
-Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
-A3,,Short term,2016 to 2021,-18.67410410019722,Loess,Improvement
-A3,,Medium term,2011 to 2021,-34.682272061157434,Loess,Improvement
-A3,,Long term,N/A,N/A,N/A,Not assessed
+Component,Period,Date range,Percentage change,Smoothing function,Assessment of change
+A3,Short term,2016 to 2021,-18.67410410019722,Loess,Improvement
+A3,Medium term,2011 to 2021,-34.682272061157434,Loess,Improvement
+A3,Long term,N/A,N/A,N/A,Not assessed

@@ -134,7 +134,7 @@
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "percentage of bathing waters categorised by each condition by the Bathing Water Directive",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "Any classifications pre-2015 are projected classifications and were not formally reported. They have been back calculated using historic methods and data collected for the 1976 Bathing Water Directive (76/160/EEC) which was repealed in 2014. <br> Bathing waters in England were not classified in 2020 due to the constraints posed by COVID-19 lockdowns. Classifications between 2021 and 2023 will therefore use the most recent 4 years with samples drawn from the previous 5 years. This will revert back to normal practice in 2024 with the most recent 4 years data used for classification.",
+    "notes": "Any classifications pre-2015 are projected classifications and were not formally reported. They have been back calculated using historic methods and data collected for the 1976 Bathing Water Directive (76/160/EEC) which was repealed in 2014. <br><br> Bathing waters in England were not classified in 2020 due to the constraints posed by COVID-19 lockdowns. Classifications between 2021 and 2023 will therefore use the most recent 4 years with samples drawn from the previous 5 years. This will revert back to normal practice in 2024 with the most recent 4 years data used for classification.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",

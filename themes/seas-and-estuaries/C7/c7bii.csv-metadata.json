@@ -41,6 +41,6 @@
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Assessment/classification results",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "The assessment period differs depending on the survey, starting at the earliest in 1983 in one Greater North Sea subdivision and ending in either 2015 or 2016.\n\n1. Long-term increase: the fish are shifting back towards larger species\n2. No long-term change: no change in the composition of fish communities\n3. Long-term decrease: more smaller species than in an earlier period but less than in a more recent one\n4. Decrease to minimum observed state: the community has the highest proportion of small species recorded",
+    "notes": "The assessment period differs depending on the survey, starting at the earliest in 1983 in one Greater North Sea subdivision and ending in either 2015 or 2016.\n\n</br> The legend entries are defined as follows:\n\n1. Long-term increase: the fish are shifting back towards larger species\n2. No long-term change: no change in the composition of fish communities\n3. Long-term decrease: more smaller species than in an earlier period but less than in a more recent one\n4. Decrease to minimum observed state: the community has the highest proportion of small species recorded",
     "tableDirection": "auto"
 }

@@ -1,4 +1,4 @@
-Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
-K1a,,Short term,2015 to 2020,-14.765781450939858,Loess,Improvement
-K1a,,Medium term,2010 to 2020,-29.984755723669792,Loess,Improvement
-K1a,,Long term,2005 to 2020,-53.53081478519148,Loess,Improvement
+Component,Period,Date range,Percentage change,Smoothing function,Assessment of change
+K1a,Short term,2015 to 2020,-14.765781450939858,Loess,Improvement
+K1a,Medium term,2010 to 2020,-29.984755723669792,Loess,Improvement
+K1a,Long term,2005 to 2020,-53.53081478519148,Loess,Improvement

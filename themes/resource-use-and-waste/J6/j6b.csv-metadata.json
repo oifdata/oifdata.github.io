@@ -72,7 +72,7 @@
     "schema:measurementTechnique": "Number of incidents (000's)",
     "schema:variableMeasured": "Fly-tipping incidents in England, 2007/2008 to 2022/2023",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "Data are for April to March (financial years). The methodology used to calculate the total number of fly-tipping incidents in England was changed in 2019/2020 and results derived by using the new methodology are not comparable to those derived from the old methodology. These methodological changes have also been applied to the 2018/2019 results in order to show the effects of adopting the new methodology. Detailed information on these changes can be found in the reporting basis section of the source Fly-tipping statistics publication. There is some level of estimation in the fly-tipping data, where returns for certain local authorities were missing or incomplete.",
+    "notes": "Data are for April to March (financial years).\n    \n</br>The methodology used to calculate the total number of fly-tipping incidents in England was changed in 2019/2020 and results derived by using the new methodology are not comparable to those derived from the old methodology. These methodological changes have also been applied to the 2018/2019 results in order to show the effects of adopting the new methodology. Detailed information on these changes can be found in the reporting basis section of the source Fly-tipping statistics publication.\n    \n</br>There is some level of estimation in the fly-tipping data, where returns for certain local authorities were missing or incomplete.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",

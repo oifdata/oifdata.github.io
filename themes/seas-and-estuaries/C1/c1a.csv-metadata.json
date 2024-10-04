@@ -32,7 +32,7 @@
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Items of litter per 100m of beach",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "Full scale locally estimated scatterplot smoothing (LOESS) curve (dark blue line) of total litter count over time on OSPAR monitored beaches in England between 2017 to 2022. Each individual data point represents the total litter count for an individual survey. The 95% confidence interval is represented by the light blue area in each plot.</br>Some datapoints from the 2016 calendar year are included in the plot, as the winter survey season for a given year includes surveys conducted in the December of the previous year.",
+    "notes": "Full scale locally estimated scatterplot smoothing (LOESS) curve (dark blue line) of total litter count over time on OSPAR monitored beaches in England between 2017 to 2022. Each individual data point represents the total litter count for an individual survey. The light blue area on the graph represents the 95% confidence interval (a measure of uncertainty).\n    \n</br>Some datapoints from the 2016 calendar year are included in the plot, as the winter survey season for a given year includes surveys conducted in the December of the previous year.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",

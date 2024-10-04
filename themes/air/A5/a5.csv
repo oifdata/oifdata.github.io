@@ -1,30 +1,30 @@
 year,measure,value
-1997,Annual mean NO2 concentration (µg/m3),59.71508818953606
-1998,Annual mean NO2 concentration (µg/m3),58.24218474017447
-1999,Annual mean NO2 concentration (µg/m3),61.34869729551863
-2000,Annual mean NO2 concentration (µg/m3),56.41653237498982
-2001,Annual mean NO2 concentration (µg/m3),54.28516793822958
-2002,Annual mean NO2 concentration (µg/m3),51.74602645796124
-2003,Annual mean NO2 concentration (µg/m3),58.45353105301443
-2004,Annual mean NO2 concentration (µg/m3),55.5277125350862
-2005,Annual mean NO2 concentration (µg/m3),57.85714048809209
-2006,Annual mean NO2 concentration (µg/m3),58.24953745732605
-2007,Annual mean NO2 concentration (µg/m3),59.05936236025577
-2008,Annual mean NO2 concentration (µg/m3),53.48157907155617
-2009,Annual mean NO2 concentration (µg/m3),48.07217958306571
-2010,Annual mean NO2 concentration (µg/m3),47.95924034695978
-2011,Annual mean NO2 concentration (µg/m3),43.8786467751698
-2012,Annual mean NO2 concentration (µg/m3),42.55317367396095
-2013,Annual mean NO2 concentration (µg/m3),41.0290040437522
-2014,Annual mean NO2 concentration (µg/m3),40.01999092678908
-2015,Annual mean NO2 concentration (µg/m3),35.90405745288483
-2016,Annual mean NO2 concentration (µg/m3),37.83145010261574
-2017,Annual mean NO2 concentration (µg/m3),33.26290848818281
-2018,Annual mean NO2 concentration (µg/m3),32.29167448826626
-2019,Annual mean NO2 concentration (µg/m3),30.39986435295472
-2020,Annual mean NO2 concentration (µg/m3),23.00214297433739
-2021,Annual mean NO2 concentration (µg/m3),24.64969471460023
-2022,Annual mean NO2 concentration (µg/m3),23.79118046232939
+1997,Annual mean NO2 concentration,59.71508818953606
+1998,Annual mean NO2 concentration,58.24218474017447
+1999,Annual mean NO2 concentration,61.34869729551863
+2000,Annual mean NO2 concentration,56.41653237498982
+2001,Annual mean NO2 concentration,54.28516793822958
+2002,Annual mean NO2 concentration,51.74602645796124
+2003,Annual mean NO2 concentration,58.45353105301443
+2004,Annual mean NO2 concentration,55.5277125350862
+2005,Annual mean NO2 concentration,57.85714048809209
+2006,Annual mean NO2 concentration,58.24953745732605
+2007,Annual mean NO2 concentration,59.05936236025577
+2008,Annual mean NO2 concentration,53.48157907155617
+2009,Annual mean NO2 concentration,48.07217958306571
+2010,Annual mean NO2 concentration,47.95924034695978
+2011,Annual mean NO2 concentration,43.8786467751698
+2012,Annual mean NO2 concentration,42.55317367396095
+2013,Annual mean NO2 concentration,41.0290040437522
+2014,Annual mean NO2 concentration,40.01999092678908
+2015,Annual mean NO2 concentration,35.90405745288483
+2016,Annual mean NO2 concentration,37.83145010261574
+2017,Annual mean NO2 concentration,33.26290848818281
+2018,Annual mean NO2 concentration,32.29167448826626
+2019,Annual mean NO2 concentration,30.39986435295472
+2020,Annual mean NO2 concentration,23.00214297433739
+2021,Annual mean NO2 concentration,24.64969471460023
+2022,Annual mean NO2 concentration,23.79118046232939
 1997,95% confidence interval upper bound,68.8328729631908
 1998,95% confidence interval upper bound,68.01916883678722
 1999,95% confidence interval upper bound,70.00708570314495
