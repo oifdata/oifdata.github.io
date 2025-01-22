@@ -1,12 +1,12 @@
 year,sector,value
 1990,Agriculture,34.16526735786427
-1991,Agriculture,33.90638090592659
-1992,Agriculture,33.647494453988905
-1993,Agriculture,33.38860800205122
-1994,Agriculture,33.12972155011354
+1991,Agriculture,
+1992,Agriculture,
+1993,Agriculture,
+1994,Agriculture,
 1995,Agriculture,32.87083509817585
-1996,Agriculture,32.91024165999128
-1997,Agriculture,32.94964822180671
+1996,Agriculture,
+1997,Agriculture,
 1998,Agriculture,32.98905478362214
 1999,Agriculture,33.106199796404844
 2000,Agriculture,31.78483310287149
@@ -32,13 +32,13 @@ year,sector,value
 2020,Agriculture,27.488496805298645
 2021,Agriculture,28.14542454242161
 1990,Fluorinated gases,14.392651817062765
-1991,Fluorinated gases,14.917862941325613
-1992,Fluorinated gases,15.443074065588462
-1993,Fluorinated gases,15.96828518985131
-1994,Fluorinated gases,16.493496314114157
+1991,Fluorinated gases,
+1992,Fluorinated gases,
+1993,Fluorinated gases,
+1994,Fluorinated gases,
 1995,Fluorinated gases,17.018707438377007
-1996,Fluorinated gases,16.870058173709854
-1997,Fluorinated gases,16.7214089090427
+1996,Fluorinated gases,
+1997,Fluorinated gases,
 1998,Fluorinated gases,16.572759644375548
 1999,Fluorinated gases,9.793010738573036
 2000,Fluorinated gases,8.47913888850828
@@ -64,13 +64,13 @@ year,sector,value
 2020,Fluorinated gases,9.849668453933315
 2021,Fluorinated gases,9.26935336549773
 1990,Net emissions from land use & land use change,10.010254927605496
-1991,Net emissions from land use & land use change,10.019124863804995
-1992,Net emissions from land use & land use change,10.027994800004496
-1993,Net emissions from land use & land use change,10.036864736203997
-1994,Net emissions from land use & land use change,10.045734672403496
+1991,Net emissions from land use & land use change,
+1992,Net emissions from land use & land use change,
+1993,Net emissions from land use & land use change,
+1994,Net emissions from land use & land use change,
 1995,Net emissions from land use & land use change,10.054604608602997
-1996,Net emissions from land use & land use change,9.884794400701107
-1997,Net emissions from land use & land use change,9.71498419279922
+1996,Net emissions from land use & land use change,
+1997,Net emissions from land use & land use change,
 1998,Net emissions from land use & land use change,9.54517398489733
 1999,Net emissions from land use & land use change,10.09326800697666
 2000,Net emissions from land use & land use change,10.14401602289134
@@ -96,13 +96,13 @@ year,sector,value
 2020,Net emissions from land use & land use change,7.735242448494663
 2021,Net emissions from land use & land use change,7.672191249460996
 1990,Net removals by forestry sink,-7.451326407869667
-1991,Net removals by forestry sink,-7.471041215042799
-1992,Net removals by forestry sink,-7.4907560222159315
-1993,Net removals by forestry sink,-7.510470829389063
-1994,Net removals by forestry sink,-7.530185636562195
+1991,Net removals by forestry sink,
+1992,Net removals by forestry sink,
+1993,Net removals by forestry sink,
+1994,Net removals by forestry sink,
 1995,Net removals by forestry sink,-7.549900443735328
-1996,Net removals by forestry sink,-7.651138960193443
-1997,Net removals by forestry sink,-7.752377476651558
+1996,Net removals by forestry sink,
+1997,Net removals by forestry sink,
 1998,Net removals by forestry sink,-7.853615993109674
 1999,Net removals by forestry sink,-7.954313284494664
 2000,Net removals by forestry sink,-8.043753264687993
@@ -128,13 +128,13 @@ year,sector,value
 2020,Net removals by forestry sink,-8.551282823395999
 2021,Net removals by forestry sink,-8.521101554998333
 1990,Net total including forestry sink,111.09664712145258
-1991,Net total including forestry sink,111.8440033259528
-1992,Net total including forestry sink,112.59135953045303
-1993,Net total including forestry sink,113.33871573495328
-1994,Net total including forestry sink,114.08607193945348
+1991,Net total including forestry sink,
+1992,Net total including forestry sink,
+1993,Net total including forestry sink,
+1994,Net total including forestry sink,
 1995,Net total including forestry sink,114.83342814395372
-1996,Net total including forestry sink,114.03764112143236
-1997,Net total including forestry sink,113.241854098911
+1996,Net total including forestry sink,
+1997,Net total including forestry sink,
 1998,Net total including forestry sink,112.44606707638962
 1999,Net total including forestry sink,103.42548213694872
 2000,Net total including forestry sink,98.17335194086954
@@ -160,13 +160,13 @@ year,sector,value
 2020,Net total including forestry sink,52.17700238608653
 2021,Net total including forestry sink,51.78671765763545
 1990,Waste,59.97979942678971
-1991,Waste,60.471675829938405
-1992,Waste,60.9635522330871
-1993,Waste,61.45542863623579
-1994,Waste,61.94730503938448
+1991,Waste,
+1992,Waste,
+1993,Waste,
+1994,Waste,
 1995,Waste,62.439181442533176
-1996,Waste,62.02368584722355
-1997,Waste,61.60819025191392
+1996,Waste,
+1997,Waste,
 1998,Waste,61.19269465660429
 1999,Waste,58.38731687948884
 2000,Waste,55.809117191286425
