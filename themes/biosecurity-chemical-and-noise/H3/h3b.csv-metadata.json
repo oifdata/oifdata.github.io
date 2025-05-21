@@ -1,5 +1,5 @@
 {
-    "schema:name": "Emissions of persistent organic pollutants to air, land and water, England, 2000 to 2021",
+    "schema:name": "Emissions of persistent organic pollutants to air, land and water, England, 2000 to 2022",
     "url": "h3b.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -18,19 +18,19 @@
                 "schema:sameAs": "https://ror.org/01zewfb16",
                 "@type": "schema:GovernmentOrganization"
             },
-            "schema:dateModified": "2023-11-23",
-            "schema:datePublished": "2023-11-23"
+            "schema:dateModified": "2024-11-21",
+            "schema:datePublished": "2024-11-21"
         }
     ],
     "schema:keywords": [
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "2000/2021",
+    "schema:temporalCoverage": "2000/2022",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Emissions of persistent organic pollutants to air, land and water in England, indexed to 2000",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "Emissions of POPs are to air, land and water. POPs are also present in landfill and other waste streams, which are not currently included in these data. Historical data are available which show significantly reduced emissions prior to 2000; data are presented here from 2000 onwards to focus upon recent trends. The England-level POPs emissions presented in Figure H3b have been calculated from UK data by attributing emissions on a population basis. This approach is considered to give the best available figures for England within the UK context.",
+    "notes": "Emissions of POPs are to air, land and water. POPs are also present in landfill and other waste streams, which are not currently included in these data. Historical data are available which show significantly reduced emissions prior to 2000; data are presented here from 2000 onwards to focus upon recent trends. The England-level POPs emissions presented in Figure H3b have been calculated from UK data by attributing emissions on a population basis. This approach is considered to give the best available figures for England within the UK context.</br>Due to a recalculation of modelled figures following an update to the EA inventory of PCB equipment, the time series has been revised for some POPs in the 2025 update of this indicator. This means that some figures reported in previous updates to this indicator may have changed.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -44,7 +44,7 @@
                 "datatype": {
                     "base": "integer",
                     "minimum": "2000",
-                    "maximum": "2021",
+                    "maximum": "2022",
                     "@type": "Datatype"
                 },
                 "default": "",

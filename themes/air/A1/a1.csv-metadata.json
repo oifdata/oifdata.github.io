@@ -1,5 +1,5 @@
 {
-    "schema:name": "Emissions for five key air pollutants in England, 2005 to 2021",
+    "schema:name": "Emissions for five key air pollutants in England, 2005 to 2022",
     "url": "a1.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -10,7 +10,7 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:sameAs": "https://naei.beis.gov.uk/reports/reports?report_id=1131",
+            "schema:sameAs": "https://naei.energysecurity.gov.uk/reports/air-pollutant-inventories-england-scotland-wales-and-northern-ireland-2005-2022",
             "@type": "Dataset",
             "schema:author": {
                 "schema:alternateName": "Ricardo AEA",
@@ -18,17 +18,17 @@
                 "schema:sameAs": "https://ror.org/03nbbc502",
                 "@type": "schema:Organization"
             },
-            "schema:dateModified": "2023-10-26",
-            "schema:datePublished": "2023-10-26",
-            "schema:headline": "Devolved Administration Air Pollutants Inventory (2005-2021)"
+            "schema:dateModified": "2024-10-24",
+            "schema:datePublished": "2024-10-24",
+            "schema:headline": "Devolved Administration Air Pollutants Inventory (2005-2022)"
         }
     ],
     "schema:keywords": [
         "Air Quality"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "2005/2021",
-    "schema:version": "2023-10-26",
+    "schema:temporalCoverage": "2005/2022",
+    "schema:version": "2024-12-10",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Emissions for five key air pollutants",
     "@context": "http://www.w3.org/ns/csvw",
@@ -46,7 +46,7 @@
                 "datatype": {
                     "base": "integer",
                     "minimum": "2005",
-                    "maximum": "2021",
+                    "maximum": "2022",
                     "@type": "Datatype"
                 },
                 "default": "",

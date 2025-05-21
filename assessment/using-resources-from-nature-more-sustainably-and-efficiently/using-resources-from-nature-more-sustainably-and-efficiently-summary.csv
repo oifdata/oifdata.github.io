@@ -1,19 +1,15 @@
 Indicator component assessed,Long term,Medium term,Short term
-C10a Marine fish (quota) stocks of UK interest harvested sustainably (below FMSY or in FMSY range),Improvement,Improvement,Improvement
+C10a Marine fish (quota) stocks of UK interest harvested sustainably,Improvement,Improvement,Improvement
 C10b Marine fish (quota) stocks of UK interest with biomass at levels capable of maintaining full reproductive capacity (above MSY Btrigger),Improvement,Improvement,Improvement
 "C11 Long-term and short-term changes in the occurrence of sensitive fish species, Greater North Sea and Celtic Seas",Not assessed,Not assessed,Not assessed
 E1 Area of productive agricultural land in England,Change (decreasing),Little or no change,Little or no change
-E2 Volume of agricultural production in England,Change (increasing),Change (increasing),Change (increasing)
-E3 Volume of inputs used in agricultural production in England,Change (decreasing),Little or no change,Change (decreasing)
+E2 Volume of agricultural production in England,Change (increasing),Change (increasing),Little or no change
+E3 Volume of inputs used in agricultural production in England,Change (decreasing),Change (decreasing),Change (decreasing)
 E4 Efficiency of agricultural production measured by Total Factor Productivity in England,Change (increasing),Change (increasing),Change (increasing)
 E5 Percentage of the annual growth of trees in English woodlands that is harvested,Little or no change,Deterioration,Deterioration
-E6 Volume of timber brought to market from English sources,Improvement,Improvement,Deterioration
+E6 Volume of timber brought to market from English sources,Improvement,Little or no change,Deterioration
 E7 Healthy soils,Not assessed,Not assessed,Not assessed
-E8a Water leakage in England,Improvement,Improvement,Improvement
-E8b Per capita water consumption in England,Improvement,Little or no change,Deterioration
-E9a Landings of quota fish and shellfish into English ports by sustainability status (percentage sustainable),Not assessed,Improvement,Improvement
-E9b Matrix of environmental management metrics for English aquaculture,Not assessed,Not assessed,Not assessed
 J2a  Raw material consumption per capita in England (metal ores),Improvement,Improvement,Improvement
-J2a  Raw material consumption per capita in England (non-metalic mineral ores),Improvement,Little or no change,Deterioration
+J2a  Raw material consumption per capita in England (non-metalic mineral ores),Improvement,Deterioration,Deterioration
 J2a Raw material consumption per capita in England (biomass),Change (decreasing),Change (decreasing),Change (decreasing)
-J2b Gross value added per kg of raw material consumption (excluding fossil fuels) in England,Improvement,Improvement,Improvement
+J2b Gross value added per kg of raw material consumption (excluding fossil fuels) in England,Improvement,Little or no change,Deterioration

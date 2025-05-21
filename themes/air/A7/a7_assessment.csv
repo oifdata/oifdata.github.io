@@ -1,4 +1,4 @@
 Component,Period,Date range,Percentage change,Smoothing function,Assessment of change
-A7,Short term,2014-2016 to 2019-2021,3.3105022831050297,Moving average data,Deterioration
-A7,Medium term,2009-2011 to 2019-2021,2.0293122886133,Moving average data,Little or no change
-A7,Long term,2002-2004 to 2019-2021,8.253588516746419,Moving average data,Deterioration
+A7,Short term,2015-2017 to 2020-2022,-10.244988864142544,Moving average data,Improvement
+A7,Medium term,2010-2012 to 2020-2022,-7.780320366132735,Moving average data,Improvement
+A7,Long term,2002-2004 to 2020-2022,-3.81861575178998,Moving average data,Improvement

@@ -1,5 +1,5 @@
 {
-    "schema:name": "Salmon stock status – principal salmon rivers in England within each risk category, 2006 to 2022",
+    "schema:name": "Salmon stock status – principal salmon rivers in England within each risk category, 2006 to 2023",
     "url": "b7a.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -10,8 +10,8 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:name": "Salmonid and freshwater fisheries statistics: 2022",
-            "schema:url": "https://www.gov.uk/government/publications/salmonid-and-freshwater-fisheries-statistics-2022#full-history",
+            "schema:name": "Salmonid and freshwater fisheries statistics",
+            "schema:url": "https://www.gov.uk/government/collections/salmonid-and-freshwater-fisheries-statistics-reports-and-supplementary-data-tables#full-publication-update-history",
             "@type": "Dataset",
             "schema:author": {
                 "schema:alternateName": "EA",
@@ -19,16 +19,16 @@
                 "schema:sameAs": "https://ror.org/01zewfb16",
                 "@type": "schema:GovernmentOrganization"
             },
-            "schema:dateModified": "2023-12-05",
-            "schema:datePublished": "2023-12-14"
+            "schema:dateModified": "2024-12-19",
+            "schema:datePublished": "2024-10-07"
         }
     ],
     "schema:keywords": [
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "2006/2022",
-    "schema:version": "2023-12-15",
+    "schema:temporalCoverage": "2006/2023",
+    "schema:version": "2024-12-19",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Percentage of rivers assessed with salmon stock in corresponding status",
     "@context": "http://www.w3.org/ns/csvw",
@@ -46,7 +46,7 @@
                 "datatype": {
                     "base": "integer",
                     "minimum": "2006",
-                    "maximum": "2022",
+                    "maximum": "2023",
                     "@type": "Datatype"
                 },
                 "default": "",

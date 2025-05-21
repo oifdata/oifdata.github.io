@@ -1,5 +1,5 @@
 {
-    "schema:name": "Gross value added per kg of raw material consumption (excluding fossil fuels) in England, 2001 to 2020",
+    "schema:name": "Gross value added per kg of raw material consumption (excluding fossil fuels) in England, 2001 to 2021",
     "url": "j2b.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -51,31 +51,21 @@
                 "schema:url": "https://www.gov.uk",
                 "@type": "Organization"
             },
-            "schema:text": "Statistics on the material footprint, or raw material consumption, associated with final demand in England.",
+            "schema:text": "Statistics on the material footprint, or raw material consumption, associated with final demand in England.\r\n",
             "schema:distribution": [
                 {
                     "name": "England's Material Footprint",
                     "url": "/government/statistics/englands-material-footprint/englands-material-footprint"
                 },
                 {
-                    "name": "England Material Footprint Results 2001 to 2020",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/64cca575ef14e6001417895c/2020_Defra_results_England.ods",
+                    "name": "England Material Footprint Results 2001 to 2021",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/66c31b6bd10184fe9b13e363/England_material_footprint_2001_to_2021_REV3.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
-                    "name": "Figure 1 Datatable",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/64cca80d995827000dc1e8dc/fig1_2020.csv",
-                    "encodingFormat": "text/csv"
-                },
-                {
-                    "name": "Figure 2 Datatable",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/64cca8243c4564000d9429f4/fig2_2020.csv",
-                    "encodingFormat": "text/csv"
-                },
-                {
-                    "name": "Figure 3 Datatable",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/64cca83b995827000dc1e8dd/fig3_2020.csv",
-                    "encodingFormat": "text/csv"
+                    "name": "Figures and Tables Dataset",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/66b38831ab418ab055593449/Material_Footprint_statistical_release_figures_and_tables_dataset_REV2.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 }
             ]
         }
@@ -84,12 +74,12 @@
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "2001/2020",
-    "schema:version": "2023-08-09",
+    "schema:temporalCoverage": "2001/2021",
+    "schema:version": "2024-10-31",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Gross value added (£) per kg of raw material consumption (excluding fossil fuels) in England",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "The data used in the model to produce these statistics is updated with every annual update which may result in changes to the time series.",
+    "notes": "The data used in the model to produce these statistics is updated with every annual update which may result in changes to the time series. The money value year used for GVA values in this metric is 2019.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -103,7 +93,7 @@
                 "datatype": {
                     "base": "integer",
                     "minimum": "2001",
-                    "maximum": "2020",
+                    "maximum": "2021",
                     "@type": "Datatype"
                 },
                 "default": "",

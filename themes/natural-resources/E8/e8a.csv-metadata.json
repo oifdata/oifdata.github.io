@@ -1,5 +1,5 @@
 {
-    "schema:name": "Water leakage in England, 2002/2003 to 2022/2023",
+    "schema:name": "Water leakage in England, 2005/2006 to 2023/2024",
     "url": "e8a.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -10,29 +10,28 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:sameAs": "https://www.discoverwater.co.uk/",
             "@type": "Dataset",
             "schema:author": {
-                "schema:alternateName": "Ofwat",
-                "schema:name": "The Water Services Regulation Authority",
-                "schema:sameAs": "https://ror.org/02gfbpn70",
+                "schema:alternateName": "EA",
+                "schema:name": "Environment Agency",
+                "schema:sameAs": "https://ror.org/01zewfb16",
                 "@type": "schema:GovernmentOrganization"
             },
             "schema:dateModified": "1970-01-01",
             "schema:datePublished": "1970-01-01",
-            "schema:headline": "Total_Leakage_and_Per_Capita_Consumption_EA_Annual_Review_data_V2"
+            "schema:headline": "Water Resource Management Plan Annual Review Data"
         }
     ],
     "schema:keywords": [
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "2000/2023",
-    "schema:version": "2023-11-24",
+    "schema:temporalCoverage": "2005/2024",
+    "schema:version": "2024-10-03",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Water leakage, Megalitres/day",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "Data represent figures for April to March (financial years) and are presented as 3-year moving averages. This aligns with Ofwat targets/reporting and helps to reduce sensitivity to anomalous events such as weather conditions; dates given in the charts indicate the final year of each time period.",
+    "notes": "Data is reported on each financial year from April to March of the following year.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -45,7 +44,7 @@
             {
                 "datatype": {
                     "base": "string",
-                    "format": "2002/2003|2003/2004|2004/2005|2005/2006|2006/2007|2007/2008|2008/2009|2009/2010|2010/2011|2011/2012|2012/2013|2013/2014|2014/2015|2015/2016|2016/2017|2017/2018|2018/2019|2019/2020|2020/2021|2021/2022|2022/2023",
+                    "format": "2005/2006|2006/2007|2007/2008|2008/2009|2009/2010|2010/2011|2011/2012|2012/2013|2013/2014|2014/2015|2015/2016|2016/2017|2017/2018|2018/2019|2019/2020|2020/2021|2021/2022|2022/2023|2023/2024",
                     "@type": "Datatype"
                 },
                 "default": "",
@@ -72,7 +71,7 @@
                 "suppressOutput": false,
                 "virtual": false,
                 "@type": "Column",
-                "schema:description": "Total water leakage in England in Megalitres/day, 2003-2004 to 2022-2023"
+                "schema:description": "Total water leakage in England in Megalitres/day, 2005/2006 to 2023/2024"
             }
         ],
         "@type": "Schema"

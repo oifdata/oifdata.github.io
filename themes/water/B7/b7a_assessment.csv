@@ -1,4 +1,4 @@
 Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
-B7a,Not at risk or probably not at risk,Short term,2016 to 2021,6.6306617858454455,Loess,Improvement
-B7a,Not at risk or probably not at risk,Medium term,2011 to 2021,-73.08352656628634,Loess,Deterioration
-B7a,Not at risk or probably not at risk,Long term,2006 to 2021,-70.14727722564163,Loess,Deterioration
+B7a,Not at risk or probably not at risk,Short term,2018 to 2023,30.647914611528783,Loess,Improvement
+B7a,Not at risk or probably not at risk,Medium term,2013 to 2023,-57.94388884577645,Loess,Deterioration
+B7a,Not at risk or probably not at risk,Long term,2006 to 2023,-69.35365906176041,Loess,Deterioration

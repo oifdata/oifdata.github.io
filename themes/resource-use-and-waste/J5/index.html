@@ -282,21 +282,19 @@
     </div>
     <section class="l-column l-column--small-space">
         <h2>Short Description</h2>
-        <p>This indicator will track the amount of banned, restricted or soon to be restricted chemicals in waste which are being destroyed. The removal and proper destruction of such chemicals is necessary to prevent them contaminating recycled products or being released into the environment.</p>
-<p>Initially the indicator will use data on the amount of persistent organic pollutants (POPs) remaining in circulation. This is in line with the goal to substantially increase the amount of POPs material being destroyed or irreversibly transformed by 2030. Data on elimination of the use of polychlorinated biphenyls (PCBs) has been included and data on other POPs will be included when data become available.</p>
-<p>Where possible, these chemicals should be removed prior to disposal, minimising the amount of waste being sent for destruction. Data may soon become available for some of these waste types, enabling assessment of improvements in the quantity and quality of waste material available for recycling. </p>
+        <p>This indicator will track the amount of selected banned, restricted or soon to be restricted chemicals in waste which are being destroyed. The removal and proper destruction of such chemicals is necessary to prevent them contaminating recycled products or being released into the environment.</p>
+<p>The indicator will use data on the amount of persistent organic pollutants (POPs) remaining in circulation and sent for destruction. This is in line with the commitment to substantially increase the amount of POPs material being destroyed or irreversibly transformed by 2030. Data on elimination of the use of polychlorinated biphenyls (PCBs), decabromodiphenyl ether (DecaBDE) and hexabromocyclododecane (HBCDD) have been included and data on other POPs will be included when they become available.</p>
     </section>
     <section class="l-column l-column--small-space">
         <h2>Readiness and links to data</h2>
-        <p>This indicator is not available for reporting in 2024 in a finalised form. Further work is planned to expand the indicator to include more POPs, and to improve the existing data following further industry assurance. An interim indicator is presented here which shows the tonnage of polychlorinated biphenyls (PCBs) remaining in the UK. Waste tool models have also been developed for brominated chemicals decabromodiphenyl ether (DecaBDE) and hexabromocyclododecane (HBCDD), these are intended to be incorporated into J5 in a future publication.  </p>
-<p>Data are available via the <a href="https://sciencesearch.defra.gov.uk/ProjectDetails?ProjectId=21619">persistent organic pollutants multimedia emissions inventory (MMEI) waste tool report</a> (Defra project code CX0109), including data on the amount of POPs that have been incinerated. Additional data are also published via the <a href="https://www.data.gov.uk/dataset/3196d7dd-ed5e-4ac0-8d10-19be79815058/2021-hazardous-waste-interrogator">hazardous waste interrogator</a>. Relevant data from the interrogator are incorporated into the model presented here.</p>
+        <p>An interim indicator is presented here which shows how the stockpile of PCBs, DecaBDE and HBCDD in the UK has changed over time. Additional data are provided for DecaBDE and HBCDD, which provides further clarity on how much of these chemicals are destroyed. Unlike PCBs which have very few applications and are relatively easy to track, DecaBDE and HBCDD are brominated flame retardants which have broad applications across a large number of products. Tracking incineration rates of these chemicals is valuable, as it allows policymakers to understand whether they are being destroyed at suitable rates.</p>
+<p>A waste tool model has also been developed for medium chain chlorinated paraffins (MCCPs), which may be listed as a POP in the near future. Data from this model is intended to be incorporated into J5 in future. Additional work is planned to expand the waste tool to include more POPs as they become restricted and banned, and to improve the existing models as more data become available. </p>
+<p>Data are available via the <a href="https://sciencesearch.defra.gov.uk/ProjectDetails?ProjectId=21803">persistent organic pollutants multimedia emissions inventory (MMEI) waste tool report</a> (Defra project code CX0114), including data on the amount of POPs that have been incinerated. Additional data are also published via the <a href="https://www.data.gov.uk/dataset/3196d7dd-ed5e-4ac0-8d10-19be79815058/2021-hazardous-waste-interrogator">hazardous waste interrogator</a>. Relevant data from the interrogator are incorporated into the model presented here.</p>
     </section>
     
         <section class="l-column l-column--small-space">
             <h2>Notes on indicator</h2>
-            <p>This indicator exhibits a slightly different trend to the emissions shown in indicator ‘H3: Emissions of mercury and persistent organic pollutants to the environment’. Whilst both this indicator and H3 incorporate a natural emissions factor from a total bank of PCBs, H3 also includes additional sources of PCB emissions, such as industry, combustion, uncontrolled burning and landfill.  </p>
-<p>J5 is based on data modelled via the PCBs waste tool, derived from a number of data sources, including: the generation rate and life of PCBs containing equipment; the hazardous waste interrogator; literature values on the bank of PCBs; the natural emissions factor for PCBs generated for the National Atmospheric Emissions Inventory (NAEI); and more recently efforts by the Environment Agency to register and monitor PCBs containing equipment. A full account of the data sources, plus future projections can be found in the persistent organic pollutant MMEI waste tool report. </p>
-<p>Currently, the overall uncertainty is derived from the best available estimates in uncertainty from the various data sources, however, many of these uncertainty estimates are based upon expert judgement. As such, there is considerable uncertainty in the model and this is currently reported as 20% of the values presented in figure J5. Future development work will include additional rounds of validation and continued development of the methodology used to derive uncertainty. </p>
+            <p>Currently, the overall uncertainty is derived from the best available estimates in uncertainty from the various data sources, however, many of these uncertainty estimates are based upon expert judgement. As such, there is considerable uncertainty in the model and this is currently reported as up to 30% of the values presented here, depending on the chemical. Future development work will include additional rounds of validation and continued development of the methodology used to derive uncertainty. </p>
         </section>
     
     
@@ -309,15 +307,45 @@
             
                 
     
-    <button id="j5-component-tab" type="button" role="tab" aria-selected="true" aria-controls="j5-component-tabpanel" class="c-indicator-component-tab" onclick="window.dispatchEvent(new Event('resize'));">
-        <h3 id="j5-component-title" class="l-row l-row--xx-small-space l-row--vertically-centred | c-indicator-component-tab__text">
+    <button id="j5a-component-tab" type="button" role="tab" aria-selected="true" aria-controls="j5a-component-tabpanel" class="c-indicator-component-tab" onclick="window.dispatchEvent(new Event('resize'));">
+        <h3 id="j5a-component-title" class="l-row l-row--xx-small-space l-row--vertically-centred | c-indicator-component-tab__text">
             <span class="c-indicator-component-tab__radio-button">
                 <svg class="c-radio-button" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                     <circle class="c-radio-button__outer-circle" cx="50" cy="50" r="30"/>
                     <circle class="c-radio-button__inner-circle" cx="50" cy="50" r="20"/>
                 </svg>
             </span>
-            J5: Total bank of in-use polychlorinated biphenyls (PCBs) remaining in the UK, 1990 to 2022 
+            J5a: Stockpile of 3 persistent organic pollutants remaining in the UK, 2000 to 2023
+        </h3>
+    </button>
+
+            
+                
+    
+    <button id="j5bi-component-tab" type="button" role="tab" aria-selected="true" aria-controls="j5bi-component-tabpanel" class="c-indicator-component-tab" onclick="window.dispatchEvent(new Event('resize'));">
+        <h3 id="j5bi-component-title" class="l-row l-row--xx-small-space l-row--vertically-centred | c-indicator-component-tab__text">
+            <span class="c-indicator-component-tab__radio-button">
+                <svg class="c-radio-button" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="c-radio-button__outer-circle" cx="50" cy="50" r="30"/>
+                    <circle class="c-radio-button__inner-circle" cx="50" cy="50" r="20"/>
+                </svg>
+            </span>
+            J5bi: The proportion of persistent organic pollutant hexabromocyclododecane (HBCDD) sent for destruction (incinerated) versus other waste treatment and disposal options, UK, 2000 to 2023
+        </h3>
+    </button>
+
+            
+                
+    
+    <button id="j5bii-component-tab" type="button" role="tab" aria-selected="true" aria-controls="j5bii-component-tabpanel" class="c-indicator-component-tab" onclick="window.dispatchEvent(new Event('resize'));">
+        <h3 id="j5bii-component-title" class="l-row l-row--xx-small-space l-row--vertically-centred | c-indicator-component-tab__text">
+            <span class="c-indicator-component-tab__radio-button">
+                <svg class="c-radio-button" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="c-radio-button__outer-circle" cx="50" cy="50" r="30"/>
+                    <circle class="c-radio-button__inner-circle" cx="50" cy="50" r="20"/>
+                </svg>
+            </span>
+            J5bii: The proportion of persistent organic pollutant decabromodiphenyl ether (DecaBDE) sent for destruction (incinerated) versus other waste treatment and disposal options, UK, 2000 to 2023
         </h3>
     </button>
 
@@ -326,7 +354,7 @@
             
                 
     
-    <div id="j5-component-tabpanel" role="tabpanel" tabindex="0" aria-labelledby="j5-component-tab" class="l-column l-column--small-space | c-indicator-component-tabpanel">
+    <div id="j5a-component-tabpanel" role="tabpanel" tabindex="0" aria-labelledby="j5a-component-tab" class="l-column l-column--small-space | c-indicator-component-tabpanel">
         
         
     <section class="l-column l-column--no-space">
@@ -336,13 +364,13 @@
             class="l-equal-width-columns l-equal-width-columns--no-space">
             
             
-    <button id="j5-figure-tab" type="button" role="tab" aria-selected="true" data-tabgroup="j5" aria-controls="j5-figure-tabpanel" class="c-indicator-component-visualisation-tab">
+    <button id="j5a-figure-tab" type="button" role="tab" aria-selected="true" data-tabgroup="j5a" aria-controls="j5a-figure-tabpanel" class="c-indicator-component-visualisation-tab">
         <span class="c-indicator-component-visualisation-tab__text">Figure</span>
     </button>
 
             
             
-    <button id="j5-table-tab" type="button" role="tab" aria-selected="true" data-tabgroup="j5" aria-controls="j5-table-tabpanel" class="c-indicator-component-visualisation-tab">
+    <button id="j5a-table-tab" type="button" role="tab" aria-selected="true" data-tabgroup="j5a" aria-controls="j5a-table-tabpanel" class="c-indicator-component-visualisation-tab">
         <span class="c-indicator-component-visualisation-tab__text">Table</span>
     </button>
 
@@ -351,13 +379,13 @@
         <div class="l-column | c-indicator-component-visualisation-tabpanels">
             
             
-    <div id="j5-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="j5" aria-labelledby="j5-figure-tab" class="c-indicator-component-visualisation-tabpanel">
+    <div id="j5a-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="j5a" aria-labelledby="j5a-figure-tab" class="c-indicator-component-visualisation-tabpanel">
         <section class="l-column l-column--small-space">
             <h4>Figure
-                J5: Total bank of in-use polychlorinated biphenyls (PCBs) remaining in the UK, 1990 to 2022 </h4>
-            <div id="j5-figure-container" class="c-visualisation-container">
+                J5a: Stockpile of 3 persistent organic pollutants remaining in the UK, 2000 to 2023</h4>
+            <div id="j5a-figure-container" class="c-visualisation-container">
                 
-                    <img src='j5.svg' />
+                    <img src='j5a.svg' />
                 
             </div>
             
@@ -373,24 +401,21 @@
                     Department for Environment, Food &amp; Rural Affairs,WSP UK Limited,
                 
                 
-                    <a href="https://sciencesearch.defra.gov.uk/ProjectDetails?ProjectId=21619">Further update of the UK’s Persistent Organic Pollutants Multi-Media Emissions Inventory ECM_C5063 - CX0109</a>
+                    <a href="https://sciencesearch.defra.gov.uk/ProjectDetails?ProjectId=21619">UK&#39;s Persistent Organic Pollutants Multimedia Emissions Inventory</a>
                 
                 </dd>
             
         
-        
-            <dt class="c-indicator-component-metadata__key">Unit of Measurement</dt>
-            <dd>Thousand tonnes</dd>
         
         
     </dl>
 
             <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
                 
-                    <a class="c-button" href="j5.csv">Download  CSV</a>
+                    <a class="c-button" href="j5a.csv">Download  CSV</a>
                 
                 
-                    <a class="c-button" href="j5.svg" download=".svg">Download Figure Image</a>
+                    <a class="c-button" href="j5a.svg" download=".svg">Download Figure Image</a>
                 
             </div>
         </section>
@@ -398,151 +423,165 @@
 
             
             
-    <div id="j5-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="j5" aria-labelledby="j5-table-tab" class="c-indicator-component-visualisation-tabpanel">
+    <div id="j5a-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="j5a" aria-labelledby="j5a-table-tab" class="c-indicator-component-visualisation-tabpanel">
         <section class="l-column l-column--small-space">
             <h4>Table
-                J5: Total bank of in-use polychlorinated biphenyls (PCBs) remaining in the UK, 1990 to 2022 </h4>
-            <div id="j5-table-container" class="c-visualisation-container">
+                J5a: Stockpile of 3 persistent organic pollutants remaining in the UK, 2000 to 2023</h4>
+            <div id="j5a-table-container" class="c-visualisation-container">
                 
-                    <table class="dataframe" id="j5-table">
+                    <table class="dataframe" id="j5a-table">
   <thead>
     <tr style="text-align: right;">
       <th>Year</th>
-      <th>Tonnes of PCBs (thousands)</th>
+      <th>Decabromodiphenyl Ether</th>
+      <th>Hexabromocyclododecane</th>
+      <th>Polychlorinated Biphenyls</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>1990</td>
-      <td>12.00</td>
-    </tr>
-    <tr>
-      <td>1991</td>
-      <td>11.20</td>
-    </tr>
-    <tr>
-      <td>1992</td>
-      <td>10.40</td>
-    </tr>
-    <tr>
-      <td>1993</td>
-      <td>9.60</td>
-    </tr>
-    <tr>
-      <td>1994</td>
-      <td>8.80</td>
-    </tr>
-    <tr>
-      <td>1995</td>
-      <td>8.00</td>
-    </tr>
-    <tr>
-      <td>1996</td>
-      <td>6.91</td>
-    </tr>
-    <tr>
-      <td>1997</td>
-      <td>5.97</td>
-    </tr>
-    <tr>
-      <td>1998</td>
-      <td>5.16</td>
-    </tr>
-    <tr>
-      <td>1999</td>
-      <td>4.46</td>
-    </tr>
-    <tr>
       <td>2000</td>
-      <td>3.86</td>
+      <td>100.00</td>
+      <td>100.00</td>
+      <td>100.00</td>
     </tr>
     <tr>
       <td>2001</td>
-      <td>3.33</td>
+      <td>102.60</td>
+      <td>106.58</td>
+      <td>86.42</td>
     </tr>
     <tr>
       <td>2002</td>
-      <td>2.88</td>
+      <td>104.63</td>
+      <td>113.27</td>
+      <td>74.68</td>
     </tr>
     <tr>
       <td>2003</td>
-      <td>2.49</td>
+      <td>106.10</td>
+      <td>120.06</td>
+      <td>64.54</td>
     </tr>
     <tr>
       <td>2004</td>
-      <td>2.15</td>
+      <td>106.73</td>
+      <td>126.92</td>
+      <td>55.77</td>
     </tr>
     <tr>
       <td>2005</td>
-      <td>1.86</td>
+      <td>106.54</td>
+      <td>133.84</td>
+      <td>48.20</td>
     </tr>
     <tr>
       <td>2006</td>
-      <td>1.61</td>
+      <td>105.73</td>
+      <td>140.80</td>
+      <td>41.65</td>
     </tr>
     <tr>
       <td>2007</td>
-      <td>1.39</td>
+      <td>104.63</td>
+      <td>147.77</td>
+      <td>36.00</td>
     </tr>
     <tr>
       <td>2008</td>
-      <td>1.20</td>
+      <td>103.24</td>
+      <td>155.03</td>
+      <td>31.11</td>
     </tr>
     <tr>
       <td>2009</td>
-      <td>1.04</td>
+      <td>101.28</td>
+      <td>162.09</td>
+      <td>26.88</td>
     </tr>
     <tr>
       <td>2010</td>
-      <td>0.90</td>
+      <td>99.26</td>
+      <td>168.94</td>
+      <td>23.23</td>
     </tr>
     <tr>
       <td>2011</td>
-      <td>0.77</td>
+      <td>97.17</td>
+      <td>175.57</td>
+      <td>20.08</td>
     </tr>
     <tr>
       <td>2012</td>
-      <td>0.67</td>
+      <td>95.00</td>
+      <td>181.95</td>
+      <td>17.35</td>
     </tr>
     <tr>
       <td>2013</td>
-      <td>0.58</td>
+      <td>92.14</td>
+      <td>184.75</td>
+      <td>14.99</td>
     </tr>
     <tr>
       <td>2014</td>
-      <td>0.50</td>
+      <td>88.68</td>
+      <td>186.39</td>
+      <td>12.96</td>
     </tr>
     <tr>
       <td>2015</td>
-      <td>0.43</td>
+      <td>84.59</td>
+      <td>187.05</td>
+      <td>11.20</td>
     </tr>
     <tr>
       <td>2016</td>
-      <td>0.37</td>
+      <td>79.79</td>
+      <td>186.74</td>
+      <td>9.68</td>
     </tr>
     <tr>
       <td>2017</td>
-      <td>0.32</td>
+      <td>74.53</td>
+      <td>185.43</td>
+      <td>8.36</td>
     </tr>
     <tr>
       <td>2018</td>
-      <td>0.28</td>
+      <td>69.04</td>
+      <td>183.14</td>
+      <td>7.23</td>
     </tr>
     <tr>
       <td>2019</td>
-      <td>0.24</td>
+      <td>63.52</td>
+      <td>180.67</td>
+      <td>6.25</td>
     </tr>
     <tr>
       <td>2020</td>
-      <td>0.21</td>
+      <td>57.76</td>
+      <td>178.04</td>
+      <td>5.40</td>
     </tr>
     <tr>
       <td>2021</td>
-      <td>0.20</td>
+      <td>52.36</td>
+      <td>175.25</td>
+      <td>5.24</td>
     </tr>
     <tr>
       <td>2022</td>
-      <td>0.18</td>
+      <td>47.35</td>
+      <td>172.35</td>
+      <td>4.57</td>
+    </tr>
+    <tr>
+      <td>2023</td>
+      <td>42.70</td>
+      <td>169.45</td>
+      <td>3.61</td>
     </tr>
   </tbody>
 </table>
@@ -561,21 +600,18 @@
                     Department for Environment, Food &amp; Rural Affairs,WSP UK Limited,
                 
                 
-                    <a href="https://sciencesearch.defra.gov.uk/ProjectDetails?ProjectId=21619">Further update of the UK’s Persistent Organic Pollutants Multi-Media Emissions Inventory ECM_C5063 - CX0109</a>
+                    <a href="https://sciencesearch.defra.gov.uk/ProjectDetails?ProjectId=21619">UK&#39;s Persistent Organic Pollutants Multimedia Emissions Inventory</a>
                 
                 </dd>
             
         
-        
-            <dt class="c-indicator-component-metadata__key">Unit of Measurement</dt>
-            <dd>Thousand tonnes</dd>
         
         
     </dl>
 
             <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
                 
-                    <a class="c-button" href="j5.csv">Download  CSV</a>
+                    <a class="c-button" href="j5a.csv">Download  CSV</a>
                 
                 
             </div>
@@ -588,21 +624,23 @@
 
         
         <section class="l-column l-column--small-space">
-            <h4>Trend description for J5</h4>
-            <p>The amount of PCBs in use in equipment in the UK has declined by 98.5% since the start of the series (1990), with most of the reduction occurring between 1990 and the mid-2000s. However, decreases have continued throughout the 2010s and the first years of the 2020s, reducing from 890 to 180 tonnes between 2010 and 2022. </p>
-<p>In addition to modelling the size of the remaining PCB stockpile, the waste tool for PCBs also models the destruction of PCBs. The full dataset can be viewed in the MMEI report, but to summarise, destruction rates were between 700 and 1,100 tonnes per annum during the 1990s, falling to below 500 tonnes per annum from 2000 onwards as the scale of the stockpile decreases. </p>
+            <h4>Trend description for J5a</h4>
+            <p>The amount of PCBs in use in equipment in the UK has decreased by 96.4% since the start of the series (2000 to 2023), with most of the reduction occurring between the early and the mid-2000s. In addition to modelling the size of the remaining PCB stockpile, the waste tool for PCBs also models the destruction of PCBs. The full dataset can be viewed in the MMEI report, but to summarise, destruction rates were around 500 tonnes per annum in the year 2000, falling to below 150 tonnes per annum from 2010 onwards as the scale of the stockpile decreases. </p>
+<p>Decreases have also been observed in DecaBDE. Despite a small increase to a peak in 2004, the stockpile of DecaBDE has reduced overall by 57.3% since the start of the series (2000 to 2023). </p>
+<p>The stockpile of HBCDD increased by 87.2% between 2000 and the peak in 2015. Since 2015, the stockpile has decreased by 9.4%.</p>
         </section>
         
             <h2>Assessment of change</h2>
-            <p>Decreases in the amount of in-use PCBs have been observed over the short, medium and long-term time periods (an improvement).</p>
-<p>Change since 2018 has also been assessed. There has been a decrease in the amount of PCBs remaining in circulation in the UK, however this is based on 5 data points and should be considered as indicative and not evidence of a clear trend.</p>
+            <p>Decreases (improvements) in the stockpile of in-use PCBs and DecaBDE have been observed over the short-, medium- and long-term time periods. Whilst the stockpile of HBCDD has increased over the long-term time period (a deterioration), it has decreased over the short- and medium-term time periods (an improvement).</p>
+<p>Change since 2018 has also been assessed, which matches our short-term assessment. There has been decrease (improvement) in the stockpile of PCBs, HBCDD and DecaBDE in the UK.</p>
 <p>Further information on this assessment, along with details on the methodology, is provided in the <a href="/assessment/#background">Assessment background</a> page. Summaries by 25 Year Environment Plan goal and information on indicator links are presented in the <a href="/assessment/#results/">Assessment results</a> pages.</p>
             
-                <h4>Table J5: Assessment of change</h4>
-                <table class="dataframe" id="j5-assessment-table">
+                <h4>Table J5a: Assessment of change</h4>
+                <table class="dataframe" id="j5a-assessment-table">
   <thead>
     <tr style="text-align: right;">
       <th>Component</th>
+      <th>Subcomponent</th>
       <th>Period</th>
       <th>Date range</th>
       <th>Percentage change</th>
@@ -612,33 +650,952 @@
   </thead>
   <tbody>
     <tr>
-      <td>J5</td>
+      <td>J5a</td>
+      <td>Decabromodiphenyl Ether</td>
       <td>Short term</td>
-      <td>2016 to 2021</td>
-      <td>-33.50</td>
-      <td>Loess</td>
+      <td>2018 to 2023</td>
+      <td>-38.15</td>
+      <td>None</td>
       <td>Improvement</td>
     </tr>
     <tr>
-      <td>J5</td>
+      <td>J5a</td>
+      <td>Decabromodiphenyl Ether</td>
       <td>Medium term</td>
-      <td>2011 to 2021</td>
-      <td>-71.25</td>
-      <td>Loess</td>
+      <td>2013 to 2023</td>
+      <td>-53.66</td>
+      <td>None</td>
       <td>Improvement</td>
     </tr>
     <tr>
-      <td>J5</td>
+      <td>J5a</td>
+      <td>Decabromodiphenyl Ether</td>
       <td>Long term</td>
-      <td>1990 to 2021</td>
-      <td>-98.26</td>
-      <td>Loess</td>
+      <td>2000 to 2023</td>
+      <td>-57.30</td>
+      <td>None</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>J5a</td>
+      <td>Hexabromocyclododecane</td>
+      <td>Short term</td>
+      <td>2018 to 2023</td>
+      <td>-7.47</td>
+      <td>None</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>J5a</td>
+      <td>Hexabromocyclododecane</td>
+      <td>Medium term</td>
+      <td>2013 to 2023</td>
+      <td>-8.28</td>
+      <td>None</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>J5a</td>
+      <td>Hexabromocyclododecane</td>
+      <td>Long term</td>
+      <td>2000 to 2023</td>
+      <td>69.45</td>
+      <td>None</td>
+      <td>Deterioration</td>
+    </tr>
+    <tr>
+      <td>J5a</td>
+      <td>Polychlorinated Biphenyls</td>
+      <td>Short term</td>
+      <td>2018 to 2023</td>
+      <td>-50.08</td>
+      <td>None</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>J5a</td>
+      <td>Polychlorinated Biphenyls</td>
+      <td>Medium term</td>
+      <td>2013 to 2023</td>
+      <td>-75.94</td>
+      <td>None</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>J5a</td>
+      <td>Polychlorinated Biphenyls</td>
+      <td>Long term</td>
+      <td>2000 to 2023</td>
+      <td>-96.39</td>
+      <td>None</td>
       <td>Improvement</td>
     </tr>
   </tbody>
 </table>
             
-            <p>Note that assessment categories were assigned based on smoothed data, so percentage change figures in Table J5 may differ from unsmoothed values quoted elsewhere. Percentage change refers to the difference seen from the first to last year in the specified date range.</p>
+            <p>Note that percentage change in Table J5a refers to the difference seen from the first to last year in the specified date range.</p>
+        
+    </div>
+
+            
+                
+    
+    <div id="j5bi-component-tabpanel" role="tabpanel" tabindex="0" aria-labelledby="j5bi-component-tab" class="l-column l-column--small-space | c-indicator-component-tabpanel">
+        
+        
+    <section class="l-column l-column--no-space">
+        <div
+            role="tablist"
+            aria-label="Data visualisation options"
+            class="l-equal-width-columns l-equal-width-columns--no-space">
+            
+            
+    <button id="j5bi-figure-tab" type="button" role="tab" aria-selected="true" data-tabgroup="j5bi" aria-controls="j5bi-figure-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Figure</span>
+    </button>
+
+            
+            
+    <button id="j5bi-table-tab" type="button" role="tab" aria-selected="true" data-tabgroup="j5bi" aria-controls="j5bi-table-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Table</span>
+    </button>
+
+            
+        </div>
+        <div class="l-column | c-indicator-component-visualisation-tabpanels">
+            
+            
+    <div id="j5bi-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="j5bi" aria-labelledby="j5bi-figure-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Figure
+                J5bi: The proportion of persistent organic pollutant hexabromocyclododecane (HBCDD) sent for destruction (incinerated) versus other waste treatment and disposal options, UK, 2000 to 2023</h4>
+            <div id="j5bi-figure-container" class="c-visualisation-container">
+                
+                    <img src='j5bi.svg' />
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Department for Environment, Food &amp; Rural Affairs,WSP UK Limited,
+                
+                
+                    <a href="https://sciencesearch.defra.gov.uk/ProjectDetails?ProjectId=21619">UK&#39;s Persistent Organic Pollutants Multimedia Emissions Inventory</a>
+                
+                </dd>
+            
+        
+        
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="j5bi.csv">Download  CSV</a>
+                
+                
+                    <a class="c-button" href="j5bi.svg" download=".svg">Download Figure Image</a>
+                
+            </div>
+        </section>
+    </div>
+
+            
+            
+    <div id="j5bi-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="j5bi" aria-labelledby="j5bi-table-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Table
+                J5bi: The proportion of persistent organic pollutant hexabromocyclododecane (HBCDD) sent for destruction (incinerated) versus other waste treatment and disposal options, UK, 2000 to 2023</h4>
+            <div id="j5bi-table-container" class="c-visualisation-container">
+                
+                    <table class="dataframe" id="j5bi-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Year</th>
+      <th>Incinerated (tonnes)</th>
+      <th>Landfill (tonnes)</th>
+      <th>Recycled (tonnes)</th>
+      <th>Total (tonnes)</th>
+      <th>Incinerated (%)</th>
+      <th>Landfill (%)</th>
+      <th>Recycled (%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2000</td>
+      <td>47.83</td>
+      <td>209.60</td>
+      <td>10.08</td>
+      <td>267.50</td>
+      <td>17.88</td>
+      <td>78.35</td>
+      <td>3.77</td>
+    </tr>
+    <tr>
+      <td>2001</td>
+      <td>49.63</td>
+      <td>218.96</td>
+      <td>10.62</td>
+      <td>279.20</td>
+      <td>17.77</td>
+      <td>78.42</td>
+      <td>3.80</td>
+    </tr>
+    <tr>
+      <td>2002</td>
+      <td>51.57</td>
+      <td>228.69</td>
+      <td>11.15</td>
+      <td>291.40</td>
+      <td>17.70</td>
+      <td>78.48</td>
+      <td>3.82</td>
+    </tr>
+    <tr>
+      <td>2003</td>
+      <td>67.15</td>
+      <td>221.78</td>
+      <td>14.97</td>
+      <td>303.91</td>
+      <td>22.10</td>
+      <td>72.98</td>
+      <td>4.93</td>
+    </tr>
+    <tr>
+      <td>2004</td>
+      <td>72.04</td>
+      <td>229.33</td>
+      <td>16.37</td>
+      <td>317.75</td>
+      <td>22.67</td>
+      <td>72.18</td>
+      <td>5.15</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>90.14</td>
+      <td>224.15</td>
+      <td>17.80</td>
+      <td>332.09</td>
+      <td>27.14</td>
+      <td>67.50</td>
+      <td>5.36</td>
+    </tr>
+    <tr>
+      <td>2006</td>
+      <td>97.65</td>
+      <td>230.53</td>
+      <td>19.35</td>
+      <td>347.53</td>
+      <td>28.10</td>
+      <td>66.33</td>
+      <td>5.57</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>102.70</td>
+      <td>240.97</td>
+      <td>20.24</td>
+      <td>363.91</td>
+      <td>28.22</td>
+      <td>66.22</td>
+      <td>5.56</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>131.83</td>
+      <td>233.64</td>
+      <td>22.74</td>
+      <td>388.21</td>
+      <td>33.96</td>
+      <td>60.18</td>
+      <td>5.86</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>137.02</td>
+      <td>241.68</td>
+      <td>23.54</td>
+      <td>402.23</td>
+      <td>34.06</td>
+      <td>60.08</td>
+      <td>5.85</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>146.52</td>
+      <td>246.48</td>
+      <td>25.12</td>
+      <td>418.12</td>
+      <td>35.04</td>
+      <td>58.95</td>
+      <td>6.01</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>173.71</td>
+      <td>234.97</td>
+      <td>26.79</td>
+      <td>435.47</td>
+      <td>39.89</td>
+      <td>53.96</td>
+      <td>6.15</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>186.57</td>
+      <td>240.55</td>
+      <td>28.51</td>
+      <td>455.63</td>
+      <td>40.95</td>
+      <td>52.79</td>
+      <td>6.26</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>153.68</td>
+      <td>211.42</td>
+      <td>27.43</td>
+      <td>392.53</td>
+      <td>39.15</td>
+      <td>53.86</td>
+      <td>6.99</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>174.33</td>
+      <td>189.75</td>
+      <td>29.47</td>
+      <td>393.55</td>
+      <td>44.30</td>
+      <td>48.21</td>
+      <td>7.49</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>178.52</td>
+      <td>193.61</td>
+      <td>30.09</td>
+      <td>402.22</td>
+      <td>44.38</td>
+      <td>48.13</td>
+      <td>7.48</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>187.75</td>
+      <td>193.34</td>
+      <td>31.59</td>
+      <td>412.68</td>
+      <td>45.49</td>
+      <td>46.85</td>
+      <td>7.66</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>194.27</td>
+      <td>198.06</td>
+      <td>32.92</td>
+      <td>425.24</td>
+      <td>45.68</td>
+      <td>46.58</td>
+      <td>7.74</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>224.94</td>
+      <td>177.03</td>
+      <td>34.15</td>
+      <td>436.12</td>
+      <td>51.58</td>
+      <td>40.59</td>
+      <td>7.83</td>
+    </tr>
+    <tr>
+      <td>2019</td>
+      <td>247.19</td>
+      <td>187.10</td>
+      <td>34.74</td>
+      <td>469.02</td>
+      <td>52.70</td>
+      <td>39.89</td>
+      <td>7.41</td>
+    </tr>
+    <tr>
+      <td>2020</td>
+      <td>273.33</td>
+      <td>191.62</td>
+      <td>35.62</td>
+      <td>500.57</td>
+      <td>54.60</td>
+      <td>38.28</td>
+      <td>7.12</td>
+    </tr>
+    <tr>
+      <td>2021</td>
+      <td>295.75</td>
+      <td>199.39</td>
+      <td>34.95</td>
+      <td>530.10</td>
+      <td>55.79</td>
+      <td>37.61</td>
+      <td>6.59</td>
+    </tr>
+    <tr>
+      <td>2022</td>
+      <td>321.91</td>
+      <td>201.31</td>
+      <td>34.29</td>
+      <td>557.51</td>
+      <td>57.74</td>
+      <td>36.11</td>
+      <td>6.15</td>
+    </tr>
+    <tr>
+      <td>2023</td>
+      <td>339.43</td>
+      <td>181.84</td>
+      <td>61.14</td>
+      <td>582.41</td>
+      <td>58.28</td>
+      <td>31.22</td>
+      <td>10.50</td>
+    </tr>
+  </tbody>
+</table>
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Department for Environment, Food &amp; Rural Affairs,WSP UK Limited,
+                
+                
+                    <a href="https://sciencesearch.defra.gov.uk/ProjectDetails?ProjectId=21619">UK&#39;s Persistent Organic Pollutants Multimedia Emissions Inventory</a>
+                
+                </dd>
+            
+        
+        
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="j5bi.csv">Download  CSV</a>
+                
+                
+            </div>
+        </section>
+    </div>
+
+            
+        </div>
+    </section>
+
+        
+        <section class="l-column l-column--small-space">
+            <h4>Trend description for J5bi</h4>
+            <p>The total amount of HBCDD in waste has increased by 118% from an estimated 268 tonnes in the year 2000 to 582 tonnes in 2023. The increase has been steady across the series, apart from a temporary drop in 2013, linked to a reduction in construction waste (such as insulation offcuts) as the production of new construction products containing HBCDD rapidly reduced.</p>
+<p>In 2023, the majority (58%) of HBCDD was incinerated with 31% sent to landfill and 11% sent for recycling. This reflects an overall increase in the percentage of HBCDD sent for destruction over the course of the series.</p>
+        </section>
+        
+            <h2>Assessment of change</h2>
+            <p>Increases (improvements) in the percentage of HBCDD being sent for incineration have been observed over the short-, medium- and long-term time periods.</p>
+<p>Change since 2018 has also been assessed, which matches our short-term assessment. There has been an increase (improvement) in the percentage of HBCDD being sent for incineration.</p>
+<p>Further information on this assessment, along with details on the methodology, is provided in the <a href="/assessment/#background">Assessment background</a> page. Summaries by 25 Year Environment Plan goal and information on indicator links are presented in the <a href="/assessment/#results/">Assessment results</a> pages.</p>
+            
+                <h4>Table J5bi: Assessment of change</h4>
+                <table class="dataframe" id="j5bi-assessment-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Component</th>
+      <th>Subcomponent</th>
+      <th>Period</th>
+      <th>Date range</th>
+      <th>Percentage change</th>
+      <th>Smoothing function</th>
+      <th>Assessment of change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>J5bi</td>
+      <td>Percentage incinerated</td>
+      <td>Short term</td>
+      <td>2018 to 2023</td>
+      <td>13.00</td>
+      <td>None</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>J5bi</td>
+      <td>Percentage incinerated</td>
+      <td>Medium term</td>
+      <td>2013 to 2023</td>
+      <td>48.86</td>
+      <td>None</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>J5bi</td>
+      <td>Percentage incinerated</td>
+      <td>Long term</td>
+      <td>2000 to 2023</td>
+      <td>225.97</td>
+      <td>None</td>
+      <td>Improvement</td>
+    </tr>
+  </tbody>
+</table>
+            
+            <p>Note that percentage change in Table J5bi refers to the difference seen from the first to last year in the specified date range.</p>
+        
+    </div>
+
+            
+                
+    
+    <div id="j5bii-component-tabpanel" role="tabpanel" tabindex="0" aria-labelledby="j5bii-component-tab" class="l-column l-column--small-space | c-indicator-component-tabpanel">
+        
+        
+    <section class="l-column l-column--no-space">
+        <div
+            role="tablist"
+            aria-label="Data visualisation options"
+            class="l-equal-width-columns l-equal-width-columns--no-space">
+            
+            
+    <button id="j5bii-figure-tab" type="button" role="tab" aria-selected="true" data-tabgroup="j5bii" aria-controls="j5bii-figure-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Figure</span>
+    </button>
+
+            
+            
+    <button id="j5bii-table-tab" type="button" role="tab" aria-selected="true" data-tabgroup="j5bii" aria-controls="j5bii-table-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Table</span>
+    </button>
+
+            
+        </div>
+        <div class="l-column | c-indicator-component-visualisation-tabpanels">
+            
+            
+    <div id="j5bii-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="j5bii" aria-labelledby="j5bii-figure-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Figure
+                J5bii: The proportion of persistent organic pollutant decabromodiphenyl ether (DecaBDE) sent for destruction (incinerated) versus other waste treatment and disposal options, UK, 2000 to 2023</h4>
+            <div id="j5bii-figure-container" class="c-visualisation-container">
+                
+                    <img src='j5bii.svg' />
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Department for Environment, Food &amp; Rural Affairs,WSP UK Limited,
+                
+                
+                    <a href="https://sciencesearch.defra.gov.uk/ProjectDetails?ProjectId=21619">UK&#39;s Persistent Organic Pollutants Multimedia Emissions Inventory</a>
+                
+                </dd>
+            
+        
+        
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="j5bii.csv">Download  CSV</a>
+                
+                
+                    <a class="c-button" href="j5bii.svg" download=".svg">Download Figure Image</a>
+                
+            </div>
+        </section>
+    </div>
+
+            
+            
+    <div id="j5bii-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="j5bii" aria-labelledby="j5bii-table-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Table
+                J5bii: The proportion of persistent organic pollutant decabromodiphenyl ether (DecaBDE) sent for destruction (incinerated) versus other waste treatment and disposal options, UK, 2000 to 2023</h4>
+            <div id="j5bii-table-container" class="c-visualisation-container">
+                
+                    <table class="dataframe" id="j5bii-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Year</th>
+      <th>Incinerated (tonnes)</th>
+      <th>Landfill (tonnes)</th>
+      <th>Recycled (tonnes)</th>
+      <th>Total (tonnes)</th>
+      <th>Incinerated (%)</th>
+      <th>Landfill (%)</th>
+      <th>Recycled (%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2000</td>
+      <td>22.74</td>
+      <td>1,362.95</td>
+      <td>101.26</td>
+      <td>1,486.95</td>
+      <td>1.53</td>
+      <td>91.66</td>
+      <td>6.81</td>
+    </tr>
+    <tr>
+      <td>2001</td>
+      <td>24.37</td>
+      <td>1,429.54</td>
+      <td>105.34</td>
+      <td>1,559.25</td>
+      <td>1.56</td>
+      <td>91.68</td>
+      <td>6.76</td>
+    </tr>
+    <tr>
+      <td>2002</td>
+      <td>27.05</td>
+      <td>1,518.92</td>
+      <td>109.53</td>
+      <td>1,655.49</td>
+      <td>1.63</td>
+      <td>91.75</td>
+      <td>6.62</td>
+    </tr>
+    <tr>
+      <td>2003</td>
+      <td>48.63</td>
+      <td>1,590.97</td>
+      <td>161.54</td>
+      <td>1,801.14</td>
+      <td>2.70</td>
+      <td>88.33</td>
+      <td>8.97</td>
+    </tr>
+    <tr>
+      <td>2004</td>
+      <td>101.40</td>
+      <td>1,705.24</td>
+      <td>199.41</td>
+      <td>2,006.05</td>
+      <td>5.05</td>
+      <td>85.00</td>
+      <td>9.94</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>144.08</td>
+      <td>1,849.84</td>
+      <td>239.67</td>
+      <td>2,233.59</td>
+      <td>6.45</td>
+      <td>82.82</td>
+      <td>10.73</td>
+    </tr>
+    <tr>
+      <td>2006</td>
+      <td>223.08</td>
+      <td>1,900.99</td>
+      <td>292.56</td>
+      <td>2,416.63</td>
+      <td>9.23</td>
+      <td>78.66</td>
+      <td>12.11</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>247.29</td>
+      <td>1,919.93</td>
+      <td>343.17</td>
+      <td>2,510.39</td>
+      <td>9.85</td>
+      <td>76.48</td>
+      <td>13.67</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>293.64</td>
+      <td>1,830.35</td>
+      <td>390.82</td>
+      <td>2,514.80</td>
+      <td>11.68</td>
+      <td>72.78</td>
+      <td>15.54</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>295.64</td>
+      <td>1,739.32</td>
+      <td>418.41</td>
+      <td>2,453.37</td>
+      <td>12.05</td>
+      <td>70.89</td>
+      <td>17.05</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>324.79</td>
+      <td>1,587.74</td>
+      <td>439.94</td>
+      <td>2,352.46</td>
+      <td>13.81</td>
+      <td>67.49</td>
+      <td>18.70</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>313.25</td>
+      <td>1,481.73</td>
+      <td>442.13</td>
+      <td>2,237.11</td>
+      <td>14.00</td>
+      <td>66.23</td>
+      <td>19.76</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>338.11</td>
+      <td>1,344.91</td>
+      <td>447.34</td>
+      <td>2,130.36</td>
+      <td>15.87</td>
+      <td>63.13</td>
+      <td>21.00</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>328.20</td>
+      <td>1,274.32</td>
+      <td>443.75</td>
+      <td>2,046.27</td>
+      <td>16.04</td>
+      <td>62.28</td>
+      <td>21.69</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>360.38</td>
+      <td>1,173.95</td>
+      <td>452.51</td>
+      <td>1,986.84</td>
+      <td>18.14</td>
+      <td>59.09</td>
+      <td>22.78</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>356.59</td>
+      <td>1,132.90</td>
+      <td>454.56</td>
+      <td>1,944.05</td>
+      <td>18.34</td>
+      <td>58.28</td>
+      <td>23.38</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>391.54</td>
+      <td>1,046.02</td>
+      <td>467.14</td>
+      <td>1,904.70</td>
+      <td>20.56</td>
+      <td>54.92</td>
+      <td>24.53</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>385.80</td>
+      <td>1,001.10</td>
+      <td>468.89</td>
+      <td>1,855.79</td>
+      <td>20.79</td>
+      <td>53.94</td>
+      <td>25.27</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>411.30</td>
+      <td>903.08</td>
+      <td>473.52</td>
+      <td>1,787.90</td>
+      <td>23.00</td>
+      <td>50.51</td>
+      <td>26.48</td>
+    </tr>
+    <tr>
+      <td>2019</td>
+      <td>393.08</td>
+      <td>841.82</td>
+      <td>460.41</td>
+      <td>1,695.31</td>
+      <td>23.19</td>
+      <td>49.66</td>
+      <td>27.16</td>
+    </tr>
+    <tr>
+      <td>2020</td>
+      <td>399.61</td>
+      <td>735.14</td>
+      <td>443.99</td>
+      <td>1,578.74</td>
+      <td>25.31</td>
+      <td>46.57</td>
+      <td>28.12</td>
+    </tr>
+    <tr>
+      <td>2021</td>
+      <td>366.15</td>
+      <td>667.63</td>
+      <td>409.35</td>
+      <td>1,443.13</td>
+      <td>25.37</td>
+      <td>46.26</td>
+      <td>28.37</td>
+    </tr>
+    <tr>
+      <td>2022</td>
+      <td>363.89</td>
+      <td>559.66</td>
+      <td>373.02</td>
+      <td>1,296.56</td>
+      <td>28.07</td>
+      <td>43.16</td>
+      <td>28.77</td>
+    </tr>
+    <tr>
+      <td>2023</td>
+      <td>317.54</td>
+      <td>508.96</td>
+      <td>318.17</td>
+      <td>1,144.68</td>
+      <td>27.74</td>
+      <td>44.46</td>
+      <td>27.80</td>
+    </tr>
+  </tbody>
+</table>
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Department for Environment, Food &amp; Rural Affairs,WSP UK Limited,
+                
+                
+                    <a href="https://sciencesearch.defra.gov.uk/ProjectDetails?ProjectId=21619">UK&#39;s Persistent Organic Pollutants Multimedia Emissions Inventory</a>
+                
+                </dd>
+            
+        
+        
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="j5bii.csv">Download  CSV</a>
+                
+                
+            </div>
+        </section>
+    </div>
+
+            
+        </div>
+    </section>
+
+        
+        <section class="l-column l-column--small-space">
+            <h4>Trend description for J5bii</h4>
+            <p>The total amount of DecaBDE in waste increased by 69% between 2000 and the peak in 2008 (a maximum of 2,510 tonnes). Since 2008, it has reduced by 54% to 1,145 tonnes in 2023.</p>
+<p>Across the course of the series, the largest proportion of DecaBDE entering the waste stream has been via landfill, however this proportion has decreased, from 91% in 2000 to 44% in 2023.</p>
+        </section>
+        
+            <h2>Assessment of change</h2>
+            <p>Increases (improvements) in the percentage of DecaBDE being sent for incineration have been observed over the short-, medium- and long-term time periods (improvement).</p>
+<p>Change since 2018 has also been assessed, which matches our short-term assessment. There has been an increase (improvement) in the percentage of DecaBDE being sent for incineration.</p>
+<p>Further information on this assessment, along with details on the methodology, is provided in the <a href="/assessment/#background">Assessment background</a> page. Summaries by 25 Year Environment Plan goal and information on indicator links are presented in the <a href="/assessment/#results/">Assessment results</a> pages.</p>
+            
+                <h4>Table J5bii: Assessment of change</h4>
+                <table class="dataframe" id="j5bii-assessment-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Component</th>
+      <th>Subcomponent</th>
+      <th>Period</th>
+      <th>Date range</th>
+      <th>Percentage change</th>
+      <th>Smoothing function</th>
+      <th>Assessment of change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>J5bii</td>
+      <td>Percentage Incinerated</td>
+      <td>Short term</td>
+      <td>2018 to 2023</td>
+      <td>20.59</td>
+      <td>None</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>J5bii</td>
+      <td>Percentage Incinerated</td>
+      <td>Medium term</td>
+      <td>2013 to 2023</td>
+      <td>72.96</td>
+      <td>None</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>J5bii</td>
+      <td>Percentage Incinerated</td>
+      <td>Long term</td>
+      <td>2000 to 2023</td>
+      <td>1,713.91</td>
+      <td>None</td>
+      <td>Improvement</td>
+    </tr>
+  </tbody>
+</table>
+            
+            <p>Note that percentage change in Table J5bii refers to the difference seen from the first to last year in the specified date range.</p>
         
     </div>
 
@@ -770,7 +1727,7 @@
                 <dt class="c-indicator-metadata__key">Last Updated</dt>
             
             
-                <dd class="c-indicator-metadata__value">2024</dd>
+                <dd class="c-indicator-metadata__value">2025</dd>
               
             </div>
         
@@ -781,7 +1738,7 @@
                 <dt class="c-indicator-metadata__key">Latest Data</dt>
             
             
-                <dd class="c-indicator-metadata__value">2022</dd>
+                <dd class="c-indicator-metadata__value">2023</dd>
               
             </div>
         
@@ -894,15 +1851,55 @@
         
         
             initialiseTableVisualisations(
-                "j5",
+                "j5a",
                 {"layout":"fitColumns","pagination":true,"paginationSize":13,"nestedFieldSeparator":"|","columnDefaults":{"hozAlign":"right","headerHozAlign":"right"},"columns":[{"title":"Year","hozAlign":"left","headerHozAlign":"left"}]}
             )
         
         
             
                 initialiseFigureVisualisations(
-                    "j5",
-                    {"data":[{"line":{"color":"#12436D"},"mode":"lines+markers","name":"Tonnes of PCBs (thousands)","x":[1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022],"y":[12.0,11.2,10.4,9.6,8.8,8.0,6.913510174391667,5.974577866427137,5.163163108404908,4.4619475852501305,3.855965003528638,3.3322816604991794,2.87972039547498,2.488622031689933,2.150639217037952,1.858558263554701,1.606145183098142,1.3880126331123963,1.19950493265084,1.036598694514322,0.8958169526607351,0.7741549520765665,0.6690160172171296,0.5781561302327017,0.4996360360938372,0.4317798523784333,0.3731393003144537,0.3224627936486705,0.2786687255941055,0.2408223837099509,0.208116,0.2021,0.176156],"type":"scatter","marker":{"color":"#12436D"},"hovertemplate":"%{y:.2f}"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"title":{"text":""},"dtick":2,"automargin":true,"range":[1990,2022]},"yaxis":{"title":{"text":"Thousand tonnes"},"showgrid":true,"dtick":2,"automargin":true,"range":[0,12.5]},"legend":{"title":{"text":""},"yanchor":"bottom","y":-0.45,"xanchor":"center","x":0.5,"orientation":"h"},"hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true,"hovermode":"x unified"}},
+                    "j5a",
+                    {"data":[{"hovertemplate":"%{y:.2f}","legendgroup":"Decabromodiphenyl Ether","line":{"color":"#12436D","dash":"solid"},"marker":{"symbol":"circle"},"mode":"lines+markers","name":"Decabromodiphenyl Ether","orientation":"v","showlegend":true,"x":[2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023],"xaxis":"x","y":[100.0,102.59524492807572,104.62933802847672,106.09642042685292,106.72792970245732,106.5357964914378,105.72949924781842,104.62778159495652,103.23579049696144,101.28286452043614,99.26495021200846,97.17349112467194,94.99631770159873,92.14001385795216,88.68131544698518,84.58573662067185,79.78797036268001,74.5311157537207,69.04373491740114,63.521124912202,57.76100591276597,52.362226636890206,47.34758911911758,42.70105557370336],"yaxis":"y","type":"scatter"},{"hovertemplate":"%{y:.2f}","legendgroup":"Hexabromocyclododecane","line":{"color":"#801650","dash":"solid"},"marker":{"symbol":"circle"},"mode":"lines+markers","name":"Hexabromocyclododecane","orientation":"v","showlegend":true,"x":[2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023],"xaxis":"x","y":[100.0,106.58481125051284,113.26989214878958,120.05797871962928,126.92085106299682,133.8445504020237,140.79889212930254,147.76845376983653,155.03310725385103,162.0890410983891,168.9360498938525,175.5666509280044,181.9463397545991,184.74528263991385,186.38914978040413,187.05437268531887,186.7412750603216,185.43268436938783,183.1377609474668,180.6713847936176,178.04166133527826,175.25440543800997,172.3496599560547,169.45154579058814],"yaxis":"y","type":"scatter"},{"hovertemplate":"%{y:.2f}","legendgroup":"Polychlorinated Biphenyls","line":{"color":"#F46A25","dash":"solid"},"marker":{"symbol":"circle"},"mode":"lines+markers","name":"Polychlorinated Biphenyls","orientation":"v","showlegend":true,"x":[2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023],"xaxis":"x","y":[100.0,86.41887717989583,74.68222333033923,64.53953885506135,55.77434481562664,48.19956254410797,41.65352075623974,35.996504943437245,31.107775396124165,26.88299021297441,23.23197829443376,20.07681478872677,17.350157913904958,14.993811658135495,12.95748368142902,11.197711908259192,9.676936900957076,8.362700215214119,7.226951627908773,6.245450451172964,5.397248154730415,5.241230141224206,4.56840245797868,3.6079165623310816],"yaxis":"y","type":"scatter"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":""},"dtick":2,"automargin":true,"range":[2000,2023.2]},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Index (2000 = 100)"},"showgrid":true,"dtick":20,"automargin":true,"range":[0,205]},"legend":{"title":{"text":""},"tracegroupgap":0,"yanchor":"bottom","y":-0.45,"xanchor":"center","x":0.5,"orientation":"h"},"margin":{"t":60},"hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true,"hovermode":"x unified"}},
+                    {"displayModeBar":false,"responsive":true}
+                )
+            
+        
+            
+        
+
+    
+        
+        
+            initialiseTableVisualisations(
+                "j5bi",
+                {"layout":"fitColumns","pagination":true,"paginationSize":13,"nestedFieldSeparator":"|","columnDefaults":{"hozAlign":"right","headerHozAlign":"right"},"columns":[{"title":"Year","hozAlign":"left","headerHozAlign":"left"}]}
+            )
+        
+        
+            
+                initialiseFigureVisualisations(
+                    "j5bi",
+                    {"data":[{"marker":{"color":"#12436D"},"name":"Incinerated (tonnes)","x":[2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023],"y":[47.82634204883796,49.62570276233883,51.56916465975356,67.15238927831555,72.0391283267405,90.1399152734092,97.65240815573554,102.70359345690306,131.82841244302003,137.0203123997231,146.52284667127367,173.70642793677644,186.57264177081288,153.67586319837443,174.32567977720495,178.51764805330384,187.746770762085,194.26552686110816,224.9365767289754,247.1889024284129,273.3308741292784,295.7514576706968,321.9104166661099,339.4296822483988],"type":"bar","xaxis":"x2","yaxis":"y2","hovertemplate":"%{y:.2f}"},{"marker":{"color":"#F46A25"},"name":"Landfill (tonnes)","x":[2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023],"y":[209.5956814535474,218.96140032289992,228.6878679643132,221.78284035221785,229.3345183502934,224.14802932967865,230.5312911808853,240.96584706981287,233.6389346666737,241.67586690807312,246.4828766508504,234.96972663948787,240.54979669368777,211.4206168285214,189.748577576394,193.6054746097768,193.3437013121521,198.05745064889987,177.0289554799529,187.09615190788688,191.62231911185216,199.3927602640659,201.3060500333548,181.84487611986816],"type":"bar","xaxis":"x2","yaxis":"y2","hovertemplate":"%{y:.2f}"},{"marker":{"color":"#801650"},"name":"Recycled (tonnes)","x":[2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023],"y":[10.082875748727767,10.617848396409777,11.146059640186492,14.97377284622921,16.371410831952044,17.800992327111196,19.34845224811263,20.238990864237834,22.740668019762023,23.538610953304577,25.11850541387624,26.790271657185496,28.51110142086011,27.429020216902984,29.472840991303144,30.09430368970665,31.592534056481853,32.91627345441093,34.15380709346426,34.73944510933046,35.61630640688459,34.95348642396171,34.289660162443184,61.13755495065719],"type":"bar","xaxis":"x2","yaxis":"y2","hovertemplate":"%{y:.2f}"},{"line":{"color":"#12436D"},"mode":"lines+markers","name":"Percentage incinerated","x":[2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023],"y":[17.878678926153892,17.773933627964546,17.69684880796978,22.0962158840458,22.671990208597723,27.14330567788697,28.09881264523131,28.22237260740096,33.95818924528366,34.06475912010986,35.04289792395332,39.88974062575697,40.94796046352411,39.15054260243624,44.29601450762752,44.38336987834162,45.494185118593286,45.68381832592471,51.57684066218648,52.702769838373285,54.603980930015936,55.791876712327294,57.74114420554984,58.27998327749921],"type":"scatter","xaxis":"x","yaxis":"y","hovertemplate":"%{y:.2f}"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"matches":"x2","showticklabels":false,"title":{"text":""},"dtick":2,"automargin":true,"range":[1999.5,2023.5]},"yaxis":{"anchor":"x","domain":[0.52,1.0],"title":{"text":"Percentage\u003cbr\u003eincinerated"},"dtick":10,"showgrid":true,"automargin":true,"range":[0,62]},"xaxis2":{"anchor":"y2","domain":[0.0,1.0],"title":{"text":""},"dtick":2,"automargin":true,"range":[1999.5,2023.5]},"yaxis2":{"anchor":"x2","domain":[0.0,0.48],"title":{"text":"HBCDD\u003cbr\u003e(tonnes)"},"showgrid":true,"automargin":true,"range":[0,650]},"barmode":"stack","legend":{"title":{"text":""},"yanchor":"bottom","y":-0.6,"xanchor":"center","x":0.5,"orientation":"v","traceorder":"reversed"},"hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true,"hovermode":"x unified"}},
+                    {"displayModeBar":false,"responsive":true}
+                )
+            
+        
+            
+        
+
+    
+        
+        
+            initialiseTableVisualisations(
+                "j5bii",
+                {"layout":"fitColumns","pagination":true,"paginationSize":13,"nestedFieldSeparator":"|","columnDefaults":{"hozAlign":"right","headerHozAlign":"right"},"columns":[{"title":"Year","hozAlign":"left","headerHozAlign":"left"}]}
+            )
+        
+        
+            
+                initialiseFigureVisualisations(
+                    "j5bii",
+                    {"data":[{"marker":{"color":"#12436D"},"name":"Incinerated (tonnes)","x":[2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023],"y":[22.74064067561923,24.37371102062187,27.046046903625715,48.63067676033799,101.39786418637448,144.08296003146273,223.07907554470995,247.2937818241112,293.63797296731667,295.6437620335549,324.7854664613895,313.2516677784197,338.1070498606717,328.19679963480024,360.3755448724101,356.5872167047359,391.5424911390388,385.79571149996514,411.2976522366391,393.0835029452289,399.6065245682597,366.1476543677928,363.8857187171307,317.544491987508],"type":"bar","xaxis":"x2","yaxis":"y2","hovertemplate":"%{y:.2f}"},{"marker":{"color":"#F46A25"},"name":"Landfill (tonnes)","x":[2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023],"y":[1362.9545532253946,1429.5357467107603,1518.920022899992,1590.9714756181895,1705.2359556567897,1849.8413981782587,1900.9924628962733,1919.9272243890048,1830.3484108231992,1739.3164869068191,1587.7426134034165,1481.7281416000333,1344.908128588796,1274.315568581796,1173.954781180366,1132.9017555199107,1046.0174982880662,1001.104296020006,903.08389098021,841.8155244570474,735.1448115955071,667.6305204575336,559.6609825435065,508.9609226387757],"type":"bar","xaxis":"x2","yaxis":"y2","hovertemplate":"%{y:.2f}"},{"marker":{"color":"#801650"},"name":"Recycled (tonnes)","x":[2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023],"y":[101.25517002261728,105.34026495379648,109.52831401980971,161.5374115312581,199.414619099444,239.6705261491308,292.55823008766606,343.1677491422681,390.818466887278,418.4099320759221,439.9361228732256,442.127100857824,447.34282578317607,443.7527350186893,452.5111600811501,454.56389005031616,467.1400079101093,468.8873623904041,473.51930018233327,460.4109118113424,443.9882844427117,409.3486527714221,373.0179827296639,318.17257405166066],"type":"bar","xaxis":"x2","yaxis":"y2","hovertemplate":"%{y:.2f}"},{"line":{"color":"#12436D"},"mode":"lines+markers","name":"Percentage incinerated","x":[2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023],"y":[1.52934766535268,1.5631691746366312,1.6337142045243207,2.6999949218134973,5.054606968504782,6.450720362964181,9.2309992390986,9.850816185204865,11.676372140294502,12.05051583006874,13.806181028530505,14.002534538920846,15.870902880591569,16.038821124198353,18.13811254634324,18.342465044260763,20.556648904626364,20.78878850859929,23.004500151958887,23.18652736310644,25.311743580283963,25.37182785088554,28.065373306115188,27.74094506300927],"type":"scatter","xaxis":"x","yaxis":"y","hovertemplate":"%{y:.2f}"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"matches":"x2","showticklabels":false,"title":{"text":""},"dtick":2,"automargin":true,"range":[1999.5,2023.5]},"yaxis":{"anchor":"x","domain":[0.52,1.0],"title":{"text":"Percentage\u003cbr\u003eincinerated"},"dtick":10,"showgrid":true,"automargin":true,"range":[0,34]},"xaxis2":{"anchor":"y2","domain":[0.0,1.0],"title":{"text":""},"dtick":2,"automargin":true,"range":[1999.5,2023.5]},"yaxis2":{"anchor":"x2","domain":[0.0,0.48],"title":{"text":"DecaBDE\u003cbr\u003e(tonnes)"},"showgrid":true,"automargin":true,"range":[0,2600]},"barmode":"stack","legend":{"title":{"text":""},"yanchor":"bottom","y":-0.6,"xanchor":"center","x":0.5,"orientation":"v","traceorder":"reversed"},"hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true,"hovermode":"x unified"}},
                     {"displayModeBar":false,"responsive":true}
                 )
             
@@ -915,7 +1912,33 @@
 
     
         
-        AssessmentTable = new Tabulator("#j5-assessment-table", {
+        AssessmentTable = new Tabulator("#j5a-assessment-table", {
+        layout: "fitDataStretch",
+        pagination: false,
+        columns: [
+            {title: "Component"},
+            {title: "Subcomponent"},
+            {title: "Period"},
+            {title: "Date range"},
+            {title: "Percentage change", hozAlign: "right"},
+        ]
+        });
+    
+        
+        AssessmentTable = new Tabulator("#j5bi-assessment-table", {
+        layout: "fitDataStretch",
+        pagination: false,
+        columns: [
+            {title: "Component"},
+            {title: "Subcomponent"},
+            {title: "Period"},
+            {title: "Date range"},
+            {title: "Percentage change", hozAlign: "right"},
+        ]
+        });
+    
+        
+        AssessmentTable = new Tabulator("#j5bii-assessment-table", {
         layout: "fitDataStretch",
         pagination: false,
         columns: [

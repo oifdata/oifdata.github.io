@@ -1,17 +1,19 @@
 year,condition,percentage
 2016,Favourable condition,38.5
-2017,Favourable condition,38.7
-2018,Favourable condition,38.7
-2019,Favourable condition,38.9
-2020,Favourable condition,38.7
-2021,Favourable condition,38.3
-2022,Favourable condition,38.2
-2023,Favourable condition,36.8
-2016,Unfavourable recovering condition,57.3
-2017,Unfavourable recovering condition,56.00000000000001
-2018,Unfavourable recovering condition,55.50000000000001
-2019,Unfavourable recovering condition,54.6
-2020,Unfavourable recovering condition,54.1
-2021,Unfavourable recovering condition,52.900000000000006
+2017,Favourable condition,38.67
+2018,Favourable condition,38.71
+2019,Favourable condition,38.89
+2020,Favourable condition,38.74
+2021,Favourable condition,38.28
+2022,Favourable condition,38.23
+2023,Favourable condition,36.85
+2024,Favourable condition,35.47
+2016,Unfavourable recovering condition,57.27
+2017,Unfavourable recovering condition,56.03
+2018,Unfavourable recovering condition,55.5
+2019,Unfavourable recovering condition,54.64
+2020,Unfavourable recovering condition,54.07
+2021,Unfavourable recovering condition,52.87
 2022,Unfavourable recovering condition,50.8
-2023,Unfavourable recovering condition,49.1
+2023,Unfavourable recovering condition,49.13
+2024,Unfavourable recovering condition,48.81

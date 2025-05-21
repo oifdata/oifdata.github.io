@@ -1,0 +1,107 @@
+{
+    "schema:name": "The proportion of persistent organic pollutant decabromodiphenyl ether (DecaBDE) sent for destruction (incinerated) versus other waste treatment and disposal options, UK, 2000 to 2023",
+    "url": "j5bii.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "UK's Persistent Organic Pollutants Multimedia Emissions Inventory",
+            "schema:url": "https://sciencesearch.defra.gov.uk/ProjectDetails?ProjectId=21619",
+            "@type": "Dataset",
+            "schema:author": [
+                {
+                    "schema:alternateName": "Defra",
+                    "schema:name": "Department for Environment, Food & Rural Affairs",
+                    "schema:sameAs": "https://ror.org/00tnppw48",
+                    "@type": "schema:GovernmentOrganization"
+                },
+                {
+                    "schema:alternateName": "WSP",
+                    "schema:name": "WSP UK Limited",
+                    "schema:sameAs": "https://ror.org/05cwrg559",
+                    "@type": "schema:Organization"
+                }
+            ],
+            "schema:dateModified": "2025-01-01",
+            "schema:datePublished": "2025-01-01"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "UK",
+    "schema:temporalCoverage": "1970-01-01T00:00:00.988631+00:00",
+    "schema:version": "01/01/2025",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Tonnes / percentage DecaBDE",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "integer",
+                    "minimum": "2000",
+                    "maximum": "2023",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "year",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The year range for the data present"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "|Incinerated (tonnes)|Landfill (tonnes)|Recycled (tonnes)|Total (tonnes)|Incinerated (%)|Recycled (%)|Landfill (%)|",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "variable",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Different waste streams"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "value",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Tonnes of DecaBDE going to different waste streams, plus the percentages"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

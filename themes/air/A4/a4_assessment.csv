@@ -1,4 +1,4 @@
 Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
-A4,Annual average maximum daily 8-hour mean O3 concentration,Short term,2016 to 2021,5.33647922926748,Loess,Deterioration
-A4,Annual average maximum daily 8-hour mean O3 concentration,Medium term,2011 to 2021,7.048613377934726,Loess,Deterioration
-A4,Annual average maximum daily 8-hour mean O3 concentration,Long term,1987 to 2021,16.613827324294476,Loess,Deterioration
+A4,Annual average maximum daily 8-hour mean O3 concentration,Short term,2018 to 2023,6.598148551915441,Loess,Deterioration
+A4,Annual average maximum daily 8-hour mean O3 concentration,Medium term,2013 to 2023,9.9911152072738,Loess,Deterioration
+A4,Annual average maximum daily 8-hour mean O3 concentration,Long term,1987 to 2023,19.743572136992217,Loess,Deterioration

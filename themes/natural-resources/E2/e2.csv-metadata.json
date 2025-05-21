@@ -1,5 +1,5 @@
 {
-    "schema:name": "Volume of agricultural production in England, 1990/1991 to 2022/2023",
+    "schema:name": "Volume of agricultural production in England, 1990/1991 to 2023/2024",
     "url": "e2.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -12,9 +12,9 @@
         {
             "schema:description": "<div class=\"govspeak\"><p>Total factor productivity (TFP) is a key measure of the economic performance of agriculture.  It represents how efficiently the agricultural industry uses the resources that are available to turn inputs into outputs.  The methodology used to calculate the national statistics for “Total factor productivity for the UK agricultural industry” has been applied to data from the Farm Business Survey for England to produce TFP for selected farm types.  Results for specialist pigs, specialist poultry and horticulture farms have not been presented due to concerns around smaller sample sizes for these farm types.</p>\n\n<p>For UK Total Factor Productivity statistics please refer to <a href=\"https://www.gov.uk/government/collections/productivity-of-the-agricultural-industry\" class=\"govuk-link\">“TFP for the UK agricultural industry”</a></p>\n\n<p>Next update: see the <a href=\"https://www.gov.uk/search/research-and-statistics?content_store_document_type=upcoming_statistics&amp;organisations%5B%5D=department-for-environment-food-rural-affairs&amp;order=release-date-oldest\" class=\"govuk-link\">statistics release calendar</a></p>\n\n<div class=\"contact contact\" id=\"contact_3225\">\n    <p class=\"govuk-body\">Defra statistics: farm business survey</p>\n\n\n    <div>\n        <p class=\"govuk-body govuk-!-margin-bottom-4\">\n          Email <a class=\"govuk-link\" href=\"mailto:fbs.queries@defra.gov.uk\">fbs.queries@defra.gov.uk</a>\n        </p>\n\n\n    </div>\n\n    <p class=\"govuk-body\">You can also contact us via Twitter: <a href=\"https://twitter.com/DefraStats\" class=\"govuk-link\">https://twitter.com/DefraStats</a></p>\n\n</div>\n</div>",
             "schema:image": [
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-bf9e64d759af6dfd93bede8168f3087a329f405b382aff36747db0db4b7b23e9.png",
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-13093f053c15f613acd827aff27cac83d3fab452947cbcae4c7b706dadf2f7f2.png",
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-4233cd42671827e266e284c4d5ae68fb600bd9f9e35dda663ccabbc2b6ab7ec3.png"
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-c3d38c0d4fc00005df38a71e1db7097276681d6917bca58f0dc8336a252e1bb3.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-edc38c137a14ecfc3fc83f404090e20dab806dad345c96a1df6a163ee2d1e3aa.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-5dc2d0ea1eb72cd94e66db210ef41b22ce364e7ed09d63a3acc28fda09e27864.png"
             ],
             "schema:name": "Total factor productivity for England by farm type",
             "@type": "Dataset",
@@ -36,14 +36,13 @@
             "schema:text": "Official statistics of total factor productivity for England by farm type using Farm Business Survey data from 1990/91.",
             "schema:distribution": [
                 {
-                    "name": "Total factor productivity for England by farm type: 1990/91 to 2022/23 – dataset",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/65a4f73b74ae660014738a8d/fbs_tfp_england_farmtype-dataset-16jan24.ods",
-                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                    "name": "Total factor productivity for England by farm type: 1990/91 to 2023/24 - statistical notice",
+                    "url": "/government/statistics/total-factor-productivity-for-england-by-farm-type/total-factor-productivity-for-england-by-farm-type-199091-to-202324-statistical-notice"
                 },
                 {
-                    "name": "Total factor productivity for England by farm type: 1990/91 to 2017/18  - statistical notice",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5d137c3740f0b6350572aaf0/fbs-tfp-england-farmtype-statsnotice-27jun19.pdf",
-                    "encodingFormat": "application/pdf"
+                    "name": "Total factor productivity for England by farm type: 1990/91 to 2023/24 – dataset",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/67851f88f041702a11ca0eee/fbs_tfp_england_farmtype_timeseries_2023_24.ods",
+                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
                     "name": "Total factor productivity for England by farm type - technical note",
@@ -57,12 +56,12 @@
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "1990/2023",
-    "schema:version": "2024-01-16",
+    "schema:temporalCoverage": "1990/2024",
+    "schema:version": "2025-01-24",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Volume of agricultural outputs in the UK, indexed (1990/91=100)",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "Data are reported on a March to February year, which is the average accounting year for respondents to the Farm Business Survey.\n    \n</br>Following an improvement to the methodology in the source publication, figures for 2020/2021 and 2021/2022 have been revised in the 2024 update to this indicator.",
+    "notes": "Data are reported on a March to February year, which is the average accounting year for respondents to the Farm Business Survey.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",

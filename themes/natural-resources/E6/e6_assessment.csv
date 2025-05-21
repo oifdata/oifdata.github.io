@@ -1,4 +1,4 @@
 Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
-E6,Softwood and hardwood removals from all English sources,Short term,2017 to 2022,-5.011135857461016,Unsmoothed,Deterioration
-E6,Softwood and hardwood removals from all English sources,Medium term,2012 to 2022,3.6871961102107047,Unsmoothed,Improvement
-E6,Softwood and hardwood removals from all English sources,Long term,2010 to 2022,11.84440559440559,Unsmoothed,Improvement
+E6,All English sources (softwood and hardwood combined),Short term,2018 to 2023,-11.40893470790379,Unsmoothed,Deterioration
+E6,All English sources (softwood and hardwood combined),Medium term,2013 to 2023,-0.15491866769945792,Unsmoothed,Little or no change
+E6,All English sources (softwood and hardwood combined),Long term,2010 to 2023,12.674825174825177,Unsmoothed,Improvement

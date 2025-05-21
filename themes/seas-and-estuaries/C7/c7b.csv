@@ -1,0 +1,50 @@
+Location Description,Survey,Change Direction,value
+North Sea - Central West,GNSIntOT1,Change Direction,Decrease
+North Sea - North East,GNSIntOT1,Change Direction,No change
+North Sea - Orkney/Shetlands,GNSIntOT1,Change Direction,No change
+North Sea - South East,GNSIntOT1,Change Direction,Decrease
+North Sea - South West,GNSIntOT1,Change Direction,Decrease
+Eastern Channel - French Coast,GNSEngBT3,Change Direction,Increase
+Eastern Channel - Deep Water,GNSEngBT3,Change Direction,Increase
+Eastern Channel - English Coast,GNSEngBT3,Change Direction,Increase
+West of Scotland - Clyde,CSScoOT1,Change Direction,Decrease
+West of Scotland and West of Clyde,CSScoOT1,Change Direction,No change
+North of Ireland - Coast,CSScoOT1,Change Direction,No change
+West of Scotland and North of Ireland,CSScoOT1,Change Direction,No change
+West of Scotland and North West of Ireland,CSScoOT1,Change Direction,No change
+West of Scotland - Deep Water,CSScoOT1,Change Direction,Decrease
+North West Coast of Scotland,CSScoOT1,Change Direction,No change
+North and West of Scotland - Mid Depth,CSScoOT1,Change Direction,No change
+North West of Scotland - Deep Water (red2_lam),CSScoOT1,Change Direction,No change
+North West of Scotland - 'Windsock',CSScoOT1,Change Direction,Increase
+North West of Scotland - Deep Water (red1_lam),CSScoOT1,Change Direction,No change
+Far West of Scilly Isles - Small Mid Depth Area,CSFraOT4,Change Direction,No change
+Far West of Scilly Isles - Small Deep Area,CSFraOT4,Change Direction,No change
+West of Scilly Isles - Small Deep Area,CSFraOT4,Change Direction,No change
+West of Scilly Isles  - Small Mid Depth Area,CSFraOT4,Change Direction,No change
+Southern Celtic Sea - Shallow,CSFraOT4,Change Direction,No change
+Southern Celtic Sea - Mid Depth,CSFraOT4,Change Direction,No change
+Southern Celtic Sea - Deep,CSFraOT4,Change Direction,Decrease
+West of Ireland - Coast,CSIreOT4,Change Direction,Increase
+West of Ireland - Mid Deep,CSIreOT4,Change Direction,No change
+West of Ireland - Deep,CSIreOT4,Change Direction,Decrease
+South East of Ireland - Coast,CSIreOT4,Change Direction,Increase
+South East of Ireland - Mid Depth,CSIreOT4,Change Direction,Increase
+South West of Ireland - Coast,CSIreOT4,Change Direction,No change
+South West of Ireland - Mid Depth,CSIreOT4,Change Direction,No change
+South West of Ireland - Deep,CSIreOT4,Change Direction,No change
+Irish Sea - Eastern Coast,CSEngBT3,Change Direction,Increase
+Irish Sea - Western Coast,CSEngBT3,Change Direction,No change
+Irish Sea - Isle of Man,CSEngBT3,Change Direction,Increase
+Irish Sea - South,CSEngBT3,Change Direction,Increase
+Bristol Channel (StratumC),CSEngBT3_Bchannel,Change Direction,Increase
+Wider Atlantic - Rockall Bank Shallowest,WAScoOT3,Change Direction,Decrease
+Wider Atlantic - Rockall Bank Mid Depth,WAScoOT3,Change Direction,Decrease
+Wider Atlantic - Rockall Bank Deep,WAScoOT3,Change Direction,No change
+Wider Atlantic - Rockall Bank Very Deep,WAScoOT3,Change Direction,No change
+Wider Atlantic - Porcupine Bank - East,WASpaOT3,Change Direction,No change
+Wider Atlantic - Porcupine Bank - South,WASpaOT3,Change Direction,Increase
+Wider Atlantic - Porcupine Bank - North,WASpaOT3,Change Direction,No change
+Wider Atlantic - Porcupine Bank - Deep Western Waters,WASpaOT3,Change Direction,No change
+Wider Atlantic - Porcupine Bank - Far South,WASpaOT3,Change Direction,Increase
+Wider Atlantic - Porcupine Bank - Very Far South,WASpaOT3,Change Direction,Increase

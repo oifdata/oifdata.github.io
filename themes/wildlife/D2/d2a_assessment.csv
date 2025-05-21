@@ -1,7 +1,7 @@
 Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
-D2a,Extent at sea,Short term,2018 to 2023,45.24157665241491,Unsmoothed,Improvement
-D2a,Extent at sea,Medium term,2013 to 2023,645.083841166116,Unsmoothed,Improvement
-D2a,Extent at sea,Long term,2005 to 2023,718.8277926738959,Unsmoothed,Improvement
-D2a,Extent on land,Short term,2018 to 2023,1.4874372262112199,Unsmoothed,Little or no change
-D2a,Extent on land,Medium term,2013 to 2023,3.2098833882399536,Unsmoothed,Improvement
-D2a,Extent on land,Long term,2005 to 2023,4.26113459464836,Unsmoothed,Improvement
+D2a,Extent at sea,Short term,2019 to 2024,44.81033029890447,Unsmoothed,Improvement
+D2a,Extent at sea,Medium term,2014 to 2024,212.21159819227086,Unsmoothed,Improvement
+D2a,Extent at sea,Long term,2005 to 2024,718.8277780472669,Unsmoothed,Improvement
+D2a,Extent on land,Short term,2019 to 2024,1.4089365523890796,Unsmoothed,Little or no change
+D2a,Extent on land,Medium term,2014 to 2024,3.065298703369567,Unsmoothed,Improvement
+D2a,Extent on land,Long term,2005 to 2024,4.330721124404486,Unsmoothed,Improvement

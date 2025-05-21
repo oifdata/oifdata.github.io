@@ -1,193 +1,199 @@
 year,sector,value
-1990,Agriculture,34.16526735786427
+1990,Agriculture,33.876087183033455
 1991,Agriculture,
 1992,Agriculture,
 1993,Agriculture,
 1994,Agriculture,
-1995,Agriculture,32.87083509817585
+1995,Agriculture,32.53723554947014
 1996,Agriculture,
 1997,Agriculture,
-1998,Agriculture,32.98905478362214
-1999,Agriculture,33.106199796404844
-2000,Agriculture,31.78483310287149
-2001,Agriculture,29.870166813270327
-2002,Agriculture,29.80674558267346
-2003,Agriculture,29.961893210137685
-2004,Agriculture,30.458793328086344
-2005,Agriculture,30.531764143154085
-2006,Agriculture,29.961006429238964
-2007,Agriculture,29.70088072813014
-2008,Agriculture,29.75461726353852
-2009,Agriculture,29.2666690631624
-2010,Agriculture,29.181036016927106
-2011,Agriculture,28.806456704459773
-2012,Agriculture,29.02091593353183
-2013,Agriculture,28.411128577500623
-2014,Agriculture,29.403221065312472
-2015,Agriculture,29.54001907920333
-2016,Agriculture,28.85463560146827
-2017,Agriculture,29.280062314657872
-2018,Agriculture,28.86567659621373
-2019,Agriculture,28.737543603293247
-2020,Agriculture,27.488496805298645
-2021,Agriculture,28.14542454242161
-1990,Fluorinated gases,14.392651817062765
+1998,Agriculture,33.12879350979461
+1999,Agriculture,33.407303053136225
+2000,Agriculture,32.1190632424801
+2001,Agriculture,30.343009585753848
+2002,Agriculture,30.11873516305336
+2003,Agriculture,30.29299505854146
+2004,Agriculture,30.889318229910447
+2005,Agriculture,31.041637291856908
+2006,Agriculture,30.50098937389261
+2007,Agriculture,30.20187737030936
+2008,Agriculture,30.32504215850963
+2009,Agriculture,29.79943334540009
+2010,Agriculture,29.774104940224827
+2011,Agriculture,29.26128639305909
+2012,Agriculture,29.524509568306048
+2013,Agriculture,28.893329179267923
+2014,Agriculture,29.814713935795115
+2015,Agriculture,30.007650570567176
+2016,Agriculture,29.52569602318909
+2017,Agriculture,29.629586394973828
+2018,Agriculture,29.385728141578188
+2019,Agriculture,29.34296143048984
+2020,Agriculture,28.38366718977773
+2021,Agriculture,28.73081776829639
+2022,Agriculture,28.14753190231096
+1990,Fluorinated gases,14.386525157481223
 1991,Fluorinated gases,
 1992,Fluorinated gases,
 1993,Fluorinated gases,
 1994,Fluorinated gases,
-1995,Fluorinated gases,17.018707438377007
+1995,Fluorinated gases,16.909935173397315
 1996,Fluorinated gases,
 1997,Fluorinated gases,
-1998,Fluorinated gases,16.572759644375548
-1999,Fluorinated gases,9.793010738573036
-2000,Fluorinated gases,8.47913888850828
-2001,Fluorinated gases,8.6259202543183
-2002,Fluorinated gases,8.829788150294052
-2003,Fluorinated gases,9.302213844331948
-2004,Fluorinated gases,8.197447038707466
-2005,Fluorinated gases,8.75782835281227
-2006,Fluorinated gases,9.286794276427967
-2007,Fluorinated gases,9.48991875348779
-2008,Fluorinated gases,9.644591691122354
-2009,Fluorinated gases,9.852966929348153
-2010,Fluorinated gases,10.56934512662223
-2011,Fluorinated gases,11.130727972671307
-2012,Fluorinated gases,11.189184838972675
-2013,Fluorinated gases,11.477063410871509
-2014,Fluorinated gases,11.490718012026312
-2015,Fluorinated gases,11.520415407578952
-2016,Fluorinated gases,11.53763861379383
-2017,Fluorinated gases,11.567487867299626
-2018,Fluorinated gases,11.137466550530537
-2019,Fluorinated gases,10.6271516896809
-2020,Fluorinated gases,9.849668453933315
-2021,Fluorinated gases,9.26935336549773
-1990,Net emissions from land use & land use change,10.010254927605496
+1998,Fluorinated gases,16.187614736054368
+1999,Fluorinated gases,9.328143242162296
+2000,Fluorinated gases,7.986906850240739
+2001,Fluorinated gases,8.161845935334963
+2002,Fluorinated gases,8.416688632620192
+2003,Fluorinated gases,8.92229141972074
+2004,Fluorinated gases,7.827172336542815
+2005,Fluorinated gases,8.381202637785172
+2006,Fluorinated gases,8.8951043719548
+2007,Fluorinated gases,9.048505245054375
+2008,Fluorinated gases,9.152077164809622
+2009,Fluorinated gases,9.299374452480988
+2010,Fluorinated gases,9.981373826848628
+2011,Fluorinated gases,10.520416677973907
+2012,Fluorinated gases,10.483622608361296
+2013,Fluorinated gases,10.522382989195826
+2014,Fluorinated gases,10.001602301208456
+2015,Fluorinated gases,9.909035413297952
+2016,Fluorinated gases,9.666038829746787
+2017,Fluorinated gases,9.36215397314646
+2018,Fluorinated gases,8.826244464175392
+2019,Fluorinated gases,8.24867389269845
+2020,Fluorinated gases,7.42309966308282
+2021,Fluorinated gases,6.950698198572859
+2022,Fluorinated gases,6.424393593802662
+1990,Net emissions from land use & land use change,10.011681078621134
 1991,Net emissions from land use & land use change,
 1992,Net emissions from land use & land use change,
 1993,Net emissions from land use & land use change,
 1994,Net emissions from land use & land use change,
-1995,Net emissions from land use & land use change,10.054604608602997
+1995,Net emissions from land use & land use change,10.056418517476963
 1996,Net emissions from land use & land use change,
 1997,Net emissions from land use & land use change,
-1998,Net emissions from land use & land use change,9.54517398489733
-1999,Net emissions from land use & land use change,10.09326800697666
-2000,Net emissions from land use & land use change,10.14401602289134
-2001,Net emissions from land use & land use change,10.05095961882066
-2002,Net emissions from land use & land use change,9.87905876923933
-2003,Net emissions from land use & land use change,9.834788937767003
-2004,Net emissions from land use & land use change,9.401649464264668
-2005,Net emissions from land use & land use change,9.291860617663332
-2006,Net emissions from land use & land use change,9.25824145518867
-2007,Net emissions from land use & land use change,8.940217592560336
-2008,Net emissions from land use & land use change,8.591196026111328
-2009,Net emissions from land use & land use change,8.673701752937662
-2010,Net emissions from land use & land use change,8.699779016119667
-2011,Net emissions from land use & land use change,8.51198338759633
-2012,Net emissions from land use & land use change,8.509784460798675
-2013,Net emissions from land use & land use change,8.229495693649326
-2014,Net emissions from land use & land use change,8.226546916625002
-2015,Net emissions from land use & land use change,7.849850252312999
-2016,Net emissions from land use & land use change,8.321230535162004
-2017,Net emissions from land use & land use change,7.990673226268663
-2018,Net emissions from land use & land use change,8.00261608309967
-2019,Net emissions from land use & land use change,7.827889347282007
-2020,Net emissions from land use & land use change,7.735242448494663
-2021,Net emissions from land use & land use change,7.672191249460996
-1990,Net removals by forestry sink,-7.451326407869667
+1998,Net emissions from land use & land use change,9.548224689694637
+1999,Net emissions from land use & land use change,10.096443930059776
+2000,Net emissions from land use & land use change,10.130411196493878
+2001,Net emissions from land use & land use change,10.038792489756087
+2002,Net emissions from land use & land use change,9.869618829224828
+2003,Net emissions from land use & land use change,9.828316023847126
+2004,Net emissions from land use & land use change,9.391152367666296
+2005,Net emissions from land use & land use change,9.283900015256531
+2006,Net emissions from land use & land use change,9.249427935827766
+2007,Net emissions from land use & land use change,8.932948662100282
+2008,Net emissions from land use & land use change,8.582630553202188
+2009,Net emissions from land use & land use change,8.666272882861245
+2010,Net emissions from land use & land use change,8.694585860628086
+2011,Net emissions from land use & land use change,8.507777181713658
+2012,Net emissions from land use & land use change,8.505408719372957
+2013,Net emissions from land use & land use change,8.200802798755353
+2014,Net emissions from land use & land use change,8.183328414018478
+2015,Net emissions from land use & land use change,7.832674936187839
+2016,Net emissions from land use & land use change,8.299603862279342
+2017,Net emissions from land use & land use change,7.971606419266775
+2018,Net emissions from land use & land use change,7.972825579779266
+2019,Net emissions from land use & land use change,7.797916622012283
+2020,Net emissions from land use & land use change,7.699948840154455
+2021,Net emissions from land use & land use change,7.834768210819993
+2022,Net emissions from land use & land use change,7.825797600455999
+1990,Net removals by forestry sink,-7.61912881844622
 1991,Net removals by forestry sink,
 1992,Net removals by forestry sink,
 1993,Net removals by forestry sink,
 1994,Net removals by forestry sink,
-1995,Net removals by forestry sink,-7.549900443735328
+1995,Net removals by forestry sink,-7.712195771444587
 1996,Net removals by forestry sink,
 1997,Net removals by forestry sink,
-1998,Net removals by forestry sink,-7.853615993109674
-1999,Net removals by forestry sink,-7.954313284494664
-2000,Net removals by forestry sink,-8.043753264687993
-2001,Net removals by forestry sink,-8.154986224857666
-2002,Net removals by forestry sink,-8.274550934149334
-2003,Net removals by forestry sink,-8.348360336251995
-2004,Net removals by forestry sink,-8.386277670554001
-2005,Net removals by forestry sink,-8.409957421918994
-2006,Net removals by forestry sink,-8.373219928485662
-2007,Net removals by forestry sink,-8.436325493223665
-2008,Net removals by forestry sink,-8.580805977668335
-2009,Net removals by forestry sink,-8.677146463886334
-2010,Net removals by forestry sink,-8.800180363822998
-2011,Net removals by forestry sink,-8.867335500185334
-2012,Net removals by forestry sink,-8.805524008721665
-2013,Net removals by forestry sink,-8.805838555646993
-2014,Net removals by forestry sink,-8.848133347631661
-2015,Net removals by forestry sink,-8.792443035178003
-2016,Net removals by forestry sink,-8.83887801302199
-2017,Net removals by forestry sink,-8.753647398288996
-2018,Net removals by forestry sink,-8.70436962926067
-2019,Net removals by forestry sink,-8.655848743119993
-2020,Net removals by forestry sink,-8.551282823395999
-2021,Net removals by forestry sink,-8.521101554998333
-1990,Net total including forestry sink,111.09664712145258
+1998,Net removals by forestry sink,-8.012665333042056
+1999,Net removals by forestry sink,-8.112382420395509
+2000,Net removals by forestry sink,-8.200169752632823
+2001,Net removals by forestry sink,-8.309396357025085
+2002,Net removals by forestry sink,-8.42748812048502
+2003,Net removals by forestry sink,-8.499400280815014
+2004,Net removals by forestry sink,-8.534214419056058
+2005,Net removals by forestry sink,-8.555191063802178
+2006,Net removals by forestry sink,-8.516220951302707
+2007,Net removals by forestry sink,-8.576876426898112
+2008,Net removals by forestry sink,-8.719404879354181
+2009,Net removals by forestry sink,-8.816487143207446
+2010,Net removals by forestry sink,-8.936971727422264
+2011,Net removals by forestry sink,-9.002374621640552
+2012,Net removals by forestry sink,-8.926599005413859
+2013,Net removals by forestry sink,-8.922587750986539
+2014,Net removals by forestry sink,-8.96250972984249
+2015,Net removals by forestry sink,-8.910485070592761
+2016,Net removals by forestry sink,-8.953027552676337
+2017,Net removals by forestry sink,-8.866619012661616
+2018,Net removals by forestry sink,-8.815019740631326
+2019,Net removals by forestry sink,-8.765092528531703
+2020,Net removals by forestry sink,-8.658287600827128
+2021,Net removals by forestry sink,-8.69999351610251
+2022,Net removals by forestry sink,-8.592251145372625
+1990,Net total including forestry sink,110.6400231920236
 1991,Net total including forestry sink,
 1992,Net total including forestry sink,
 1993,Net total including forestry sink,
 1994,Net total including forestry sink,
-1995,Net total including forestry sink,114.83342814395372
+1995,Net total including forestry sink,114.23666040958396
 1996,Net total including forestry sink,
 1997,Net total including forestry sink,
-1998,Net total including forestry sink,112.44606707638962
-1999,Net total including forestry sink,103.42548213694872
-2000,Net total including forestry sink,98.17335194086954
-2001,Net total including forestry sink,94.68218966032076
-2002,Net total including forestry sink,93.56067280482914
-2003,Net total including forestry sink,90.41933341431786
-2004,Net total including forestry sink,85.35486971589697
-2005,Net total including forestry sink,83.57846234280865
-2006,Net total including forestry sink,80.84623232113168
-2007,Net total including forestry sink,77.57399494506565
-2008,Net total including forestry sink,72.93980330203365
-2009,Net total including forestry sink,69.122730430062
-2010,Net total including forestry sink,65.2157727108001
-2011,Net total including forestry sink,63.13271111897607
-2012,Net total including forestry sink,62.377688270457455
-2013,Net total including forestry sink,59.38176491078926
-2014,Net total including forestry sink,58.47034599440448
-2015,Net total including forestry sink,57.30410086265955
-2016,Net total including forestry sink,56.37871066372314
-2017,Net total including forestry sink,57.01552645642376
-2018,Net total including forestry sink,56.27879420172808
-2019,Net total including forestry sink,55.355190093318825
-2020,Net total including forestry sink,52.17700238608653
-2021,Net total including forestry sink,51.78671765763545
-1990,Waste,59.97979942678971
+1998,Net total including forestry sink,112.0497909071728
+1999,Net total including forestry sink,103.11168479531264
+2000,Net total including forestry sink,97.8498907766964
+2001,Net total including forestry sink,94.528826247173
+2002,Net total including forestry sink,93.30131366257824
+2003,Net total including forestry sink,90.21682438866829
+2004,Net total including forestry sink,85.26022064022774
+2005,Net total including forestry sink,83.56171011907001
+2006,Net total including forestry sink,80.84541457386004
+2007,Net total including forestry sink,77.51144930207036
+2008,Net total including forestry sink,72.89251467817242
+2009,Net total including forestry sink,68.97632139374534
+2010,Net total including forestry sink,65.09234996205683
+2011,Net total including forestry sink,62.85364994736528
+2012,Net total including forestry sink,62.06180297990348
+2013,Net total including forestry sink,58.77878505187843
+2014,Net total including forestry sink,57.25251712630508
+2015,Net total including forestry sink,56.03546808417381
+2016,Net total including forestry sink,55.06669824345649
+2017,Net total including forestry sink,55.14664241828823
+2018,Net total including forestry sink,54.481697394576784
+2019,Net total including forestry sink,53.47415574941188
+2020,Net total including forestry sink,50.6127456421392
+2021,Net total including forestry sink,49.92237740449833
+2022,Net total including forestry sink,48.98440733016895
+1990,Waste,59.984858591334
 1991,Waste,
 1992,Waste,
 1993,Waste,
 1994,Waste,
-1995,Waste,62.439181442533176
+1995,Waste,62.445266940684114
 1996,Waste,
 1997,Waste,
-1998,Waste,61.19269465660429
-1999,Waste,58.38731687948884
-2000,Waste,55.809117191286425
-2001,Waste,54.29012919876914
-2002,Waste,53.31963123677163
-2003,Waste,49.66879775833321
-2004,Waste,45.683257555392494
-2005,Waste,43.40696665109795
-2006,Waste,40.71341008876175
-2007,Waste,37.879303364111045
-2008,Waste,33.53020429892979
-2009,Waste,30.006539148500124
-2010,Waste,25.56579291495409
-2011,Waste,23.55087855443399
-2012,Waste,22.46332704587594
-2013,Waste,20.0699157844148
-2014,Waste,18.197993348072348
-2015,Waste,17.186259158742278
-2016,Waste,16.50408392632103
-2017,Waste,16.930950446486598
-2018,Waste,16.97740460114481
-2019,Waste,16.818454196182667
-2020,Waste,15.654877501755903
-2021,Waste,15.220850055253448
+1998,Waste,61.197823304671246
+1999,Waste,58.39217699034986
+2000,Waste,55.81367924011452
+2001,Waste,54.29457459335321
+2002,Waste,53.32375915816489
+2003,Waste,49.67262216737395
+2004,Waste,45.68679212516423
+2005,Waste,43.410161237973576
+2006,Waste,40.71611384348757
+2007,Waste,37.904994451504464
+2008,Waste,33.55216968100516
+2009,Waste,30.027727856210472
+2010,Waste,25.57925706177755
+2011,Waste,23.56654431625918
+2012,Waste,22.47486108927704
+2013,Waste,20.08485783564587
+2014,Waste,18.21538220512552
+2015,Waste,17.196592234713606
+2016,Waste,16.528387080917607
+2017,Waste,17.049914643562786
+2018,Waste,17.111918949675267
+2019,Waste,16.849696332743004
+2020,Waste,15.764317549951317
+2021,Waste,15.106086742911591
+2022,Waste,15.178935378971955

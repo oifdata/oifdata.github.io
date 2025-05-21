@@ -1,5 +1,5 @@
 {
-    "schema:name": "Cumulative area under sustainable management practices due to International Climate Finance programmes, 2015/2016 to 2022/2023",
+    "schema:name": "Cumulative area under sustainable management practices due to International Climate Finance programmes, 2015/2016 to 2023/2024",
     "url": "k2b.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -10,8 +10,8 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:name": "UK International Climate Finance results 2023",
-            "schema:url": "https://www.gov.uk/government/publications/uk-international-climate-finance-results-2023",
+            "schema:name": "UK International Climate Finance results 2024",
+            "schema:url": "https://www.gov.uk/government/publications/uk-international-climate-finance-results-2024",
             "@type": "Dataset",
             "schema:author": {
                 "schema:alternateName": "FCDO",
@@ -19,16 +19,16 @@
                 "schema:sameAs": "https://ror.org/02vtmh618",
                 "@type": "schema:GovernmentOrganization"
             },
-            "schema:dateModified": "2023-10-06",
-            "schema:datePublished": "2023-09-28"
+            "schema:dateModified": "2024-10-10",
+            "schema:datePublished": "2024-10-10"
         }
     ],
     "schema:keywords": [
         "tbc"
     ],
     "schema:spatialCoverage": "International",
-    "schema:temporalCoverage": "2015/2023",
-    "schema:version": "2023-10-06",
+    "schema:temporalCoverage": "2015/2024",
+    "schema:version": "2024-10-10",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Area of Ecosystem Loss Avoided due to International Climate Finance programmes in hectares",
     "@context": "http://www.w3.org/ns/csvw",
@@ -45,8 +45,8 @@
             {
                 "datatype": {
                     "base": "string",
-                    "minimum": "0.9995039682539683",
-                    "maximum": "0.9995056846267919",
+                    "minimum": "2015/2016",
+                    "maximum": "2023/2024",
                     "@type": "Datatype"
                 },
                 "default": "",

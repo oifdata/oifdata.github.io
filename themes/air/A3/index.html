@@ -282,13 +282,21 @@
     </div>
     <section class="l-column l-column--small-space">
         <h2>Short Description</h2>
-        <p>This indicator is a measure of the level of long-term exposure of people to harmful airborne fine particulate matter (PM2.5). Long-term exposure to particulate matter contributes to the risk of developing diseases such as cardiovascular disease and lung cancer. The main sources of PM2.5 pollution are industrial processes, combustion in residential, public, commercial, and agricultural sectors and road transport.</p>
-<p>This indicator is an assessment of clean air (reporting the condition of the atmosphere as an asset). The indicator is determined by calculating the annual population-weighted mean concentration of PM2.5 in the air, assessed as background concentrations per 1 kilometre square. Background concentrations are estimated based on a combination of monitored and modelled data. The population-weighted mean concentration is used as a measure of the impact of PM2.5 on the health of the total population. Greater weighting is given to concentrations of PM2.5 in urban areas to reflect the higher population density as those concentrations will affect a greater number of people. In addition, people living in urban areas are generally exposed to greater levels of PM2.5 than those living in rural areas.</p>
+        <p>This indicator is an assessment of clean air (reporting the condition of the atmosphere as an asset). It measures the level of people’s long-term exposure to airborne fine particulate matter (PM2.5). Long-term exposure to particulate matter contributes to the risk of developing diseases such as cardiovascular disease and lung cancer. The main sources of PM2.5 pollution are combustion in the residential, public and commercial sectors; industrial processes; road transport and agriculture.</p>
+<p>The <a href="https://www.legislation.gov.uk/uksi/2023/96/contents/made">Environmental Targets (fine particulate matter) (England) Regulations 2023</a> set 2 targets for PM2.5 in England to be met by the end of 2040. One, is a minimum level of reduction in the average concentration people are exposed to. The other, is a maximum concentration level which should not be exceeded. Both targets are based on measurements of PM2.5 concentrations taken at national monitoring sites throughout England. Interim targets for 2028 were published in the <a href="https://www.gov.uk/government/publications/environmental-improvement-plan">Environmental Improvement Plan 2023</a>.</p>
     </section>
     <section class="l-column l-column--small-space">
         <h2>Readiness and links to data</h2>
-        <p>Data on PM2.5 are published annually at <a href="https://uk-air.defra.gov.uk/data/pcm-data">UK Air Information Resource, Modelled background pollution data</a>. These data differ from the monitoring data used to assess compliance with the PM2.5 targets (The Environmental Targets (Fine Particulate Matter) (England) Regulations 2023 (legislation.gov.uk)). The A3 indicator is under review and may be updated to better align with the new targets. In the meantime, data on target progress can be found on the <a href="https://uk-air.defra.gov.uk/pm25targets/progress">PM2.5 Targets (PERT and AMCT)</a> page of the UK Air website.</p>
+        <p>This indicator has been revised in the 2025 update of the Outcome Indicator Framework. The new data, presented here for the first time in 2025, are published annually on the <a href="https://uk-air.defra.gov.uk/pm25targets/progress">PM2.5 Targets (PERT and AMCT)</a> page of the <a href="https://uk-air.defra.gov.uk/">UK-AIR website</a>. These data are used to assess compliance with the Population Exposure Reduction Target (PERT) and the Annual Mean Concentration Target (AMCT) for PM2.5, although the assessments used to monitor progress towards the former (see <a href="https://uk-air.defra.gov.uk/pm25targets/calculation">Methodology for calculating progress towards the PM2.5 targets</a>) differ from the trend assessments reported in this indicator.</p>
+<p>The PM2.5 data used to update this indicator in previous years up to and including 2024, continue to be published annually at <a href="https://uk-air.defra.gov.uk/data/pcm-data">UK Air Information Resource, Modelled background pollution data</a>.</p>
     </section>
+    
+        <section class="l-column l-column--small-space">
+            <h2>Notes on indicator</h2>
+            <p>Population exposure to PM2.5 is represented by the population exposure indicator (A3i), calculated using measurements of annual mean concentrations of PM2.5 at representative <a href="https://uk-air.defra.gov.uk/networks/network-info?view=aurn">Automatic Urban and Rural Network (AURN)</a> monitoring sites. The monitoring sites are spread geographically across England, they reflect population density and are located in areas where concentrations are typical of where most people in that region live. Monitoring sites characterised as ‘urban background’ (and, in some instances, ‘suburban background’) meet these criteria. Other considerations, such as representing areas of deprivation, are also taken into account when establishing new sites. This enables the indicator to account for most of the population living in densely populated urban areas, where concentrations are likely to be greatest.</p>
+<p>The calculation approach (see <a href="https://uk-air.defra.gov.uk/pm25targets/calculation">Methodology for calculating progress towards the PM2.5 targets</a>) incorporates a statistical method recommended by experts to account for the large change in the number of PM2.5 monitoring sites expected as a result of the ongoing expansion of the AURN. A decrease in the population exposure indicator represents a reduction in the risk to the nation’s health from PM2.5.</p>
+<p>The annual mean concentration of PM2.5 (A3ii) indicates the concentration at a particular location, and it varies from year-to-year due to a range of factors such as weather conditions, as well as pollutant emissions. A reduction in the maximum annual mean concentration measured and a reduction in the number of locations above the annual mean concentration target shows that concentrations are reducing in the areas where they are the highest.</p>
+        </section>
     
     
         <section class="l-column l-column--small-space">
@@ -300,15 +308,30 @@
             
                 
     
-    <button id="a3-component-tab" type="button" role="tab" aria-selected="true" aria-controls="a3-component-tabpanel" class="c-indicator-component-tab" onclick="window.dispatchEvent(new Event('resize'));">
-        <h3 id="a3-component-title" class="l-row l-row--xx-small-space l-row--vertically-centred | c-indicator-component-tab__text">
+    <button id="a3i-component-tab" type="button" role="tab" aria-selected="true" aria-controls="a3i-component-tabpanel" class="c-indicator-component-tab" onclick="window.dispatchEvent(new Event('resize'));">
+        <h3 id="a3i-component-title" class="l-row l-row--xx-small-space l-row--vertically-centred | c-indicator-component-tab__text">
             <span class="c-indicator-component-tab__radio-button">
                 <svg class="c-radio-button" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                     <circle class="c-radio-button__outer-circle" cx="50" cy="50" r="30"/>
                     <circle class="c-radio-button__inner-circle" cx="50" cy="50" r="20"/>
                 </svg>
             </span>
-            A3: Concentrations of fine particulate matter (PM2.5) in England, 2011 to 2022
+            A3i: Population exposure to fine particulate matter (PM2.5) in England, 2018 to 2023
+        </h3>
+    </button>
+
+            
+                
+    
+    <button id="a3ii-component-tab" type="button" role="tab" aria-selected="true" aria-controls="a3ii-component-tabpanel" class="c-indicator-component-tab" onclick="window.dispatchEvent(new Event('resize'));">
+        <h3 id="a3ii-component-title" class="l-row l-row--xx-small-space l-row--vertically-centred | c-indicator-component-tab__text">
+            <span class="c-indicator-component-tab__radio-button">
+                <svg class="c-radio-button" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="c-radio-button__outer-circle" cx="50" cy="50" r="30"/>
+                    <circle class="c-radio-button__inner-circle" cx="50" cy="50" r="20"/>
+                </svg>
+            </span>
+            A3ii: Concentrations of fine particulate matter (PM2.5) at AURN monitoring sites in England, 2011 to 2023
         </h3>
     </button>
 
@@ -317,7 +340,7 @@
             
                 
     
-    <div id="a3-component-tabpanel" role="tabpanel" tabindex="0" aria-labelledby="a3-component-tab" class="l-column l-column--small-space | c-indicator-component-tabpanel">
+    <div id="a3i-component-tabpanel" role="tabpanel" tabindex="0" aria-labelledby="a3i-component-tab" class="l-column l-column--small-space | c-indicator-component-tabpanel">
         
         
     <section class="l-column l-column--no-space">
@@ -327,13 +350,13 @@
             class="l-equal-width-columns l-equal-width-columns--no-space">
             
             
-    <button id="a3-figure-tab" type="button" role="tab" aria-selected="true" data-tabgroup="a3" aria-controls="a3-figure-tabpanel" class="c-indicator-component-visualisation-tab">
+    <button id="a3i-figure-tab" type="button" role="tab" aria-selected="true" data-tabgroup="a3i" aria-controls="a3i-figure-tabpanel" class="c-indicator-component-visualisation-tab">
         <span class="c-indicator-component-visualisation-tab__text">Figure</span>
     </button>
 
             
             
-    <button id="a3-table-tab" type="button" role="tab" aria-selected="true" data-tabgroup="a3" aria-controls="a3-table-tabpanel" class="c-indicator-component-visualisation-tab">
+    <button id="a3i-table-tab" type="button" role="tab" aria-selected="true" data-tabgroup="a3i" aria-controls="a3i-table-tabpanel" class="c-indicator-component-visualisation-tab">
         <span class="c-indicator-component-visualisation-tab__text">Table</span>
     </button>
 
@@ -342,13 +365,13 @@
         <div class="l-column | c-indicator-component-visualisation-tabpanels">
             
             
-    <div id="a3-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="a3" aria-labelledby="a3-figure-tab" class="c-indicator-component-visualisation-tabpanel">
+    <div id="a3i-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="a3i" aria-labelledby="a3i-figure-tab" class="c-indicator-component-visualisation-tabpanel">
         <section class="l-column l-column--small-space">
             <h4>Figure
-                A3: Concentrations of fine particulate matter (PM2.5) in England, 2011 to 2022</h4>
-            <div id="a3-figure-container" class="c-visualisation-container">
+                A3i: Population exposure to fine particulate matter (PM2.5) in England, 2018 to 2023</h4>
+            <div id="a3i-figure-container" class="c-visualisation-container">
                 
-                    <img src='a3.svg' />
+                    <img src='a3i.svg' />
                 
             </div>
             
@@ -371,20 +394,22 @@
         
         
             <dt class="c-indicator-component-metadata__key">Unit of Measurement</dt>
-            <dd>Population-weighted annual mean (μg/m3)</dd>
+            <dd>Population exposure indicator (μg/m3)</dd>
         
         
             <dt class="c-indicator-component-metadata__key">Footnotes</dt>
-            <dd><p>PM2.5 annual mean concentrations are estimated annually for every square kilometre of the UK using the Pollution Climate Mapping (PCM) model. The geographical distribution of the UK population is then joined to the estimated concentrations to estimate the annual mean concentration of PM2.5, weighted by where the population lives. This enables us to account for most of the population living in densely populated urban areas, where concentrations are likely to be greatest.</p></dd>
+            <dd><p>Each datapoint in Figure A3i is a 3-year average to reduce interannual variability due to factors such as weather and other temporary external events and to provide a more stable trend. Datapoints represent the final year in the 3-year moving average time periods, therefore, the 2023 data point, for example, includes data from 2021 to 2023.</p>
+<p></br>The number of AURN monitoring sites meeting the required data capture threshold for inclusion in the population exposure indicator changes from year to year. Overall however, the number of sites has increased over the time period covered by this indicator, and it will continue to do so over the next few years as the monitoring network expands.</p>
+<p></br>Some PM2.5 is naturally produced, for example, from sea salt or dust, so it is not possible for the population exposure indicator for PM2.5 to reach zero.</p></dd>
         
     </dl>
 
             <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
                 
-                    <a class="c-button" href="a3.csv">Download  CSV</a>
+                    <a class="c-button" href="a3i.csv">Download  CSV</a>
                 
                 
-                    <a class="c-button" href="a3.svg" download=".svg">Download Figure Image</a>
+                    <a class="c-button" href="a3i.svg" download=".svg">Download Figure Image</a>
                 
             </div>
         </section>
@@ -392,13 +417,13 @@
 
             
             
-    <div id="a3-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="a3" aria-labelledby="a3-table-tab" class="c-indicator-component-visualisation-tabpanel">
+    <div id="a3i-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="a3i" aria-labelledby="a3i-table-tab" class="c-indicator-component-visualisation-tabpanel">
         <section class="l-column l-column--small-space">
             <h4>Table
-                A3: Concentrations of fine particulate matter (PM2.5) in England, 2011 to 2022</h4>
-            <div id="a3-table-container" class="c-visualisation-container">
+                A3i: Population exposure to fine particulate matter (PM2.5) in England, 2018 to 2023</h4>
+            <div id="a3i-table-container" class="c-visualisation-container">
                 
-                    <table class="dataframe" id="a3-table">
+                    <table class="dataframe" id="a3i-table">
   <thead>
     <tr style="text-align: right;">
       <th>Year</th>
@@ -407,52 +432,28 @@
   </thead>
   <tbody>
     <tr>
-      <td>2011</td>
-      <td>12.09</td>
-    </tr>
-    <tr>
-      <td>2012</td>
-      <td>11.11</td>
-    </tr>
-    <tr>
-      <td>2013</td>
-      <td>11.52</td>
-    </tr>
-    <tr>
-      <td>2014</td>
-      <td>11.17</td>
-    </tr>
-    <tr>
-      <td>2015</td>
-      <td>9.42</td>
-    </tr>
-    <tr>
-      <td>2016</td>
-      <td>9.99</td>
-    </tr>
-    <tr>
-      <td>2017</td>
-      <td>9.41</td>
-    </tr>
-    <tr>
       <td>2018</td>
-      <td>9.52</td>
+      <td>10.09</td>
     </tr>
     <tr>
       <td>2019</td>
-      <td>9.57</td>
+      <td>10.02</td>
     </tr>
     <tr>
       <td>2020</td>
-      <td>7.54</td>
+      <td>9.41</td>
     </tr>
     <tr>
       <td>2021</td>
-      <td>7.35</td>
+      <td>8.68</td>
     </tr>
     <tr>
       <td>2022</td>
-      <td>7.79</td>
+      <td>8.11</td>
+    </tr>
+    <tr>
+      <td>2023</td>
+      <td>7.86</td>
     </tr>
   </tbody>
 </table>
@@ -478,17 +479,19 @@
         
         
             <dt class="c-indicator-component-metadata__key">Unit of Measurement</dt>
-            <dd>Population-weighted annual mean (μg/m3)</dd>
+            <dd>Population exposure indicator (μg/m3)</dd>
         
         
             <dt class="c-indicator-component-metadata__key">Footnotes</dt>
-            <dd><p>PM2.5 annual mean concentrations are estimated annually for every square kilometre of the UK using the Pollution Climate Mapping (PCM) model. The geographical distribution of the UK population is then joined to the estimated concentrations to estimate the annual mean concentration of PM2.5, weighted by where the population lives. This enables us to account for most of the population living in densely populated urban areas, where concentrations are likely to be greatest.</p></dd>
+            <dd><p>Each datapoint in Figure A3i is a 3-year average to reduce interannual variability due to factors such as weather and other temporary external events and to provide a more stable trend. Datapoints represent the final year in the 3-year moving average time periods, therefore, the 2023 data point, for example, includes data from 2021 to 2023.</p>
+<p></br>The number of AURN monitoring sites meeting the required data capture threshold for inclusion in the population exposure indicator changes from year to year. Overall however, the number of sites has increased over the time period covered by this indicator, and it will continue to do so over the next few years as the monitoring network expands.</p>
+<p></br>Some PM2.5 is naturally produced, for example, from sea salt or dust, so it is not possible for the population exposure indicator for PM2.5 to reach zero.</p></dd>
         
     </dl>
 
             <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
                 
-                    <a class="c-button" href="a3.csv">Download  CSV</a>
+                    <a class="c-button" href="a3i.csv">Download  CSV</a>
                 
                 
             </div>
@@ -501,17 +504,17 @@
 
         
         <section class="l-column l-column--small-space">
-            <h4>Trend description for A3</h4>
-            <p>Population-weighted annual mean concentrations of PM2.5 in England have fallen from 12.1 micrograms per cubic metre (μg per m3) in 2011 to 7.8 μg per m3 in 2022, a decrease of 35.6% over the latest 11 years for which data are available.</p>
+            <h4>Trend description for A3i</h4>
+            <p>The population exposure indicator for PM2.5 in England has fallen from 10.1 micrograms per cubic metre (μg per m3) in 2018 to 7.9 μg per m3 in 2023, a decrease of 2.2 μg per m3, or 22.1% over the latest 5 years for which data are available.</p>
         </section>
         
             <h2>Assessment of change</h2>
-            <p>Concentrations of PM2.5 have shown a decrease (improvement) over the short and medium-term assessment periods. The time series is not yet long enough to make a trend assessment over the long-term time period. This assessment does not consider whether these improvements are on a sufficient scale for meeting any targets. Assessment of progress towards the Environment Act PM2.5 targets is based on measured data only and information on this can be found on the <a href="https://uk-air.defra.gov.uk/">UK-Air website</a>.</p>
-<p>Change since 2018 has also been assessed. A decrease (improvement) in concentrations of fine particulate matter was also observed since 2018. However, this result is based on only 5 data points so should be considered as indicative and not evidence of a clear trend. Some variance is also expected from year to year as concentrations of PM2.5 can be affected by weather conditions and a range of other variables.</p>
+            <p>Concentrations of PM2.5 have shown a decrease (improvement) over the short-term assessment period. The time series is not yet long enough to make a trend assessment over the medium and long-term time periods. This assessment does not consider whether these improvements are on a sufficient scale for meeting any targets; however, information on how the data in this indicator are used to measure progress towards the Environment Act PM2.5 targets can be found on the <a href="https://uk-air.defra.gov.uk/">UK-Air website</a>.</p>
+<p>Change since 2018 has also been assessed, and in this instance, both the baseline year and the results for this assessment (an improvement) are the same as those for the short-term assessment.</p>
 <p>Further information on this assessment, along with details on the methodology, is provided in the <a href="/assessment/#background">Assessment background</a> page. Summaries by 25 Year Environment Plan goal and information on indicator links are presented in the <a href="/assessment/#results">Assessment results</a> pages.</p>
             
-                <h4>Table A3: Assessment of change</h4>
-                <table class="dataframe" id="a3-assessment-table">
+                <h4>Table A3i: Assessment of change</h4>
+                <table class="dataframe" id="a3i-assessment-table">
   <thead>
     <tr style="text-align: right;">
       <th>Component</th>
@@ -524,23 +527,23 @@
   </thead>
   <tbody>
     <tr>
-      <td>A3</td>
+      <td>A3i</td>
       <td>Short term</td>
-      <td>2016 to 2021</td>
-      <td>-18.67</td>
-      <td>Loess</td>
+      <td>2018 to 2023</td>
+      <td>-22.10</td>
+      <td>Moving average data</td>
       <td>Improvement</td>
     </tr>
     <tr>
-      <td>A3</td>
+      <td>A3i</td>
       <td>Medium term</td>
-      <td>2011 to 2021</td>
-      <td>-34.68</td>
-      <td>Loess</td>
-      <td>Improvement</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>Not assessed</td>
     </tr>
     <tr>
-      <td>A3</td>
+      <td>A3i</td>
       <td>Long term</td>
       <td>N/A</td>
       <td>N/A</td>
@@ -550,7 +553,507 @@
   </tbody>
 </table>
             
-            <p>Note that assessment categories were assigned based on smoothed data, so percentage change figures in Table A3 may differ from unsmoothed values quoted elsewhere. Percentage change refers to the difference seen from the first to last year in the specified date range.</p>
+            <p>Note that percentage change refers to the difference seen from the first to last year in the specified date range. Assessment results presented here may differ from those used to monitor progress towards the PERT (see <a href="https://uk-air.defra.gov.uk/pm25targets/calculation">PM2.5 Targets (PERT and AMCT)</a>) because the latter accounts for changes in the number of monitoring sites over time, whereas the former does not.</p>
+        
+    </div>
+
+            
+                
+    
+    <div id="a3ii-component-tabpanel" role="tabpanel" tabindex="0" aria-labelledby="a3ii-component-tab" class="l-column l-column--small-space | c-indicator-component-tabpanel">
+        
+        
+    <section class="l-column l-column--no-space">
+        <div
+            role="tablist"
+            aria-label="Data visualisation options"
+            class="l-equal-width-columns l-equal-width-columns--no-space">
+            
+            
+    <button id="a3ii-figure-tab" type="button" role="tab" aria-selected="true" data-tabgroup="a3ii" aria-controls="a3ii-figure-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Figure</span>
+    </button>
+
+            
+            
+    <button id="a3ii-table-tab" type="button" role="tab" aria-selected="true" data-tabgroup="a3ii" aria-controls="a3ii-table-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Table</span>
+    </button>
+
+            
+        </div>
+        <div class="l-column | c-indicator-component-visualisation-tabpanels">
+            
+            
+    <div id="a3ii-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="a3ii" aria-labelledby="a3ii-figure-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Figure
+                A3ii: Concentrations of fine particulate matter (PM2.5) at AURN monitoring sites in England, 2011 to 2023</h4>
+            <div id="a3ii-figure-container" class="c-visualisation-container">
+                
+                    <img src='a3ii.svg' />
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Department for Environment, Food &amp; Rural Affairs
+                
+                
+                    
+                
+                </dd>
+            
+        
+        
+            <dt class="c-indicator-component-metadata__key">Unit of Measurement</dt>
+            <dd>Annual mean concentration (μg/m3)</dd>
+        
+        
+            <dt class="c-indicator-component-metadata__key">Footnotes</dt>
+            <dd><p>Figure A3ii shows the distribution of annual mean PM2.5 concentrations at English AURN monitoring sites. Each individual scatter marker corresponds to an individual year and integer-rounded annual mean PM2.5 concentration, with the size of the marker corresponding to the number of AMCT sites it represents.</p>
+<p></br>There were 31 AURN monitoring sites across England that met the required data capture threshold for inclusion in 2018 and 74 sites that met the threshold in 2023. The number of AURN sites will continue to increase over the next few years as the monitoring network is expanded. The location of these sites (for example, urban hotspots versus rural) and the timing of their introduction will have an effect on the distribution of the data in Figure A3ii in future years.</p></dd>
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="a3ii.csv">Download  CSV</a>
+                
+                
+                    <a class="c-button" href="a3ii.svg" download=".svg">Download Figure Image</a>
+                
+            </div>
+        </section>
+    </div>
+
+            
+            
+    <div id="a3ii-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="a3ii" aria-labelledby="a3ii-table-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Table
+                A3ii: Concentrations of fine particulate matter (PM2.5) at AURN monitoring sites in England, 2011 to 2023</h4>
+            <div id="a3ii-table-container" class="c-visualisation-container">
+                
+                    <table class="dataframe" id="a3ii-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Year</th>
+      <th>4 µg/m3</th>
+      <th>5 µg/m3</th>
+      <th>6 µg/m3</th>
+      <th>7 µg/m3</th>
+      <th>8 µg/m3</th>
+      <th>9 µg/m3</th>
+      <th>10 µg/m3</th>
+      <th>11 µg/m3</th>
+      <th>12 µg/m3</th>
+      <th>13 µg/m3</th>
+      <th>14 µg/m3</th>
+      <th>15 µg/m3</th>
+      <th>16 µg/m3</th>
+      <th>17 µg/m3</th>
+      <th>18 µg/m3</th>
+      <th>19 µg/m3</th>
+      <th>20 µg/m3</th>
+      <th>21 µg/m3</th>
+      <th>24 µg/m3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2009</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>3</td>
+      <td>1</td>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+      <td>8</td>
+      <td>2</td>
+      <td>1</td>
+      <td>-</td>
+      <td>1</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>4</td>
+      <td>3</td>
+      <td>3</td>
+      <td>1</td>
+      <td>5</td>
+      <td>7</td>
+      <td>4</td>
+      <td>4</td>
+      <td>4</td>
+      <td>-</td>
+      <td>1</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>2</td>
+      <td>2</td>
+      <td>5</td>
+      <td>3</td>
+      <td>6</td>
+      <td>3</td>
+      <td>10</td>
+      <td>3</td>
+      <td>-</td>
+      <td>2</td>
+      <td>-</td>
+      <td>-</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>1</td>
+      <td>4</td>
+      <td>8</td>
+      <td>5</td>
+      <td>8</td>
+      <td>6</td>
+      <td>4</td>
+      <td>5</td>
+      <td>2</td>
+      <td>1</td>
+      <td>-</td>
+      <td>-</td>
+      <td>1</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>4</td>
+      <td>4</td>
+      <td>5</td>
+      <td>8</td>
+      <td>8</td>
+      <td>6</td>
+      <td>4</td>
+      <td>3</td>
+      <td>1</td>
+      <td>1</td>
+      <td>-</td>
+      <td>1</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>1</td>
+      <td>2</td>
+      <td>2</td>
+      <td>5</td>
+      <td>8</td>
+      <td>7</td>
+      <td>7</td>
+      <td>3</td>
+      <td>1</td>
+      <td>-</td>
+      <td>1</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>5</td>
+      <td>1</td>
+      <td>6</td>
+      <td>16</td>
+      <td>11</td>
+      <td>9</td>
+      <td>1</td>
+      <td>-</td>
+      <td>1</td>
+      <td>1</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>2</td>
+      <td>3</td>
+      <td>5</td>
+      <td>13</td>
+      <td>10</td>
+      <td>11</td>
+      <td>2</td>
+      <td>-</td>
+      <td>1</td>
+      <td>1</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>6</td>
+      <td>5</td>
+      <td>11</td>
+      <td>8</td>
+      <td>13</td>
+      <td>4</td>
+      <td>-</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>1</td>
+      <td>3</td>
+      <td>13</td>
+      <td>14</td>
+      <td>9</td>
+      <td>6</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>2019</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>6</td>
+      <td>14</td>
+      <td>14</td>
+      <td>13</td>
+      <td>7</td>
+      <td>1</td>
+      <td>2</td>
+      <td>1</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>2020</td>
+      <td>-</td>
+      <td>-</td>
+      <td>1</td>
+      <td>11</td>
+      <td>25</td>
+      <td>11</td>
+      <td>6</td>
+      <td>2</td>
+      <td>1</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>2021</td>
+      <td>-</td>
+      <td>-</td>
+      <td>1</td>
+      <td>16</td>
+      <td>17</td>
+      <td>11</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>2022</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>6</td>
+      <td>19</td>
+      <td>18</td>
+      <td>6</td>
+      <td>4</td>
+      <td>2</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>2023</td>
+      <td>1</td>
+      <td>1</td>
+      <td>9</td>
+      <td>28</td>
+      <td>24</td>
+      <td>6</td>
+      <td>4</td>
+      <td>-</td>
+      <td>1</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table>
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Department for Environment, Food &amp; Rural Affairs
+                
+                
+                    
+                
+                </dd>
+            
+        
+        
+            <dt class="c-indicator-component-metadata__key">Unit of Measurement</dt>
+            <dd>Annual mean concentration (μg/m3)</dd>
+        
+        
+            <dt class="c-indicator-component-metadata__key">Footnotes</dt>
+            <dd><p>Figure A3ii shows the distribution of annual mean PM2.5 concentrations at English AURN monitoring sites. Each individual scatter marker corresponds to an individual year and integer-rounded annual mean PM2.5 concentration, with the size of the marker corresponding to the number of AMCT sites it represents.</p>
+<p></br>There were 31 AURN monitoring sites across England that met the required data capture threshold for inclusion in 2018 and 74 sites that met the threshold in 2023. The number of AURN sites will continue to increase over the next few years as the monitoring network is expanded. The location of these sites (for example, urban hotspots versus rural) and the timing of their introduction will have an effect on the distribution of the data in Figure A3ii in future years.</p></dd>
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="a3ii.csv">Download  CSV</a>
+                
+                
+            </div>
+        </section>
+    </div>
+
+            
+        </div>
+    </section>
+
+        
+        <section class="l-column l-column--small-space">
+            <h4>Trend description for A3ii</h4>
+            <p>Trends for each monitoring site vary, but in general concentrations have been decreasing at the majority of sites. In 2009, the highest annual average concentration of PM2.5 at an English AURN site that met the required data capture threshold was 18 micrograms per cubic metre (µg per m3) and 13% of sites (4 individual AURN sites) were equal to or below the 10 µg per m3 annual mean concentration target. By 2023, the highest measured annual mean concentration of PM2.5 at an English AURN site had fallen to 12 µg per m3 and 99% of sites (73 individual sites) were equal to or below the target. This is equivalent to a 6 µg per m3 (33%) reduction in the highest recorded concentrations of PM2.5 over the 14 years for which data are available. </p>
+        </section>
+        
+            <h2>Assessment of change</h2>
+            <p>No assessment of change was undertaken for this indicator component as it is based on the same underlying data that are already assessed in A3i.</p>
+            
+            
         
     </div>
 
@@ -666,7 +1169,7 @@
                 <dt class="c-indicator-metadata__key">Last Updated</dt>
             
             
-                <dd class="c-indicator-metadata__value">2024</dd>
+                <dd class="c-indicator-metadata__value">2025</dd>
               
             </div>
         
@@ -677,7 +1180,7 @@
                 <dt class="c-indicator-metadata__key">Latest Data</dt>
             
             
-                <dd class="c-indicator-metadata__value">2022</dd>
+                <dd class="c-indicator-metadata__value">2023</dd>
               
             </div>
         
@@ -790,15 +1293,35 @@
         
         
             initialiseTableVisualisations(
-                "a3",
+                "a3i",
                 {"layout":"fitColumns","pagination":true,"paginationSize":13,"nestedFieldSeparator":"|","columnDefaults":{"hozAlign":"right","headerHozAlign":"right"},"columns":[{"title":"Year","hozAlign":"left","headerHozAlign":"left"}]}
             )
         
         
             
                 initialiseFigureVisualisations(
-                    "a3",
-                    {"data":[{"alignmentgroup":"True","hovertemplate":"%{y:.2f}","legendgroup":"","marker":{"color":"#12436D","pattern":{"shape":""}},"name":"","offsetgroup":"","orientation":"v","showlegend":false,"textposition":"auto","x":[2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022],"xaxis":"x","y":[12.0891,11.1081,11.5227,11.168,9.4215,9.9932,9.4113,9.5246,9.5741,7.5367,7.3539,7.7868],"yaxis":"y","type":"bar"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":""},"dtick":1,"automargin":true},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Population-weighted annual mean (\u00b5g\u002fm3)"},"showgrid":true,"dtick":2,"automargin":true,"range":[0,13]},"legend":{"tracegroupgap":0,"title":{"text":""},"yanchor":"bottom","y":-0.45,"xanchor":"center","x":0.5,"orientation":"h"},"margin":{"t":60},"barmode":"relative","hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true,"hovermode":"x unified"}},
+                    "a3i",
+                    {"data":[{"alignmentgroup":"True","hovertemplate":"%{y:.2f}","legendgroup":"","marker":{"color":"#12436D","pattern":{"shape":""}},"name":"","offsetgroup":"","orientation":"v","showlegend":false,"textposition":"auto","x":[2018,2019,2020,2021,2022,2023],"xaxis":"x","y":[10.09,10.02,9.41,8.68,8.11,7.86],"yaxis":"y","type":"bar"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":""},"dtick":1,"automargin":true},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Population exposure indicator (\u00b5g\u002fm3)"},"showgrid":true,"dtick":2,"automargin":true,"range":[0,12]},"legend":{"tracegroupgap":0,"title":{"text":""},"yanchor":"bottom","y":-0.45,"xanchor":"center","x":0.5,"orientation":"h"},"margin":{"t":60},"barmode":"relative","hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true,"hovermode":"x unified"}},
+                    {"displayModeBar":false,"responsive":true}
+                )
+            
+        
+            
+        
+
+    
+        
+        
+            initialiseTableVisualisations(
+                "a3ii",
+                {"layout":"fitColumns","pagination":true,"paginationSize":13,"nestedFieldSeparator":"|","columnDefaults":{"hozAlign":"right","headerHozAlign":"right"},"columns":[{"title":"Year","hozAlign":"left","headerHozAlign":"left"}]}
+            )
+        
+        
+            
+                initialiseFigureVisualisations(
+                    "a3ii",
+                    {"data":[{"customdata":[[3],[1],[4],[5],[6],[8],[2],[1],[1],[4],[3],[3],[1],[5],[7],[4],[4],[4],[1],[2],[2],[5],[3],[6],[3],[10],[3],[2],[1],[1],[4],[8],[5],[8],[6],[4],[5],[2],[1],[1],[4],[4],[5],[8],[8],[6],[4],[3],[1],[1],[1],[1],[2],[2],[5],[8],[7],[7],[3],[1],[1],[5],[1],[6],[16],[11],[9],[1],[1],[1],[2],[3],[5],[13],[10],[11],[2],[1],[1],[6],[5],[11],[8],[13],[4],[1],[1],[1],[1],[3],[13],[14],[9],[6],[1],[1],[1],[1],[6],[14],[14],[13],[7],[1],[2],[1],[1],[11],[25],[11],[6],[2],[1],[1],[16],[17],[11],[2],[2],[2],[1],[6],[19],[18],[6],[4],[2],[1],[1],[9],[28],[24],[6],[4],[1]],"hovertemplate":"%{x}\u003c\u002fb\u003e\u003cbr\u003eAnnual mean: %{y:.0f}\u003cextra\u003e\u003c\u002fextra\u003e\u003c\u002fb\u003e\u003cbr\u003eNumber of sites: %{marker.size}","legendgroup":"","marker":{"color":"#12436D","size":[3,1,4,5,6,8,2,1,1,4,3,3,1,5,7,4,4,4,1,2,2,5,3,6,3,10,3,2,1,1,4,8,5,8,6,4,5,2,1,1,4,4,5,8,8,6,4,3,1,1,1,1,2,2,5,8,7,7,3,1,1,5,1,6,16,11,9,1,1,1,2,3,5,13,10,11,2,1,1,6,5,11,8,13,4,1,1,1,1,3,13,14,9,6,1,1,1,1,6,14,14,13,7,1,2,1,1,11,25,11,6,2,1,1,16,17,11,2,2,2,1,6,19,18,6,4,2,1,1,9,28,24,6,4,1],"sizemode":"area","sizeref":0.07,"symbol":"circle"},"mode":"markers","name":"","orientation":"v","showlegend":false,"x":[2009,2009,2009,2009,2009,2009,2009,2009,2009,2010,2010,2010,2010,2010,2010,2010,2010,2010,2010,2011,2011,2011,2011,2011,2011,2011,2011,2011,2011,2012,2012,2012,2012,2012,2012,2012,2012,2012,2012,2012,2013,2013,2013,2013,2013,2013,2013,2013,2013,2013,2013,2014,2014,2014,2014,2014,2014,2014,2014,2014,2014,2015,2015,2015,2015,2015,2015,2015,2015,2015,2016,2016,2016,2016,2016,2016,2016,2016,2016,2017,2017,2017,2017,2017,2017,2017,2017,2017,2018,2018,2018,2018,2018,2018,2018,2018,2018,2018,2019,2019,2019,2019,2019,2019,2019,2019,2020,2020,2020,2020,2020,2020,2020,2021,2021,2021,2021,2021,2021,2021,2021,2022,2022,2022,2022,2022,2022,2023,2023,2023,2023,2023,2023,2023,2023],"xaxis":"x","y":[9,10,11,12,13,14,15,16,18,9,10,11,12,13,14,15,16,17,19,10,11,12,13,14,15,16,17,19,24,9,10,11,12,13,14,15,16,17,18,21,9,10,11,12,13,14,15,16,17,18,20,8,9,10,11,12,13,14,15,16,18,7,8,9,10,11,12,13,15,16,7,8,9,10,11,12,13,15,16,7,8,9,10,11,12,14,15,16,7,8,9,10,11,12,13,14,15,16,8,9,10,11,12,13,14,15,6,7,8,9,10,11,12,6,7,8,9,10,11,12,13,7,8,9,10,11,12,4,5,6,7,8,9,10,12],"yaxis":"y","type":"scatter"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":""},"dtick":1,"automargin":true,"range":[2008.5,2023.5]},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Annual mean (\u00b5g\u002fm3)"},"showgrid":true,"dtick":2,"automargin":true,"range":[0,25]},"legend":{"tracegroupgap":0,"itemsizing":"constant","title":{"text":""},"yanchor":"bottom","y":-0.45,"xanchor":"center","x":0.5,"orientation":"h"},"margin":{"t":60},"hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true}},
                     {"displayModeBar":false,"responsive":true}
                 )
             
@@ -811,7 +1334,20 @@
 
     
         
-        AssessmentTable = new Tabulator("#a3-assessment-table", {
+        AssessmentTable = new Tabulator("#a3i-assessment-table", {
+        layout: "fitDataStretch",
+        pagination: false,
+        columns: [
+            {title: "Component"},
+            {title: "Subcomponent"},
+            {title: "Period"},
+            {title: "Date range"},
+            {title: "Percentage change", hozAlign: "right"},
+        ]
+        });
+    
+        
+        AssessmentTable = new Tabulator("#a3ii-assessment-table", {
         layout: "fitDataStretch",
         pagination: false,
         columns: [

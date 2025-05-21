@@ -1,0 +1,116 @@
+{
+    "schema:name": "Naturalness scores of lakes and pond ecosystems in England, 2022",
+    "url": "b6ii.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "NE",
+                "schema:name": "Natural England",
+                "schema:sameAs": "https://ror.org/00r66pz14",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:headline": "Naturalness scores of water and wetland ecosystems"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "1970-01-01T00:33:42+00:00",
+    "schema:version": "2025-01-30",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Naturalness scores of water and wetland ecosystems",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Naturalness classifications and scores are on a scale of 1 to 5, with 1 being as close to natural as possible and 5 being subject to the greatest degree of artificial modification, each classification is derived from the score attributed to it, a score less than 1.5 is Class 1, a score of 1.5 to 2.5 is Class 2, a score of 2.5 to 3.5 is Class 3, a score of 3.5 to 4.5 is Class 4 and any score greater than 4.5 is Class 5. Combined Classification is an average of the classifications for the various naturalness components. Cross-cutting components are classified as attributes that can reflect multiple naturalness components (hydrological, physical, chemical and biological).",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Biological|Hydrological|Physical|Chemical|Cross-cutting",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "Naturalness component",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Component of naturalness measured"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Large rivers|Headwater streams|Lakes|Ponds|Bogs|Fens|Estuaries|Coastal",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "habitat_type",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Type of habitat being measured"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Class 1|Class 2|Class 3|Class 4|Class 5",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "variable",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "percentage of habitat in the different classes"
+            },
+            {
+                "datatype": {
+                    "base": "number",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "value",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Score or class"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

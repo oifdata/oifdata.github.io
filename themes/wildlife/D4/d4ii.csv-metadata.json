@@ -1,5 +1,5 @@
 {
-    "schema:name": "Long-term and short-term changes in the relative abundance of individual species in England, 1970 to 2022",
+    "schema:name": "Long-term and short-term changes in the relative abundance of individual species in England, 1970 to 2023",
     "url": "d4ii.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -10,7 +10,7 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:description": "<div class=\"govspeak\"><p>Monitoring the abundance of species is important for our understanding of the state of the wider environment, particularly as measures of species abundance are more sensitive to change than other aspects of species populations. This release covers two measures of species abundance in England; the first which contains species for which we have suitable data (all-species), the second for only those species which appear on the priority species list for England. When fully developed, the all-species abundance measure will be used to track the government’s progress towards meeting the statutory target of halting the decline in species abundance by 2030, and then reversing these declines by 2042.</p>\n\n<p>Both indicators have been compiled by the UK Centre for Ecology and Hydrology (UKCEH), in conjunction with data providers from well-established volunteer-based recording schemes, many of which are run through partnerships between government bodies, NGOs and research organisations, or through statutory monitoring schemes.</p>\n\n<p>As this is an official statistic in development, we welcome feedback on the novel methods used in the development of this indicator and the presentation of the data. To give feedback, email the Environmental Statistics and Reporting team at <a href=\"mailto:enviro.statistics@defra.gov.uk\" class=\"govuk-link\">enviro.statistics@defra.gov.uk</a>.</p>\n</div>",
+            "schema:description": "<div class=\"govspeak\"><p>Monitoring the abundance of species is important for our understanding of the state of the wider environment, particularly as measures of species abundance are more sensitive to change than other aspects of species populations. This release covers two measures of species abundance in England; the first which contains species for which we have suitable data (all-species), the second for only those species which appear on the priority species list for England. When fully developed, the all-species abundance measure will be used to track the government’s progress towards meeting the statutory target of halting the decline in species abundance by 2030, and then reversing these declines by 2042.</p>\n\n<p>Both indicators have been compiled by the UK Centre for Ecology and Hydrology (UKCEH), in conjunction with data providers from well-established volunteer-based recording schemes, many of which are run through partnerships between government bodies, NGOs and research organisations, or through statutory monitoring schemes.</p>\n\n<p>As this is an official statistic in development, we welcome feedback on the novel methods used in the development of this indicator and the presentation of the data. To give feedback, email the Environmental Statistics and Reporting team at:</p>\n<div class=\"contact contact\" id=\"contact_7443\">\n    <p class=\"govuk-body\">Defra statistics: Biodiversity and Wildlife</p>\n\n\n    <div>\n        <p class=\"govuk-body govuk-!-margin-bottom-4\">\n          Email <a class=\"govuk-link\" href=\"mailto:Biodiversity@defra.gov.uk\">Biodiversity@defra.gov.uk</a>\n        </p>\n\n\n    </div>\n\n\n</div>\n</div>",
             "schema:image": [
                 "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-c3d38c0d4fc00005df38a71e1db7097276681d6917bca58f0dc8336a252e1bb3.png",
                 "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-edc38c137a14ecfc3fc83f404090e20dab806dad345c96a1df6a163ee2d1e3aa.png",
@@ -40,17 +40,25 @@
                     "url": "/government/statistics/indicators-of-species-abundance-in-england/indicators-of-species-abundance-in-england"
                 },
                 {
+                    "name": "Indicators of species abundance in England: Response to feedback",
+                    "url": "/government/statistics/indicators-of-species-abundance-in-england/indicators-of-species-abundance-in-england-response-to-feedback"
+                },
+                {
                     "name": "Indicators of species abundance in England: Frequently asked questions",
                     "url": "/government/statistics/indicators-of-species-abundance-in-england/indicators-of-species-abundance-in-england-frequently-asked-questions"
                 },
                 {
-                    "name": "Indicators of species abundance in England 1970 to 2022",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/6630a1f087bdbae4ab19adbc/Indicators_of_species_abundance_in_England_1970_to_2022_rev2.ods",
+                    "name": "Indicators of species abundance in England 1970 to 2023",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/6808a3a5148a9969d2394eac/Indicators_of_species_abundance_in_England__1970_to_2023.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
-                    "name": "Cross validation",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/662f9a023579e7a8f398a93b/Cross_validation.ods",
+                    "name": "Model diagnostics",
+                    "url": "/government/statistics/indicators-of-species-abundance-in-england/model-diagnostics"
+                },
+                {
+                    "name": "Model diagnostics: cross validation data",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/67c6e279b0bb6528ee866daf/Cross_validation.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 }
             ]
@@ -60,12 +68,12 @@
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "1970/2022",
-    "schema:version": "2024-05-03",
+    "schema:temporalCoverage": "1970/2023",
+    "schema:version": "2025-04-24",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Percentage of species in each trend group",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "Composite indices mask individual species trends, therefore, this bar chart shows the percentage of the 1,177 species within the indicator that have increased, decreased or displayed little or no overall change in their relative abundance over 2 time periods, (i) long term (since the time series began in 1970) and (ii) short term (latest 5 years of the time series).",
+    "notes": "Composite indices mask individual species trends, therefore, this bar chart shows the percentage of the 1,176 species within the indicator that have increased, decreased or displayed little or no overall change in their relative abundance over 2 time periods, (i) long term (since the time series began in 1970) and (ii) short term (latest 5 years of the time series).",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -78,7 +86,7 @@
             {
                 "datatype": {
                     "base": "string",
-                    "format": "Long term (1970–2022)|Short term (2017–2022)",
+                    "format": "Long term (1970–2023)|Short term (2018–2023)",
                     "@type": "Datatype"
                 },
                 "default": "",

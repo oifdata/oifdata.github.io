@@ -1,5 +1,5 @@
 {
-    "schema:name": "The influence of agri-environment schemes in conserving and enhancing landscape character in England, 2013 and 2018",
+    "schema:name": "The influence of agri-environment schemes in conserving and enhancing landscape character in England, 2013 to 2023",
     "url": "g1b.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -25,11 +25,11 @@
     ],
     "schema:spatialCoverage": "England",
     "schema:temporalCoverage": "2013/2018",
-    "schema:version": "2024-05-20",
+    "schema:version": "2025-02-26",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "The influence of agri-environment schemes in conserving and enhancing landscape character",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "This evidence base assesses the effectiveness of agri-environment schemes, that is, Countryside Stewardship (introduced in 2015) and any remaining Environmental Stewardship schemes, in maintaining and enhancing landscape character, quality and resilience. While there are some differences between Countryside Stewardship and Environmental Stewardship schemes, the 2018 assessment method is sufficiently aligned with the 2013 baseline to allow a comparison to be made. \n\n</br>The assessment has been undertaken against 8 landscape themes:</br>  \n\n* woodland and trees \n\n* field patterns and boundary types  \n\n* agricultural land use  \n\n* traditional farm buildings  \n\n* historic environment  \n\n* semi-natural habitats  \n\n* coast \n\n* water management  \n\n</br>Assessment results are judged against a series of landscape thresholds (one for each objective) expressed as the percentage of agri-environment scheme uptake against the landscape feature(s) that the agri-environment scheme options are affecting. The number and importance of the objectives where the threshold is met provide the assessment result for the individual themes, while the sum of the results across all themes provides the overall landscape assessment for that NCA. Overall results are described as neutral, positive or strongly positive (there were no ‘negative’ results identified that were significant enough to influence the assessment). \n\n</br>The source data for this indicator are updated every 5 years. The next scheduled assessment for 2023 will be completed in 2024 and appear in the subsequent update of the Outcome Indicator Framework.\n\n</br>More granular results for this indicator component are available within the [NCA Agri-environment Landscape Monitoring Atlas](https://experience.arcgis.com/experience/ff32a2af68de4286b8a760c28c9c7d0a)",
+    "notes": "This evidence base assesses the effectiveness of agri-environment schemes, that is, Countryside Stewardship (introduced in 2015) and any remaining Environmental Stewardship schemes, in maintaining and enhancing landscape character, quality and resilience. The 2023 assessment includes the initial introduction of the Sustainable Farming Incentive (part of the new Environmental Land Management schemes), along with existing uptake from Environmental Stewardship and Countryside Stewardship. While there are some differences between agri-environment schemes, the 2023 assessment method is sufficiently aligned with the 2018 assessment and the 2013 baseline to allow a comparison to be made. \n\n</br>The assessment has been undertaken against 8 landscape change themes:</br>  \n\n* woodland and trees \n\n* field patterns and boundary types  \n\n* agricultural land use  \n\n* traditional farm buildings  \n\n* historic environment  \n\n* semi-natural habitats  \n\n* coast \n\n* water management  \n\n</br>Assessment results are judged against a series of landscape thresholds (one for each objective) expressed as the percentage of agri-environment scheme uptake against the landscape feature(s) that the agri-environment scheme options are affecting. The number and importance of the objectives where the threshold is met provide the assessment result for the individual themes, while the sum of the results across all themes provides the overall landscape assessment for that NCA. Overall results are described as neutral, positive or strongly positive (there were no ‘negative’ results identified that were significant enough to influence the assessment). \n\n</br>The source data for this indicator component are updated every 5 years. The next scheduled assessment for 2028 will likely be completed in 2029.\n\n</br>More granular results for this indicator component are available within the [NCA Agri-environment Landscape Monitoring Atlas](https://experience.arcgis.com/experience/ff32a2af68de4286b8a760c28c9c7d0a)",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -43,7 +43,7 @@
                 "datatype": {
                     "base": "integer",
                     "minimum": "2013",
-                    "maximum": "2018",
+                    "maximum": "2023",
                     "@type": "Datatype"
                 },
                 "default": "",

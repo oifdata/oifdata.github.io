@@ -1,17 +1,21 @@
-feature,status,number of species
-Habitat (coastal),favourable,0
-Habitat (coastal),unfavourable-bad,8
-Habitat (coastal),unfavourable-inadequate,0
-Habitat (coastal),unknown,0
-Habitat (marine),favourable,0
-Habitat (marine),unfavourable-bad,3
-Habitat (marine),unfavourable-inadequate,5
-Habitat (marine),unknown,1
-Mammals,favourable,1
-Mammals,unfavourable-bad,0
-Mammals,unfavourable-inadequate,1
-Mammals,unknown,11
-Reptiles,favourable,0
-Reptiles,unfavourable-bad,0
-Reptiles,unfavourable-inadequate,0
-Reptiles,unknown,1
+Category,Status - Trend,Count
+Habitat (coastal),Favourable,0
+Habitat (marine),Favourable,0
+Mammal,Favourable,1
+Reptile,Favourable,0
+Habitat (coastal),Unknown,0
+Habitat (marine),Unknown,1
+Mammal,Unknown,11
+Reptile,Unknown,1
+Habitat (coastal),Unfavourable - Stable,3
+Habitat (marine),Unfavourable - Stable,3
+Mammal,Unfavourable - Stable,0
+Reptile,Unfavourable - Stable,0
+Habitat (coastal),Unfavourable - Declining,3
+Habitat (marine),Unfavourable - Declining,0
+Mammal,Unfavourable - Declining,0
+Reptile,Unfavourable - Declining,0
+Habitat (coastal),Unfavourable - Unknown,2
+Habitat (marine),Unfavourable - Unknown,5
+Mammal,Unfavourable - Unknown,1
+Reptile,Unfavourable - Unknown,0

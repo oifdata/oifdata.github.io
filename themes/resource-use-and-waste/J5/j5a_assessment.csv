@@ -1,0 +1,10 @@
+Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
+J5a,Decabromodiphenyl Ether,Short term,2018 to 2023,-38.15361288784889,None,Improvement
+J5a,Decabromodiphenyl Ether,Medium term,2013 to 2023,-53.656339101995876,None,Improvement
+J5a,Decabromodiphenyl Ether,Long term,2000 to 2023,-57.298944426296636,None,Improvement
+J5a,Hexabromocyclododecane,Short term,2018 to 2023,-7.473180345807854,None,Improvement
+J5a,Hexabromocyclododecane,Medium term,2013 to 2023,-8.278282741938618,None,Improvement
+J5a,Hexabromocyclododecane,Long term,2000 to 2023,69.45154579058814,None,Deterioration
+J5a,Polychlorinated Biphenyls,Short term,2018 to 2023,-50.07692388035137,None,Improvement
+J5a,Polychlorinated Biphenyls,Medium term,2013 to 2023,-75.93729570176733,None,Improvement
+J5a,Polychlorinated Biphenyls,Long term,2000 to 2023,-96.39208343766892,None,Improvement

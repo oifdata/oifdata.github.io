@@ -1,0 +1,98 @@
+{
+    "schema:name": "Percentage of the population exposed to rail noise at night (Lnight) in England, 2022",
+    "url": "h5bii.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:description": "<div class=\"govspeak\"><p>Defra has published strategic noise map data that give a snapshot of the estimated noise from road and rail sources across England in 2021. The data was developed as part of implementing the <a rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2006/2238/contents/made\" class=\"govuk-link\">Environmental Noise (England) Regulations 2006</a> (‘the regulations’). </p>\n\n<p>This data will help transport authorities to better identify and prioritise relevant local action on noise. It will also be useful for planners, academics and others working to assess noise and its impacts. </p>\n</div>",
+            "schema:image": [
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-c3d38c0d4fc00005df38a71e1db7097276681d6917bca58f0dc8336a252e1bb3.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-edc38c137a14ecfc3fc83f404090e20dab806dad345c96a1df6a163ee2d1e3aa.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-5dc2d0ea1eb72cd94e66db210ef41b22ce364e7ed09d63a3acc28fda09e27864.png"
+            ],
+            "schema:name": "Strategic noise mapping (2022)",
+            "@type": "Dataset",
+            "schema:about": [
+                {
+                    "@type": "Thing"
+                }
+            ],
+            "schema:author": {
+                "schema:name": "Department for Environment, Food & Rural Affairs",
+                "schema:url": "https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs",
+                "@type": "Organization"
+            },
+            "schema:publisher": {
+                "schema:name": "GOV.UK",
+                "schema:url": "https://www.gov.uk",
+                "@type": "Organization"
+            },
+            "schema:text": "Information about the 2022 (round 4) strategic noise mapping datasets for England. ",
+            "schema:distribution": {
+                "schema:name": "url",
+                "@type": "DataDownload"
+            }
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "1970-01-01T00:33:42+00:00",
+    "schema:version": "2024-10-22",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Percentage of the population exposed to noise from rail transport",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Data represents the reverse cumulative percentage of the population exposed to railway noise pollution at night.",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "integer",
+                    "minimum": "35",
+                    "maximum": "75",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "decibels",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The db level of noise exposure"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "Rail_Lnight_percentage",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Percentage of the population exposed to each db level from rail noise at night"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

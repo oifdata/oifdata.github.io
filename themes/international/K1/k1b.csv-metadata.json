@@ -1,5 +1,5 @@
 {
-    "schema:name": "Global scarcity-weighted blue water use associated with UK consumption, 2005 to 2021",
+    "schema:name": "Global scarcity-weighted blue water use associated with UK consumption, 2005 to 2022",
     "url": "k1b.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -12,14 +12,22 @@
         {
             "schema:sameAs": "https://hub.jncc.gov.uk/assets/02f0669b-ada4-4522-9611-ab1b83ea6e86",
             "@type": "Dataset",
-            "schema:author": {
-                "schema:alternateName": "JNCC",
-                "schema:name": "Joint Nature Conservation Committee",
-                "schema:sameAs": "https://ror.org/05tzsrw37",
-                "@type": "schema:GovernmentOrganization"
-            },
-            "schema:dateModified": "2023-11-14",
-            "schema:datePublished": "2023-11-14",
+            "schema:author": [
+                {
+                    "schema:alternateName": "JNCC",
+                    "schema:name": "Joint Nature Conservation Committee",
+                    "schema:sameAs": "https://ror.org/05tzsrw37",
+                    "@type": "schema:GovernmentOrganization"
+                },
+                {
+                    "schema:alternateName": "SEI York",
+                    "schema:name": "Stockholm Environment Institute at the University of York",
+                    "schema:sameAs": "https://ror.org/017w08b10",
+                    "@type": "schema:ResearchOrganization"
+                }
+            ],
+            "schema:dateModified": "2024-12-14",
+            "schema:datePublished": "2024-12-14",
             "schema:headline": "Indicator A4: Global biodiversity impacts of UK economic activity / sustainable consumption"
         }
     ],
@@ -27,10 +35,10 @@
         "tbc"
     ],
     "schema:spatialCoverage": "International",
-    "schema:temporalCoverage": "2005/2021",
-    "schema:version": "2023-12-19",
+    "schema:temporalCoverage": "2005/2022",
+    "schema:version": "2024-12-10",
     "schema:measurementTechnique": "?",
-    "schema:variableMeasured": "scarcity-weighted blue water use associated with UK consumption (cubic metres)",
+    "schema:variableMeasured": "scarcity-weighted blue water use associated with UK consumption (billion cubic metres)",
     "@context": "http://www.w3.org/ns/csvw",
     "notes": "Scarcity-weighted blue water use scales the blue water footprint (surface and groundwater consumed as a result of production) according to water availability in a region after human and aquatic ecosystem demands have been met. Estimates of the global scarcity-weighted blue water use refer to the UK consumption of crop commodities only.",
     "tableDirection": "auto",
@@ -46,7 +54,7 @@
                 "datatype": {
                     "base": "integer",
                     "minimum": "2005",
-                    "maximum": "2021",
+                    "maximum": "2022",
                     "@type": "Datatype"
                 },
                 "default": "",

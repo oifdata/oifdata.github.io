@@ -1,5 +1,5 @@
 {
-    "schema:name": "Extent of terrestrial and marine protected areas and other effective area-based conservation measures in the UK Overseas Territories, in total and by region, 2023",
+    "schema:name": "Percent coverage of protected areas and other effective area-based conservation measures in the UK Overseas Territories, 2020 to 2024",
     "url": "k4.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -18,20 +18,20 @@
                 "schema:sameAs": "https://ror.org/05tzsrw37",
                 "@type": "schema:GovernmentOrganization"
             },
-            "schema:dateModified": "2023-12-31",
-            "schema:datePublished": "2023-12-31"
+            "schema:dateModified": "2024-12-31",
+            "schema:datePublished": "2024-12-31"
         }
     ],
     "schema:keywords": [
         "tbc"
     ],
     "schema:spatialCoverage": "UK Overseas Territories",
-    "schema:temporalCoverage": "1970-01-01T00:33:43+00:00",
-    "schema:version": "2024-01-31",
+    "schema:temporalCoverage": "2020/2024",
+    "schema:version": "2025-05-07",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Percentage of UK overseas territory protected",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "Percentages for the extent of terrestrial and marine environments in protected areas have been rounded to the nearest 0.1% (including one result rounded up to 100%).",
+    "notes": "Percentages for the extent of terrestrial and marine environments in protected areas have been rounded to the nearest 0.01%. In the case of Bermuda, this has resulted in rounding down the coverage of the marine environment from 0.0008% to 0.00%.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -44,7 +44,7 @@
             {
                 "datatype": {
                     "base": "string",
-                    "format": "Wider Caribbean|South Atlantic|Indian and Pacific Oceans|Mediterranean|All UKOTs",
+                    "format": "Anguilla|Bermuda|British Indian Ocean Territory|British Virgin Islands|Cayman Islands|Falkland Islands|Gibraltar|Montserrat|Pitcairn Islands Group|Saint Helena|Ascension|Tristan da Cunha|South Georgia and the South Sandwich Islands|Sovereign Base Areas of Akrotiri and Dhekelia|Turks and Caicos Islands|UKOTs Combined",
                     "@type": "Datatype"
                 },
                 "default": "",
@@ -53,7 +53,7 @@
                 "ordered": false,
                 "required": false,
                 "textDirection": "inherit",
-                "name": "ukot",
+                "name": "UK Overseas Territory",
                 "suppressOutput": false,
                 "virtual": false,
                 "@type": "Column",
@@ -62,7 +62,7 @@
             {
                 "datatype": {
                     "base": "string",
-                    "format": "Marine; Total area protected|Terrestrial; Total area protected|Marine; Total area unprotected|Terrestrial; Total area unprotected",
+                    "format": "Marine|Terrestrial",
                     "@type": "Datatype"
                 },
                 "default": "",
@@ -71,11 +71,30 @@
                 "ordered": false,
                 "required": false,
                 "textDirection": "inherit",
-                "name": "category",
+                "name": "Environment",
                 "suppressOutput": false,
                 "virtual": false,
                 "@type": "Column",
                 "schema:description": "Ecosystem, whether marine or terrestrial and relevant protection"
+            },
+            {
+                "datatype": {
+                    "base": "integer",
+                    "minimum": "2020",
+                    "maximum": "2024",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "year",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The year range for the data present"
             },
             {
                 "datatype": "number",

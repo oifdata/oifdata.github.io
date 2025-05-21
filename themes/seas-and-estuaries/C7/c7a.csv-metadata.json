@@ -1,0 +1,106 @@
+{
+    "schema:name": "Long-term changes in the typical length of demersal fish communities in UK waters and surrounding areas, 1983 to 2020",
+    "url": "c7a.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:name": "Size Composition in Fish Communities",
+            "@type": "Dataset",
+            "schema:author": [
+                {
+                    "schema:alternateName": "OSPAR",
+                    "schema:name": "The Convention for the Protection of the Marine Environment of the North-East Atlantic",
+                    "schema:sameAs": "https://oap.ospar.org/en/",
+                    "@type": "schema:GovernmentOrganization"
+                }
+            ]
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "UK (Celtic Seas and Greater North Sea)",
+    "schema:temporalCoverage": "1983/2020",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "Assessment/classification results",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "The assessment period differs depending on the survey, starting at the earliest in 1983 in five of six Greater North Sea subdivisions (i.e. excluding the Eastern English Channel) and ending in either 2019 or 2020.\n\n</br> The legend entries are defined as follows:\n\n1. Long-term increase: an increase in the size of fish within the community over the period\n2. No long-term change: no change in the size of fish\n3. Long-term decrease: the size of fish in the community has decreased from an earlier period but has increased from a more recent period\n4. Decrease to minimum observed state: the fish in the community are currently at the lowest size recorded\n\n</br> In the 2025 update of this indicator, table C7a has been added, summarising the assessment results which feed into the map. Whilst the table and map are linked, surveys often overlap. Where this happens, an aggregated result is shown in the map. More information about the surveys, their location and the technical areas within the surveys (strata) can be found in OSPARs Coordinated Environmental Monitoring Programme (CEMP) guidelines for common indicators FC1, FC2, FC3, and FW3.\n",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": "string",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "Location Description",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Geographic location of survey(s)"
+            },
+            {
+                "datatype": "string",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "Survey",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "ICES Survey"
+            },
+            {
+                "datatype": "string",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "Change Direction",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Assessment result"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "No change|Increase|Decrease",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "value",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "Assessment result"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

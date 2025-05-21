@@ -1,5 +1,5 @@
 {
-    "schema:name": "Adult’s mean overall levels of expectation and perception of the quality of green and natural spaces in England on a scale of 1 (low) to 5 (high), survey years 2020/2021 to 2022/2023",
+    "schema:name": "Comparing Perceptions of Green and Natural Spaces Close to Where People Live with Expectations of Green and Natural Spaces More Generally, Survey Years 2020/2021 to 2023/2024",
     "url": "g3bi.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -10,13 +10,13 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:description": "Composite statistics from the People and Nature Surveys used in 2024 national indicators.",
+            "schema:description": "Composite statistics from the People and Nature Surveys used in 2025 national indicators.",
             "schema:image": [
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-bf9e64d759af6dfd93bede8168f3087a329f405b382aff36747db0db4b7b23e9.png",
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-13093f053c15f613acd827aff27cac83d3fab452947cbcae4c7b706dadf2f7f2.png",
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-4233cd42671827e266e284c4d5ae68fb600bd9f9e35dda663ccabbc2b6ab7ec3.png"
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-c3d38c0d4fc00005df38a71e1db7097276681d6917bca58f0dc8336a252e1bb3.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-edc38c137a14ecfc3fc83f404090e20dab806dad345c96a1df6a163ee2d1e3aa.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-5dc2d0ea1eb72cd94e66db210ef41b22ce364e7ed09d63a3acc28fda09e27864.png"
             ],
-            "schema:name": "Statistics and technical details for 2024 national indicators",
+            "schema:name": "National indicators 2025 - statistics and technical details",
             "@type": "Dataset",
             "schema:about": [
                 {
@@ -36,19 +36,19 @@
                 "schema:url": "https://www.gov.uk",
                 "@type": "Organization"
             },
-            "schema:text": "Composite statistics from the People and Nature Surveys used in 2024 national indicators."
+            "schema:text": "Composite statistics from the People and Nature Surveys used in 2025 national indicators."
         }
     ],
     "schema:keywords": [
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "2020/2023",
-    "schema:version": "2024-01-26",
+    "schema:temporalCoverage": "2020/2024",
+    "schema:version": "2025-02-05",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Adult’s mean overall levels of expectation and perception of the quality of green and natural spaces",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "Figure G3bi is derived from PANS data collected in the survey years (April to March) 2020/2021 to 2022/2023. Base: All respondents.\n    \n</br>The indicator is based on responses to question [M1_Q4]: ‘How much do you agree or disagree with the following statements relating to green and natural spaces generally? In general, green and natural spaces should be:’ and question [M1_Q5]: ‘Now, thinking about green and natural spaces close to where you live, how much do you agree or disagree with the following statements? My local green and natural spaces actually are:’. The statements presented to respondents are:</br> \n \n* a) within easy walking distance \n* b) good places for mental health and wellbeing \n* c) a high enough standard to want to spend time in \n* d) good places for children to play \n* e) places that encourage physical health and exercise \n* f) good places to meet other people \n* g) provide good opportunities to see nature \n    \n</br>Scores from 1 (strongly disagree) to 5 (strongly agree) are attributed to all responses to each of the statements relating to general expectations about green and natural spaces (question [M1_Q4]) and perceptions of the quality of local green and natural spaces (question [M1_Q5]). Overall means of all responses to the 7 statements are then presented as the annual indicator values for both expectations and perceptions. These values can range from 1, indicating the lowest levels of expectation and perception of the quality of green and natural spaces (equivalent to strongly disagreeing with all 7 statements) to 5, indicating the highest levels of expectation and perception (strongly agreeing with all 7 statements).",
+    "notes": "Figure G3bi is derived from PaNS data collected in the survey years (April to March) 2020/2021 to 2023/2024. Base: 24,961 English adults.\n    \n</br>The indicator is based on responses to question [M1_Q4]: ‘How much do you agree or disagree with the following statements relating to green and natural spaces generally? In general, green and natural spaces should be:’ and question [M1_Q5]: ‘Now, thinking about green and natural spaces close to where you live, how much do you agree or disagree with the following statements? My local green and natural spaces actually are:’. The statements presented to respondents are:</br> \n \n* a) within easy walking distance \n* b) good places for mental health and wellbeing \n* c) a high enough standard to want to spend time in \n* d) good places for children to play \n* e) places that encourage physical health and exercise \n* f) good places to meet other people \n* g) provide good opportunities to see nature \n    \n</br>Scores 1 (strongly disagree), 2 (disagree), 3 (neither agree nor disagree), 4 (agree), 5 (strongly agree) are attributed to all responses to each of the statements relating to general expectations about green and natural spaces (question [M1_Q4]) and perceptions of the quality of local green and natural spaces (question [M1_Q5]). Overall means of all responses to the 7 statements are then presented as the annual indicator values for both expectations and perceptions. These values can range from 1, indicating the lowest levels of expectation generally and perception locally of the quality of green and natural spaces (equivalent to strongly disagreeing with all 7 statements) to 5, indicating the highest levels of expectation and perception (strongly agreeing with all 7 statements).\n\n</br>Natural England and stakeholder representatives involved in developing the G3 quality indicator also considered an option for the greenspace quality indicator based on the PaNS question Q3 (M1_Q3) ‘Thinking of the green and natural spaces close to where you live, have they improved or reduced in the last 5 years, or have they not changed?'. It was concluded that this question was broad and open to wide interpretation, so not as effective as an indicator as the approach taken.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -61,7 +61,7 @@
             {
                 "datatype": {
                     "base": "string",
-                    "format": "2020/2021|2021/2022|2022/2023",
+                    "format": "2020/2021|2021/2022|2022/2023|2023/2024",
                     "@type": "Datatype"
                 },
                 "default": "",
@@ -79,7 +79,7 @@
             {
                 "datatype": {
                     "base": "string",
-                    "format": "General expectations of what green and natural spaces should be|Perceptions of what local green and natural spaces actually are",
+                    "format": "Extent of agreement with 7 statements relating to green and natural spaces generally|Extent of agreement with 7 statements when thinking about green and natural spaces close to where they live",
                     "@type": "Datatype"
                 },
                 "default": "",
@@ -106,7 +106,7 @@
                 "suppressOutput": false,
                 "virtual": false,
                 "@type": "Column",
-                "schema:description": "Adult’s mean overall levels of expectation and perception of the quality of green and natural spaces"
+                "schema:description": "Index value"
             }
         ],
         "@type": "Schema"

@@ -1,4 +1,4 @@
 Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
-D4i,Smoothed index (options 1 and 2),Short term,2017 to 2022,7.10 to 7.55,Smoothed data,Little or no change
-D4i,Smoothed index (options 1 and 2),Medium term,2012 to 2022,4.52 to 3.95,Smoothed data,Little or no change
-D4i,Smoothed index (options 1 and 2),Long term,1970 to 2022,-30.60 to -31.60,Smoothed data,Deterioration
+D4i,Smoothed index (options 1 and 2),Short term,2018 to 2023,1.8 to 2.5,Smoothed data,Little or no change
+D4i,Smoothed index (options 1 and 2),Medium term,2013 to 2023,1.4 to 2.5,Smoothed data,Little or no change
+D4i,Smoothed index (options 1 and 2),Long term,1970 to 2023,-32.5 to -33.4,Smoothed data,Deterioration

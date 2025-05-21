@@ -1,5 +1,5 @@
 {
-    "schema:name": "Volume of timber brought to market from English sources, 2010 to 2022",
+    "schema:name": "Volume of timber brought to market from English sources, 2010 to 2023",
     "url": "e6.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -10,15 +10,18 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:description": "<div class=\"govspeak\"><p>Annual statistical report providing the key performance indicators (KPIs) for the Forestry Commission showing progress towards the organisation’s key aims. This includes the six headline indicators of Forest Services and Forestry England respectively and around a further 25 indicators. Each indicator is for England as a whole at national level. This is an Official Statistics publication. The report itself is accompanied by tables of supporting data providing the indicator statistics.</p>\n</div>",
+            "schema:description": "<div class=\"govspeak\"><p>Annual statistical report providing the key performance indicators (KPIs) for the Forestry Commission. This report provides updates on the Forestry Commission’s 10 headline indicators, Forestry England’s 6 headline indicators and 23 further indicators for Forest Services. Each indicator is for England as a whole at national level.</p>\n\n<p>This is an Official Statistics publication. The report itself is accompanied by tables of supporting data providing the indicator statistics.</p>\n\n</div>",
             "schema:image": [
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-bf9e64d759af6dfd93bede8168f3087a329f405b382aff36747db0db4b7b23e9.png",
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-13093f053c15f613acd827aff27cac83d3fab452947cbcae4c7b706dadf2f7f2.png",
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-4233cd42671827e266e284c4d5ae68fb600bd9f9e35dda663ccabbc2b6ab7ec3.png"
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-c3d38c0d4fc00005df38a71e1db7097276681d6917bca58f0dc8336a252e1bb3.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-edc38c137a14ecfc3fc83f404090e20dab806dad345c96a1df6a163ee2d1e3aa.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-5dc2d0ea1eb72cd94e66db210ef41b22ce364e7ed09d63a3acc28fda09e27864.png"
             ],
-            "schema:name": "Forestry Commission Key Performance Indicators: Report for 2022-23",
+            "schema:name": "Forestry Commission Key Performance Indicators: Report for 2023-24",
             "@type": "Dataset",
             "schema:about": [
+                {
+                    "@type": "Thing"
+                },
                 {
                     "@type": "Thing"
                 }
@@ -33,16 +36,16 @@
                 "schema:url": "https://www.gov.uk",
                 "@type": "Organization"
             },
-            "schema:text": "Annual report on the full suite of Forestry Commission key performance indicators (KPIs) for both Forest Services and Forestry England.\r\n",
+            "schema:text": "Annual report on the full suite of Forestry Commission key performance indicators (KPIs) for both Forest Services and Forestry England.",
             "schema:distribution": [
                 {
-                    "name": "Forestry Commission Key Performance Indicators: Report for 2022-23",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/6489c0bb5f7bb700127faa2f/Forestry-Commission-Key-Performance-Indicators-Report-2022-23.pdf",
+                    "name": "Forestry Commission Key Performance Indicators: Report for 2023-24",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/6673e4a3d427ab249955cea7/Forestry-Commission-Key-Performance-Indicators-Report-2023-24_.pdf",
                     "encodingFormat": "application/pdf"
                 },
                 {
-                    "name": "Forestry Commission Key Performance Indicators: Report for 2022-23 Supporting data",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/64d345d85cac650014c2dc78/Forestry-Commission-Key-Performance-Indicators-Report-Supporting-Data-2022-23.xlsx",
+                    "name": "Forestry Commission Key Performance Indicators: Report for 2023-24 supporting data",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/66f588a0a31f45a9c765ed55/Forestry-Commission-Key-Performance-Indicators-Report-Supporting-Data-2023-24-.xlsx",
                     "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
                 }
             ]
@@ -52,12 +55,12 @@
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "2010/2022",
-    "schema:version": "2023-06-15",
+    "schema:temporalCoverage": "2010/2023",
+    "schema:version": "2024-11-26",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Volume of timber brought to market from English sources, thousand green tonnes",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "",
+    "notes": "Due to rounding these statistics may not sum to the total volume of timber brought to market per annum from English sources reported in the source publication (Forestry Commission’s Key Performance Indicators).",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -71,7 +74,7 @@
                 "datatype": {
                     "base": "integer",
                     "minimum": "2010",
-                    "maximum": "2022",
+                    "maximum": "2023",
                     "@type": "Datatype"
                 },
                 "default": "",
@@ -89,7 +92,7 @@
             {
                 "datatype": {
                     "base": "string",
-                    "format": "Softwood and hardwood removals from the nation's forests managed by Forestry England|Softwood and hardwood removals from English sources other than the nation's forests",
+                    "format": "Softwood and hardwood removals from the nation's forests managed by Forestry England|Softwood and hardwood removals from English sources other than the nation's forests|All English sources (softwood and hardwood combined)",
                     "@type": "Datatype"
                 },
                 "default": "",

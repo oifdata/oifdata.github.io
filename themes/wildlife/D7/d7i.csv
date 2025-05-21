@@ -1,130 +1,130 @@
 year,trendline,value
 1980,Unsmoothed index,100.0
-1981,Unsmoothed index,101.866716612913
-1982,Unsmoothed index,103.633323327383
-1983,Unsmoothed index,105.328942243953
-1984,Unsmoothed index,106.9969305912
-1985,Unsmoothed index,108.541024871965
-1986,Unsmoothed index,109.591712246044
-1987,Unsmoothed index,110.17077530036
-1988,Unsmoothed index,109.119003805615
-1989,Unsmoothed index,107.418100672483
-1990,Unsmoothed index,105.597572456479
-1991,Unsmoothed index,104.1517507444
-1992,Unsmoothed index,103.486141061582
-1993,Unsmoothed index,103.467646895594
-1994,Unsmoothed index,103.665293558612
-1995,Unsmoothed index,103.12729176742
-1996,Unsmoothed index,101.893582508968
-1997,Unsmoothed index,100.139298049963
-1998,Unsmoothed index,98.5835903487478
-1999,Unsmoothed index,97.5373573791378
-2000,Unsmoothed index,96.8120691595548
-2001,Unsmoothed index,96.4466150682059
-2002,Unsmoothed index,96.6814558964549
-2003,Unsmoothed index,96.9134894493914
-2004,Unsmoothed index,96.6223493100789
-2005,Unsmoothed index,96.2471953837958
-2006,Unsmoothed index,95.6220203938309
-2007,Unsmoothed index,94.3785985657193
-2008,Unsmoothed index,92.7006919630419
-2009,Unsmoothed index,90.6748278317909
-2010,Unsmoothed index,88.0841674791583
-2011,Unsmoothed index,85.4443865182459
-2012,Unsmoothed index,83.1929425324306
-2013,Unsmoothed index,81.3413682003105
-2014,Unsmoothed index,79.7250394757942
-2015,Unsmoothed index,78.38858676269
-2016,Unsmoothed index,77.4327701740095
-2017,Unsmoothed index,76.4851916552566
-2018,Unsmoothed index,75.638465291466
-2019,Unsmoothed index,75.1442325287218
-2020,Unsmoothed index,75.1352909979694
-2021,Unsmoothed index,75.565886743118
-2022,Unsmoothed index,76.1177287219746
+1981,Unsmoothed index,101.8667166
+1982,Unsmoothed index,103.6333233
+1983,Unsmoothed index,105.3289422
+1984,Unsmoothed index,106.9969306
+1985,Unsmoothed index,108.5410249
+1986,Unsmoothed index,109.5917122
+1987,Unsmoothed index,110.1707753
+1988,Unsmoothed index,109.1190038
+1989,Unsmoothed index,107.4181007
+1990,Unsmoothed index,105.5975725
+1991,Unsmoothed index,104.1517507
+1992,Unsmoothed index,103.4861411
+1993,Unsmoothed index,103.4676469
+1994,Unsmoothed index,103.6652936
+1995,Unsmoothed index,103.1272918
+1996,Unsmoothed index,101.8935825
+1997,Unsmoothed index,100.139298
+1998,Unsmoothed index,98.58359035
+1999,Unsmoothed index,97.53735738
+2000,Unsmoothed index,96.81206916
+2001,Unsmoothed index,96.44661507
+2002,Unsmoothed index,96.6814559
+2003,Unsmoothed index,96.91348945
+2004,Unsmoothed index,96.62234931
+2005,Unsmoothed index,96.24719538
+2006,Unsmoothed index,95.62202039
+2007,Unsmoothed index,94.37859857
+2008,Unsmoothed index,92.70069196
+2009,Unsmoothed index,90.67482783
+2010,Unsmoothed index,88.08416748
+2011,Unsmoothed index,85.44438652
+2012,Unsmoothed index,83.19294253
+2013,Unsmoothed index,81.3413682
+2014,Unsmoothed index,79.72503948
+2015,Unsmoothed index,78.38858676
+2016,Unsmoothed index,77.43277017
+2017,Unsmoothed index,76.48519166
+2018,Unsmoothed index,75.63846529
+2019,Unsmoothed index,75.14423253
+2020,Unsmoothed index,75.135291
+2021,Unsmoothed index,75.56588674
+2022,Unsmoothed index,76.11772872
 1980,90% credible interval lower bound,100.0
-1981,90% credible interval lower bound,100.768012204755
-1982,90% credible interval lower bound,102.236145686858
-1983,90% credible interval lower bound,103.827121740996
-1984,90% credible interval lower bound,105.499269204509
-1985,90% credible interval lower bound,107.076211739118
-1986,90% credible interval lower bound,108.123135012253
-1987,90% credible interval lower bound,108.670322550443
-1988,90% credible interval lower bound,107.625027338188
-1989,90% credible interval lower bound,105.923815348329
-1990,90% credible interval lower bound,104.158201691623
-1991,90% credible interval lower bound,102.581587585271
-1992,90% credible interval lower bound,101.93142448549
-1993,90% credible interval lower bound,101.998193020941
-1994,90% credible interval lower bound,102.211587094299
-1995,90% credible interval lower bound,101.564391723326
-1996,90% credible interval lower bound,100.381825556809
-1997,90% credible interval lower bound,98.7251897983603
-1998,90% credible interval lower bound,97.1933280613405
-1999,90% credible interval lower bound,96.1464556491798
-2000,90% credible interval lower bound,95.4051150887846
-2001,90% credible interval lower bound,95.051531595579
-2002,90% credible interval lower bound,95.2623575500769
-2003,90% credible interval lower bound,95.599776013419
-2004,90% credible interval lower bound,95.2749069217524
-2005,90% credible interval lower bound,94.8870101896279
-2006,90% credible interval lower bound,94.2850274631495
-2007,90% credible interval lower bound,93.1217482375009
-2008,90% credible interval lower bound,91.4446609115286
-2009,90% credible interval lower bound,89.4410522760225
-2010,90% credible interval lower bound,86.8932365674416
-2011,90% credible interval lower bound,84.2140424932966
-2012,90% credible interval lower bound,82.0131967405992
-2013,90% credible interval lower bound,80.24619386122
-2014,90% credible interval lower bound,78.6279001748711
-2015,90% credible interval lower bound,77.2728780174309
-2016,90% credible interval lower bound,76.3423461781995
-2017,90% credible interval lower bound,75.4118927275375
-2018,90% credible interval lower bound,74.5494060851481
-2019,90% credible interval lower bound,74.0247979556267
-2020,90% credible interval lower bound,73.9696859033746
-2021,90% credible interval lower bound,74.3336496912196
-2022,90% credible interval lower bound,74.5056359237008
+1981,90% credible interval lower bound,100.7680122
+1982,90% credible interval lower bound,102.2361457
+1983,90% credible interval lower bound,103.8271217
+1984,90% credible interval lower bound,105.4992692
+1985,90% credible interval lower bound,107.0762117
+1986,90% credible interval lower bound,108.123135
+1987,90% credible interval lower bound,108.6703226
+1988,90% credible interval lower bound,107.6250273
+1989,90% credible interval lower bound,105.9238153
+1990,90% credible interval lower bound,104.1582017
+1991,90% credible interval lower bound,102.5815876
+1992,90% credible interval lower bound,101.9314245
+1993,90% credible interval lower bound,101.998193
+1994,90% credible interval lower bound,102.2115871
+1995,90% credible interval lower bound,101.5643917
+1996,90% credible interval lower bound,100.3818256
+1997,90% credible interval lower bound,98.7251898
+1998,90% credible interval lower bound,97.19332806
+1999,90% credible interval lower bound,96.14645565
+2000,90% credible interval lower bound,95.40511509
+2001,90% credible interval lower bound,95.0515316
+2002,90% credible interval lower bound,95.26235755
+2003,90% credible interval lower bound,95.59977601
+2004,90% credible interval lower bound,95.27490692
+2005,90% credible interval lower bound,94.88701019
+2006,90% credible interval lower bound,94.28502746
+2007,90% credible interval lower bound,93.12174824
+2008,90% credible interval lower bound,91.44466091
+2009,90% credible interval lower bound,89.44105228
+2010,90% credible interval lower bound,86.89323657
+2011,90% credible interval lower bound,84.21404249
+2012,90% credible interval lower bound,82.01319674
+2013,90% credible interval lower bound,80.24619386
+2014,90% credible interval lower bound,78.62790017
+2015,90% credible interval lower bound,77.27287802
+2016,90% credible interval lower bound,76.34234618
+2017,90% credible interval lower bound,75.41189273
+2018,90% credible interval lower bound,74.54940609
+2019,90% credible interval lower bound,74.02479796
+2020,90% credible interval lower bound,73.9696859
+2021,90% credible interval lower bound,74.33364969
+2022,90% credible interval lower bound,74.50563592
 1980,90% credible interval upper bound,100.0
-1981,90% credible interval upper bound,102.94464302461
-1982,90% credible interval upper bound,105.03509002095
-1983,90% credible interval upper bound,106.858848119204
-1984,90% credible interval upper bound,108.481078955925
-1985,90% credible interval upper bound,110.038750110859
-1986,90% credible interval upper bound,111.088594734692
-1987,90% credible interval upper bound,111.810396272817
-1988,90% credible interval upper bound,110.685313356164
-1989,90% credible interval upper bound,108.941214184652
-1990,90% credible interval upper bound,107.08922921867
-1991,90% credible interval upper bound,105.691148202467
-1992,90% credible interval upper bound,105.058378181966
-1993,90% credible interval upper bound,104.940851602809
-1994,90% credible interval upper bound,105.159185029159
-1995,90% credible interval upper bound,104.75937472585
-1996,90% credible interval upper bound,103.403375019283
-1997,90% credible interval upper bound,101.607585577442
-1998,90% credible interval upper bound,100.022610207825
-1999,90% credible interval upper bound,98.9456886807482
-2000,90% credible interval upper bound,98.2105406268661
-2001,90% credible interval upper bound,97.853146888828
-2002,90% credible interval upper bound,98.0354213997519
-2003,90% credible interval upper bound,98.2794550710858
-2004,90% credible interval upper bound,97.9744831325389
-2005,90% credible interval upper bound,97.6139566982114
-2006,90% credible interval upper bound,96.997686564914
-2007,90% credible interval upper bound,95.6770078906702
-2008,90% credible interval upper bound,94.0449503279792
-2009,90% credible interval upper bound,91.9646907163299
-2010,90% credible interval upper bound,89.3355648537459
-2011,90% credible interval upper bound,86.6523551742887
-2012,90% credible interval upper bound,84.342135119899
-2013,90% credible interval upper bound,82.4779436071289
-2014,90% credible interval upper bound,80.8496641246276
-2015,90% credible interval upper bound,79.4825967813664
-2016,90% credible interval upper bound,78.5531135928426
-2017,90% credible interval upper bound,77.5391888436924
-2018,90% credible interval upper bound,76.7311187494973
-2019,90% credible interval upper bound,76.3082502401582
-2020,90% credible interval upper bound,76.2926808237884
-2021,90% credible interval upper bound,76.8701018100125
-2022,90% credible interval upper bound,77.8305184795958
+1981,90% credible interval upper bound,102.944643
+1982,90% credible interval upper bound,105.03509
+1983,90% credible interval upper bound,106.8588481
+1984,90% credible interval upper bound,108.481079
+1985,90% credible interval upper bound,110.0387501
+1986,90% credible interval upper bound,111.0885947
+1987,90% credible interval upper bound,111.8103963
+1988,90% credible interval upper bound,110.6853134
+1989,90% credible interval upper bound,108.9412142
+1990,90% credible interval upper bound,107.0892292
+1991,90% credible interval upper bound,105.6911482
+1992,90% credible interval upper bound,105.0583782
+1993,90% credible interval upper bound,104.9408516
+1994,90% credible interval upper bound,105.159185
+1995,90% credible interval upper bound,104.7593747
+1996,90% credible interval upper bound,103.403375
+1997,90% credible interval upper bound,101.6075856
+1998,90% credible interval upper bound,100.0226102
+1999,90% credible interval upper bound,98.94568868
+2000,90% credible interval upper bound,98.21054063
+2001,90% credible interval upper bound,97.85314689
+2002,90% credible interval upper bound,98.0354214
+2003,90% credible interval upper bound,98.27945507
+2004,90% credible interval upper bound,97.97448313
+2005,90% credible interval upper bound,97.6139567
+2006,90% credible interval upper bound,96.99768656
+2007,90% credible interval upper bound,95.67700789
+2008,90% credible interval upper bound,94.04495033
+2009,90% credible interval upper bound,91.96469072
+2010,90% credible interval upper bound,89.33556485
+2011,90% credible interval upper bound,86.65235517
+2012,90% credible interval upper bound,84.34213512
+2013,90% credible interval upper bound,82.47794361
+2014,90% credible interval upper bound,80.84966412
+2015,90% credible interval upper bound,79.48259678
+2016,90% credible interval upper bound,78.55311359
+2017,90% credible interval upper bound,77.53918884
+2018,90% credible interval upper bound,76.73111875
+2019,90% credible interval upper bound,76.30825024
+2020,90% credible interval upper bound,76.29268082
+2021,90% credible interval upper bound,76.87010181
+2022,90% credible interval upper bound,77.83051848

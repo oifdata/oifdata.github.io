@@ -1,0 +1,99 @@
+{
+    "schema:name": "Concentrations of fine particulate matter (PM2.5) at AURN monitoring sites in England, 2011 to 2023",
+    "url": "a3ii.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:sameAs": "https://uk-air.defra.gov.uk/pm25targets/progress",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "Defra",
+                "schema:name": "Department for Environment, Food & Rural Affairs",
+                "schema:sameAs": "https://ror.org/00tnppw48",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:dateModified": "2024-12-30",
+            "schema:datePublished": "2024-12-30",
+            "schema:headline": "AMCT annual PM2.5 data"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "2009/2023",
+    "schema:version": "2024-12-30",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "annual mean concentrations of PM2.5 in ugm-3",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Figure A3ii shows the distribution of annual mean PM2.5 concentrations at English AURN monitoring sites. Each individual scatter marker corresponds to an individual year and integer-rounded annual mean PM2.5 concentration, with the size of the marker corresponding to the number of AMCT sites it represents.\n\n</br>There were 31 AURN monitoring sites across England that met the required data capture threshold for inclusion in 2018 and 74 sites that met the threshold in 2023. The number of AURN sites will continue to increase over the next few years as the monitoring network is expanded. The location of these sites (for example, urban hotspots versus rural) and the timing of their introduction will have an effect on the distribution of the data in Figure A3ii in future years.",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "integer",
+                    "minimum": "2009",
+                    "maximum": "2023",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "year",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The year range for the data present"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "4 µg/m3|5 µg/m3|6 µg/m3|7 µg/m3|8 µg/m3|9 µg/m3|10 µg/m3|11 µg/m3|12 µg/m3|13 µg/m3|14 µg/m3|15 µg/m3|16 µg/m3|17 µg/m3|18 µg/m3|19 µg/m3|20 µg/m3|21 µg/m3|24 µg/m3",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "annual mean",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "annual mean concentration of PM2.5 in ugm-3"
+            },
+            {
+                "datatype": "integer",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "value",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "number of sites with each annual mean value"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

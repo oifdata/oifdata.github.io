@@ -1,5 +1,5 @@
 {
-    "schema:name": "Regional species loss associated with UK consumption (the number of species predicted to be committed to extinction if current conditions continue, per ecoregion), 2005 to 2021",
+    "schema:name": "Predicted number of species commited to extinction in the next 100 years worldwide assocuated with UK consumption of crop commodities annually, 2005 to 2022",
     "url": "k1c.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -12,14 +12,22 @@
         {
             "schema:sameAs": "https://hub.jncc.gov.uk/assets/02f0669b-ada4-4522-9611-ab1b83ea6e86",
             "@type": "Dataset",
-            "schema:author": {
-                "schema:alternateName": "JNCC",
-                "schema:name": "Joint Nature Conservation Committee",
-                "schema:sameAs": "https://ror.org/05tzsrw37",
-                "@type": "schema:GovernmentOrganization"
-            },
-            "schema:dateModified": "2023-11-14",
-            "schema:datePublished": "2023-11-14",
+            "schema:author": [
+                {
+                    "schema:alternateName": "JNCC",
+                    "schema:name": "Joint Nature Conservation Committee",
+                    "schema:sameAs": "https://ror.org/05tzsrw37",
+                    "@type": "schema:GovernmentOrganization"
+                },
+                {
+                    "schema:alternateName": "SEI York",
+                    "schema:name": "Stockholm Environment Institute at the University of York",
+                    "schema:sameAs": "https://ror.org/017w08b10",
+                    "@type": "schema:ResearchOrganization"
+                }
+            ],
+            "schema:dateModified": "2024-12-14",
+            "schema:datePublished": "2024-12-14",
             "schema:headline": "Indicator A4: Global biodiversity impacts of UK economic activity / sustainable consumption"
         }
     ],
@@ -27,12 +35,12 @@
         "tbc"
     ],
     "schema:spatialCoverage": "International",
-    "schema:temporalCoverage": "2005/2021",
-    "schema:version": "2023-12-19",
+    "schema:temporalCoverage": "2005/2022",
+    "schema:version": "2024-12-10",
     "schema:measurementTechnique": "?",
-    "schema:variableMeasured": "number of species predicted to be committed to extinction if current conditions continue, per ecoregion",
+    "schema:variableMeasured": "number of species predicted to be committed to extinction if current conditions continue, in the next 100 years",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "The predicted number of regional species lost as a result of agricultural land use is used to estimate the biodiversity impacts of UK consumption. It provides an estimate of the species committed to extinction in the absence of habitat restoration. For K1c, this refers to the UK consumption of crop commodities only using the impact per tonne of production for different crop groups and links this to the respective territories in the IOTA framework to model the number of species at risk.",
+    "notes": "The LIFE score is a metric that provides an estimate of the probability of extinction across ~30k terrestrial vertebrate species, using changes in their modelled area of habitat since pre-industrial times. The impact of changes in area of habitat are related to the proportion that has been lost already, so that per unit area losses in habitat will have the greatest impacts on extinction risk for those species which have faced the greatest losses of habitat. The metric provides an estimate of the number of species committed to extinction over approximately 100 years. A score of 1 is equivalent to one global extinction. Consequently, results show the sum of the UK’s contribution to global extinctions across all the world as a result of UK consumption of crop commodities.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -46,7 +54,7 @@
                 "datatype": {
                     "base": "integer",
                     "minimum": "2005",
-                    "maximum": "2021",
+                    "maximum": "2022",
                     "@type": "Datatype"
                 },
                 "default": "",
@@ -73,7 +81,7 @@
                 "suppressOutput": false,
                 "virtual": false,
                 "@type": "Column",
-                "schema:description": "The regional species loss associated with UK consumption (the number of species predicted to be committed to extinction if current conditions continue, per ecoregion)"
+                "schema:description": "The LIFE score (the number of species predicted to be committed to extinction if current conditions continue, within 100 years)"
             }
         ],
         "@type": "Schema"

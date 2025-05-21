@@ -1,22 +1,22 @@
 Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
-H3b,Dioxin-like Polychlorinated Biphenyls,Short term,2015 to 2020,-24.759280201226456,Loess,Improvement
-H3b,Dioxin-like Polychlorinated Biphenyls,Medium term,2010 to 2020,-43.36048061772952,Loess,Improvement
-H3b,Dioxin-like Polychlorinated Biphenyls,Long term,2000 to 2020,-77.45181873463697,Loess,Improvement
-H3b,Dioxins and Furans,Short term,2015 to 2020,-8.532362123642347,Loess,Improvement
-H3b,Dioxins and Furans,Medium term,2010 to 2020,-19.185709016425182,Loess,Improvement
-H3b,Dioxins and Furans,Long term,2000 to 2020,-60.81798350092714,Loess,Improvement
-H3b,Hexachlorobenzene,Short term,2015 to 2020,32.81993574014073,Loess,Deterioration
-H3b,Hexachlorobenzene,Medium term,2010 to 2020,0.2831488888972705,Loess,Little or no change
-H3b,Hexachlorobenzene,Long term,2000 to 2020,-49.68301803656542,Loess,Improvement
-H3b,Pentachlorobenzine,Short term,2015 to 2020,-4.404658207399711,Loess,Improvement
-H3b,Pentachlorobenzine,Medium term,2010 to 2020,-10.26657105322059,Loess,Improvement
-H3b,Pentachlorobenzine,Long term,2000 to 2020,-69.12181718102127,Loess,Improvement
-H3b,Pentachlorophenol,Short term,2015 to 2020,-30.15866389958492,Loess,Improvement
-H3b,Pentachlorophenol,Medium term,2010 to 2020,-48.879055088318786,Loess,Improvement
-H3b,Pentachlorophenol,Long term,2000 to 2020,-70.99262659879227,Loess,Improvement
-H3b,Polychlorinated Biphenyls,Short term,2015 to 2020,-12.914934492090035,Loess,Improvement
-H3b,Polychlorinated Biphenyls,Medium term,2010 to 2020,-31.72257266058679,Loess,Improvement
-H3b,Polychlorinated Biphenyls,Long term,2000 to 2020,-72.2580570664975,Loess,Improvement
-H3b,Polychlorinated Naphthalenes,Short term,2015 to 2020,3.784740487386393,Loess,Deterioration
-H3b,Polychlorinated Naphthalenes,Medium term,2010 to 2020,-8.01937330086056,Loess,Improvement
-H3b,Polychlorinated Naphthalenes,Long term,2000 to 2020,-59.019479998957046,Loess,Improvement
+H3b,Dioxin-like Polychlorinated Biphenyls,Short term,2017 to 2022,-39.6161472570632,Loess,Improvement
+H3b,Dioxin-like Polychlorinated Biphenyls,Medium term,2012 to 2022,-65.67172931643258,Loess,Improvement
+H3b,Dioxin-like Polychlorinated Biphenyls,Long term,2000 to 2022,-91.88050947359315,Loess,Improvement
+H3b,Dioxins and Furans,Short term,2017 to 2022,-4.151637748771136,Loess,Improvement
+H3b,Dioxins and Furans,Medium term,2012 to 2022,-11.224904297258215,Loess,Improvement
+H3b,Dioxins and Furans,Long term,2000 to 2022,-60.44432287807111,Loess,Improvement
+H3b,Hexachlorobenzene,Short term,2017 to 2022,26.22517166342847,Loess,Deterioration
+H3b,Hexachlorobenzene,Medium term,2012 to 2022,43.82588165179956,Loess,Deterioration
+H3b,Hexachlorobenzene,Long term,2000 to 2022,-46.155754657979756,Loess,Improvement
+H3b,Pentachlorobenzine,Short term,2017 to 2022,-9.2891395962081,Loess,Improvement
+H3b,Pentachlorobenzine,Medium term,2012 to 2022,-20.33678246487848,Loess,Improvement
+H3b,Pentachlorobenzine,Long term,2000 to 2022,-83.10614191607118,Loess,Improvement
+H3b,Pentachlorophenol,Short term,2017 to 2022,-31.862557152942315,Loess,Improvement
+H3b,Pentachlorophenol,Medium term,2012 to 2022,-50.87313995707072,Loess,Improvement
+H3b,Pentachlorophenol,Long term,2000 to 2022,-75.29009669094782,Loess,Improvement
+H3b,Polychlorinated Biphenyls,Short term,2017 to 2022,-28.48389984147886,Loess,Improvement
+H3b,Polychlorinated Biphenyls,Medium term,2012 to 2022,-58.78710024357411,Loess,Improvement
+H3b,Polychlorinated Biphenyls,Long term,2000 to 2022,-92.53108011743007,Loess,Improvement
+H3b,Polychlorinated Naphthalenes,Short term,2017 to 2022,10.463728372470856,Loess,Deterioration
+H3b,Polychlorinated Naphthalenes,Medium term,2012 to 2022,-13.818914764693583,Loess,Improvement
+H3b,Polychlorinated Naphthalenes,Long term,2000 to 2022,-83.88903344338203,Loess,Improvement

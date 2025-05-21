@@ -1,4 +1,4 @@
 Component,Period,Date range,Percentage change,Smoothing function,Assessment of change
-C1b,Short term,2013-2017 to 2018-2022,-18.867924528301888,Rolling average,Improvement
-C1b,Medium term,2008-2012 to 2018-2022,-32.8125,Rolling average,Improvement
-C1b,Long term,2004-2008 to 2018-2022,-30.64516129032258,Rolling average,Improvement
+C1b,Short term,2014-2018 to 2019-2023,-22.916666666666664,Rolling average,Improvement
+C1b,Medium term,2009-2013 to 2019-2023,-39.34426229508197,Rolling average,Improvement
+C1b,Long term,2004-2008 to 2019-2023,-40.32258064516129,Rolling average,Improvement

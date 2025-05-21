@@ -11,7 +11,8 @@ year,variable,percentage
 2019,Hardwood and softwood,42.9
 2020,Hardwood and softwood,40.2
 2021,Hardwood and softwood,38.1
-2022,Hardwood and softwood,34.9
+2022,Hardwood and softwood,34.2
+2023,Hardwood and softwood,35.1
 2010,Hardwood,12.6
 2011,Hardwood,12.8
 2012,Hardwood,12.6
@@ -24,7 +25,8 @@ year,variable,percentage
 2019,Hardwood,18.7
 2020,Hardwood,17.8
 2021,Hardwood,17.7
-2022,Hardwood,17.5
+2022,Hardwood,15.7
+2023,Hardwood,15.3
 2010,Softwood,67.0
 2011,Softwood,70.8
 2012,Softwood,73.7
@@ -37,4 +39,5 @@ year,variable,percentage
 2019,Softwood,79.9
 2020,Softwood,74.6
 2021,Softwood,69.5
-2022,Softwood,65.2
+2022,Softwood,66.7
+2023,Softwood,69.7

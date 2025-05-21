@@ -1,4 +1,4 @@
 Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
-B2,Serious pollution incidents,Short term,2016 to 2021,-1.0608872715806434,Loess,Little or no change
-B2,Serious pollution incidents,Medium term,2011 to 2021,-11.773253887518893,Loess,Improvement
-B2,Serious pollution incidents,Long term,2001 to 2021,-63.54664395398194,Loess,Improvement
+B2,Serious pollution incidents,Short term,2018 to 2023,16.72496618385933,Loess,Deterioration
+B2,Serious pollution incidents,Medium term,2013 to 2023,6.232459493918233,Loess,Deterioration
+B2,Serious pollution incidents,Long term,2001 to 2023,-58.252221203378085,Loess,Improvement

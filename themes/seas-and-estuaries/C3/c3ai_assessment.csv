@@ -1,7 +1,7 @@
 Component,Subcomponent,Period,Date range,Percentage change,Assessment methodology,Assessment of change
-C3ai,Southeast England,Short term,2015 to 2020,-14.7,Loess,Deterioration
-C3ai,Southeast England,Medium term,2010 to 2020,3.87,Loess,Improvement
-C3ai,Southeast England,Long term,1995 to 2020,38.32,Loess,Improvement
-C3ai,Northeast England,Short term,2015 to 2020,8.08,Loess,Improvement
-C3ai,Northeast England,Medium term,2010 to 2020,34.96,Loess,Improvement
-C3ai,Northeast England,Long term,1994 to 2020,86.5,Loess,Improvement
+C3ai,Southeast England,Short term,2018 to 2023,-28.26,Loess,Deterioration
+C3ai,Southeast England,Medium term,2013 to 2023,-28.68,Loess,Deterioration
+C3ai,Southeast England,Long term,1995 to 2023,9.95,Loess,Improvement
+C3ai,Northeast England,Short term,2018 to 2023,19.08,Loess,Improvement
+C3ai,Northeast England,Medium term,2013 to 2023,41.67,Loess,Improvement
+C3ai,Northeast England,Long term,1994 to 2023,122.66,Loess,Improvement

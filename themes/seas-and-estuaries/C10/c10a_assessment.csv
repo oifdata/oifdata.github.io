@@ -1,4 +1,4 @@
 Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
-C10a,below FMSY or in FMSY range,Short term,2014 to 2019,25.970792105228796,Loess,Improvement
-C10a,below FMSY or in FMSY range,Medium term,2009 to 2019,86.12207501032525,Loess,Improvement
-C10a,below FMSY or in FMSY range,Long term,1990 to 2019,350.7239906204809,Loess,Improvement
+C10a,Percentage sustainable,Short term,2015 to 2020,25.58031849451501,Loess,Improvement
+C10a,Percentage sustainable,Medium term,2010 to 2020,81.58636615144839,Loess,Improvement
+C10a,Percentage sustainable,Long term,1990 to 2020,355.5454454800366,Loess,Improvement

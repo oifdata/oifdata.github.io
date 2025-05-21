@@ -51,7 +51,7 @@
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Assessment/classification results",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "Inshore data, predominantly collected under the WFD between 2010 and 2015, were used to assess seagrass, rocky shore macroalgae and saltmarsh habitats.",
+    "notes": "Inshore data, predominantly collected under the WFD between 2010 and 2015, were used to assess saltmarsh habitats.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",

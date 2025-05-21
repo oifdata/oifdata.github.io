@@ -1,5 +1,5 @@
 {
-    "schema:name": "Harbour seal abundance, north-east and south-east England, 1994 to 2021",
+    "schema:name": "Harbour seal abundance, north-east and south-east England, 1994 to 2023",
     "url": "c3ai.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -10,12 +10,12 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:name": "August Seal Counts – England Download",
+            "schema:name": "Seal counts",
             "schema:url": "http://www.smru.st-andrews.ac.uk/scos/scos-data/august-seal-counts/august-seal-counts-england/august-seal-counts-england-download/",
             "@type": "Dataset",
             "schema:author": [
                 {
-                    "schema:name": "Seal Mammal Research Unit",
+                    "schema:name": "Sea Mammal Research Unit",
                     "schema:sameAs": "http://www.smru.st-andrews.ac.uk/",
                     "@type": "schema:ResearchOrganization"
                 },
@@ -34,8 +34,8 @@
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "1994/2021",
-    "schema:version": "2023-02-03",
+    "schema:temporalCoverage": "1994/2023",
+    "schema:version": "2025-03-13",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Count of seals",
     "@context": "http://www.w3.org/ns/csvw",
@@ -53,7 +53,7 @@
                 "datatype": {
                     "base": "integer",
                     "minimum": "1994",
-                    "maximum": "2021",
+                    "maximum": "2023",
                     "@type": "Datatype"
                 },
                 "default": "",

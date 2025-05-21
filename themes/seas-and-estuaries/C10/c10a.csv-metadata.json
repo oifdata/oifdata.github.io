@@ -10,17 +10,25 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:name": "Sustainable fisheries, 1990 to 2020",
-            "schema:url": "https://www.gov.uk/government/statistics/england-biodiversity-indicators/23-sustainable-fisheries",
+            "schema:name": "sustainable_fisheries:_fish_stocks_harvested_within_safe_limits_2024",
+            "schema:url": "https://jncc.gov.uk/our-work/ukbi-sustainable-fisheries/#technical-annex",
             "@type": "Dataset",
-            "schema:author": {
-                "schema:alternateName": "Defra",
-                "schema:name": "Department for Environment, Food & Rural Affairs",
-                "schema:sameAs": "https://ror.org/00tnppw48",
-                "@type": "schema:GovernmentOrganization"
-            },
-            "schema:dateModified": "2023-11-20",
-            "schema:datePublished": "2023-11-20"
+            "schema:author": [
+                {
+                    "schema:alternateName": "JNCC",
+                    "schema:name": "Joint Nature Conservation Committee",
+                    "schema:sameAs": "https://ror.org/05tzsrw37",
+                    "@type": "schema:GovernmentOrganization"
+                },
+                {
+                    "schema:alternateName": "Defra",
+                    "schema:name": "Department for Environment, Food & Rural Affairs",
+                    "schema:sameAs": "https://ror.org/00tnppw48",
+                    "@type": "schema:GovernmentOrganization"
+                }
+            ],
+            "schema:dateModified": "2024-12-10",
+            "schema:datePublished": "2024-12-10"
         }
     ],
     "schema:keywords": [
@@ -28,7 +36,7 @@
     ],
     "schema:spatialCoverage": "UK",
     "schema:temporalCoverage": "1990/2020",
-    "schema:version": "2023-11-20",
+    "schema:version": "2024-12-10",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Percentage of marine fish (quota) stocks of UK interest exploited with respect to FMSY",
     "@context": "http://www.w3.org/ns/csvw",
@@ -64,7 +72,7 @@
             {
                 "datatype": {
                     "base": "string",
-                    "format": "Percentage unknown|Percentage above FMSY|Percentage less than or equal to FMSY|Percentage in FMSY range",
+                    "format": "Percentage unknown|Percentage unsustainable (above FMSY)|Percentage sustainable (less than or equal to FMSY)|Percentage unsustainable in the long term (in FMSY range)",
                     "@type": "Datatype"
                 },
                 "default": "",

@@ -64,7 +64,7 @@
             {
                 "datatype": {
                     "base": "string",
-                    "format": "Greater North Sea|Celtic Seas|Threshold Value",
+                    "format": "Greater North Sea|Celtic Seas",
                     "@type": "Datatype"
                 },
                 "default": "",

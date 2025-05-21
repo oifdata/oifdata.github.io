@@ -1,5 +1,5 @@
 {
-    "schema:name": "Efficiency of agricultural production measured by Total Factor Productivity, England, 1990/1991 to 2022/2023",
+    "schema:name": "Efficiency of agricultural production measured by Total Factor Productivity, England, 1990/1991 to 2023/2024",
     "url": "e4.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -57,12 +57,12 @@
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "1990/2023",
-    "schema:version": "2024-01-16",
+    "schema:temporalCoverage": "1990/2024",
+    "schema:version": "2025-02-13",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Efficiency of agricultural production measured by Total Factor Productivity in the UK (1990/91=100)",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "The data are reported on a March to February year, which is the average accounting year for respondents to the Farm Business Survey.\n    \n</br>As of the 2024 update, data on the volume of agricultural production and the volume of inputs used in agricultural production (from indicators E2 and E3 respectively) have been added to this chart to aid interpretation.\n\n</br>Following an improvement to the methodology in the source publication, figures for 2020/2021 and 2021/2022 have been revised in the 2024 update to this indicator.",
+    "notes": "The data are reported on a March to February year, which is the average accounting year for respondents to the Farm Business Survey.\n    \n</br>As of the 2024 update, data on the volume of agricultural production and the volume of inputs used in agricultural production (from indicators E2 and E3 respectively) have been added to this chart to aid interpretation.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -75,7 +75,7 @@
             {
                 "datatype": {
                     "base": "string",
-                    "format": "1990/1991|1991/1992|1992/1993|1993/1994|1994/1995|1995/1996|1996/1997|1997/1998|1998/1999|1999/2000|2000/2001|2001/2002|2002/2003|2003/2004|2004/2005|2005/2006|2006/2007|2007/2008|2008/2009|2009/2010|2010/2011|2011/2012|2012/2013|2013/2014|2014/2015|2015/2016|2016/2017|2017/2018|2018/2019|2019/2020|2020/2021|2021/2022|2022/2023",
+                    "format": "1990/1991|1991/1992|1992/1993|1993/1994|1994/1995|1995/1996|1996/1997|1997/1998|1998/1999|1999/2000|2000/2001|2001/2002|2002/2003|2003/2004|2004/2005|2005/2006|2006/2007|2007/2008|2008/2009|2009/2010|2010/2011|2011/2012|2012/2013|2013/2014|2014/2015|2015/2016|2016/2017|2017/2018|2018/2019|2019/2020|2020/2021|2021/2022|2022/2023|2023/2024",
                     "@type": "Datatype"
                 },
                 "default": "",

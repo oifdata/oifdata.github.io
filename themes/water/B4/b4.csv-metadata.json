@@ -1,5 +1,5 @@
 {
-    "schema:name": "Condition of designated bathing waters in England, 1995 to 2023",
+    "schema:name": "Condition of designated bathing waters in England, 1995 to 2024",
     "url": "b4.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -123,18 +123,31 @@
             "schema:dateModified": "2023-12-01",
             "schema:datePublished": "2023-12-01",
             "schema:headline": "National bathing waters in England for 2023: Individual bathing water classifications"
+        },
+        {
+            "schema:url": "https://www.gov.uk/government/statistical-data-sets/env17-bathing-water-quality-additional-datasets",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "Defra",
+                "schema:name": "Department for Environment, Food & Rural Affairs",
+                "schema:sameAs": "https://ror.org/00tnppw48",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:dateModified": "2024-11-26",
+            "schema:datePublished": "2024-11-26",
+            "schema:headline": "National bathing waters in England for 2023: Individual bathing water classifications"
         }
     ],
     "schema:keywords": [
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "1995/2023",
-    "schema:version": "2023-12-01",
+    "schema:temporalCoverage": "1995/2024",
+    "schema:version": "2025-01-20",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "percentage of bathing waters categorised by each condition by the Bathing Water Directive",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "Any classifications pre-2015 are projected classifications and were not formally reported. They have been back calculated using historic methods and data collected for the 1976 Bathing Water Directive (76/160/EEC) which was repealed in 2014. <br><br> Bathing waters in England were not classified in 2020 due to the constraints posed by COVID-19 lockdowns. Classifications between 2021 and 2023 will therefore use the most recent 4 years with samples drawn from the previous 5 years. This will revert back to normal practice in 2024 with the most recent 4 years data used for classification.",
+    "notes": "For the 2025 update of this indicator, the total number of bathing waters classified in each year are labelled above each bar of the chart. This number is used to calculate the percentage of bathing waters which fall under each classification category. <br><br>Any classifications pre-2015 are projected classifications and were not formally reported. They have been back calculated using historic methods and data collected for the 1976 Bathing Water Directive (76/160/EEC) which was repealed in 2014. <br><br> Bathing waters in England were not classified in 2020 due to the constraints posed by COVID-19 lockdowns. Classifications between 2021 and 2023 therefore use the most recent 4 years with samples drawn from the previous 5 years. This reverted back to normal practice in 2024 with the most recent 4 years of data used for classification.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -148,7 +161,7 @@
                 "datatype": {
                     "base": "integer",
                     "minimum": "1995",
-                    "maximum": "2023",
+                    "maximum": "2024",
                     "@type": "Datatype"
                 },
                 "default": "",

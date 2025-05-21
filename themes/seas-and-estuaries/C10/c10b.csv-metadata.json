@@ -10,17 +10,25 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:name": "Sustainable fisheries, 1990 to 2020",
-            "schema:url": "https://www.gov.uk/government/statistics/england-biodiversity-indicators/23-sustainable-fisheries",
+            "schema:name": "sustainable_fisheries:_fish_stocks_harvested_within_safe_limits_2024",
+            "schema:url": "https://jncc.gov.uk/our-work/ukbi-sustainable-fisheries/#technical-annex",
             "@type": "Dataset",
-            "schema:author": {
-                "schema:alternateName": "Defra",
-                "schema:name": "Department for Environment, Food & Rural Affairs",
-                "schema:sameAs": "https://ror.org/00tnppw48",
-                "@type": "schema:GovernmentOrganization"
-            },
-            "schema:dateModified": "2023-11-20",
-            "schema:datePublished": "2023-11-20"
+            "schema:author": [
+                {
+                    "schema:alternateName": "JNCC",
+                    "schema:name": "Joint Nature Conservation Committee",
+                    "schema:sameAs": "https://ror.org/05tzsrw37",
+                    "@type": "schema:GovernmentOrganization"
+                },
+                {
+                    "schema:alternateName": "Defra",
+                    "schema:name": "Department for Environment, Food & Rural Affairs",
+                    "schema:sameAs": "https://ror.org/00tnppw48",
+                    "@type": "schema:GovernmentOrganization"
+                }
+            ],
+            "schema:dateModified": "2024-12-10",
+            "schema:datePublished": "2024-12-10"
         }
     ],
     "schema:keywords": [
@@ -28,11 +36,11 @@
     ],
     "schema:spatialCoverage": "UK",
     "schema:temporalCoverage": "1990/2020",
-    "schema:version": "2023-11-20",
+    "schema:version": "2024-12-10",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Percentage of marine fish (quota) stocks of UK interest with SSB above MSY Btrigger",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "Based on 57 stocks of interest to the UK, derived from ICES and national stock assessment reports. When new stock assessment data are incorporated into the model that compiles this time series, all data are subject to minor revisions.",
+    "notes": "Based on 57 stocks of interest to the UK, derived from ICES and national stock assessment reports. When new stock assessment data are incorporated into the model that compiles this time series, all data are subject to minor revisions.\n    \n</br>Stocks at risk of reproductive impairment are split into 2 categories. Those with SSB less than MSYBtrigger and greater than Blim are deemed to be lower risk, and those with SSB below MSYBtrigger and below Blim are deemed to be higher risk.\n",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -64,7 +72,7 @@
             {
                 "datatype": {
                     "base": "string",
-                    "format": "Percentage unknown|Percentage below MSYBtrigger and below Blim (where available)|Percentage greater than or equal to MSY Btrigger|Percentage less than MSY Btrigger but greater than Blim",
+                    "format": "Percentage unknown|Percentage unsustainable (less than MSY BTrigger and less than BLim)|Percentage sustainable (greater than or equal to MSY BTrigger)|Percentage risk of unsustainable (less than MSY BTrigger but greater than BLim)",
                     "@type": "Datatype"
                 },
                 "default": "",

@@ -1,5 +1,5 @@
 {
-    "schema:name": "Atlantic grey seal pup production, north-east and south-east England, 1991 to 2019",
+    "schema:name": "Atlantic grey seal pup production, north-east and south-east England, 1991 to 2021",
     "url": "c3aii.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -10,12 +10,12 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:name": "Grey Seal Pup Production – England Download",
-            "schema:url": "http://www.smru.st-andrews.ac.uk/scos/scos-data/grey-seal-pup-production/grey-seal-pup-production-england/grey-seal-pup-production-england-download/",
+            "schema:name": "Seal counts",
+            "schema:url": "http://www.smru.st-andrews.ac.uk/scos/scos-data/august-seal-counts/august-seal-counts-england/august-seal-counts-england-download/",
             "@type": "Dataset",
             "schema:author": [
                 {
-                    "schema:name": "Seal Mammal Research Unit",
+                    "schema:name": "Sea Mammal Research Unit",
                     "schema:sameAs": "http://www.smru.st-andrews.ac.uk/",
                     "@type": "schema:ResearchOrganization"
                 },
@@ -34,8 +34,8 @@
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "1991/2019",
-    "schema:version": "2023-02-03",
+    "schema:temporalCoverage": "1991/2021",
+    "schema:version": "2025-03-13",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Annual grey seal pup production estimates",
     "@context": "http://www.w3.org/ns/csvw",
@@ -53,7 +53,7 @@
                 "datatype": {
                     "base": "integer",
                     "minimum": "1991",
-                    "maximum": "2019",
+                    "maximum": "2021",
                     "@type": "Datatype"
                 },
                 "default": "",
@@ -87,7 +87,7 @@
                 "schema:description": "Region where counts are taken"
             },
             {
-                "datatype": "integer",
+                "datatype": "number",
                 "default": "",
                 "lang": "und",
                 "null": "",

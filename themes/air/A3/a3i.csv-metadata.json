@@ -1,0 +1,81 @@
+{
+    "schema:name": "Population exposure to fine particulate matter (PM2.5) in England, 2018 to 2023",
+    "url": "a3i.csv",
+    "@type": "TableGroup",
+    "schema:creator": {
+        "schema:alternateName": "Defra",
+        "schema:name": "Department for Environment, Food & Rural Affairs",
+        "schema:sameAs": "https://ror.org/00tnppw48",
+        "@type": "schema:GovernmentOrganization"
+    },
+    "schema:isBasedOn": [
+        {
+            "schema:sameAs": "https://uk-air.defra.gov.uk/pm25targets/progress",
+            "@type": "Dataset",
+            "schema:author": {
+                "schema:alternateName": "Defra",
+                "schema:name": "Department for Environment, Food & Rural Affairs",
+                "schema:sameAs": "https://ror.org/00tnppw48",
+                "@type": "schema:GovernmentOrganization"
+            },
+            "schema:dateModified": "2024-12-30",
+            "schema:datePublished": "2024-12-30",
+            "schema:headline": "PERT annual PM2.5 data"
+        }
+    ],
+    "schema:keywords": [
+        "tbc"
+    ],
+    "schema:spatialCoverage": "England",
+    "schema:temporalCoverage": "2018/2023",
+    "schema:version": "2024-12-30",
+    "schema:measurementTechnique": "?",
+    "schema:variableMeasured": "population exposure indicator for PM2.5 in ugm-3",
+    "@context": "http://www.w3.org/ns/csvw",
+    "notes": "Each datapoint in Figure A3i is a 3-year average to reduce interannual variability due to factors such as weather and other temporary external events and to provide a more stable trend. Datapoints represent the final year in the 3-year moving average time periods, therefore, the 2023 data point, for example, includes data from 2021 to 2023.\n\n</br>The number of AURN monitoring sites meeting the required data capture threshold for inclusion in the population exposure indicator changes from year to year. Overall however, the number of sites has increased over the time period covered by this indicator, and it will continue to do so over the next few years as the monitoring network expands.\n\n</br>Some PM2.5 is naturally produced, for example, from sea salt or dust, so it is not possible for the population exposure indicator for PM2.5 to reach zero.",
+    "tableDirection": "auto",
+    "tableSchema": {
+        "default": "",
+        "lang": "und",
+        "null": "",
+        "ordered": false,
+        "required": false,
+        "textDirection": "inherit",
+        "columns": [
+            {
+                "datatype": {
+                    "base": "integer",
+                    "minimum": "2018",
+                    "maximum": "2023",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "year",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The year range for the data present"
+            },
+            {
+                "datatype": "number",
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "value",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "population exposure indicator for PM2.5 in ugm-3"
+            }
+        ],
+        "@type": "Schema"
+    }
+}

@@ -1,5 +1,5 @@
 {
-    "schema:name": "Percentage land cover in England by broad habitat types, 2022",
+    "schema:name": "Percentage land cover in England by broad habitat types, 2023",
     "url": "d1.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -10,7 +10,7 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:name": "Living England habitat extent summary",
+            "schema:name": "NE_Living_England_Summary_2022_23",
             "@type": "Dataset",
             "schema:author": {
                 "schema:alternateName": "NE",
@@ -24,8 +24,8 @@
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "2021/2022",
-    "schema:version": "2015/2021",
+    "schema:temporalCoverage": "2022/2023",
+    "schema:version": "2024-06-17",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "predicted percentage of land cover by habitat",
     "@context": "http://www.w3.org/ns/csvw",
@@ -41,7 +41,7 @@
             {
                 "datatype": {
                     "base": "string",
-                    "format": "Acid, calcareous and neutral grassland|Arable and horticultural|Bare ground|Bare sand|Bog|Bracken|Broadleaved, mixed and yew woodland|Built-up areas and gardens|Coastal saltmarsh|Coastal sand dunes|Coniferous woodland|Dwarf shrub heath|Fen, marsh and swamp|Improved grassland|Scrub|Unclassified|Water",
+                    "format": "Acid, calcareous and neutral grassland|Arable and horticultural|Bare ground|Bog|Bare sand|Bog|Bracken|Broadleaved, mixed and yew woodland|Built-up areas and gardens|Coastal saltmarsh|Coastal sand dunes|Coniferous woodland|Dwarf shrub heath|Fen, marsh and swamp|Improved and semi-improved grassland|Scrub|Solar farms|Unimproved grassland|Water",
                     "@type": "Datatype"
                 },
                 "default": "",
@@ -50,7 +50,7 @@
                 "ordered": false,
                 "required": false,
                 "textDirection": "inherit",
-                "name": "habitat",
+                "name": "primary_habitat",
                 "suppressOutput": false,
                 "virtual": false,
                 "@type": "Column",

@@ -1,5 +1,5 @@
 {
-    "schema:name": "Weighted percentage of adults agreeing or strongly agreeing with statements about their expectations and perceptions of the quality of green and natural spaces in England, survey year 2022/2023",
+    "schema:name": "Comparing Perceptions of Green and Natural Spaces Close to Where People Live with Expectations of Green and Natural Spaces More Generally, Broken Down by Individual Measures of Quality of Provision, Survey Year 2023/2024",
     "url": "g3bii.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -10,13 +10,13 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:description": "Composite statistics from the People and Nature Surveys used in 2024 national indicators.",
+            "schema:description": "Composite statistics from the People and Nature Surveys used in 2025 national indicators.",
             "schema:image": [
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-bf9e64d759af6dfd93bede8168f3087a329f405b382aff36747db0db4b7b23e9.png",
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-13093f053c15f613acd827aff27cac83d3fab452947cbcae4c7b706dadf2f7f2.png",
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-4233cd42671827e266e284c4d5ae68fb600bd9f9e35dda663ccabbc2b6ab7ec3.png"
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-c3d38c0d4fc00005df38a71e1db7097276681d6917bca58f0dc8336a252e1bb3.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-edc38c137a14ecfc3fc83f404090e20dab806dad345c96a1df6a163ee2d1e3aa.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-5dc2d0ea1eb72cd94e66db210ef41b22ce364e7ed09d63a3acc28fda09e27864.png"
             ],
-            "schema:name": "Statistics and technical details for 2024 national indicators",
+            "schema:name": "National indicators 2025 - statistics and technical details",
             "@type": "Dataset",
             "schema:about": [
                 {
@@ -36,19 +36,19 @@
                 "schema:url": "https://www.gov.uk",
                 "@type": "Organization"
             },
-            "schema:text": "Composite statistics from the People and Nature Surveys used in 2024 national indicators."
+            "schema:text": "Composite statistics from the People and Nature Surveys used in 2025 national indicators."
         }
     ],
     "schema:keywords": [
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "2022/2023",
-    "schema:version": "2024-01-26",
+    "schema:temporalCoverage": "2023/2024",
+    "schema:version": "2025-02-05",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "The weighted percentage of adults in England agreeing or strongly agreeing with statement",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "Figure G3bii is derived from PANS data collected in the survey year (April to March) 2022 to 2023. Base: All respondents.\n    \n</br>The indicator is based on responses to question [M1_Q4]: ‘How much do you agree or disagree with the following statements relating to green and natural spaces generally? In general, green and natural spaces should be:’ and question [M1_Q5]: ‘Now, thinking about green and natural spaces close to where you live, how much do you agree or disagree with the following statements? My local green and natural spaces actually are:’. The statements are:</br>\n\n* a) within easy walking distance \n* b) good places for mental health and wellbeing \n* c) a high enough standard to want to spend time in \n* d) good places for children to play \n* e) places that encourage physical health and exercise \n* f) good places to meet other people \n* g) provide good opportunities to see nature \n\n</br>Some response options in PANS have been combined for the purposes of this indicator.",
+    "notes": "Figure G3bii is derived from PaNS data collected in the survey year (April to March) 2023 to 2024. Base: 24,961 English adults.\n    \n</br>The indicator is based on responses to question [M1_Q4]: ‘How much do you agree or disagree with the following statements relating to green and natural spaces generally? In general, green and natural spaces should be:’ and question [M1_Q5]: ‘Now, thinking about green and natural spaces close to where you live, how much do you agree or disagree with the following statements? My local green and natural spaces actually are:’. The statements are:</br>\n\n* a) within easy walking distance \n* b) good places for mental health and wellbeing \n* c) a high enough standard to want to spend time in \n* d) good places for children to play \n* e) places that encourage physical health and exercise \n* f) good places to meet other people \n* g) provide good opportunities to see nature \n\n</br>Some response options ('agree' and 'strongly agree') in PaNS have been combined for the purposes of this indicator.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -61,7 +61,7 @@
             {
                 "datatype": {
                     "base": "string",
-                    "format": "General expectations of what green and natural spaces should be|Perceptions of what local green and natural spaces actually are",
+                    "format": "% agree with the statement relating to green and natural spaces generally|% agree with the statement when thinking about green and natural spaces close to where they live",
                     "@type": "Datatype"
                 },
                 "default": "",
@@ -79,7 +79,7 @@
             {
                 "datatype": {
                     "base": "string",
-                    "format": "a) Within easy walking distance|b) Good places for mental health and wellbeing|c) A high enough standard to want to spend time in|d) Good places for children to play|e) Places that encourage physical health and exercise|f) Good places to meet other people|g) Provide good opportunities to see nature",
+                    "format": "Within easy walking distance|Good places for mental health and wellbeing|A high enough standard to want to spend time in|Good places for children to play|Places that encourage physical health and exercise|Good places to meet other people|Provide good opportunities to see nature",
                     "@type": "Datatype"
                 },
                 "default": "",

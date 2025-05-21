@@ -52,7 +52,7 @@
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Regional sea assessment results",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "This chart is based on the regional-sea level assessments conducted for the UK Marine Strategy in 2019, and is presented spatially in figures C4i, C4ii, C4iii and C4iv. Data was collected between 2010 and 2015.\n    \n</br>Under the UK Marine Strategy, the UK is split into 2 sub-regions, the Greater North Sea and the Celtic Seas. There are 3 assessment units (Regional Seas) in the Greater North Sea and 6 in the Celtic Seas. In the Celtic Seas, only soft sediment invertebrates are present in all Celtic Sea assessment units, the other habitat types shown in C4 are only present in 5. ",
+    "notes": "This chart is based on the regional-sea level assessments conducted for the UKMS in 2019, and is presented spatially in figures C4i, C4ii, C4iii and C4iv. Data was collected between 2010 and 2015.\n    \n</br>Under the UKMS, the UK is split into 2 sub-regions, the Greater North Sea and the Celtic Seas. There are 3 assessment units (Regional Seas) in the Greater North Sea and 6 in the Celtic Seas. In the Celtic Seas, only soft sediment invertebrates are present in all Celtic Sea assessment units, the other habitat types shown in C4 are only present in 5. ",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",

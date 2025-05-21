@@ -1,5 +1,5 @@
 {
-    "schema:name": "Emissions of greenhouse gases from natural resources, waste and fluorinated gases in England, 1990 to 2021",
+    "schema:name": "Emissions of greenhouse gases from natural resources, waste and fluorinated gases in England, 1990 to 2022",
     "url": "a2.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -10,7 +10,7 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:sameAs": "https://naei.beis.gov.uk/reports/reports?report_id=1110",
+            "schema:sameAs": "https://naei.energysecurity.gov.uk/reports/greenhouse-gas-inventories-england-scotland-wales-northern-ireland-1990-2022",
             "@type": "Dataset",
             "schema:author": {
                 "schema:alternateName": "DESNZ",
@@ -18,17 +18,17 @@
                 "schema:sameAs": "https://ror.org/019ya6433",
                 "@type": "schema:GovernmentOrganization"
             },
-            "schema:dateModified": "2023-06-20",
-            "schema:datePublished": "2023-06-20",
-            "schema:headline": "Report: Greenhouse Gas Inventories for England, Scotland, Wales & Northern Ireland: 1990-2021"
+            "schema:dateModified": "2024-06-18",
+            "schema:datePublished": "2024-06-18",
+            "schema:headline": "Greenhouse Gas Inventories for England, Scotland, Wales & Northern Ireland: 1990-2022"
         }
     ],
     "schema:keywords": [
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "1990/2021",
-    "schema:version": "2023-06-20",
+    "schema:temporalCoverage": "1990/2022",
+    "schema:version": "2024-06-18",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "CO2 equivalent; Emission estimate displayed using the standard IPCC global warming potential conversion factors",
     "@context": "http://www.w3.org/ns/csvw",
@@ -46,7 +46,7 @@
                 "datatype": {
                     "base": "integer",
                     "minimum": "1990",
-                    "maximum": "2021",
+                    "maximum": "2022",
                     "@type": "Datatype"
                 },
                 "default": "",

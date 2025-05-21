@@ -1,13 +1,17 @@
 year,response,percentage
-2020/2021,Important,85.9898677366728
-2021/2022,Important,86.37599287283992
-2022/2023,Important,86.29038426088489
-2020/2021,Neither important nor unimportant,11.09973886200816
-2021/2022,Neither important nor unimportant,10.86557908169549
-2022/2023,Neither important nor unimportant,11.35203773706806
-2020/2021,Not important,2.91039340131903
-2021/2022,Not important,2.74333798248863
-2022/2023,Not important,2.35757800204703
+2020/2021,Important,85.99
+2021/2022,Important,86.38
+2022/2023,Important,86.29
+2023/2024,Important,87.67
+2020/2021,Neither important nor unimportant,11.1
+2021/2022,Neither important nor unimportant,10.87
+2022/2023,Neither important nor unimportant,11.35
+2023/2024,Neither important nor unimportant,10.0
+2020/2021,Not important,2.91
+2021/2022,Not important,2.74
+2022/2023,Not important,2.36
+2023/2024,Not important,2.33
 2020/2021,Don't know and prefer not to say,0.0
-2021/2022,Don't know and prefer not to say,0.01509006297596
+2021/2022,Don't know and prefer not to say,0.02
 2022/2023,Don't know and prefer not to say,0.0
+2023/2024,Don't know and prefer not to say,0.0

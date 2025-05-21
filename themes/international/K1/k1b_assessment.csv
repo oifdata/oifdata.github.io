@@ -1,4 +1,4 @@
 Component,Period,Date range,Percentage change,Smoothing function,Assessment of change
-K1b,Short term,2015 to 2020,11.088731407697452,Loess,Deterioration
-K1b,Medium term,2010 to 2020,11.480518248202005,Loess,Deterioration
-K1b,Long term,2005 to 2020,-13.26203124654611,Loess,Improvement
+K1b,Short term,2017 to 2022,18.627071882698562,Loess,Deterioration
+K1b,Medium term,2012 to 2022,14.526995363989856,Loess,Deterioration
+K1b,Long term,2005 to 2022,-6.312128748437955,Loess,Improvement

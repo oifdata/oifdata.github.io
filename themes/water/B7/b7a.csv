@@ -52,18 +52,22 @@ year,status,percentage
 2018,Probably at risk,61.90476190476191
 2018,At risk,28.57142857142857
 2019,Not at risk,0.0
-2019,Probably not at risk,7.0
-2019,Probably at risk,36.0
-2019,At risk,57.0
-2020,Not at risk,2.0
-2020,Probably not at risk,10.0
-2020,Probably at risk,40.0
-2020,At risk,48.0
-2021,Not at risk,2.0
-2021,Probably not at risk,10.0
-2021,Probably at risk,14.0
-2021,At risk,74.0
+2019,Probably not at risk,7.142857142857142
+2019,Probably at risk,35.714285714285715
+2019,At risk,57.14285714285714
+2020,Not at risk,2.380952380952381
+2020,Probably not at risk,9.523809523809524
+2020,Probably at risk,40.47619047619048
+2020,At risk,47.61904761904761
+2021,Not at risk,2.380952380952381
+2021,Probably not at risk,9.523809523809524
+2021,Probably at risk,14.285714285714285
+2021,At risk,73.80952380952381
 2022,Not at risk,2.380952380952381
 2022,Probably not at risk,11.904761904761903
 2022,Probably at risk,14.285714285714285
 2022,At risk,71.42857142857143
+2023,Not at risk,2.380952380952381
+2023,Probably not at risk,7.142857142857142
+2023,Probably at risk,14.285714285714285
+2023,At risk,76.19047619047619

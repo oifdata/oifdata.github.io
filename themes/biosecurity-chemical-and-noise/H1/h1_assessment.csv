@@ -1,10 +1,10 @@
 Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
 H1,Freshwater,Short term,N/A,N/A,N/A,Not assessed
 H1,Freshwater,Medium term,N/A,N/A,N/A,Not assessed
-H1,Freshwater,Long term,1969 to 2022,250.0,Unsmoothed,Deterioration
-H1,Marine (Coastal),Short term,N/A,N/A,N/A,Not assessed
-H1,Marine (Coastal),Medium term,N/A,N/A,N/A,Not assessed
-H1,Marine (Coastal),Long term,1969 to 2022,1350.0,Unsmoothed,Deterioration
+H1,Freshwater,Long term,1969 to 2023,250.0,Unsmoothed,Deterioration
+H1,Marine (coastal),Short term,N/A,N/A,N/A,Not assessed
+H1,Marine (coastal),Medium term,N/A,N/A,N/A,Not assessed
+H1,Marine (coastal),Long term,1969 to 2023,1400.0,Unsmoothed,Deterioration
 H1,Terrestrial,Short term,N/A,N/A,N/A,Not assessed
 H1,Terrestrial,Medium term,N/A,N/A,N/A,Not assessed
-H1,Terrestrial,Long term,1969 to 2022,117.85714285714286,Unsmoothed,Deterioration
+H1,Terrestrial,Long term,1969 to 2023,128.57142857142858,Unsmoothed,Deterioration

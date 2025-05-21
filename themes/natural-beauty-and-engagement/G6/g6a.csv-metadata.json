@@ -1,5 +1,5 @@
 {
-    "schema:name": "Percentage of adults in England reporting that protecting the environment is important to them, survey years 2020/2021 to 2022/2023",
+    "schema:name": "Percentage of adults in England reporting that protecting the environment is important to them, survey years 2020/2021 to 2023/2024",
     "url": "g6a.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -10,13 +10,13 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:description": "Composite statistics from the People and Nature Surveys used in 2024 national indicators.",
+            "schema:description": "Composite statistics from the People and Nature Surveys used in 2025 national indicators.",
             "schema:image": [
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-bf9e64d759af6dfd93bede8168f3087a329f405b382aff36747db0db4b7b23e9.png",
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-13093f053c15f613acd827aff27cac83d3fab452947cbcae4c7b706dadf2f7f2.png",
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-4233cd42671827e266e284c4d5ae68fb600bd9f9e35dda663ccabbc2b6ab7ec3.png"
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-c3d38c0d4fc00005df38a71e1db7097276681d6917bca58f0dc8336a252e1bb3.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-edc38c137a14ecfc3fc83f404090e20dab806dad345c96a1df6a163ee2d1e3aa.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-5dc2d0ea1eb72cd94e66db210ef41b22ce364e7ed09d63a3acc28fda09e27864.png"
             ],
-            "schema:name": "Statistics and technical details for 2024 national indicators",
+            "schema:name": "National indicators 2025 - statistics and technical details",
             "@type": "Dataset",
             "schema:about": [
                 {
@@ -36,19 +36,19 @@
                 "schema:url": "https://www.gov.uk",
                 "@type": "Organization"
             },
-            "schema:text": "Composite statistics from the People and Nature Surveys used in 2024 national indicators."
+            "schema:text": "Composite statistics from the People and Nature Surveys used in 2025 national indicators."
         }
     ],
     "schema:keywords": [
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "2020/2023",
-    "schema:version": "2024-01-26",
+    "schema:temporalCoverage": "2020/2024",
+    "schema:version": "2025-03-11",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Adults reporting that protecting the environment is important to them, weighted percentage of adults",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "Figure G6a is based on PANS data collected in survey years (April to March) 2020/2021 to 2022/2023 with PANS weightings applied. Base: All asked Module 4. It shows responses to the question [M4_Q2]: ‘How important is protecting the environment to you personally?’. Some response options have been combined for the purposes of this indicator.",
+    "notes": "Figure G6a is based on A-PaNS data collected in survey years (April to March) 2020/2021 to 2023/2024 with A-PaNS weightings applied. Base: All asked Module 4. It shows responses to the question [M4_Q2]: ‘How important is protecting the environment to you personally?’. Some response options have been combined for the purposes of this indicator.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -61,7 +61,7 @@
             {
                 "datatype": {
                     "base": "string",
-                    "format": "2020/2021|2021/2022|2022/2023",
+                    "format": "2020/2021|2021/2022|2022/2023|2023/2024",
                     "@type": "Datatype"
                 },
                 "default": "",

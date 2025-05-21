@@ -1,4 +1,4 @@
 Component,Period,Date range,Percentage change,Smoothing function,Assessment of change
-G5a,Short term,2015 to 2020,-13.454146830712574,Loess,Deterioration
-G5a,Medium term,2010 to 2020,-11.862604638381756,Loess,Deterioration
-G5a,Long term,2000 to 2020,25.21639924307798,Loess,Improvement
+G5a,Short term,2017 to 2022,-9.546545969106381,Loess,Deterioration
+G5a,Medium term,2012 to 2022,-10.848542094070238,Loess,Deterioration
+G5a,Long term,2000 to 2022,27.715991433455105,Loess,Improvement

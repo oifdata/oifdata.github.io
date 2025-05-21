@@ -1,21 +1,161 @@
-ukot,category,percentage
-Wider Caribbean,Marine; Total area protected,0.097807043
-Wider Caribbean,Terrestrial; Total area protected,15.05414626
-South Atlantic,Marine; Total area protected,84.41313198
-South Atlantic,Terrestrial; Total area protected,26.46499467
-Indian and Pacific Oceans,Marine; Total area protected,99.98218984
-Indian and Pacific Oceans,Terrestrial; Total area protected,60.55774195
-Mediterranean,Marine; Total area protected,22.71558939
-Mediterranean,Terrestrial; Total area protected,38.08045912
-All UKOTs,Marine; Total area protected,74.95101086
-All UKOTs,Terrestrial; Total area protected,26.09274472
-Wider Caribbean,Marine; Total area unprotected,99.902192957
-Wider Caribbean,Terrestrial; Total area unprotected,84.94585374
-South Atlantic,Marine; Total area unprotected,15.586868019999995
-South Atlantic,Terrestrial; Total area unprotected,73.53500533
-Indian and Pacific Oceans,Marine; Total area unprotected,0.0178101599999962
-Indian and Pacific Oceans,Terrestrial; Total area unprotected,39.44225805
-Mediterranean,Marine; Total area unprotected,77.28441061
-Mediterranean,Terrestrial; Total area unprotected,61.91954088
-All UKOTs,Marine; Total area unprotected,25.048989140000003
-All UKOTs,Terrestrial; Total area unprotected,73.90725528
+year,UK Overseas Territory,Environment,percentage
+2020,Anguilla,Marine,0.0853302220300039
+2020,Anguilla,Terrestrial,0.5051598897709372
+2020,Bermuda,Marine,8.414470458383263e-05
+2020,Bermuda,Terrestrial,4.427035105183779
+2020,British Indian Ocean Territory,Marine,99.95868910412226
+2020,British Indian Ocean Territory,Terrestrial,37.93633618149542
+2020,British Virgin Islands,Marine,0.059025014759362
+2020,British Virgin Islands,Terrestrial,2.687209671053325
+2020,Cayman Islands,Marine,0.0799568134516176
+2020,Cayman Islands,Terrestrial,10.072314813220215
+2020,Falkland Islands,Marine,0.0
+2020,Falkland Islands,Terrestrial,2.9345296707914983
+2020,Gibraltar,Marine,89.13368892395255
+2020,Gibraltar,Terrestrial,36.37178210351592
+2020,Montserrat,Marine,0.0
+2020,Montserrat,Terrestrial,10.861313868613138
+2020,Pitcairn Islands Group,Marine,100.0
+2020,Pitcairn Islands Group,Terrestrial,82.48941142013054
+2020,Saint Helena,Marine,100.0
+2020,Saint Helena,Terrestrial,38.04752408797616
+2020,Ascension,Marine,100.0
+2020,Ascension,Terrestrial,19.53892645212457
+2020,Tristan da Cunha,Marine,0.0050016802274487
+2020,Tristan da Cunha,Terrestrial,44.96770118645144
+2020,South Georgia and the South Sandwich Islands,Marine,100.0
+2020,South Georgia and the South Sandwich Islands,Terrestrial,0.0
+2020,Sovereign Base Areas of Akrotiri and Dhekelia,Marine,8.183682947034091
+2020,Sovereign Base Areas of Akrotiri and Dhekelia,Terrestrial,38.124923532814286
+2020,Turks and Caicos Islands,Marine,0.422888544222336
+2020,Turks and Caicos Islands,Terrestrial,25.07420858094211
+2020,UKOTs Combined,Marine,62.99615270693645
+2020,UKOTs Combined,Terrestrial,4.684484628297541
+2021,Anguilla,Marine,0.0853302220300039
+2021,Anguilla,Terrestrial,0.5051598897709372
+2021,Bermuda,Marine,8.414470458383263e-05
+2021,Bermuda,Terrestrial,4.427035105183779
+2021,British Indian Ocean Territory,Marine,99.95868910412226
+2021,British Indian Ocean Territory,Terrestrial,37.93633618149542
+2021,British Virgin Islands,Marine,0.059025014759362
+2021,British Virgin Islands,Terrestrial,2.687209671053325
+2021,Cayman Islands,Marine,0.1018005093755807
+2021,Cayman Islands,Terrestrial,10.072314813220215
+2021,Falkland Islands,Marine,0.0
+2021,Falkland Islands,Terrestrial,2.9345296707914983
+2021,Gibraltar,Marine,89.13368892395255
+2021,Gibraltar,Terrestrial,36.37178210351592
+2021,Montserrat,Marine,0.0
+2021,Montserrat,Terrestrial,10.861313868613138
+2021,Pitcairn Islands Group,Marine,100.0
+2021,Pitcairn Islands Group,Terrestrial,82.48941142013054
+2021,Saint Helena,Marine,100.0
+2021,Saint Helena,Terrestrial,38.04752408797616
+2021,Ascension,Marine,100.0
+2021,Ascension,Terrestrial,19.53892645212457
+2021,Tristan da Cunha,Marine,91.2046811318257
+2021,Tristan da Cunha,Terrestrial,44.96770118645144
+2021,South Georgia and the South Sandwich Islands,Marine,100.0
+2021,South Georgia and the South Sandwich Islands,Terrestrial,0.0
+2021,Sovereign Base Areas of Akrotiri and Dhekelia,Marine,8.183682947034091
+2021,Sovereign Base Areas of Akrotiri and Dhekelia,Terrestrial,38.124923532814286
+2021,Turks and Caicos Islands,Marine,0.422888544222336
+2021,Turks and Caicos Islands,Terrestrial,25.07420858094211
+2021,UKOTs Combined,Marine,74.95104228658144
+2021,UKOTs Combined,Terrestrial,4.684484628297541
+2022,Anguilla,Marine,0.0853302220300039
+2022,Anguilla,Terrestrial,0.5051598897709372
+2022,Bermuda,Marine,8.414470458383263e-05
+2022,Bermuda,Terrestrial,4.427035105183779
+2022,British Indian Ocean Territory,Marine,99.95868910412226
+2022,British Indian Ocean Territory,Terrestrial,37.93633618149542
+2022,British Virgin Islands,Marine,0.059025014759362
+2022,British Virgin Islands,Terrestrial,2.687209671053325
+2022,Cayman Islands,Marine,0.10193478218399
+2022,Cayman Islands,Terrestrial,11.210062389451512
+2022,Falkland Islands,Marine,0.0
+2022,Falkland Islands,Terrestrial,2.9345296707914983
+2022,Gibraltar,Marine,89.13368892395255
+2022,Gibraltar,Terrestrial,36.37178210351592
+2022,Montserrat,Marine,0.0
+2022,Montserrat,Terrestrial,10.861313868613138
+2022,Pitcairn Islands Group,Marine,100.0
+2022,Pitcairn Islands Group,Terrestrial,82.48941142013054
+2022,Saint Helena,Marine,100.0
+2022,Saint Helena,Terrestrial,38.04752408797616
+2022,Ascension,Marine,100.0
+2022,Ascension,Terrestrial,19.53376875358608
+2022,Tristan da Cunha,Marine,91.20468113182572
+2022,Tristan da Cunha,Terrestrial,44.96770118645144
+2022,South Georgia and the South Sandwich Islands,Marine,100.0
+2022,South Georgia and the South Sandwich Islands,Terrestrial,100.0
+2022,Sovereign Base Areas of Akrotiri and Dhekelia,Marine,8.183682947034091
+2022,Sovereign Base Areas of Akrotiri and Dhekelia,Terrestrial,38.124923532814286
+2022,Turks and Caicos Islands,Marine,0.422888544222336
+2022,Turks and Caicos Islands,Terrestrial,25.07420858094211
+2022,UKOTs Combined,Marine,74.9510451108934
+2022,UKOTs Combined,Terrestrial,26.086141190598703
+2023,Anguilla,Marine,0.0853302220300039
+2023,Anguilla,Terrestrial,0.5051598897709372
+2023,Bermuda,Marine,8.414470458383263e-05
+2023,Bermuda,Terrestrial,4.427035105183779
+2023,British Indian Ocean Territory,Marine,99.95868910412226
+2023,British Indian Ocean Territory,Terrestrial,37.93633618149542
+2023,British Virgin Islands,Marine,0.059025014759362
+2023,British Virgin Islands,Terrestrial,2.687209671053325
+2023,Cayman Islands,Marine,0.10193478218399
+2023,Cayman Islands,Terrestrial,11.37120199764955
+2023,Falkland Islands,Marine,0.0
+2023,Falkland Islands,Terrestrial,2.9345296707914983
+2023,Gibraltar,Marine,89.13368892395255
+2023,Gibraltar,Terrestrial,36.37178210351592
+2023,Montserrat,Marine,0.0
+2023,Montserrat,Terrestrial,10.861313868613138
+2023,Pitcairn Islands Group,Marine,100.0
+2023,Pitcairn Islands Group,Terrestrial,82.48941142013054
+2023,Saint Helena,Marine,100.0
+2023,Saint Helena,Terrestrial,38.04752408797616
+2023,Ascension,Marine,100.0
+2023,Ascension,Terrestrial,19.53376875358608
+2023,Tristan da Cunha,Marine,91.20468113182572
+2023,Tristan da Cunha,Terrestrial,44.96770118645144
+2023,South Georgia and the South Sandwich Islands,Marine,100.0
+2023,South Georgia and the South Sandwich Islands,Terrestrial,100.0
+2023,Sovereign Base Areas of Akrotiri and Dhekelia,Marine,8.183682947034091
+2023,Sovereign Base Areas of Akrotiri and Dhekelia,Terrestrial,38.124923532814286
+2023,Turks and Caicos Islands,Marine,0.422888544222336
+2023,Turks and Caicos Islands,Terrestrial,25.07420858094211
+2023,UKOTs Combined,Marine,74.9510451108934
+2023,UKOTs Combined,Terrestrial,26.08856447887844
+2024,Anguilla,Marine,0.0853302220300039
+2024,Anguilla,Terrestrial,0.5051598897709372
+2024,Bermuda,Marine,8.414470458383263e-05
+2024,Bermuda,Terrestrial,4.427035105183779
+2024,British Indian Ocean Territory,Marine,99.95868910412226
+2024,British Indian Ocean Territory,Terrestrial,37.93633618149542
+2024,British Virgin Islands,Marine,0.059025014759362
+2024,British Virgin Islands,Terrestrial,2.687209671053325
+2024,Cayman Islands,Marine,0.10193478218399
+2024,Cayman Islands,Terrestrial,11.387582939637625
+2024,Falkland Islands,Marine,0.0
+2024,Falkland Islands,Terrestrial,2.9345296707914983
+2024,Gibraltar,Marine,89.13368892395255
+2024,Gibraltar,Terrestrial,36.37178210351592
+2024,Montserrat,Marine,0.0
+2024,Montserrat,Terrestrial,10.861313868613138
+2024,Pitcairn Islands Group,Marine,100.0
+2024,Pitcairn Islands Group,Terrestrial,82.48941142013054
+2024,Saint Helena,Marine,100.0
+2024,Saint Helena,Terrestrial,38.04752408797616
+2024,Ascension,Marine,100.0
+2024,Ascension,Terrestrial,19.53376875358608
+2024,Tristan da Cunha,Marine,91.20468113182572
+2024,Tristan da Cunha,Terrestrial,44.96770118645144
+2024,South Georgia and the South Sandwich Islands,Marine,100.0
+2024,South Georgia and the South Sandwich Islands,Terrestrial,100.0
+2024,Sovereign Base Areas of Akrotiri and Dhekelia,Marine,8.183682947034091
+2024,Sovereign Base Areas of Akrotiri and Dhekelia,Terrestrial,38.124923532814286
+2024,Turks and Caicos Islands,Marine,0.422888544222336
+2024,Turks and Caicos Islands,Terrestrial,25.07420858094211
+2024,UKOTs Combined,Marine,74.95364339495222
+2024,UKOTs Combined,Terrestrial,26.088810822686607

@@ -1,4 +1,4 @@
 Component,Period,Date range,Percentage change,Smoothing function,Assessment of change
-E8b,Short term,2017/2018 to 2022/2023,3.719593524558864,rolling average,Deterioration
-E8b,Medium term,2012/2013 to 2022/2023,1.5267684449605599,rolling average,Little or no change
-E8b,Long term,2003/2004 to 2022/2023,-4.020062234833015,rolling average,Improvement
+E8b,Short term,2018/2019 to 2023/2024,0.1396273220275221,Loess,Little or no change
+E8b,Medium term,2013/2014 to 2023/2024,-2.684719841670379,Loess,Little or no change
+E8b,Long term,2005/2006 to 2023/2024,-13.96657170711302,Loess,Improvement

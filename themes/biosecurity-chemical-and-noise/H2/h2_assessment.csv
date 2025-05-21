@@ -1,4 +1,4 @@
-Component,Subcomponent,Period,Date range,Percentage change,Smoothing function,Assessment of change
-H2,,Short term,2008-2017 to 2013-2022,-25.0,Unsmoothed,Improvement
-H2,,Medium term,2003-2012 to 2013-2022,-50.0,Unsmoothed,Improvement
-H2,,Long term,2000-2009 to 2013-2022,-57.14285714285714,Unsmoothed,Improvement
+Component,Period,Date range,Percentage change,Smoothing function,Assessment of change
+H2,Short term,2009-2018 to 2014-2023,-40.0,Unsmoothed,Improvement
+H2,Medium term,2004-2013 to 2014-2023,-25.0,Unsmoothed,Improvement
+H2,Long term,2000-2009 to 2014-2023,-57.14285714285714,Unsmoothed,Improvement

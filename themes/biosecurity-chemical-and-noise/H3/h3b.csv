@@ -1,155 +1,162 @@
 year,pollutant,value
 2000,Dioxin-like Polychlorinated Biphenyls,100.0
-2001,Dioxin-like Polychlorinated Biphenyls,88.1120091803472
-2002,Dioxin-like Polychlorinated Biphenyls,77.00461672588656
-2003,Dioxin-like Polychlorinated Biphenyls,69.56509084157766
-2004,Dioxin-like Polychlorinated Biphenyls,62.61789890104823
-2005,Dioxin-like Polychlorinated Biphenyls,58.166843086823896
-2006,Dioxin-like Polychlorinated Biphenyls,53.58694137207795
-2007,Dioxin-like Polychlorinated Biphenyls,49.67190945698458
-2008,Dioxin-like Polychlorinated Biphenyls,46.23783683687258
-2009,Dioxin-like Polychlorinated Biphenyls,41.44920910797994
-2010,Dioxin-like Polychlorinated Biphenyls,33.77889131673464
-2011,Dioxin-like Polychlorinated Biphenyls,37.51507755890528
-2012,Dioxin-like Polychlorinated Biphenyls,36.07951290330684
-2013,Dioxin-like Polychlorinated Biphenyls,34.46456541613276
-2014,Dioxin-like Polychlorinated Biphenyls,32.55384903226238
-2015,Dioxin-like Polychlorinated Biphenyls,29.61749449651376
-2016,Dioxin-like Polychlorinated Biphenyls,25.95119964212084
-2017,Dioxin-like Polychlorinated Biphenyls,24.941507751729496
-2018,Dioxin-like Polychlorinated Biphenyls,23.930115054036527
-2019,Dioxin-like Polychlorinated Biphenyls,23.00257469464544
-2020,Dioxin-like Polychlorinated Biphenyls,22.258226154574007
-2021,Dioxin-like Polychlorinated Biphenyls,21.67403933093696
+2001,Dioxin-like Polychlorinated Biphenyls,85.78330276035447
+2002,Dioxin-like Polychlorinated Biphenyls,72.83290819259355
+2003,Dioxin-like Polychlorinated Biphenyls,63.77620197371221
+2004,Dioxin-like Polychlorinated Biphenyls,55.41951111442604
+2005,Dioxin-like Polychlorinated Biphenyls,48.89375804620292
+2006,Dioxin-like Polychlorinated Biphenyls,43.9907609736433
+2007,Dioxin-like Polychlorinated Biphenyls,39.28449949730172
+2008,Dioxin-like Polychlorinated Biphenyls,35.123252001902166
+2009,Dioxin-like Polychlorinated Biphenyls,30.10293632190244
+2010,Dioxin-like Polychlorinated Biphenyls,27.550179554353555
+2011,Dioxin-like Polychlorinated Biphenyls,25.225107143067586
+2012,Dioxin-like Polychlorinated Biphenyls,23.39400454895316
+2013,Dioxin-like Polychlorinated Biphenyls,21.940236373931192
+2014,Dioxin-like Polychlorinated Biphenyls,19.869717108172964
+2015,Dioxin-like Polychlorinated Biphenyls,17.029706543305682
+2016,Dioxin-like Polychlorinated Biphenyls,13.478350085928406
+2017,Dioxin-like Polychlorinated Biphenyls,12.34155458687484
+2018,Dioxin-like Polychlorinated Biphenyls,11.182879025572676
+2019,Dioxin-like Polychlorinated Biphenyls,10.165426871607956
+2020,Dioxin-like Polychlorinated Biphenyls,9.33155038427657
+2021,Dioxin-like Polychlorinated Biphenyls,8.901457279403889
+2022,Dioxin-like Polychlorinated Biphenyls,7.990404751521105
 2000,Dioxins and Furans,100.0
-2001,Dioxins and Furans,97.42363300839042
-2002,Dioxins and Furans,92.4486992247643
-2003,Dioxins and Furans,88.0808873643026
-2004,Dioxins and Furans,87.33489834172782
-2005,Dioxins and Furans,75.8328993530929
-2006,Dioxins and Furans,65.44647310260576
-2007,Dioxins and Furans,59.0682289276635
-2008,Dioxins and Furans,57.382892701484586
-2009,Dioxins and Furans,52.07485108835174
-2010,Dioxins and Furans,51.89013151826687
-2011,Dioxins and Furans,48.23196924038881
-2012,Dioxins and Furans,46.230292052370494
-2013,Dioxins and Furans,45.78287698775958
-2014,Dioxins and Furans,45.8528749772484
-2015,Dioxins and Furans,44.83027777224412
-2016,Dioxins and Furans,43.31027101467998
-2017,Dioxins and Furans,43.09367105387015
-2018,Dioxins and Furans,43.08928135110274
-2019,Dioxins and Furans,42.10949172814738
-2020,Dioxins and Furans,40.31974912972437
-2021,Dioxins and Furans,38.85795663832542
+2001,Dioxins and Furans,97.4758105387428
+2002,Dioxins and Furans,92.42075296392235
+2003,Dioxins and Furans,88.07243612087885
+2004,Dioxins and Furans,87.44093802631839
+2005,Dioxins and Furans,75.64551321809249
+2006,Dioxins and Furans,65.17734164333977
+2007,Dioxins and Furans,58.8114929085972
+2008,Dioxins and Furans,57.08838168561956
+2009,Dioxins and Furans,51.7093773510098
+2010,Dioxins and Furans,51.33133149718735
+2011,Dioxins and Furans,47.55723406378768
+2012,Dioxins and Furans,45.65803055408599
+2013,Dioxins and Furans,45.2745649676236
+2014,Dioxins and Furans,45.58324404760015
+2015,Dioxins and Furans,45.09743398012817
+2016,Dioxins and Furans,43.4120773638662
+2017,Dioxins and Furans,43.29667945902943
+2018,Dioxins and Furans,43.44596311079772
+2019,Dioxins and Furans,42.65263374060237
+2020,Dioxins and Furans,40.78986861498574
+2021,Dioxins and Furans,39.40562727108132
+2022,Dioxins and Furans,42.3272684552027
 2000,Hexachlorobenzene,100.0
-2001,Hexachlorobenzene,87.96013809844204
-2002,Hexachlorobenzene,82.77708428447563
-2003,Hexachlorobenzene,77.6377058080941
-2004,Hexachlorobenzene,98.60196975425512
-2005,Hexachlorobenzene,94.16218739355496
-2006,Hexachlorobenzene,87.9213432414017
-2007,Hexachlorobenzene,74.9926454948511
-2008,Hexachlorobenzene,70.17613669675242
-2009,Hexachlorobenzene,49.55158996866566
-2010,Hexachlorobenzene,47.6528342728904
-2011,Hexachlorobenzene,33.88286308291096
-2012,Hexachlorobenzene,31.428798633324146
-2013,Hexachlorobenzene,26.25434834632043
-2014,Hexachlorobenzene,30.84123124323597
-2015,Hexachlorobenzene,34.76330260788917
-2016,Hexachlorobenzene,41.80897121646902
-2017,Hexachlorobenzene,45.4984172866494
-2018,Hexachlorobenzene,48.06440369902484
-2019,Hexachlorobenzene,46.73784858397951
-2020,Hexachlorobenzene,43.81242121677579
-2021,Hexachlorobenzene,41.75298937917007
+2001,Hexachlorobenzene,88.13513125054969
+2002,Hexachlorobenzene,82.93182338540392
+2003,Hexachlorobenzene,77.90381929419402
+2004,Hexachlorobenzene,98.68203974776084
+2005,Hexachlorobenzene,94.30119685155528
+2006,Hexachlorobenzene,88.1856250820281
+2007,Hexachlorobenzene,75.27628518554825
+2008,Hexachlorobenzene,70.4242239863496
+2009,Hexachlorobenzene,49.823624630843874
+2010,Hexachlorobenzene,47.97405841985449
+2011,Hexachlorobenzene,34.301607339410644
+2012,Hexachlorobenzene,32.077436266870095
+2013,Hexachlorobenzene,26.894945808258004
+2014,Hexachlorobenzene,31.26379234954029
+2015,Hexachlorobenzene,35.053809363688984
+2016,Hexachlorobenzene,41.75116220364647
+2017,Hexachlorobenzene,45.33940464366714
+2018,Hexachlorobenzene,47.90966865012466
+2019,Hexachlorobenzene,46.53698488418856
+2020,Hexachlorobenzene,44.56885286229001
+2021,Hexachlorobenzene,45.692794361130986
+2022,Hexachlorobenzene,45.35002147071048
 2000,Polychlorinated Biphenyls,100.0
-2001,Polychlorinated Biphenyls,88.76470613670385
-2002,Polychlorinated Biphenyls,79.38567274431408
-2003,Polychlorinated Biphenyls,71.56904073764746
-2004,Polychlorinated Biphenyls,65.16911712294318
-2005,Polychlorinated Biphenyls,60.373998730193534
-2006,Polychlorinated Biphenyls,54.46126746308903
-2007,Polychlorinated Biphenyls,50.29595488429486
-2008,Polychlorinated Biphenyls,46.41864102508296
-2009,Polychlorinated Biphenyls,42.41792925764947
-2010,Polychlorinated Biphenyls,39.64634356848858
-2011,Polychlorinated Biphenyls,37.681160497778
-2012,Polychlorinated Biphenyls,35.78298824893523
-2013,Polychlorinated Biphenyls,34.24987970857281
-2014,Polychlorinated Biphenyls,32.87671011376015
-2015,Polychlorinated Biphenyls,31.62233880871317
-2016,Polychlorinated Biphenyls,30.22712568309155
-2017,Polychlorinated Biphenyls,29.36987565450752
-2018,Polychlorinated Biphenyls,28.69273914380393
-2019,Polychlorinated Biphenyls,27.98348511192209
-2020,Polychlorinated Biphenyls,27.195513676167323
-2021,Polychlorinated Biphenyls,26.837046869753
+2001,Polychlorinated Biphenyls,85.40509257787642
+2002,Polychlorinated Biphenyls,73.21280764379824
+2003,Polychlorinated Biphenyls,63.02872045105224
+2004,Polychlorinated Biphenyls,54.624048120998616
+2005,Polychlorinated Biphenyls,47.21070840659223
+2006,Polychlorinated Biphenyls,40.88978466312172
+2007,Polychlorinated Biphenyls,35.58241610689246
+2008,Polychlorinated Biphenyls,30.785273402936696
+2009,Polychlorinated Biphenyls,26.070358233153616
+2010,Polychlorinated Biphenyls,22.670576418323098
+2011,Polychlorinated Biphenyls,20.19942361538091
+2012,Polychlorinated Biphenyls,17.89896267380372
+2013,Polychlorinated Biphenyls,16.031159634339076
+2014,Polychlorinated Biphenyls,14.388570551710922
+2015,Polychlorinated Biphenyls,12.919194612982295
+2016,Polychlorinated Biphenyls,11.370892188601491
+2017,Polychlorinated Biphenyls,10.388327714221909
+2018,Polychlorinated Biphenyls,9.53998090282134
+2019,Polychlorinated Biphenyls,8.716125407278273
+2020,Polychlorinated Biphenyls,7.8199553343638275
+2021,Polychlorinated Biphenyls,7.642483155114535
+2022,Polychlorinated Biphenyls,7.038695306037575
 2000,Polychlorinated Naphthalenes,100.0
-2001,Polychlorinated Naphthalenes,89.41992476891505
-2002,Polychlorinated Naphthalenes,80.49550324414132
-2003,Polychlorinated Naphthalenes,73.03796642258371
-2004,Polychlorinated Naphthalenes,66.80184196656418
-2005,Polychlorinated Naphthalenes,61.35028767021388
-2006,Polychlorinated Naphthalenes,56.96380943153649
-2007,Polychlorinated Naphthalenes,53.01504543763642
-2008,Polychlorinated Naphthalenes,49.447267248000536
-2009,Polychlorinated Naphthalenes,46.18492137712507
-2010,Polychlorinated Naphthalenes,44.10793092602092
-2011,Polychlorinated Naphthalenes,42.34129196253252
-2012,Polychlorinated Naphthalenes,40.4652306954014
-2013,Polychlorinated Naphthalenes,39.28817682189965
-2014,Polychlorinated Naphthalenes,39.050803479993824
-2015,Polychlorinated Naphthalenes,39.36583234636238
-2016,Polychlorinated Naphthalenes,39.73512190685224
-2017,Polychlorinated Naphthalenes,39.63695539362688
-2018,Polychlorinated Naphthalenes,39.45789740845894
-2019,Polychlorinated Naphthalenes,39.86763246061147
-2020,Polychlorinated Naphthalenes,40.552609554758114
-2021,Polychlorinated Naphthalenes,40.82756376800219
+2001,Polychlorinated Naphthalenes,85.3763978465923
+2002,Polychlorinated Naphthalenes,73.01873812842348
+2003,Polychlorinated Naphthalenes,62.64374982535452
+2004,Polychlorinated Naphthalenes,53.936044490658695
+2005,Polychlorinated Naphthalenes,46.43557587424957
+2006,Polychlorinated Naphthalenes,40.29476548358882
+2007,Polychlorinated Naphthalenes,34.92117150172352
+2008,Polychlorinated Naphthalenes,30.203659605773943
+2009,Polychlorinated Naphthalenes,26.02715517095124
+2010,Polychlorinated Naphthalenes,23.07647650405596
+2011,Polychlorinated Naphthalenes,20.58792927163872
+2012,Polychlorinated Naphthalenes,18.177277135288712
+2013,Polychlorinated Naphthalenes,16.49079874460397
+2014,Polychlorinated Naphthalenes,15.699411444855338
+2015,Polychlorinated Naphthalenes,15.461791372037482
+2016,Polychlorinated Naphthalenes,15.350603834730652
+2017,Polychlorinated Naphthalenes,14.854393324872117
+2018,Polychlorinated Naphthalenes,14.44837363000699
+2019,Polychlorinated Naphthalenes,14.519031048459029
+2020,Polychlorinated Naphthalenes,14.879156855220616
+2021,Polychlorinated Naphthalenes,15.323709367856996
+2022,Polychlorinated Naphthalenes,15.029015002772905
 2000,Pentachlorophenol,100.0
-2001,Pentachlorophenol,94.59468226369678
-2002,Pentachlorophenol,89.43411844292274
-2003,Pentachlorophenol,84.67909021320855
-2004,Pentachlorophenol,80.10116730726594
-2005,Pentachlorophenol,75.74297295773363
-2006,Pentachlorophenol,71.53811087242076
-2007,Pentachlorophenol,67.49793187930162
-2008,Pentachlorophenol,63.71489876554923
-2009,Pentachlorophenol,60.10696760117566
-2010,Pentachlorophenol,56.661536706095184
-2011,Pentachlorophenol,53.37250950202722
-2012,Pentachlorophenol,50.22527297928488
-2013,Pentachlorophenol,47.19946399822848
-2014,Pentachlorophenol,44.29570424015789
-2015,Pentachlorophenol,41.502356794293966
-2016,Pentachlorophenol,38.8052586930238
-2017,Pentachlorophenol,36.20347282182609
-2018,Pentachlorophenol,33.70149237664117
-2019,Pentachlorophenol,31.27976497218664
-2020,Pentachlorophenol,28.95490444472386
-2021,Pentachlorophenol,26.737235566114684
+2001,Pentachlorophenol,94.59452245121386
+2002,Pentachlorophenol,89.43409523535475
+2003,Pentachlorophenol,84.67905704792673
+2004,Pentachlorophenol,80.10117169193485
+2005,Pentachlorophenol,75.74291605272226
+2006,Pentachlorophenol,71.53810737413832
+2007,Pentachlorophenol,67.49802230209738
+2008,Pentachlorophenol,63.71444308595795
+2009,Pentachlorophenol,60.10691753473362
+2010,Pentachlorophenol,56.66134457034693
+2011,Pentachlorophenol,53.37258447507149
+2012,Pentachlorophenol,50.23315136555114
+2013,Pentachlorophenol,47.22144499764169
+2014,Pentachlorophenol,44.3240049535975
+2015,Pentachlorophenol,41.533494040889785
+2016,Pentachlorophenol,38.84436894110426
+2017,Pentachlorophenol,36.2444930451536
+2018,Pentachlorophenol,33.74430654473408
+2019,Pentachlorophenol,31.326029720185662
+2020,Pentachlorophenol,28.98630866320972
+2021,Pentachlorophenol,26.762979112790823
+2022,Pentachlorophenol,24.639198140592686
 2000,Pentachlorobenzine,100.0
-2001,Pentachlorobenzine,72.70018484259354
-2002,Pentachlorobenzine,67.14323902512606
-2003,Pentachlorobenzine,46.82471255702558
-2004,Pentachlorobenzine,43.431886279942326
-2005,Pentachlorobenzine,40.449880119686966
-2006,Pentachlorobenzine,38.73757076972108
-2007,Pentachlorobenzine,37.11045430855564
-2008,Pentachlorobenzine,35.24306954774292
-2009,Pentachlorobenzine,31.908122751753044
-2010,Pentachlorobenzine,31.092153741779644
-2011,Pentachlorobenzine,29.81298765049624
-2012,Pentachlorobenzine,29.60387886040984
-2013,Pentachlorobenzine,31.050806156836646
-2014,Pentachlorobenzine,31.65010207914132
-2015,Pentachlorobenzine,30.436078986131
-2016,Pentachlorobenzine,28.95476513794557
-2017,Pentachlorobenzine,28.679652552224635
-2018,Pentachlorobenzine,28.35610405312504
-2019,Pentachlorobenzine,28.197419608948685
-2020,Pentachlorobenzine,28.303084725262497
-2021,Pentachlorobenzine,28.628145035510688
+2001,Pentachlorobenzine,71.52863648094517
+2002,Pentachlorobenzine,63.96445580775948
+2003,Pentachlorobenzine,42.86609361970877
+2004,Pentachlorobenzine,38.023622109779744
+2005,Pentachlorobenzine,33.83347719387542
+2006,Pentachlorobenzine,31.06716753907694
+2007,Pentachlorobenzine,28.57393657894141
+2008,Pentachlorobenzine,25.875512331543817
+2009,Pentachlorobenzine,22.265325671496825
+2010,Pentachlorobenzine,21.00932213907977
+2011,Pentachlorobenzine,19.222116237686848
+2012,Pentachlorobenzine,18.526326991945755
+2013,Pentachlorobenzine,19.5910869026178
+2014,Pentachlorobenzine,19.817613481156897
+2015,Pentachlorobenzine,18.704285078565125
+2016,Pentachlorobenzine,17.07334912603663
+2017,Pentachlorobenzine,16.657054675581364
+2018,Pentachlorobenzine,16.150394120010056
+2019,Pentachlorobenzine,15.842624311973752
+2020,Pentachlorobenzine,15.79331004520563
+2021,Pentachlorobenzine,16.153261068308755
+2022,Pentachlorobenzine,15.260560706415536

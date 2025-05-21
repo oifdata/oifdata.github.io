@@ -283,11 +283,11 @@
     <section class="l-column l-column--small-space">
         <h2>Short Description</h2>
         <p>This indicator shows changes in the percentage of sensitive habitats exceeding the internationally agreed thresholds for harmful effects (critical load) of nutrient nitrogen deposition. The damaging nutrient nitrogen comes predominantly from UK emissions of ammonia (NH3), but partly from UK emissions of nitrogen oxides (NOx) and long-range transport of these air pollutants.</p>
-<p>This indicator is an assessment of clean air (reporting the condition of the atmosphere as an asset). Nutrient nitrogen deposition can also be considered as a pressure on thriving plants and wildlife. The indicator is determined by calculating the area of sensitive habitat exceeding the internationally agreed thresholds for likely damaging effects from reactive nitrogen deposition in both oxidised and reduced forms, termed the critical load. It uses modelled interpolations of atmospheric concentrations of NOx and NH3 and models deposition processes based on internationally agreed methodology.</p>
+<p>This indicator is an assessment of clean air (reporting the condition of the atmosphere as an asset). Nutrient nitrogen deposition can also be considered as a pressure on thriving plants and wildlife. The first component of this indicator is determined by calculating the area of sensitive habitat exceeding the internationally agreed thresholds for likely damaging effects from reactive nitrogen deposition in both oxidised and reduced forms, termed the critical load. It uses modelled interpolations of atmospheric concentrations of NOx and NH3 and models deposition processes based on internationally agreed methodology. The second component of this indicator measures the magnitude of the nutrient-nitrogen exceedance. </p>
     </section>
     <section class="l-column l-column--small-space">
         <h2>Readiness and links to data</h2>
-        <p>Assessments of nutrient nitrogen deposition are undertaken and published annually using 3-year moving average data at <a href="https://uk-air.defra.gov.uk/library/reports?report_id=1130">UK Air Information Resource: Trends in critical load and critical level exceedances in the UK</a>.</p>
+        <p>Assessments of nutrient nitrogen deposition are undertaken and published annually using 3-year moving average data at <a href="https://uk-air.defra.gov.uk/library/reports?report_id=1157">UK Air Information Resource: Trends in critical load and critical level exceedances in the UK</a>. Component A6i shows the percentage area of sensitive habitats in England where nutrient nitrogen deposition exceeded the internationally agreed thresholds for likely damaging effects from reactive nitrogen deposition in both oxidised and reduced forms, termed the critical load. In the 2025 update of this indicator, component A6ii was introduced to show the magnitude of the nutrient-nitrogen exceedance (expressed as average accumulated exceedance, or excess nitrogen) across England. </p>
     </section>
     
         <section class="l-column l-column--small-space">
@@ -305,15 +305,30 @@
             
                 
     
-    <button id="a6-component-tab" type="button" role="tab" aria-selected="true" aria-controls="a6-component-tabpanel" class="c-indicator-component-tab" onclick="window.dispatchEvent(new Event('resize'));">
-        <h3 id="a6-component-title" class="l-row l-row--xx-small-space l-row--vertically-centred | c-indicator-component-tab__text">
+    <button id="a6i-component-tab" type="button" role="tab" aria-selected="true" aria-controls="a6i-component-tabpanel" class="c-indicator-component-tab" onclick="window.dispatchEvent(new Event('resize'));">
+        <h3 id="a6i-component-title" class="l-row l-row--xx-small-space l-row--vertically-centred | c-indicator-component-tab__text">
             <span class="c-indicator-component-tab__radio-button">
                 <svg class="c-radio-button" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                     <circle class="c-radio-button__outer-circle" cx="50" cy="50" r="30"/>
                     <circle class="c-radio-button__inner-circle" cx="50" cy="50" r="20"/>
                 </svg>
             </span>
-            A6: Exceedance of damaging levels of nutrient nitrogen deposition in England, 2002-2004 to 2019-2021
+            A6i: Exceedance of damaging levels of nutrient nitrogen deposition in England, 2002-2004 to 2020-2022
+        </h3>
+    </button>
+
+            
+                
+    
+    <button id="a6ii-component-tab" type="button" role="tab" aria-selected="true" aria-controls="a6ii-component-tabpanel" class="c-indicator-component-tab" onclick="window.dispatchEvent(new Event('resize'));">
+        <h3 id="a6ii-component-title" class="l-row l-row--xx-small-space l-row--vertically-centred | c-indicator-component-tab__text">
+            <span class="c-indicator-component-tab__radio-button">
+                <svg class="c-radio-button" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="c-radio-button__outer-circle" cx="50" cy="50" r="30"/>
+                    <circle class="c-radio-button__inner-circle" cx="50" cy="50" r="20"/>
+                </svg>
+            </span>
+            A6ii: Excess deposition of nutrient nitrogen in England, 2002-2004 to 2020-2022
         </h3>
     </button>
 
@@ -322,7 +337,7 @@
             
                 
     
-    <div id="a6-component-tabpanel" role="tabpanel" tabindex="0" aria-labelledby="a6-component-tab" class="l-column l-column--small-space | c-indicator-component-tabpanel">
+    <div id="a6i-component-tabpanel" role="tabpanel" tabindex="0" aria-labelledby="a6i-component-tab" class="l-column l-column--small-space | c-indicator-component-tabpanel">
         
         
     <section class="l-column l-column--no-space">
@@ -332,13 +347,13 @@
             class="l-equal-width-columns l-equal-width-columns--no-space">
             
             
-    <button id="a6-figure-tab" type="button" role="tab" aria-selected="true" data-tabgroup="a6" aria-controls="a6-figure-tabpanel" class="c-indicator-component-visualisation-tab">
+    <button id="a6i-figure-tab" type="button" role="tab" aria-selected="true" data-tabgroup="a6i" aria-controls="a6i-figure-tabpanel" class="c-indicator-component-visualisation-tab">
         <span class="c-indicator-component-visualisation-tab__text">Figure</span>
     </button>
 
             
             
-    <button id="a6-table-tab" type="button" role="tab" aria-selected="true" data-tabgroup="a6" aria-controls="a6-table-tabpanel" class="c-indicator-component-visualisation-tab">
+    <button id="a6i-table-tab" type="button" role="tab" aria-selected="true" data-tabgroup="a6i" aria-controls="a6i-table-tabpanel" class="c-indicator-component-visualisation-tab">
         <span class="c-indicator-component-visualisation-tab__text">Table</span>
     </button>
 
@@ -347,13 +362,13 @@
         <div class="l-column | c-indicator-component-visualisation-tabpanels">
             
             
-    <div id="a6-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="a6" aria-labelledby="a6-figure-tab" class="c-indicator-component-visualisation-tabpanel">
+    <div id="a6i-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="a6i" aria-labelledby="a6i-figure-tab" class="c-indicator-component-visualisation-tabpanel">
         <section class="l-column l-column--small-space">
             <h4>Figure
-                A6: Exceedance of damaging levels of nutrient nitrogen deposition in England, 2002-2004 to 2019-2021</h4>
-            <div id="a6-figure-container" class="c-visualisation-container">
+                A6i: Exceedance of damaging levels of nutrient nitrogen deposition in England, 2002-2004 to 2020-2022</h4>
+            <div id="a6i-figure-container" class="c-visualisation-container">
                 
-                    <img src='a6.svg' />
+                    <img src='a6i.svg' />
                 
             </div>
             
@@ -369,14 +384,11 @@
                     UK Centre for Ecology &amp; Hydrology,
                 
                 
-                    <a href="https://uk-air.defra.gov.uk/library/reports?report_id=1130">Air Pollution Trends Report 2023: Critical Load and Critical Level exceedances in the UK</a>
+                    <a href="https://uk-air.defra.gov.uk/library/reports?report_id=1157">Air Pollution Trends Report 2024: Critical Load and Critical Level exceedances in the UK</a>
                 
                 </dd>
             
         
-        
-            <dt class="c-indicator-component-metadata__key">Unit of Measurement</dt>
-            <dd>Percentage of sensitive habitats exceeding critical loads</dd>
         
         
             <dt class="c-indicator-component-metadata__key">Footnotes</dt>
@@ -387,10 +399,10 @@
 
             <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
                 
-                    <a class="c-button" href="a6.csv">Download  CSV</a>
+                    <a class="c-button" href="a6i.csv">Download  CSV</a>
                 
                 
-                    <a class="c-button" href="a6.svg" download=".svg">Download Figure Image</a>
+                    <a class="c-button" href="a6i.svg" download=".svg">Download Figure Image</a>
                 
             </div>
         </section>
@@ -398,13 +410,13 @@
 
             
             
-    <div id="a6-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="a6" aria-labelledby="a6-table-tab" class="c-indicator-component-visualisation-tabpanel">
+    <div id="a6i-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="a6i" aria-labelledby="a6i-table-tab" class="c-indicator-component-visualisation-tabpanel">
         <section class="l-column l-column--small-space">
             <h4>Table
-                A6: Exceedance of damaging levels of nutrient nitrogen deposition in England, 2002-2004 to 2019-2021</h4>
-            <div id="a6-table-container" class="c-visualisation-container">
+                A6i: Exceedance of damaging levels of nutrient nitrogen deposition in England, 2002-2004 to 2020-2022</h4>
+            <div id="a6i-table-container" class="c-visualisation-container">
                 
-                    <table class="dataframe" id="a6-table">
+                    <table class="dataframe" id="a6i-table">
   <thead>
     <tr style="text-align: right;">
       <th>Year</th>
@@ -484,6 +496,10 @@
       <td>2019-2021</td>
       <td>99.90</td>
     </tr>
+    <tr>
+      <td>2020-2022</td>
+      <td>99.30</td>
+    </tr>
   </tbody>
 </table>
                 
@@ -501,14 +517,11 @@
                     UK Centre for Ecology &amp; Hydrology,
                 
                 
-                    <a href="https://uk-air.defra.gov.uk/library/reports?report_id=1130">Air Pollution Trends Report 2023: Critical Load and Critical Level exceedances in the UK</a>
+                    <a href="https://uk-air.defra.gov.uk/library/reports?report_id=1157">Air Pollution Trends Report 2024: Critical Load and Critical Level exceedances in the UK</a>
                 
                 </dd>
             
         
-        
-            <dt class="c-indicator-component-metadata__key">Unit of Measurement</dt>
-            <dd>Percentage of sensitive habitats exceeding critical loads</dd>
         
         
             <dt class="c-indicator-component-metadata__key">Footnotes</dt>
@@ -519,7 +532,7 @@
 
             <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
                 
-                    <a class="c-button" href="a6.csv">Download  CSV</a>
+                    <a class="c-button" href="a6i.csv">Download  CSV</a>
                 
                 
             </div>
@@ -532,17 +545,17 @@
 
         
         <section class="l-column l-column--small-space">
-            <h4>Trend description for A6</h4>
-            <p>The percentage area of sensitive habitats in England where nutrient nitrogen deposition exceeded critical load has remained constant at 100% across the years for which data are available (3-year moving average time periods 2002-2004 to 2019-2021). Nutrient nitrogen deposition has fallen, but still exceeds the thresholds of harm. </p>
+            <h4>Trend description for A6i</h4>
+            <p>The percentage area of sensitive habitats in England where nutrient nitrogen deposition exceeded critical load remained between 99.9% and 100.0% from 2002-2004 to 2019-2021 (3-year moving average time periods). In the most recent time period, 2020-2022, the percentage area fell to 99.3% - the lowest value in the time series so far. Nutrient nitrogen deposition has fallen, but still exceeds the thresholds of harm. See component A6ii for more information on the magnitude of the nutrient-nitrogen exceedance. </p>
         </section>
         
             <h2>Assessment of change</h2>
-            <p>There has been little or no change observed in exceedance of damaging levels of nutrient nitrogen deposition on ecosystems over the short, medium and long-term assessment periods. </p>
-<p>Change since 2018 has also been assessed. Little or no change was observed for the exceedance of damaging levels of nutrient nitrogen deposition on ecosystems since 2018. However, this result is based on only 4 data points so should be considered as indicative and not evidence of a clear trend.</p>
+            <p>There has been little or no change observed in exceedance of damaging levels of nutrient nitrogen deposition on ecosystems over the short-, medium- and long-term assessment periods. </p>
+<p>There has also been little or no change observed in exceedance of damaging levels of nutrient nitrogen deposition on ecosystems since the 2016-2018 period. However, this result is based on only 5 data points so should be considered as indicative and not evidence of a clear trend.</p>
 <p>Further information on this assessment, along with details on the methodology, is provided in the <a href="/assessment/#background">Assessment background</a> page. Summaries by 25 Year Environment Plan goal and information on indicator links are presented in the <a href="/assessment/#results">Assessment results</a> pages.</p>
             
-                <h4>Table A6: Assessment of change</h4>
-                <table class="dataframe" id="a6-assessment-table">
+                <h4>Table A6i: Assessment of change</h4>
+                <table class="dataframe" id="a6i-assessment-table">
   <thead>
     <tr style="text-align: right;">
       <th>Component</th>
@@ -555,28 +568,290 @@
   </thead>
   <tbody>
     <tr>
-      <td>A6</td>
+      <td>A6i</td>
       <td>Short term</td>
-      <td>2014-2016 to 2019-2021</td>
-      <td>-0.10</td>
+      <td>2015-2017 to 2020-2022</td>
+      <td>-0.60</td>
       <td>Moving average data</td>
       <td>Little or no change</td>
     </tr>
     <tr>
-      <td>A6</td>
+      <td>A6i</td>
       <td>Medium term</td>
-      <td>2009-2011 to 2019-2021</td>
-      <td>-0.10</td>
+      <td>2010-2012 to 2020-2022</td>
+      <td>-0.70</td>
       <td>Moving average data</td>
       <td>Little or no change</td>
     </tr>
     <tr>
-      <td>A6</td>
+      <td>A6i</td>
       <td>Long term</td>
-      <td>2002-2004 to 2019-2021</td>
-      <td>-0.10</td>
+      <td>2002-2004 to 2020-2022</td>
+      <td>-0.70</td>
       <td>Moving average data</td>
       <td>Little or no change</td>
+    </tr>
+  </tbody>
+</table>
+            
+            <p>Note that percentage change refers to the difference seen from the first to last 3-year moving average in the specified date range.</p>
+        
+    </div>
+
+            
+                
+    
+    <div id="a6ii-component-tabpanel" role="tabpanel" tabindex="0" aria-labelledby="a6ii-component-tab" class="l-column l-column--small-space | c-indicator-component-tabpanel">
+        
+        
+    <section class="l-column l-column--no-space">
+        <div
+            role="tablist"
+            aria-label="Data visualisation options"
+            class="l-equal-width-columns l-equal-width-columns--no-space">
+            
+            
+    <button id="a6ii-figure-tab" type="button" role="tab" aria-selected="true" data-tabgroup="a6ii" aria-controls="a6ii-figure-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Figure</span>
+    </button>
+
+            
+            
+    <button id="a6ii-table-tab" type="button" role="tab" aria-selected="true" data-tabgroup="a6ii" aria-controls="a6ii-table-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Table</span>
+    </button>
+
+            
+        </div>
+        <div class="l-column | c-indicator-component-visualisation-tabpanels">
+            
+            
+    <div id="a6ii-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="a6ii" aria-labelledby="a6ii-figure-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Figure
+                A6ii: Excess deposition of nutrient nitrogen in England, 2002-2004 to 2020-2022</h4>
+            <div id="a6ii-figure-container" class="c-visualisation-container">
+                
+                    <img src='a6ii.svg' />
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    UK Centre for Ecology &amp; Hydrology,
+                
+                
+                    <a href="https://uk-air.defra.gov.uk/library/reports?report_id=1157">Air Pollution Trends Report 2024: Critical Load and Critical Level exceedances in the UK</a>
+                
+                </dd>
+            
+        
+        
+        
+            <dt class="c-indicator-component-metadata__key">Footnotes</dt>
+            <dd><p>Data are presented as 3-year moving average time periods. A 3-year moving average is used to smooth out inter-annual variability due to the influence of weather on atmospheric chemistry.</p></dd>
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="a6ii.csv">Download  CSV</a>
+                
+                
+                    <a class="c-button" href="a6ii.svg" download=".svg">Download Figure Image</a>
+                
+            </div>
+        </section>
+    </div>
+
+            
+            
+    <div id="a6ii-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="a6ii" aria-labelledby="a6ii-table-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Table
+                A6ii: Excess deposition of nutrient nitrogen in England, 2002-2004 to 2020-2022</h4>
+            <div id="a6ii-table-container" class="c-visualisation-container">
+                
+                    <table class="dataframe" id="a6ii-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Year</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2002-2004</td>
+      <td>19.20</td>
+    </tr>
+    <tr>
+      <td>2003-2005</td>
+      <td>18.90</td>
+    </tr>
+    <tr>
+      <td>2004-2006</td>
+      <td>18.80</td>
+    </tr>
+    <tr>
+      <td>2005-2007</td>
+      <td>18.60</td>
+    </tr>
+    <tr>
+      <td>2006-2008</td>
+      <td>18.10</td>
+    </tr>
+    <tr>
+      <td>2007-2009</td>
+      <td>17.40</td>
+    </tr>
+    <tr>
+      <td>2008-2010</td>
+      <td>17.10</td>
+    </tr>
+    <tr>
+      <td>2009-2011</td>
+      <td>17.90</td>
+    </tr>
+    <tr>
+      <td>2010-2012</td>
+      <td>17.60</td>
+    </tr>
+    <tr>
+      <td>2011-2013</td>
+      <td>17.80</td>
+    </tr>
+    <tr>
+      <td>2012-2014</td>
+      <td>17.10</td>
+    </tr>
+    <tr>
+      <td>2013-2015</td>
+      <td>17.30</td>
+    </tr>
+    <tr>
+      <td>2014-2016</td>
+      <td>17.00</td>
+    </tr>
+    <tr>
+      <td>2015-2017</td>
+      <td>16.00</td>
+    </tr>
+    <tr>
+      <td>2016-2018</td>
+      <td>16.40</td>
+    </tr>
+    <tr>
+      <td>2017-2019</td>
+      <td>16.90</td>
+    </tr>
+    <tr>
+      <td>2018-2020</td>
+      <td>16.80</td>
+    </tr>
+    <tr>
+      <td>2019-2021</td>
+      <td>14.50</td>
+    </tr>
+    <tr>
+      <td>2020-2022</td>
+      <td>14.30</td>
+    </tr>
+  </tbody>
+</table>
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    UK Centre for Ecology &amp; Hydrology,
+                
+                
+                    <a href="https://uk-air.defra.gov.uk/library/reports?report_id=1157">Air Pollution Trends Report 2024: Critical Load and Critical Level exceedances in the UK</a>
+                
+                </dd>
+            
+        
+        
+        
+            <dt class="c-indicator-component-metadata__key">Footnotes</dt>
+            <dd><p>Data are presented as 3-year moving average time periods. A 3-year moving average is used to smooth out inter-annual variability due to the influence of weather on atmospheric chemistry.</p></dd>
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="a6ii.csv">Download  CSV</a>
+                
+                
+            </div>
+        </section>
+    </div>
+
+            
+        </div>
+    </section>
+
+        
+        <section class="l-column l-column--small-space">
+            <h4>Trend description for A6ii</h4>
+            <p>The magnitude of the nutrient-nitrogen exceedance (expressed as average accumulated exceedance, or excess nitrogen) across England has fluctuated over the last 2 decades, but overall it has decreased by 26%, from 19.2 kg per hectare per year (kg/ha/year) in the 3-year moving average time period 2002-2004 to 14.3 kg/ha/year in 2020-2022. However, it still exceeds the thresholds of harm.</p>
+        </section>
+        
+            <h2>Assessment of change</h2>
+            <p>There has been a decrease (improvement) in the deposition of excess nutrient nitrogen over the short-, medium- and long-term assessment periods. </p>
+<p>There has also been an improvement in the deposition of excess nutrient nitrogen since 2016-2018. However, this result is based on only 5 data points so should be considered as indicative and not evidence of a clear trend.</p>
+<p>Further information on this assessment, along with details on the methodology, is provided in the <a href="/assessment/#background">Assessment background</a> page. Summaries by 25 Year Environment Plan goal and information on indicator links are presented in the <a href="/assessment/#results">Assessment results</a> pages.</p>
+            
+                <h4>Table A6ii: Assessment of change</h4>
+                <table class="dataframe" id="a6ii-assessment-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Component</th>
+      <th>Period</th>
+      <th>Date range</th>
+      <th>Percentage change</th>
+      <th>Smoothing function</th>
+      <th>Assessment of change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A6ii</td>
+      <td>Short term</td>
+      <td>2015-2017 to 2020-2022</td>
+      <td>-10.62</td>
+      <td>Moving average data</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>A6ii</td>
+      <td>Medium term</td>
+      <td>2010-2012 to 2020-2022</td>
+      <td>-18.75</td>
+      <td>Moving average data</td>
+      <td>Improvement</td>
+    </tr>
+    <tr>
+      <td>A6ii</td>
+      <td>Long term</td>
+      <td>2002-2004 to 2020-2022</td>
+      <td>-25.52</td>
+      <td>Moving average data</td>
+      <td>Improvement</td>
     </tr>
   </tbody>
 </table>
@@ -707,7 +982,7 @@
                 <dt class="c-indicator-metadata__key">Last Updated</dt>
             
             
-                <dd class="c-indicator-metadata__value">2024</dd>
+                <dd class="c-indicator-metadata__value">2025</dd>
               
             </div>
         
@@ -718,7 +993,7 @@
                 <dt class="c-indicator-metadata__key">Latest Data</dt>
             
             
-                <dd class="c-indicator-metadata__value">2021</dd>
+                <dd class="c-indicator-metadata__value">2022</dd>
               
             </div>
         
@@ -831,15 +1106,35 @@
         
         
             initialiseTableVisualisations(
-                "a6",
+                "a6i",
                 {"layout":"fitColumns","pagination":true,"paginationSize":13,"nestedFieldSeparator":"|","columnDefaults":{"hozAlign":"right","headerHozAlign":"right"},"columns":[{"title":"Year","hozAlign":"left","headerHozAlign":"left"}]}
             )
         
         
             
                 initialiseFigureVisualisations(
-                    "a6",
-                    {"data":[{"alignmentgroup":"True","hovertemplate":"%{y:.2f}","legendgroup":"","marker":{"color":"#12436D","pattern":{"shape":""}},"name":"","offsetgroup":"","orientation":"v","showlegend":false,"textposition":"auto","x":["2002-2004","2003-2005","2004-2006","2005-2007","2006-2008","2007-2009","2008-2010","2009-2011","2010-2012","2011-2013","2012-2014","2013-2015","2014-2016","2015-2017","2016-2018","2017-2019","2018-2020","2019-2021"],"xaxis":"x","y":[100.0,100.0,100.0,100.0,99.9,99.9,100.0,100.0,100.0,100.0,100.0,100.0,100.0,99.9,100.0,100.0,100.0,99.9],"yaxis":"y","type":"bar"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"3-year moving average time periods"},"dtick":2,"automargin":true},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Percentage of sensitive habitats\u003cbr\u003e exceeding critical loads"},"showgrid":true,"dtick":10,"automargin":true},"legend":{"tracegroupgap":0,"title":{"text":""},"yanchor":"bottom","y":-0.45,"xanchor":"center","x":0.5,"orientation":"h"},"margin":{"t":60},"barmode":"relative","hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true,"hovermode":"x unified"}},
+                    "a6i",
+                    {"data":[{"alignmentgroup":"True","hovertemplate":"%{y:.2f}","legendgroup":"","marker":{"color":"#12436D","pattern":{"shape":""}},"name":"","offsetgroup":"","orientation":"v","showlegend":false,"textposition":"auto","x":["2002-2004","2003-2005","2004-2006","2005-2007","2006-2008","2007-2009","2008-2010","2009-2011","2010-2012","2011-2013","2012-2014","2013-2015","2014-2016","2015-2017","2016-2018","2017-2019","2018-2020","2019-2021","2020-2022"],"xaxis":"x","y":[100.0,100.0,100.0,100.0,99.9,99.9,100.0,100.0,100.0,100.0,100.0,100.0,100.0,99.9,100.0,100.0,100.0,99.9,99.3],"yaxis":"y","type":"bar"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"3-year moving average time periods"},"dtick":2,"automargin":true},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Percentage of sensitive habitats\u003cbr\u003e exceeding critical loads"},"showgrid":true,"dtick":10,"automargin":true},"legend":{"tracegroupgap":0,"title":{"text":""},"yanchor":"bottom","y":-0.45,"xanchor":"center","x":0.5,"orientation":"h"},"margin":{"t":60},"barmode":"relative","hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true,"hovermode":"x unified"}},
+                    {"displayModeBar":false,"responsive":true}
+                )
+            
+        
+            
+        
+
+    
+        
+        
+            initialiseTableVisualisations(
+                "a6ii",
+                {"layout":"fitColumns","pagination":true,"paginationSize":13,"nestedFieldSeparator":"|","columnDefaults":{"hozAlign":"right","headerHozAlign":"right"},"columns":[{"title":"Year","hozAlign":"left","headerHozAlign":"left"}]}
+            )
+        
+        
+            
+                initialiseFigureVisualisations(
+                    "a6ii",
+                    {"data":[{"alignmentgroup":"True","hovertemplate":"%{y:.2f}","legendgroup":"","marker":{"color":"#12436D","pattern":{"shape":""}},"name":"","offsetgroup":"","orientation":"v","showlegend":false,"textposition":"auto","x":["2002-2004","2003-2005","2004-2006","2005-2007","2006-2008","2007-2009","2008-2010","2009-2011","2010-2012","2011-2013","2012-2014","2013-2015","2014-2016","2015-2017","2016-2018","2017-2019","2018-2020","2019-2021","2020-2022"],"xaxis":"x","y":[19.2,18.9,18.8,18.6,18.1,17.4,17.1,17.9,17.6,17.8,17.1,17.3,17.0,16.0,16.4,16.9,16.8,14.5,14.3],"yaxis":"y","type":"bar"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"3-year moving average time periods"},"dtick":2,"automargin":true},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Average accumulated exceedance\u003cbr\u003e (kg\u002fha\u002fyear)"},"showgrid":true,"dtick":10,"automargin":true},"legend":{"tracegroupgap":0,"title":{"text":""},"yanchor":"bottom","y":-0.45,"xanchor":"center","x":0.5,"orientation":"h"},"margin":{"t":60},"barmode":"relative","hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true,"hovermode":"x unified"}},
                     {"displayModeBar":false,"responsive":true}
                 )
             
@@ -852,7 +1147,20 @@
 
     
         
-        AssessmentTable = new Tabulator("#a6-assessment-table", {
+        AssessmentTable = new Tabulator("#a6i-assessment-table", {
+        layout: "fitDataStretch",
+        pagination: false,
+        columns: [
+            {title: "Component"},
+            {title: "Subcomponent"},
+            {title: "Period"},
+            {title: "Date range"},
+            {title: "Percentage change", hozAlign: "right"},
+        ]
+        });
+    
+        
+        AssessmentTable = new Tabulator("#a6ii-assessment-table", {
         layout: "fitDataStretch",
         pagination: false,
         columns: [

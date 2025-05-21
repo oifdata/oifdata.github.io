@@ -1,5 +1,13 @@
-greenspace,percentage
-Combined greenspace,62.23
-Neighbourhood Natural Greenspace,48.95
-Local Natural Greenspace,24.68
-Doorstep Greenspace,32.69
+year,buffer,value
+2020,Doorstep Greenspace,32.69
+2022,Doorstep Greenspace,33.07
+2024,Doorstep Greenspace,33.11
+2020,Local Natural Greenspace,24.68
+2022,Local Natural Greenspace,25.0
+2024,Local Natural Greenspace,25.88
+2020,Neighbourhood Natural Greenspace,48.95
+2022,Neighbourhood Natural Greenspace,48.67
+2024,Neighbourhood Natural Greenspace,49.28
+2020,Combined Greenspace,62.23
+2022,Combined Greenspace,62.24
+2024,Combined Greenspace,62.76

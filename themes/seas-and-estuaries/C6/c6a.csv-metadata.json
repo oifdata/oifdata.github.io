@@ -10,8 +10,8 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:name": "JNCC_Report_759",
-            "schema:url": "https://hub.jncc.gov.uk/assets/4624a05d-4f40-429d-8504-1085155b6d59",
+            "schema:name": "JNCC_Report_794",
+            "schema:url": "https://jncc.gov.uk/media/9516/jncc-report-794.pdf",
             "@type": "Dataset",
             "schema:author": [
                 {
@@ -36,11 +36,11 @@
     ],
     "schema:spatialCoverage": "UK (Greater North Sea and Celtic Seas)",
     "schema:temporalCoverage": "2019/2023",
-    "schema:version": "2024-01-01",
+    "schema:version": "2025-04-23",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Status assessment results",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "Unknown status is applied when an assessment has been conducted, but there was insufficient information available within the region to identify whether a feature is in good or poor status. Not assessed is applied to features that have not yet had their status assessed by OSPAR.  \n\n<br>Roseate tern and harbour porpoise assessments are included in this figure. These species are included on the OSPAR Threatened and/or Declining Species and Habitats list but have not been assessed under this programme. However, they have been assessed using the OSPAR Common Indicator approach so have been included here.  \n\n<br>European flat oyster and Ostrea edulis beds are, respectively, listed as an invertebrate species and a habitat under OSPAR’s Threatened and/or Declining list. There was a combined assessment of these features in 2020. Therefore, under the C6 indicator these are classed as a habitat. ",
+    "notes": "Unknown status is applied when an assessment has been conducted, but there was insufficient information available within the region to identify whether a feature is in good or poor status. Not assessed is applied to features that have not yet had their status assessed by OSPAR.  \n\n<br>Roseate tern and harbour porpoise assessments are included in this figure. These species are included on the OSPAR Threatened and/or Declining Species and Habitats list but have not been assessed under this programme. However, at the time of analysis, they have been assessed using the OSPAR Common Indicator approach so have been included here.  \n\n<br>European flat oyster and Ostrea edulis beds are, respectively, listed as an invertebrate species and a habitat under OSPAR’s Threatened and/or Declining list. There was a combined assessment of these features in 2020. Therefore, under the C6 indicator these are classed as a habitat. ",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",

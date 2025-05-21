@@ -1,5 +1,5 @@
 {
-    "schema:name": "Percentage of the total population in England living in close proximity of greenspace, as of October 2021",
+    "schema:name": "Percentage of the total population in England living in close proximity of greenspace, 2020 to 2024",
     "url": "g3a.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -10,7 +10,7 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:name": "Percentage of the total population in England with access to nearby green space, as of October 2021",
+            "schema:name": "Percentage of the total population in England with access to nearby green space",
             "@type": "Dataset",
             "schema:author": {
                 "schema:alternateName": "NE",
@@ -24,12 +24,12 @@
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "1970-01-01T00:33:41+00:00",
-    "schema:version": "2023-01-01",
+    "schema:temporalCoverage": "2020/2024",
+    "schema:version": "2025-03-28",
     "schema:measurementTechnique": "?",
-    "schema:variableMeasured": "The percentage of the total population in England with access to nearby green space, as of October 2021",
+    "schema:variableMeasured": "The percentage of the total population in England with access to nearby green space",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "Figure G3a covers both urban and rural areas.\n    \n</br>Doorstep Greenspace is accessible greenspace of at least 0.5 hectares in size within a 200 metre straight-line distance from home; Local Greenspace is accessible natural greenspace of at least 2 hectares in size within a 300 metre straight-line distance from home; and Neighbourhood Greenspace is accessible natural greenspace of at least 10 hectares within a 1 kilometre (km) straight-line distance from home.\n\n</br>The combined greenspace category, while not an officially designated greenspace standard in itself, includes the percentage of the population living within the defined proximity of access to any one or more of the doorstep greenspace, and local and neighbourhood natural greenspace standards outlined above. \n\n</br>The ‘percentage of total population covered by greenspace buffer’ is based on an assumption that the population within each [lower layer super output area](https://www.ons.gov.uk/methodology/geography/ukgeographies/censusgeography#super-output-area-soa) (LSOA) is evenly distributed.",
+    "notes": "Figure G3a covers both urban and rural areas.\n    \n</br>Doorstep Greenspace is accessible greenspace of at least 0.5 hectares in size within a 200 metre straight-line distance from home; Local Natural Greenspace is accessible natural greenspace of at least 2 hectares in size within a 300 metre straight-line distance from home; and Neighbourhood Natural Greenspace is accessible natural greenspace of at least 10 hectares within a 1 kilometre (km) straight-line distance from home.\n\n</br>The Combined Greenspace category, while not an officially designated greenspace standard in itself, includes the percentage of the population living within the defined proximity of access to any one or more of the Doorstep Greenspace, and Local and Neighbourhood Natural Greenspace Standards outlined above. \n\n</br>The ‘percentage of total population covered by greenspace buffer’ is based on an assumption that the population within each [lower layer super output area](https://www.ons.gov.uk/methodology/geography/ukgeographies/censusgeography#super-output-area-soa) (LSOA) is evenly distributed.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -41,8 +41,9 @@
         "columns": [
             {
                 "datatype": {
-                    "base": "string",
-                    "format": "Combined greenspace|Neighbourhood Natural Greenspace|Local Natural Greenspace|Doorstep Greenspace",
+                    "base": "integer",
+                    "minimum": "2020",
+                    "maximum": "2024",
                     "@type": "Datatype"
                 },
                 "default": "",
@@ -51,7 +52,25 @@
                 "ordered": false,
                 "required": false,
                 "textDirection": "inherit",
-                "name": "greenspace",
+                "name": "year",
+                "suppressOutput": false,
+                "virtual": false,
+                "@type": "Column",
+                "schema:description": "The year range for the data present"
+            },
+            {
+                "datatype": {
+                    "base": "string",
+                    "format": "Combined Greenspace|Neighbourhood Natural Greenspace|Local Natural Greenspace|Doorstep Greenspace",
+                    "@type": "Datatype"
+                },
+                "default": "",
+                "lang": "und",
+                "null": "",
+                "ordered": false,
+                "required": false,
+                "textDirection": "inherit",
+                "name": "buffer",
                 "suppressOutput": false,
                 "virtual": false,
                 "@type": "Column",
@@ -65,11 +84,11 @@
                 "ordered": false,
                 "required": false,
                 "textDirection": "inherit",
-                "name": "percentage",
+                "name": "value",
                 "suppressOutput": false,
                 "virtual": false,
                 "@type": "Column",
-                "schema:description": "The percentage of the total population in England with access to nearby green space, as of October 2021"
+                "schema:description": "The percentage of the total population in England with access to nearby green space"
             }
         ],
         "@type": "Schema"

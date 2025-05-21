@@ -1,5 +1,5 @@
 {
-    "schema:name": "Frequency of visits to the natural environment in the past 12 months by adults in England, survey years 2009/2010 to 2018/2019",
+    "schema:name": "Proportion of adults in England visiting green and natural spaces in the past 14 days, survey years 2020/2021 to 2023/2024",
     "url": "g4a.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -10,15 +10,18 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:description": "<div class=\"govspeak\"><p>The MENE survey provides trend data for how people use the natural environment in England.</p>\n\n<div class=\"call-to-action\">\n  <h3 id=\"contact-information\">Contact information</h3>\n\n  <p>Contact the responsible officer, Rose O’Neill, by email: <a href=\"mailto:MENE@naturalengland.org.uk\" class=\"govuk-link\">MENE@naturalengland.org.uk</a></p>\n\n  <p>for queries about the:</p>\n\n  <ul>\n    <li>reuse of survey data</li>\n    <li>commissioning of bespoke analysis</li>\n    <li>possibility of adding questions to the ongoing survey programme</li>\n    <li>Additional information is available in the MENE web page on Natural England’s website archive.</li>\n  </ul>\n</div>\n</div>",
+            "schema:description": "Composite statistics from the People and Nature Surveys used in 2025 national indicators.",
             "schema:image": [
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-bf9e64d759af6dfd93bede8168f3087a329f405b382aff36747db0db4b7b23e9.png",
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-13093f053c15f613acd827aff27cac83d3fab452947cbcae4c7b706dadf2f7f2.png",
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-4233cd42671827e266e284c4d5ae68fb600bd9f9e35dda663ccabbc2b6ab7ec3.png"
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-c3d38c0d4fc00005df38a71e1db7097276681d6917bca58f0dc8336a252e1bb3.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-edc38c137a14ecfc3fc83f404090e20dab806dad345c96a1df6a163ee2d1e3aa.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-5dc2d0ea1eb72cd94e66db210ef41b22ce364e7ed09d63a3acc28fda09e27864.png"
             ],
-            "schema:name": "Monitor of Engagement with the Natural Environment: Headline report and technical reports 2018 to 2019",
+            "schema:name": "National indicators 2025 - statistics and technical details",
             "@type": "Dataset",
             "schema:about": [
+                {
+                    "@type": "Thing"
+                },
                 {
                     "@type": "Thing"
                 }
@@ -33,41 +36,19 @@
                 "schema:url": "https://www.gov.uk",
                 "@type": "Organization"
             },
-            "schema:text": "Results for the tenth year of the Monitor of Engagement with the Natural Environment survey, which provides data on how people use the natural environment in England.",
-            "schema:distribution": [
-                {
-                    "name": "MENE headline report  2018 to 2019",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5d6cd601e5274a170c435365/Monitor_Engagement_Natural_Environment_2018_2019_v2.pdf",
-                    "encodingFormat": "application/pdf"
-                },
-                {
-                    "name": "MENE Technical Report Years 1 to 10",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5e7a3962d3bf7f52f3c78eff/MENE_Technical_Report_Years_1_to_10v2.pdf",
-                    "encodingFormat": "application/pdf"
-                },
-                {
-                    "name": "MENE headline report 2018 to 2019 supporting data in Excel",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5d69467140f0b607c23ad8b1/MENE_Year_10_Headline_Report_Data_Tables.xlsx",
-                    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-                },
-                {
-                    "name": "MENE headline report 2018 to 2019 supporting data in ODS",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/5d694696ed915d53b0256e92/MENE_Year_10_Headline_Report_Data_Tables.ods",
-                    "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
-                }
-            ]
+            "schema:text": "Composite statistics from the People and Nature Surveys used in 2025 national indicators."
         }
     ],
     "schema:keywords": [
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "2009/2019",
-    "schema:version": "2019-07-04",
+    "schema:temporalCoverage": "2020/2024",
+    "schema:version": "2025-02-05",
     "schema:measurementTechnique": "?",
-    "schema:variableMeasured": "Frequency of  leisure time out of doors, weighted percentage of adults",
+    "schema:variableMeasured": "Proportion of adults in England visiting green and natural spaces",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "Figure G4a is based on MENE data collected across survey years (March to February) 2009/2010 to 2018/2019 (inclusive) with MENE weightings applied. Base: All respondents. It shows responses to question [17]: ‘Now thinking about the last 12 months, how often, on average, have you spent your leisure time out of doors, away from your home? Again, by out of doors we mean open spaces in and around towns and cities, the coast and the countryside.’ Some response options have been combined for the purposes of this indicator.",
+    "notes": "Figure G4a is based on A-PaNS data collected in survey years (April to March) 2020/2021 to 2023/2024 with A-PaNS weightings applied. Base: Module 2 adults. It shows responses to question [No_Of_Visits]: ‘How many times, if at all, did you make this type of visit to green and natural spaces in the last 14 days?’. Some response options have been combined for the purposes of this indicator.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -80,7 +61,7 @@
             {
                 "datatype": {
                     "base": "string",
-                    "format": "2009/2010|2010/2011|2011/2012|2012/2013|2013/2014|2014/2015|2015/2016|2016/2017|2017/2018|2018/2019",
+                    "format": "2020/2021|2021/2022|2022/2023|2023/2024",
                     "@type": "Datatype"
                 },
                 "default": "",
@@ -98,7 +79,7 @@
             {
                 "datatype": {
                     "base": "string",
-                    "format": "At least once a week|Once or twice a month|Less than once a month|Never",
+                    "format": "No visits|At least one visit|Don't know and prefer not to say",
                     "@type": "Datatype"
                 },
                 "default": "",
@@ -107,7 +88,7 @@
                 "ordered": false,
                 "required": false,
                 "textDirection": "inherit",
-                "name": "frequency",
+                "name": "visits",
                 "suppressOutput": false,
                 "virtual": false,
                 "@type": "Column",

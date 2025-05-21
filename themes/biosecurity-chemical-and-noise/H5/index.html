@@ -280,15 +280,46 @@
     </div>
     <section class="l-column l-column--small-space">
         <h2>Short Description</h2>
-        <p>This indicator will track changes in the exposure of people to noise from transportation sources. It does not include neighbour and neighbourhood noise. The indicator will show the estimated number of people exposed to noise levels (in 5 decibel bands) from the most significant road, rail and air sources. Health costs (and hence burden to the economy) of noise can be estimated from health outcomes associated with noise exposure (such as annoyance, sleep disturbance, and cardiovascular effects). The available data being explored for this indicator’s development are currently derived through strategic noise mapping undertaken at 5-year intervals. In the future, data will be derived from Defra’s new noise modelling system. </p>
+        <p>This indicator will track changes in the exposure of people to noise from transportation sources. It does not include neighbour and neighbourhood noise. The indicator will show the estimated number of people exposed to noise levels from road, rail and aircraft sources. The health costs (and hence burden to the economy) of noise can be estimated from health outcomes associated with noise exposure (such as annoyance, sleep disturbance, and cardiovascular effects). The data for this indicator are derived through strategic noise mapping undertaken at 5-year intervals using Defra’s noise modelling system. Future rounds of mapping will be used to update this indicator accordingly. </p>
     </section>
     <section class="l-column l-column--small-space">
         <h2>Readiness and links to data</h2>
-        <p>This indicator is not available for reporting in a finalised form in 2024. An interim indicator is presented here using the Office for Health Improvement &amp; Disparities <a href="https://fingertips.phe.org.uk/profile/public-health-outcomes-framework/data#page/3/gid/1000041/pat/15/par/E92000001/ati/502/are/E08000001/iid/90357/age/1/sex/4/cat/-1/ctp/-1/yrr/1/cid/4/tbm/1">Public Health Outcomes Framework Indicator B14b and B14c</a>.  The data is derived from the mapping of 3 separate sources of transport noise; road, rail and air, with noise measured in decibels (dB), a unit used to measure the intensity of sound on a logarithmic scale. This can be weighted to reflect the non-linear response of average human hearing measured in dB(A).</p>
-<p>Exposure to noise has been determined by strategic noise mapping of each source and overlaid on a residual population dataset to determine the number of people exposed down to an authority level. This does mean that an individual exposed to more than one source will be included more than once in the overall total. The level of exposure is calculated for sources greater than 65dB(A) LAeq,16hr during the daytime and 55dB(A) LAeq,8hr during the night-time. LAeq,t is the equivalent continuous sound level in dB(A), over the t=16 hour period 07:00-23:00 hours or t=8 hour period from 23:00-07:00 for the daytime and night-time respectively.</p>
-<p>The model for producing this data and additional noise exposure data for Defra is in development as part of a wider programme of work. New metrics will be incorporated from this model once ready, allowing a greater level of detail of noise exposure and the impacts to be established. Prototype development began in 2021, focussing initially on a small-scale geographical pilot to refine technical approach before subsequent expansion to full-scale national level modelling. The model more accurately depicts the soundscape of the nation by mapping every public road and railway at 10m resolution. It enables health and biodiversity impacts to be assessed, the potential for soundscape and tranquil areas evaluations and much more. It is modular, meaning it is resilient and future-proofed allowing the benefits to be reaped for many years to come in a sustainable and consistent manner. Data for <a href="https://www.gov.uk/government/publications/strategic-noise-mapping-2019">noise exposure</a> are published. </p>
-<p>While the currently available data predate the 25 Year Environment Plan, they provide the most recently available assessment of noise exposure. They enable a better understanding of a baseline from which to measure progress towards the goals of the 25 Year Environment Plan when the indicator is next updated.</p>
+        <p>This indicator presents data derived from the mapping of 3 separate sources of transport noise: road (H5ai, H5aii), rail (H5bi, H5bii) and aircraft (H5ci, H5cii), with noise measured in decibels (dB), a unit used to measure the intensity of sound on a logarithmic scale. This means an increase of 10 dB equates to 10 times greater sound power. Similarly, a halving of sound power corresponds to a reduction of roughly 3 dB. The decibel scale can be weighted to reflect the non-linear response of average human hearing measured in dB(A); this is known as A-weighting. The number of people exposed to noise has been determined by overlaying a population dataset onto the strategic noise mapping for each source. Further work is underway creating a combined metric for exposure across all three sources of noise. </p>
+<p>The day-evening-night level (Lden) is a noise indicator (used for H5ai, H5bi and H5ci) based on annual average A-weighted long-term sound over 24 hours with a 5 dB(A) penalty for evening noise (7pm to 11pm) and a 10 dB(A) penalty for nighttime noise (11pm to 7am). </p>
+<p>The night level (Lnight) is a nighttime noise indicator (used for H5aii, H5bii and H5cii) based on annual average A-weighted long-term sound over the night period (11pm to 7am) which contains the same sound energy as the actual fluctuating sound across the same period. </p>
+<p>The model for producing these data and additional noise exposure data for Defra depicts the soundscape of the nation by mapping every public road and railway at a 10m2 resolution. It enables health and biodiversity impacts to be assessed, the potential for soundscape and tranquil areas evaluations, and much more. Data for noise exposure are published as part of the <a href="https://www.gov.uk/government/publications/strategic-noise-mapping-2022">strategic noise mapping</a>.</p>
     </section>
+    
+        <section class="l-column l-column--small-space">
+            <h2>Notes on indicator</h2>
+            <p>For reference, example instantaneous sound levels have been provided. Exact values may vary, but these provide an indication of people’s exposure to transport noise.</p>
+<ul>
+<li>
+<p>20 dB(A) – Whisper</p>
+</li>
+<li>
+<p>40 dB(A) – Library</p>
+</li>
+<li>
+<p>50 dB(A) – Moderate Rainfall</p>
+</li>
+<li>
+<p>60 dB(A) – Busy Office</p>
+</li>
+<li>
+<p>70 dB(A) – Vacuum Cleaner</p>
+</li>
+<li>
+<p>80 dB(A) – Alarm Clock</p>
+</li>
+<li>
+<p>100 dB(A) – Concert</p>
+</li>
+<li>
+<p>120 dB(A) – Jet take-off</p>
+</li>
+</ul>
+        </section>
     
     
         <section class="l-column l-column--small-space">
@@ -300,15 +331,90 @@
             
                 
     
-    <button id="h5-component-tab" type="button" role="tab" aria-selected="true" aria-controls="h5-component-tabpanel" class="c-indicator-component-tab" onclick="window.dispatchEvent(new Event('resize'));">
-        <h3 id="h5-component-title" class="l-row l-row--xx-small-space l-row--vertically-centred | c-indicator-component-tab__text">
+    <button id="h5ai-component-tab" type="button" role="tab" aria-selected="true" aria-controls="h5ai-component-tabpanel" class="c-indicator-component-tab" onclick="window.dispatchEvent(new Event('resize'));">
+        <h3 id="h5ai-component-title" class="l-row l-row--xx-small-space l-row--vertically-centred | c-indicator-component-tab__text">
             <span class="c-indicator-component-tab__radio-button">
                 <svg class="c-radio-button" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                     <circle class="c-radio-button__outer-circle" cx="50" cy="50" r="30"/>
                     <circle class="c-radio-button__inner-circle" cx="50" cy="50" r="20"/>
                 </svg>
             </span>
-            H5: Percentage of people exposed to road, rail and air transport noise in England, 2016
+            H5ai: Percentage of the population exposed to road transport noise across day, evening and night (Lden) in England, 2022
+        </h3>
+    </button>
+
+            
+                
+    
+    <button id="h5aii-component-tab" type="button" role="tab" aria-selected="true" aria-controls="h5aii-component-tabpanel" class="c-indicator-component-tab" onclick="window.dispatchEvent(new Event('resize'));">
+        <h3 id="h5aii-component-title" class="l-row l-row--xx-small-space l-row--vertically-centred | c-indicator-component-tab__text">
+            <span class="c-indicator-component-tab__radio-button">
+                <svg class="c-radio-button" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="c-radio-button__outer-circle" cx="50" cy="50" r="30"/>
+                    <circle class="c-radio-button__inner-circle" cx="50" cy="50" r="20"/>
+                </svg>
+            </span>
+            H5aii: Percentage of the population exposed to road transport noise at night (Lnight) in England, 2022
+        </h3>
+    </button>
+
+            
+                
+    
+    <button id="h5bi-component-tab" type="button" role="tab" aria-selected="true" aria-controls="h5bi-component-tabpanel" class="c-indicator-component-tab" onclick="window.dispatchEvent(new Event('resize'));">
+        <h3 id="h5bi-component-title" class="l-row l-row--xx-small-space l-row--vertically-centred | c-indicator-component-tab__text">
+            <span class="c-indicator-component-tab__radio-button">
+                <svg class="c-radio-button" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="c-radio-button__outer-circle" cx="50" cy="50" r="30"/>
+                    <circle class="c-radio-button__inner-circle" cx="50" cy="50" r="20"/>
+                </svg>
+            </span>
+            H5bi: Percentage of the population exposed to rail transport noise across day, evening and night (Lden) in England, 2022
+        </h3>
+    </button>
+
+            
+                
+    
+    <button id="h5bii-component-tab" type="button" role="tab" aria-selected="true" aria-controls="h5bii-component-tabpanel" class="c-indicator-component-tab" onclick="window.dispatchEvent(new Event('resize'));">
+        <h3 id="h5bii-component-title" class="l-row l-row--xx-small-space l-row--vertically-centred | c-indicator-component-tab__text">
+            <span class="c-indicator-component-tab__radio-button">
+                <svg class="c-radio-button" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="c-radio-button__outer-circle" cx="50" cy="50" r="30"/>
+                    <circle class="c-radio-button__inner-circle" cx="50" cy="50" r="20"/>
+                </svg>
+            </span>
+            H5bii: Percentage of the population exposed to rail noise at night (Lnight) in England, 2022
+        </h3>
+    </button>
+
+            
+                
+    
+    <button id="h5ci-component-tab" type="button" role="tab" aria-selected="true" aria-controls="h5ci-component-tabpanel" class="c-indicator-component-tab" onclick="window.dispatchEvent(new Event('resize'));">
+        <h3 id="h5ci-component-title" class="l-row l-row--xx-small-space l-row--vertically-centred | c-indicator-component-tab__text">
+            <span class="c-indicator-component-tab__radio-button">
+                <svg class="c-radio-button" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="c-radio-button__outer-circle" cx="50" cy="50" r="30"/>
+                    <circle class="c-radio-button__inner-circle" cx="50" cy="50" r="20"/>
+                </svg>
+            </span>
+            H5ci: Percentage of the population exposed to air transport noise across day, evening and night (Lden) in England, 2022
+        </h3>
+    </button>
+
+            
+                
+    
+    <button id="h5cii-component-tab" type="button" role="tab" aria-selected="true" aria-controls="h5cii-component-tabpanel" class="c-indicator-component-tab" onclick="window.dispatchEvent(new Event('resize'));">
+        <h3 id="h5cii-component-title" class="l-row l-row--xx-small-space l-row--vertically-centred | c-indicator-component-tab__text">
+            <span class="c-indicator-component-tab__radio-button">
+                <svg class="c-radio-button" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="c-radio-button__outer-circle" cx="50" cy="50" r="30"/>
+                    <circle class="c-radio-button__inner-circle" cx="50" cy="50" r="20"/>
+                </svg>
+            </span>
+            H5cii: Percentage of the population exposed to air transport noise at night (Lnight) in England, 2022
         </h3>
     </button>
 
@@ -317,7 +423,7 @@
             
                 
     
-    <div id="h5-component-tabpanel" role="tabpanel" tabindex="0" aria-labelledby="h5-component-tab" class="l-column l-column--small-space | c-indicator-component-tabpanel">
+    <div id="h5ai-component-tabpanel" role="tabpanel" tabindex="0" aria-labelledby="h5ai-component-tab" class="l-column l-column--small-space | c-indicator-component-tabpanel">
         
         
     <section class="l-column l-column--no-space">
@@ -327,7 +433,13 @@
             class="l-equal-width-columns l-equal-width-columns--no-space">
             
             
-    <button id="h5-table-tab" type="button" role="tab" aria-selected="true" data-tabgroup="h5" aria-controls="h5-table-tabpanel" class="c-indicator-component-visualisation-tab">
+    <button id="h5ai-figure-tab" type="button" role="tab" aria-selected="true" data-tabgroup="h5ai" aria-controls="h5ai-figure-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Figure</span>
+    </button>
+
+            
+            
+    <button id="h5ai-table-tab" type="button" role="tab" aria-selected="true" data-tabgroup="h5ai" aria-controls="h5ai-table-tabpanel" class="c-indicator-component-visualisation-tab">
         <span class="c-indicator-component-visualisation-tab__text">Table</span>
     </button>
 
@@ -336,25 +448,210 @@
         <div class="l-column | c-indicator-component-visualisation-tabpanels">
             
             
-    <div id="h5-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="h5" aria-labelledby="h5-table-tab" class="c-indicator-component-visualisation-tabpanel">
+    <div id="h5ai-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="h5ai" aria-labelledby="h5ai-figure-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Figure
+                H5ai: Percentage of the population exposed to road transport noise across day, evening and night (Lden) in England, 2022</h4>
+            <div id="h5ai-figure-container" class="c-visualisation-container">
+                
+                    <img src='h5ai.svg' />
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Department for Environment, Food &amp; Rural Affairs,
+                
+                
+                    Strategic noise mapping (2022)
+                
+                </dd>
+            
+        
+        
+        
+            <dt class="c-indicator-component-metadata__key">Footnotes</dt>
+            <dd><p>Data represents the reverse cumulative percentage of the population exposed to road traffic noise pollution over a weighted average 24-hour period.</p></dd>
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="h5ai.csv">Download  CSV</a>
+                
+                
+                    <a class="c-button" href="h5ai.svg" download=".svg">Download Figure Image</a>
+                
+            </div>
+        </section>
+    </div>
+
+            
+            
+    <div id="h5ai-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="h5ai" aria-labelledby="h5ai-table-tab" class="c-indicator-component-visualisation-tabpanel">
         <section class="l-column l-column--small-space">
             <h4>Table
-                H5: Percentage of people exposed to road, rail and air transport noise in England, 2016</h4>
-            <div id="h5-table-container" class="c-visualisation-container">
+                H5ai: Percentage of the population exposed to road transport noise across day, evening and night (Lden) in England, 2022</h4>
+            <div id="h5ai-table-container" class="c-visualisation-container">
                 
-                    <table class="dataframe" id="h5-table">
+                    <table class="dataframe" id="h5ai-table">
   <thead>
     <tr style="text-align: right;">
-      <th>Year</th>
-      <th>Percentage of population exposed to transport noise above 55dB(A) - night-time</th>
-      <th>Percentage of population exposed to transport noise above 65dB(A) - daytime</th>
+      <th>Decibels</th>
+      <th>Road Lden percentage</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>2016</td>
-      <td>8.48</td>
-      <td>5.50</td>
+      <td>40</td>
+      <td>98.15</td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>97.69</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>97.10</td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>96.34</td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td>95.37</td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td>94.15</td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td>92.61</td>
+    </tr>
+    <tr>
+      <td>47</td>
+      <td>90.67</td>
+    </tr>
+    <tr>
+      <td>48</td>
+      <td>88.21</td>
+    </tr>
+    <tr>
+      <td>49</td>
+      <td>84.87</td>
+    </tr>
+    <tr>
+      <td>50</td>
+      <td>79.94</td>
+    </tr>
+    <tr>
+      <td>51</td>
+      <td>71.92</td>
+    </tr>
+    <tr>
+      <td>52</td>
+      <td>60.03</td>
+    </tr>
+    <tr>
+      <td>53</td>
+      <td>48.11</td>
+    </tr>
+    <tr>
+      <td>54</td>
+      <td>38.51</td>
+    </tr>
+    <tr>
+      <td>55</td>
+      <td>31.53</td>
+    </tr>
+    <tr>
+      <td>56</td>
+      <td>26.39</td>
+    </tr>
+    <tr>
+      <td>57</td>
+      <td>22.43</td>
+    </tr>
+    <tr>
+      <td>58</td>
+      <td>19.24</td>
+    </tr>
+    <tr>
+      <td>59</td>
+      <td>16.59</td>
+    </tr>
+    <tr>
+      <td>60</td>
+      <td>14.34</td>
+    </tr>
+    <tr>
+      <td>61</td>
+      <td>12.34</td>
+    </tr>
+    <tr>
+      <td>62</td>
+      <td>10.56</td>
+    </tr>
+    <tr>
+      <td>63</td>
+      <td>9.01</td>
+    </tr>
+    <tr>
+      <td>64</td>
+      <td>7.60</td>
+    </tr>
+    <tr>
+      <td>65</td>
+      <td>6.28</td>
+    </tr>
+    <tr>
+      <td>66</td>
+      <td>5.06</td>
+    </tr>
+    <tr>
+      <td>67</td>
+      <td>3.96</td>
+    </tr>
+    <tr>
+      <td>68</td>
+      <td>3.02</td>
+    </tr>
+    <tr>
+      <td>69</td>
+      <td>2.26</td>
+    </tr>
+    <tr>
+      <td>70</td>
+      <td>1.66</td>
+    </tr>
+    <tr>
+      <td>71</td>
+      <td>1.21</td>
+    </tr>
+    <tr>
+      <td>72</td>
+      <td>0.88</td>
+    </tr>
+    <tr>
+      <td>73</td>
+      <td>0.64</td>
+    </tr>
+    <tr>
+      <td>74</td>
+      <td>0.45</td>
+    </tr>
+    <tr>
+      <td>75</td>
+      <td>0.31</td>
     </tr>
   </tbody>
 </table>
@@ -370,27 +667,24 @@
             
                 <dd class="c-indicator-component-metadata__value">
                 
-                    Office for Health Improvement &amp; Disparities,
+                    Department for Environment, Food &amp; Rural Affairs,
                 
                 
-                    <a href="https://fingertips.phe.org.uk/profile/public-health-outcomes-framework/data#page/3/gid/1000041/pat/15/par/E92000001/ati/502/are/E08000001/iid/90358/age/1/sex/4/cat/-1/ctp/-1/yrr/1/cid/4/tbm/1/page-options/car-do-0">Public Health Outcomes Framework, Indicator B14</a>
+                    Strategic noise mapping (2022)
                 
                 </dd>
             
         
         
-            <dt class="c-indicator-component-metadata__key">Unit of Measurement</dt>
-            <dd>Percentage of population</dd>
-        
         
             <dt class="c-indicator-component-metadata__key">Footnotes</dt>
-            <dd><p>Data represents exposure from each source above 65dB(A) and 55dB(A), at day and night respectively, as such one person may be exposed to multiple sources above this threshold and be counted multiple times within the final exposure statistic.</p></dd>
+            <dd><p>Data represents the reverse cumulative percentage of the population exposed to road traffic noise pollution over a weighted average 24-hour period.</p></dd>
         
     </dl>
 
             <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
                 
-                    <a class="c-button" href="h5.csv">Download  CSV</a>
+                    <a class="c-button" href="h5ai.csv">Download  CSV</a>
                 
                 
             </div>
@@ -403,8 +697,1428 @@
 
         
         <section class="l-column l-column--small-space">
-            <h4>Trend description for H5</h4>
-            <p>In 2016, the percentage of the population exposed noise from road, rail and air transport that exceeded 65dB(A) LAeq,16hr during the daytime was 5.5%. While a greater percentage of the population was exposed to a level of transport noise higher than 55dB(A) LAeq,8hr, at 8.48%. </p>
+            <h4>Trend description for H5ai</h4>
+            <p>In 2022, the median exposure to a 24-hour weighted average noise level (Lden) from road traffic was 52 dB.</p>
+        </section>
+        
+            <h2>Assessment of change</h2>
+            <p>No assessment of change was undertaken for this indicator as a suitable time series is not yet available in the Outcome Indicator Framework.</p>
+            
+            
+        
+    </div>
+
+            
+                
+    
+    <div id="h5aii-component-tabpanel" role="tabpanel" tabindex="0" aria-labelledby="h5aii-component-tab" class="l-column l-column--small-space | c-indicator-component-tabpanel">
+        
+        
+    <section class="l-column l-column--no-space">
+        <div
+            role="tablist"
+            aria-label="Data visualisation options"
+            class="l-equal-width-columns l-equal-width-columns--no-space">
+            
+            
+    <button id="h5aii-figure-tab" type="button" role="tab" aria-selected="true" data-tabgroup="h5aii" aria-controls="h5aii-figure-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Figure</span>
+    </button>
+
+            
+            
+    <button id="h5aii-table-tab" type="button" role="tab" aria-selected="true" data-tabgroup="h5aii" aria-controls="h5aii-table-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Table</span>
+    </button>
+
+            
+        </div>
+        <div class="l-column | c-indicator-component-visualisation-tabpanels">
+            
+            
+    <div id="h5aii-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="h5aii" aria-labelledby="h5aii-figure-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Figure
+                H5aii: Percentage of the population exposed to road transport noise at night (Lnight) in England, 2022</h4>
+            <div id="h5aii-figure-container" class="c-visualisation-container">
+                
+                    <img src='h5aii.svg' />
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Department for Environment, Food &amp; Rural Affairs,
+                
+                
+                    Strategic noise mapping (2022)
+                
+                </dd>
+            
+        
+        
+        
+            <dt class="c-indicator-component-metadata__key">Footnotes</dt>
+            <dd><p>Data represents the reverse cumulative percentage of the population exposed to road traffic noise pollution at night.</p></dd>
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="h5aii.csv">Download  CSV</a>
+                
+                
+                    <a class="c-button" href="h5aii.svg" download=".svg">Download Figure Image</a>
+                
+            </div>
+        </section>
+    </div>
+
+            
+            
+    <div id="h5aii-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="h5aii" aria-labelledby="h5aii-table-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Table
+                H5aii: Percentage of the population exposed to road transport noise at night (Lnight) in England, 2022</h4>
+            <div id="h5aii-table-container" class="c-visualisation-container">
+                
+                    <table class="dataframe" id="h5aii-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Decibels</th>
+      <th>Road Lnight percentage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>35</td>
+      <td>91.14</td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td>87.77</td>
+    </tr>
+    <tr>
+      <td>37</td>
+      <td>82.58</td>
+    </tr>
+    <tr>
+      <td>38</td>
+      <td>74.39</td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td>64.09</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td>53.89</td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>45.28</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>38.41</td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>32.89</td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td>28.35</td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td>24.58</td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td>21.46</td>
+    </tr>
+    <tr>
+      <td>47</td>
+      <td>18.87</td>
+    </tr>
+    <tr>
+      <td>48</td>
+      <td>16.72</td>
+    </tr>
+    <tr>
+      <td>49</td>
+      <td>14.98</td>
+    </tr>
+    <tr>
+      <td>50</td>
+      <td>13.56</td>
+    </tr>
+    <tr>
+      <td>51</td>
+      <td>12.32</td>
+    </tr>
+    <tr>
+      <td>52</td>
+      <td>11.16</td>
+    </tr>
+    <tr>
+      <td>53</td>
+      <td>10.00</td>
+    </tr>
+    <tr>
+      <td>54</td>
+      <td>8.85</td>
+    </tr>
+    <tr>
+      <td>55</td>
+      <td>7.69</td>
+    </tr>
+    <tr>
+      <td>56</td>
+      <td>6.52</td>
+    </tr>
+    <tr>
+      <td>57</td>
+      <td>5.38</td>
+    </tr>
+    <tr>
+      <td>58</td>
+      <td>4.32</td>
+    </tr>
+    <tr>
+      <td>59</td>
+      <td>3.38</td>
+    </tr>
+    <tr>
+      <td>60</td>
+      <td>2.57</td>
+    </tr>
+    <tr>
+      <td>61</td>
+      <td>1.92</td>
+    </tr>
+    <tr>
+      <td>62</td>
+      <td>1.42</td>
+    </tr>
+    <tr>
+      <td>63</td>
+      <td>1.04</td>
+    </tr>
+    <tr>
+      <td>64</td>
+      <td>0.76</td>
+    </tr>
+    <tr>
+      <td>65</td>
+      <td>0.55</td>
+    </tr>
+    <tr>
+      <td>66</td>
+      <td>0.39</td>
+    </tr>
+    <tr>
+      <td>67</td>
+      <td>0.27</td>
+    </tr>
+    <tr>
+      <td>68</td>
+      <td>0.17</td>
+    </tr>
+    <tr>
+      <td>69</td>
+      <td>0.11</td>
+    </tr>
+    <tr>
+      <td>70</td>
+      <td>0.07</td>
+    </tr>
+    <tr>
+      <td>71</td>
+      <td>0.04</td>
+    </tr>
+    <tr>
+      <td>72</td>
+      <td>0.02</td>
+    </tr>
+    <tr>
+      <td>73</td>
+      <td>0.02</td>
+    </tr>
+    <tr>
+      <td>74</td>
+      <td>0.01</td>
+    </tr>
+    <tr>
+      <td>75</td>
+      <td>0.01</td>
+    </tr>
+  </tbody>
+</table>
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Department for Environment, Food &amp; Rural Affairs,
+                
+                
+                    Strategic noise mapping (2022)
+                
+                </dd>
+            
+        
+        
+        
+            <dt class="c-indicator-component-metadata__key">Footnotes</dt>
+            <dd><p>Data represents the reverse cumulative percentage of the population exposed to road traffic noise pollution at night.</p></dd>
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="h5aii.csv">Download  CSV</a>
+                
+                
+            </div>
+        </section>
+    </div>
+
+            
+        </div>
+    </section>
+
+        
+        <section class="l-column l-column--small-space">
+            <h4>Trend description for H5aii</h4>
+            <p>In 2022, the median exposure to a 24-hour weighted average noise level (Lden) from road traffic was 40 dB. </p>
+        </section>
+        
+            <h2>Assessment of change</h2>
+            <p>No assessment of change was undertaken for this indicator as a suitable time series is not yet available in the Outcome Indicator Framework.</p>
+            
+            
+        
+    </div>
+
+            
+                
+    
+    <div id="h5bi-component-tabpanel" role="tabpanel" tabindex="0" aria-labelledby="h5bi-component-tab" class="l-column l-column--small-space | c-indicator-component-tabpanel">
+        
+        
+    <section class="l-column l-column--no-space">
+        <div
+            role="tablist"
+            aria-label="Data visualisation options"
+            class="l-equal-width-columns l-equal-width-columns--no-space">
+            
+            
+    <button id="h5bi-figure-tab" type="button" role="tab" aria-selected="true" data-tabgroup="h5bi" aria-controls="h5bi-figure-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Figure</span>
+    </button>
+
+            
+            
+    <button id="h5bi-table-tab" type="button" role="tab" aria-selected="true" data-tabgroup="h5bi" aria-controls="h5bi-table-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Table</span>
+    </button>
+
+            
+        </div>
+        <div class="l-column | c-indicator-component-visualisation-tabpanels">
+            
+            
+    <div id="h5bi-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="h5bi" aria-labelledby="h5bi-figure-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Figure
+                H5bi: Percentage of the population exposed to rail transport noise across day, evening and night (Lden) in England, 2022</h4>
+            <div id="h5bi-figure-container" class="c-visualisation-container">
+                
+                    <img src='h5bi.svg' />
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Department for Environment, Food &amp; Rural Affairs,
+                
+                
+                    Strategic noise mapping (2022)
+                
+                </dd>
+            
+        
+        
+        
+            <dt class="c-indicator-component-metadata__key">Footnotes</dt>
+            <dd><p>Data represents the reverse cumulative percentage of the population exposed to railway noise pollution over a weighted average 24-hour period.</p></dd>
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="h5bi.csv">Download  CSV</a>
+                
+                
+                    <a class="c-button" href="h5bi.svg" download=".svg">Download Figure Image</a>
+                
+            </div>
+        </section>
+    </div>
+
+            
+            
+    <div id="h5bi-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="h5bi" aria-labelledby="h5bi-table-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Table
+                H5bi: Percentage of the population exposed to rail transport noise across day, evening and night (Lden) in England, 2022</h4>
+            <div id="h5bi-table-container" class="c-visualisation-container">
+                
+                    <table class="dataframe" id="h5bi-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Decibels</th>
+      <th>Rail Lden percentage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>40</td>
+      <td>20.59</td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>18.14</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>15.86</td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>13.79</td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td>11.94</td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td>10.31</td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td>8.90</td>
+    </tr>
+    <tr>
+      <td>47</td>
+      <td>7.69</td>
+    </tr>
+    <tr>
+      <td>48</td>
+      <td>6.65</td>
+    </tr>
+    <tr>
+      <td>49</td>
+      <td>5.78</td>
+    </tr>
+    <tr>
+      <td>50</td>
+      <td>5.03</td>
+    </tr>
+    <tr>
+      <td>51</td>
+      <td>4.39</td>
+    </tr>
+    <tr>
+      <td>52</td>
+      <td>3.86</td>
+    </tr>
+    <tr>
+      <td>53</td>
+      <td>3.39</td>
+    </tr>
+    <tr>
+      <td>54</td>
+      <td>2.98</td>
+    </tr>
+    <tr>
+      <td>55</td>
+      <td>2.62</td>
+    </tr>
+    <tr>
+      <td>56</td>
+      <td>2.29</td>
+    </tr>
+    <tr>
+      <td>57</td>
+      <td>2.00</td>
+    </tr>
+    <tr>
+      <td>58</td>
+      <td>1.73</td>
+    </tr>
+    <tr>
+      <td>59</td>
+      <td>1.49</td>
+    </tr>
+    <tr>
+      <td>60</td>
+      <td>1.27</td>
+    </tr>
+    <tr>
+      <td>61</td>
+      <td>1.07</td>
+    </tr>
+    <tr>
+      <td>62</td>
+      <td>0.90</td>
+    </tr>
+    <tr>
+      <td>63</td>
+      <td>0.74</td>
+    </tr>
+    <tr>
+      <td>64</td>
+      <td>0.60</td>
+    </tr>
+    <tr>
+      <td>65</td>
+      <td>0.49</td>
+    </tr>
+    <tr>
+      <td>66</td>
+      <td>0.39</td>
+    </tr>
+    <tr>
+      <td>67</td>
+      <td>0.30</td>
+    </tr>
+    <tr>
+      <td>68</td>
+      <td>0.23</td>
+    </tr>
+    <tr>
+      <td>69</td>
+      <td>0.17</td>
+    </tr>
+    <tr>
+      <td>70</td>
+      <td>0.13</td>
+    </tr>
+    <tr>
+      <td>71</td>
+      <td>0.09</td>
+    </tr>
+    <tr>
+      <td>72</td>
+      <td>0.07</td>
+    </tr>
+    <tr>
+      <td>73</td>
+      <td>0.04</td>
+    </tr>
+    <tr>
+      <td>74</td>
+      <td>0.03</td>
+    </tr>
+    <tr>
+      <td>75</td>
+      <td>0.02</td>
+    </tr>
+  </tbody>
+</table>
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Department for Environment, Food &amp; Rural Affairs,
+                
+                
+                    Strategic noise mapping (2022)
+                
+                </dd>
+            
+        
+        
+        
+            <dt class="c-indicator-component-metadata__key">Footnotes</dt>
+            <dd><p>Data represents the reverse cumulative percentage of the population exposed to railway noise pollution over a weighted average 24-hour period.</p></dd>
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="h5bi.csv">Download  CSV</a>
+                
+                
+            </div>
+        </section>
+    </div>
+
+            
+        </div>
+    </section>
+
+        
+        <section class="l-column l-column--small-space">
+            <h4>Trend description for H5bi</h4>
+            <p>Although the percentage of the population exposed to railway noise has been mapped, there are insufficient data to calculate the median person’s exposure to a 24-hour weighted average noise level (Lden) from railway noise in 2022. </p>
+        </section>
+        
+            <h2>Assessment of change</h2>
+            <p>No assessment of change was undertaken for this indicator as a suitable time series is not yet available in the Outcome Indicator Framework.</p>
+            
+            
+        
+    </div>
+
+            
+                
+    
+    <div id="h5bii-component-tabpanel" role="tabpanel" tabindex="0" aria-labelledby="h5bii-component-tab" class="l-column l-column--small-space | c-indicator-component-tabpanel">
+        
+        
+    <section class="l-column l-column--no-space">
+        <div
+            role="tablist"
+            aria-label="Data visualisation options"
+            class="l-equal-width-columns l-equal-width-columns--no-space">
+            
+            
+    <button id="h5bii-figure-tab" type="button" role="tab" aria-selected="true" data-tabgroup="h5bii" aria-controls="h5bii-figure-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Figure</span>
+    </button>
+
+            
+            
+    <button id="h5bii-table-tab" type="button" role="tab" aria-selected="true" data-tabgroup="h5bii" aria-controls="h5bii-table-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Table</span>
+    </button>
+
+            
+        </div>
+        <div class="l-column | c-indicator-component-visualisation-tabpanels">
+            
+            
+    <div id="h5bii-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="h5bii" aria-labelledby="h5bii-figure-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Figure
+                H5bii: Percentage of the population exposed to rail noise at night (Lnight) in England, 2022</h4>
+            <div id="h5bii-figure-container" class="c-visualisation-container">
+                
+                    <img src='h5bii.svg' />
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Department for Environment, Food &amp; Rural Affairs,
+                
+                
+                    Strategic noise mapping (2022)
+                
+                </dd>
+            
+        
+        
+        
+            <dt class="c-indicator-component-metadata__key">Footnotes</dt>
+            <dd><p>Data represents the reverse cumulative percentage of the population exposed to railway noise pollution at night.</p></dd>
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="h5bii.csv">Download  CSV</a>
+                
+                
+                    <a class="c-button" href="h5bii.svg" download=".svg">Download Figure Image</a>
+                
+            </div>
+        </section>
+    </div>
+
+            
+            
+    <div id="h5bii-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="h5bii" aria-labelledby="h5bii-table-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Table
+                H5bii: Percentage of the population exposed to rail noise at night (Lnight) in England, 2022</h4>
+            <div id="h5bii-table-container" class="c-visualisation-container">
+                
+                    <table class="dataframe" id="h5bii-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Decibels</th>
+      <th>Rail Lnight percentage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>35</td>
+      <td>13.71</td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td>11.85</td>
+    </tr>
+    <tr>
+      <td>37</td>
+      <td>10.22</td>
+    </tr>
+    <tr>
+      <td>38</td>
+      <td>8.80</td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td>7.58</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td>6.53</td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>5.65</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>4.90</td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>4.26</td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td>3.73</td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td>3.26</td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td>2.85</td>
+    </tr>
+    <tr>
+      <td>47</td>
+      <td>2.50</td>
+    </tr>
+    <tr>
+      <td>48</td>
+      <td>2.18</td>
+    </tr>
+    <tr>
+      <td>49</td>
+      <td>1.89</td>
+    </tr>
+    <tr>
+      <td>50</td>
+      <td>1.63</td>
+    </tr>
+    <tr>
+      <td>51</td>
+      <td>1.40</td>
+    </tr>
+    <tr>
+      <td>52</td>
+      <td>1.19</td>
+    </tr>
+    <tr>
+      <td>53</td>
+      <td>1.00</td>
+    </tr>
+    <tr>
+      <td>54</td>
+      <td>0.83</td>
+    </tr>
+    <tr>
+      <td>55</td>
+      <td>0.68</td>
+    </tr>
+    <tr>
+      <td>56</td>
+      <td>0.55</td>
+    </tr>
+    <tr>
+      <td>57</td>
+      <td>0.44</td>
+    </tr>
+    <tr>
+      <td>58</td>
+      <td>0.34</td>
+    </tr>
+    <tr>
+      <td>59</td>
+      <td>0.26</td>
+    </tr>
+    <tr>
+      <td>60</td>
+      <td>0.20</td>
+    </tr>
+    <tr>
+      <td>61</td>
+      <td>0.15</td>
+    </tr>
+    <tr>
+      <td>62</td>
+      <td>0.11</td>
+    </tr>
+    <tr>
+      <td>63</td>
+      <td>0.08</td>
+    </tr>
+    <tr>
+      <td>64</td>
+      <td>0.06</td>
+    </tr>
+    <tr>
+      <td>65</td>
+      <td>0.04</td>
+    </tr>
+    <tr>
+      <td>66</td>
+      <td>0.03</td>
+    </tr>
+    <tr>
+      <td>67</td>
+      <td>0.02</td>
+    </tr>
+    <tr>
+      <td>68</td>
+      <td>0.01</td>
+    </tr>
+    <tr>
+      <td>69</td>
+      <td>0.01</td>
+    </tr>
+    <tr>
+      <td>70</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>71</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>72</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>73</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>74</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>75</td>
+      <td>0.00</td>
+    </tr>
+  </tbody>
+</table>
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Department for Environment, Food &amp; Rural Affairs,
+                
+                
+                    Strategic noise mapping (2022)
+                
+                </dd>
+            
+        
+        
+        
+            <dt class="c-indicator-component-metadata__key">Footnotes</dt>
+            <dd><p>Data represents the reverse cumulative percentage of the population exposed to railway noise pollution at night.</p></dd>
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="h5bii.csv">Download  CSV</a>
+                
+                
+            </div>
+        </section>
+    </div>
+
+            
+        </div>
+    </section>
+
+        
+        <section class="l-column l-column--small-space">
+            <h4>Trend description for H5bii</h4>
+            <p>Although the percentage of the population exposed to railway noise has been mapped, there are insufficient data to calculate the median person’s exposure to a nighttime noise level (Lnight) from railway noise in 2022.</p>
+        </section>
+        
+            <h2>Assessment of change</h2>
+            <p>No assessment of change was undertaken for this indicator as a suitable time series is not yet available in the Outcome Indicator Framework.</p>
+            
+            
+        
+    </div>
+
+            
+                
+    
+    <div id="h5ci-component-tabpanel" role="tabpanel" tabindex="0" aria-labelledby="h5ci-component-tab" class="l-column l-column--small-space | c-indicator-component-tabpanel">
+        
+        
+    <section class="l-column l-column--no-space">
+        <div
+            role="tablist"
+            aria-label="Data visualisation options"
+            class="l-equal-width-columns l-equal-width-columns--no-space">
+            
+            
+    <button id="h5ci-figure-tab" type="button" role="tab" aria-selected="true" data-tabgroup="h5ci" aria-controls="h5ci-figure-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Figure</span>
+    </button>
+
+            
+            
+    <button id="h5ci-table-tab" type="button" role="tab" aria-selected="true" data-tabgroup="h5ci" aria-controls="h5ci-table-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Table</span>
+    </button>
+
+            
+        </div>
+        <div class="l-column | c-indicator-component-visualisation-tabpanels">
+            
+            
+    <div id="h5ci-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="h5ci" aria-labelledby="h5ci-figure-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Figure
+                H5ci: Percentage of the population exposed to air transport noise across day, evening and night (Lden) in England, 2022</h4>
+            <div id="h5ci-figure-container" class="c-visualisation-container">
+                
+                    <img src='h5ci.svg' />
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Department for Environment, Food &amp; Rural Affairs,
+                
+                
+                    Strategic noise mapping (2022)
+                
+                </dd>
+            
+        
+        
+        
+            <dt class="c-indicator-component-metadata__key">Footnotes</dt>
+            <dd><p>Data represents the reverse cumulative percentage of the population exposed to aircraft noise pollution over a weighted average 24-hour period.</p></dd>
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="h5ci.csv">Download  CSV</a>
+                
+                
+                    <a class="c-button" href="h5ci.svg" download=".svg">Download Figure Image</a>
+                
+            </div>
+        </section>
+    </div>
+
+            
+            
+    <div id="h5ci-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="h5ci" aria-labelledby="h5ci-table-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Table
+                H5ci: Percentage of the population exposed to air transport noise across day, evening and night (Lden) in England, 2022</h4>
+            <div id="h5ci-table-container" class="c-visualisation-container">
+                
+                    <table class="dataframe" id="h5ci-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Decibels</th>
+      <th>Air Lden percentage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>50</td>
+      <td>1.75</td>
+    </tr>
+    <tr>
+      <td>51</td>
+      <td>1.38</td>
+    </tr>
+    <tr>
+      <td>52</td>
+      <td>1.08</td>
+    </tr>
+    <tr>
+      <td>53</td>
+      <td>0.85</td>
+    </tr>
+    <tr>
+      <td>54</td>
+      <td>0.69</td>
+    </tr>
+    <tr>
+      <td>55</td>
+      <td>0.56</td>
+    </tr>
+    <tr>
+      <td>56</td>
+      <td>0.45</td>
+    </tr>
+    <tr>
+      <td>57</td>
+      <td>0.34</td>
+    </tr>
+    <tr>
+      <td>58</td>
+      <td>0.25</td>
+    </tr>
+    <tr>
+      <td>59</td>
+      <td>0.19</td>
+    </tr>
+    <tr>
+      <td>60</td>
+      <td>0.14</td>
+    </tr>
+    <tr>
+      <td>61</td>
+      <td>0.10</td>
+    </tr>
+    <tr>
+      <td>62</td>
+      <td>0.07</td>
+    </tr>
+    <tr>
+      <td>63</td>
+      <td>0.05</td>
+    </tr>
+    <tr>
+      <td>64</td>
+      <td>0.03</td>
+    </tr>
+    <tr>
+      <td>65</td>
+      <td>0.01</td>
+    </tr>
+    <tr>
+      <td>66</td>
+      <td>0.01</td>
+    </tr>
+    <tr>
+      <td>67</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>68</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>69</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>70</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>71</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>72</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>73</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>74</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>75</td>
+      <td>0.00</td>
+    </tr>
+  </tbody>
+</table>
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Department for Environment, Food &amp; Rural Affairs,
+                
+                
+                    Strategic noise mapping (2022)
+                
+                </dd>
+            
+        
+        
+        
+            <dt class="c-indicator-component-metadata__key">Footnotes</dt>
+            <dd><p>Data represents the reverse cumulative percentage of the population exposed to aircraft noise pollution over a weighted average 24-hour period.</p></dd>
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="h5ci.csv">Download  CSV</a>
+                
+                
+            </div>
+        </section>
+    </div>
+
+            
+        </div>
+    </section>
+
+        
+        <section class="l-column l-column--small-space">
+            <h4>Trend description for H5ci</h4>
+            <p>Although the percentage of the population exposed to aircraft noise has been mapped, there are insufficient data to calculate the median person’s exposure to a 24-hour weighted average noise level (Lden) from aircraft noise in 2022.</p>
+        </section>
+        
+            <h2>Assessment of change</h2>
+            <p>No assessment of change was undertaken for this indicator as a suitable time series is not yet available in the Outcome Indicator Framework.</p>
+            
+            
+        
+    </div>
+
+            
+                
+    
+    <div id="h5cii-component-tabpanel" role="tabpanel" tabindex="0" aria-labelledby="h5cii-component-tab" class="l-column l-column--small-space | c-indicator-component-tabpanel">
+        
+        
+    <section class="l-column l-column--no-space">
+        <div
+            role="tablist"
+            aria-label="Data visualisation options"
+            class="l-equal-width-columns l-equal-width-columns--no-space">
+            
+            
+    <button id="h5cii-figure-tab" type="button" role="tab" aria-selected="true" data-tabgroup="h5cii" aria-controls="h5cii-figure-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Figure</span>
+    </button>
+
+            
+            
+    <button id="h5cii-table-tab" type="button" role="tab" aria-selected="true" data-tabgroup="h5cii" aria-controls="h5cii-table-tabpanel" class="c-indicator-component-visualisation-tab">
+        <span class="c-indicator-component-visualisation-tab__text">Table</span>
+    </button>
+
+            
+        </div>
+        <div class="l-column | c-indicator-component-visualisation-tabpanels">
+            
+            
+    <div id="h5cii-figure-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="h5cii" aria-labelledby="h5cii-figure-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Figure
+                H5cii: Percentage of the population exposed to air transport noise at night (Lnight) in England, 2022</h4>
+            <div id="h5cii-figure-container" class="c-visualisation-container">
+                
+                    <img src='h5cii.svg' />
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Department for Environment, Food &amp; Rural Affairs,
+                
+                
+                    Strategic noise mapping (2022)
+                
+                </dd>
+            
+        
+        
+        
+            <dt class="c-indicator-component-metadata__key">Footnotes</dt>
+            <dd><p>Data represents the reverse cumulative percentage of the population exposed to aircraft noise pollution at night.</p></dd>
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="h5cii.csv">Download  CSV</a>
+                
+                
+                    <a class="c-button" href="h5cii.svg" download=".svg">Download Figure Image</a>
+                
+            </div>
+        </section>
+    </div>
+
+            
+            
+    <div id="h5cii-table-tabpanel" role="tabpanel" tabindex="0" data-tabgroup="h5cii" aria-labelledby="h5cii-table-tab" class="c-indicator-component-visualisation-tabpanel">
+        <section class="l-column l-column--small-space">
+            <h4>Table
+                H5cii: Percentage of the population exposed to air transport noise at night (Lnight) in England, 2022</h4>
+            <div id="h5cii-table-container" class="c-visualisation-container">
+                
+                    <table class="dataframe" id="h5cii-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Decibels</th>
+      <th>Air Lnight percentage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>45</td>
+      <td>0.75</td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td>0.62</td>
+    </tr>
+    <tr>
+      <td>47</td>
+      <td>0.52</td>
+    </tr>
+    <tr>
+      <td>48</td>
+      <td>0.43</td>
+    </tr>
+    <tr>
+      <td>49</td>
+      <td>0.32</td>
+    </tr>
+    <tr>
+      <td>50</td>
+      <td>0.24</td>
+    </tr>
+    <tr>
+      <td>51</td>
+      <td>0.18</td>
+    </tr>
+    <tr>
+      <td>52</td>
+      <td>0.13</td>
+    </tr>
+    <tr>
+      <td>53</td>
+      <td>0.10</td>
+    </tr>
+    <tr>
+      <td>54</td>
+      <td>0.07</td>
+    </tr>
+    <tr>
+      <td>55</td>
+      <td>0.05</td>
+    </tr>
+    <tr>
+      <td>56</td>
+      <td>0.03</td>
+    </tr>
+    <tr>
+      <td>57</td>
+      <td>0.02</td>
+    </tr>
+    <tr>
+      <td>58</td>
+      <td>0.01</td>
+    </tr>
+    <tr>
+      <td>59</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>60</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>61</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>62</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>63</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>64</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>65</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>66</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>67</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>68</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>69</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>70</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>71</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>72</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>73</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>74</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>75</td>
+      <td>0.00</td>
+    </tr>
+  </tbody>
+</table>
+                
+            </div>
+            
+    
+    
+    
+    <dl class="c-indicator-component-metadata">
+        
+            <dt class="c-indicator-component-metadata__key">Source</dt>
+            
+                <dd class="c-indicator-component-metadata__value">
+                
+                    Department for Environment, Food &amp; Rural Affairs,
+                
+                
+                    Strategic noise mapping (2022)
+                
+                </dd>
+            
+        
+        
+        
+            <dt class="c-indicator-component-metadata__key">Footnotes</dt>
+            <dd><p>Data represents the reverse cumulative percentage of the population exposed to aircraft noise pollution at night.</p></dd>
+        
+    </dl>
+
+            <div class="l-equal-width-columns-download l-equal-width-columns-download--xx-small-space">
+                
+                    <a class="c-button" href="h5cii.csv">Download  CSV</a>
+                
+                
+            </div>
+        </section>
+    </div>
+
+            
+        </div>
+    </section>
+
+        
+        <section class="l-column l-column--small-space">
+            <h4>Trend description for H5cii</h4>
+            <p>Although the percentage of the population exposed to aircraft noise has been mapped, there are insufficient data to calculate the median person’s exposure to a nighttime noise level (Lnight) from aircraft noise in 2022.</p>
         </section>
         
             <h2>Assessment of change</h2>
@@ -526,7 +2240,7 @@
                 <dt class="c-indicator-metadata__key">Last Updated</dt>
             
             
-                <dd class="c-indicator-metadata__value">2024</dd>
+                <dd class="c-indicator-metadata__value">2025</dd>
               
             </div>
         
@@ -537,7 +2251,7 @@
                 <dt class="c-indicator-metadata__key">Latest Data</dt>
             
             
-                <dd class="c-indicator-metadata__value">2016</dd>
+                <dd class="c-indicator-metadata__value">2022</dd>
               
             </div>
         
@@ -648,10 +2362,118 @@
         
         
             initialiseTableVisualisations(
-                "h5",
-                {"layout":"fitColumns","pagination":true,"paginationSize":13,"nestedFieldSeparator":"|","columnDefaults":{"hozAlign":"right","headerHozAlign":"right"},"columns":[{"title":"Year","hozAlign":"left","headerHozAlign":"left"}]}
+                "h5ai",
+                {"layout":"fitColumns","pagination":true,"paginationSize":13,"nestedFieldSeparator":"|","columnDefaults":{"hozAlign":"right","headerHozAlign":"right"}}
             )
         
+        
+            
+                initialiseFigureVisualisations(
+                    "h5ai",
+                    {"data":[{"hovertemplate":"%{y:.2f}%","legendgroup":"","line":{"color":"#12436D","dash":"solid"},"marker":{"symbol":"circle"},"mode":"lines","name":"","orientation":"v","showlegend":false,"x":[40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75],"xaxis":"x","y":[98.15409768549029,97.69363741436916,97.10413135583482,96.341465602707,95.37040098605576,94.1458771299951,92.6092786327269,90.67449767852138,88.20545607367761,84.87304732148311,79.9430995612155,71.92392361573103,60.02586556828068,48.10568996805529,38.51217121861395,31.529370104158545,26.394672945116536,22.428526177306622,19.235929968409827,16.589710426521755,14.344647866536487,12.339354312760353,10.557741548309686,9.005483025946665,7.597715424235979,6.283045876283327,5.056433435530163,3.9640614554026383,3.0241996703775644,2.2596630898735133,1.66203141646297,1.2115767676809472,0.8841805794879535,0.6405110623443001,0.4523786109952287,0.3075977128070989],"yaxis":"y","type":"scatter"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"dB (Lden)"},"dtick":5,"automargin":true,"range":[40,77]},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Percentage"},"showgrid":true,"automargin":true,"range":[0,100]},"legend":{"tracegroupgap":0,"title":{"text":""},"yanchor":"bottom","y":-0.45,"xanchor":"center","x":0.5,"orientation":"h"},"margin":{"t":60},"hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true,"hovermode":"x unified"}},
+                    {"displayModeBar":false,"responsive":true}
+                )
+            
+        
+            
+        
+
+    
+        
+        
+            initialiseTableVisualisations(
+                "h5aii",
+                {"layout":"fitColumns","pagination":true,"paginationSize":13,"nestedFieldSeparator":"|","columnDefaults":{"hozAlign":"right","headerHozAlign":"right"}}
+            )
+        
+        
+            
+                initialiseFigureVisualisations(
+                    "h5aii",
+                    {"data":[{"hovertemplate":"%{y:.2f}%","legendgroup":"","line":{"color":"#12436D","dash":"solid"},"marker":{"symbol":"circle"},"mode":"lines","name":"","orientation":"v","showlegend":false,"x":[35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75],"xaxis":"x","y":[91.14149045823032,87.77359435894533,82.58219929045286,74.38949797431607,64.09175971308329,53.89291613772444,45.27911968226016,38.412230751808494,32.88680469827762,28.354139378455045,24.580210574890145,21.46497092597024,18.869024494634115,16.717879777091966,14.979367167179886,13.563532198348213,12.322179811613,11.156336715502668,10.002081524293336,8.84619040272472,7.692857960574534,6.523810465885492,5.37941194612152,4.31780907028675,3.376239188462652,2.568806964341636,1.9190642198308048,1.4188330188725116,1.0382994999728414,0.7570152942260232,0.551211140793343,0.389101829741395,0.2665915743064523,0.1746091930028764,0.1115220631326759,0.0684351405957944,0.0422142482857814,0.0245360545525481,0.0153074319272164,0.0091850923877421,0.0056437191823281],"yaxis":"y","type":"scatter"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"dB (Lnight)"},"dtick":5,"automargin":true,"range":[35,77]},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Percentage"},"showgrid":true,"automargin":true,"range":[0,100]},"legend":{"tracegroupgap":0,"title":{"text":""},"yanchor":"bottom","y":-0.45,"xanchor":"center","x":0.5,"orientation":"h"},"margin":{"t":60},"hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true,"hovermode":"x unified"}},
+                    {"displayModeBar":false,"responsive":true}
+                )
+            
+        
+            
+        
+
+    
+        
+        
+            initialiseTableVisualisations(
+                "h5bi",
+                {"layout":"fitColumns","pagination":true,"paginationSize":13,"nestedFieldSeparator":"|","columnDefaults":{"hozAlign":"right","headerHozAlign":"right"}}
+            )
+        
+        
+            
+                initialiseFigureVisualisations(
+                    "h5bi",
+                    {"data":[{"hovertemplate":"%{y:.2f}%","legendgroup":"","line":{"color":"#12436D","dash":"solid"},"marker":{"symbol":"circle"},"mode":"lines","name":"","orientation":"v","showlegend":false,"x":[40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75],"xaxis":"x","y":[20.593314229752856,18.144312577257207,15.864607518600348,13.787322416144148,11.93956106015071,10.308291760401,8.901636611853588,7.686366371609261,6.651993418558005,5.780936418596046,5.032416984477991,4.393991747493783,3.8551517901473455,3.391454751353301,2.984151621820283,2.6212211930094416,2.2947264221141848,1.9995092855167127,1.7298684541222595,1.4866467801668917,1.2697873789516267,1.0737096067987235,0.8965967793865572,0.7406142474504137,0.6038764671745336,0.4876119428757995,0.3858338606828374,0.2995456093764778,0.2264757984918343,0.1693964427584972,0.1250028701629385,0.090254915466685,0.0666264866911212,0.0448316343041993,0.0321449490769781,0.0210456228845961],"yaxis":"y","type":"scatter"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"dB (Lden)"},"dtick":5,"automargin":true,"range":[40,77]},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Percentage"},"showgrid":true,"automargin":true,"range":[0,25]},"legend":{"tracegroupgap":0,"title":{"text":""},"yanchor":"bottom","y":-0.45,"xanchor":"center","x":0.5,"orientation":"h"},"margin":{"t":60},"hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true,"hovermode":"x unified"}},
+                    {"displayModeBar":false,"responsive":true}
+                )
+            
+        
+            
+        
+
+    
+        
+        
+            initialiseTableVisualisations(
+                "h5bii",
+                {"layout":"fitColumns","pagination":true,"paginationSize":13,"nestedFieldSeparator":"|","columnDefaults":{"hozAlign":"right","headerHozAlign":"right"}}
+            )
+        
+        
+            
+                initialiseFigureVisualisations(
+                    "h5bii",
+                    {"data":[{"hovertemplate":"%{y:.2f}%","legendgroup":"","line":{"color":"#12436D","dash":"solid"},"marker":{"symbol":"circle"},"mode":"lines","name":"","orientation":"v","showlegend":false,"x":[35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75],"xaxis":"x","y":[13.713233994332883,11.854195371997962,10.216183874687914,8.796363174004442,7.575496990867489,6.531711902685119,5.648222943464051,4.902958160182975,4.264515111840399,3.72649711757827,3.258896826561359,2.8546356844415386,2.496130287629112,2.178965032121076,1.8897107069608312,1.62875892509443,1.3974820652598237,1.1865791961720848,1.000050040913368,0.8269888157051489,0.6779111417982197,0.5474177485610388,0.4376091954796646,0.3427477691895053,0.260710959361411,0.1993080835437421,0.1489170312341181,0.1093366895510298,0.0777699090788161,0.0558967341192787,0.0394214147490198,0.0261662009265806,0.0173531054615311,0.0116909199776818,0.0078931234263367,0.0047452557860001,0.0030910183174544,0.001546517376339,0.0008478756354558,0.0006366275137441,0.0005050993354767],"yaxis":"y","type":"scatter"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"dB (Lnight)"},"dtick":5,"automargin":true,"range":[35,77]},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Percentage"},"showgrid":true,"automargin":true,"range":[0,20]},"legend":{"tracegroupgap":0,"title":{"text":""},"yanchor":"bottom","y":-0.45,"xanchor":"center","x":0.5,"orientation":"h"},"margin":{"t":60},"hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true,"hovermode":"x unified"}},
+                    {"displayModeBar":false,"responsive":true}
+                )
+            
+        
+            
+        
+
+    
+        
+        
+            initialiseTableVisualisations(
+                "h5ci",
+                {"layout":"fitColumns","pagination":true,"paginationSize":13,"nestedFieldSeparator":"|","columnDefaults":{"hozAlign":"right","headerHozAlign":"right"}}
+            )
+        
+        
+            
+                initialiseFigureVisualisations(
+                    "h5ci",
+                    {"data":[{"hovertemplate":"%{y:.2f}%","legendgroup":"","line":{"color":"#12436D","dash":"solid"},"marker":{"symbol":"circle"},"mode":"lines","name":"","orientation":"v","showlegend":false,"x":[50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75],"xaxis":"x","y":[1.7472750110496946,1.3839827577009471,1.0811766397799767,0.8528210920704512,0.6908852208564726,0.5555546399720821,0.4481356633706124,0.337297146931094,0.2519955462243939,0.192528533078612,0.1358145943217267,0.102434223140001,0.072233223748197,0.0467340206604966,0.0268253877720144,0.0146627280709253,0.0073643097569564,0.004630464023614,0.0024403164414684,0.0009195811339879,0.0001577153042515,4.917271864737646e-05,2.4915356649890103e-05,1.952935203545624e-05,0.0,0.0],"yaxis":"y","type":"scatter"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"dB (Lden)"},"dtick":5,"automargin":true,"range":[50,77]},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Percentage"},"showgrid":true,"automargin":true,"range":[0,2]},"legend":{"tracegroupgap":0,"title":{"text":""},"yanchor":"bottom","y":-0.45,"xanchor":"center","x":0.5,"orientation":"h"},"margin":{"t":60},"hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true,"hovermode":"x unified"}},
+                    {"displayModeBar":false,"responsive":true}
+                )
+            
+        
+            
+        
+
+    
+        
+        
+            initialiseTableVisualisations(
+                "h5cii",
+                {"layout":"fitColumns","pagination":true,"paginationSize":13,"nestedFieldSeparator":"|","columnDefaults":{"hozAlign":"right","headerHozAlign":"right"}}
+            )
+        
+        
+            
+                initialiseFigureVisualisations(
+                    "h5cii",
+                    {"data":[{"hovertemplate":"%{y:.2f}%","legendgroup":"","line":{"color":"#12436D","dash":"solid"},"marker":{"symbol":"circle"},"mode":"lines","name":"","orientation":"v","showlegend":false,"x":[45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75],"xaxis":"x","y":[0.7497365685703524,0.6246176242593637,0.5206765686021184,0.4320705399766809,0.3194333721603801,0.2360683912199306,0.1786280564364397,0.1298111996926326,0.0999460747324297,0.0740308828265923,0.049485950633963,0.0283401852083978,0.015183633428867,0.0072694258667981,0.0047725165788144,0.0030126939617352,0.0013636691538671,0.0005322628409069,0.0002017142746239,3.6133104191676494e-05,1.4143347421022384e-05,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],"yaxis":"y","type":"scatter"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"dB (Lnight)"},"dtick":5,"automargin":true,"range":[45,77]},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Percentage"},"showgrid":true,"automargin":true,"range":[0,1]},"legend":{"tracegroupgap":0,"title":{"text":""},"yanchor":"bottom","y":-0.45,"xanchor":"center","x":0.5,"orientation":"h"},"margin":{"t":60},"hoverlabel":{"font":{"color":"white"},"bgcolor":"rgba(0, 0, 0, 0.6)"},"autosize":true,"hovermode":"x unified"}},
+                    {"displayModeBar":false,"responsive":true}
+                )
+            
         
             
         
@@ -661,7 +2483,72 @@
 
     
         
-        AssessmentTable = new Tabulator("#h5-assessment-table", {
+        AssessmentTable = new Tabulator("#h5ai-assessment-table", {
+        layout: "fitDataStretch",
+        pagination: false,
+        columns: [
+            {title: "Component"},
+            {title: "Subcomponent"},
+            {title: "Period"},
+            {title: "Date range"},
+            {title: "Percentage change", hozAlign: "right"},
+        ]
+        });
+    
+        
+        AssessmentTable = new Tabulator("#h5aii-assessment-table", {
+        layout: "fitDataStretch",
+        pagination: false,
+        columns: [
+            {title: "Component"},
+            {title: "Subcomponent"},
+            {title: "Period"},
+            {title: "Date range"},
+            {title: "Percentage change", hozAlign: "right"},
+        ]
+        });
+    
+        
+        AssessmentTable = new Tabulator("#h5bi-assessment-table", {
+        layout: "fitDataStretch",
+        pagination: false,
+        columns: [
+            {title: "Component"},
+            {title: "Subcomponent"},
+            {title: "Period"},
+            {title: "Date range"},
+            {title: "Percentage change", hozAlign: "right"},
+        ]
+        });
+    
+        
+        AssessmentTable = new Tabulator("#h5bii-assessment-table", {
+        layout: "fitDataStretch",
+        pagination: false,
+        columns: [
+            {title: "Component"},
+            {title: "Subcomponent"},
+            {title: "Period"},
+            {title: "Date range"},
+            {title: "Percentage change", hozAlign: "right"},
+        ]
+        });
+    
+        
+        AssessmentTable = new Tabulator("#h5ci-assessment-table", {
+        layout: "fitDataStretch",
+        pagination: false,
+        columns: [
+            {title: "Component"},
+            {title: "Subcomponent"},
+            {title: "Period"},
+            {title: "Date range"},
+            {title: "Percentage change", hozAlign: "right"},
+        ]
+        });
+    
+        
+        AssessmentTable = new Tabulator("#h5cii-assessment-table", {
         layout: "fitDataStretch",
         pagination: false,
         columns: [

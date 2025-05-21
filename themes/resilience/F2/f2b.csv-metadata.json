@@ -1,5 +1,5 @@
 {
-    "schema:name": "Percentage of flood or coastal risk management assets, in high consequence systems, in required condition in England, 2017/2018 to 2022/2023",
+    "schema:name": "Percentage of flood or coastal risk management assets, in high consequence systems, in required condition in England, 2017/2018 to 2023/2024",
     "url": "f2b.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -10,8 +10,8 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:name": "Flood and coastal erosion risk management report: 1 April 2022 to 31 March 2023",
-            "schema:url": "https://www.gov.uk/government/publications/flood-and-coastal-risk-management-national-report/flood-and-coastal-erosion-risk-management-report-1-april-2022-to-31-march-2023",
+            "schema:name": "Flood and coastal erosion risk management report: 1 April 2023 to 31 March 2024",
+            "schema:url": "https://www.gov.uk/government/publications/flood-and-coastal-risk-management-national-report/flood-and-coastal-erosion-risk-management-report-1-april-2023-to-31-march-2024",
             "@type": "Dataset",
             "schema:author": {
                 "schema:alternateName": "ea",
@@ -19,16 +19,16 @@
                 "schema:sameAs": "https://ror.org/01zewfb16",
                 "@type": "schema:GovernmentOrganization"
             },
-            "schema:dateModified": "2023-09-26",
-            "schema:datePublished": "2023-09-26"
+            "schema:dateModified": "2024-10-21",
+            "schema:datePublished": "2024-10-21"
         }
     ],
     "schema:keywords": [
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "2017/2023",
-    "schema:version": "2023-09-26",
+    "schema:temporalCoverage": "2017/2024",
+    "schema:version": "2024-10-21",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Percentage of assets in required condition",
     "@context": "http://www.w3.org/ns/csvw",
@@ -45,7 +45,7 @@
             {
                 "datatype": {
                     "base": "string",
-                    "format": "2017/2018|2018/2019|2019/2020|2020/2021|2021/2022|2022/2023",
+                    "format": "2017/2018|2018/2019|2019/2020|2020/2021|2021/2022|2022/2023|2023/2024",
                     "@type": "Datatype"
                 },
                 "default": "",

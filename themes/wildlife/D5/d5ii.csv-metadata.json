@@ -32,7 +32,7 @@
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "percentage of native species in each red list index category",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "Results are based on Great Britain Red List assessments of species known to be native to England. \n    \n</br>The Red List Index for England includes 8,259 taxa across 23 major taxonomic groups.\n\n</br>For the purposes of this indicator component, the ‘Extinct’ category includes taxa that are Extinct, Extinct in the Wild, Regionally Extinct and Critically Endangered (Possibly Extinct). The combined ‘Threatened categories’ total presented here is simply the total number of taxa in the Vulnerable, Endangered and Critically Endangered categories, calculated as a percentage of the total number of taxa in the Red List Index for England.\n    \n</br>A comparison of Great Britain and England Red List categories across 4 taxonomic groups showed that between 80% to 92% of statuses aligned and therefore the Red List Index presented here is considered a good approximation of extinction risk in England. However, Great Britain scale assessments can underestimate or overestimate extinction risk at an England scale and, importantly, losses from England of species still present in Scotland or Wales will not be detected by the index.",
+    "notes": "Results are based on Great Britain Red List assessments of species known to be native to England. \n    \n</br>The Red List Index for England includes 8,259 taxa across 23 major taxonomic groups.\n\n</br>For the purposes of this indicator component, the ‘Extinct’ category includes taxa that are Extinct (in Great Britain), Extinct in the Wild, Regionally Extinct and Critically Endangered (Possibly Extinct). The combined ‘Threatened Categories’ total presented here is simply the total number of taxa in the Vulnerable, Endangered and Critically Endangered categories, calculated as a percentage of the total number of taxa in the Red List Index for England.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -45,7 +45,7 @@
             {
                 "datatype": {
                     "base": "string",
-                    "format": "Threatened categories|Extinct|Critically endangered|Endangered|Vulnerable|Near threatened|Least concern",
+                    "format": "Threatened Categories|Extinct|Critically Endangered|Endangered|Vulnerable|Near Threatened|Least Concern",
                     "@type": "Datatype"
                 },
                 "default": "",

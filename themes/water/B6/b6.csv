@@ -1,97 +1,97 @@
 broad_habitat,habitat_type,naturalness_component,measure,value
-Running waters,Large rivers,Hydrological,Score,2.471425
-Running waters,Headwater streams,Hydrological,Score,2.606458
+Running waters,Large rivers,Hydrological,Score,2.486283
+Running waters,Headwater streams,Hydrological,Score,2.730063
 Standing waters,Lakes,Hydrological,Score,2.51458
 Standing waters,Ponds,Hydrological,Score,
 Wetlands,Bogs,Hydrological,Score,
 Wetlands,Fens,Hydrological,Score,
-Estuaries/coasts,Estuaries,Hydrological,Score,
-Estuaries/coasts,Coastal,Hydrological,Score,
+Estuaries/coasts,Estuaries,Hydrological,Score,2.571383
+Estuaries/coasts,Coastal,Hydrological,Score,2.124467
 Running waters,Large rivers,Hydrological,Class,3.0
 Running waters,Headwater streams,Hydrological,Class,3.0
 Standing waters,Lakes,Hydrological,Class,3.0
 Standing waters,Ponds,Hydrological,Class,
 Wetlands,Bogs,Hydrological,Class,
 Wetlands,Fens,Hydrological,Class,
-Estuaries/coasts,Estuaries,Hydrological,Class,
-Estuaries/coasts,Coastal,Hydrological,Class,
-Running waters,Large rivers,Physical,Score,3.122239
-Running waters,Headwater streams,Physical,Score,3.063342
-Standing waters,Lakes,Physical,Score,2.801319
-Standing waters,Ponds,Physical,Score,2.923664
-Wetlands,Bogs,Physical,Score,
-Wetlands,Fens,Physical,Score,
-Estuaries/coasts,Estuaries,Physical,Score,
-Estuaries/coasts,Coastal,Physical,Score,
-Running waters,Large rivers,Physical,Class,3.0
-Running waters,Headwater streams,Physical,Class,3.0
-Standing waters,Lakes,Physical,Class,3.0
-Standing waters,Ponds,Physical,Class,3.0
-Wetlands,Bogs,Physical,Class,
-Wetlands,Fens,Physical,Class,
-Estuaries/coasts,Estuaries,Physical,Class,
-Estuaries/coasts,Coastal,Physical,Class,
+Estuaries/coasts,Estuaries,Hydrological,Class,3.0
+Estuaries/coasts,Coastal,Hydrological,Class,2.0
 Running waters,Large rivers,Chemical,Score,1.736263
 Running waters,Headwater streams,Chemical,Score,2.424617
 Standing waters,Lakes,Chemical,Score,2.293432
 Standing waters,Ponds,Chemical,Score,2.532258
 Wetlands,Bogs,Chemical,Score,
 Wetlands,Fens,Chemical,Score,
-Estuaries/coasts,Estuaries,Chemical,Score,
-Estuaries/coasts,Coastal,Chemical,Score,
+Estuaries/coasts,Estuaries,Chemical,Score,2.226075
+Estuaries/coasts,Coastal,Chemical,Score,1.94285
 Running waters,Large rivers,Chemical,Class,2.0
 Running waters,Headwater streams,Chemical,Class,2.0
 Standing waters,Lakes,Chemical,Class,2.0
 Standing waters,Ponds,Chemical,Class,3.0
 Wetlands,Bogs,Chemical,Class,
 Wetlands,Fens,Chemical,Class,
-Estuaries/coasts,Estuaries,Chemical,Class,
-Estuaries/coasts,Coastal,Chemical,Class,
+Estuaries/coasts,Estuaries,Chemical,Class,2.0
+Estuaries/coasts,Coastal,Chemical,Class,2.0
+Running waters,Large rivers,Physical,Score,3.11412
+Running waters,Headwater streams,Physical,Score,3.063342
+Standing waters,Lakes,Physical,Score,2.801319
+Standing waters,Ponds,Physical,Score,2.923664
+Wetlands,Bogs,Physical,Score,
+Wetlands,Fens,Physical,Score,
+Estuaries/coasts,Estuaries,Physical,Score,2.721
+Estuaries/coasts,Coastal,Physical,Score,2.7957
+Running waters,Large rivers,Physical,Class,3.0
+Running waters,Headwater streams,Physical,Class,3.0
+Standing waters,Lakes,Physical,Class,3.0
+Standing waters,Ponds,Physical,Class,3.0
+Wetlands,Bogs,Physical,Class,
+Wetlands,Fens,Physical,Class,
+Estuaries/coasts,Estuaries,Physical,Class,3.0
+Estuaries/coasts,Coastal,Physical,Class,3.0
 Running waters,Large rivers,Biological,Score,2.689761
 Running waters,Headwater streams,Biological,Score,2.146619
 Standing waters,Lakes,Biological,Score,4.357447
 Standing waters,Ponds,Biological,Score,3.54948
 Wetlands,Bogs,Biological,Score,
 Wetlands,Fens,Biological,Score,
-Estuaries/coasts,Estuaries,Biological,Score,
-Estuaries/coasts,Coastal,Biological,Score,
+Estuaries/coasts,Estuaries,Biological,Score,2.586667
+Estuaries/coasts,Coastal,Biological,Score,2.458633
 Running waters,Large rivers,Biological,Class,3.0
 Running waters,Headwater streams,Biological,Class,2.0
 Standing waters,Lakes,Biological,Class,4.0
 Standing waters,Ponds,Biological,Class,3.0
 Wetlands,Bogs,Biological,Class,
 Wetlands,Fens,Biological,Class,
-Estuaries/coasts,Estuaries,Biological,Class,
-Estuaries/coasts,Coastal,Biological,Class,
-Running waters,Large rivers,Crosscutting,Score,
-Running waters,Headwater streams,Crosscutting,Score,3.736135
-Standing waters,Lakes,Crosscutting,Score,
-Standing waters,Ponds,Crosscutting,Score,
-Wetlands,Bogs,Crosscutting,Score,
-Wetlands,Fens,Crosscutting,Score,
-Estuaries/coasts,Estuaries,Crosscutting,Score,
-Estuaries/coasts,Coastal,Crosscutting,Score,
-Running waters,Large rivers,Crosscutting,Class,
-Running waters,Headwater streams,Crosscutting,Class,4.0
-Standing waters,Lakes,Crosscutting,Class,
-Standing waters,Ponds,Crosscutting,Class,
-Wetlands,Bogs,Crosscutting,Class,
-Wetlands,Fens,Crosscutting,Class,
-Estuaries/coasts,Estuaries,Crosscutting,Class,
-Estuaries/coasts,Coastal,Crosscutting,Class,
-Running waters,Large rivers,Overall,Score,2.504922
-Running waters,Headwater streams,Overall,Score,2.795434
+Estuaries/coasts,Estuaries,Biological,Class,3.0
+Estuaries/coasts,Coastal,Biological,Class,3.0
+Running waters,Large rivers,Cross-cutting,Score,
+Running waters,Headwater streams,Cross-cutting,Score,3.736135
+Standing waters,Lakes,Cross-cutting,Score,
+Standing waters,Ponds,Cross-cutting,Score,
+Wetlands,Bogs,Cross-cutting,Score,
+Wetlands,Fens,Cross-cutting,Score,
+Estuaries/coasts,Estuaries,Cross-cutting,Score,1.965533
+Estuaries/coasts,Coastal,Cross-cutting,Score,1.672067
+Running waters,Large rivers,Cross-cutting,Class,
+Running waters,Headwater streams,Cross-cutting,Class,4.0
+Standing waters,Lakes,Cross-cutting,Class,
+Standing waters,Ponds,Cross-cutting,Class,
+Wetlands,Bogs,Cross-cutting,Class,
+Wetlands,Fens,Cross-cutting,Class,
+Estuaries/coasts,Estuaries,Cross-cutting,Class,2.0
+Estuaries/coasts,Coastal,Cross-cutting,Class,2.0
+Running waters,Large rivers,Overall,Score,2.506607
+Running waters,Headwater streams,Overall,Score,2.820155
 Standing waters,Lakes,Overall,Score,2.991694
 Standing waters,Ponds,Overall,Score,3.001801
 Wetlands,Bogs,Overall,Score,
 Wetlands,Fens,Overall,Score,
-Estuaries/coasts,Estuaries,Overall,Score,
-Estuaries/coasts,Coastal,Overall,Score,
+Estuaries/coasts,Estuaries,Overall,Score,2.414132
+Estuaries/coasts,Coastal,Overall,Score,2.198743
 Running waters,Large rivers,Overall,Class,3.0
 Running waters,Headwater streams,Overall,Class,3.0
 Standing waters,Lakes,Overall,Class,3.0
 Standing waters,Ponds,Overall,Class,3.0
 Wetlands,Bogs,Overall,Class,
 Wetlands,Fens,Overall,Class,
-Estuaries/coasts,Estuaries,Overall,Class,
-Estuaries/coasts,Coastal,Overall,Class,
+Estuaries/coasts,Estuaries,Overall,Class,2.0
+Estuaries/coasts,Coastal,Overall,Class,2.0

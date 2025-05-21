@@ -1,13 +1,10 @@
 Indicator component assessed,Long term,Medium term,Short term
-C2i Seabed subject to high pressure from human activity,Not assessed,Not assessed,Not assessed
-"C3ai Abundance of harbour seals, North-east England",Improvement,Improvement,Improvement
-"C3ai Abundance of harbour seals, South-east England",Improvement,Improvement,Deterioration
-"C3aii Atlantic grey seal pup production, North-east England",Improvement,Improvement,Improvement
-"C3aii Atlantic grey seal pup production, South-east England",Improvement,Improvement,Improvement
+C2i Predicted area of seabed in the UK Continental Shelf exposed to disturbance from bottom contact fishing by vessels over 12m long and regional progress towards Good Environmental Status (GES) ,Not assessed,Not assessed,Not assessed
 "C3bi Percentage of marine bird species achieving relative breeding abundance targets, Celtic Seas",Deterioration,Little or no change,Improvement
 "C3bi Percentage of marine bird species achieving relative breeding abundance targets, Greater North Sea",Deterioration,Deterioration,Deterioration
 "C3bii Percentage of marine bird species achieving relative non-breeding abundance targets, Celtic Seas",Deterioration,Deterioration,Deterioration
 "C3bii Percentage of marine bird species achieving relative non-breeding abundance targets, Greater North Sea",Deterioration,Deterioration,Deterioration
+C4 Summary of regional sea assessment results for coastal and offshore habitats,Not assessed,Not assessed,Not assessed
 C4i Regional sea assessments and the status of coastal water bodies and offshore units - Seagrass,Not assessed,Not assessed,Not assessed
 C4ii Regional sea assessments and the status of coastal water bodies and offshore units - Rocky shore macroalgae,Not assessed,Not assessed,Not assessed
 C4iii Regional sea assessments and the status of coastal water bodies and offshore units - Saltmarsh,Not assessed,Not assessed,Not assessed
@@ -16,19 +13,21 @@ C5a Changes in phytoplankton and zooplankton communities,Not assessed,Not assess
 C5b Changes in phytoplankton biomass and zooplankton abundance,Not assessed,Not assessed,Not assessed
 C6a Status of UK relevant OSPAR threatened and/or declining species and habitats,Not assessed,Not assessed,Not assessed
 C6b Status of Habitats Directive Article 17 listed costal and marine features,Not assessed,Not assessed,Not assessed
-C7ai Typical length of demersal fish communities,Not assessed,Not assessed,Not assessed
-C7aii Typical length of pelagic fish communities,Not assessed,Not assessed,Not assessed
-C7bi Mean maximum length of demersal fish communities,Not assessed,Not assessed,Not assessed
-C7bii Mean maximum length pelagic fish communities,Not assessed,Not assessed,Not assessed
+C7a Typical length of demersal fish communities,Not assessed,Not assessed,Not assessed
+C7b Mean maximum length of demersal fish communities,Not assessed,Not assessed,Not assessed
 C8 Change in the biomass of fish feeding guilds in UK waters and surrounding areas,Not assessed,Not assessed,Not assessed
 C9 Extent and distribution of potential habitat for seagrass beds and horse mussel reefs,Not assessed,Not assessed,Not assessed
-"D1 Quantity, quality and connectivity of habitats",Not assessed,Not assessed,Not assessed
+D1 Percentage land cover in England by broad habitat types,Not assessed,Not assessed,Not assessed
 D2a Extent of protected sites in England (sites at sea),Improvement,Improvement,Improvement
 D2a Extent of protected sites in England (sites on land and water),Improvement,Improvement,Little or no change
 D2b Condition of Sites of Special Scientific Interest in England (favourable condition),Not assessed,Not assessed,Deterioration
 D3 Area of woodland in England,Improvement,Little or no change,Little or no change
 D4i Relative abundance of all species in England,Deterioration,Little or no change,Little or no change
 D5i Conservation status of our native species,Not assessed,Not assessed,Not assessed
+D5ii Percentage of species in the 2022 baseline Red List for England by category of extinction risk,Not assessed,Not assessed,Not assessed
 D6ai Relative abundance of priority species in England,Deterioration,Little or no change,Little or no change
 D6bi Distribution of priority species in England,Deterioration,Deterioration,Deterioration
-D7i Distribution of pollinators in the UK,Deterioration,Deterioration,Little or no change
+D7i Change in the distribution of pollinators in the UK,Deterioration,Deterioration,Little or no change
+E9a Landings of quota fish and shellfish into English ports by sustainability status ,Improvement,Improvement,Little or no change
+E9b Matrix of environmental management metrics for English aquaculture,Not assessed,Not assessed,Not assessed
+H4 Exposure of wildlife to chemicals in the environment in England and for some marine components in the UK,Not assessed,Not assessed,Not assessed

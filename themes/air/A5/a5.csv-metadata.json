@@ -1,5 +1,5 @@
 {
-    "schema:name": "Roadside nitrogen dioxide (NO2) concentrations in England, 1997 to 2022",
+    "schema:name": "Roadside nitrogen dioxide (NO2) concentrations in England, 1997 to 2023",
     "url": "a5.csv",
     "@type": "TableGroup",
     "schema:creator": {
@@ -10,11 +10,11 @@
     },
     "schema:isBasedOn": [
         {
-            "schema:description": "<div class=\"govspeak\"><p>This data set contains data on the concentrations of major air pollutants as measured by the Automatic Urban and Rural Network (AURN).</p>\n\n<p>If you require the data in another format please contact:  <a href=\"mailto:enviro.statistics@defra.gov.uk\" class=\"govuk-link\">enviro.statistics@defra.gov.uk</a></p>\n\n<section class=\"gem-c-attachment govuk-!-display-none-print govuk-!-margin-bottom-6\" data-module=\"ga4-link-tracker\">\n  <div class=\"gem-c-attachment__thumbnail\">\n    <a class=\"govuk-link\" target=\"_self\" tabindex=\"-1\" aria-hidden=\"true\" data-ga4-link='{\"event_name\":\"file_download\",\"type\":\"attachment\"}' href=\"https://assets.publishing.service.gov.uk/media/644926b4814c66000c8d070a/PM25_Tables_2022.ods\">\n        <svg class=\"gem-c-attachment__thumbnail-image gem-c-attachment__thumbnail-image--spreadsheet\" version=\"1.1\" viewbox=\"0 0 99 140\" width=\"99\" height=\"140\" aria-hidden=\"true\">\n  <path d=\"M12 12h75v27H12zm0 47h18.75v63H12zm55 2v59H51V61h16m2-2H49v63h20V59z\" stroke-width=\"0\"></path>\n  <path d=\"M49 61.05V120H32.8V61.05H49m2-2H30.75v63H51V59zm34 2V120H69.05V61.05H85m2-2H67v63h20V59z\" stroke-width=\"0\"></path>\n  <path d=\"M30 68.5h56.5M30 77.34h56.5M30 112.7h56.5M30 95.02h56.5M30 86.18h56.5M30 103.86h56.5\" fill=\"none\" stroke-miterlimit=\"10\" stroke-width=\"2\"></path>\n</svg>\n\n</a>\n</div>\n  <div class=\"gem-c-attachment__details\">\n    <h2 class=\"gem-c-attachment__title\">\n      <a class=\"govuk-link\" target=\"_self\" data-ga4-link='{\"event_name\":\"file_download\",\"type\":\"attachment\"}' href=\"https://assets.publishing.service.gov.uk/media/644926b4814c66000c8d070a/PM25_Tables_2022.ods\">Particulate Matter (PM2.5) Tables</a>\n</h2>\n\n\n      <p class=\"gem-c-attachment__metadata\"><span class=\"gem-c-attachment__attribute\"><abbr title=\"OpenDocument Spreadsheet\" class=\"gem-c-attachment__abbr\">ODS</abbr></span>, <span class=\"gem-c-attachment__attribute\">211 KB</span></p>\n\n\n\n        <p class=\"gem-c-attachment__metadata\">\n          This file is in an <a href=\"https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation\" target=\"_self\" class=\"govuk-link\">OpenDocument</a> format\n</p>\n</div></section>\n\n<section class=\"gem-c-attachment govuk-!-display-none-print govuk-!-margin-bottom-6\" data-module=\"ga4-link-tracker\">\n  <div class=\"gem-c-attachment__thumbnail\">\n    <a class=\"govuk-link\" target=\"_self\" tabindex=\"-1\" aria-hidden=\"true\" data-ga4-link='{\"event_name\":\"file_download\",\"type\":\"attachment\"}' href=\"https://assets.publishing.service.gov.uk/media/644926ed814c66000c8d070b/PM10_Tables_2022.ods\">\n        <svg class=\"gem-c-attachment__thumbnail-image gem-c-attachment__thumbnail-image--spreadsheet\" version=\"1.1\" viewbox=\"0 0 99 140\" width=\"99\" height=\"140\" aria-hidden=\"true\">\n  <path d=\"M12 12h75v27H12zm0 47h18.75v63H12zm55 2v59H51V61h16m2-2H49v63h20V59z\" stroke-width=\"0\"></path>\n  <path d=\"M49 61.05V120H32.8V61.05H49m2-2H30.75v63H51V59zm34 2V120H69.05V61.05H85m2-2H67v63h20V59z\" stroke-width=\"0\"></path>\n  <path d=\"M30 68.5h56.5M30 77.34h56.5M30 112.7h56.5M30 95.02h56.5M30 86.18h56.5M30 103.86h56.5\" fill=\"none\" stroke-miterlimit=\"10\" stroke-width=\"2\"></path>\n</svg>\n\n</a>\n</div>\n  <div class=\"gem-c-attachment__details\">\n    <h2 class=\"gem-c-attachment__title\">\n      <a class=\"govuk-link\" target=\"_self\" data-ga4-link='{\"event_name\":\"file_download\",\"type\":\"attachment\"}' href=\"https://assets.publishing.service.gov.uk/media/644926ed814c66000c8d070b/PM10_Tables_2022.ods\">Particulate Matter (PM10) Tables</a>\n</h2>\n\n\n      <p class=\"gem-c-attachment__metadata\"><span class=\"gem-c-attachment__attribute\"><abbr title=\"OpenDocument Spreadsheet\" class=\"gem-c-attachment__abbr\">ODS</abbr></span>, <span class=\"gem-c-attachment__attribute\">193 KB</span></p>\n\n\n\n        <p class=\"gem-c-attachment__metadata\">\n          This file is in an <a href=\"https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation\" target=\"_self\" class=\"govuk-link\">OpenDocument</a> format\n</p>\n</div></section>\n\n<section class=\"gem-c-attachment govuk-!-display-none-print govuk-!-margin-bottom-6\" data-module=\"ga4-link-tracker\">\n  <div class=\"gem-c-attachment__thumbnail\">\n    <a class=\"govuk-link\" target=\"_self\" tabindex=\"-1\" aria-hidden=\"true\" data-ga4-link='{\"event_name\":\"file_download\",\"type\":\"attachment\"}' href=\"https://assets.publishing.service.gov.uk/media/64492729529eda000c3b04f4/O3_Tables_2022.ods\">\n        <svg class=\"gem-c-attachment__thumbnail-image gem-c-attachment__thumbnail-image--spreadsheet\" version=\"1.1\" viewbox=\"0 0 99 140\" width=\"99\" height=\"140\" aria-hidden=\"true\">\n  <path d=\"M12 12h75v27H12zm0 47h18.75v63H12zm55 2v59H51V61h16m2-2H49v63h20V59z\" stroke-width=\"0\"></path>\n  <path d=\"M49 61.05V120H32.8V61.05H49m2-2H30.75v63H51V59zm34 2V120H69.05V61.05H85m2-2H67v63h20V59z\" stroke-width=\"0\"></path>\n  <path d=\"M30 68.5h56.5M30 77.34h56.5M30 112.7h56.5M30 95.02h56.5M30 86.18h56.5M30 103.86h56.5\" fill=\"none\" stroke-miterlimit=\"10\" stroke-width=\"2\"></path>\n</svg>\n\n</a>\n</div>\n  <div class=\"gem-c-attachment__details\"",
+            "schema:description": "<div class=\"govspeak\"><p>This data set contains data on the concentrations of major air pollutants as measured by the Automatic Urban and Rural Network (AURN).</p>\n\n<p>If you require the data in another format please contact:  <a href=\"mailto:enviro.statistics@defra.gov.uk\" class=\"govuk-link\">enviro.statistics@defra.gov.uk</a></p>\n\n<section class=\"gem-c-attachment govuk-!-display-none-print govuk-!-margin-bottom-6\" data-module=\"ga4-link-tracker\">\n  <div class=\"gem-c-attachment__thumbnail\">\n    <a class=\"govuk-link\" target=\"_self\" tabindex=\"-1\" aria-hidden=\"true\" data-ga4-link='{\"event_name\":\"file_download\",\"type\":\"attachment\"}' href=\"https://assets.publishing.service.gov.uk/media/66290d83b0ace32985a7e6d7/PM25_Tables_2023.ods\">\n        <svg class=\"gem-c-attachment__thumbnail-image gem-c-attachment__thumbnail-image--spreadsheet\" version=\"1.1\" viewbox=\"0 0 99 140\" width=\"99\" height=\"140\" aria-hidden=\"true\">\n  <path d=\"M12 12h75v27H12zm0 47h18.75v63H12zm55 2v59H51V61h16m2-2H49v63h20V59z\" stroke-width=\"0\"></path>\n  <path d=\"M49 61.05V120H32.8V61.05H49m2-2H30.75v63H51V59zm34 2V120H69.05V61.05H85m2-2H67v63h20V59z\" stroke-width=\"0\"></path>\n  <path d=\"M30 68.5h56.5M30 77.34h56.5M30 112.7h56.5M30 95.02h56.5M30 86.18h56.5M30 103.86h56.5\" fill=\"none\" stroke-miterlimit=\"10\" stroke-width=\"2\"></path>\n</svg>\n\n</a>\n</div>\n  <div class=\"gem-c-attachment__details\">\n    <h2 class=\"gem-c-attachment__title\">\n      <a class=\"govuk-link\" target=\"_self\" data-ga4-link='{\"event_name\":\"file_download\",\"type\":\"attachment\"}' href=\"https://assets.publishing.service.gov.uk/media/66290d83b0ace32985a7e6d7/PM25_Tables_2023.ods\">Particulate Matter (PM2.5) Tables</a>\n</h2>\n\n\n      <p class=\"gem-c-attachment__metadata\"><span class=\"gem-c-attachment__attribute\"><abbr title=\"OpenDocument Spreadsheet\" class=\"gem-c-attachment__abbr\">ODS</abbr></span>, <span class=\"gem-c-attachment__attribute\">247 KB</span></p>\n\n\n\n        <p class=\"gem-c-attachment__metadata\">\n          This file is in an <a href=\"https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation\" target=\"_self\" class=\"govuk-link\">OpenDocument</a> format\n</p>\n</div></section>\n\n<section class=\"gem-c-attachment govuk-!-display-none-print govuk-!-margin-bottom-6\" data-module=\"ga4-link-tracker\">\n  <div class=\"gem-c-attachment__thumbnail\">\n    <a class=\"govuk-link\" target=\"_self\" tabindex=\"-1\" aria-hidden=\"true\" data-ga4-link='{\"event_name\":\"file_download\",\"type\":\"attachment\"}' href=\"https://assets.publishing.service.gov.uk/media/66290deb3b0122a378a7e60f/PM10_Tables_2023.ods\">\n        <svg class=\"gem-c-attachment__thumbnail-image gem-c-attachment__thumbnail-image--spreadsheet\" version=\"1.1\" viewbox=\"0 0 99 140\" width=\"99\" height=\"140\" aria-hidden=\"true\">\n  <path d=\"M12 12h75v27H12zm0 47h18.75v63H12zm55 2v59H51V61h16m2-2H49v63h20V59z\" stroke-width=\"0\"></path>\n  <path d=\"M49 61.05V120H32.8V61.05H49m2-2H30.75v63H51V59zm34 2V120H69.05V61.05H85m2-2H67v63h20V59z\" stroke-width=\"0\"></path>\n  <path d=\"M30 68.5h56.5M30 77.34h56.5M30 112.7h56.5M30 95.02h56.5M30 86.18h56.5M30 103.86h56.5\" fill=\"none\" stroke-miterlimit=\"10\" stroke-width=\"2\"></path>\n</svg>\n\n</a>\n</div>\n  <div class=\"gem-c-attachment__details\">\n    <h2 class=\"gem-c-attachment__title\">\n      <a class=\"govuk-link\" target=\"_self\" data-ga4-link='{\"event_name\":\"file_download\",\"type\":\"attachment\"}' href=\"https://assets.publishing.service.gov.uk/media/66290deb3b0122a378a7e60f/PM10_Tables_2023.ods\">Particulate Matter (PM10) Tables</a>\n</h2>\n\n\n      <p class=\"gem-c-attachment__metadata\"><span class=\"gem-c-attachment__attribute\"><abbr title=\"OpenDocument Spreadsheet\" class=\"gem-c-attachment__abbr\">ODS</abbr></span>, <span class=\"gem-c-attachment__attribute\">201 KB</span></p>\n\n\n\n        <p class=\"gem-c-attachment__metadata\">\n          This file is in an <a href=\"https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation\" target=\"_self\" class=\"govuk-link\">OpenDocument</a> format\n</p>\n</div></section>\n\n<section class=\"gem-c-attachment govuk-!-display-none-print govuk-!-margin-bottom-6\" data-module=\"ga4-link-tracker\">\n  <div class=\"gem-c-attachment__thumbnail\">\n    <a class=\"govuk-link\" target=\"_self\" tabindex=\"-1\" aria-hidden=\"true\" data-ga4-link='{\"event_name\":\"file_download\",\"type\":\"attachment\"}' href=\"https://assets.publishing.service.gov.uk/media/66290e063b0122a378a7e610/O3_Tables_2023.ods\">\n        <svg class=\"gem-c-attachment__thumbnail-image gem-c-attachment__thumbnail-image--spreadsheet\" version=\"1.1\" viewbox=\"0 0 99 140\" width=\"99\" height=\"140\" aria-hidden=\"true\">\n  <path d=\"M12 12h75v27H12zm0 47h18.75v63H12zm55 2v59H51V61h16m2-2H49v63h20V59z\" stroke-width=\"0\"></path>\n  <path d=\"M49 61.05V120H32.8V61.05H49m2-2H30.75v63H51V59zm34 2V120H69.05V61.05H85m2-2H67v63h20V59z\" stroke-width=\"0\"></path>\n  <path d=\"M30 68.5h56.5M30 77.34h56.5M30 112.7h56.5M30 95.02h56.5M30 86.18h56.5M30 103.86h56.5\" fill=\"none\" stroke-miterlimit=\"10\" stroke-width=\"2\"></path>\n</svg>\n\n</a>\n</div>\n  <div class=\"gem-c-attachment__details\"",
             "schema:image": [
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-bf9e64d759af6dfd93bede8168f3087a329f405b382aff36747db0db4b7b23e9.png",
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-13093f053c15f613acd827aff27cac83d3fab452947cbcae4c7b706dadf2f7f2.png",
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-4233cd42671827e266e284c4d5ae68fb600bd9f9e35dda663ccabbc2b6ab7ec3.png"
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-c3d38c0d4fc00005df38a71e1db7097276681d6917bca58f0dc8336a252e1bb3.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-edc38c137a14ecfc3fc83f404090e20dab806dad345c96a1df6a163ee2d1e3aa.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-5dc2d0ea1eb72cd94e66db210ef41b22ce364e7ed09d63a3acc28fda09e27864.png"
             ],
             "schema:name": "ENV02 - Air quality statistics",
             "@type": "Dataset",
@@ -36,129 +36,134 @@
             "schema:text": "An annual update of data on concentrations of major air pollutants in the UK.",
             "schema:distribution": [
                 {
-                    "name": "Figure 1: Annual mean concentrations of NO2 in the UK, 1990 to 2022",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/6449285d814c66000c8d070d/Table01.csv",
+                    "name": "Figure 1: Annual mean concentrations of NO2 in the UK, 1990 to 2023",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/66290727b0ace32985a7e6b7/fig01_nitrogen_dioxide_annual.csv",
                     "encodingFormat": "text/csv"
                 },
                 {
-                    "name": "Figure 2: Mean hours when NO2 pollution was moderate or higher for roadside sites, 1997 to 2022",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/6446403c22ef3b000c66f762/Table02.csv",
+                    "name": "Figure 2: Mean hours when NO2 pollution was moderate or higher for roadside sites, 1997 to 2023",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/6629077c3b0122a378a7e5ec/fig02_nitrogen_dioxide_road_hours_above_moderate.csv",
                     "encodingFormat": "text/csv"
                 },
                 {
-                    "name": "Figure 3: Weekday mean NO2 concentration at roadside, urban background and rural background sites, 2022",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/64492873f126830011ca68b8/Table03.csv",
+                    "name": "Figure 3: Weekday mean NO2 concentration at roadside, urban background and rural background sites, 2023",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/662907b23b0122a378a7e5ee/fig03_nitrogen_dioxide_weekday.csv",
                     "encodingFormat": "text/csv"
                 },
                 {
-                    "name": "Figure 4: Hourly mean NO2 concentration at roadside, urban background and rural background sites, 2022",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/6446406a8b86bb0013f1b799/Table04.csv",
+                    "name": "Figure 4: Hourly mean NO2 concentration at roadside, urban background and rural background sites, 2023",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/662907e2b0ace32985a7e6b8/fig04_nitrogen_dioxide_hourly.csv",
                     "encodingFormat": "text/csv"
                 },
                 {
-                    "name": "Figure 5: Annual mean concentrations of PM10 in the UK, 1992 to 2022",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/64492882529eda00123b0528/Table05.csv",
+                    "name": "Figure 5: Annual mean concentrations of PM10 in the UK, 1992 to 2023",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/6629080d3b0122a378a7e5f0/fig05_pm10_annual.csv",
                     "encodingFormat": "text/csv"
                 },
                 {
-                    "name": "Figure 6: Annual concentrations of PM2.5 in the UK, 2009 to 2022",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/64492892814c6600128d072e/Table06.csv",
+                    "name": "Figure 6: Annual concentrations of PM2.5 in the UK, 2009 to 2023",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/6629083db0ace32985a7e6bc/fig06_pm25_annual.csv",
                     "encodingFormat": "text/csv"
                 },
                 {
-                    "name": "Figure 7: Annual mean hours when PM10 pollution was ‘Moderate’ or higher, for roadside sites, 1997 to 2022",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/644640b98b86bb000cf1b75f/Table07.csv",
+                    "name": "Figure 7: Annual mean hours when PM10 pollution was ‘Moderate’ or higher, for roadside sites, 1997 to 2023",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/6629086a3b0122a378a7e5f4/fig07_pm10_road_hours_above_moderate.csv",
                     "encodingFormat": "text/csv"
                 },
                 {
-                    "name": "Figure 8: Annual mean hours per site when PM10 pollution was ‘Moderate’ or higher, for urban background sites, 1992 to 2022",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/644640cf6dda69000d11e315/Table08.csv",
+                    "name": "Figure 8: Annual mean hours per site when PM10 pollution was ‘Moderate’ or higher, for urban background sites, 1992 to 2023",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/662908a03b0122a378a7e5f5/fig08_pm10_urban_background_hours_above_moderate.csv",
                     "encodingFormat": "text/csv"
                 },
                 {
-                    "name": "Figure 9: Annual mean hours when PM2.5 pollution was ‘Moderate’ or higher for roadside sites, 2009 to 2022",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/644640e68b86bb0013f1b79b/Table09.csv",
+                    "name": "Figure 9: Annual mean hours when PM2.5 pollution was ‘Moderate’ or higher for roadside sites, 2009 to 2023",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/662908deb0ace32985a7e6c0/fig09_pm25_road_hours_above_moderate.csv",
                     "encodingFormat": "text/csv"
                 },
                 {
-                    "name": "Figure 10: Annual mean hours when PM2.5 pollution was ‘Moderate’ or higher for urban background sites, 2009 to 2022",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/644640fd6dda69000d11e316/Table10.csv",
+                    "name": "Figure 10: Annual mean hours when PM2.5 pollution was ‘Moderate’ or higher for urban background sites, 2009 to 2023",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/66290914b0ace32985a7e6c2/fig10_pm25_urban_background_hours_above_moderate.csv",
                     "encodingFormat": "text/csv"
                 },
                 {
-                    "name": "Figure 11: Monthly mean PM2.5 concentration at roadside and urban background sites, 2021",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/644928a4814c66000c8d070e/Table11.csv",
+                    "name": "Figure 11: Monthly mean PM2.5 concentration at roadside and urban background sites, 2023",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/66290958b0ace32985a7e6c7/fig11_pm25_road_monthly.csv",
                     "encodingFormat": "text/csv"
                 },
                 {
-                    "name": "Figure 12: Hourly mean PM2.5 concentration at roadside and urban background sites, 2022",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/6446412d6dda69000d11e317/Table12.csv",
+                    "name": "Figure 12: Hourly mean PM2.5 concentration at roadside and urban background sites, 2023",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/6629098a3b0122a378a7e5fe/fig12_pm25_road_hourly.csv",
                     "encodingFormat": "text/csv"
                 },
                 {
-                    "name": "Figure 13: Annual mean concentrations of O3 in the UK, 1987 to 2022",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/6446414522ef3b000c66f764/Table13.csv",
+                    "name": "Figure 13: Annual mean concentrations of O3 in the UK, 1987 to 2023",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/662909b83b0122a378a7e600/fig13_ozone_annual.csv",
                     "encodingFormat": "text/csv"
                 },
                 {
-                    "name": "Figure 14: Mean hours when O3 pollution was ‘Moderate’ or higher for rural background sites, 1987 to 2022",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/6446415e22ef3b000c66f765/Table14.csv",
+                    "name": "Figure 14: Mean hours when O3 pollution was ‘Moderate’ or higher for rural background sites, 1987 to 2023",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/662909ef3b0122a378a7e601/fig14_ozone_rural_hours_above_moderate.csv",
                     "encodingFormat": "text/csv"
                 },
                 {
-                    "name": "Figure 15: Mean hours when O3 pollution was ‘Moderate’ or higher for urban background sites, 1992 to 2022",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/6446417df12683000cca6659/Table15.csv",
+                    "name": "Figure 15: Mean hours when O3 pollution was ‘Moderate’ or higher for urban background sites, 1992 to 2023",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/66290a20b0ace32985a7e6cc/fig15_ozone_urban_background_hours_above_moderate.csv",
                     "encodingFormat": "text/csv"
                 },
                 {
-                    "name": "Figure 16: Monthly mean daily maximum 8-hour mean concentrations of O3 in the UK, 2022",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/644641988b86bb000cf1b763/Table16.csv",
+                    "name": "Figure 16: Monthly mean daily maximum 8-hour mean concentrations of O3 in the UK, 2023",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/662a53f7e8c75df17da7e4fd/fig16_ozone_monthly.csv",
                     "encodingFormat": "text/csv"
                 },
                 {
-                    "name": "Figure 17: Mean number of days per site when air pollution was ‘Moderate’ or higher in the UK, 2010 to 2022",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/644641bef12683000cca665a/Table17.csv",
+                    "name": "Figure 17: Mean number of days per urban site when air pollution was ‘Moderate’ or higher in the UK, 2010 to 2023",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/66290aa33b0122a378a7e605/fig17_urban_days_above_moderate.csv",
                     "encodingFormat": "text/csv"
                 },
                 {
-                    "name": "Figure 18: Average number of days when levels of ozone, particulate matter, nitrogen dioxide and sulphur dioxide were ‘Moderate’ or higher at urban sites in the UK, 2010 to 2022",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/644641d8f126830011ca665b/Table18.csv",
+                    "name": "Figure 18: Mean number of days per rural site when air pollution was 'Moderate' or higher in the UK, 2010 to 2023",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/66290b593b0122a378a7e607/fig18_rural_days_above_moderate.csv",
                     "encodingFormat": "text/csv"
                 },
                 {
-                    "name": "Figure 19: Average number of days when levels of ozone, particulate matter, and sulphur dioxide were ‘Moderate’ or higher at rural sites in the UK, 2010 to 2022",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/64464201529eda000c3b02b3/Table19.csv",
+                    "name": "Figure 19: Average number of days when levels of ozone, particulate matter, nitrogen dioxide and sulphur dioxide were ‘Moderate’ or higher at urban sites in the UK, 2010 to 2023",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/66290bb5b0ace32985a7e6d2/fig19_urban_days_above_moderate_by_pollutant.csv",
                     "encodingFormat": "text/csv"
                 },
                 {
                     "name": "Particulate Matter (PM2.5) Tables",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/644926b4814c66000c8d070a/PM25_Tables_2022.ods",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/66290d83b0ace32985a7e6d7/PM25_Tables_2023.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
                     "name": "Particulate Matter (PM10) Tables",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/644926ed814c66000c8d070b/PM10_Tables_2022.ods",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/66290deb3b0122a378a7e60f/PM10_Tables_2023.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
                     "name": "Ozone (O3) Tables",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/64492729529eda000c3b04f4/O3_Tables_2022.ods",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/66290e063b0122a378a7e610/O3_Tables_2023.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
                     "name": "Nitrogen Dioxide (NO2) Tables",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/64492745f12683000cca68b1/NO2_Tables_2022.ods",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/66290e27b0ace32985a7e6d8/NO2_Tables_2023.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
-                    "name": "Number of days when air pollution is moderate or higher in the UK, 2010 to 2022 (detailed site data)",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/64492776f126830011ca68b6/APE_site_data_tables_2022.ods",
+                    "name": "Number of days when air pollution is moderate or higher in the UK, 2010 to 2023 (detailed site data)",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/662baec86963baceeb2252ca/Air_Pollution_Episodes_2023.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
                 },
                 {
                     "name": "Daily Air Quality Index Table",
-                    "contentUrl": "https://assets.publishing.service.gov.uk/media/644927eff126830011ca68b7/Table20.ods",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/662bae7d1179821456b81ecd/Daily_Air_Quality_Index.ods",
                     "encodingFormat": "application/vnd.oasis.opendocument.spreadsheet"
+                },
+                {
+                    "name": "Figure 20: Average number of days when levels of ozone, particulate matter, and sulphur dioxide were ‘Moderate’ or higher at rural sites in the UK, 2010 to 2023",
+                    "contentUrl": "https://assets.publishing.service.gov.uk/media/66290c473b0122a378a7e60b/fig20_rural_days_above_moderate_by_pollutant.csv",
+                    "encodingFormat": "text/csv"
                 }
             ]
         }
@@ -167,12 +172,12 @@
         "tbc"
     ],
     "schema:spatialCoverage": "England",
-    "schema:temporalCoverage": "1997/2022",
-    "schema:version": "2023-04-27",
+    "schema:temporalCoverage": "1997/2023",
+    "schema:version": "2024-10-15",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Annual Mean NO2 concentration (µg/m3) in England at roadside monitoring sites",
     "@context": "http://www.w3.org/ns/csvw",
-    "notes": "The shaded area in the graph represents the 95% confidence interval (measure of uncertainty) for the annual mean concentration measured at roadside sites. The interval narrows over time because of an increase in the number of monitoring sites and a reduction in the variation between annual means for NO2.",
+    "notes": "The shaded area in the graph represents the 95% confidence interval (measure of uncertainty) for the annual mean concentration measured at roadside sites. The interval has generally narrowed over time because of an increase in the number of monitoring sites and a reduction in the variation between annual means for NO2.",
     "tableDirection": "auto",
     "tableSchema": {
         "default": "",
@@ -186,7 +191,7 @@
                 "datatype": {
                     "base": "integer",
                     "minimum": "1997",
-                    "maximum": "2022",
+                    "maximum": "2023",
                     "@type": "Datatype"
                 },
                 "default": "",
