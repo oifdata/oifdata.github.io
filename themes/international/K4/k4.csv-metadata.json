@@ -18,7 +18,7 @@
                 "schema:sameAs": "https://ror.org/05tzsrw37",
                 "@type": "schema:GovernmentOrganization"
             },
-            "schema:dateModified": "2024-12-31",
+            "schema:dateModified": "2025-06-24",
             "schema:datePublished": "2024-12-31"
         }
     ],
@@ -27,7 +27,7 @@
     ],
     "schema:spatialCoverage": "UK Overseas Territories",
     "schema:temporalCoverage": "2020/2024",
-    "schema:version": "2025-05-07",
+    "schema:version": "2025-06-24",
     "schema:measurementTechnique": "?",
     "schema:variableMeasured": "Percentage of UK overseas territory protected",
     "@context": "http://www.w3.org/ns/csvw",
