@@ -1,5 +1,5 @@
 {
-    "schema:name": "Predicted number of species commited to extinction in the next 100 years worldwide assocuated with UK consumption of crop commodities annually, 2005 to 2022",
+    "schema:name": "Predicted number of species commited to extinction in the next 100 years worldwide associated with UK consumption of crop commodities annually, 2005 to 2022",
     "url": "k1c.csv",
     "@type": "TableGroup",
     "schema:creator": {
