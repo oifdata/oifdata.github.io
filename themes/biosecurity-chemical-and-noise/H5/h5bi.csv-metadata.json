@@ -12,9 +12,9 @@
         {
             "schema:description": "<div class=\"govspeak\"><p>Defra has published strategic noise map data that give a snapshot of the estimated noise from road and rail sources across England in 2021. The data was developed as part of implementing the <a rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2006/2238/contents/made\" class=\"govuk-link\">Environmental Noise (England) Regulations 2006</a> (‘the regulations’). </p>\n\n<p>This data will help transport authorities to better identify and prioritise relevant local action on noise. It will also be useful for planners, academics and others working to assess noise and its impacts. </p>\n</div>",
             "schema:image": [
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-c3d38c0d4fc00005df38a71e1db7097276681d6917bca58f0dc8336a252e1bb3.png",
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-edc38c137a14ecfc3fc83f404090e20dab806dad345c96a1df6a163ee2d1e3aa.png",
-                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-5dc2d0ea1eb72cd94e66db210ef41b22ce364e7ed09d63a3acc28fda09e27864.png"
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-2672c0fb7a5d5f947d880522c509ebe7f2be090885883cc94418f6860e812e15.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-194fde4197f00e669f6f52c182df2ed707bfb2024c9ef39f7a2ed20da62b90eb.png",
+                "https://www.gov.uk/assets/government-frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-30e6c0e035636ee6b9dc72ae254bcd4a925182805afe7c5b7170cf2394894b28.png"
             ],
             "schema:name": "Strategic noise mapping (2022)",
             "@type": "Dataset",
